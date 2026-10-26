@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/main/schema/observation.schema.json",
+  "title": "Source-reported fact, derived summary or context component; never a national count",
+  "type": "object",
+  "properties": {
+    "aggregation_role": {
+      "type": "string"
+    },
+    "completion_status": {
+      "type": "string"
+    },
+    "cross_museum_comparable": {
+      "const": false
+    },
+    "data_year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "default_aggregation_allowed": {
+      "const": false
+    },
+    "interpretation_note": {
+      "type": "string"
+    },
+    "metric_as_reported": {
+      "type": "string"
+    },
+    "metric_class": {
+      "type": "string"
+    },
+    "metric_label": {
+      "type": "string"
+    },
+    "numeric_origin": {
+      "enum": [
+        "source_reported",
+        "controller_derived"
+      ]
+    },
+    "observation_id": {
+      "type": "string"
+    },
+    "organization_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "organization_name": {
+      "type": "string"
+    },
+    "pdf_page_1_based": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "printed_page": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "quantity_numeric": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "quantity_qualifier": {
+      "type": "string"
+    },
+    "quantity_raw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "record_kind": {
+      "enum": [
+        "observation",
+        "derived_summary",
+        "context_component"
+      ]
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_scope": {
+      "type": "string"
+    },
+    "subject_scope": {
+      "type": "string"
+    },
+    "unique_object_count_verified": {
+      "const": false
+    },
+    "unit_as_reported": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unit_status": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "year_on_year_ready": {
+      "const": false
+    },
+    "source_components": {
+      "type": "array"
+    },
+    "dual_unit_quantities": {
+      "type": "array"
+    },
+    "derivation": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "aggregation_role",
+    "completion_status",
+    "cross_museum_comparable",
+    "data_year",
+    "default_aggregation_allowed",
+    "interpretation_note",
+    "metric_as_reported",
+    "metric_class",
+    "metric_label",
+    "numeric_origin",
+    "observation_id",
+    "organization_id",
+    "organization_name",
+    "pdf_page_1_based",
+    "printed_page",
+    "publication_year",
+    "quantity_numeric",
+    "quantity_qualifier",
+    "quantity_raw",
+    "record_kind",
+    "source_id",
+    "source_scope",
+    "subject_scope",
+    "unique_object_count_verified",
+    "unit_as_reported",
+    "unit_status",
+    "verification_status",
+    "year_on_year_ready"
+  ],
+  "additionalProperties": false
+}

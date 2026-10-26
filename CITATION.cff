@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+type: dataset
+title: "臺灣公立館保存修護公開資料索引（持續整理）"
+message: "請同時保留逐筆官方來源、資料年、單位與頁碼；不要把異質數值加總為全國修復量。"
+version: 0.1.0
+date-released: 2026-10-26
+url: "https://github.com/poplolioi11/tw-public-museum-conservation"
+authors:
+  - name: "tw-public-museum-conservation contributors"

@@ -1,0 +1,16 @@
+﻿automatic_numeric_aggregation_allowed,decision_as_in_input,equivalence_scope_as_in_input,official_source_url,project_note,proposed_canonical_name,related_name,relation_id,source_name,verification
+false,alias_of_existing,same_museum,https://thcdc.hakka.gov.tw/onlineservice/1362/1363/11826/venueHome,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,客家文化發展中心,客家文化發展中心,NAME-REL-001,客家委員會客家文化發展中心,body_read
+false,alias_of_existing,same_museum,https://museum.ncku.edu.tw/,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,國立成功大學博物館,國立成功大學博物館,NAME-REL-002,成功大學博物館,body_read
+false,boundary_pending,same_museum,https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2023.pdf,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,國立政治大學民族博物館,國立政治大學民族博物館,NAME-REL-003,國立政治大學民族學博物館,index_only
+false,alias_of_existing,same_museum,https://montue.ntue.edu.tw/one-piece-museum-%E7%99%BE%E8%81%9E%E4%B8%8D%E5%A6%82%E3%80%8C%E4%B8%80%E4%BB%B6%E3%80%8D/,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,MoNTUE 北師美術館,MoNTUE 北師美術館,NAME-REL-004,國立臺北教育大學北師美術館,body_read
+false,alias_of_existing,same_museum,https://culture.gov.taipei/cp.aspx?n=66EEFEED4F2C2D20,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,臺北偶戲館,臺北偶戲館,NAME-REL-005,台北偶戲館,body_read
+false,alias_of_existing,same_museum,https://culture.gov.taipei/cp.aspx?n=35D3482FC1D169A0,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,臺北當代藝術館,臺北當代藝術館,NAME-REL-006,台北當代藝術館,body_read
+false,alias_of_existing,same_museum,https://228memorialmuseum.gov.taipei/cp.aspx?n=BEAF9A361170F5DD&s=AF5F3537F8B39186,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,臺北二二八紀念館,臺北二二八紀念館,NAME-REL-007,台北二二八紀念館,body_read
+false,alias_of_existing,museum_reference_only_operator_separate,https://www.228.org.tw/en/_files/ugd/c92d01_5e6bac0b6df844efad9c195764ee263a.pdf,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,二二八國家紀念館,二二八國家紀念館,NAME-REL-008,二二八國家紀念館 /財團法人二二八事件紀念基金會,body_read
+false,alias_of_existing,same_museum,https://taea.tn.edu.tw/taea_file/api/images/get/6923,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,臺南市南瀛科學教育館,臺南市南瀛科學教育館,NAME-REL-009,臺南市南灜科學教育館,index_only
+false,alias_of_existing,same_museum,https://yilancoll.lym.gov.tw/drama/,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,臺灣戲劇館,臺灣戲劇館,NAME-REL-010,台灣戲劇館,body_read
+false,alias_of_existing,same_museum,https://www.atayal.ntpc.gov.tw/index.php,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,烏來泰雅民族博物館,烏來泰雅民族博物館,NAME-REL-011,新北市立烏來泰雅民族博物館,body_read
+false,alias_of_existing,parent_organization_only,https://yihistory.e-land.gov.tw/cp.aspx?n=6245,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,宜蘭縣史館（含宜蘭設治紀念館）,宜蘭縣史館（含宜蘭設治紀念館）,NAME-REL-012,宜蘭縣史館,body_read
+false,alias_of_existing,same_museum,https://www.hchcc.gov.tw/Tw/Common/SinglePage?filter=D278B6D6-F5CF-4B8A-ADF1-9E82D64461DB,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,新竹縣政府縣史館,新竹縣政府縣史館,NAME-REL-013,新竹縣縣史館,body_read
+false,alias_of_existing,same_museum,https://kmcpao.kinmen.gov.tw/guide.aspx,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,金門縣文化園區歷史民俗博物館,金門縣文化園區歷史民俗博物館,NAME-REL-014,金門歷史民俗博物館,body_read
+false,alias_of_existing,parent_organization_only,https://bill.tncc.gov.tw/NoPaperMeeting_TNCC/Api/WEB017_DownloadFile.ashx?attno=5587b975-d0e6-4a39-bfb4-af23bd4c4aa5,只保留來源名稱對應與核讀層級；待核關係不升格，任何關係均不自動合併數值。,臺南市立博物館（含鄭成功文物館、臺南左鎮化石園區）,臺南市立博物館（含鄭成功文物館、臺南左鎮化石園區）,NAME-REL-015,臺南市立博物館,index_only

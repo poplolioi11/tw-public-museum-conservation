@@ -1,0 +1,43 @@
+{
+  "dataset_version": "0.1.0",
+  "verified_at": "2026-10-26T12:09:29.108861+00:00",
+  "python_version": "3.12.14",
+  "verification_location": "user_authorized_local_Mac",
+  "format_and_update_checks": {
+    "status": "pass",
+    "checks": {
+      "fact_rows": 115,
+      "source_reported_observations": 113,
+      "derived_summaries": 1,
+      "context_components": 1,
+      "organizations_with_facts": 12,
+      "original_pdf_versions": 41,
+      "inventory_lookup_grid_cells_not_facts": 426,
+      "inventory_status_counts": {
+        "official_report_found": 194,
+        "searched_not_located": 200,
+        "parent_report_candidate": 13,
+        "official_numeric_source_found": 3,
+        "historical_entity_scope_changed": 4,
+        "not_applicable_pending": 12
+      },
+      "unknown_values_are_not_zero": true,
+      "source_pdf_revalidation_performed": false
+    },
+    "csv_jsonl_sqlite_equal": true,
+    "invalid_candidate_preserves_previous": true,
+    "changed_source_requires_review": true,
+    "unchanged_writes_zero_files": true,
+    "check_detects_export_corruption_without_writing": true
+  },
+  "schema_check_scope": "required_properties_types_const_enum_minimum_used_by_this_schema_not_general_json_schema_engine",
+  "original_source_byte_checks": {
+    "checked_at_build": true,
+    "file_count": 41,
+    "method": "streamed_local_original_PDF_SHA256_size_and_signature_compared_with_recorded_source_versions",
+    "not_a_new_download_by_public_offline_checker": true
+  },
+  "source_content_review": "AI_source_page_reading_with_selected_source_first_second_pass; not human double proofreading",
+  "all_source_year_cells_reviewed": false,
+  "national_aggregate_computed": false
+}
