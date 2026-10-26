@@ -20,6 +20,12 @@ def flat(v):
     if v is None:return ''
     if isinstance(v,bool):return 'true'if v else'false'
     return v
+def quantity_display(record):
+    raw=record['quantity_raw']if record['quantity_raw']is not None else'程式推算 '+str(record['quantity_numeric'])
+    unit=record['unit_as_reported']
+    parts=re.findall(r'[\u4e00-\u9fff]+',unit or'')
+    if parts and all(p in str(raw)for p in parts):return str(raw)
+    return str(raw)+' '+str(unit or'量詞未明')
 def columns(rows):return sorted({k for r in rows for k in r})
 def csv_bytes(rows):
     f=io.StringIO(newline='');w=csv.DictWriter(f,fieldnames=columns(rows),lineterminator='\n');w.writeheader()
@@ -124,20 +130,48 @@ def generate(facts,inventory,version):
     for r in facts['observations']:
         ident=r['observation_id'];assert re.fullmatch('[A-Za-z0-9_-]+',ident)
         output[f'catalog/records/{ident}.json']=encode({'dataset_version':version,'record':r,'source':source_map[r['source_id']],'versioned_record_url':f'https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v{version}/catalog/records/{ident}.json'})
-    catalog=['# 館所索引',f'\n版本：{version}。每館保留數值、跨年期間與來源查核狀態；不加總文物量。\n']
+    catalog=['# 館所索引',f'\n版本：{version}。可先看[資料樣貌](SAMPLE.md)，再依館所查找各筆原詞、原數字與官方來源。\n',
+      '每筆數值均附核讀來源。下列「補充正文查核」另計年度來源查找紀錄；0則表示未另建這類紀錄，不表示數值未核來源。列數也不是文物件數或修復合計。\n']
+    review_labels={'numeric_observations_verified':'已核原報數值','body_read_no_eligible_quantity_located':'指定正文未定位合格數量',
+      'source_found_body_not_reviewed':'找到來源，正文待讀','source_not_located_in_this_search':'本輪未定位指定來源',
+      'annual_scope_not_separable':'年度範圍無法拆分','outside_selected_scope':'不在本次採用範圍'}
     names=sorted({r['organization_name']for r in facts['observations']+facts.get('body_reviews',[])})
     for name in names:
         rows=[r for r in facts['observations']if r['organization_name']==name];reviews=[r for r in facts.get('body_reviews',[])if r['organization_name']==name]
         orgid=next((r['organization_id']for r in rows+reviews if r.get('organization_id')),None);assert orgid
-        catalog.append(f'- [{name}](museums/{orgid}.md)：{len(rows)}列數值／推算／脈絡紀錄；{len(reviews)}則來源查核。')
+        catalog.append(f'- [{name}](museums/{orgid}.md)：{len(rows)}列數值／推算／脈絡紀錄；{len(reviews)}則補充正文查核。')
         lines=['# '+name,f'\n版本：{version}。以下為本版已核子集；列數不代表不重複文物或修復量。\n','|資料年／期間|原報作業|原數字與量詞|逐筆來源|','|---|---|---|---|']
         for r in rows:
             period=str(r['data_year'])if r['data_year']is not None else r['reporting_period_raw'];raw=r['quantity_raw']if r['quantity_raw']is not None else'程式推算 '+str(r['quantity_numeric'])
-            lines.append('|'+period+'|'+r['metric_as_reported'].replace('|','／')+'|'+str(raw)+' '+str(r['unit_as_reported']or'量詞未明')+'|['+r['observation_id']+'](../records/'+r['observation_id']+'.json)|')
-        lines+=['\n## 來源查核\n']
-        for r in reviews:lines.append(f"- {r['target_data_year']}｜{r['review_status']}：{r['review_scope']} {r['interpretation_note']}")
+            lines.append('|'+period+'|'+r['metric_as_reported'].replace('|','／')+'|'+quantity_display(r)+'|['+r['observation_id']+'](../records/'+r['observation_id']+'.json)|')
+        lines+=['\n## 補充正文查核\n','以下另記來源查找與指定正文核讀範圍；未定位數量不代表零。\n']
+        for r in reviews:lines.append(f"- {r['target_data_year']}｜{review_labels[r['review_status']]}：{r['review_scope']} {r['interpretation_note']}")
         output[f'catalog/museums/{orgid}.md']=('\n'.join(lines)+'\n').encode()
     output['catalog/README.md']=('\n'.join(catalog)+'\n').encode()
+    examples=[]
+    def example(label,predicate,note):
+        row=next((r for r in facts['observations']if predicate(r)),None)
+        if row:examples.append((label,row,note))
+    example('原報精確數字',lambda r:r['observation_id']=='NMTH-2020-full-treatment','「完整修護」是作業分類，不能只憑名稱認定已完成。')
+    example('來源明列零',lambda r:r['quantity_raw']=='0'and r['numeric_origin']=='source_reported','只有來源明列且確認語義的零才記0；未查到的數字保留未知。')
+    example('原報近似量',lambda r:r['observation_id']=='thcdc-2024-arrangement-registration','保留「餘」等原字串，精確數值欄留空，不改成整數300。')
+    example('原報雙單位',lambda r:r['observation_id']=='daxi-2025-combined-project','同一原句的兩種單位一起保留，不拆配成兩筆獨立工作量。')
+    for suffix,label in [('treatment-project-cases','案數'),('treatment-objects-as-reported','文物件數'),('conservation-work-items','工作項數')]:
+        example(label,lambda r,s=suffix:r['observation_id']=='KHM-2024-'+s,'同年件、案、項各有原報範圍，不互換、不相加。')
+    example('跨年期間',lambda r:r['data_year']is None,'保留原報期間，不平均分配到各年度。')
+    example('程式推算',lambda r:r['numeric_origin']=='controller_derived','另標計算依據，不能當作原報總數。')
+    sample=['# 資料樣貌',f'\n版本：{version}。以下挑選不同資料型態，示範如何閱讀；不是隨機抽樣或可相加的統計表。\n',
+      '|型態|館所｜資料年／期間|原報作業|原數字與量詞|如何閱讀|回查來源|','|---|---|---|---|---|---|']
+    for label,row,note in examples:
+        period=str(row['data_year'])if row['data_year']is not None else row['reporting_period_raw']
+        raw=str(row['quantity_raw'])if row['quantity_raw']is not None else'程式推算 '+str(row['quantity_numeric'])
+        source=source_map[row['source_id']]
+        values=[label,row['organization_name']+'｜'+period,row['metric_as_reported'],quantity_display(row),note,
+          '[逐筆資料](records/'+row['observation_id']+'.json)／[官方PDF第'+str(row['pdf_page_1_based'])+'頁]('+source['official_file_url']+'#page='+str(row['pdf_page_1_based'])+')']
+        sample.append('|'.join(['']+[v.replace('|','／').replace('\n',' ')for v in values]+['']))
+    sample+=['\n每筆完整資料還保留完成狀態、對象範圍、來源版次與雜湊。近似量或雙單位的精確數值欄留空，是保留不確定性。\n',
+      '[依館所查找](README.md)｜[全部CSV資料](../data/observations.csv)｜[欄位說明](../docs/DATA_DICTIONARY.md)\n']
+    output['catalog/SAMPLE.md']=('\n'.join(sample)+'\n').encode()
     coverage=[]
     for organization,year in sorted({(r['organization_name'],r['data_year'])for r in facts['observations']},key=lambda v:(v[0],v[1]if v[1]is not None else -1)):
         selected=[r for r in facts['observations']if r['organization_name']==organization and r['data_year']==year]

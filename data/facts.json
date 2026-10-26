@@ -1236,16 +1236,575 @@
       ],
       "target_data_year": 2025,
       "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "修護表四列均已讀圖，單位件，附原報實體件數註記。 僅指定表與段落查核，不宣稱全文；表內0限原分類，不代指全館無修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMTH-2022-emergency-stabilization",
+        "NMTH-2022-routine-maintenance",
+        "NMTH-2022-full-treatment",
+        "NMTH-2022-conservation-reported-total"
+      ],
+      "official_entry_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=199897",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "review_id": "review-BASE-007-2022-stage7",
+      "review_scope": "官方年報附錄內館本體藏品修護年度表；另有限讀典藏業務文字段落",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        35,
+        90
+      ],
+      "source_ids": [
+        "src-af94cc8749b0e62d"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            35,
+            90
+          ],
+          "review_scope": "指定典藏業務段落與藏品修護表；數值採附錄表件數欄",
+          "source_id": "src-af94cc8749b0e62d"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "修護表四列均已讀圖，單位件，附原報實體件數註記。 僅指定表與段落查核，不宣稱全文；表內0限原分類，不代指全館無修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMTH-2023-emergency-stabilization",
+        "NMTH-2023-routine-maintenance",
+        "NMTH-2023-full-treatment",
+        "NMTH-2023-conservation-reported-total"
+      ],
+      "official_entry_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=222500",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "review_id": "review-BASE-007-2023-stage7",
+      "review_scope": "官方年報附錄內館本體藏品修護年度表；另有限讀典藏業務文字段落",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        27,
+        82
+      ],
+      "source_ids": [
+        "src-8bb8b84d7e2bd831"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            27,
+            82
+          ],
+          "review_scope": "指定典藏業務段落與藏品修護表；數值採附錄表件數欄",
+          "source_id": "src-8bb8b84d7e2bd831"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "修護表四列均已讀圖，單位件，附原報實體件數註記。 僅指定表與段落查核，不宣稱全文；表內0限原分類，不代指全館無修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMTH-2024-emergency-stabilization",
+        "NMTH-2024-routine-maintenance",
+        "NMTH-2024-full-treatment",
+        "NMTH-2024-conservation-reported-total"
+      ],
+      "official_entry_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=245847",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "review_id": "review-BASE-007-2024-stage7",
+      "review_scope": "官方年報附錄內館本體藏品修護年度表；另有限讀典藏業務文字段落",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        102
+      ],
+      "source_ids": [
+        "src-20dcc05af486970b"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            102
+          ],
+          "review_scope": "指定典藏業務段落與藏品修護表；數值採附錄表件數欄",
+          "source_id": "src-20dcc05af486970b"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "年報指定研究章PDF41–46是調研、數位化、文物普查／詮釋與建築再利用，未在所讀章段定位館藏實物處置量。 同年掃描決算業務正文未讀，excluded_not_in_scope；不以空文字斷言無數字。 未定位不代表零修護或館方未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9720&s=955428&sms=13674",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "review_id": "review-BASE-041-2020-stage7",
+      "review_scope": "僅列示章段／頁面，非整份全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        7,
+        20,
+        21,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        72,
+        98
+      ],
+      "source_ids": [
+        "src-72132851332493a7"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            4,
+            7,
+            20,
+            21,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            72,
+            98
+          ],
+          "review_scope": "僅列示章段／頁面，非整份全文覆讀 另實際讀圖頁序：4,7,98；其餘列示頁為文字覆讀。",
+          "source_id": "src-72132851332493a7"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "已核特定2021整飭批次564件；完成整飭不是明載純修復完成。 同年掃描決算業務正文未讀，excluded_not_in_scope；不以空文字斷言無數字。 未定位不代表零修護或館方未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "daxi-2021-combined-arrangement"
+      ],
+      "official_entry_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9720&s=955432&sms=13674",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "review_id": "review-BASE-041-2021-stage7",
+      "review_scope": "僅列示章段／頁面，非整份全文覆讀",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        46,
+        47,
+        48,
+        49,
+        94
+      ],
+      "source_ids": [
+        "src-74a816a27e3e6c16"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            46,
+            47,
+            48,
+            49,
+            94
+          ],
+          "review_scope": "僅列示章段／頁面，非整份全文覆讀 另實際讀圖頁序：47,94；其餘列示頁為文字覆讀。",
+          "source_id": "src-74a816a27e3e6c16"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "年報典藏章為家具調查研究、分類編目與價值分級，不冒稱實物修護處置量。 同年掃描決算業務正文未讀，excluded_not_in_scope；不以空文字斷言無數字。 未定位不代表零修護或館方未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9720&s=1285115&sms=13674",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "review_id": "review-BASE-041-2022-stage7",
+      "review_scope": "僅列示章段／頁面，非整份全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        47,
+        48,
+        102
+      ],
+      "source_ids": [
+        "src-32b223926d586891"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            47,
+            48,
+            102
+          ],
+          "review_scope": "僅列示章段／頁面，非整份全文覆讀 另實際讀圖頁序：48,102；其餘列示頁為文字覆讀。",
+          "source_id": "src-32b223926d586891"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "年報典藏章為數位資源庫及家具調研編目，另修護字樣出現在活動工作坊；不當本館實物修護量。 未定位不代表零修護或館方未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://wem.tycg.gov.tw/News_Photo_Content.aspx?n=9720&s=1416999",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "review_id": "review-BASE-041-2023-stage7",
+      "review_scope": "僅列示章段／頁面，非整份全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        56,
+        57,
+        58,
+        75,
+        76,
+        110
+      ],
+      "source_ids": [
+        "src-1514012834c49014"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            56,
+            57,
+            58,
+            75,
+            76,
+            110
+          ],
+          "review_scope": "僅列示章段／頁面，非整份全文覆讀 另實際讀圖頁序：58,110；其餘列示頁為文字覆讀。",
+          "source_id": "src-1514012834c49014"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "已核決算典藏業務463組（715件）複合量；不拆分或對2024求差。 未定位不代表零修護或館方未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "daxi-2025-combined-project"
+      ],
+      "official_entry_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9686&s=997426",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "review_id": "review-BASE-041-2025-stage7",
+      "review_scope": "僅列示章段／頁面，非整份全文覆讀",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        10
+      ],
+      "source_ids": [
+        "src-ba45177b7c9892b9"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            10
+          ],
+          "review_scope": "僅列示章段／頁面，非整份全文覆讀 另實際讀圖頁序：1,10；其餘列示頁為文字覆讀。",
+          "source_id": "src-ba45177b7c9892b9"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "已讀年報典藏段及決算指定業務段；未見可採的既有動產藏品修護量。建檔、新增、存量及設施設備敘述不取作修護量。 僅列明章段／分項與頁碼已讀，不宣稱整本全文覆讀；未見量不等於沒有作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0L362509935530389414",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "review_id": "review-BASE-036-2020-stage7",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_ids": [
+        "src-aba6935ae0832f13",
+        "src-a93aa85a7dacd50f"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            7,
+            8
+          ],
+          "review_scope": "年報指定典藏段，非全文覆讀",
+          "source_id": "src-aba6935ae0832f13"
+        },
+        {
+          "pdf_pages_1_based": [
+            5,
+            6
+          ],
+          "review_scope": "決算總說明指定非財務典藏業務分項，非全文覆讀",
+          "source_id": "src-a93aa85a7dacd50f"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "可分別採用預防性保存活動次數與特定館藏陶缽修復；單位與對象不同，不相加。 僅列明章段／分項與頁碼已讀，不宣稱整本全文覆讀；未見量不等於沒有作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "sshm-2021-fumigation-reported",
+        "sshm-2021-ceramic-repair"
+      ],
+      "official_entry_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0M299411359408365656",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "review_id": "review-BASE-036-2021-stage7",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-3f7244eae93c0e67"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "年報指定典藏段，非全文覆讀",
+          "source_id": "src-3f7244eae93c0e67"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "已SHA重用前輪原件並再讀原已採用燻蒸語句影像，僅連回既有觀測，不新增重複列。 僅列明章段／分項與頁碼已讀，不宣稱整本全文覆讀；未見量不等於沒有作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "north4-sshm-2022-fumigation"
+      ],
+      "official_entry_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0N201501506718137468",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "review_id": "review-BASE-036-2022-stage7",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        8
+      ],
+      "source_ids": [
+        "src-156e842aaaed49d8"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            8
+          ],
+          "review_scope": "僅前輪既有燻蒸語句的影像裁切覆讀，非本輪重讀整頁。",
+          "source_id": "src-156e842aaaed49d8"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "官方年報未在本輪入口定位；決算指定分項載燻蒸活動次數，完成脈絡依同列辦理情形。 僅列明章段／分項與頁碼已讀，不宣稱整本全文覆讀；未見量不等於沒有作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "sshm-2023-fumigation-reported"
+      ],
+      "official_entry_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "review_id": "review-BASE-036-2023-stage7",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        6
+      ],
+      "source_ids": [
+        "src-e3b82637b9b779cc"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            6
+          ],
+          "review_scope": "決算總說明指定非財務典藏業務分項，非全文覆讀",
+          "source_id": "src-e3b82637b9b779cc"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "官方年報未在本輪入口定位；決算分列典藏保存與借展品燻蒸活動。另有對象邊界未核分項不採，僅在私人QA記錄。 僅列明章段／分項與頁碼已讀，不宣稱整本全文覆讀；未見量不等於沒有作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "sshm-2024-collection-fumigation",
+        "sshm-2024-loan-fumigation"
+      ],
+      "official_entry_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "review_id": "review-BASE-036-2024-stage7",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        6
+      ],
+      "source_ids": [
+        "src-c72c034c7ab775a5"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            6
+          ],
+          "review_scope": "決算總說明指定非財務典藏業務分項，非全文覆讀",
+          "source_id": "src-c72c034c7ab775a5"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "官方年報未在本輪入口定位；決算分列典藏保存與借展品燻蒸活動。3D掃描建檔不當作原件修護量。 僅列明章段／分項與頁碼已讀，不宣稱整本全文覆讀；未見量不等於沒有作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "sshm-2025-collection-fumigation",
+        "sshm-2025-loan-fumigation"
+      ],
+      "official_entry_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "review_id": "review-BASE-036-2025-stage7",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        7
+      ],
+      "source_ids": [
+        "src-f590a06e609078e3"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            7
+          ],
+          "review_scope": "決算總說明指定非財務典藏業務分項，非全文覆讀",
+          "source_id": "src-f590a06e609078e3"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "保留原報動產典藏文物維護修復的件、案、項；不收企業合作數位化、無形資產傳習、建物工程、金額及廠商。 只核選定段落與表列，不主張全館所有作業量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KHM-2024-treatment-project-cases",
+        "KHM-2024-treatment-objects-as-reported",
+        "KHM-2024-conservation-work-items"
+      ],
+      "official_entry_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/138582/9d920ab0-b661-4da4-98c3-2e9c33c88284.pdf",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "review_id": "review-BASE-057-2024-stage7",
+      "review_scope": "高史博組織分章標題、文物修復業務段落與年度成果表指定列；2024另讀原件封面，非整份報告全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        39,
+        44,
+        52
+      ],
+      "source_ids": [
+        "src-b0bb570120618cb3"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            1,
+            39,
+            44,
+            52
+          ],
+          "review_scope": "高史博組織分章標題、文物修復業務段落與年度成果表指定列；2024另讀原件封面，非整份報告全文。",
+          "source_id": "src-b0bb570120618cb3"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "保留原報動產典藏文物維護修復的件、案、項；不收企業合作數位化、無形資產傳習、建物工程、金額及廠商。 只核選定段落與表列，不主張全館所有作業量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KHM-2025-treatment-project-cases",
+        "KHM-2025-treatment-objects-as-reported",
+        "KHM-2025-conservation-work-items"
+      ],
+      "official_entry_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/143756/c786c9e9-4273-425a-bdd2-9b56c2fffc98.pdf",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "review_id": "review-BASE-057-2025-stage7",
+      "review_scope": "高史博組織分章標題、文物修復業務段落與年度成果表指定列；2024另讀原件封面，非整份報告全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        53,
+        62,
+        74
+      ],
+      "source_ids": [
+        "src-87530a6874d9bb16"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            53,
+            62,
+            74
+          ],
+          "review_scope": "高史博組織分章標題、文物修復業務段落與年度成果表指定列；2024另讀原件封面，非整份報告全文。",
+          "source_id": "src-87530a6874d9bb16"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-26"
     }
   ],
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "observations": [
     {
       "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_actual_table_completion_not_explicit",
       "cross_museum_comparable": false,
@@ -1281,7 +1840,7 @@
         "cleaning"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_actual_table_completion_not_explicit",
       "cross_museum_comparable": false,
@@ -1317,7 +1876,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1353,7 +1912,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1389,7 +1948,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1426,7 +1985,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1463,7 +2022,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1499,7 +2058,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1535,7 +2094,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1571,7 +2130,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1608,7 +2167,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1645,7 +2204,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1681,7 +2240,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1717,7 +2276,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1753,7 +2312,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1790,7 +2349,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1827,7 +2386,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parallel_reporting_units",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1863,7 +2422,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1920,7 +2479,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -1970,7 +2529,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
@@ -2033,7 +2592,7 @@
         "maintenance"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -2069,7 +2628,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱館內處理數量，未另載逐件完成日",
       "cross_museum_comparable": false,
@@ -2106,7 +2665,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度已處置敘述，未逐件另載完成日",
       "cross_museum_comparable": false,
@@ -2174,7 +2733,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱館內處理數量，未另載逐件完成日",
       "cross_museum_comparable": false,
@@ -2211,7 +2770,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度處置表，未逐件另載完成日",
       "cross_museum_comparable": false,
@@ -2280,7 +2839,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度已處置敘述，未逐件另載完成日",
       "cross_museum_comparable": false,
@@ -2372,7 +2931,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載111年完成全數20件",
       "cross_museum_comparable": false,
@@ -2410,7 +2969,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completed_at_stated_cutoff",
       "completion_status": "原文明載截至資料年底已完成",
       "cross_museum_comparable": false,
@@ -2448,7 +3007,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completed_at_stated_cutoff",
       "completion_status": "原文明載截至資料年底已完成",
       "cross_museum_comparable": false,
@@ -2486,7 +3045,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completed_at_stated_cutoff",
       "completion_status": "原文明載截至資料年底已完成",
       "cross_museum_comparable": false,
@@ -2522,7 +3081,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2562,7 +3121,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2602,7 +3161,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2642,7 +3201,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2678,7 +3237,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2714,7 +3273,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2750,7 +3309,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2786,7 +3345,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2822,7 +3381,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2858,7 +3417,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2894,7 +3453,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2932,7 +3491,7 @@
         "mixed_workflow"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -2970,7 +3529,7 @@
         "mixed_workflow"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3006,7 +3565,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3042,7 +3601,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3078,7 +3637,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3114,7 +3673,7 @@
         "digital_restoration"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -3151,7 +3710,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3187,7 +3746,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3223,7 +3782,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3260,7 +3819,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3296,7 +3855,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completed_at_stated_cutoff",
       "completion_status": "completed_as_of_stated_month",
       "cross_museum_comparable": false,
@@ -3333,7 +3892,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3369,7 +3928,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3405,7 +3964,7 @@
         "maintenance"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3441,7 +4000,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3477,7 +4036,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3513,7 +4072,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3550,7 +4109,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3586,7 +4145,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3622,7 +4181,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -3658,7 +4217,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completion_from_context",
       "completion_status": "completed_under_parent_statement",
       "cross_museum_comparable": false,
@@ -3696,7 +4255,7 @@
         "mixed_workflow"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3732,7 +4291,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3768,7 +4327,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completion_from_context",
       "completion_status": "completed_under_parent_statement",
       "cross_museum_comparable": false,
@@ -3804,7 +4363,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3842,7 +4401,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -3878,7 +4437,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -3914,7 +4473,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3950,7 +4509,7 @@
         "arrangement"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -3986,7 +4545,7 @@
         "scientific_examination"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -4022,7 +4581,7 @@
         "scientific_examination"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
@@ -4059,7 +4618,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4096,7 +4655,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱執行修護，未另載完成",
       "cross_museum_comparable": false,
@@ -4132,7 +4691,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱本年度辦理修護，未另載完成",
       "cross_museum_comparable": false,
@@ -4168,7 +4727,7 @@
         "maintenance"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4205,7 +4764,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4242,7 +4801,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "本年度修護敘述，未另載完成",
       "cross_museum_comparable": false,
@@ -4278,7 +4837,7 @@
         "maintenance"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4315,7 +4874,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4352,7 +4911,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "本年度修護敘述，未另載完成",
       "cross_museum_comparable": false,
@@ -4389,7 +4948,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度已執行敘述，未另載完成",
       "cross_museum_comparable": false,
@@ -4425,7 +4984,7 @@
         "maintenance"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4462,7 +5021,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4498,7 +5057,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "本計畫年度執行敘述，未另載完成",
       "cross_museum_comparable": false,
@@ -4534,7 +5093,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4570,7 +5129,7 @@
         "maintenance"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4606,7 +5165,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱執行修護，未另載完成",
       "cross_museum_comparable": false,
@@ -4642,7 +5201,7 @@
         "arrangement"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4678,7 +5237,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4714,7 +5273,7 @@
         "arrangement"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4750,7 +5309,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completion_from_context",
       "completion_status": "年度已完成計畫之執行分項",
       "cross_museum_comparable": false,
@@ -4788,7 +5347,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4824,7 +5383,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4860,7 +5419,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4896,7 +5455,7 @@
         "arrangement"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4932,7 +5491,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -4968,7 +5527,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -5004,7 +5563,7 @@
         "maintenance"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -5040,7 +5599,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completion_from_context",
       "completion_status": "已完成施政概述中的原報數，分項未另載完成",
       "cross_museum_comparable": false,
@@ -5079,7 +5638,7 @@
         "stabilization"
       ],
       "aggregation_role": "原報親項合計；不與三分項重加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
       "cross_museum_comparable": false,
@@ -5115,7 +5674,7 @@
         "stabilization"
       ],
       "aggregation_role": "原報分項；已列在同表782合計內，不與合計重加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
       "cross_museum_comparable": false,
@@ -5151,7 +5710,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項；已列在同表782合計內，不與合計重加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
       "cross_museum_comparable": false,
@@ -5187,7 +5746,7 @@
         "maintenance"
       ],
       "aggregation_role": "原報分項；已列在同表782合計內，不與合計重加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
       "cross_museum_comparable": false,
@@ -5227,7 +5786,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -5267,7 +5826,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -5307,7 +5866,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -5340,10 +5899,451 @@
     },
     {
       "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported",
+        "stabilization"
+      ],
+      "aggregation_role": "原報親項合計；不與三分項重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 原報親項總計，已核算術相符，不與三分項重加。",
+      "metric_as_reported": "2022年總計",
+      "metric_class": "原報藏品修護年度合計（含不同處置）",
+      "metric_label": "2022年總計",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2022-conservation-reported-total",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 90,
+      "printed_page": "90",
+      "publication_year": 2023,
+      "quantity_numeric": 687,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "687",
+      "record_kind": "observation",
+      "source_id": "src-af94cc8749b0e62d",
+      "source_scope": "全館年度藏品修護原報表之總計（親項）",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "stabilization"
+      ],
+      "aggregation_role": "原報分項；已列在同表687合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 保存工作含加固與其他原表措施；非純完整修護量。",
+      "metric_as_reported": "緊急加固",
+      "metric_class": "緊急加固（原表分類）",
+      "metric_label": "緊急加固",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2022-emergency-stabilization",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 90,
+      "printed_page": "90",
+      "publication_year": 2023,
+      "quantity_numeric": 6,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "6",
+      "record_kind": "observation",
+      "source_id": "src-af94cc8749b0e62d",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報分項；已列在同表687合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 完整修護是原表分類，未據此推定逐件已完成；內含不同材質與處置。",
+      "metric_as_reported": "完整修護",
+      "metric_class": "完整修護（原表分類）",
+      "metric_label": "完整修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2022-full-treatment",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 90,
+      "printed_page": "90",
+      "publication_year": 2023,
+      "quantity_numeric": 44,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "44",
+      "record_kind": "observation",
+      "source_id": "src-af94cc8749b0e62d",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；已列在同表687合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 原表日常維護可能包含展示保護、除塵或處理；不與完整修護等同。",
+      "metric_as_reported": "日常維護",
+      "metric_class": "日常維護（原表分類）",
+      "metric_label": "日常維護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2022-routine-maintenance",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 90,
+      "printed_page": "90",
+      "publication_year": 2023,
+      "quantity_numeric": 637,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "637",
+      "record_kind": "observation",
+      "source_id": "src-af94cc8749b0e62d",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported",
+        "stabilization"
+      ],
+      "aggregation_role": "原報親項合計；不與三分項重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 原報親項總計，已核算術相符，不與三分項重加。",
+      "metric_as_reported": "2023年總計",
+      "metric_class": "原報藏品修護年度合計（含不同處置）",
+      "metric_label": "2023年總計",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2023-conservation-reported-total",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 82,
+      "printed_page": "81",
+      "publication_year": 2024,
+      "quantity_numeric": 56,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "56",
+      "record_kind": "observation",
+      "source_id": "src-8bb8b84d7e2bd831",
+      "source_scope": "全館年度藏品修護原報表之總計（親項）",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "stabilization"
+      ],
+      "aggregation_role": "原報分項；已列在同表56合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 保存工作含加固與其他原表措施；非純完整修護量。 0是原表件數欄明列值，非缺值代填；只限本表緊急加固分類。",
+      "metric_as_reported": "緊急加固",
+      "metric_class": "緊急加固（原表分類）",
+      "metric_label": "緊急加固",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2023-emergency-stabilization",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 82,
+      "printed_page": "81",
+      "publication_year": 2024,
+      "quantity_numeric": 0,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "0",
+      "record_kind": "observation",
+      "source_id": "src-8bb8b84d7e2bd831",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報分項；已列在同表56合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 完整修護是原表分類，未據此推定逐件已完成；內含不同材質與處置。",
+      "metric_as_reported": "完整修護",
+      "metric_class": "完整修護（原表分類）",
+      "metric_label": "完整修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2023-full-treatment",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 82,
+      "printed_page": "81",
+      "publication_year": 2024,
+      "quantity_numeric": 45,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "45",
+      "record_kind": "observation",
+      "source_id": "src-8bb8b84d7e2bd831",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；已列在同表56合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 原表日常維護可能包含展示保護、除塵或處理；不與完整修護等同。 件數欄11，藏品項目欄另寫13件；兩欄口徑關係未核，不以13改寫11或另建數量觀測。",
+      "metric_as_reported": "日常維護",
+      "metric_class": "日常維護（原表分類）",
+      "metric_label": "日常維護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2023-routine-maintenance",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 82,
+      "printed_page": "81",
+      "publication_year": 2024,
+      "quantity_numeric": 11,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "11",
+      "record_kind": "observation",
+      "source_id": "src-8bb8b84d7e2bd831",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported",
+        "stabilization"
+      ],
+      "aggregation_role": "原報親項合計；不與三分項重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 原報親項總計，已核算術相符，不與三分項重加。",
+      "metric_as_reported": "2024年總計",
+      "metric_class": "原報藏品修護年度合計（含不同處置）",
+      "metric_label": "2024年總計",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2024-conservation-reported-total",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 102,
+      "printed_page": "101",
+      "publication_year": 2025,
+      "quantity_numeric": 53,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "53",
+      "record_kind": "observation",
+      "source_id": "src-20dcc05af486970b",
+      "source_scope": "全館年度藏品修護原報表之總計（親項）",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "stabilization"
+      ],
+      "aggregation_role": "原報分項；已列在同表53合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 保存工作含加固與其他原表措施；非純完整修護量。",
+      "metric_as_reported": "緊急加固",
+      "metric_class": "緊急加固（原表分類）",
+      "metric_label": "緊急加固",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2024-emergency-stabilization",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 102,
+      "printed_page": "101",
+      "publication_year": 2025,
+      "quantity_numeric": 11,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "11",
+      "record_kind": "observation",
+      "source_id": "src-20dcc05af486970b",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報分項；已列在同表53合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 完整修護是原表分類，未據此推定逐件已完成；內含不同材質與處置。 件數欄38；藏品項目欄另用部、件描述不同層級，不自行換算或重建38。",
+      "metric_as_reported": "完整修護",
+      "metric_class": "完整修護（原表分類）",
+      "metric_label": "完整修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2024-full-treatment",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 102,
+      "printed_page": "101",
+      "publication_year": 2025,
+      "quantity_numeric": 38,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "38",
+      "record_kind": "observation",
+      "source_id": "src-20dcc05af486970b",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；已列在同表53合計內，不與合計重加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "實體件數為原報註記；未獨立核對跨分類或跨年去重。 原表日常維護可能包含展示保護、除塵或處理；不與完整修護等同。",
+      "metric_as_reported": "日常維護",
+      "metric_class": "日常維護（原表分類）",
+      "metric_label": "日常維護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2024-routine-maintenance",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 102,
+      "printed_page": "101",
+      "publication_year": 2025,
+      "quantity_numeric": 4,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "4",
+      "record_kind": "observation",
+      "source_id": "src-20dcc05af486970b",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不轉錄私人姓名、藏品個案編號或其他排除內容。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -5379,7 +6379,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5447,7 +6447,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5483,7 +6483,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5545,7 +6545,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5581,7 +6581,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5617,7 +6617,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5679,7 +6679,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5715,7 +6715,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5751,7 +6751,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5787,7 +6787,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5843,7 +6843,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5879,7 +6879,7 @@
         "arrangement"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5915,7 +6915,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -5971,7 +6971,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "source_total_with_components",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
@@ -6035,7 +7035,7 @@
         "mixed_workflow"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -6072,7 +7072,7 @@
         "mixed_workflow"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -6113,7 +7113,7 @@
         12
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
@@ -6146,10 +7146,82 @@
     },
     {
       "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported_no_explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "保留原報特定陶缽修復量，不視為全館年度總數。",
+      "metric_as_reported": "館藏品修復黏合",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "館藏品修復黏合",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2021-ceramic-repair",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 9,
+      "printed_page": "16",
+      "publication_year": null,
+      "quantity_numeric": 1,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "1",
+      "record_kind": "observation",
+      "source_id": "src-3f7244eae93c0e67",
+      "source_scope": "典藏段記載之特定陶缽修復分項，非全館全年總量",
+      "subject_scope": "本館館藏陶缽；原段以館藏品修復黏合為題",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "performed_activity",
+      "completion_status": "performed_as_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "次是施作活動次數，不換算文物件數。",
+      "metric_as_reported": "燻蒸",
+      "metric_class": "preventive_conservation_operations",
+      "metric_label": "燻蒸",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2021-fumigation-reported",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 9,
+      "printed_page": "16",
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-3f7244eae93c0e67",
+      "source_scope": "年度典藏段所記預防性保存施作次數；不是文物件數",
+      "subject_scope": "本館典藏保存活動；未核個別文物對象，不列修復件數",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "次",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "maintenance"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "performed_activity",
       "completion_status": "performed_as_reported",
       "cross_museum_comparable": false,
@@ -6182,10 +7254,190 @@
     },
     {
       "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "completion_from_context",
+      "completion_status": "completed_under_parent_statement",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "次是施作活動次數，不換算文物件數。",
+      "metric_as_reported": "燻蒸",
+      "metric_class": "preventive_conservation_operations",
+      "metric_label": "燻蒸",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2023-fumigation-reported",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 6,
+      "printed_page": "3",
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-e3b82637b9b779cc",
+      "source_scope": "年度文教活動指定典藏保存分項之活動次數",
+      "subject_scope": "原報典藏保存作業；不是文物件數",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "次",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "completion_from_context",
+      "completion_status": "completed_under_parent_statement",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "次是施作活動次數，不換算文物件數。",
+      "metric_as_reported": "燻蒸",
+      "metric_class": "preventive_conservation_operations",
+      "metric_label": "燻蒸",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2024-collection-fumigation",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 6,
+      "printed_page": "3",
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-c72c034c7ab775a5",
+      "source_scope": "年度文教活動指定典藏保存分項之活動次數",
+      "subject_scope": "原報典藏保存作業；不是文物件數",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "次",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "completion_from_context",
+      "completion_status": "completed_under_parent_statement",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "次是施作活動次數，不換算文物件數。",
+      "metric_as_reported": "借展品燻蒸",
+      "metric_class": "preventive_conservation_operations",
+      "metric_label": "借展品燻蒸",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2024-loan-fumigation",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 6,
+      "printed_page": "3",
+      "publication_year": null,
+      "quantity_numeric": 1,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "1",
+      "record_kind": "observation",
+      "source_id": "src-c72c034c7ab775a5",
+      "source_scope": "年度文教活動列借展品處理分項之活動次數",
+      "subject_scope": "原報借展品；借入／借出方向及逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "次",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "completion_from_context",
+      "completion_status": "completed_under_parent_statement",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "次是施作活動次數，不換算文物件數。",
+      "metric_as_reported": "燻蒸",
+      "metric_class": "preventive_conservation_operations",
+      "metric_label": "燻蒸",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2025-collection-fumigation",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 7,
+      "printed_page": "4",
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-f590a06e609078e3",
+      "source_scope": "年度文教活動指定典藏保存分項之活動次數",
+      "subject_scope": "原報典藏保存作業；不是文物件數",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "次",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "completion_from_context",
+      "completion_status": "completed_under_parent_statement",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "次是施作活動次數，不換算文物件數。",
+      "metric_as_reported": "借展品燻蒸",
+      "metric_class": "preventive_conservation_operations",
+      "metric_label": "借展品燻蒸",
+      "numeric_origin": "source_reported",
+      "observation_id": "sshm-2025-loan-fumigation",
+      "organization_id": "BASE-036",
+      "organization_name": "新北市立十三行博物館",
+      "pdf_page_1_based": 7,
+      "printed_page": "4",
+      "publication_year": null,
+      "quantity_numeric": 1,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "1",
+      "record_kind": "observation",
+      "source_id": "src-f590a06e609078e3",
+      "source_scope": "年度文教活動列借展品處理分項之活動次數",
+      "subject_scope": "原報借展品；借入／借出方向及逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "次",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_output_as_reported",
       "cross_museum_comparable": false,
@@ -6221,7 +7473,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_output_as_reported",
       "cross_museum_comparable": false,
@@ -6258,7 +7510,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
@@ -6294,7 +7546,7 @@
         "mounting"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
@@ -6330,7 +7582,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
@@ -6363,10 +7615,73 @@
     },
     {
       "action_categories": [
+        "arrangement",
+        "cleaning",
+        "inspection_registration",
+        "maintenance",
+        "mixed_workflow"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "計畫名稱含修護，但原報完成項為檢視、清潔、攝影等複合整飭；提出後續修護建議不能稱564件修復完成。",
+      "metric_as_reported": "文物檢視登錄、除塵清潔、圖檔補充拍攝、掛牌標示與保存狀況評估等整飭作業",
+      "metric_class": "combined_inspection_cleaning_photography_registration_condition_assessment",
+      "metric_label": "文物檢視登錄、除塵清潔、圖檔補充拍攝、掛牌標示與保存狀況評估等整飭作業",
+      "numeric_origin": "source_reported",
+      "observation_id": "daxi-2021-combined-arrangement",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "pdf_page_1_based": 47,
+      "printed_page": "45",
+      "publication_year": 2022,
+      "quantity_numeric": 564,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "564",
+      "record_kind": "observation",
+      "source_components": [
+        {
+          "category_raw": "原中國家具博物館藏品",
+          "quantity_numeric": 413,
+          "quantity_raw": "413",
+          "role": "project_subject_composition_not_separate_completed_treatment_observation",
+          "unit_raw": "件"
+        },
+        {
+          "category_raw": "原住戶物件",
+          "quantity_numeric": 147,
+          "quantity_raw": "147",
+          "role": "project_subject_composition_not_separate_completed_treatment_observation",
+          "unit_raw": "件"
+        },
+        {
+          "category_raw": "本館歷年收存物件",
+          "quantity_numeric": 4,
+          "quantity_raw": "4",
+          "role": "project_subject_composition_not_separate_completed_treatment_observation",
+          "unit_raw": "件"
+        }
+      ],
+      "source_id": "src-74a816a27e3e6c16",
+      "source_scope": "110年文物整飭修護案之特定完成批次；非全館年度修復總量",
+      "subject_scope": "館內收存家具與生活物件，主要為木質、竹製物件；逐件法律權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
@@ -6405,7 +7720,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
@@ -6448,10 +7763,61 @@
     },
     {
       "action_categories": [
+        "arrangement",
+        "digitization",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "dual_unit_quantities": [
+        {
+          "quantity_numeric": 463,
+          "quantity_raw": "463",
+          "unit": "組"
+        },
+        {
+          "quantity_numeric": 715,
+          "quantity_raw": "715",
+          "unit": "件"
+        }
+      ],
+      "interpretation_note": "組與件為同批平行單位，不相加、不換算。數位化、整飭、修護未分項，不稱715件純修護完成，也不視為全館不重複年總量。",
+      "metric_as_reported": "本館藏品數位化暨整飭修護案完成量",
+      "metric_class": "combined_digitization_arrangement_restoration_project",
+      "metric_label": "本館藏品數位化暨整飭修護案完成量",
+      "numeric_origin": "source_reported",
+      "observation_id": "daxi-2025-combined-project",
+      "organization_id": "BASE-041",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "pdf_page_1_based": 10,
+      "printed_page": "7",
+      "publication_year": null,
+      "quantity_numeric": null,
+      "quantity_qualifier": "exact_dual_units_combined_project",
+      "quantity_raw": "463組（715件）",
+      "record_kind": "observation",
+      "source_id": "src-ba45177b7c9892b9",
+      "source_scope": "本年度特定複合計畫，原報稱總計完成；與2024是否延續或重疊未核",
+      "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "組（件）",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6487,7 +7853,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_operation_listed",
       "cross_museum_comparable": false,
@@ -6573,7 +7939,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6609,7 +7975,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6645,7 +8011,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6681,7 +8047,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6719,7 +8085,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parent",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6755,7 +8121,7 @@
         "inspection_registration"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6791,7 +8157,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6828,7 +8194,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
@@ -6864,7 +8230,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "未對此分項另載完成字樣",
       "cross_museum_comparable": false,
@@ -6900,7 +8266,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載修護完成",
       "cross_museum_comparable": false,
@@ -6937,7 +8303,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -6974,7 +8340,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "in_progress",
       "completion_status": "進行處置；不可當已完成",
       "cross_museum_comparable": false,
@@ -7010,7 +8376,7 @@
         "maintenance"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
@@ -7046,7 +8412,7 @@
         "maintenance"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
@@ -7082,7 +8448,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
@@ -7118,7 +8484,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parent",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
@@ -7154,7 +8520,7 @@
         "arrangement"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -7190,7 +8556,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
@@ -7226,7 +8592,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completion_from_context",
       "completion_status": "段落有完成總述；分項未另載完成",
       "cross_museum_comparable": false,
@@ -7262,7 +8628,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "child",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "completion_from_context",
       "completion_status": "段落有完成總述；分項未另載完成",
       "cross_museum_comparable": false,
@@ -7299,7 +8665,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "parent",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "explicit_completed",
       "completion_status": "原文明載完成，但為混合合計",
       "cross_museum_comparable": false,
@@ -7335,7 +8701,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
@@ -7371,7 +8737,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
@@ -7404,10 +8770,234 @@
     },
     {
       "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "parallel_reported_unit_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同年件、案、項為原報不同計量；不相加、不換算、不比較年度增減，也不推定各列涵蓋同一批文物。原件出版年本輪未定位。",
+      "metric_as_reported": "典藏文物修復及維護工作",
+      "metric_class": "combined_maintenance_restoration",
+      "metric_label": "典藏文物修復及維護工作",
+      "numeric_origin": "source_reported",
+      "observation_id": "KHM-2024-conservation-work-items",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "pdf_page_1_based": 52,
+      "printed_page": "46",
+      "publication_year": null,
+      "quantity_numeric": 22,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "22",
+      "record_kind": "observation",
+      "source_id": "src-b0bb570120618cb3",
+      "source_scope": "業務成果表的工作／計畫項數；不等於個別文物件數，與正文案／件未建立換算關係。",
+      "subject_scope": "原報本館典藏文物；未另核法律權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "項",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "parallel_reported_unit_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同年件、案、項為原報不同計量；不相加、不換算、不比較年度增減，也不推定各列涵蓋同一批文物。原件出版年本輪未定位。",
+      "metric_as_reported": "完成修復案",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "完成修復案",
+      "numeric_origin": "source_reported",
+      "observation_id": "KHM-2024-treatment-objects-as-reported",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "pdf_page_1_based": 44,
+      "printed_page": "38",
+      "publication_year": null,
+      "quantity_numeric": 24,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "24",
+      "record_kind": "observation",
+      "source_id": "src-b0bb570120618cb3",
+      "source_scope": "與同句案數並列的文物件數；未逐件去重，不換算成案或項。",
+      "subject_scope": "原報本館典藏文物；未另核法律權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "parallel_reported_unit_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同年件、案、項為原報不同計量；不相加、不換算、不比較年度增減，也不推定各列涵蓋同一批文物。原件出版年本輪未定位。",
+      "metric_as_reported": "完成修復案",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "完成修復案",
+      "numeric_origin": "source_reported",
+      "observation_id": "KHM-2024-treatment-project-cases",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "pdf_page_1_based": 44,
+      "printed_page": "38",
+      "publication_year": null,
+      "quantity_numeric": 5,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "5",
+      "record_kind": "observation",
+      "source_id": "src-b0bb570120618cb3",
+      "source_scope": "原報修復／維護修復案數；不是文物件數。",
+      "subject_scope": "原報本館典藏文物；未另核法律權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "案",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "parallel_reported_unit_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同年件、案、項為原報不同計量；不相加、不換算、不比較年度增減，也不推定各列涵蓋同一批文物。原件出版年本輪未定位。",
+      "metric_as_reported": "典藏文物修復及維護計畫",
+      "metric_class": "combined_maintenance_restoration",
+      "metric_label": "典藏文物修復及維護計畫",
+      "numeric_origin": "source_reported",
+      "observation_id": "KHM-2025-conservation-work-items",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "pdf_page_1_based": 74,
+      "printed_page": "70",
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-87530a6874d9bb16",
+      "source_scope": "業務成果表的工作／計畫項數；不等於個別文物件數，與正文案／件未建立換算關係。",
+      "subject_scope": "原報本館典藏文物；未另核法律權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "項",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "parallel_reported_unit_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同年件、案、項為原報不同計量；不相加、不換算、不比較年度增減，也不推定各列涵蓋同一批文物。原件出版年本輪未定位。",
+      "metric_as_reported": "完成維護修復案",
+      "metric_class": "combined_maintenance_restoration",
+      "metric_label": "完成維護修復案",
+      "numeric_origin": "source_reported",
+      "observation_id": "KHM-2025-treatment-objects-as-reported",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "pdf_page_1_based": 62,
+      "printed_page": "58",
+      "publication_year": null,
+      "quantity_numeric": 355,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "355",
+      "record_kind": "observation",
+      "source_id": "src-87530a6874d9bb16",
+      "source_scope": "與同句案數並列的文物件數；未逐件去重，不換算成案或項。",
+      "subject_scope": "原報本館典藏文物；未另核法律權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "parallel_reported_unit_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同年件、案、項為原報不同計量；不相加、不換算、不比較年度增減，也不推定各列涵蓋同一批文物。原件出版年本輪未定位。",
+      "metric_as_reported": "完成維護修復案",
+      "metric_class": "combined_maintenance_restoration",
+      "metric_label": "完成維護修復案",
+      "numeric_origin": "source_reported",
+      "observation_id": "KHM-2025-treatment-project-cases",
+      "organization_id": "BASE-057",
+      "organization_name": "高雄市立歷史博物館",
+      "pdf_page_1_based": 62,
+      "printed_page": "58",
+      "publication_year": null,
+      "quantity_numeric": 4,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "4",
+      "record_kind": "observation",
+      "source_id": "src-87530a6874d9bb16",
+      "source_scope": "原報修復／維護修復案數；不是文物件數。",
+      "subject_scope": "原報本館典藏文物；未另核法律權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "案",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -7443,7 +9033,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -7479,7 +9069,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -7515,7 +9105,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -7551,7 +9141,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -7587,7 +9177,7 @@
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
-      "classification_rule_version": "1.0",
+      "classification_rule_version": "1.1",
       "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
@@ -8007,6 +9597,102 @@
         "thcdc-2025-cannon-combined-treatment"
       ],
       "type": "combined_actions_not_disaggregated"
+    },
+    {
+      "children": [
+        "NMTH-2022-emergency-stabilization",
+        "NMTH-2022-routine-maintenance",
+        "NMTH-2022-full-treatment"
+      ],
+      "not_additive_together": true,
+      "parent": "NMTH-2022-conservation-reported-total",
+      "type": "reported_total_includes"
+    },
+    {
+      "children": [
+        "NMTH-2023-emergency-stabilization",
+        "NMTH-2023-routine-maintenance",
+        "NMTH-2023-full-treatment"
+      ],
+      "not_additive_together": true,
+      "parent": "NMTH-2023-conservation-reported-total",
+      "type": "reported_total_includes"
+    },
+    {
+      "children": [
+        "NMTH-2024-emergency-stabilization",
+        "NMTH-2024-routine-maintenance",
+        "NMTH-2024-full-treatment"
+      ],
+      "not_additive_together": true,
+      "parent": "NMTH-2024-conservation-reported-total",
+      "type": "reported_total_includes"
+    },
+    {
+      "not_additive_together": true,
+      "note": "413、147、4為原報計畫主要標的來源構成，僅供背景及合計核對；未新增三個完成處置觀測。",
+      "parent": "daxi-2021-combined-arrangement",
+      "source_components_in_parent": true,
+      "type": "source_subject_components_context_only"
+    },
+    {
+      "not_additive_together": true,
+      "note": "463組與715件同批平行計量，不相加。",
+      "observation_ids": [
+        "daxi-2025-combined-project"
+      ],
+      "type": "parallel_units_same_batch"
+    },
+    {
+      "existing_release_observation_ids": [
+        "pilot-daxi-2024-combined"
+      ],
+      "not_additive_together": true,
+      "note": "2025原報總計與2024完成量是否年度獨立、延續或重複未核，不相加、不相減求新增量。",
+      "observation_ids": [
+        "daxi-2025-combined-project"
+      ],
+      "type": "possible_cross_year_project_overlap_not_verified"
+    },
+    {
+      "note": "預防性保存的次與特定陶缽修復的件，不能加成文物修復總數。",
+      "observation_ids": [
+        "sshm-2021-fumigation-reported",
+        "sshm-2021-ceramic-repair"
+      ],
+      "relation_id": "sshm-2021-different-units-and-subjects",
+      "relation_type": "do_not_sum_different_units_or_procedures"
+    },
+    {
+      "note": "原報典藏燻蒸與借展品燻蒸分列；未證活動互斥，不加總，不推借入／借出及法律權屬。",
+      "observation_ids": [
+        "sshm-2024-collection-fumigation",
+        "sshm-2024-loan-fumigation",
+        "sshm-2025-collection-fumigation",
+        "sshm-2025-loan-fumigation"
+      ],
+      "relation_id": "sshm-2024-2025-borrowed-separate",
+      "relation_type": "subject_scope_split_no_direction_or_ownership_inference"
+    },
+    {
+      "not_additive_together": true,
+      "note": "同一年度報告分別列案、件、項，未核逐件映射或分項包含關係；不是數值矛盾認定。",
+      "observation_ids": [
+        "KHM-2024-treatment-project-cases",
+        "KHM-2024-treatment-objects-as-reported",
+        "KHM-2024-conservation-work-items"
+      ],
+      "type": "parallel_reported_units_not_converted"
+    },
+    {
+      "not_additive_together": true,
+      "note": "同一年度報告分別列案、件、項，未核逐件映射或分項包含關係；不是數值矛盾認定。",
+      "observation_ids": [
+        "KHM-2025-treatment-project-cases",
+        "KHM-2025-treatment-objects-as-reported",
+        "KHM-2025-conservation-work-items"
+      ],
+      "type": "parallel_reported_units_not_converted"
     }
   ],
   "schema_version": "3.0",
@@ -8080,6 +9766,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvODYvcmVsZmlsZS8xMzY3NC8xNDE2OTk5LzU2OWYxYWZiLWRmNzMtNDJhOS1hNTJiLTgyMzBhODcyMTgzZi5wZGY%3d&n=MjAyM%2bacqOWNmumkqOW5tOWgsV%2fpm7vlrZDmm7hfMTEyOC5wZGY%3d",
+      "official_landing_url": "https://wem.tycg.gov.tw/News_Photo_Content.aspx?n=9720&s=1416999",
+      "original_file_bytes": 25667503,
+      "original_file_pdf_pages": 112,
+      "original_file_sha256": "1514012834c49014604463cbe45e1e6dffcb9163e6c9ec03bf01a9936d3bd12d",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-1514012834c49014",
+      "source_use": "body_review",
+      "title": "桃園市立大溪木藝生態博物館2023年報",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0N201509776836768754/111%E5%B9%B4%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%B9%B4%E5%A0%B1%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf",
       "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0N201501506718137468",
       "original_file_bytes": 25124518,
@@ -8104,6 +9804,20 @@
       "source_id": "src-1601e5ec42353271",
       "source_use": "numeric_evidence",
       "title": "國立臺灣史前文化博物館113年度單位決算書",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNTI4L3JlbGZpbGUvMTM3NzYvMjQ1ODQ3LzQ4OWE3MDJkLTM0MDItNDYwZi05YWY2LTlhYzI3ZjRhZDIwOC5wZGY%3d&n=5bm05aCxMjAyNC3pm7vlrZDniYgucGRm",
+      "official_landing_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=245847",
+      "original_file_bytes": 20511473,
+      "original_file_pdf_pages": 117,
+      "original_file_sha256": "20dcc05af486970b34b912ad69c839d9272168119e707f29cb58a046ca986598",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-20dcc05af486970b",
+      "source_use": "numeric_evidence",
+      "title": "國立臺灣歷史博物館年報2024",
       "verified_at": "2026-10-26"
     },
     {
@@ -8214,6 +9928,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvODYvcmVsZmlsZS8xMzY3NC8xMjg1MTE1L2Y0YzIwMDQ2LWE2NzMtNDAzNi1iZGYwLTA5OGE1YjdjMDllNS5wZGY%3d&n=5qGD5ZyS5biC56uL5aSn5rqq5pyo6Jed55Sf5oWL5Y2a54mp6aSoMjAyMuW5tOWgsS5wZGY%3d",
+      "official_landing_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9720&s=1285115&sms=13674",
+      "original_file_bytes": 36300153,
+      "original_file_pdf_pages": 104,
+      "original_file_sha256": "32b223926d586891acd3e8a9c41d969c89f0f5e5787b2a274f7af226220fae2a",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-32b223926d586891",
+      "source_use": "body_review",
+      "title": "桃園市立大溪木藝生態博物館2022年報",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMjcxMi85ZDM5M2U2Zi02YzY4LTRjZjgtYWI2Yi04YWYwYmE5YWM5NTIucGRm&n=aOa1t%2beUn%2bmkqF8xMTHlubTloLFfMTXniYjmrIrpoIEucGRm&icon=.pdf",
       "official_landing_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=A9723C2A692537DA",
       "original_file_bytes": 2296465,
@@ -8225,6 +9953,20 @@
       "source_id": "src-35a9a8188c80dfd7",
       "source_use": "publication_date_only",
       "title": "國立海洋生物博物館111年報（電子書）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0M299469947861732565/110%E5%B9%B4%E5%8D%81%E4%B8%89%E8%A1%8C%E5%B9%B4%E5%A0%B1%28%E9%9B%BB%E5%AD%90%E6%9B%B8%29.pdf",
+      "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0M299411359408365656",
+      "original_file_bytes": 36322113,
+      "original_file_pdf_pages": 47,
+      "original_file_sha256": "3f7244eae93c0e679ffb99fea6b8e09317fb066bbc69ee1ff36a2135be31cae2",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-3f7244eae93c0e67",
+      "source_use": "numeric_evidence",
+      "title": "新北市立十三行博物館110年年報",
       "verified_at": "2026-10-26"
     },
     {
@@ -8386,6 +10128,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvODYvUmVsRmlsZS8xMzY3NC85NTU0MjgvMjAyMOacqOWNmumkqOW5tOWgsS5wZGY%3d&n=MjAyMOacqOWNmumkqOW5tOWgsS5wZGY%3d",
+      "official_landing_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9720&s=955428&sms=13674",
+      "original_file_bytes": 35212119,
+      "original_file_pdf_pages": 100,
+      "original_file_sha256": "72132851332493a746ce772bf9e550c251f1f49b486a397b7f35fc65b1cdf6bd",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-72132851332493a7",
+      "source_use": "body_review",
+      "title": "桃園市立大溪木藝生態博物館2020年報",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjMwMi8yMTM0YTkyNy1mN2Y2LTQ4MzYtYmNkMi1mNzFlM2Y3OGU2OTMucGRm&n=MTEx5bm05bqm5rG6566XLnBkZg%3d%3d",
       "official_landing_url": "https://www.nmp.gov.tw/News_Content.aspx?n=2115&s=98578",
       "original_file_bytes": 3016939,
@@ -8397,6 +10153,20 @@
       "source_id": "src-746b9550b354b018",
       "source_use": "numeric_evidence",
       "title": "國立臺灣史前文化博物館111年度單位決算書",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvODYvUmVsRmlsZS8xMzY3NC85NTU0MzIv5qGD5ZyS5biC56uL5aSn5rqq5pyo6Jed55Sf5oWL5Y2a54mp6aSoMjAyMeW5tOWgsS5wZGY%3d&n=5qGD5ZyS5biC56uL5aSn5rqq5pyo6Jed55Sf5oWL5Y2a54mp6aSoMjAyMeW5tOWgsS5wZGY%3d",
+      "official_landing_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9720&s=955432&sms=13674",
+      "original_file_bytes": 62312134,
+      "original_file_pdf_pages": 96,
+      "original_file_sha256": "74a816a27e3e6c16e9a53a7dbabea7b7f5880ed90fe687acf9893024dfb594b0",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-74a816a27e3e6c16",
+      "source_use": "numeric_evidence",
+      "title": "桃園市立大溪木藝生態博物館2021年報",
       "verified_at": "2026-10-26"
     },
     {
@@ -8507,6 +10277,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/143756/c786c9e9-4273-425a-bdd2-9b56c2fffc98.pdf",
+      "official_landing_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/143756/c786c9e9-4273-425a-bdd2-9b56c2fffc98.pdf",
+      "original_file_bytes": 21221224,
+      "original_file_pdf_pages": 308,
+      "original_file_sha256": "87530a6874d9bb16f6f4d1b5b78864fbe808825504bd435f7755dc6b600472ff",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-87530a6874d9bb16",
+      "source_use": "numeric_evidence",
+      "title": "高雄市專業文化機構114年度執行成果暨決算報告（高史博業務節錄）",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://thcdc.hakka.gov.tw/media/v2xfubes/20220516-%E5%AE%A2%E5%AE%B6%E5%A7%94%E5%93%A1%E6%9C%83%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%832020-2021%E9%9B%99%E5%B9%B4%E5%A0%B1-final.pdf?mediaDL=true",
       "official_landing_url": "https://thcdc.hakka.gov.tw/12205/12234/12238/76307/",
       "original_file_bytes": 27744239,
@@ -8546,6 +10330,20 @@
       "source_id": "src-8b32f5d50c602a6e",
       "source_use": "body_review",
       "title": "國立海洋生物博物館113年報（電子書）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNTI4L3JlbGZpbGUvMTM3NzYvMjIyNTAwLzRmODgwNjQ5LTk0ODMtNDY2MS1iZWY3LWMwODc0MDNkMzcwZS5wZGY%3d&n=5bm05aCxMjAyMy3pm7vlrZDniYgo5ZCr5bCB6Z2iKS5wZGY%3d",
+      "official_landing_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=222500",
+      "original_file_bytes": 31951415,
+      "original_file_pdf_pages": 105,
+      "original_file_sha256": "8bb8b84d7e2bd831e5d1cac35f2942c9d6314ea9933ba2435af04d6e3026388b",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-8bb8b84d7e2bd831",
+      "source_use": "numeric_evidence",
+      "title": "國立臺灣歷史博物館年報2023",
       "verified_at": "2026-10-26"
     },
     {
@@ -8685,6 +10483,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0l287335793411182211/109年度決算書.pdf",
+      "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "original_file_bytes": 13830023,
+      "original_file_pdf_pages": 61,
+      "original_file_sha256": "a93aa85a7dacd50f0b61ae12c97b4113cd4ba1026a865037c857dfca85413d45",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-a93aa85a7dacd50f",
+      "source_use": "body_review",
+      "title": "新北市立十三行博物館109年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202301/8b8a0c65-b0f9-4b07-a148-eee15aaa00af.pdf",
       "official_landing_url": "https://www.ntmofa.gov.tw/News_Publish_Content.aspx?n=1487&s=100974",
       "original_file_bytes": 29613367,
@@ -8695,6 +10507,20 @@
       "source_id": "src-aaedd286423c1996",
       "source_use": "numeric_evidence",
       "title": "國立臺灣美術館2021年報",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0L362520354032833587/109%E5%B9%B4%E5%8D%81%E4%B8%89%E8%A1%8C%E5%B9%B4%E5%A0%B1%28%E9%9B%BB%E5%AD%90%E6%9B%B8%29.pdf",
+      "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0L362509935530389414",
+      "original_file_bytes": 32238178,
+      "original_file_pdf_pages": 33,
+      "original_file_sha256": "aba6935ae0832f13cfdb89f50ecd82e81796ff621fce61efc56a73ca1eeb1a1c",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-aba6935ae0832f13",
+      "source_use": "body_review",
+      "title": "新北市立十三行博物館109年年報",
       "verified_at": "2026-10-26"
     },
     {
@@ -8709,6 +10535,20 @@
       "source_id": "src-ae75de632c9b33e9",
       "source_use": "body_review",
       "title": "客家委員會客家文化發展中心112年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjMxMC9hYTkwZjI4My05ZWJlLTQ4MWUtOWI3OS1mYjY1M2U0NTljOTgucGRm&n=5ZyL56uL6Ie654Gj5q235Y%2by5Y2a54mp6aSo5bm05aCxMjAyMi5wZGY%3d",
+      "official_landing_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=199897",
+      "original_file_bytes": 18245665,
+      "original_file_pdf_pages": 120,
+      "original_file_sha256": "af94cc8749b0e62d7ad8ae52f67884c17d5f8748519fbea60e54ea5583a064ef",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-af94cc8749b0e62d",
+      "source_use": "numeric_evidence",
+      "title": "國立臺灣歷史博物館年報2022",
       "verified_at": "2026-10-26"
     },
     {
@@ -8735,6 +10575,20 @@
       "source_id": "src-b0540f9e81020edc",
       "source_use": "numeric_evidence",
       "title": "新北市美術館114年度決算（總說明：114年度營運計畫之執行成果）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/138582/9d920ab0-b661-4da4-98c3-2e9c33c88284.pdf",
+      "official_landing_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/138582/9d920ab0-b661-4da4-98c3-2e9c33c88284.pdf",
+      "original_file_bytes": 16057990,
+      "original_file_pdf_pages": 262,
+      "original_file_sha256": "b0bb570120618cb3e81706d43de7ffb1b15483731cd5dbbee11d868351beb78d",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b0bb570120618cb3",
+      "source_use": "numeric_evidence",
+      "title": "高雄市專業文化機構113年度執行成果暨決算報告（高史博業務節錄）",
       "verified_at": "2026-10-26"
     },
     {
@@ -8803,6 +10657,20 @@
       "source_id": "src-b86fe0ba9eb09519",
       "source_use": "body_review",
       "title": "客家委員會客家文化發展中心年報2022（中英版）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://ws.tycg.gov.tw/001/Upload/86/relfile/13658/997426/a149063e-9704-41bb-b0f6-63d91faa41d2.pdf",
+      "official_landing_url": "https://wem.tycg.gov.tw/News_Content.aspx?n=9686&s=997426",
+      "original_file_bytes": 2754703,
+      "original_file_pdf_pages": 84,
+      "original_file_sha256": "ba45177b7c9892b9a27c61e60f12899addaa48e9e97dadc51a121be2d1a42e4e",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ba45177b7c9892b9",
+      "source_use": "numeric_evidence",
+      "title": "桃園市立大溪木藝生態博物館114年度單位決算",
       "verified_at": "2026-10-26"
     },
     {
@@ -8928,6 +10796,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0p217548681190409494/113年度新北市立十三行博物館單位決算.pdf",
+      "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "original_file_bytes": 14101887,
+      "original_file_pdf_pages": 60,
+      "original_file_sha256": "c72c034c7ab775a5e5f88605dfe1bf65ce52a232f8f3c5506321eed0a8d0bd3e",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c72c034c7ab775a5",
+      "source_use": "numeric_evidence",
+      "title": "新北市立十三行博物館113年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://www.kmfa.gov.tw/FileDownload/Journals/20170913182030457670956.pdf",
       "official_landing_url": "https://www.kmfa.gov.tw/FileDownload/Journals/20170913182030457670956.pdf",
       "original_file_bytes": 18040499,
@@ -9006,6 +10888,20 @@
       "source_id": "src-e2b146bca4ef1417",
       "source_use": "body_review",
       "title": "客家委員會客家文化發展中心109年度單位決算（審定版）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0o211565114480542936/112年度決算書.pdf",
+      "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "original_file_bytes": 929374,
+      "original_file_pdf_pages": 58,
+      "original_file_sha256": "e3b82637b9b779cc67a96a53695445bd1ed3cdbc4f33ab02cd784a4cfff840c7",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e3b82637b9b779cc",
+      "source_use": "numeric_evidence",
+      "title": "新北市立十三行博物館112年度單位決算",
       "verified_at": "2026-10-26"
     },
     {
@@ -9104,6 +11000,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0Q254404217722450956/114年度決算書.pdf",
+      "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
+      "original_file_bytes": 14448869,
+      "original_file_pdf_pages": 60,
+      "original_file_sha256": "f590a06e609078e32bc0029a7fe46b243ee59e8bee5293fde6876757c7059f45",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-f590a06e609078e3",
+      "source_use": "numeric_evidence",
+      "title": "新北市立十三行博物館114年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1899.htm",
       "official_landing_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/22_1899.htm",
       "original_file_bytes": 7288785,
@@ -9120,46 +11030,47 @@
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 36,
-    "body_review_source_file_versions": 35,
-    "body_review_target_year_cells": 35,
+    "body_review_records": 52,
+    "body_review_source_file_versions": 52,
+    "body_review_target_year_cells": 51,
     "context_component_records": 2,
     "derived_summary_records": 1,
     "multi_year_records_not_allocated_to_years": 3,
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 163
+      "source_reported": 190
     },
-    "numeric_support_source_file_versions": 51,
-    "observation_records": 161,
-    "organizations_with_facts": 14,
-    "organizations_with_facts_or_new_body_reviews": 17,
+    "numeric_support_source_file_versions": 62,
+    "observation_records": 188,
+    "organizations_with_facts": 15,
+    "organizations_with_facts_or_new_body_reviews": 18,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
-    "total_fact_rows": 164,
+    "total_fact_rows": 191,
     "units": {
-      "件": 115,
+      "件": 131,
       "件作品": 1,
       "件數": 6,
       "作品": 1,
       "卷": 1,
       "座": 1,
       "未明列": 2,
-      "案": 3,
+      "案": 5,
       "條": 2,
-      "次": 1,
+      "次": 7,
       "片": 4,
       "筆": 2,
       "組件": 7,
-      "組（件）": 1,
+      "組（件）": 2,
       "艘": 1,
       "號": 12,
       "袋": 3,
-      "部": 1
+      "部": 1,
+      "項": 2
     },
     "verified_original_html_files": 2,
-    "verified_original_pdf_files": 80,
-    "verified_original_source_files": 82,
+    "verified_original_pdf_files": 96,
+    "verified_original_source_files": 98,
     "years": [
       2015,
       2016,

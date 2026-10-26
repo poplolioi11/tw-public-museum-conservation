@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "record": {
     "action_categories": [
       "mounting",
       "restoration_as_reported"
     ],
     "aggregation_role": "原報分項，未證互斥，不可逕相加",
-    "classification_rule_version": "1.0",
+    "classification_rule_version": "1.1",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "本年度修護敘述，未另載完成",
     "cross_museum_comparable": false,
@@ -50,5 +50,5 @@
     "title": "國立臺灣文學館年報2022",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/NMTL-2022-calligraphy-treatment.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.4.0/catalog/records/NMTL-2022-calligraphy-treatment.json"
 }

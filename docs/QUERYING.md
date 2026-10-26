@@ -25,8 +25,11 @@
 
 固定版本的逐筆入口為：
 
-`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/{observation_id}.json`
+`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.4.0/catalog/records/{observation_id}.json`
 
 保留observation_id、資料年或跨年期間、quantity_raw與原單位，再引用其中官方來源及PDF頁碼。main路徑供查當前版，tag路徑供重現固定版。不要把逐筆入口數、分類列數或所有數字相加解釋成全國修復量。
 
 本版CSV／JSONL／SQLite仍提供完整資料。館所索引與逐筆檔由同一主檔產生，避免出現第二套人工維護的數字。
+
+
+先看[資料樣貌](../catalog/SAMPLE.md)可比較不同計量方式；這些例子不構成可相加的數列。分類規則1.1擴充同型年度表及完成文字映射，保留舊版既有標籤含義。

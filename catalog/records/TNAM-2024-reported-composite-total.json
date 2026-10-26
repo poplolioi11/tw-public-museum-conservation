@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "record": {
     "action_categories": [
       "mixed_workflow",
       "restoration_as_reported"
     ],
     "aggregation_role": "parent",
-    "classification_rule_version": "1.0",
+    "classification_rule_version": "1.1",
     "completion_category": "explicit_completed",
     "completion_status": "原文明載完成，但為混合合計",
     "cross_museum_comparable": false,
@@ -50,5 +50,5 @@
     "title": "2024臺南市美術館年報（中文版）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/TNAM-2024-reported-composite-total.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.4.0/catalog/records/TNAM-2024-reported-composite-total.json"
 }

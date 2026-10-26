@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "record": {
     "action_categories": [
       "mixed_workflow",
       "restoration_as_reported"
     ],
     "aggregation_role": "scope_not_verified_mutually_exclusive",
-    "classification_rule_version": "1.0",
+    "classification_rule_version": "1.1",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "年度已處置敘述，未逐件另載完成日",
     "cross_museum_comparable": false,
@@ -106,5 +106,5 @@
     "title": "國立臺灣博物館2022年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/ntm-2022-mixed-table-total.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.4.0/catalog/records/ntm-2022-mixed-table-total.json"
 }

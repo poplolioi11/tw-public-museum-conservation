@@ -7,7 +7,7 @@ Unknown completion labels require controller review before publishing.
 import json,re
 from pathlib import Path
 
-RULE_VERSION='1.0'
+RULE_VERSION='1.1'
 ACTION_LABELS={
  'restoration_as_reported':'修護／修復（依原報）',
  'maintenance':'保存維護／預防性保存',
@@ -46,7 +46,8 @@ COMPLETION_GROUPS={
   '年度處置表，未逐件另載完成日','原文稱執行修護，未另載完成',
   '原文稱本年度辦理修護，未另載完成','本年度修護敘述，未另載完成',
   '年度已執行敘述，未另載完成','本計畫年度執行敘述，未另載完成',
-  '原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。'],
+  '原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。',
+  '原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。'],
  'in_progress':['進行處置；不可當已完成'],
  'performed_activity':['performed_as_reported'],
  'not_explicitly_stated':['not_explicitly_stated','未對此分項另載完成字樣','原文未另載完成']}
@@ -69,7 +70,7 @@ def action_categories(record):
     if any(hint in cls for hint in mixed_hints):tags.add('mixed_workflow')
     if cls=='mixed_arrangement_restoration':tags.update(['arrangement','restoration_as_reported','mixed_workflow'])
     if cls=='conservation_and_restoration_total':tags.add('mixed_workflow')
-    if record['observation_id']=='NMTH-2020-conservation-reported-total':tags.update(['restoration_as_reported','maintenance','stabilization','mixed_workflow'])
+    if record['organization_id']=='BASE-007'and re.fullmatch(r'NMTH-20\d{2}-conservation-reported-total',record['observation_id']):tags.update(['restoration_as_reported','maintenance','stabilization','mixed_workflow'])
     # One procedure count may describe several operations; tags are never quantity splits.
     return sorted(tags or{'needs_review'})
 

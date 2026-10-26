@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "record": {
     "action_categories": [
       "maintenance",
@@ -10,7 +10,7 @@
       12
     ],
     "aggregation_role": "scope_not_verified_mutually_exclusive",
-    "classification_rule_version": "1.0",
+    "classification_rule_version": "1.1",
     "completion_category": "explicit_completed",
     "completion_status": "explicit_completed",
     "cross_museum_comparable": false,
@@ -55,5 +55,5 @@
     "title": "客家委員會客家文化發展中心114年度單位決算",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/thcdc-2025-cannon-combined-treatment.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.4.0/catalog/records/thcdc-2025-cannon-combined-treatment.json"
 }

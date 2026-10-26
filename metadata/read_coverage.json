@@ -301,6 +301,39 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 4,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立臺灣歷史博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-af94cc8749b0e62d"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 4,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立臺灣歷史博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-8bb8b84d7e2bd831"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 4,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立臺灣歷史博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-20dcc05af486970b"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2025,
       "fact_rows": 1,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -400,6 +433,17 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "新北市立十三行博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-3f7244eae93c0e67"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2022,
       "fact_rows": 1,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -407,6 +451,39 @@
       "reported_periods": [],
       "source_ids": [
         "src-156e842aaaed49d8"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "新北市立十三行博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-e3b82637b9b779cc"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "新北市立十三行博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-c72c034c7ab775a5"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "新北市立十三行博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-f590a06e609078e3"
       ]
     },
     {
@@ -444,6 +521,17 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-74a816a27e3e6c16"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2024,
       "fact_rows": 2,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -452,6 +540,17 @@
       "source_ids": [
         "src-c24f15432c939e93",
         "src-ed297fa261a07432"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "桃園市立大溪木藝生態博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-ba45177b7c9892b9"
       ]
     },
     {
@@ -544,6 +643,28 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 3,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立歷史博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-b0bb570120618cb3"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 3,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立歷史博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-87530a6874d9bb16"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2015,
       "fact_rows": 1,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -565,6 +686,6 @@
       ]
     }
   ],
-  "dataset_version": "0.3.0",
+  "dataset_version": "0.4.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }
