@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bounded source-body review for one target organization-year; not a restoration count",
+  "type": "object",
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "organization_id": {
+      "type": "string"
+    },
+    "organization_name": {
+      "type": "string"
+    },
+    "target_data_year": {
+      "type": "integer"
+    },
+    "review_status": {
+      "enum": [
+        "numeric_observations_verified",
+        "body_read_no_eligible_quantity_located",
+        "source_found_body_not_reviewed",
+        "source_not_located_in_this_search",
+        "annual_scope_not_separable",
+        "outside_selected_scope"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewed_pdf_pages_1_based": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "official_entry_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review_scope": {
+      "type": "string"
+    },
+    "interpretation_note": {
+      "type": "string"
+    },
+    "missing_quantity_is_zero": {
+      "const": false
+    },
+    "verified_at": {
+      "type": "string"
+    },
+    "source_page_reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "pdf_pages_1_based": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "review_scope": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_id",
+          "pdf_pages_1_based",
+          "review_scope"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "review_id",
+    "organization_id",
+    "organization_name",
+    "target_data_year",
+    "review_status",
+    "source_ids",
+    "observation_ids",
+    "reviewed_pdf_pages_1_based",
+    "official_entry_url",
+    "review_scope",
+    "interpretation_note",
+    "missing_quantity_is_zero",
+    "verified_at",
+    "source_page_reviews"
+  ],
+  "additionalProperties": false
+}

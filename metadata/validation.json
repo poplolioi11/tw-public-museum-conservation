@@ -1,17 +1,19 @@
 {
-  "dataset_version": "0.1.0",
-  "verified_at": "2026-10-26T12:09:29.108861+00:00",
+  "dataset_version": "0.2.0",
+  "verified_at": "2026-10-26T12:54:41.722434+00:00",
   "python_version": "3.12.14",
   "verification_location": "user_authorized_local_Mac",
   "format_and_update_checks": {
     "status": "pass",
     "checks": {
-      "fact_rows": 115,
-      "source_reported_observations": 113,
+      "fact_rows": 157,
+      "source_reported_observations": 154,
       "derived_summaries": 1,
-      "context_components": 1,
-      "organizations_with_facts": 12,
-      "original_pdf_versions": 41,
+      "context_components": 2,
+      "organizations_with_facts": 13,
+      "original_pdf_versions": 66,
+      "multi_year_records_not_allocated_to_years": 3,
+      "new_cohort_source_year_reviews": 18,
       "inventory_lookup_grid_cells_not_facts": 426,
       "inventory_status_counts": {
         "official_report_found": 194,
@@ -30,14 +32,33 @@
     "unchanged_writes_zero_files": true,
     "check_detects_export_corruption_without_writing": true
   },
-  "schema_check_scope": "required_properties_types_const_enum_minimum_used_by_this_schema_not_general_json_schema_engine",
-  "original_source_byte_checks": {
-    "checked_at_build": true,
-    "file_count": 41,
-    "method": "streamed_local_original_PDF_SHA256_size_and_signature_compared_with_recorded_source_versions",
-    "not_a_new_download_by_public_offline_checker": true
+  "original_source_byte_check_scope": {
+    "new_original_pdfs_checked_locally": 25,
+    "new_original_pdf_bytes": 222383785,
+    "prior_original_pdf_versions_retained_from_v0_1_0": 41,
+    "prior_originals_re_downloaded_this_round": false,
+    "source_index_total_pdf_versions": 66
   },
-  "source_content_review": "AI_source_page_reading_with_selected_source_first_second_pass; not human double proofreading",
+  "source_first_ai_review": {
+    "museum": "國立臺灣史前文化博物館",
+    "checked_fact_rows": 6,
+    "source_pdf_files": 4,
+    "frozen_expectation_before_reading_candidate": true,
+    "not_human_or_blind_review": true
+  },
+  "new_cloud_readback": {
+    "new_pdf_files": 25,
+    "handoff_json_files": 3,
+    "all_matched": true,
+    "byte_hashes_actually_streamed_from_Drive": true
+  },
+  "baseline_v0_1_0_observation_rows_preserved": 115,
+  "baseline_rows_unchanged": true,
+  "multi_year_records_not_allocated_to_years": 3,
+  "new_source_year_reviews": 18,
   "all_source_year_cells_reviewed": false,
-  "national_aggregate_computed": false
+  "national_aggregate_computed": false,
+  "gemini_attempt_for_this_new_cohort": "timeout_no_answer_not_counted_as_completed_review",
+  "schema_check_scope": "observation required/types/const/enum/minimum subset plus stdlib source and review page integrity checks",
+  "schema_version": "2.0"
 }

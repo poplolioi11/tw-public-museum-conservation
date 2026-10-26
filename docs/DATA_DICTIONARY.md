@@ -7,7 +7,7 @@
 | `observation_id` | 本專案穩定紀錄識別；一列不等於一件藏品 |
 | `organization_id` | 本專案盤點識別，非官方統一館碼 |
 | `organization_name` | 整理時的機關／館所名稱；名稱不作自動數值合併 |
-| `data_year` | 原報敘述的資料年度，不由出版年推算 |
+| `data_year` | 原報明示的單一資料年度；跨年合計為null，不由出版年推算 |
 | `publication_year` | 已核出版年；未核則null |
 | `metric_as_reported` | 原報作業名稱。推算列僅保留來源作業詞 |
 | `metric_label`、`metric_class` | 本整理的顯示名稱與分類；不等於統一統計定義 |
@@ -17,7 +17,7 @@
 | `unit_as_reported` | 件、組件、號、案、條、片等原量詞，不能互換 |
 | `unit_status` | 原報有量詞為reported；原表未標量詞為not_stated_in_source，不能自行填件 |
 | `numeric_origin` | source_reported為原報值；controller_derived為程式推算 |
-| `record_kind` | observation為原報觀測；derived_summary為推算；context_component只解釋混合合計 |
+| `record_kind` | observation為原報觀測；derived_summary為推算；context_component為脈絡列，例如混合合計分項或純數位作業；不納實體修復量 |
 | `source_scope`、`subject_scope` | 年度、批次、計畫、館藏／受託等範圍。未逐件核權屬者照實標示 |
 | `completion_status` | 原報是否明載完成或僅列年度執行；不把計畫目標當完成量 |
 | `source_id` | 對應sources。識別由PDF SHA前16碼產生，完整SHA仍保留 |
@@ -38,3 +38,22 @@
 SQLite的`observations`保留常用欄位的數字／null，另有完整`record_json`。其他表保留每列`record_json`，供SQLite JSON函式或程式讀取。不要對整張表執行SUM當全國修復總量；可按館名、年份與原詞篩選後回原件引用。
 
 所有原件與頁碼的實際轉錄核對，與離線格式一致性檢查是兩個不同工作。`scripts/build_exports.py --check`不會重新下載原件，不能被描述成原件內容再次驗證。
+
+## 跨年期間與正文覆讀（v0.2.0起）
+
+原報只給跨年共同數字時，`data_year=null`，`year_assignment_status=multi_year_not_allocated`；`reporting_period_raw`保留原期間，`data_year_start/end`只記來源明示的起訖年，不杜撰月日。這筆只存一次，不複製成各年的值，也不除以年數造成年平均。查找某年時請同時查看明示期間是否涵蓋該年。
+
+`body_reviews`另記本批每個目標館所年度的有限覆讀範圍，與數值觀測分開。`target_data_year`是查找目標，不會使跨年報告的數字自動成為當年數字。`source_ids`連到有原件SHA的來源；僅入口或未取得正文不升級為原件已讀。`reviewed_pdf_pages_1_based`只表示列出的正文頁，書目／版權頁核對不等於年報全文覆讀。
+
+| review_status | 解讀 |
+|---|---|
+| numeric_observations_verified | 所列來源及頁面有本版納入的數字；仍看各觀測的年度與期間 |
+| body_read_no_eligible_quantity_located | 在已列章節／頁面未定位本題合格數量；不是全館零修護或未公開 |
+| source_found_body_not_reviewed | 找到來源，但本文覆讀仍待完成 |
+| source_not_located_in_this_search | 本輪限定搜尋未定位來源，保留缺值 |
+| annual_scope_not_separable | 合刊或跨年資料不能拆到目標單年；若有合格跨年觀測則只存一次 |
+| outside_selected_scope | 已列正文內容屬其他作業，本批未作修護數字收錄 |
+
+`missing_quantity_is_zero`固定false。科學館的標本採集、入藏、初次製作、活體照養、研究／數位化與設施維修不能只因同頁出現「修復」便改作既有館藏完成修復量。公共來源中的無關人類遺骸個案也不在這批公開範圍。
+
+主檔schema_version自本版為2.0：data_year允許跨年null，並新增body_reviews。資料版本(dataset_version)與結構版本分開；舊版結構及內容保留於v0.1.0。

@@ -42,7 +42,14 @@ def validate(facts,inventory,version):
         official_url(s['official_landing_url']);official_url(s['official_file_url'])
     for r in obs:
         assert r['source_id']in sid
-        assert isinstance(r['data_year'],int)and 1900<=r['data_year']<=2100
+        if r['data_year']is None:
+            assert r.get('year_assignment_status')=='multi_year_not_allocated'
+            assert r.get('reporting_period_raw')
+            start,end=r.get('data_year_start'),r.get('data_year_end')
+            assert isinstance(start,int)and isinstance(end,int)and 1900<=start<end<=2100
+        else:
+            assert isinstance(r['data_year'],int)and 1900<=r['data_year']<=2100
+            assert r.get('year_assignment_status')!='multi_year_not_allocated','A multi-year figure must not be assigned to one year.'
         assert isinstance(r['pdf_page_1_based'],int)and r['pdf_page_1_based']>0
         assert r['metric_as_reported']
         if r['unit_as_reported']is None:assert r.get('unit_status')=='not_stated_in_source'
@@ -82,14 +89,31 @@ def validate(facts,inventory,version):
     text=encode([facts,inventory]).decode()
     for pattern in [r'/Users/',r'file://',r'drive\.google\.com',r'localhost',r'127\.0\.0\.1',r'@[A-Za-z0-9.-]+\.[A-Za-z]{2,}',r'AIza[\w-]{20,}',r'gh[pousr]_[A-Za-z0-9]{20,}']:
         assert not re.search(pattern,text),('prohibited_public_content',pattern)
-    return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_pdf_versions':len(sources),'inventory_lookup_grid_cells_not_facts':len(keys),'inventory_status_counts':dict(Counter(r['status']for r in inv)),'unknown_values_are_not_zero':True,'source_pdf_revalidation_performed':False}
+    reviews=facts.get('body_reviews',[])
+    rid=[r['review_id']for r in reviews];assert len(rid)==len(set(rid))
+    source_map={s['source_id']:s for s in sources}
+    for r in reviews:
+        assert isinstance(r['target_data_year'],int)
+        assert r['review_status']in ['numeric_observations_verified','body_read_no_eligible_quantity_located','source_found_body_not_reviewed','source_not_located_in_this_search','annual_scope_not_separable','outside_selected_scope']
+        for v in r['source_ids']:assert v in sid,('review_source_missing',v)
+        for v in r['observation_ids']:assert v in ids,('review_observation_missing',v)
+        if r['review_status']in ['numeric_observations_verified','body_read_no_eligible_quantity_located','annual_scope_not_separable','outside_selected_scope']:assert r['source_ids']
+        assert r['missing_quantity_is_zero']is False
+        for detail in r['source_page_reviews']:
+            assert detail['source_id']in r['source_ids']
+            assert all(isinstance(p,int)and p>0 for p in detail['pdf_pages_1_based'])
+            maximum=source_map[detail['source_id']].get('original_file_pdf_pages')
+            if maximum:assert all(p<=maximum for p in detail['pdf_pages_1_based'])
+        assert r['reviewed_pdf_pages_1_based']==sorted({p for detail in r['source_page_reviews']for p in detail['pdf_pages_1_based']})
+    assert s.get('body_review_target_year_cells',0)==len(reviews)
+    return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_pdf_versions':len(sources),'multi_year_records_not_allocated_to_years':sum(r['data_year']is None for r in obs),'new_cohort_source_year_reviews':len(reviews),'inventory_lookup_grid_cells_not_facts':len(keys),'inventory_status_counts':dict(Counter(r['status']for r in inv)),'unknown_values_are_not_zero':True,'source_pdf_revalidation_performed':False}
 def generate(facts,inventory,version):
-    tables={'observations':facts['observations'],'sources':facts['sources'],'relations':facts['relations'],'source_inventory':inventory['source_inventory_records'],'baseline_organizations':inventory['baseline_71_organizations'],'supplemental_organizations':inventory['supplemental_14_organization_candidates'],'facility_candidates':inventory['additional_13_public_facility_candidates'],'name_relations':inventory['name_relations']}
+    tables={'observations':facts['observations'],'sources':facts['sources'],'relations':facts['relations'],'body_reviews':facts.get('body_reviews',[]),'source_inventory':inventory['source_inventory_records'],'baseline_organizations':inventory['baseline_71_organizations'],'supplemental_organizations':inventory['supplemental_14_organization_candidates'],'facility_candidates':inventory['additional_13_public_facility_candidates'],'name_relations':inventory['name_relations']}
     output={'data/facts.json':encode(facts),'metadata/inventory.json':encode(inventory)}
     coverage=[]
-    for organization,year in sorted({(r['organization_name'],r['data_year'])for r in facts['observations']}):
+    for organization,year in sorted({(r['organization_name'],r['data_year'])for r in facts['observations']},key=lambda v:(v[0],v[1]if v[1]is not None else -1)):
         selected=[r for r in facts['observations']if r['organization_name']==organization and r['data_year']==year]
-        coverage.append({'organization_name':organization,'data_year':year,'fact_rows':len(selected),'source_ids':sorted({r['source_id']for r in selected}),'complete_annual_quantity_series_verified':False,'note':'只表示本版已有這些正文分項；不是全館全年所有作業或不重複物件的完整統計。'})
+        coverage.append({'organization_name':organization,'data_year':year,'fact_rows':len(selected),'source_ids':sorted({r['source_id']for r in selected}),'reported_periods':sorted({r['reporting_period_raw']for r in selected if r.get('reporting_period_raw')}),'complete_annual_quantity_series_verified':False,'note':'只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。'})
     output['metadata/read_coverage.json']=encode({'dataset_version':version,'cohorts':coverage,'note':'與凍結的426格盤點狀態不同；不回填未知數值為零。'})
     for name,rows in tables.items():
         output[f'data/{name}.jsonl']=jsonl_bytes(rows)

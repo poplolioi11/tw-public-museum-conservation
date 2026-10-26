@@ -36,6 +36,19 @@ def main():
     for expected,actual in zip(rows,csvrows):
         for k in builder.columns(rows):assert str(builder.flat(expected.get(k)))==actual[k],(expected['observation_id'],k)
     assert len(rows)==len(csvrows)
+    reviews=facts.get('body_reviews',[])
+    review_lines=[json.loads(line)for line in(ROOT/'data/body_reviews.jsonl').read_text().splitlines()]
+    assert reviews==review_lines
+    with sqlite3.connect(ROOT/'data/museum-conservation.sqlite')as con:
+        assert [json.loads(r[0])for r in con.execute('SELECT record_json FROM body_reviews ORDER BY row_number')]==reviews
+    # Multi-year values are stored once with a period, never assigned to a single year.
+    multi=json.loads(json.dumps(facts));mr=multi['observations'][0]
+    mr.update(data_year=None,reporting_period_raw='2020–2022',data_year_start=2020,data_year_end=2022,year_assignment_status='multi_year_not_allocated')
+    builder.validate(multi,inventory,version)
+    mr['data_year']=2021
+    try:builder.validate(multi,inventory,version)
+    except AssertionError:pass
+    else:raise AssertionError('multi-year figure silently became a single-year value')
     with tempfile.TemporaryDirectory()as tmp:
         root=Path(tmp)/'pilot';root.mkdir()
         for folder in ['data','metadata','scripts']:shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns('__pycache__'))

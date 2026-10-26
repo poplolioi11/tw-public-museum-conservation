@@ -1,0 +1,28 @@
+{
+  "dataset_version": "0.2.0",
+  "milestones": [
+    {
+      "scope": "美術館首個可引用子集",
+      "completed_in_release": "v0.1.0",
+      "organization_count": 5,
+      "fact_and_context_rows": 48,
+      "source_pdf_versions": 16,
+      "national_or_all_years_complete": false
+    },
+    {
+      "scope": "自然史與科學館首批來源查核",
+      "completed_in_release": "v0.2.0",
+      "new_target_organizations": 3,
+      "source_year_review_records": 18,
+      "new_fact_and_context_rows": 42,
+      "source_year_status_counts": {
+        "numeric_observations_verified": 6,
+        "body_read_no_eligible_quantity_located": 11,
+        "source_not_located_in_this_search": 1
+      },
+      "new_original_pdf_versions": 25,
+      "national_or_all_years_complete": false
+    }
+  ],
+  "ongoing_gaps": "美術館與其他館所缺漏年度繼續追蹤；有可引用子集即可轉入下一批，不把查找狀態改成零或未公開。"
+}

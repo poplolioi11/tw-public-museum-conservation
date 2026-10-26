@@ -25,7 +25,7 @@
 
 以下條款僅適用本專案有權授權的自行撰寫程式與說明文件，不包含上游原件及第三方內容。
 
-Copyright (c) 2026 tw-public-museum-conservation contributors
+Copyright (c) 2026 Chen-Yu Chu and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

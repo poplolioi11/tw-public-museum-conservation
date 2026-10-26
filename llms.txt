@@ -1,6 +1,6 @@
 # 臺灣公立館保存修護公開資料索引（持續整理）
 
-> 官方保存修護資料的來源與已覆讀分項索引。v0.1.0首次公開試行版；不代表全國完整館數、完整年度修護總量或可比較績效。
+> 官方保存修護資料的來源與已覆讀分項索引。v0.2.0擴充版；不代表全國完整館數、完整年度修護總量或可比較績效。
 
 - 資料截至：2026-10-26
 - 發行日期：2026-10-26
@@ -33,4 +33,13 @@
 - [正文分項涵蓋](metadata/read_coverage.json)
 - [欄位字典](docs/DATA_DICTIONARY.md)
 
-115列包含113筆原報觀測、1筆derived_summary、1筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
+157列包含154筆原報觀測、1筆derived_summary、2筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
+
+## 新增資料的必要限制
+
+- [本批正文覆讀JSONL](data/body_reviews.jsonl)與[CSV](data/body_reviews.csv)：查找目標年度，不是文物修護量。
+- [正文覆讀欄位規格](schema/body_review.schema.json)。
+- data_year為null時，請查看reporting_period_raw與data_year_start/end；跨年合計只存一筆，不能複製成每年相同產出或平均。
+- body_read_no_eligible_quantity_located代表所列範圍未定位合格數字，不代表零修護、業務不存在或整份報告未公開。標本新增／初製、活體照養及數位化不自動等同實物修護。
+
+整理與發布：曲宸宇（Chu, Chen-Yu）；poplolioi11是同一人的GitHub帳號，非第二位作者。

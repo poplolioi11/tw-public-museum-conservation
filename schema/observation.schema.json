@@ -14,7 +14,10 @@
       "const": false
     },
     "data_year": {
-      "type": "integer",
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 1900,
       "maximum": 2100
     },
@@ -128,6 +131,30 @@
     },
     "derivation": {
       "type": "object"
+    },
+    "reporting_period_raw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "year_assignment_status": {
+      "enum": [
+        "single_year_as_reported",
+        "multi_year_not_allocated"
+      ]
+    },
+    "data_year_start": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "data_year_end": {
+      "type": [
+        "integer",
+        "null"
+      ]
     }
   },
   "required": [

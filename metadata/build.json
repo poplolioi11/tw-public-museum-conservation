@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
-  "canonical_fact_projection_sha256": "d9a62dcbc5ce0244bc1ac5d54649c250636502e67f3e276c18237f1e92167dd0",
+  "canonical_fact_projection_sha256": "ce0d953e17c2427b1854cd06a6434981d5304bdd22274583ec51a83396efcb7a",
   "checks": {
-    "context_components": 1,
+    "context_components": 2,
     "derived_summaries": 1,
-    "fact_rows": 115,
+    "fact_rows": 157,
     "inventory_lookup_grid_cells_not_facts": 426,
     "inventory_status_counts": {
       "historical_entity_scope_changed": 4,
@@ -14,13 +14,15 @@
       "parent_report_candidate": 13,
       "searched_not_located": 200
     },
-    "organizations_with_facts": 12,
-    "original_pdf_versions": 41,
+    "multi_year_records_not_allocated_to_years": 3,
+    "new_cohort_source_year_reviews": 18,
+    "organizations_with_facts": 13,
+    "original_pdf_versions": 66,
     "source_pdf_revalidation_performed": false,
-    "source_reported_observations": 113,
+    "source_reported_observations": 154,
     "unknown_values_are_not_zero": true
   },
-  "dataset_version": "0.1.0",
+  "dataset_version": "0.2.0",
   "exports": {
     "data/baseline_organizations.csv": {
       "bytes": 34777,
@@ -29,6 +31,14 @@
     "data/baseline_organizations.jsonl": {
       "bytes": 65046,
       "sha256": "26c5548c0f470de712c4d94c95d3c60e58d266397d8faf5a06ecfeea3509773d"
+    },
+    "data/body_reviews.csv": {
+      "bytes": 14167,
+      "sha256": "e9a822ce3762737cac7064e6477f4d63f21f5ceda9711dc86cbef906026fe048"
+    },
+    "data/body_reviews.jsonl": {
+      "bytes": 18604,
+      "sha256": "6972676e6c6d5d686f89166f21f984eb1c9f15c8dfeaee80141f51de8df7994f"
     },
     "data/facility_candidates.csv": {
       "bytes": 5064,
@@ -39,12 +49,12 @@
       "sha256": "f4678e49d47e5e3ab58be74d085cb8545d9d95e718944fb841bc683a80269320"
     },
     "data/facts.json": {
-      "bytes": 214414,
-      "sha256": "d9a62dcbc5ce0244bc1ac5d54649c250636502e67f3e276c18237f1e92167dd0"
+      "bytes": 325096,
+      "sha256": "ce0d953e17c2427b1854cd06a6434981d5304bdd22274583ec51a83396efcb7a"
     },
     "data/museum-conservation.sqlite": {
-      "bytes": 876544,
-      "sha256": "6c3db0910a2319041dddd63ce72ccc8c4c2000ecb80aac8e8027c3a6d4a7835f"
+      "bytes": 999424,
+      "sha256": "89ff2c91472ad9d19c67e8c55ba8be62b35e644d66a273f4e6898a6ed6d11566"
     },
     "data/name_relations.csv": {
       "bytes": 5107,
@@ -55,20 +65,20 @@
       "sha256": "ec8f241113652b44313a341cc62f0df228bee3088b921330bcd5bf2017635d23"
     },
     "data/observations.csv": {
-      "bytes": 78562,
-      "sha256": "edab420620adb0c94b6bb7b0d9a07389e83e4b85e939f64238eecb3383bcee59"
+      "bytes": 103646,
+      "sha256": "68c941acb77bcb1cb3df5d9b602558b740437d6f35aee95cad33a2bf32bb8ae6"
     },
     "data/observations.jsonl": {
-      "bytes": 142430,
-      "sha256": "75633718b7635296d50d88a8d1485ddeaa417210b4a586574325589a60d86b30"
+      "bytes": 190876,
+      "sha256": "d83316392f1930aa84fad87eb6e6cb4377accb898ce9ccc62046fc21b6b56e50"
     },
     "data/relations.csv": {
-      "bytes": 6552,
-      "sha256": "81a0c8f78fdf84aff667debd6bda646f57cfb76fae11a1eb66b25459df110754"
+      "bytes": 9245,
+      "sha256": "09f13fab1b060d6a7312597b60c50d60bb6d1140aa9457e9b7bd1e6289897c1f"
     },
     "data/relations.jsonl": {
-      "bytes": 7236,
-      "sha256": "e2b4edc1546a5a058fdc81673626f2eeb947211f683c00e13e3e011981e50301"
+      "bytes": 10342,
+      "sha256": "458685ff44cb353c020f0021c0bd2260938376f41e39f572f4e6f25b2382dc5a"
     },
     "data/source_inventory.csv": {
       "bytes": 187740,
@@ -79,12 +89,12 @@
       "sha256": "1961e95e0329de751ebd9fcf8a4ede66b049f305a9a400be5edb8d7ab897f0ea"
     },
     "data/sources.csv": {
-      "bytes": 18912,
-      "sha256": "f88f3d74d7d0de5a1444adf1801f62b6f9ee69ad83a60936918e69f0af8f7b92"
+      "bytes": 32706,
+      "sha256": "bfcb434bc65b52738277b7cad1f0d06f012b29d00eb6ff3c5836c4d24640b2e4"
     },
     "data/sources.jsonl": {
-      "bytes": 26987,
-      "sha256": "e39df3d0c4aae36e4a1e78602f45e94b41cda4f1058178e338022fb949a6a635"
+      "bytes": 47370,
+      "sha256": "f40106e9c0ba66da3cd9a899b94d25d7a9b1895f9732795a73794d430111318e"
     },
     "data/supplemental_organizations.csv": {
       "bytes": 8265,
@@ -99,8 +109,8 @@
       "sha256": "6b558af0cdf3b9bf4ac6cabf30d62078779525572501621b7d7f9dd3da55f49f"
     },
     "metadata/read_coverage.json": {
-      "bytes": 14808,
-      "sha256": "77d72b4a30cd740472279919aa85e9c90e302385342e0a2b534671f0a7017e29"
+      "bytes": 21251,
+      "sha256": "78a0caa39221949ceebc5c96d9b5a13aa4d1ff8b844759797f9a8842f8fd1726"
     }
   },
   "inventory_projection_sha256": "6b558af0cdf3b9bf4ac6cabf30d62078779525572501621b7d7f9dd3da55f49f",
@@ -141,6 +151,21 @@
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDg5L3JlbGZpbGUvMTI2MTUvMjU2MjY1LzQ2NjgzZTQwLWY4MzMtNGUxOS04YzQyLTQzNWFhODNkMmJmMS5wZGY%3d&n=5ZyL56uL6Ie654Gj576O6KGT6aSoIOW5tOWgsSAyMDI1LnBkZg%3d%3d": [
       "c18e42d214521bc8da5e1270cb13556819f06e1ea2cc83bdc298b132e30869c8"
     ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMTc0NDU0LzI0NWQ0YTQ1LWY5OGQtNDVmNy1iMTI2LWM2Y2M1ZmRkM2RkNi5wZGY%3d&n=MjAyMC0yMDIy5bm05aCxKOS4reaWhykucGRm": [
+      "2719393925df110b670eafc39c467b9ba9744897067807bb36c1358dfb217445"
+    ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMjAwNzY4LzA1YjI3N2MwLTgzNDItNGJiZC05OWQ0LTk2MzAyMmJhYzRhOS5wZGY%3d&n=MTEy5bm05bqm5Zau5L2N5rG6566XLnBkZg%3d%3d": [
+      "a8c5a3dcb85b436af213a4c58f1cdaa986018e755308d567bb56bafdf507735d"
+    ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMjMxNzIwL2E1OGE3NGE4LTE2OTgtNGM1Mi1hYzU0LTBmNjNhMzEyMmY2OS5wZGY%3d&n=MTEz5bm05bqm5Zau5L2N5rG6566XLnBkZg%3d%3d": [
+      "1601e5ec42353271b2a8559b8e38af6a528d11d5dd4f522af4c561fd5240b108"
+    ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMjU2ODMxLzM5ZjZlNDc5LWNmOTAtNDE4ZC1hMzY0LWM5YzRjY2JkNjQ5ZS5wZGY%3d&n=5Y%2by5YmN6aSoMjAyMy0yNOW5tOWgse%2b8iOi3qOmgge%2b8iS5wZGY%3d": [
+      "997d39e23f9ca9f4e1ba84433a00a7c26e46fcb6384c61c53741dcc1462985cd"
+    ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMjUwNjY2LzI1ZWVjNzYwLTFmNTMtNDI5NC04N2NjLWU0MjkxZTU2Njc2OS5wZGY%3d&n=MTE05bm05bqm5Zau5L2N5rG6566X5pu4LnBkZg%3d%3d": [
+      "e8a33d179cc672b7c82c6204a6209b210c52a1a5e945d03ce589e19292d7f4ac"
+    ],
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNTA0L3JlbGZpbGUvMTMwOTQvMTM5MDcyLzM4ZTIwYzM3LThhMzYtNGEyNi1iNWFlLTg5MDVmYTg5OTZjNy5wZGY%3d&n=5ZyL56uL6Ie654Gj5paH5a246aSo5bm05aCxMjAyMC5wZGY%3d": [
       "825508857b400d1306dc75ffeb5aa97198b64e24464ac7e38364675592fcf659"
     ],
@@ -171,17 +196,26 @@
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNTI4L3JlbGZpbGUvMTM3NzYvMjYwNTIzLzA5Y2VjNTUyLWMwNGYtNDk1YS04ZjRiLTlmMzYzODQzMzE1Ny5wZGY%3d&n=MjAyNeW5tOWgseWumOe2suS4iuWCsy5wZGY%3d": [
       "2dd0b44205a663a3ec6d53b56f9c38703859740cb204eed5e055caba6c8feb4b"
     ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjEwMy82M2M5ZWQxNC02ZTlmLTQ1MzQtYWExZS1mZTgzZmUyNWViNGEucGRm&n=MTA55bm05bqm5rG6566XLnBkZg%3d%3d": [
+      "a7de25376d0fd19698ee11c8af914242a0e17fdee5c578498a928dcf42a85fd8"
+    ],
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjEwNy8xY2QzODIzYS0zODM3LTQwYzItYTM0Zi01MDU5MWE5OTRlMzEucGRm&n=MWNkMzgyM2EtMzgzNy00MGMyLWEzNGYtNTA1OTFhOTk0ZTMxLnBkZg%3d%3d": [
       "b355d5de6bb9a4169500a8523b87d4126b8b496fda38044539c520bc04d67b12"
     ],
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjExMS84ZDYxYTUzZi04ZWM2LTQzYTItOTJlNC1hYjQ1YzI1ZjQzMzgucGRm&n=5ZyL56uL6Ie654Gj576O6aSo5bm05aCxMjAyMC5wZGY%3d": [
       "6e43c1a029b93326401cea8bf7553fc0c24b28e47d1516fc637cbffd0e91be20"
     ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjIwMy83ZmE4ZTIyMi1hYjMzLTQ5MmYtYjczMC1mNmU5M2Y3NzdmNTgucGRm&n=MTEw5bm05bqm5rG6566XLnBkZg%3d%3d": [
+      "8e245d146620acde1c2220a69e92f5280a9235e959aad5a0394b7dee91041485"
+    ],
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjIwNi8yNGVlZTI0NC02OWVjLTQ3MGMtOGE4Ny0zOTRjZDZiMzFiMjkucGRm&n=MjRlZWUyNDQtNjllYy00NzBjLThhODctMzk0Y2Q2YjMxYjI5LnBkZg%3d%3d&icon=.pdf": [
       "4312130fd64464a6442e895f81881bbc70092fe5876982a3b34739dbec8a1f17"
     ],
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjMwMS9iNDNhMTY4Ny0zNzA0LTQ1YTEtYmQ0My0zNTU1ZDlkNjI4OWMucGRm&n=5ZyL56uL6Ie654Gj5q235Y%2by5Y2a54mp6aSo5bm05aCxMjAyMS5wZGY%3d": [
       "29ca2a49f86745bec6a93f9047f288175836fe9f3cb1637ab3006f064ac5aee5"
+    ],
+    "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjMwMi8yMTM0YTkyNy1mN2Y2LTQ4MzYtYmNkMi1mNzFlM2Y3OGU2OTMucGRm&n=MTEx5bm05bqm5rG6566XLnBkZg%3d%3d": [
+      "746b9550b354b0186e4f67538a209ffb02b6806b123b2c44c67ccb930255cd6a"
     ],
     "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjMwNy80MTM1Y2MyZC1jNjVkLTQ2N2MtYjYyMC03NjVmMGFhZTM0NzgucGRm&n=NDEzNWNjMmQtYzY1ZC00NjdjLWI2MjAtNzY1ZjBhYWUzNDc4LnBkZg%3d%3d&icon=.pdf": [
       "e44d61b21eb270e525475781b3e3568651ff09773264c4b2f292a67b8fd931b1"
@@ -192,6 +226,36 @@
     "https://ntcart.museum/retrieve/opendata/202604151149505100.pdf": [
       "b0540f9e81020edcd76623315ce65f70712f2faf1f8a4871dab454f63f162eb3"
     ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMjM3Ny8zNzYyNDEyNy04OWI5LTRlYjAtYTFlNy04ZmYwOTU5NzVhNmIucGRm&n=aOa1t%2beUn%2bmkqF8xMTDlubTloLFfMTXniYjmrIrpoIEucGRm&icon=.pdf": [
+      "b42b4fee2e9fd74bda370e808d5c7037c5a7c15604a810ce12199def8a7e4a5c"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMjM3Ny9hMGY3ZmUxYy1iMjFhLTQ5NzAtYjkzYS1lNWEzZTI2YTVmM2UucGRm&n=aOa1t%2beUn%2bmkqF8xMTDlubTloLFfMDblhbjol4%2fokpDpm4YucGRm&icon=.pdf": [
+      "bc2b40d4ddf8cf1a7c7d73e7d51b637a9345e5b9784b25180af6815db6f37785"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMjcxMi85ZDM5M2U2Zi02YzY4LTRjZjgtYWI2Yi04YWYwYmE5YWM5NTIucGRm&n=aOa1t%2beUn%2bmkqF8xMTHlubTloLFfMTXniYjmrIrpoIEucGRm&icon=.pdf": [
+      "35a9a8188c80dfd7a421bad6916c1be9210a64b435a81204d8a9f64d052cd7d5"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMjcxMi8zYjRlMDhmNC0wNGIwLTRmNWQtOWNmMC05Njk3ZTk5OTZjMDUucGRm&n=aOa1t%2beUn%2bmkqF8xMTHlubTloLFfMDblhbjol4%2fokpDpm4YucGRm&icon=.pdf": [
+      "c55ef828d4d467d3e08f8be9e47f183b67abcc47e620c78fe0c2cb7437fbfdc2"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMzE0OS9jNmRmNDM1Ni05NzI1LTRmZDQtOTgzYi05ZGU2NzJhNjE3OTkucGRm&n=aOa1t%2beUn%2bmkqF8xMTLlubTloLFfMTXniYjmrIrpoIEucGRm&icon=.pdf": [
+      "9f101d98f168fcf3380fad9fae84afebf22bcd3917d7ed77bb54b3cd4e7bbeee"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMzE0OS9lODY0NDVlMC0xZjIyLTRlODgtYTE0YS0zNjg5MDY4NGU3MzMucGRm&n=aOa1t%2beUn%2bmkqF8xMTLlubTloLFfMDblhbjol4%2fokpDpm4YucGRm&icon=.pdf": [
+      "c6843c2fc71183c6c5add5622aa7cd1b84a85a3d9fe2bfee0c81713e9f219cdc"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xNDM1Ny80MzE1NDExNS0zNGM0LTQ5MDgtYTI0Mi1jZDZkYWI4ODE5ZWUucGRm&n=5rW355Sf6aSoXzExM%2bW5tOWgsV8wNuWFuOiXj%2biSkOmbhi5wZGY%3d&icon=.pdf": [
+      "8b32f5d50c602a6e6f43df40bba91d38a5d721f19b5b531d0898aebbaba68ca5"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xNDM1Ny8yZTYyYjcwYS0yNDA4LTRlYjItYjcyMS05NzJkMGJkMmQ5NzkucGRm&n=5rW355Sf6aSoXzExM%2bW5tOWgsV8xNOeJiOasiumggS5wZGY%3d&icon=.pdf": [
+      "a7f876ac1a7f212c71e5d684da1fb516e46e5008602c8fcc61dce6fb8f190264"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xNTE4Mi80NDhjZTgwYy0xNTc4LTQ4MTgtYTNhMi00NWUxNWE3MDM5YWIucGRm&n=aOa1t%2beUn%2bmkqF8xMTTlubTloLFfMDblhbjol4%2fokpDpm4YucGRm&icon=.pdf": [
+      "c69ce01b9e8cf6889a25c242c52847f4164c0018631d52f816dd2be1fc68ad78"
+    ],
+    "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xNTE4Mi8wYjE2MzUzYS1mNWI4LTQxNmUtOGRlMi00ZDVlYzRkZjIyNWMucGRm&n=aOa1t%2beUn%2bmkqF8xMTTlubTloLFfMTjniYjmrIrpoIEucGRm&icon=.pdf": [
+      "7ecbf0fbbde9241ec1eb310736a746038b9642f6a36d6bd844951e60fef0cf56"
+    ],
     "https://ws.tycg.gov.tw/001/Upload/86/relfile/13658/997426/733bbfc2-b69d-47ca-adae-ec326875c8d2.pdf": [
       "c24f15432c939e9378b5385b2180247ca7d654849a6c662e4bf4fb3be1c0fb4b"
     ],
@@ -200,6 +264,27 @@
     ],
     "https://www.kmfa.gov.tw/FileDownload/Journals/20170913182030457670956.pdf": [
       "cbc631aca1cc8b5b2553a06d6f883fc82816d1cedd8586ef857b664597cb45ac"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20210222.pdf": [
+      "b4178df637adb32c6e0d7f0b32f5c70eb246ffc757b6b3f13eb5a3ca952a9309"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20220608.pdf": [
+      "13b282621e0ce0d2c451df4d1ceb5a32d8f2b5b0f16d1e5ac212dee9706de5a3"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20230221-1.pdf": [
+      "57930feb3f1cf31a9bafa18abbbe9f6979a3d13e3bc9ea25cb52f35127732cb9"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20240229.pdf": [
+      "8aaf869c68ad10009b44cf5829f371752bd6e1595c7757ba022c321fdc716d7c"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20250226.pdf": [
+      "f4a2758244caabcca4950996ff74a06763a1e677fdc0b67aa77bb79fc375a7d1"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20251231.pdf": [
+      "77dc95839eef88b35955971ccfb862078ef32c2589786bb59eb82dd16ef146dc"
+    ],
+    "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20260226.pdf": [
+      "efcfdffa1a3df2706f6386c895830288ee517c80f745c6472e2010d26090c6c2"
     ],
     "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0N201509776836768754/111%E5%B9%B4%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%B9%B4%E5%A0%B1%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf": [
       "156e842aaaed49d8787e2cb30220362d8939148e39c971be77957ea368d83f49"
