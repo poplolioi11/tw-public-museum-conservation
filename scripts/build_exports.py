@@ -8,6 +8,7 @@ import argparse, csv, hashlib, io, json, os, re, sqlite3, tempfile, unicodedata
 from pathlib import Path
 from collections import Counter
 from urllib.parse import urlparse
+from classify_facets import facets,vocabulary
 
 ROOT=Path(__file__).resolve().parents[1]
 if not __debug__:raise SystemExit('Validation must run with normal Python, without -O or PYTHONOPTIMIZE.')
@@ -39,6 +40,7 @@ def validate(facts,inventory,version):
         h=s['original_file_sha256'];assert re.fullmatch('[a-f0-9]{64}',h)
         assert s['source_id']=='src-'+h[:16]
         assert s['original_file_bytes']>0 and s['redistributed_original']is False
+        assert s['original_file_type']in ['PDF','HTML']
         official_url(s['official_landing_url']);official_url(s['official_file_url'])
     for r in obs:
         assert r['source_id']in sid
@@ -56,6 +58,7 @@ def validate(facts,inventory,version):
         assert r['default_aggregation_allowed']is False
         assert r['cross_museum_comparable']is False
         assert r['unique_object_count_verified']is False
+        for key,value in facets(r).items():assert r[key]==value,('query_facet_mismatch',r['observation_id'],key)
         value=r['quantity_numeric'];raw=r['quantity_raw']
         if value is not None:assert isinstance(value,(int,float))and not isinstance(value,bool)and value>=0
         if r['numeric_origin']=='controller_derived':
@@ -81,7 +84,9 @@ def validate(facts,inventory,version):
     assert all({y for ident,y in keys if ident==i}==set(range(2020,2026))for i in baseline_ids)
     s=facts['summary'];assert s['total_fact_rows']==len(obs)
     assert s['organizations_with_facts']==len({r['organization_name']for r in obs})
-    assert s['verified_original_pdf_files']==len(sources)
+    assert s['verified_original_source_files']==len(sources)
+    assert s['verified_original_pdf_files']==sum(r['original_file_type']=='PDF'for r in sources)
+    assert s['verified_original_html_files']==sum(r['original_file_type']=='HTML'for r in sources)
     assert s['observation_records']==sum(r['record_kind']=='observation'for r in obs)
     assert s['context_component_records']==sum(r['record_kind']=='context_component'for r in obs)
     assert s['derived_summary_records']==sum(r['record_kind']=='derived_summary'for r in obs)
@@ -99,17 +104,40 @@ def validate(facts,inventory,version):
         for v in r['observation_ids']:assert v in ids,('review_observation_missing',v)
         if r['review_status']in ['numeric_observations_verified','body_read_no_eligible_quantity_located','annual_scope_not_separable','outside_selected_scope']:assert r['source_ids']
         assert r['missing_quantity_is_zero']is False
+        if r.get('extends_review_id'):assert r['extends_review_id']in rid
+        for locator in r.get('source_locators',[]):assert locator['source_id']in r['source_ids']and locator['locator']
         for detail in r['source_page_reviews']:
             assert detail['source_id']in r['source_ids']
             assert all(isinstance(p,int)and p>0 for p in detail['pdf_pages_1_based'])
             maximum=source_map[detail['source_id']].get('original_file_pdf_pages')
             if maximum:assert all(p<=maximum for p in detail['pdf_pages_1_based'])
         assert r['reviewed_pdf_pages_1_based']==sorted({p for detail in r['source_page_reviews']for p in detail['pdf_pages_1_based']})
-    assert s.get('body_review_target_year_cells',0)==len(reviews)
-    return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_pdf_versions':len(sources),'multi_year_records_not_allocated_to_years':sum(r['data_year']is None for r in obs),'new_cohort_source_year_reviews':len(reviews),'inventory_lookup_grid_cells_not_facts':len(keys),'inventory_status_counts':dict(Counter(r['status']for r in inv)),'unknown_values_are_not_zero':True,'source_pdf_revalidation_performed':False}
+    assert s['body_review_records']==len(reviews)
+    distinct_reviews={(r['organization_name'],r['target_data_year'])for r in reviews}
+    assert s['body_review_target_year_cells']==len(distinct_reviews)
+    return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_source_versions':len(sources),'original_pdf_versions':s['verified_original_pdf_files'],'original_html_versions':s['verified_original_html_files'],'multi_year_records_not_allocated_to_years':sum(r['data_year']is None for r in obs),'body_review_records':len(reviews),'distinct_source_year_review_cells':len(distinct_reviews),'inventory_lookup_grid_cells_not_facts':len(keys),'unknown_values_are_not_zero':True,'query_facets_reproduced':True,'source_pdf_revalidation_performed':False}
 def generate(facts,inventory,version):
     tables={'observations':facts['observations'],'sources':facts['sources'],'relations':facts['relations'],'body_reviews':facts.get('body_reviews',[]),'source_inventory':inventory['source_inventory_records'],'baseline_organizations':inventory['baseline_71_organizations'],'supplemental_organizations':inventory['supplemental_14_organization_candidates'],'facility_candidates':inventory['additional_13_public_facility_candidates'],'name_relations':inventory['name_relations']}
     output={'data/facts.json':encode(facts),'metadata/inventory.json':encode(inventory)}
+    output['schema/vocabulary.json']=encode(vocabulary())
+    source_map={s['source_id']:s for s in facts['sources']}
+    for r in facts['observations']:
+        ident=r['observation_id'];assert re.fullmatch('[A-Za-z0-9_-]+',ident)
+        output[f'catalog/records/{ident}.json']=encode({'dataset_version':version,'record':r,'source':source_map[r['source_id']],'versioned_record_url':f'https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v{version}/catalog/records/{ident}.json'})
+    catalog=['# 館所索引',f'\n版本：{version}。每館保留數值、跨年期間與來源查核狀態；不加總文物量。\n']
+    names=sorted({r['organization_name']for r in facts['observations']+facts.get('body_reviews',[])})
+    for name in names:
+        rows=[r for r in facts['observations']if r['organization_name']==name];reviews=[r for r in facts.get('body_reviews',[])if r['organization_name']==name]
+        orgid=next((r['organization_id']for r in rows+reviews if r.get('organization_id')),None);assert orgid
+        catalog.append(f'- [{name}](museums/{orgid}.md)：{len(rows)}列數值／推算／脈絡紀錄；{len(reviews)}則來源查核。')
+        lines=['# '+name,f'\n版本：{version}。以下為本版已核子集；列數不代表不重複文物或修復量。\n','|資料年／期間|原報作業|原數字與量詞|逐筆來源|','|---|---|---|---|']
+        for r in rows:
+            period=str(r['data_year'])if r['data_year']is not None else r['reporting_period_raw'];raw=r['quantity_raw']if r['quantity_raw']is not None else'程式推算 '+str(r['quantity_numeric'])
+            lines.append('|'+period+'|'+r['metric_as_reported'].replace('|','／')+'|'+str(raw)+' '+str(r['unit_as_reported']or'量詞未明')+'|['+r['observation_id']+'](../records/'+r['observation_id']+'.json)|')
+        lines+=['\n## 來源查核\n']
+        for r in reviews:lines.append(f"- {r['target_data_year']}｜{r['review_status']}：{r['review_scope']} {r['interpretation_note']}")
+        output[f'catalog/museums/{orgid}.md']=('\n'.join(lines)+'\n').encode()
+    output['catalog/README.md']=('\n'.join(catalog)+'\n').encode()
     coverage=[]
     for organization,year in sorted({(r['organization_name'],r['data_year'])for r in facts['observations']},key=lambda v:(v[0],v[1]if v[1]is not None else -1)):
         selected=[r for r in facts['observations']if r['organization_name']==organization and r['data_year']==year]
@@ -123,8 +151,8 @@ def generate(facts,inventory,version):
         for name,rows in tables.items():
             # Typed observations retain numeric nulls; every row also preserves canonical JSON.
             if name=='observations':
-                con.execute('CREATE TABLE observations(observation_id TEXT PRIMARY KEY,organization_name TEXT,data_year INTEGER,metric_as_reported TEXT,quantity_numeric REAL,quantity_raw TEXT,unit_as_reported TEXT,numeric_origin TEXT,source_id TEXT,pdf_page_1_based INTEGER,record_json TEXT NOT NULL)')
-                con.executemany('INSERT INTO observations VALUES(?,?,?,?,?,?,?,?,?,?,?)',[(r['observation_id'],r['organization_name'],r['data_year'],r['metric_as_reported'],r['quantity_numeric'],r['quantity_raw'],r['unit_as_reported'],r['numeric_origin'],r['source_id'],r['pdf_page_1_based'],json.dumps(r,ensure_ascii=False,sort_keys=True,separators=(',',':')))for r in rows])
+                con.execute('CREATE TABLE observations(observation_id TEXT PRIMARY KEY,organization_name TEXT,data_year INTEGER,metric_as_reported TEXT,quantity_numeric REAL,quantity_raw TEXT,unit_as_reported TEXT,numeric_origin TEXT,source_id TEXT,pdf_page_1_based INTEGER,action_categories_json TEXT,completion_category TEXT,subject_scope_category TEXT,record_json TEXT NOT NULL)')
+                con.executemany('INSERT INTO observations VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)',[(r['observation_id'],r['organization_name'],r['data_year'],r['metric_as_reported'],r['quantity_numeric'],r['quantity_raw'],r['unit_as_reported'],r['numeric_origin'],r['source_id'],r['pdf_page_1_based'],json.dumps(r['action_categories'],ensure_ascii=False),r['completion_category'],r['subject_scope_category'],json.dumps(r,ensure_ascii=False,sort_keys=True,separators=(',',':')))for r in rows])
             else:
                 con.execute(f'CREATE TABLE {name}(row_number INTEGER PRIMARY KEY,record_json TEXT NOT NULL)')
                 con.executemany(f'INSERT INTO {name} VALUES(?,?)',[(i+1,json.dumps(r,ensure_ascii=False,sort_keys=True,separators=(',',':')))for i,r in enumerate(rows)])

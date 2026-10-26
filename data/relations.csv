@@ -37,3 +37,5 @@
 ,,2024,,,,,,,"[""nmp-2024-south-total"",""nmp-2024-pottery-restoration"",""nmp-2024-bone-antler-arrangement"",""nmp-2024-donated-specimens"",""nmp-2024-research-bags"",""nmp-2024-ethnology-arrangement""]",,,,,,false,,,,within_year_overlap_unknown_do_not_sum,,
 ,,2025,,,,,,,"[""nmp-2025-transferred-arrangement"",""nmp-2025-ethnology-arrangement"",""nmp-2025-xrf-ethnology"",""nmp-2025-xrf-archaeology"",""nmp-2025-artwork-restoration""]",,,,,,false,,,,within_year_overlap_unknown_do_not_sum,,
 ,,,,,,,與2020至2022各年決算整飭量之範圍、含南科與否及批次重疊未核，不能相加或按年分攤。,,"[""nmp-2020-2022-archaeology-arrangement"",""nmp-2020-2022-ethnology-arrangement"",""nmp-2020-2022-natural-history-arrangement""]",,,,,,false,2020-2022,,,multi_year_report_not_allocated_and_overlap_unknown,,
+,,,,,,,2024含整飭建檔與登錄；2025寫整飭建檔，另列詮釋資料著錄。300餘與近300方向不同，不計變動率。,,"[""thcdc-2024-arrangement-registration"",""thcdc-2025-arrangement-cataloguing""]",,,,,,,,,,not_same_metric_across_years,,
+,,,,,,,2座為清整、修復、保存、複製共同敘述；不得拆成各作業均2座或加總為8座。,,"[""thcdc-2025-cannon-combined-treatment""]",,,,,,,,,,combined_actions_not_disaggregated,,

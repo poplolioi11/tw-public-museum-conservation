@@ -9,7 +9,7 @@ import argparse, concurrent.futures, hashlib, json, os, tempfile, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def check(source,cache,download):
-    h=source['original_file_sha256'];target=cache/(h+'.pdf')
+    h=source['original_file_sha256'];kind=source['original_file_type'];target=cache/(h+('.pdf'if kind=='PDF'else'.html'))
     result={'source_id':source['source_id'],'expected_sha256':h,'expected_bytes':source['original_file_bytes']}
     if not target.exists():
         if not download:return result|{'status':'not_in_cache_not_revalidated'}
@@ -31,7 +31,7 @@ def check(source,cache,download):
         finally:
             if temp and temp.exists():temp.unlink()
     actual=hashlib.sha256(target.read_bytes()).hexdigest()
-    ok=actual==h and target.stat().st_size==source['original_file_bytes']and target.open('rb').read(5)==b'%PDF-'
+    ok=actual==h and target.stat().st_size==source['original_file_bytes']and(kind!='PDF'or target.open('rb').read(5)==b'%PDF-')
     return result|{'status':'bytes_match_recorded_version'if ok else'cache_mismatch_review_required','actual_sha256':actual}
 def main():
     p=argparse.ArgumentParser();p.add_argument('--cache-dir',type=Path,required=True);p.add_argument('--download',action='store_true');p.add_argument('--workers',type=int,default=2);args=p.parse_args()

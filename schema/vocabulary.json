@@ -1,0 +1,40 @@
+{
+  "action_categories": {
+    "arrangement": "整飭／整理",
+    "cleaning": "清潔／除塵／除膠等",
+    "digital_restoration": "純數位修復",
+    "digitization": "數位化／掃描",
+    "inspection_registration": "檢視／登錄",
+    "maintenance": "保存維護／預防性保存",
+    "mixed_workflow": "原報混合作業／合計",
+    "mounting": "裝裱／重新裝潢",
+    "needs_review": "分類待核",
+    "restoration_as_reported": "修護／修復（依原報）",
+    "scientific_examination": "科學檢測",
+    "stabilization": "加固／搶救"
+  },
+  "completion_categories": {
+    "annual_execution_not_explicit": "年度執行，未明載完成",
+    "completed_at_stated_cutoff": "截至指定時點完成",
+    "completion_from_context": "依段落／父項完成脈絡",
+    "explicit_completed": "原文明載完成",
+    "in_progress": "進行中",
+    "needs_review": "狀態待核",
+    "not_explicitly_stated": "未明載完成狀態",
+    "performed_activity": "活動已施作"
+  },
+  "holding_scope_categories": {
+    "entrusted_collection_as_reported": "原報託管藏品",
+    "external_service_as_reported": "原報館外受託服務",
+    "mixed_or_not_confirmed": "混合／權屬待核",
+    "own_collection_as_reported": "原報本館藏品"
+  },
+  "limits": [
+    "分類是查詢標籤，不改寫原報詞、完成狀態或對象範圍。",
+    "同列可有多個作業標籤，未把原數字拆配到各標籤，也不證明每件均做所有作業。",
+    "修護／修復依原報廣義用語，不代表純修復或統一工作量。",
+    "原報本館藏品不代表本專案另做法律權屬調查。",
+    "未載逐件完成日期不代表未完成；分類只依保留的完成狀態文字，不另推進度。"
+  ],
+  "rule_version": "1.0"
+}

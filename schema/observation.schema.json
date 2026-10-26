@@ -155,6 +155,28 @@
         "integer",
         "null"
       ]
+    },
+    "action_categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "completion_category": {
+      "type": "string"
+    },
+    "subject_scope_category": {
+      "type": "string"
+    },
+    "classification_rule_version": {
+      "type": "string"
+    },
+    "additional_pdf_pages_1_based": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
     }
   },
   "required": [
@@ -185,7 +207,11 @@
     "unit_as_reported",
     "unit_status",
     "verification_status",
-    "year_on_year_ready"
+    "year_on_year_ready",
+    "action_categories",
+    "completion_category",
+    "subject_scope_category",
+    "classification_rule_version"
   ],
   "additionalProperties": false
 }

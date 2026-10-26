@@ -57,3 +57,11 @@ SQLite的`observations`保留常用欄位的數字／null，另有完整`record_
 `missing_quantity_is_zero`固定false。科學館的標本採集、入藏、初次製作、活體照養、研究／數位化與設施維修不能只因同頁出現「修復」便改作既有館藏完成修復量。公共來源中的無關人類遺骸個案也不在這批公開範圍。
 
 主檔schema_version自本版為2.0：data_year允許跨年null，並新增body_reviews。資料版本(dataset_version)與結構版本分開；舊版結構及內容保留於v0.1.0。
+
+## v0.3.0查詢欄位與補充來源
+
+action_categories是來源作業用語的複選標籤；completion_category將明載完成、父項脈絡、截止時點、年度執行、進行中及未明載分開；subject_scope_category只依原報對象，不證明法律所有權。classification_rule_version記分類程式版本，詞表在schema/vocabulary.json。原始metric與completion_status不改。主檔結構版本為3.0。
+
+來源original_file_type可為PDF或HTML；HTML使用body_reviews.source_locators正文定位，PDF保留各來源頁映射。82個採用來源版本不是82份年度修復統計。body_review_records計查核則數，body_review_target_year_cells計唯一館所年度；同年不同來源scope可有多則，extends_review_id指向補充前的查核，舊紀錄不覆蓋。
+
+跨頁數值保留additional_pdf_pages_1_based，與首個pdf_page_1_based合讀；不將跨頁後半句當作另一份來源。

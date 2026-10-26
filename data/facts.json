@@ -661,12 +661,592 @@
       ],
       "target_data_year": 2025,
       "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "附件不能支持修護量，也不據此宣稱年度無修護或未公開。研究計畫索引的計畫年、完成月及網站更新時間不互相代換；索引未取得正文者不當年度數值。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lym.gov.tw/ch/press-releases/gov-info/",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2020-stage6",
+      "review_scope": "限定範圍的年度來源搜尋；既有附件未提供本題業務正文。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "附件不能支持修護量，也不據此宣稱年度無修護或未公開。研究計畫索引的計畫年、完成月及網站更新時間不互相代換；索引未取得正文者不當年度數值。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lym.gov.tw/ch/press-releases/gov-info/",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2021-stage6",
+      "review_scope": "限定範圍的年度來源搜尋；既有附件未提供本題業務正文。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "附件不能支持修護量，也不據此宣稱年度無修護或未公開。研究計畫索引的計畫年、完成月及網站更新時間不互相代換；索引未取得正文者不當年度數值。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lym.gov.tw/ch/press-releases/gov-info/",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2022-stage6",
+      "review_scope": "限定範圍的年度來源搜尋；既有附件未提供本題業務正文。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "附件不能支持修護量，也不據此宣稱年度無修護或未公開。研究計畫索引的計畫年、完成月及網站更新時間不互相代換；索引未取得正文者不當年度數值。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lym.gov.tw/ch/press-releases/gov-info/",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2023-stage6",
+      "review_scope": "限定範圍的年度來源搜尋；既有附件未提供本題業務正文。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "附件不能支持修護量，也不據此宣稱年度無修護或未公開。研究計畫索引的計畫年、完成月及網站更新時間不互相代換；索引未取得正文者不當年度數值。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lym.gov.tw/ch/press-releases/gov-info/",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2024-stage6",
+      "review_scope": "限定範圍的年度來源搜尋；既有附件未提供本題業務正文。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "已見館藏舟船修復完成敘述，但未量化；單一案例不升格全館年總量。2025館級年度報告/含業務敘述決算在本輪未定位。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.e-land.gov.tw/News_Content.aspx?n=11419&s=351290",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2025-stage6",
+      "review_scope": "官方單一舟船修復計畫HTML正文，非全館年度報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-24449dd73f61481f",
+        "src-7ce1f3c7ddc80ed7"
+      ],
+      "source_locators": [
+        {
+          "locator": "舟船修復計畫成果及完成敘述；不以獲贈數量當修復量。",
+          "locator_type": "html_article_body",
+          "source_id": "src-24449dd73f61481f"
+        },
+        {
+          "locator": "舟船修復計畫成果及完成敘述；不以獲贈數量當修復量。",
+          "locator_type": "html_article_body",
+          "source_id": "src-7ce1f3c7ddc80ed7"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "只記所列正文及原報複合作業分項，不代表全館純修復總量；未見數量不表示零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "review_id": "review-BASE-024-2020-stage6",
+      "review_scope": "中心層級年報／決算指定典藏業務頁；兩園區及雙年合計不拆。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        5,
+        10,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        49,
+        50,
+        79,
+        80,
+        128
+      ],
+      "source_ids": [
+        "src-8a91bc0b432c127f",
+        "src-e2b146bca4ef1417"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            10
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-e2b146bca4ef1417"
+        },
+        {
+          "pdf_pages_1_based": [
+            4,
+            5,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            49,
+            50,
+            79,
+            80,
+            128
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-8a91bc0b432c127f"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "只記所列正文及原報複合作業分項，不代表全館純修復總量；未見數量不表示零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "review_id": "review-BASE-024-2021-stage6",
+      "review_scope": "中心層級年報／決算指定典藏業務頁；兩園區及雙年合計不拆。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        5,
+        10,
+        13,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        49,
+        50,
+        79,
+        80,
+        128
+      ],
+      "source_ids": [
+        "src-8a91bc0b432c127f",
+        "src-d0dc904b9ab2f420"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            10,
+            13
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-d0dc904b9ab2f420"
+        },
+        {
+          "pdf_pages_1_based": [
+            4,
+            5,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            49,
+            50,
+            79,
+            80,
+            128
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-8a91bc0b432c127f"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "只記所列正文及原報複合作業分項，不代表全館純修復總量；未見數量不表示零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "review_id": "review-BASE-024-2022-stage6",
+      "review_scope": "中心層級年報／決算指定典藏業務頁；兩園區及雙年合計不拆。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        7,
+        8,
+        9,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        39,
+        95,
+        148
+      ],
+      "source_ids": [
+        "src-b86fe0ba9eb09519",
+        "src-bcd544bc8f8abc41"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            7,
+            8,
+            9
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-bcd544bc8f8abc41"
+        },
+        {
+          "pdf_pages_1_based": [
+            2,
+            3,
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            95,
+            148
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-b86fe0ba9eb09519"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "只記所列正文及原報複合作業分項，不代表全館純修復總量；未見數量不表示零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "review_id": "review-BASE-024-2023-stage6",
+      "review_scope": "中心層級年報／決算指定典藏業務頁；兩園區及雙年合計不拆。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9,
+        10
+      ],
+      "source_ids": [
+        "src-ae75de632c9b33e9"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            9,
+            10
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-ae75de632c9b33e9"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "只記所列正文及原報複合作業分項，不代表全館純修復總量；未見數量不表示零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "thcdc-2024-arrangement-registration"
+      ],
+      "official_entry_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "review_id": "review-BASE-024-2024-stage6",
+      "review_scope": "中心層級年報／決算指定典藏業務頁；兩園區及雙年合計不拆。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        11
+      ],
+      "source_ids": [
+        "src-25914afd071484bd"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            11
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-25914afd071484bd"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "只記所列正文及原報複合作業分項，不代表全館純修復總量；未見數量不表示零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "thcdc-2025-arrangement-cataloguing",
+        "thcdc-2025-cannon-combined-treatment"
+      ],
+      "official_entry_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "review_id": "review-BASE-024-2025-stage6",
+      "review_scope": "中心層級年報／決算指定典藏業務頁；兩園區及雙年合計不拆。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        10,
+        11,
+        12
+      ],
+      "source_ids": [
+        "src-ea75babb6f07764f"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            10,
+            11,
+            12
+          ],
+          "review_scope": "指定業務、典藏與出版日期頁；非整份文件全文。",
+          "source_id": "src-ea75babb6f07764f"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "年報第79頁明載藏品修護三分項與原報2020合計，單位件，附實體件數註記；已讀圖核數。 本輪指定表或業務列覆讀，不宣稱全文讀完；未見數量不等於修護量0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMTH-2020-emergency-stabilization",
+        "NMTH-2020-routine-maintenance",
+        "NMTH-2020-full-treatment",
+        "NMTH-2020-conservation-reported-total"
+      ],
+      "official_entry_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=139598",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "review_id": "review-BASE-007-2020-stage6",
+      "review_scope": "官方年報內藏品修護年度統計表",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        79
+      ],
+      "source_ids": [
+        "src-001c53971ebc4458"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            79
+          ],
+          "review_scope": "官方年報內藏品修護年度統計表",
+          "source_id": "src-001c53971ebc4458"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2020",
+      "interpretation_note": "決算總說明第6–7頁所讀典藏蒐集業務列為新增與典藏存量、交流及展示參訪，未見合格館藏修護數量；年度年報缺口仍未定位。 本輪指定表或業務列覆讀，不宣稱全文讀完；未見數量不等於修護量0或未公開。 原年報未定位的舊查核保留；此為決算業務來源補查，非否定舊查核。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/News_Content.aspx?n=99C65689F85FE3A0&sms=863EF9A8FB355DB4&s=4BEEF51EB5F1EC40",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2020-stage6",
+      "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9,
+        10
+      ],
+      "source_ids": [
+        "src-53a2b580f8e9467f"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            9,
+            10
+          ],
+          "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+          "source_id": "src-53a2b580f8e9467f"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "決算研究典藏列記典藏品管理、影像拍攝及數位博物館資料更新，辦理情形為已完成；未明載修護分項或數量，不推為修護完成量。 本輪指定表或業務列覆讀，不宣稱全文讀完；未見數量不等於修護量0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "organization_id": "BASE-037",
+      "organization_name": "新北市立鶯歌陶瓷博物館",
+      "review_id": "review-BASE-037-2022-stage6",
+      "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-765038e189b5a9c3"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+          "source_id": "src-765038e189b5a9c3"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "決算研究典藏列記典藏品管理、影像拍攝及數位博物館資料更新，辦理情形為已完成；未明載修護分項或數量，不推為修護完成量。 本輪指定表或業務列覆讀，不宣稱全文讀完；未見數量不等於修護量0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "organization_id": "BASE-037",
+      "organization_name": "新北市立鶯歌陶瓷博物館",
+      "review_id": "review-BASE-037-2023-stage6",
+      "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-13cd8d101d3ebf70"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+          "source_id": "src-13cd8d101d3ebf70"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "決算研究典藏列記典藏品管理、影像拍攝及數位博物館資料更新，辦理情形為已完成；未明載修護分項或數量，不推為修護完成量。 本輪指定表或業務列覆讀，不宣稱全文讀完；未見數量不等於修護量0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "organization_id": "BASE-037",
+      "organization_name": "新北市立鶯歌陶瓷博物館",
+      "review_id": "review-BASE-037-2024-stage6",
+      "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        10
+      ],
+      "source_ids": [
+        "src-2530bd4bc2223c49"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            10
+          ],
+          "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+          "source_id": "src-2530bd4bc2223c49"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "決算研究典藏列記典藏品管理、影像拍攝及數位博物館資料更新，辦理情形為已完成；未明載修護分項或數量，不推為修護完成量。 本輪指定表或業務列覆讀，不宣稱全文讀完；未見數量不等於修護量0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "organization_id": "BASE-037",
+      "organization_name": "新北市立鶯歌陶瓷博物館",
+      "review_id": "review-BASE-037-2025-stage6",
+      "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-dea4e50693f60842"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "官方決算文件內指定非財務業務段落，非整份文件全文覆讀",
+          "source_id": "src-dea4e50693f60842"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-26"
     }
   ],
-  "dataset_version": "0.2.0",
+  "dataset_version": "0.3.0",
   "observations": [
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_actual_table_completion_not_explicit",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -689,6 +1269,7 @@
       "source_id": "src-b355d5de6bb9a416",
       "source_scope": "文物保存維護統計之全年度文物修護號數",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -696,7 +1277,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_actual_table_completion_not_explicit",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -719,6 +1305,7 @@
       "source_id": "src-b355d5de6bb9a416",
       "source_scope": "文物保存維護統計之全年度文物清潔號數",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -726,7 +1313,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -749,6 +1341,7 @@
       "source_id": "src-47ce226d3e69a052",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "本館典藏章所列文物",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "案",
       "unit_status": "reported",
@@ -756,7 +1349,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -779,6 +1377,7 @@
       "source_id": "src-47ce226d3e69a052",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "本館典藏章所列文物",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -786,7 +1385,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -809,6 +1413,7 @@
       "source_id": "src-47ce226d3e69a052",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "本館典藏章所列文物",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -816,7 +1421,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -839,6 +1450,7 @@
       "source_id": "src-47ce226d3e69a052",
       "source_scope": "年度館內自行修護及緊急處理混合分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -846,7 +1458,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -869,6 +1487,7 @@
       "source_id": "src-47ce226d3e69a052",
       "source_scope": "年度館內自行修護及緊急處理混合分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -876,7 +1495,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -899,6 +1523,7 @@
       "source_id": "src-7721103afa00c913",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "館藏章年度合計，包含「桃美館借展文物」專案；借展方向及該專案權屬未核實",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "案",
       "unit_status": "reported",
@@ -906,7 +1531,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -929,6 +1559,7 @@
       "source_id": "src-7721103afa00c913",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "館藏章年度合計，包含「桃美館借展文物」專案；借展方向及該專案權屬未核實",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -936,7 +1567,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -959,6 +1595,7 @@
       "source_id": "src-7721103afa00c913",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "館藏章年度合計，包含「桃美館借展文物」專案；借展方向及該專案權屬未核實",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -966,7 +1603,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -989,6 +1632,7 @@
       "source_id": "src-7721103afa00c913",
       "source_scope": "年度館內自行修護及緊急處理混合分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -996,7 +1640,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -1019,6 +1669,7 @@
       "source_id": "src-7721103afa00c913",
       "source_scope": "年度館內自行修護及緊急處理混合分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1026,7 +1677,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -1049,6 +1705,7 @@
       "source_id": "src-69d08d0c2c5b224b",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "館藏章年度合計，包含「桃美館借展文物」專案；借展方向及該專案權屬未核實",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "案",
       "unit_status": "reported",
@@ -1056,7 +1713,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -1079,6 +1741,7 @@
       "source_id": "src-69d08d0c2c5b224b",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "館藏章年度合計，包含「桃美館借展文物」專案；借展方向及該專案權屬未核實",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -1086,7 +1749,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -1109,6 +1777,7 @@
       "source_id": "src-69d08d0c2c5b224b",
       "source_scope": "年度委外修護與相關處理合計；含賡續前年度啟動之專案",
       "subject_scope": "館藏章年度合計，包含「桃美館借展文物」專案；借展方向及該專案權屬未核實",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1116,7 +1785,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -1139,6 +1814,7 @@
       "source_id": "src-69d08d0c2c5b224b",
       "source_scope": "年度館內自行修護及緊急處理混合分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -1146,7 +1822,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parallel_reporting_units",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -1169,6 +1851,7 @@
       "source_id": "src-69d08d0c2c5b224b",
       "source_scope": "年度館內自行修護及緊急處理混合分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1176,7 +1859,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -1219,6 +1907,7 @@
       "source_id": "src-26fce0d0790383f8",
       "source_scope": "年度委外修護合計",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -1226,7 +1915,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -1263,6 +1958,7 @@
       "source_id": "src-26fce0d0790383f8",
       "source_scope": "年度正文列示之分項",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -1270,7 +1966,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_explicit",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -1319,6 +2020,7 @@
       "source_id": "src-afd0d482526b3d57",
       "source_scope": "年度委外修護合計",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -1326,7 +2028,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "maintenance"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -1349,6 +2057,7 @@
       "source_id": "src-afd0d482526b3d57",
       "source_scope": "年度保存優化及整飭分項；不等於委外修護",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "號",
       "unit_status": "reported",
@@ -1356,7 +2065,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱館內處理數量，未另載逐件完成日",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1379,6 +2093,7 @@
       "source_id": "src-4312130fd64464a6",
       "source_scope": "年度個別藏品涉入性修護分項；非全館所有保存工作總量",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1386,7 +2101,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度已處置敘述，未逐件另載完成日",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1441,6 +2162,7 @@
       "source_id": "src-4312130fd64464a6",
       "source_scope": "109年各類修護典藏品項目表；維護、清潔、去膠、標籤、加固等混合",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1448,7 +2170,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱館內處理數量，未另載逐件完成日",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -1471,6 +2198,7 @@
       "source_id": "src-e44d61b21eb270e5",
       "source_scope": "年度個別藏品損傷處理分項",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1478,7 +2206,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度處置表，未逐件另載完成日",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -1533,6 +2267,7 @@
       "source_id": "src-e44d61b21eb270e5",
       "source_scope": "2021各類修護典藏品項目表；維護、清潔、標籤移除、除塵、全色等混合",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": null,
       "unit_status": "not_stated_in_source",
@@ -1540,7 +2275,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度已處置敘述，未逐件另載完成日",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -1619,6 +2360,7 @@
       "source_id": "src-6a978e9f36eaf4ba",
       "source_scope": "111年各類修護典藏品表；維護、標籤、標本加工、清潔加固及科學檢測合列",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": null,
       "unit_status": "not_stated_in_source",
@@ -1626,7 +2368,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載111年完成全數20件",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -1649,6 +2396,7 @@
       "source_id": "src-6a978e9f36eaf4ba",
       "source_scope": "跨年度布袋戲文物修護計畫之2022明載完成量；非全館年總量",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1656,7 +2404,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "completed_at_stated_cutoff",
       "completion_status": "原文明載截至資料年底已完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -1679,6 +2434,7 @@
       "source_id": "src-2379e274edf72f67",
       "source_scope": "官方決算年度業務已完成欄之典藏品修護與維護實績；操作及學門分項未拆",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1686,7 +2442,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "completed_at_stated_cutoff",
       "completion_status": "原文明載截至資料年底已完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -1709,6 +2472,7 @@
       "source_id": "src-6744482a3c4465b2",
       "source_scope": "官方決算年度業務已完成欄之典藏品修護與維護實績；操作及學門分項未拆",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1716,7 +2480,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "completed_at_stated_cutoff",
       "completion_status": "原文明載截至資料年底已完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -1739,6 +2510,7 @@
       "source_id": "src-dc002770aa6acc1d",
       "source_scope": "官方決算年度業務已完成欄之典藏品修護與維護實績；操作及學門分項未拆",
       "subject_scope": "本館典藏品／標本；特定專案與混合處置表依原報分開",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1746,7 +2518,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": null,
@@ -1772,6 +2549,7 @@
       "source_id": "src-2719393925df110b",
       "source_scope": "2020-2022合刊整飭分學門量",
       "subject_scope": "本館藏品及管理標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1780,7 +2558,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": null,
@@ -1806,6 +2589,7 @@
       "source_id": "src-2719393925df110b",
       "source_scope": "2020-2022合刊整飭分學門量",
       "subject_scope": "本館藏品及管理標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1814,7 +2598,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": null,
@@ -1840,6 +2629,7 @@
       "source_id": "src-2719393925df110b",
       "source_scope": "2020-2022合刊整飭分學門量",
       "subject_scope": "本館藏品及管理標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1848,7 +2638,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1871,6 +2666,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "考古學門捐贈標本整飭",
       "subject_scope": "捐贈標本；逐件入藏狀態未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1878,7 +2674,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1901,6 +2702,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "2020年度整飭及展示更新相關作業",
       "subject_scope": "本館典藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1908,7 +2710,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1931,6 +2738,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "2020年度整飭及展示更新相關作業",
       "subject_scope": "本館典藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1938,7 +2746,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1961,6 +2774,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "2020年度整飭及展示更新相關作業",
       "subject_scope": "本館典藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1968,7 +2782,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -1991,6 +2810,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "2020年度整飭及展示更新相關作業",
       "subject_scope": "本館研究標本",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -1998,7 +2818,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -2021,6 +2846,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "2020年度整飭及展示更新相關作業",
       "subject_scope": "國史館委託管理；不作本館所有",
+      "subject_scope_category": "entrusted_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2028,7 +2854,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -2051,6 +2882,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "2020年度整飭及展示更新相關作業",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2058,7 +2890,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -2081,6 +2918,7 @@
       "source_id": "src-a7de25376d0fd196",
       "source_scope": "民族學門合計",
       "subject_scope": "本館及國史館託管混合",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2088,7 +2926,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "maintenance",
+        "mixed_workflow"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -2111,6 +2956,7 @@
       "source_id": "src-8e245d146620acde",
       "source_scope": "史前史廳常設展更新選件；續句在PDF12",
       "subject_scope": "本館、研究、調借、待入藏、外館及仿製品混合",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2118,7 +2964,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "cleaning",
+        "mixed_workflow"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -2141,6 +2994,7 @@
       "source_id": "src-8e245d146620acde",
       "source_scope": "2021執行；對象為109年下架標本",
       "subject_scope": "本館標本",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2148,7 +3002,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -2171,6 +3030,7 @@
       "source_id": "src-8e245d146620acde",
       "source_scope": "捐贈標本整飭",
       "subject_scope": "捐贈標本；逐件入藏狀態未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2178,7 +3038,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -2201,6 +3066,7 @@
       "source_id": "src-8e245d146620acde",
       "source_scope": "國史館第二批託管",
       "subject_scope": "國史館委託管理；不作本館所有",
+      "subject_scope_category": "entrusted_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2208,7 +3074,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -2231,6 +3102,7 @@
       "source_id": "src-8e245d146620acde",
       "source_scope": "南島常設展廳更新",
       "subject_scope": "館藏、國史館託管、新購藏及借展混合",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2238,7 +3110,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "digital_restoration"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -2261,6 +3138,7 @@
       "source_id": "src-746b9550b354b018",
       "source_scope": "數位資料作業，非實體文物修復",
       "subject_scope": "文物3D資料",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2268,7 +3146,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "inspection_registration"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -2291,6 +3175,7 @@
       "source_id": "src-746b9550b354b018",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "待入藏捐贈標本；不列已入藏自藏核心",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2298,7 +3183,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -2321,6 +3211,7 @@
       "source_id": "src-746b9550b354b018",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "國史館委託管理；不作本館所有",
+      "subject_scope_category": "entrusted_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2328,7 +3219,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -2351,6 +3247,7 @@
       "source_id": "src-746b9550b354b018",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "花蓮考古館借展相關文物；借入/借出及逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2358,7 +3255,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "inspection_registration"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -2381,6 +3284,7 @@
       "source_id": "src-746b9550b354b018",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "本館管理考古標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2388,7 +3292,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "completed_at_stated_cutoff",
       "completion_status": "completed_as_of_stated_month",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -2411,6 +3320,7 @@
       "source_id": "src-746b9550b354b018",
       "source_scope": "南科考古館；截至111年11月",
       "subject_scope": "南科館文物，逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2418,7 +3328,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "inspection_registration"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2441,6 +3357,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "待入藏標本；不列已入藏自藏核心",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2448,7 +3365,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2471,6 +3393,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "國史館委託管理；不作本館所有",
+      "subject_scope_category": "entrusted_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2478,7 +3401,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2501,6 +3429,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "國史館第4及第5批委託管理；不作本館所有",
+      "subject_scope_category": "entrusted_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2508,7 +3437,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2531,6 +3465,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "世界南島文化在臺灣研發計畫",
       "subject_scope": "本館典藏拼板舟",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "艘",
       "unit_status": "reported",
@@ -2538,7 +3473,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2561,6 +3501,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "都蘭灣古環境調查計畫標本",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "袋",
       "unit_status": "reported",
@@ -2568,7 +3509,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2591,6 +3537,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "都蘭灣古環境調查計畫標本",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "片",
       "unit_status": "reported",
@@ -2598,7 +3545,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "inspection_registration"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2621,6 +3574,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "本館管理考古標本",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2628,7 +3582,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2651,6 +3610,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "年度考古/民族學標本整飭分項",
       "subject_scope": "研究性標本；袋不是獨立文物件數",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "袋",
       "unit_status": "reported",
@@ -2658,7 +3618,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -2681,6 +3646,7 @@
       "source_id": "src-a8c5a3dcb85b436a",
       "source_scope": "南科考古館文物整飭",
       "subject_scope": "南科館文物，逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2688,7 +3654,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "completion_from_context",
       "completion_status": "completed_under_parent_statement",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -2711,6 +3682,7 @@
       "source_id": "src-1601e5ec42353271",
       "source_scope": "已完成576件整飭的原報分項",
       "subject_scope": "南科館文物，逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2718,7 +3690,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "digitization",
+        "mixed_workflow"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -2741,6 +3720,7 @@
       "source_id": "src-1601e5ec42353271",
       "source_scope": "考古學暨自然史學門",
       "subject_scope": "待入藏捐贈標本；不列已入藏自藏核心",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2748,7 +3728,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -2771,6 +3756,7 @@
       "source_id": "src-1601e5ec42353271",
       "source_scope": "民族學門；9批次為批次數，不與件數相加",
       "subject_scope": "本館管理民族學標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2778,7 +3764,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "completion_from_context",
       "completion_status": "completed_under_parent_statement",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -2801,6 +3792,7 @@
       "source_id": "src-1601e5ec42353271",
       "source_scope": "已完成576件整飭的原報分項",
       "subject_scope": "南科館文物，逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2808,7 +3800,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -2831,6 +3828,7 @@
       "source_id": "src-1601e5ec42353271",
       "source_scope": "考古學暨自然史學門",
       "subject_scope": "研究性標本；袋不換件",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "袋",
       "unit_status": "reported",
@@ -2838,7 +3836,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -2861,6 +3866,7 @@
       "source_id": "src-1601e5ec42353271",
       "source_scope": "南科考古館合計，含修復及整飭",
       "subject_scope": "南科館文物，逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2868,7 +3874,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -2891,6 +3902,7 @@
       "source_id": "src-e8a33d179cc672b7",
       "source_scope": "重建臺灣藝術史2.0計畫—重要作品購藏、維護與推廣",
       "subject_scope": "本館計畫作品；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2898,7 +3910,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -2921,6 +3938,7 @@
       "source_id": "src-e8a33d179cc672b7",
       "source_scope": "民族學門；3批次不與件數相加",
       "subject_scope": "本館管理民族學標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2928,7 +3946,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -2951,6 +3974,7 @@
       "source_id": "src-e8a33d179cc672b7",
       "source_scope": "考古學暨自然史學門移轉標本整飭",
       "subject_scope": "移轉標本；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2958,7 +3982,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "scientific_examination"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -2981,6 +4010,7 @@
       "source_id": "src-e8a33d179cc672b7",
       "source_scope": "南島文物保存、整飭及數位化整備；分學門科學檢測",
       "subject_scope": "捐贈文物；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -2988,7 +4018,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "scientific_examination"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported_no_explicit_completed",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3011,6 +4046,7 @@
       "source_id": "src-e8a33d179cc672b7",
       "source_scope": "南島文物保存、整飭及數位化整備；分學門科學檢測",
       "subject_scope": "捐贈文物；逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3018,7 +4054,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -3041,6 +4083,7 @@
       "source_id": "src-825508857b400d13",
       "source_scope": "年度基礎文物處理分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3048,7 +4091,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mounting",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱執行修護，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -3071,6 +4120,7 @@
       "source_id": "src-825508857b400d13",
       "source_scope": "館藏書畫修護分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3078,7 +4128,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱本年度辦理修護，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -3101,6 +4156,7 @@
       "source_id": "src-825508857b400d13",
       "source_scope": "館藏文物修護紀錄特定分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3108,7 +4164,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -3131,6 +4192,7 @@
       "source_id": "src-825508857b400d13",
       "source_scope": "年度保存維護措施分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3138,7 +4200,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -3161,6 +4229,7 @@
       "source_id": "src-a46edf1f1ac7f863",
       "source_scope": "年度基礎處理分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3168,7 +4237,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mounting",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "本年度修護敘述，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -3191,6 +4266,7 @@
       "source_id": "src-a46edf1f1ac7f863",
       "source_scope": "館藏文學文物修護計畫分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3198,7 +4274,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -3221,6 +4302,7 @@
       "source_id": "src-a46edf1f1ac7f863",
       "source_scope": "年度保存維護分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3228,7 +4310,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -3251,6 +4339,7 @@
       "source_id": "src-53caf8aa15939dd6",
       "source_scope": "年度基礎處理分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3258,7 +4347,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mounting",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "本年度修護敘述，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -3281,6 +4376,7 @@
       "source_id": "src-53caf8aa15939dd6",
       "source_scope": "館藏書畫修護計畫分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3288,7 +4384,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "年度已執行敘述，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -3311,6 +4413,7 @@
       "source_id": "src-53caf8aa15939dd6",
       "source_scope": "館藏修護暨數位標註資料庫建置計畫之修護分項；非資料庫影像數",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3318,7 +4421,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -3341,6 +4449,7 @@
       "source_id": "src-53caf8aa15939dd6",
       "source_scope": "年度保存維護分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3348,7 +4457,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -3371,6 +4486,7 @@
       "source_id": "src-a7457c3ab83489c4",
       "source_scope": "年度基礎處理分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3378,7 +4494,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "本計畫年度執行敘述，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -3401,6 +4522,7 @@
       "source_id": "src-a7457c3ab83489c4",
       "source_scope": "2023館藏修護暨保存維護計畫的修護分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3408,7 +4530,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -3431,6 +4558,7 @@
       "source_id": "src-a7457c3ab83489c4",
       "source_scope": "文學館家族文物修護及複製計畫；複製5件另列，不納此量",
       "subject_scope": "館外館群藏品，公私及逐件權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3438,7 +4566,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -3461,6 +4594,7 @@
       "source_id": "src-a7457c3ab83489c4",
       "source_scope": "年度保存維護分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3468,7 +4602,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "原文稱執行修護，未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -3491,6 +4630,7 @@
       "source_id": "src-a7457c3ab83489c4",
       "source_scope": "文學館家族書畫修護計畫，館外與本館混合",
       "subject_scope": "本館及館外藏品混合；各自件數未拆",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3498,7 +4638,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3521,6 +4666,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "年度藏品整飭；部分類別按頁計",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "筆",
       "unit_status": "reported",
@@ -3528,7 +4674,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3551,6 +4702,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "2024館藏修護暨保存維護計畫分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3558,7 +4710,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3581,6 +4738,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "文學館家族文物修護及整飭計畫之整飭實績",
       "subject_scope": "館外館群收藏；權屬未逐件核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3588,7 +4746,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "completion_from_context",
       "completion_status": "年度已完成計畫之執行分項",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3611,6 +4774,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "跨館際文學館家族書畫修護計畫",
       "subject_scope": "館外館群藏品；權屬未逐件核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3618,7 +4782,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "digitization",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3641,6 +4812,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "特定館藏攝影文物計畫；原件底片處理與影像擷取合述",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "條",
       "unit_status": "reported",
@@ -3648,7 +4820,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3671,6 +4848,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "跨館際計畫段另述本館火損手稿",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3678,7 +4856,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -3701,6 +4884,7 @@
       "source_id": "src-5b1e7446600585b1",
       "source_scope": "摘要原報標籤；詳細欄實為文物整飭828件",
       "subject_scope": "館外館群收藏；權屬未逐件核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3708,7 +4892,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3731,6 +4920,7 @@
       "source_id": "src-eb82aa1437ad22bd",
       "source_scope": "年度整飭，信札及手稿按逐頁計；續句在次頁",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "筆",
       "unit_status": "reported",
@@ -3738,7 +4928,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3761,6 +4956,7 @@
       "source_id": "src-eb82aa1437ad22bd",
       "source_scope": "年度一般文物修護分項",
       "subject_scope": "單館業務；逐件權屬及館藏範圍未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3768,7 +4964,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3791,6 +4992,7 @@
       "source_id": "src-eb82aa1437ad22bd",
       "source_scope": "館藏攝影文物修護及數位化計畫之修護分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "條",
       "unit_status": "reported",
@@ -3798,7 +5000,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3821,6 +5028,7 @@
       "source_id": "src-eb82aa1437ad22bd",
       "source_scope": "年度保存維護分項；未拆清潔或保護措施",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3828,7 +5036,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "completion_from_context",
       "completion_status": "已完成施政概述中的原報數，分項未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3851,6 +5064,7 @@
       "source_id": "src-eb82aa1437ad22bd",
       "source_scope": "摘要原報合計；與31件、114條的關係未由原報明示",
       "subject_scope": "單館業務合計範圍未拆",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3858,7 +5072,163 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported",
+        "stabilization"
+      ],
+      "aggregation_role": "原報親項合計；不與三分項重加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報合計，已核與三分項算術相符；不與分項再次相加。 實體件數是原報註記，未獨立核對跨分類或跨年去重。",
+      "metric_as_reported": "2020年總計",
+      "metric_class": "原報藏品修護年度合計（含不同處置）",
+      "metric_label": "2020年總計",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2020-conservation-reported-total",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 79,
+      "printed_page": "79",
+      "publication_year": 2021,
+      "quantity_numeric": 782,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "782",
+      "record_kind": "observation",
+      "source_id": "src-001c53971ebc4458",
+      "source_scope": "全館年度藏品修護原報表之總計（親項）",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不擷取捐贈對象、姓名、藏品登錄號。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "stabilization"
+      ],
+      "aggregation_role": "原報分項；已列在同表782合計內，不與合計重加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原表修護內容列冷凍及氮氣除蟲；保留分類與內容的原報關係。 實體件數是原報註記，未獨立核對跨分類或跨年去重。",
+      "metric_as_reported": "緊急加固",
+      "metric_class": "緊急加固（原表分類）",
+      "metric_label": "緊急加固",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2020-emergency-stabilization",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 79,
+      "printed_page": "79",
+      "publication_year": 2021,
+      "quantity_numeric": 27,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "27",
+      "record_kind": "observation",
+      "source_id": "src-001c53971ebc4458",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不擷取捐贈對象、姓名、藏品登錄號。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報分項；已列在同表782合計內，不與合計重加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原表內容為木雕彩繪科學檢測及狀況記錄、清潔、加固、填補與全色。 實體件數是原報註記，未獨立核對跨分類或跨年去重。",
+      "metric_as_reported": "完整修護",
+      "metric_class": "完整修護（原表分類）",
+      "metric_label": "完整修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2020-full-treatment",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 79,
+      "printed_page": "79",
+      "publication_year": 2021,
+      "quantity_numeric": 7,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "7",
+      "record_kind": "observation",
+      "source_id": "src-001c53971ebc4458",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不擷取捐贈對象、姓名、藏品登錄號。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報分項；已列在同表782合計內，不與合計重加",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原表內容包含展示支撐與保護措施、裝框、清潔除塵；不能稱為全部完整修復。 實體件數是原報註記，未獨立核對跨分類或跨年去重。",
+      "metric_as_reported": "日常維護",
+      "metric_class": "日常維護（原表分類）",
+      "metric_label": "日常維護",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMTH-2020-routine-maintenance",
+      "organization_id": "BASE-007",
+      "organization_name": "國立臺灣歷史博物館",
+      "pdf_page_1_based": 79,
+      "printed_page": "79",
+      "publication_year": 2021,
+      "quantity_numeric": 748,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "748",
+      "record_kind": "observation",
+      "source_id": "src-001c53971ebc4458",
+      "source_scope": "全館年度藏品修護原報表之分項",
+      "subject_scope": "本館普通館藏動產；僅保留作業分類與數字，不擷取捐贈對象、姓名、藏品登錄號。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": null,
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "cleaning",
+        "digitization",
+        "inspection_registration",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -3881,6 +5251,7 @@
       "source_id": "src-29ca2a49f86745be",
       "source_scope": "特定膠卷計畫；多項操作合列，非全館全年純修復量",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "片",
       "unit_status": "reported",
@@ -3888,7 +5259,16 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "digitization",
+        "inspection_registration",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -3911,6 +5291,7 @@
       "source_id": "src-29ca2a49f86745be",
       "source_scope": "特定膠卷計畫；多項操作合列，非全館全年純修復量",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "卷",
       "unit_status": "reported",
@@ -3918,7 +5299,16 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "digitization",
+        "inspection_registration",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -3941,6 +5331,7 @@
       "source_id": "src-29ca2a49f86745be",
       "source_scope": "特定膠卷計畫；多項操作合列，非全館全年純修復量",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "部",
       "unit_status": "reported",
@@ -3948,7 +5339,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "原報分項，未證互斥，不可逕相加",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -3971,6 +5367,7 @@
       "source_id": "src-2dd0b44205a663a3",
       "source_scope": "特定彩繪牆堵分年修護計畫的2025完成分項",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -3978,7 +5375,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -4033,6 +5435,7 @@
       "source_id": "src-6e43c1a029b93326",
       "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4040,7 +5443,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -4063,6 +5471,7 @@
       "source_id": "src-6e43c1a029b93326",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "本館席德進拍攝幻燈片",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "片",
       "unit_status": "reported",
@@ -4070,7 +5479,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -4119,6 +5533,7 @@
       "source_id": "src-aaedd286423c1996",
       "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4126,7 +5541,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -4149,6 +5569,7 @@
       "source_id": "src-aaedd286423c1996",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "本館席德進拍攝幻燈片",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "片",
       "unit_status": "reported",
@@ -4156,7 +5577,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -4179,6 +5605,7 @@
       "source_id": "src-c43e77c183707028",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "典藏章所列莊世和捐贈作品",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4186,7 +5613,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -4235,6 +5667,7 @@
       "source_id": "src-c43e77c183707028",
       "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4242,7 +5675,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -4265,6 +5703,7 @@
       "source_id": "src-c43e77c183707028",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "典藏章所列洪瑞麟捐贈作品",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4272,7 +5711,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -4295,6 +5739,7 @@
       "source_id": "src-910d69d25ba95cbb",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "本館張萬傳速寫作品",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4302,7 +5747,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -4325,6 +5775,7 @@
       "source_id": "src-910d69d25ba95cbb",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "本館李仲生水彩及速寫作品",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4332,7 +5783,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -4375,6 +5831,7 @@
       "source_id": "src-910d69d25ba95cbb",
       "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4382,7 +5839,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4405,6 +5867,7 @@
       "source_id": "src-82287d723937d112",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "典藏章所列林玉山捐贈作品",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4412,7 +5875,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4435,6 +5903,7 @@
       "source_id": "src-82287d723937d112",
       "source_scope": "本館年度整飭分項；作業不等於善後性修復",
       "subject_scope": "本館李仲生水彩、速寫作品及素描冊",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4442,7 +5911,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4485,6 +5959,7 @@
       "source_id": "src-82287d723937d112",
       "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4492,7 +5967,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "source_total_with_components",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_execution_reported",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -4541,6 +6021,7 @@
       "source_id": "src-c18e42d214521bc8",
       "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
       "subject_scope": "本館典藏作品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4548,7 +6029,128 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "inspection_registration",
+        "mixed_workflow"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原單位、作業及範圍照錄；未核逐件去重，不與其他分項相加。",
+      "metric_as_reported": "藏品之整飭建檔與登錄",
+      "metric_class": "combined_arrangement_cataloguing_registration",
+      "metric_label": "藏品之整飭建檔與登錄",
+      "numeric_origin": "source_reported",
+      "observation_id": "thcdc-2024-arrangement-registration",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "pdf_page_1_based": 11,
+      "printed_page": "7",
+      "publication_year": null,
+      "quantity_numeric": null,
+      "quantity_qualifier": "more_than_reported_base",
+      "quantity_raw": "300餘",
+      "record_kind": "observation",
+      "source_id": "src-25914afd071484bd",
+      "source_scope": "中心層級年度特定業務分項；未明示分園區數字，兩園區不拆",
+      "subject_scope": "中心管理藏品；未明示個別園區。整飭、建檔與登錄為複合口徑，不作純修復。",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement",
+        "mixed_workflow"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原單位、作業及範圍照錄；未核逐件去重，不與其他分項相加。",
+      "metric_as_reported": "藏品之整飭建檔",
+      "metric_class": "combined_arrangement_cataloguing",
+      "metric_label": "藏品之整飭建檔",
+      "numeric_origin": "source_reported",
+      "observation_id": "thcdc-2025-arrangement-cataloguing",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "pdf_page_1_based": 10,
+      "printed_page": "6",
+      "publication_year": null,
+      "quantity_numeric": null,
+      "quantity_qualifier": "near_reported_base_not_exact",
+      "quantity_raw": "近300",
+      "record_kind": "observation",
+      "source_id": "src-ea75babb6f07764f",
+      "source_scope": "中心層級年度特定業務分項；未明示分園區數字，兩園區不拆",
+      "subject_scope": "中心管理藏品；未明示個別園區。近300是近似原量，不能與2024的300餘視為精確同值。",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "additional_pdf_pages_1_based": [
+        12
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
+      "completion_status": "explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原單位、作業及範圍照錄；未核逐件去重，不與其他分項相加。",
+      "metric_as_reported": "古砲清整、修復、保存、複製作業",
+      "metric_class": "combined_arrangement_restoration_preservation_reproduction",
+      "metric_label": "古砲清整、修復、保存、複製作業",
+      "numeric_origin": "source_reported",
+      "observation_id": "thcdc-2025-cannon-combined-treatment",
+      "organization_id": "BASE-024",
+      "organization_name": "客家文化發展中心",
+      "pdf_page_1_based": 11,
+      "printed_page": "7–8",
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-ea75babb6f07764f",
+      "source_scope": "中心層級年度特定業務分項；未明示分園區數字，兩園區不拆",
+      "subject_scope": "捐贈動產古砲特定計畫；原報把實物處置與複製並列，不能拆出純修復數或複製品數。",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "座",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "performed_activity",
       "completion_status": "performed_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -4571,6 +6173,7 @@
       "source_id": "src-156e842aaaed49d8",
       "source_scope": "年度預防性保存施作次數",
       "subject_scope": "館藏文物預防性保存；活動次數，非文物件數",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "次",
       "unit_status": "reported",
@@ -4578,7 +6181,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_output_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2020,
@@ -4601,6 +6209,7 @@
       "source_id": "src-5f332232138a0677",
       "source_scope": "全館全年（典藏章年度自述之修復作品量）",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件作品",
       "unit_status": "reported",
@@ -4608,7 +6217,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_output_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -4631,6 +6245,7 @@
       "source_id": "src-feec77cbcb4d4197",
       "source_scope": "全館全年（原報年度自述；單位保留作品）",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "作品",
       "unit_status": "reported",
@@ -4638,7 +6253,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "inspection_registration"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -4661,6 +6282,7 @@
       "source_id": "src-b0540f9e81020edc",
       "source_scope": "館級年度自述，未按實體場館拆分",
       "subject_scope": "館藏作品（依藏品修護、整飭與保存段落）",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4668,7 +6290,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mounting"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -4691,6 +6318,7 @@
       "source_id": "src-b0540f9e81020edc",
       "source_scope": "館級年度自述，未按實體場館拆分",
       "subject_scope": "館藏作品（依藏品修護、整飭與保存段落）",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4698,7 +6326,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -4721,6 +6354,7 @@
       "source_id": "src-b0540f9e81020edc",
       "source_scope": "館級年度自述，未按實體場館拆分",
       "subject_scope": "館藏作品（依藏品修護、整飭與保存段落）",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4728,7 +6362,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4751,6 +6390,7 @@
       "source_id": "src-ed297fa261a07432",
       "source_scope": "特定委託批次",
       "subject_scope": "本館家具等動產館藏",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4758,7 +6398,15 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement",
+        "digitization",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "completed_as_reported",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4791,6 +6439,7 @@
       "source_id": "src-c24f15432c939e93",
       "source_scope": "本年度特定複合計畫",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "組（件）",
       "unit_status": "reported",
@@ -4798,7 +6447,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -4821,6 +6475,7 @@
       "source_id": "src-b7dc79e8488e85be",
       "source_scope": "年度列示專案委託修復",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4828,7 +6483,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "annual_operation_listed",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -4900,6 +6560,7 @@
       "source_id": "src-b7dc79e8488e85be",
       "source_scope": "年度章節列示的館內自行修護分項；不是全年所有修復總量",
       "subject_scope": "本館藏品",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4907,7 +6568,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "cleaning",
+        "inspection_registration"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4930,6 +6597,7 @@
       "source_id": "src-c12c04a309e2ed41",
       "source_scope": "年度狀況檢視或清潔",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4937,7 +6605,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4960,6 +6633,7 @@
       "source_id": "src-c12c04a309e2ed41",
       "source_scope": "特定紙質作品專案",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4967,7 +6641,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -4990,6 +6669,7 @@
       "source_id": "src-c12c04a309e2ed41",
       "source_scope": "特定紙質作品專案",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -4997,7 +6677,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -5020,6 +6705,7 @@
       "source_id": "src-c12c04a309e2ed41",
       "source_scope": "年度章節總述；與詳細頁專案的包含/排除關係未明示",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5027,7 +6713,14 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parent",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -5050,6 +6743,7 @@
       "source_id": "src-015f02ab843744b0",
       "source_scope": "原報年度合計（含兩子項）",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5057,7 +6751,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "inspection_registration"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -5080,6 +6779,7 @@
       "source_id": "src-015f02ab843744b0",
       "source_scope": "年度藏品檢視及登錄",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5087,7 +6787,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -5110,6 +6815,7 @@
       "source_id": "src-015f02ab843744b0",
       "source_scope": "年度專案型修復",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5117,7 +6823,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "annual_execution_not_explicit",
       "completion_status": "as_reported_annual_operation",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -5140,6 +6852,7 @@
       "source_id": "src-015f02ab843744b0",
       "source_scope": "年度例行保存維護及修護",
       "subject_scope": "本館藏品；無證據可排除同件跨作業重複",
+      "subject_scope_category": "own_collection_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5147,7 +6860,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "未對此分項另載完成字樣",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -5170,6 +6888,7 @@
       "source_id": "src-e00d65a471b8e3a5",
       "source_scope": "館外受託服務；不納本館自藏核心",
       "subject_scope": "館外受託，對象/權屬未核",
+      "subject_scope_category": "external_service_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5177,7 +6896,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載修護完成",
       "cross_museum_comparable": false,
       "data_year": 2021,
@@ -5200,6 +6924,7 @@
       "source_id": "src-e00d65a471b8e3a5",
       "source_scope": "館內及展覽所需作品合列；非全為本館自藏",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5207,7 +6932,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -5230,6 +6961,7 @@
       "source_id": "src-090ab9892f838624",
       "source_scope": "2022年館內修護／保存維護；含延續案",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5237,7 +6969,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "in_progress",
       "completion_status": "進行處置；不可當已完成",
       "cross_museum_comparable": false,
       "data_year": 2022,
@@ -5260,6 +6998,7 @@
       "source_id": "src-090ab9892f838624",
       "source_scope": "2022年館內修護／保存維護；含延續案",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5267,7 +7006,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -5290,6 +7034,7 @@
       "source_id": "src-56a88d5056c9ab93",
       "source_scope": "館內藏品維護",
       "subject_scope": "館內藏品；逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5297,7 +7042,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "maintenance"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -5320,6 +7070,7 @@
       "source_id": "src-56a88d5056c9ab93",
       "source_scope": "協助展覽之館外作品；非本館自藏核心",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5327,7 +7078,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -5350,6 +7106,7 @@
       "source_id": "src-56a88d5056c9ab93",
       "source_scope": "館外受託服務；原報另外3案為檢測，不併入28件",
       "subject_scope": "館外受託，對象/權屬未核",
+      "subject_scope_category": "external_service_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5357,7 +7114,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parent",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2023,
@@ -5380,6 +7142,7 @@
       "source_id": "src-56a88d5056c9ab93",
       "source_scope": "原報年度合計：館內維護18＋展覽緊急維護21＋館外受託修護28",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5387,7 +7150,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "arrangement"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -5410,6 +7178,7 @@
       "source_id": "src-835a58bfb2bd89d6",
       "source_scope": "原報表內紀錄，非已驗證全館總量",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5417,7 +7186,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -5440,6 +7214,7 @@
       "source_id": "src-835a58bfb2bd89d6",
       "source_scope": "協助本館展覽的修護專案；權屬未分",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5447,7 +7222,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "completion_from_context",
       "completion_status": "段落有完成總述；分項未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -5470,6 +7250,7 @@
       "source_id": "src-835a58bfb2bd89d6",
       "source_scope": "館外受託服務；不納本館自藏核心",
       "subject_scope": "館外受託，對象/權屬未核",
+      "subject_scope_category": "external_service_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5477,7 +7258,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "child",
+      "classification_rule_version": "1.0",
+      "completion_category": "completion_from_context",
       "completion_status": "段落有完成總述；分項未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -5500,6 +7286,7 @@
       "source_id": "src-835a58bfb2bd89d6",
       "source_scope": "原報館內修護分項；未逐件列權屬",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件",
       "unit_status": "reported",
@@ -5507,7 +7294,13 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
       "aggregation_role": "parent",
+      "classification_rule_version": "1.0",
+      "completion_category": "explicit_completed",
       "completion_status": "原文明載完成，但為混合合計",
       "cross_museum_comparable": false,
       "data_year": 2024,
@@ -5530,6 +7323,7 @@
       "source_id": "src-835a58bfb2bd89d6",
       "source_scope": "原報混合合計；內含文獻整飭124件與館外、展覽分項",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5537,7 +7331,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -5560,6 +7359,7 @@
       "source_id": "src-a8269d9f1df89c67",
       "source_scope": "年度業務段之展覽修護；非全館自藏全年修護總量",
       "subject_scope": "未逐件核權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5567,7 +7367,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "原文未另載完成",
       "cross_museum_comparable": false,
       "data_year": 2025,
@@ -5590,6 +7395,7 @@
       "source_id": "src-a8269d9f1df89c67",
       "source_scope": "館外受託服務；原文含公共機關與私人收藏，無逐件權屬拆分",
       "subject_scope": "館外受託，對象/權屬未核",
+      "subject_scope_category": "external_service_as_reported",
       "unique_object_count_verified": false,
       "unit_as_reported": "組件",
       "unit_status": "reported",
@@ -5597,7 +7403,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2015,
@@ -5620,6 +7431,7 @@
       "source_id": "src-cbc631aca1cc8b5b",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件數",
       "unit_status": "reported",
@@ -5627,7 +7439,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2016,
@@ -5650,6 +7467,7 @@
       "source_id": "src-cbc631aca1cc8b5b",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件數",
       "unit_status": "reported",
@@ -5657,7 +7475,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2016,
@@ -5680,6 +7503,7 @@
       "source_id": "src-cbc631aca1cc8b5b",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件數",
       "unit_status": "reported",
@@ -5687,7 +7511,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2016,
@@ -5710,6 +7539,7 @@
       "source_id": "src-cbc631aca1cc8b5b",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件數",
       "unit_status": "reported",
@@ -5717,7 +7547,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2016,
@@ -5740,6 +7575,7 @@
       "source_id": "src-cbc631aca1cc8b5b",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件數",
       "unit_status": "reported",
@@ -5747,7 +7583,12 @@
       "year_on_year_ready": false
     },
     {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
       "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.0",
+      "completion_category": "not_explicitly_stated",
       "completion_status": "not_explicitly_stated",
       "cross_museum_comparable": false,
       "data_year": 2016,
@@ -5770,6 +7611,7 @@
       "source_id": "src-cbc631aca1cc8b5b",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
+      "subject_scope_category": "mixed_or_not_confirmed",
       "unique_object_count_verified": false,
       "unit_as_reported": "件數",
       "unit_status": "reported",
@@ -6150,10 +7992,39 @@
       "relationship_verified": false,
       "reporting_period_raw": "2020-2022",
       "type": "multi_year_report_not_allocated_and_overlap_unknown"
+    },
+    {
+      "note": "2024含整飭建檔與登錄；2025寫整飭建檔，另列詮釋資料著錄。300餘與近300方向不同，不計變動率。",
+      "observation_ids": [
+        "thcdc-2024-arrangement-registration",
+        "thcdc-2025-arrangement-cataloguing"
+      ],
+      "type": "not_same_metric_across_years"
+    },
+    {
+      "note": "2座為清整、修復、保存、複製共同敘述；不得拆成各作業均2座或加總為8座。",
+      "observation_ids": [
+        "thcdc-2025-cannon-combined-treatment"
+      ],
+      "type": "combined_actions_not_disaggregated"
     }
   ],
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "sources": [
+    {
+      "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjIxMi82Njg2MWI2MS1kYzlmLTRkZDMtOGE0YS01NDA0MzRkNzBlZDMucGRm&n=5ZyL56uL6Ie654Gj5q235Y%2by5Y2a54mp6aSoMjAyMOW5tOWgsS5wZGY%3d",
+      "official_landing_url": "https://www.nmth.gov.tw/News_Publish_Content.aspx?n=4164&s=139598",
+      "original_file_bytes": 13235884,
+      "original_file_pdf_pages": 136,
+      "original_file_sha256": "001c53971ebc445891de26480ff08b0af56611e42193633685af65903777c61c",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-001c53971ebc4458",
+      "source_use": "numeric_evidence",
+      "title": "國立臺灣歷史博物館年報2020",
+      "verified_at": "2026-10-26"
+    },
     {
       "official_file_url": "https://www.tfam.museum/AnnualReport/2025/2025tfam_annualreport_ch.pdf",
       "official_landing_url": "https://www.tfam.museum/AnnualReport/2025/2025tfam_annualreport_ch.pdf",
@@ -6195,6 +8066,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.ceramics.ntpc.gov.tw/files/file_pool/1/0O211523781259980745/112%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97.pdf",
+      "official_landing_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "original_file_bytes": 2429218,
+      "original_file_pdf_pages": 69,
+      "original_file_sha256": "13cd8d101d3ebf7044ebc26c3d3ff8cc1be1bcd699b5e83b87c44e1ffaa466c1",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-13cd8d101d3ebf70",
+      "source_use": "body_review",
+      "title": "新北市立鶯歌陶瓷博物館112年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0N201509776836768754/111%E5%B9%B4%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%B9%B4%E5%A0%B1%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf",
       "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0I078419124863361374&sid=0N201501506718137468",
       "original_file_bytes": 25124518,
@@ -6232,6 +8117,47 @@
       "source_id": "src-2379e274edf72f67",
       "source_use": "numeric_evidence",
       "title": "國立臺灣博物館112年度單位決算報告（審定本）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.e-land.gov.tw/News_Content.aspx?n=11419&s=351290",
+      "official_landing_url": "https://www.e-land.gov.tw/News_Content.aspx?n=11419&s=351290",
+      "original_file_bytes": 121675,
+      "original_file_sha256": "24449dd73f61481fc1cfbaacebf14337c95f514aefdbad341c9ca8c228877b58",
+      "original_file_type": "HTML",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_source_index_only_original_HTML_not_redistributed",
+      "source_id": "src-24449dd73f61481f",
+      "source_use": "qualitative_body_review",
+      "title": "蘭博修復傳統舟船與烏石港舊址試航儀式",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.ceramics.ntpc.gov.tw/files/file_pool/1/0P217373183793978811/%E9%99%B6%E5%8D%9A113%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97.pdf",
+      "official_landing_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "original_file_bytes": 3934943,
+      "original_file_pdf_pages": 67,
+      "original_file_sha256": "2530bd4bc2223c491d6c4e65d43843e210bcaf7c0f177cf5b3172baa05b58b6c",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-2530bd4bc2223c49",
+      "source_use": "body_review",
+      "title": "新北市立鶯歌陶瓷博物館113年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/tefb15j2/113%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "original_file_bytes": 7162732,
+      "original_file_pdf_pages": 196,
+      "original_file_sha256": "25914afd071484bd8f27e88085415b8270adac2b06ac756621e35137ac15da1b",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-25914afd071484bd",
+      "source_use": "numeric_evidence",
+      "title": "客家委員會客家文化發展中心113年度單位決算",
       "verified_at": "2026-10-26"
     },
     {
@@ -6325,6 +8251,20 @@
       "source_id": "src-47ce226d3e69a052",
       "source_use": "numeric_evidence",
       "title": "國立歷史博物館2021年報",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjE3L3JlbGZpbGUvNjQzMC8xMTIzMi9hYzFjNmRmYy0zNDlmLTRlNDgtODNmMS1jYjE1MzQ5ODk4MmYucGRm&n=MDIyMl8xMDnlubTluqbmsbrnrpflvZnnuL1fZmluYWwucGRm&icon=..pdf",
+      "official_landing_url": "https://www.nmmba.gov.tw/News_Content.aspx?n=99C65689F85FE3A0&sms=863EF9A8FB355DB4&s=4BEEF51EB5F1EC40",
+      "original_file_bytes": 6736125,
+      "original_file_pdf_pages": 77,
+      "original_file_sha256": "53a2b580f8e9467fcc1d1e7a8b905814a69e48689385856ce8ddfd03f0a61075",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-53a2b580f8e9467f",
+      "source_use": "body_review",
+      "title": "國立海洋生物博物館作業基金109年度附屬單位決算分決算",
       "verified_at": "2026-10-26"
     },
     {
@@ -6460,6 +8400,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.ceramics.ntpc.gov.tw/files/file_pool/1/0N209489345934800145/%E9%99%B6%E5%8D%9A111%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97%E6%9B%B8.pdf",
+      "official_landing_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "original_file_bytes": 2452339,
+      "original_file_pdf_pages": 59,
+      "original_file_sha256": "765038e189b5a9c3fc3c7b5653463fd2cca9ec2b6c278e68ea32f495292c98c8",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-765038e189b5a9c3",
+      "source_use": "body_review",
+      "title": "新北市立鶯歌陶瓷博物館111年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202307/33d5a5bc-9f88-4270-a65d-aed2831bda02.pdf",
       "official_landing_url": "https://www.nmh.gov.tw/News_Publish_Content.aspx?n=7047&s=176678",
       "original_file_bytes": 11311282,
@@ -6484,6 +8438,19 @@
       "source_id": "src-77dc95839eef88b3",
       "source_use": "body_review",
       "title": "2024永續報告書",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.oac.gov.tw/ch%20/home.jsp?dataserno=202512110004&id=546&mcustomize=onemessages_view.jsp&parentpath=0%2C513%2C533%2C538",
+      "official_landing_url": "https://www.oac.gov.tw/ch%20/home.jsp?dataserno=202512110004&id=546&mcustomize=onemessages_view.jsp&parentpath=0%2C513%2C533%2C538",
+      "original_file_bytes": 79682,
+      "original_file_sha256": "7ce1f3c7ddc80ed7cf904ee275aaff9c55bc4a54253526077a6b5c9ec2ab05a7",
+      "original_file_type": "HTML",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_source_index_only_original_HTML_not_redistributed",
+      "source_id": "src-7ce1f3c7ddc80ed7",
+      "source_use": "qualitative_body_review",
+      "title": "【宜蘭縣立蘭陽博物館】烏石港正口200年-宜蘭傳統舟船復振計畫",
       "verified_at": "2026-10-26"
     },
     {
@@ -6537,6 +8504,20 @@
       "source_id": "src-835a58bfb2bd89d6",
       "source_use": "numeric_evidence",
       "title": "2024臺南市美術館年報（中文版）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/v2xfubes/20220516-%E5%AE%A2%E5%AE%B6%E5%A7%94%E5%93%A1%E6%9C%83%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%832020-2021%E9%9B%99%E5%B9%B4%E5%A0%B1-final.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12205/12234/12238/76307/",
+      "original_file_bytes": 27744239,
+      "original_file_pdf_pages": 130,
+      "original_file_sha256": "8a91bc0b432c127f31348277e5df91617b361a455c2538dc728bd2f954c6eceb",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-8a91bc0b432c127f",
+      "source_use": "body_review",
+      "title": "客家委員會客家文化發展中心2020–2021雙年報",
       "verified_at": "2026-10-26"
     },
     {
@@ -6717,6 +8698,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/ldvjhtyf/112%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "original_file_bytes": 7514470,
+      "original_file_pdf_pages": 174,
+      "original_file_sha256": "ae75de632c9b33e97eb94264ca601bbfca27943363ea85c3067da4c205d9861f",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ae75de632c9b33e9",
+      "source_use": "body_review",
+      "title": "客家委員會客家文化發展中心112年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNTEzL3JlbGZpbGUvMTUyNTgvMjYxNzA3LzJmNTNmZmQxLTYyMjMtNDE4NC05YzViLThlZThkYTliNmM3Mi5wZGY%3d&n=5ZyL56uL5q235Y%2by5Y2a54mp6aSoMjAyNeW5tOWgsSAo5Zau6aCB54mIKS5wZGY%3d",
       "official_landing_url": "https://www.nmh.gov.tw/News_Publish_Content.aspx?n=7047&s=261707",
       "original_file_bytes": 14643640,
@@ -6797,6 +8792,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/sa4ds2t3/%E5%85%A7%E6%96%87-%E5%AE%A2%E5%AE%B6%E5%A7%94%E5%93%A1%E6%9C%83%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%83%E5%B9%B4%E5%A0%B12022-%E4%B8%AD%E8%8B%B1%E7%89%88.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12205/12234/12238/141145/",
+      "original_file_bytes": 84997747,
+      "original_file_pdf_pages": 148,
+      "original_file_sha256": "b86fe0ba9eb095193c07973962f4d04b366c99182818e92c9f306a3814d5d16d",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b86fe0ba9eb09519",
+      "source_use": "body_review",
+      "title": "客家委員會客家文化發展中心年報2022（中英版）",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xMjM3Ny9hMGY3ZmUxYy1iMjFhLTQ5NzAtYjkzYS1lNWEzZTI2YTVmM2UucGRm&n=aOa1t%2beUn%2bmkqF8xMTDlubTloLFfMDblhbjol4%2fokpDpm4YucGRm&icon=.pdf",
       "official_landing_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=9A0A3F97F66B1753",
       "original_file_bytes": 2707386,
@@ -6808,6 +8817,20 @@
       "source_id": "src-bc2b40d4ddf8cf1a",
       "source_use": "body_review",
       "title": "國立海洋生物博物館110年報（電子書）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/mt0j3vzm/111%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97-%E5%AF%A9%E5%AE%9A%E7%89%88.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "original_file_bytes": 7060276,
+      "original_file_pdf_pages": 173,
+      "original_file_sha256": "bcd544bc8f8abc4198dcac34e71a42de505b4bb5a020c1082b3b65e83912754c",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-bcd544bc8f8abc41",
+      "source_use": "body_review",
+      "title": "客家委員會客家文化發展中心111年度單位決算（審定版）",
       "verified_at": "2026-10-26"
     },
     {
@@ -6918,6 +8941,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/vo0ck1ra/110%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "original_file_bytes": 6524965,
+      "original_file_pdf_pages": 133,
+      "original_file_sha256": "d0dc904b9ab2f4203a4dd550ce553da9256caeb8a53727ce6da36d607a6933b3",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-d0dc904b9ab2f420",
+      "source_use": "body_review",
+      "title": "客家委員會客家文化發展中心110年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/001/Upload/520/relfile/14286/259972/042f6e34-380e-4302-93e7-4ded587ae1be.pdf",
       "official_landing_url": "https://www.ntm.gov.tw/News_Content.aspx?n=9908&s=259972",
       "original_file_bytes": 4852448,
@@ -6931,6 +8968,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.ceramics.ntpc.gov.tw/files/file_pool/1/0Q254394639500720634/%E9%99%B6%E5%8D%9A114%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97.pdf",
+      "official_landing_url": "https://www.ceramics.ntpc.gov.tw/xmdoc/cont?sid=0L195634430243107930&xsmsid=0L195632349711077474",
+      "original_file_bytes": 2974992,
+      "original_file_pdf_pages": 69,
+      "original_file_sha256": "dea4e50693f60842c3f3f907df6b5ab118db861a5b44a41c1f786a0c8ed1f096",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-dea4e50693f60842",
+      "source_use": "body_review",
+      "title": "新北市立鶯歌陶瓷博物館114年度單位決算",
+      "verified_at": "2026-10-26"
+    },
+    {
       "official_file_url": "https://www.tnam.museum/filesys/files/ch/about_us/freedomofinfo/70/%E5%8D%97%E7%BE%8E%E5%B9%B4%E5%A0%B12021-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
       "official_landing_url": "https://www.tnam.museum/about_us/freedomofinfo/hits/103",
       "original_file_bytes": 5701341,
@@ -6941,6 +8992,20 @@
       "source_id": "src-e00d65a471b8e3a5",
       "source_use": "numeric_evidence",
       "title": "2021臺南市美術館年報（中文版）",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/3laol4ei/109%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97-%E5%AF%A9%E5%AE%9A%E7%89%88.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "original_file_bytes": 6317287,
+      "original_file_pdf_pages": 124,
+      "original_file_sha256": "e2b146bca4ef141762972aacef34c930a18841525bba061e8ca9d9aa3ba54bbb",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e2b146bca4ef1417",
+      "source_use": "body_review",
+      "title": "客家委員會客家文化發展中心109年度單位決算（審定版）",
       "verified_at": "2026-10-26"
     },
     {
@@ -6968,6 +9033,20 @@
       "source_id": "src-e8a33d179cc672b7",
       "source_use": "numeric_evidence",
       "title": "國立臺灣史前文化博物館114年度單位決算書",
+      "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://thcdc.hakka.gov.tw/media/qaejbotj/114%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97.pdf?mediaDL=true",
+      "official_landing_url": "https://thcdc.hakka.gov.tw/12271/149699/12243/12245/lpsimplelist",
+      "original_file_bytes": 13188485,
+      "original_file_pdf_pages": 202,
+      "original_file_sha256": "ea75babb6f07764f562e8527d842c6aa19b8a61322c192c370857bbce51a4cfd",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ea75babb6f07764f",
+      "source_use": "numeric_evidence",
+      "title": "客家委員會客家文化發展中心114年度單位決算",
       "verified_at": "2026-10-26"
     },
     {
@@ -7041,28 +9120,30 @@
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_source_file_versions": 19,
-    "body_review_target_year_cells": 18,
+    "body_review_records": 36,
+    "body_review_source_file_versions": 35,
+    "body_review_target_year_cells": 35,
     "context_component_records": 2,
     "derived_summary_records": 1,
     "multi_year_records_not_allocated_to_years": 3,
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 156
+      "source_reported": 163
     },
-    "numeric_support_source_file_versions": 48,
-    "observation_records": 154,
-    "organizations_with_facts": 13,
-    "organizations_with_facts_or_new_body_reviews": 15,
+    "numeric_support_source_file_versions": 51,
+    "observation_records": 161,
+    "organizations_with_facts": 14,
+    "organizations_with_facts_or_new_body_reviews": 17,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
-    "total_fact_rows": 157,
+    "total_fact_rows": 164,
     "units": {
-      "件": 109,
+      "件": 115,
       "件作品": 1,
       "件數": 6,
       "作品": 1,
       "卷": 1,
+      "座": 1,
       "未明列": 2,
       "案": 3,
       "條": 2,
@@ -7076,7 +9157,9 @@
       "袋": 3,
       "部": 1
     },
-    "verified_original_pdf_files": 66,
+    "verified_original_html_files": 2,
+    "verified_original_pdf_files": 80,
+    "verified_original_source_files": 82,
     "years": [
       2015,
       2016,

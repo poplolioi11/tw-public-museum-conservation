@@ -1,0 +1,85 @@
+{
+  "dataset_version": "0.3.0",
+  "record": {
+    "action_categories": [
+      "restoration_as_reported"
+    ],
+    "aggregation_role": "source_total_with_components",
+    "classification_rule_version": "1.0",
+    "completion_category": "annual_execution_not_explicit",
+    "completion_status": "annual_execution_reported",
+    "cross_museum_comparable": false,
+    "data_year": 2020,
+    "default_aggregation_allowed": false,
+    "interpretation_note": "總量是原報直接列值；媒材分項只作同單位核對，不能再與總量加總。英文正文以restored描述實績；中文原詞保留執行。",
+    "metric_as_reported": "年度作品修復",
+    "metric_class": "museum_reported_treatment",
+    "metric_label": "年度作品修復",
+    "numeric_origin": "source_reported",
+    "observation_id": "ntmofa-2020-1",
+    "organization_id": "BASE-006",
+    "organization_name": "國立臺灣美術館",
+    "pdf_page_1_based": 29,
+    "printed_page": "054",
+    "publication_year": 2021,
+    "quantity_numeric": 25,
+    "quantity_qualifier": "exact_as_reported",
+    "quantity_raw": "25",
+    "record_kind": "observation",
+    "source_components": [
+      {
+        "category_raw": "東方媒材類",
+        "quantity_numeric": 13,
+        "quantity_raw": "13",
+        "unit_raw": "件"
+      },
+      {
+        "category_raw": "紙質歐陽文苑抽象作品",
+        "quantity_numeric": 6,
+        "quantity_raw": "6",
+        "unit_raw": "件"
+      },
+      {
+        "category_raw": "複合媒材",
+        "quantity_numeric": 3,
+        "quantity_raw": "3",
+        "unit_raw": "件"
+      },
+      {
+        "category_raw": "油畫",
+        "quantity_numeric": 2,
+        "quantity_raw": "2",
+        "unit_raw": "件"
+      },
+      {
+        "category_raw": "景觀雕塑",
+        "quantity_numeric": 1,
+        "quantity_raw": "1",
+        "unit_raw": "件"
+      }
+    ],
+    "source_id": "src-6e43c1a029b93326",
+    "source_scope": "國美館本館年度藝術資產保存維護正文；不含另列寄藏修復或國家攝影文化中心",
+    "subject_scope": "本館典藏作品",
+    "subject_scope_category": "own_collection_as_reported",
+    "unique_object_count_verified": false,
+    "unit_as_reported": "件",
+    "unit_status": "reported",
+    "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+    "year_on_year_ready": false
+  },
+  "source": {
+    "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjExMS84ZDYxYTUzZi04ZWM2LTQzYTItOTJlNC1hYjQ1YzI1ZjQzMzgucGRm&n=5ZyL56uL6Ie654Gj576O6aSo5bm05aCxMjAyMC5wZGY%3d",
+    "official_landing_url": "https://www.ntmofa.gov.tw/News_Publish_Content.aspx?n=1487&s=100973",
+    "original_file_bytes": 17434140,
+    "original_file_sha256": "6e43c1a029b93326401cea8bf7553fc0c24b28e47d1516fc637cbffd0e91be20",
+    "original_file_type": "PDF",
+    "redistributed_original": false,
+    "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+    "source_id": "src-6e43c1a029b93326",
+    "source_use": "numeric_evidence",
+    "title": "國立臺灣美術館2020年報",
+    "verified_at": "2026-10-26"
+  },
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/ntmofa-2020-1.json"
+}

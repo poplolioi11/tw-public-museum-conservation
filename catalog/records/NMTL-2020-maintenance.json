@@ -1,0 +1,53 @@
+{
+  "dataset_version": "0.3.0",
+  "record": {
+    "action_categories": [
+      "maintenance"
+    ],
+    "aggregation_role": "原報分項，未證互斥，不可逕相加",
+    "classification_rule_version": "1.0",
+    "completion_category": "explicit_completed",
+    "completion_status": "原文明載完成",
+    "cross_museum_comparable": false,
+    "data_year": 2020,
+    "default_aggregation_allowed": false,
+    "interpretation_note": "原報作業範圍與計量單位照錄；未核逐件去重，不代表純修復或統一工作量。",
+    "metric_as_reported": "文物保存維護措施",
+    "metric_class": "保存維護",
+    "metric_label": "文物保存維護措施",
+    "numeric_origin": "source_reported",
+    "observation_id": "NMTL-2020-maintenance",
+    "organization_id": "BASE-008",
+    "organization_name": "國立臺灣文學館",
+    "pdf_page_1_based": 27,
+    "printed_page": "027",
+    "publication_year": 2021,
+    "quantity_numeric": 558,
+    "quantity_qualifier": "exact_as_reported",
+    "quantity_raw": "558",
+    "record_kind": "observation",
+    "source_id": "src-825508857b400d13",
+    "source_scope": "年度保存維護措施分項",
+    "subject_scope": "本館藏品",
+    "subject_scope_category": "own_collection_as_reported",
+    "unique_object_count_verified": false,
+    "unit_as_reported": "件",
+    "unit_status": "reported",
+    "verification_status": "official_pdf_original_page_render_read",
+    "year_on_year_ready": false
+  },
+  "source": {
+    "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNTA0L3JlbGZpbGUvMTMwOTQvMTM5MDcyLzM4ZTIwYzM3LThhMzYtNGEyNi1iNWFlLTg5MDVmYTg5OTZjNy5wZGY%3d&n=5ZyL56uL6Ie654Gj5paH5a246aSo5bm05aCxMjAyMC5wZGY%3d",
+    "official_landing_url": "https://www.nmtl.gov.tw/News_Content_Book.aspx?n=3852&s=139072",
+    "original_file_bytes": 11054096,
+    "original_file_sha256": "825508857b400d1306dc75ffeb5aa97198b64e24464ac7e38364675592fcf659",
+    "original_file_type": "PDF",
+    "redistributed_original": false,
+    "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+    "source_id": "src-825508857b400d13",
+    "source_use": "numeric_evidence",
+    "title": "國立臺灣文學館年報2020",
+    "verified_at": "2026-10-26"
+  },
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.3.0/catalog/records/NMTL-2020-maintenance.json"
+}

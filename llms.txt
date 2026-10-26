@@ -1,6 +1,6 @@
 # 臺灣公立館保存修護公開資料索引（持續整理）
 
-> 官方保存修護資料的來源與已覆讀分項索引。v0.2.0擴充版；不代表全國完整館數、完整年度修護總量或可比較績效。
+> 官方保存修護資料的來源與已覆讀分項索引。v0.3.0地方館與查詢分類版；不代表全國完整館數、完整年度修護總量或可比較績效。
 
 - 資料截至：2026-10-26
 - 發行日期：2026-10-26
@@ -33,7 +33,7 @@
 - [正文分項涵蓋](metadata/read_coverage.json)
 - [欄位字典](docs/DATA_DICTIONARY.md)
 
-157列包含154筆原報觀測、1筆derived_summary、2筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
+164列包含161筆原報觀測、1筆derived_summary、2筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
 
 ## 新增資料的必要限制
 
@@ -43,3 +43,10 @@
 - body_read_no_eligible_quantity_located代表所列範圍未定位合格數字，不代表零修護、業務不存在或整份報告未公開。標本新增／初製、活體照養及數位化不自動等同實物修護。
 
 整理與發布：曲宸宇（Chu, Chen-Yu）；poplolioi11是同一人的GitHub帳號，非第二位作者。
+
+## 固定索引與分類
+
+- [館所索引](catalog/README.md)與[查詢方法](docs/QUERYING.md)。
+- catalog/records/{observation_id}.json提供逐筆紀錄及來源；以tag路徑引用固定版本。
+- action_categories為複選查詢標籤，不是作業數量拆分；completion_category不改寫原完成狀態，subject_scope_category不作法律權屬認證。
+- 36則來源查核對應35組館所年度；海生2020年報未定位與後續決算正文覆讀可並存，不能把不同scope互相覆蓋。

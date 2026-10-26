@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.2.0",
+  "dataset_version": "0.3.0",
   "milestones": [
     {
       "scope": "美術館首個可引用子集",
@@ -21,6 +21,18 @@
         "source_not_located_in_this_search": 1
       },
       "new_original_pdf_versions": 25,
+      "national_or_all_years_complete": false
+    },
+    {
+      "scope": "地方館、缺年補查與查詢分類",
+      "completed_in_release": "v0.3.0",
+      "new_fact_rows": 7,
+      "new_source_review_records": 18,
+      "new_original_pdf_versions": 14,
+      "new_original_html_versions": 2,
+      "query_facets_added": true,
+      "fixed_record_entries": 164,
+      "interactive_website_deployed": false,
       "national_or_all_years_complete": false
     }
   ],

@@ -51,7 +51,7 @@ def main():
     else:raise AssertionError('multi-year figure silently became a single-year value')
     with tempfile.TemporaryDirectory()as tmp:
         root=Path(tmp)/'pilot';root.mkdir()
-        for folder in ['data','metadata','scripts']:shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns('__pycache__'))
+        for folder in ['data','metadata','scripts','catalog','schema']:shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns('__pycache__'))
         shutil.copy(ROOT/'VERSION',root/'VERSION')
         cmd=[sys.executable,str(root/'scripts/build_exports.py')]
         before=hashes(root)
@@ -72,6 +72,10 @@ def main():
         bad=json.loads(json.dumps(facts));s=next(s for s in bad['sources']if s['official_file_url']);old=s['source_id'];s['original_file_sha256']='a'*64;s['source_id']='src-'+'a'*16
         for r in bad['observations']:
             if r['source_id']==old:r['source_id']=s['source_id']
+        for review in bad.get('body_reviews',[]):
+            review['source_ids']=[s['source_id']if v==old else v for v in review['source_ids']]
+            for detail in review.get('source_page_reviews',[])+review.get('source_locators',[]):
+                if detail['source_id']==old:detail['source_id']=s['source_id']
         candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
         assert result.returncode!=0 and'Source bytes changed'in result.stderr and hashes(root)==before
         # A broken export is detected by check, not silently repaired during check.
