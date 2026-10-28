@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.7.0",
+  "dataset_version": "0.8.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -50,5 +50,5 @@
     "title": "國立故宮博物院2025永續發展目標自願檢視報告",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.7.0/catalog/records/NPM-2023-vdr2025-objects.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.8.0/catalog/records/NPM-2023-vdr2025-objects.json"
 }

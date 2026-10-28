@@ -1,1184 +1,1272 @@
 {
   "as_of": "2026-10-28",
-  "canonical_fact_projection_sha256": "beb21bec9491e6e55946b35ddfe81839464286fb0febc6a9082d5b3ed07f8f76",
+  "canonical_fact_projection_sha256": "52d7ccefc4f3ce9061fcb6f068160187db252ddcfaf5c3ce2296a5780615130c",
   "checks": {
-    "body_review_records": 96,
+    "body_review_records": 192,
     "context_components": 2,
     "derived_summaries": 1,
-    "distinct_source_year_review_cells": 90,
-    "fact_rows": 265,
+    "distinct_source_year_review_cells": 186,
+    "fact_rows": 271,
     "inventory_lookup_grid_cells_not_facts": 426,
     "multi_year_records_not_allocated_to_years": 3,
-    "organizations_with_facts": 16,
-    "original_html_versions": 6,
-    "original_pdf_versions": 134,
-    "original_source_versions": 140,
+    "organizations_with_facts": 18,
+    "original_html_versions": 10,
+    "original_pdf_versions": 180,
+    "original_source_versions": 190,
     "query_facets_reproduced": true,
     "source_pdf_revalidation_performed": false,
-    "source_reported_observations": 262,
+    "source_reported_observations": 268,
     "unknown_values_are_not_zero": true
   },
-  "dataset_version": "0.7.0",
+  "dataset_version": "0.8.0",
   "exports": {
     "catalog/README.md": {
-      "bytes": 3010,
-      "sha256": "9397f8a242922ceaa154a9da85015bb59322194a4bcd7f7a576db9bb28524eae"
+      "bytes": 4804,
+      "sha256": "098eb0c629a8677e48b43cefd09e0125e257934b07b95e6fa2b388ba09a414d7"
     },
     "catalog/SAMPLE.md": {
       "bytes": 4200,
-      "sha256": "8000f73419dedd38475bad4d4c3b9d47676c69f87d42414c8b7669216577e9cb"
+      "sha256": "4f2ffdea0ca9c08d87fc672c43b03c9cd04c96473b92650a609f91dc905310db"
+    },
+    "catalog/museums/ADD-002.md": {
+      "bytes": 3245,
+      "sha256": "2ccf74016b0a3364972445b3e13b779f797092edd691dc7542767af051f00ab2"
+    },
+    "catalog/museums/ADD-003.md": {
+      "bytes": 2123,
+      "sha256": "2fe749a90dc9dea8f2cd124d13ec598edbe5a84d7bc84fe027a441ec7aaf4243"
+    },
+    "catalog/museums/ADD-004.md": {
+      "bytes": 2145,
+      "sha256": "ac2ceff5253c1770ab9f0ec01be21d1b4083f5d4219c443483187b1883dbb61f"
+    },
+    "catalog/museums/ADD-006.md": {
+      "bytes": 2599,
+      "sha256": "d98e1a8342f969b77f301a2f6240ebfbb7ee3eca1d1ff62a9ae301d24342371b"
     },
     "catalog/museums/BASE-001.md": {
       "bytes": 1482,
-      "sha256": "ccd4ac7da22ddedd92abd4416c9230dd508ddba2ac9f611f8ce972f2c241bf1d"
+      "sha256": "7d7fb259312061e280386c82f7e4b04454ada0688499a77f6c118b4cf93c0bd3"
     },
     "catalog/museums/BASE-002.md": {
       "bytes": 2205,
-      "sha256": "8912984378c53fc51f49cb622339a6b9c121ac79ec4e30207ea3100daf37298c"
+      "sha256": "9faa72b678a5d818ee1ecf9b46e38421aff6706a944199623917b8899dc783c9"
     },
     "catalog/museums/BASE-006.md": {
       "bytes": 1530,
-      "sha256": "9e521856dc817e2cdb0a6002d8772e46edd5abcd57b8bfd9a2f3c363b73801ea"
+      "sha256": "29280a92e882509310b67f9ee0371ae0f0531fa76213ed4546cbdc6c648748f7"
     },
     "catalog/museums/BASE-007.md": {
       "bytes": 3772,
-      "sha256": "26f8a172bbfb8a3766f819d6f53d154fdcd794fc650993d47c820311bf83bed6"
+      "sha256": "d1726b2d048cdae1d165cced9823e9e234c3e7d30af61422106ae847c6b7a299"
     },
     "catalog/museums/BASE-008.md": {
       "bytes": 3577,
-      "sha256": "ec03e98cad9e4a691abdcf6543a50987ad4672cddbc913b8f22891c054eae514"
+      "sha256": "e6fe3f84cb84de97951450886f9535a868aef1cd00640e75b8631063ef372308"
     },
     "catalog/museums/BASE-010.md": {
       "bytes": 7467,
-      "sha256": "b2f75638f80f8791f86d81e87eb0e1a54670873cbe91f5980f78cba83809d605"
+      "sha256": "5a718cee5bf26bfcda3d6bbdef023d4e3f27c65411facdb15279b3beddc6b62c"
+    },
+    "catalog/museums/BASE-011.md": {
+      "bytes": 3167,
+      "sha256": "d952ba8cc545227703afdee14f4226b9e7bdc108440f7c6cf8d243c21f4be568"
     },
     "catalog/museums/BASE-019.md": {
       "bytes": 1975,
-      "sha256": "7912a921ab0ddddfc9487d6f1db70cbbef51a94a9639fdfc1f4775b09eb591f6"
+      "sha256": "c3056090d9634fad38c4176301231ec2589c71876bc2e56d4db06ac579aef714"
     },
     "catalog/museums/BASE-022.md": {
       "bytes": 2499,
-      "sha256": "e42001a11e40f89fe3eaccdfcebc8e82ae848a1d3edaa8584d2d4f5c0ceb025e"
+      "sha256": "34b7eb7f3ce5bf05254b33f47565deff770af6ac8d26a90ba87048757c45b71c"
     },
     "catalog/museums/BASE-023.md": {
       "bytes": 11297,
-      "sha256": "74a0b9b867d2344a5714303deb0d51301855061cc921b3a5f36082f49b3f3b4f"
+      "sha256": "4a246dd51deb4fef24c0e841a829f1713f54c0c8474fb6de57ab3498c30c1c97"
     },
     "catalog/museums/BASE-024.md": {
       "bytes": 2213,
-      "sha256": "1942a7cee90fe12f3c46c46212506a5ff4385f27040f1e1dcab47d194fefda71"
+      "sha256": "eecfe50471118aa699ad85c68f2fd2e7450097f953b4181e84a82f0ae9c5abd7"
     },
     "catalog/museums/BASE-030.md": {
       "bytes": 4072,
-      "sha256": "59b9a6c6c335dacd4e6341a6d7701c8d0ae4d171de3a055abb442aca6482991e"
+      "sha256": "020ccc0e59608e9c08465674637887d96d331b20221d7b55e209cc57db921567"
+    },
+    "catalog/museums/BASE-034.md": {
+      "bytes": 3277,
+      "sha256": "34abf119c0e8e7b3bacaa2b0b3d036982f28c197d62b8d00a737aa08f2f1afe3"
+    },
+    "catalog/museums/BASE-035.md": {
+      "bytes": 3235,
+      "sha256": "ddead7179029238e4dd90d82b3c17d18274ce6d70922d79983c48d563247fa19"
     },
     "catalog/museums/BASE-036.md": {
       "bytes": 3253,
-      "sha256": "ca151568699fac6816d8614d1d400d2b184ec2ac126e07b4c2f1beede1d63ed2"
+      "sha256": "320bd1d6560230cf363faad439b966b68764b2a283b3c85ecbc0345cb68e9762"
     },
     "catalog/museums/BASE-037.md": {
       "bytes": 2193,
-      "sha256": "cf1ca11f700127486aac2cbf5cac095c46c853c3cf5c2fec281f44d869ac1a30"
+      "sha256": "edde73c0e712ae31771348b945b14051c649e8f5b1837dbf24ed73f766f9c012"
     },
     "catalog/museums/BASE-041.md": {
       "bytes": 2443,
-      "sha256": "0d528d836244d09f4ac38c46db1a7e34bcbda8cef5730e173497794ff671b612"
+      "sha256": "503ceac6f36431c13bb3d2948a950f71dd0c1e6f527a42d31fc102061f86258c"
+    },
+    "catalog/museums/BASE-045.md": {
+      "bytes": 3768,
+      "sha256": "634d53a296e000a8641f185a455937cff14b9f27fd5131212060165c2903ac61"
     },
     "catalog/museums/BASE-047.md": {
       "bytes": 2878,
-      "sha256": "1de53bad461d06f6a01ce6e83812c7b998dbbe70844f9c857f9847b282052d40"
+      "sha256": "55de102245ec5e162ac414690b8b84fce2b859d0401ff8ae756b997beac48cc3"
     },
     "catalog/museums/BASE-049.md": {
       "bytes": 3419,
-      "sha256": "d9b2ccec3b1d692dd39d06d68fb394da67d250b6edb3c821d45fc0681b606da9"
+      "sha256": "60db35c3f4c7915c521ee4d58f36ecf9e5ad470d56415dd36402d224fbd51b78"
     },
     "catalog/museums/BASE-051.md": {
       "bytes": 2671,
-      "sha256": "5d3fc2258f1e9588dfa2e593a3b460353919f6f3ed5c45b0454be055c91459f7"
+      "sha256": "81968b2cbd3d525e599a672f9597ada58bacd51788ceb46d10e89b36825b837c"
     },
     "catalog/museums/BASE-052.md": {
       "bytes": 2645,
-      "sha256": "77912b1f9542c3d73b48874868116284bcc1a6de83c7dc265be76d46b06709ff"
+      "sha256": "fb60eefdd4fd23b53c22b5e046a98ebe52dcc4713331060c64c074251a8d7dc2"
     },
     "catalog/museums/BASE-055.md": {
       "bytes": 2112,
-      "sha256": "a9de017cf040352f77b2c4c1dca4793505fdaaa764bff6ab84cfa6872eaf4cb5"
+      "sha256": "37103479bca7fdba83a6cb4d714781de8a3de4a38997caafab939920476b3cd0"
     },
     "catalog/museums/BASE-057.md": {
       "bytes": 1831,
-      "sha256": "a71b5985bc401d820b581ecc8750667d7f54a572d8c88d8fea213157f03bd58d"
+      "sha256": "836fbde1c6e1376ed08ce1257d742a35d8e680a06f07d9143432b3bd895ed4b2"
     },
     "catalog/museums/BASE-058.md": {
       "bytes": 2916,
-      "sha256": "1ba0e504316b43ead3c49333592e9f776b976634c44f2d48a241a30be32d4758"
+      "sha256": "6227bd8392ccfd75304066e92805855f7b3a4f49415f5dcafdead4d6c9d20055"
     },
     "catalog/museums/BASE-062.md": {
       "bytes": 2206,
-      "sha256": "74022e3cdd59ea77f0b4f4b0adee2f5f90eeecf9302172b963f365012916d7aa"
+      "sha256": "6062d6ae77fd63d214743299d4808524832d12009f4de21e5e9c03b910a42c7c"
+    },
+    "catalog/museums/BASE-064.md": {
+      "bytes": 2295,
+      "sha256": "5866e57cf3f6016e7d79bd96a645b3b2d15a89385312a324f8433b0775e5bdcd"
+    },
+    "catalog/museums/BASE-068.md": {
+      "bytes": 2132,
+      "sha256": "05173a609caa9942924b07c96c21ad7c508807032a4a2543f1df2ed346352abc"
     },
     "catalog/museums/SUP-001.md": {
       "bytes": 656,
-      "sha256": "8e8572303c974e55878e76b2b651dd2d8f390bb0176a91a8edf3d7ef46473488"
+      "sha256": "f09696653594d17f49d64cbbe038796b9c276b3dda5b69880c17239627720f3c"
+    },
+    "catalog/museums/SUP-004.md": {
+      "bytes": 3756,
+      "sha256": "a01c622ef9077c8bc1f4db0d1fc0623bb8ac9c8934e8b99a94a0172182643430"
+    },
+    "catalog/museums/SUP-005.md": {
+      "bytes": 2851,
+      "sha256": "699c6c777433c5ecfd4ac936f88472af8114031e5a92da6884420fad2189bce1"
+    },
+    "catalog/museums/SUP-006.md": {
+      "bytes": 2076,
+      "sha256": "bfa05bd6306d9318660de159d784f8300f819e40521983b67e60e29961cf4639"
+    },
+    "catalog/museums/SUP-007.md": {
+      "bytes": 2509,
+      "sha256": "441ce731dc68c5969176ccf6c042e85868abae22b2a826b5040aaca8dbbe7228"
+    },
+    "catalog/museums/SUP-008.md": {
+      "bytes": 2215,
+      "sha256": "e9da6125c69a6aee3f44e2b6440c0ec7f1cd5cf17352f0a28eb61c29d0bd5312"
+    },
+    "catalog/museums/SUP-009.md": {
+      "bytes": 2107,
+      "sha256": "16ada3aa498d2f3ddd08560e038b5a9102ca9f47b5f5215c77abe14d646a4a0d"
     },
     "catalog/records/KHM-2024-conservation-work-items.json": {
       "bytes": 2792,
-      "sha256": "1a635687862f55f02cdbfbb1c09ee3a10ba174174e6dcb3d519615b8162179c6"
+      "sha256": "2aacef84ca37e8877b545b84a091121d5f68765d4eada803b49f1c4958247659"
     },
     "catalog/records/KHM-2024-treatment-objects-as-reported.json": {
       "bytes": 2683,
-      "sha256": "8e3cc25a13f887baa7234f69e542b723f40a3a8f1f76aab2474966c69d40e731"
+      "sha256": "e8b28ee6970e953544cc0aafca893acd9fe1c527d0283a29bd69131785628a7b"
     },
     "catalog/records/KHM-2024-treatment-project-cases.json": {
       "bytes": 2645,
-      "sha256": "f642a0e9708b6f6b6c6b8e8b17e5747cb096895a37505c28fb123df07d225be6"
+      "sha256": "648c7f059028f62e3aff93cdfb96948b0da98172992f3d323bbd3fdf3c79a1da"
     },
     "catalog/records/KHM-2025-conservation-work-items.json": {
       "bytes": 2790,
-      "sha256": "9cc6ab8c3bdcf0685411f5464e91f1fab9f47b059794d33edc22805c6c4c9610"
+      "sha256": "fbe6ac196ab8a0ca0f2338e3a15266291cfcce1e1fc8e51e10185815701163b2"
     },
     "catalog/records/KHM-2025-treatment-objects-as-reported.json": {
       "bytes": 2749,
-      "sha256": "80b1e326556593aebef225f1c8f21d3c87e11e7dc6f87d3b16f6c921131b2d3e"
+      "sha256": "8454243018739f1b45254ef3b43f402ddc96f5cc4c556eb50ad3b20029d70574"
     },
     "catalog/records/KHM-2025-treatment-project-cases.json": {
       "bytes": 2709,
-      "sha256": "024a5c1b227ee66f5b776e0b50f4b6efe29d21445cb3d9593823a9849e180743"
+      "sha256": "0c70801bc65c004c7816920a05b590b026ce8fcd3b4a0bd5abd21bc2e8ba1258"
     },
     "catalog/records/KMFA-2015-register-01.json": {
       "bytes": 2982,
-      "sha256": "421b50f3712db9c62072c95bf3f157ebc1d7af0c49e67734f791084d0a3c61da"
+      "sha256": "6e4314581742e08dda058b78f200296556f71a6c29c9dc32856fc7c0d0b00009"
     },
     "catalog/records/KMFA-2016-register-02.json": {
       "bytes": 2982,
-      "sha256": "a602814c85830744be45fdad92d3aa9d77f46e9f7abb69bdfdc2daa144972f04"
+      "sha256": "1b2494e290d9dd04739df99e602057b19105e7e4bf3949c48bac9aeffe5d6e2f"
     },
     "catalog/records/KMFA-2016-register-03.json": {
       "bytes": 2982,
-      "sha256": "ada6ac51398ef781fc8ee2248c76a6cc0e6081dbc04600e184d0eaf7a8bbe22e"
+      "sha256": "7fa490e5095db47128bc92fd830b8985fe2fb87eb63f1a45e0ee8db47080a008"
     },
     "catalog/records/KMFA-2016-register-04.json": {
       "bytes": 3055,
-      "sha256": "666d30dca12d9b33b858ae0fb94bbdf8b1aefff8023690bfbee881e816a2d868"
+      "sha256": "6bb51d2b1100f8672959dbd33e4af3698e34b4167f25f6ba68f69a1243f86a5c"
     },
     "catalog/records/KMFA-2016-register-05.json": {
       "bytes": 2982,
-      "sha256": "3e85c4d9e29b9dc8dd4d62ff47d0d949030d49fee292e5ab76a8709374418dd3"
+      "sha256": "2b356863044588bcf4c89c3bbb7c87e922ee2ccded51368fdc96abe4836882b8"
     },
     "catalog/records/KMFA-2016-register-06.json": {
       "bytes": 2982,
-      "sha256": "5a9db7aefae81bce0a3f45ae921e5644478edc1475e240d1bb8d32c258e9229d"
+      "sha256": "082a790d066fca25d3ac69e4d20cdf8501dec01ef727da8bea2017e57bd80a94"
     },
     "catalog/records/KMFA-2023-oil-painting-restoration.json": {
       "bytes": 2919,
-      "sha256": "ea7be52288a564b3488096368ed2d240b064c8a94a35aef2ba824a584513260e"
+      "sha256": "26fa4325634474558fea202bd8034cd7c009f7b2d4771ca7ef50abe1bd55014c"
     },
     "catalog/records/KMFA-2024-existing-collection-restoration.json": {
       "bytes": 2791,
-      "sha256": "61b0bd3192cca8565a9ff2410bd3eeea04c9304522f316692ed9d2716e7ce4ac"
+      "sha256": "6dfa5ed99f7a2aa666900d227793a16d0da1a0f01ce4069030718d0855708a46"
     },
     "catalog/records/KMFA-2025-existing-collection-restoration.json": {
       "bytes": 2791,
-      "sha256": "fb34228060b90d4f78dfab51a223dbb05496b3177afc127dd3423d1b84961e40"
+      "sha256": "f82be6a1566a4dd25825c2ef1698c7a72af373341991a0ff3449e2b758797b73"
     },
     "catalog/records/NMTH-2020-conservation-reported-total.json": {
       "bytes": 2853,
-      "sha256": "926c6994f7f1d6ea8c70827a5e818b032ef6f964b6e68ddbae667437992d346d"
+      "sha256": "a8f8ad3f60deeb7e76db2244865c002e87249d4259e642f5408b5686c6cf1c89"
     },
     "catalog/records/NMTH-2020-emergency-stabilization.json": {
       "bytes": 2760,
-      "sha256": "1ff91f3fbf6a18aba3907bcbd8a71938c6ee4f85b4db51e6494cceab847083cb"
+      "sha256": "c282b94939a8aec3c6c91f9aea74934fda3f3edc641209d50220300f0d689c11"
     },
     "catalog/records/NMTH-2020-full-treatment.json": {
       "bytes": 2759,
-      "sha256": "96d056e7941de494e712426a0d4947c6d3258250ed99bfb3aa1cd69f0d9dd01a"
+      "sha256": "4afe64b41b1402c371db7ef2cab013efc11669c8046aeca07810b2ae22db77de"
     },
     "catalog/records/NMTH-2020-routine-maintenance.json": {
       "bytes": 2773,
-      "sha256": "cf55009000ec11b44268319b656333c85d8e291ac3493a2dbb17538108423b39"
+      "sha256": "0a4bf27581b70423eb1232153b4228d6c6edfdb66e5ce3d091f658bc53baf623"
     },
     "catalog/records/NMTH-2021-film-pieces.json": {
       "bytes": 2650,
-      "sha256": "314b3e3ffedd852d28d118b06ff2bcfa876b9f55bb503499b2aeed600a0673ff"
+      "sha256": "288cd95651f29a89d9902536d6b9074f8e4765e6e9a3879ef85ff2cb75f35845"
     },
     "catalog/records/NMTH-2021-film-reels.json": {
       "bytes": 2646,
-      "sha256": "67b9efcd0e155acfdbba3fdfeea2b932779b274242e576943c7c7a6ed1affd30"
+      "sha256": "9d2f7268a5977fab667835edee0234cb85dcef7134e35ea38099dbf81381eba0"
     },
     "catalog/records/NMTH-2021-film-titles.json": {
       "bytes": 2648,
-      "sha256": "0432b7f734ee88399d5adc92be2b6e6118a9f29b035c98ae53d24041c09366f8"
+      "sha256": "2eee5786d98bed876192ddcc34ef5fe156d206b54159d44b90301f8a2d5e3ae0"
     },
     "catalog/records/NMTH-2022-conservation-reported-total.json": {
       "bytes": 2888,
-      "sha256": "fc5c083f03da78b99cf51a6f87ba700abdac0b090a26a3aa29829294b3374bec"
+      "sha256": "b68b4767a25722ff4f0709e23e8a59f4c31b6de8f059e027b60d26f4e616b02a"
     },
     "catalog/records/NMTH-2022-emergency-stabilization.json": {
       "bytes": 2787,
-      "sha256": "b79e02ff863f81dec1321783e706271980635031976abfedc7dfbe8f5f00e950"
+      "sha256": "a01a5f5e63bcf5ac1734c1e702775b669cb9747acbaf5859aee9d834221d33f2"
     },
     "catalog/records/NMTH-2022-full-treatment.json": {
       "bytes": 2805,
-      "sha256": "c7a40d713bee81a9c6087f23fc04b08b98757b73a6574dac86250762b5ef6817"
+      "sha256": "fdddbd379fda29d09353a4140fa6b82e05bed1b6ce5bfa30755069a72aea4ae9"
     },
     "catalog/records/NMTH-2022-routine-maintenance.json": {
       "bytes": 2802,
-      "sha256": "ab49d8b96cebf4474fdc583f360a20401e19017989926e9bc18a39fd499a9be7"
+      "sha256": "e83880fa29ef8ae44ec50384218d8f58ed88f02faadf20e1ec164cde5333e8f5"
     },
     "catalog/records/NMTH-2023-conservation-reported-total.json": {
       "bytes": 2866,
-      "sha256": "11f61238c91f43ffe53162276e1e54925ed6bb1854e8a5b3df2da72f23f4f37e"
+      "sha256": "003f322b4789e18db2cd1475b4777116e92c89b3fe04244feffc87f7623075a2"
     },
     "catalog/records/NMTH-2023-emergency-stabilization.json": {
       "bytes": 2849,
-      "sha256": "c4c13ab3aabc4deb8cfdcaf2cda0504e5ac31d0505205b5e995cbba25d225da0"
+      "sha256": "164073ca5b6596b34f0caec54d28cd56adc9dd2af1f362c9a6b5d2f603116a46"
     },
     "catalog/records/NMTH-2023-full-treatment.json": {
       "bytes": 2784,
-      "sha256": "4f9e390a799aa1a2022989a9761a0461b17cdf920316d5a9d3c414237d7b6914"
+      "sha256": "cf28aeb73fb3838fa37eddd6003d1d54c4c240c91421a5b1f21cfd7cab9c4cb9"
     },
     "catalog/records/NMTH-2023-routine-maintenance.json": {
       "bytes": 2890,
-      "sha256": "0b46022a6fb8cfd571cfbaa767c54da7e951e18cafe7c02d04f7be352bfda12b"
+      "sha256": "bdf56a092a992e094b9909ee9b75c6ae1e2ae3c01d7d0a685d7324612c2226ce"
     },
     "catalog/records/NMTH-2024-conservation-reported-total.json": {
       "bytes": 2850,
-      "sha256": "7b64dea7849ad923a2c7981ceb2eca1a27f418429c31768d0a00467622b596cc"
+      "sha256": "ae0659d96792231be133b304a6b535d0d8cd0773de3739d011f5f29117f13dfd"
     },
     "catalog/records/NMTH-2024-emergency-stabilization.json": {
       "bytes": 2752,
-      "sha256": "5142b7d7b20b2155a3a2ad2615486749cca2cd0706512e98130bb2f5b01d6ef2"
+      "sha256": "ab2b4f5a884fb65408a6b0e3171b77d744836b73b88d4b20b02ba8b237179785"
     },
     "catalog/records/NMTH-2024-full-treatment.json": {
       "bytes": 2863,
-      "sha256": "5359de7062076cf92b8ff231ac70b5be29e78d58b51d8bf525c3997c3aaf50e4"
+      "sha256": "230b5c952848e52643bb249e7fea42b402439d2d82c69b867328193f5b38dec6"
     },
     "catalog/records/NMTH-2024-routine-maintenance.json": {
       "bytes": 2761,
-      "sha256": "f1e6456943a4fa406afae54c058b9e1998c847968b4e7fdc231836a3353310c5"
+      "sha256": "4fca3c8f000a29eb8f3b38f2ec1b6330f39bb5972039d6bc7cceae97aa95cefc"
     },
     "catalog/records/NMTH-2025-wall-panels-completed.json": {
       "bytes": 2563,
-      "sha256": "7455d9fdc3bf77770f4a71b94dcc128efd72588df0be1a10715a0fd6da163331"
+      "sha256": "494c212a60da4477bcb5f342c4d95777d1344945afdff1488cf02fe003e887ff"
     },
     "catalog/records/NMTL-2020-basic-repair.json": {
       "bytes": 2554,
-      "sha256": "16f6601f08eae3fc14a010231036af78b17485a2b5ccd25441b2ed2ee2746258"
+      "sha256": "20011fcc0ede6ec009a1eb70089f521942eae034b37e154820c2f176a2b4b662"
     },
     "catalog/records/NMTL-2020-calligraphy-treatment.json": {
       "bytes": 2510,
-      "sha256": "48c354752b1cbf82f59584f867b548431b109b465a622f777698a855f864c5e5"
+      "sha256": "79231f875c87597354a9da6a91115f5bd5a89371f7fa4ef71ab60ec9e64c01c8"
     },
     "catalog/records/NMTL-2020-collection-treatment.json": {
       "bytes": 2483,
-      "sha256": "1a30011787c478a827dc4b917ffc8ee2b07da3497113e2a90b6f7a9f9ca7441b"
+      "sha256": "8bdc3d48d40726d947035c254678ad4ec58f97b53bfe5e3bc0194788dbd7d618"
     },
     "catalog/records/NMTL-2020-maintenance.json": {
       "bytes": 2434,
-      "sha256": "58f34173a8c7b4d628bfc79ca66d3758dee8cd01ee769f03b5d0cf5f1dd98ed1"
+      "sha256": "b92dd5a3e5871dfe8e140ed04b9e3f515eb7d0bd39a37c668c941852d57064e9"
     },
     "catalog/records/NMTL-2021-basic-repair.json": {
       "bytes": 2548,
-      "sha256": "16906dfdaa11c0ea63ec76f064a347e51971a19d29b5a82347ca7207e9ac7f8b"
+      "sha256": "3323380db79049a037e3e63a26ae63a202cb5511c19f313b04e20c308ab8bcfa"
     },
     "catalog/records/NMTL-2021-collection-treatment.json": {
       "bytes": 2534,
-      "sha256": "6e4cb9461e15f403bd066b4ebfe28fde7c6c5d6385727b6a667275249ff5f88b"
+      "sha256": "e65ff81d44c0114dc38dc4bed7b2921f9b726bae78a201c729d3419711a24dc4"
     },
     "catalog/records/NMTL-2021-maintenance.json": {
       "bytes": 2431,
-      "sha256": "8d6cb29c76e438e9cb8cf0ef3e5ad95e25760b69e834cd50d94c0ee5709cbfbe"
+      "sha256": "0350655d85334a40e8c24cfd2cdf0fa2d2bedbd23069c77b64ed1629e0118dab"
     },
     "catalog/records/NMTL-2022-basic-repair.json": {
       "bytes": 2548,
-      "sha256": "1fe99ee03cf1bbdbae400d8098c4a4622f5715b30e1380ec34fb8fd5a222b8e5"
+      "sha256": "607cce544df0134209ff1f598ad959f38c58ded345dded2daff3d5d093f8c4ae"
     },
     "catalog/records/NMTL-2022-calligraphy-treatment.json": {
       "bytes": 2516,
-      "sha256": "00fead8573dc884326f4a7ab5f663d4f8d0361818a6166db3adba3fb2d804985"
+      "sha256": "6ca2034a9c99889080903da689ed8fec403d728adb2877bb24d56c8b102061f7"
     },
     "catalog/records/NMTL-2022-collection-treatment.json": {
       "bytes": 2563,
-      "sha256": "ab27e55cb2e6a0ebdff446c0fb0dbba1992ec198f934d531a370645790d69774"
+      "sha256": "76ad69d6dda12dde5384a910ab1b4ffdfbbfee4bdc6efc3da1ba2d32e7702848"
     },
     "catalog/records/NMTL-2022-maintenance.json": {
       "bytes": 2431,
-      "sha256": "093815f58ab03ebcae94316664b966bab3f1b5f131af467094c362c2541fe1f9"
+      "sha256": "167caed42f186977260a8e0eb26418d6a2edf0b111608984264beffc516802a2"
     },
     "catalog/records/NMTL-2023-basic-repair.json": {
       "bytes": 2548,
-      "sha256": "d9cdde447d5849712d9a5fe75cfb3877e2a2851987222dfce9bfe8f53ce5fa44"
+      "sha256": "069b0d55c86f59118b22bef2b1194066b6e1bbfb4ab116c6cff2b3d1f82dccd0"
     },
     "catalog/records/NMTL-2023-collection-treatment.json": {
       "bytes": 2498,
-      "sha256": "79e400a6b24843b2eb43227e400492fa87562f98ba297da85296b0354c758aa6"
+      "sha256": "8e4ce35e3bb84b961286942569deed207a9df4c42a14d75ad330a55902f9cebe"
     },
     "catalog/records/NMTL-2023-family-museum-treatment.json": {
       "bytes": 2489,
-      "sha256": "45a00d7550e2237d71b61600c8fb77f405cff14ad27bf6acd6ab07410db9ba61"
+      "sha256": "5e3f8479764da49230208c8a3f357828284cfe4552982288ea374ced27029138"
     },
     "catalog/records/NMTL-2023-maintenance.json": {
       "bytes": 2431,
-      "sha256": "5bfa5155941711e2ec9b5009023a8c68863292ad9e2aa8ff51aef3eb6c51427e"
+      "sha256": "71367c5398d7c212568efe2fbccd007b79ee1442085bd20f992d7bb67ca75dc1"
     },
     "catalog/records/NMTL-2023-mixed-calligraphy.json": {
       "bytes": 2541,
-      "sha256": "2a94733e0ac83cec8265508f5cee553fe91eba303a84ac3fbb216be539a60b64"
+      "sha256": "f345be8544b943cb3c4ea01c78d76c77ad0bf6d84cb7f92b7b968a52cae4a07d"
     },
     "catalog/records/NMTL-2024-collection-arrangement.json": {
       "bytes": 2430,
-      "sha256": "4b2fd3c32f66168e0b3eb364e7524c782a934db179069e51f611c609809d98ea"
+      "sha256": "3145fe3b44ed8f71ba80712a1f3687c1994cf39fa0203964a821ccc5e4d94a6b"
     },
     "catalog/records/NMTL-2024-collection-treatment.json": {
       "bytes": 2457,
-      "sha256": "9c0b7ef7235a1213f1f9b3891eb0c122f7ea32afe187c4faaceca55a1be31e38"
+      "sha256": "2584afac68fe3481708f087ba910a1326850be921676118d5f5f2b50a36ed0e5"
     },
     "catalog/records/NMTL-2024-family-arrangement.json": {
       "bytes": 2488,
-      "sha256": "ba08f91c87c86a3a92aedba5504e1033ab68aab3890cd75e5efc65bf0bc841ae"
+      "sha256": "5a6e37d3c6b070636ce99ea8df0651b90182b825f062f2552aa94088e6f87eb5"
     },
     "catalog/records/NMTL-2024-family-calligraphy.json": {
       "bytes": 2452,
-      "sha256": "e4b7aa0a5952a4f93d3f4d99a5727252527bdf4a66622b358b5f8b163caed66a"
+      "sha256": "e0202a6da7a622e1b5f013ad26d3eebfc6333bf3092e3d82eca392ce8688630a"
     },
     "catalog/records/NMTL-2024-film-treatment.json": {
       "bytes": 2559,
-      "sha256": "90a8883133b72a0efaa8e0d7cc919daf5f5112e6fc295845fa63f3ddf6530877"
+      "sha256": "1dcb9a634566d463959f8bb8176d470772e5e49f8e270ab7c160c84079bdef03"
     },
     "catalog/records/NMTL-2024-fire-damaged-manuscripts.json": {
       "bytes": 2443,
-      "sha256": "bdfb218271fa1da8437d817c8508f71e47b52f498208cf7862717b4be62a178d"
+      "sha256": "22eac6a9f1b6624c6451af4d3e33fb20be34683e1794ea7f750d6952ae16c15b"
     },
     "catalog/records/NMTL-2024-summary-family-label.json": {
       "bytes": 2542,
-      "sha256": "509c34575fda1923436fc3ce6985077283c0a769a97475027cc078d60565209c"
+      "sha256": "5831e77e8ace4a423d731ad8b7601f269b1df8eab55383a926d47f5c95139ad6"
     },
     "catalog/records/NMTL-2025-collection-arrangement.json": {
       "bytes": 2466,
-      "sha256": "f2108247f764ade9cc319e20afa32c39f37764688b3f25e49c02947c4a98a964"
+      "sha256": "36a11552a0f54912831170d27caf69f95397f114e4c168a7c1743900cc4c77cc"
     },
     "catalog/records/NMTL-2025-collection-treatment.json": {
       "bytes": 2471,
-      "sha256": "ad0565785a1b74f373ed0705305d7f5430394f9544a06c7060ec31d9a0794035"
+      "sha256": "1e5ad0e1bf93ed9d391476c2153bf27868adae4f50f43cfe073e7f4f15f656df"
     },
     "catalog/records/NMTL-2025-film-treatment.json": {
       "bytes": 2424,
-      "sha256": "5544f8aff11e3488871288e8148221a23406264eb96f358e631d663d7c41fb44"
+      "sha256": "66e97d9a2528655ae9eaad3b0c6870fc5dfaff5aac13207f2f2979e123d54a0e"
     },
     "catalog/records/NMTL-2025-maintenance.json": {
       "bytes": 2447,
-      "sha256": "90ccc5f649bcbf956631b48a9f61efdc8fb2e5a87b367ba26ffe735901a2ce89"
+      "sha256": "8e8497ffda741dc1339040fca0bd58fa0c406201c8e7c8b96d43f1fa4378076e"
     },
     "catalog/records/NMTL-2025-reported-summary-total.json": {
       "bytes": 2608,
-      "sha256": "cff55f86808a42c8f89a989b2ae2cbba7464b20bab191d30ae2f5ca099a2eb58"
+      "sha256": "020cf89a74f061bbce0b6328c8296c35257e98bdf42e27e708e9a9772930f74d"
     },
     "catalog/records/NPM-2020-annual-books.json": {
       "bytes": 3020,
-      "sha256": "1cee6b4b1e0ca83bd46aaeabbd92e4bd659437657eff04dd5a493a3fdb77daaa"
+      "sha256": "3e15d48a9544e4e452ca873769fa2e810b3fdeeddc77063ad94835ace3e5a4dc"
     },
     "catalog/records/NPM-2020-annual-inspection.json": {
       "bytes": 3091,
-      "sha256": "70f395b90c12147e2ba20dc9ffc2c5490019d15909a6c293a531abd53456bfca"
+      "sha256": "266ce5a19d3113d8349ef11cbb4f5417e6545a570bf6577958c1e129bab4037a"
     },
     "catalog/records/NPM-2020-annual-objects.json": {
       "bytes": 2709,
-      "sha256": "6505a22b32e1fb196d65561ff8793ff60d482f1291a779fa31b8c238a75c83ef"
+      "sha256": "f35690fba2f5f9272a37634e8bf39576bbdac6265e6cfef66869d3c9ba5cf340"
     },
     "catalog/records/NPM-2020-annual-paintings.json": {
       "bytes": 3170,
-      "sha256": "0c0076b8f268b621ef9d70b19a3937abcf2d63a7f5cbc42e96dec55e0f770ff0"
+      "sha256": "da0029b3a7c1144bace3cc959331c954c4a749e83d96db3a37d9ab81022a094e"
     },
     "catalog/records/NPM-2020-annual-preventive-north.json": {
       "bytes": 2686,
-      "sha256": "81c35996e5c1eb24e06a9134f60b1ec7d4be54cecca28d6855d8b376445fafe2"
+      "sha256": "6f0bc404bc47bed8f2f84389603928d3db916972723924a33332c25d5bd0f825"
     },
     "catalog/records/NPM-2020-annual-preventive-south.json": {
       "bytes": 2681,
-      "sha256": "031b5ab4b5cc64b60f7d27728d5bde8100009977476cfe154db7536af1b9fceb"
+      "sha256": "50cb00540a1d0fe6b23cdd1f1e9c3045fa73c2ed19b84ba873e8e03b3770860d"
     },
     "catalog/records/NPM-2020-annual-textiles.json": {
       "bytes": 2667,
-      "sha256": "be4204d34e1593a6cc27ab47fbe1139652b291401f6cae6a41340279aeed60c3"
+      "sha256": "d1c3f1de26846019a68f7b2d04259c6a79a8aecafed84a6647cf2d01d4763549"
     },
     "catalog/records/NPM-2021-annual-books.json": {
       "bytes": 3132,
-      "sha256": "9ebf5776a299cfe19fd5cd372f60bf0098ccaadc610c08b70451c3504e2d737b"
+      "sha256": "57986af4014f8df4323ffc83a51b3bdd47ae1297e5ed012c86d8a322263df8e0"
     },
     "catalog/records/NPM-2021-annual-inspection.json": {
       "bytes": 3209,
-      "sha256": "60762b6a9614725f86f727f6697229f6b90238e5c7baae601cbdea8f31bcebee"
+      "sha256": "22abeca8de11ecd085dfa257e1b068a030e4efc2d3472c2057030d0aa20cd685"
     },
     "catalog/records/NPM-2021-annual-objects.json": {
       "bytes": 2646,
-      "sha256": "37c427a776aa837ffb23ed8e2f6294d92ada013bd23ed7f56102778394586cde"
+      "sha256": "830df3cf0e9faf3dd577396df3fdfcf9b593c0d25dca33b9016d48784f315192"
     },
     "catalog/records/NPM-2021-annual-paintings.json": {
       "bytes": 2979,
-      "sha256": "cca20ee7bf769d48075287a4bdbc8eb0676ef03b88f9b72bec01eb9e53a51041"
+      "sha256": "80821ea39b6b6ea23d5a72afc7b4b2c5a2138a14c07857d3434c9bb807a21959"
     },
     "catalog/records/NPM-2021-annual-preventive-north.json": {
       "bytes": 2683,
-      "sha256": "5e08300a85d2c0cc1aba33156ff31d05598790c1c751d7afd41e6606f3b22672"
+      "sha256": "26be0a01ae3ceb4ba80ec17de9cd1b465e0f724de0dd0383d5f68b66ae870f2c"
     },
     "catalog/records/NPM-2021-annual-preventive-south.json": {
       "bytes": 2682,
-      "sha256": "5f4e4dc338689478cfe83437217e0b5cd97b8a08a4a153b440909f590c916d93"
+      "sha256": "2463e41786f2cb49376c9cd225c1f6cff84d9774aebefb6cd3c07c31945118f5"
     },
     "catalog/records/NPM-2021-annual-textiles.json": {
       "bytes": 2640,
-      "sha256": "82c554075ec8867affb46e0283699933c7a810ae71005547874cf15598e38318"
+      "sha256": "f1030caa1b8ef9e768038e8965e71e54c83e4d43e3e6ad6257f7fa590f7f85b8"
     },
     "catalog/records/NPM-2021-vdr2025-books.json": {
       "bytes": 2710,
-      "sha256": "dcf078e9857c136c23340bffa085c002996f4cd0f5e3db048ba13532cfe1376f"
+      "sha256": "2ee83c42b03fc4dec1150f09f1631f8f0fc4df2dbe18478027a29f6e60a0d2fb"
     },
     "catalog/records/NPM-2021-vdr2025-inspection.json": {
       "bytes": 2685,
-      "sha256": "3e17bccbe23fb06fd684576316149e9b83de896d1eba0268cd7c9dc4992a1ade"
+      "sha256": "7d3c6a9ccb63e41e1376ccb529d019da805dfb1ec3891867b470c983b70e4cbd"
     },
     "catalog/records/NPM-2021-vdr2025-objects.json": {
       "bytes": 2702,
-      "sha256": "2dfc5c94834727e70135e1703c6359829ae1337aa1a20cd0c1250c303baaf8bb"
+      "sha256": "9ffb12e26d3f3ea806459acd2146de9edb1afb3d8569823048c6728461ef026a"
     },
     "catalog/records/NPM-2021-vdr2025-paintings.json": {
       "bytes": 2706,
-      "sha256": "d1ea537c5a2b76dcf006599db6aff054c2f69ef59bffcc0dab6688b42dad0502"
+      "sha256": "167126fcdd0583219e19e9c3683e47164dc577802061c460d3ee96cd470c799a"
     },
     "catalog/records/NPM-2021-vdr2025-textiles.json": {
       "bytes": 2702,
-      "sha256": "6f5c6d475e606e23a553c55660de82cd28933b7a33205f019feea9dd4e530d78"
+      "sha256": "f4b02286ce61329cc9a5350798b084fd9873474c66b269cb5f7906fa2ca82094"
     },
     "catalog/records/NPM-2022-annual-books.json": {
       "bytes": 3150,
-      "sha256": "3c3f66581ff2550009e65eca9040b786844b3eb9f606cb42c73ed9c34b33a524"
+      "sha256": "9c60b71a9479ad7a4e9b8c76b1a816d3705ca2f73eeb09fd63e700f61414a31d"
     },
     "catalog/records/NPM-2022-annual-inspection.json": {
       "bytes": 3229,
-      "sha256": "c4c72a2574df2ef8bd4905a62284b39a62170019f7fe3fd3b0a42781bbdea69f"
+      "sha256": "afecb33550e02e8dd4b5605531eaebf1a6dce46f1f0b361dd1c0c3c8d8de8110"
     },
     "catalog/records/NPM-2022-annual-objects.json": {
       "bytes": 2670,
-      "sha256": "297cf4499a5324b33c451d499e739c44d0d517f5f392e65929c7a7f4f8e83345"
+      "sha256": "8f9a282ed89287c0154e2d637d16bcf29f08c7d76ca42e4560d92dabc301e3ec"
     },
     "catalog/records/NPM-2022-annual-paintings.json": {
       "bytes": 2993,
-      "sha256": "8dea991e10c64aee910322bdb3a064f1fbb16494d73d74b03d13675294090d65"
+      "sha256": "5c4ea1356e2205fea8da59fb07b0d8aed20d65f4a7eba61bb585a6c228f2bae3"
     },
     "catalog/records/NPM-2022-annual-preventive-north.json": {
       "bytes": 2688,
-      "sha256": "27e59bfb31e0a58e740abe40a52b102746e11c51e5f2753be5dcc36994cb69fa"
+      "sha256": "25aa964921bf019e5a2c5bdbe7686d1b7dbd52dd6b3797955f244c8b63eef74c"
     },
     "catalog/records/NPM-2022-annual-preventive-south.json": {
       "bytes": 2684,
-      "sha256": "af465c94480f01a9f5b83ba37d8f34d17c2c3ac908eb97ac163f25b7eae63261"
+      "sha256": "6091ef27c77f621d2eb0154fd59ea4d3a72659b759fcd75f2b3cdfba23aab5e3"
     },
     "catalog/records/NPM-2022-annual-textiles.json": {
       "bytes": 2660,
-      "sha256": "475939670290dbc31d492a86e8168d60786050133c24f5e27fb8a1793996cc11"
+      "sha256": "82006a3222d9e6a482f336cd3d554f3185ad4d03663d8326abdc69521ffcd746"
     },
     "catalog/records/NPM-2022-vdr2025-books.json": {
       "bytes": 2710,
-      "sha256": "17b9033198b80ea1fd36ba2bd5ec9c81b7f2c05c9e4ad0816f943bb2ad904968"
+      "sha256": "071892c8c7641b30c68d07ed2af733c2965663509e1dca6643d3fe1a1572199b"
     },
     "catalog/records/NPM-2022-vdr2025-inspection.json": {
       "bytes": 2685,
-      "sha256": "914523e7be36d93e544a6bbea5c71f2ab00675c172ff0c9c0e9645c742d2cd52"
+      "sha256": "81d3307b26796845465ec4dbf3218dbd513e2f528b01effa3645c1cd7c29da3c"
     },
     "catalog/records/NPM-2022-vdr2025-objects.json": {
       "bytes": 2700,
-      "sha256": "0bc3542d1b3a4b5b6f10bbb6a4b2274c0e62a007a66e2f11d2de47b413080d34"
+      "sha256": "46ec5ac467b1cde6c0953a35f7b430c5f520768ae3fa2385f18faec3aace119d"
     },
     "catalog/records/NPM-2022-vdr2025-paintings.json": {
       "bytes": 2706,
-      "sha256": "6319751efadd8c427ee1e86e559fd2343dce4a81b0ee8cab83e4d460bcf2597a"
+      "sha256": "77d8946cdb6dd6247771317519fa3d4090beade40794cab1e76b19139cc13200"
     },
     "catalog/records/NPM-2022-vdr2025-textiles.json": {
       "bytes": 2702,
-      "sha256": "f2eb837cc36ddeb2f06d2a3aaafa171ae469853fbcdadff52eea4720a2485159"
+      "sha256": "beac807503a41af48d844e7f1634ab01e5beb24ae29a3039b418d58aa9b2d5ab"
     },
     "catalog/records/NPM-2023-annual-books.json": {
       "bytes": 3150,
-      "sha256": "341b607577cdf2f826e237c2110941d71d2e03da621abd613ad2fb9903cf7599"
+      "sha256": "633907b5aede30e1d005f563cc5ea1120a04c808af0f93807f76604ccaf96583"
     },
     "catalog/records/NPM-2023-annual-inspection.json": {
       "bytes": 3142,
-      "sha256": "e6b754b37dfc71a16e15a2d3e5d46b534215c1e6a741b12350036266d12d5aae"
+      "sha256": "4e09fdd3057875813fe9f6cf210d1ff0903842744af020931b69cc40285bc9cb"
     },
     "catalog/records/NPM-2023-annual-objects.json": {
       "bytes": 2681,
-      "sha256": "3a306a0fc5bbc04350637a5730fa4c12c47d9677c92539658ea1dc0d3fee9a15"
+      "sha256": "33de4ce31b353178c6a77a2ccdd3308d346d0f8dc6087f0b13096523a6b6a622"
     },
     "catalog/records/NPM-2023-annual-paintings.json": {
       "bytes": 3132,
-      "sha256": "f1924fcf87bce894f8cec1a90d1a13b99b27be9a45c9d5b8977e2a7f8c7b1409"
+      "sha256": "eec279fc9c64e7ac6e27e7deb2cd4f475bf13e28138ae12b0b271b560e81e8e2"
     },
     "catalog/records/NPM-2023-annual-preventive-north.json": {
       "bytes": 2685,
-      "sha256": "72aff6ab220edbeca88e702e77cda92645a5f7140cf264a37a9cc20973ac2edd"
+      "sha256": "f92ed0581f067363f57b98299cf3ee8a1bbf7a5f84bab7157f51534cba78ef27"
     },
     "catalog/records/NPM-2023-annual-preventive-south.json": {
       "bytes": 2681,
-      "sha256": "a31912a5010929aa3606e2d72165ed114af54031e6f816aff88c0dc82f9ab8e4"
+      "sha256": "d84bcd2280c1fec28a36fd63463e7618f5e2de95a97b13dbbb93adb2f3c828e5"
     },
     "catalog/records/NPM-2023-annual-textiles.json": {
       "bytes": 2660,
-      "sha256": "24ec563333741a6fda04ad19c2c46d624a5493c3c2600ba195dec4f7ce0f746a"
+      "sha256": "20dcd15e1548f4b444320f0b641010ceccb49b1b407d5e375b5564068bb8d5a9"
     },
     "catalog/records/NPM-2023-vdr2025-books.json": {
       "bytes": 2710,
-      "sha256": "4f27f950689c45ede8a61c79cd46f0dd36c0ed495f1f354ff50e3fe2a30651d7"
+      "sha256": "fab0e280b588ee5db1ad606f143a18500090a40f2bf1c4b136c7b9934ae88ad1"
     },
     "catalog/records/NPM-2023-vdr2025-inspection.json": {
       "bytes": 2685,
-      "sha256": "4c5667f007b5bcdbab71bd2f3fe913c270b336555865254ee4d8dd2d12183f65"
+      "sha256": "75db43b0fb055fc0a0afa8dc112518c856a6224aba2cc055da2feff5ad167442"
     },
     "catalog/records/NPM-2023-vdr2025-objects.json": {
       "bytes": 2702,
-      "sha256": "b84130020ce62468b45a139ba26417f24db2ac885a6356d822e32da95c71e818"
+      "sha256": "e29dca95f1f76740ada8321023a57981616b96febb9d35712eae8ab68eced786"
     },
     "catalog/records/NPM-2023-vdr2025-paintings.json": {
       "bytes": 2706,
-      "sha256": "7c0ccd42d701117b88c1600177dfde8234efe34bad1fd9bda4b21bf1ca1fd9c2"
+      "sha256": "076bb028ec43b05eb7e3cb9ac568acae60aa971bcbda542ab72194b4ed3d3f6b"
     },
     "catalog/records/NPM-2023-vdr2025-textiles.json": {
       "bytes": 2702,
-      "sha256": "e904eae9269f3de92a2f5d4a72a342bac1ca31c9160cdbce22ca4bd7e7ee4748"
+      "sha256": "db2714f2e6f813d8da8c1af412d6b585f9052c2313e595f544a8250b2a626fe0"
     },
     "catalog/records/NPM-2024-annual-books.json": {
       "bytes": 3147,
-      "sha256": "54afdf1962586ac0c4db586837eaa3f28ea7bbde0c04254e4ae90bd6fe1f4599"
+      "sha256": "0c3fa1124f4c4db18c6df64e4a2c8cbb13a71c0e7f3fb42e09c86cf14eebfb82"
     },
     "catalog/records/NPM-2024-annual-inspection.json": {
       "bytes": 3143,
-      "sha256": "9d04bb6e420f266f470ca9a724f2b6c1a0c0cc0dab0cdd96da87f13056d7d852"
+      "sha256": "76d7ffba1f14ceb3943cdb9f00e54bda51d03f4a4482fcc01859859d54e648bd"
     },
     "catalog/records/NPM-2024-annual-objects.json": {
       "bytes": 2698,
-      "sha256": "b8a5691f8bb38078621b064c070378104631e0dd6d478fcbd9b137fdb0e9224e"
+      "sha256": "ade8b7716b4700d0b1a4b574d44cc5daf1d7fcc25f717fbd251095b0716f566a"
     },
     "catalog/records/NPM-2024-annual-paintings.json": {
       "bytes": 2663,
-      "sha256": "818ff3edc90ad9bc0ee56a2023690983836fb7a4cae9ae74a07c19228d1d727c"
+      "sha256": "2c4d57bba6c5da818a07816a6fbe038488df2059e772dcef35c8a39739930e9e"
     },
     "catalog/records/NPM-2024-annual-preventive-north.json": {
       "bytes": 2684,
-      "sha256": "1f0bce9c3ad03945e5b37bafd4b5563e1c7ff7d6a73e6fbd9bb589c431bd770b"
+      "sha256": "fd82fb65da1759a2d83e0b67f6c7c8734ad369cecaabad6a7948dcab19bc1f5b"
     },
     "catalog/records/NPM-2024-annual-preventive-south.json": {
       "bytes": 2683,
-      "sha256": "712e09afbc6fb9b3d87d2d98968226c0f5630f10a411204e00befb425f403f90"
+      "sha256": "9af5fbf24948497c9c3dd8ef0388b3c856bdbaf9d83adab4a038aca71c7cf1e9"
     },
     "catalog/records/NPM-2024-annual-textiles.json": {
       "bytes": 2659,
-      "sha256": "b3b6d10282ce061df2f6e560daa52162f132df1b1e96bd55d224928b86ec7afa"
+      "sha256": "e2ce72ea9c29b7e077c0cd8a1465c8a6890ca18b56f9aa869cb2eaafae52b293"
     },
     "catalog/records/NPM-2024-vdr2025-books.json": {
       "bytes": 2710,
-      "sha256": "d4706c6795ce18599391d93d208e3d85e12bcd8b9d090d6a21bbd450408fd938"
+      "sha256": "9ee572f79f14c6e6b1445a7e34083e59814b4d26a65199215cd8c6bc7e7e3b1b"
     },
     "catalog/records/NPM-2024-vdr2025-inspection.json": {
       "bytes": 2685,
-      "sha256": "93a2c6092ef249666152af8f91c38aa48e1c77a8bd544196a4762068be593ef0"
+      "sha256": "c712cd6f012c2c496a731a99592c269bdb48f68f49b9868cb82cbd4d5bf4b10f"
     },
     "catalog/records/NPM-2024-vdr2025-objects.json": {
       "bytes": 2702,
-      "sha256": "8a64be816f5d1d5da981991f02330bd2b20fc2d1bd012fd8c30d6273c08bae44"
+      "sha256": "ca3fe0b2167aa9cdd032772700c42be710002881d47947bf1c1c7b3fd3c7ebab"
     },
     "catalog/records/NPM-2024-vdr2025-paintings.json": {
       "bytes": 2706,
-      "sha256": "56afdc53fbbe725de54d39ca4327634f37bc0c2ea4877e945bc37a3341d00899"
+      "sha256": "2e3adf795d7dfc23532144ba30192be74c2b8645f58fc855dc231fc59c7e104c"
     },
     "catalog/records/NPM-2024-vdr2025-textiles.json": {
       "bytes": 2702,
-      "sha256": "619f97e653cd52c94081b564b2c784c5176f5e08ceb9a008d93b410688def39e"
+      "sha256": "e65014aae7b88758176d1c387eebc83ef4e388e0a94b49436f9747c05c2c2447"
     },
     "catalog/records/NPM-2025-finalaccounts-books.json": {
       "bytes": 2896,
-      "sha256": "efc40b68463baa61670b9d299e54f24c21f8369b2fea960ee1658c28a12fc95d"
+      "sha256": "b353fd7e791b9d32fe7dda7a46267f2b3736644fad6ec42eefceb4e36aa78500"
     },
     "catalog/records/NPM-2025-finalaccounts-inspection.json": {
       "bytes": 2856,
-      "sha256": "f77acd2907cedc98232f9255e808b50f2bb1762fc5df245290c8ebe6951b58d0"
+      "sha256": "5b72df6bfc463c39aea8eaeaddd19507fca1fccfc5f6caa9ed4b4597d4ae649b"
     },
     "catalog/records/NPM-2025-finalaccounts-objects.json": {
       "bytes": 2888,
-      "sha256": "fc78e39258eac7e0e3f330b74ff67aca119c100137ae1380a129882c907b2f41"
+      "sha256": "72f0f8b13e238b21ade4a28b6cb69a19c3416a2ec59a9dddd45837df13095813"
     },
     "catalog/records/NPM-2025-finalaccounts-paintings.json": {
       "bytes": 2892,
-      "sha256": "df38956f6d3c703c50b82a285db26d3cec87945cbfe557707a6ebc9377f1ad9a"
+      "sha256": "41f31c22e74b72371f093322dafa3308a6631c0978190f54c61f2c62c80ac35a"
     },
     "catalog/records/NPM-2025-finalaccounts-textiles.json": {
       "bytes": 2888,
-      "sha256": "1fce6de87986cd0a4b4c8858f2097aea63eaf9419798cd94ea786175188623dc"
+      "sha256": "e7b60a34409f884b78271d9717bc68924df5b20529a463721853d3117dc82763"
+    },
+    "catalog/records/NTCRI-2023-finalaccounts-condition-form.json": {
+      "bytes": 3383,
+      "sha256": "654025e8422f660719a3325ea38c5c9c328f93643c5d0a10ebe9dce98f5ed825"
+    },
+    "catalog/records/NTCRI-2023-finalaccounts-condition-inspection.json": {
+      "bytes": 3371,
+      "sha256": "e6ebf0f02175c6064828b6d202b033206883a9231253906b4345450f4068193e"
     },
     "catalog/records/TNAM-2021-external-service.json": {
       "bytes": 2618,
-      "sha256": "4a7c8d58d6a3f1b52d48b06697dc928b122c5254358abca3b17fb830334fc074"
+      "sha256": "d3fd6c671d3d2b5a77b38cd0afc66a5db913c255c784380eacf58c55fea21c26"
     },
     "catalog/records/TNAM-2021-internal-exhibition-completed.json": {
       "bytes": 2673,
-      "sha256": "1be2d779df7ad58960286752c94d966d572615491e8756c17efa6a05bac093e0"
+      "sha256": "ef9c279e28bf6e107a331310d67bc03b1f09b668c6c0afb8015ac09538d1db73"
     },
     "catalog/records/TNAM-2022-completed.json": {
       "bytes": 2602,
-      "sha256": "50a08f7f7fa6ced55b1b2273221619fe2927efd4217b92b5053436041a0e81ff"
+      "sha256": "e324e62a97e766dc589eafcd7a1dfb0df9eef92dde3da3fcd6eaaf9f9269cf16"
     },
     "catalog/records/TNAM-2022-under-treatment.json": {
       "bytes": 2595,
-      "sha256": "f5cae7810e6c489558291108c2151c7c58e085d8ec1fab3d678ac75c163a1493"
+      "sha256": "cc682c0df96ae60b539c7ed262e573f6915f0db0e84894d82655fe35b55f22ab"
     },
     "catalog/records/TNAM-2023-collection-maintenance.json": {
       "bytes": 2459,
-      "sha256": "61a04df771ed22111e1f361490eb0193c9b0576366dbaaa6e0f5a4d19ac3d503"
+      "sha256": "f7989bc16d1fc9f21e24b864739209ea076a119c48c871fe7d3d7980f9761b3a"
     },
     "catalog/records/TNAM-2023-exhibition-emergency.json": {
       "bytes": 2527,
-      "sha256": "ba379d9ec209a9376ca2c1e46f27a2ae5aee34e211dcfca8803c87179b25d78d"
+      "sha256": "442a2e142943e4a484273ff1d023b1a9ee5f890a911c0c4d6b57516504168cef"
     },
     "catalog/records/TNAM-2023-external-service.json": {
       "bytes": 2559,
-      "sha256": "2298769f09b3735a5cdd5cbd5c89e38a8e6e43c47e49651e3ac245804127a52f"
+      "sha256": "c7e1e062f8771ea0627b715db7449d4e4ab190c19658506be7350cb1e21ad2cd"
     },
     "catalog/records/TNAM-2023-reported-total.json": {
       "bytes": 2540,
-      "sha256": "04a00226dd29033426906de987934164080efc960be3cd98d57c35554cc773af"
+      "sha256": "cc8450e659c4f074fd9047ee95972584cd03e00ecf5b006e46eb798bfb4ad8d0"
     },
     "catalog/records/TNAM-2024-document-arrangement.json": {
       "bytes": 2407,
-      "sha256": "ed95c542006c4d2bab3970967350c2d6011e6db666fb711e955391d404565659"
+      "sha256": "3b062b6de4acb78494ddce3ae98e53fcb598853e196da3b4eae82ce7fbdec98e"
     },
     "catalog/records/TNAM-2024-exhibition-project.json": {
       "bytes": 2464,
-      "sha256": "dd0457112ce8005733ca5b992583b36f6159a4c86abd268ecca9fc2ac29dcea8"
+      "sha256": "3fdc94ed2db1635459ec6ebe5a4756e912ba97c7a9afc955c7700d9a692d006c"
     },
     "catalog/records/TNAM-2024-external-service.json": {
       "bytes": 2511,
-      "sha256": "bf4f11b55a0539b532b9eb44e0ae7f842ba27b44725af0c909e865eb44fe3e0c"
+      "sha256": "1fb999ee69cb260b28248c6a139a751b4cd653d1e739396ae2aab26c622204c8"
     },
     "catalog/records/TNAM-2024-internal-treatment.json": {
       "bytes": 2502,
-      "sha256": "1dfe76aeb896212e092e2fd8f4853f82d6672ffbb4ee28dd27e159129ea0a1c2"
+      "sha256": "9448d0ec38ee4f874590139b54a50485f548960cfd9574a4e95e2234b884fcd9"
     },
     "catalog/records/TNAM-2024-reported-composite-total.json": {
       "bytes": 2732,
-      "sha256": "cccd20139c15c540511853872b160ad97e466cb4acda0678ce32574d834fe17b"
+      "sha256": "6d2f5d27a250927cdc7537e839cbbaaa0eade0f0dbdcdee93a5168c93ff2acc0"
     },
     "catalog/records/TNAM-2025-exhibition-treatment.json": {
       "bytes": 2597,
-      "sha256": "bb6bdeb7f5eb9668489e599aa8242cb9ad55bfb7834c8a6abf7a7f614021fc8c"
+      "sha256": "df25df27cdec7fea3a6701cf5872260b0e5ebf7db38f65db5e6c7fbfb1ee4174"
     },
     "catalog/records/TNAM-2025-external-service.json": {
       "bytes": 2466,
-      "sha256": "ea9e407c8b7cc22e26fba63697f2b3e59da1581137caff6aef0bfab176b8a46e"
+      "sha256": "515e8aea38df451b58d1b659ca1143351e4cdf83de14bacebdb606096a80f72f"
     },
     "catalog/records/daxi-2021-combined-arrangement.json": {
       "bytes": 3829,
-      "sha256": "82c3c7a7492d524d23172aa87e729ca9320608f4d0869844fb937dd2dda1308c"
+      "sha256": "42b23885896db9a3822591373ea0968a033b39abfc46f29655efc191ff597ccd"
     },
     "catalog/records/daxi-2025-combined-project.json": {
       "bytes": 2989,
-      "sha256": "7756bdc226c471845f70e2430fe8166020f81cf123e1958c34d4967a6a47b02c"
+      "sha256": "31b08b4db0a2bf56d75572c6834ce8ba0d36d6ecab34d6b5d15d60c5d6e679c8"
     },
     "catalog/records/nmh-2020-15.json": {
       "bytes": 2534,
-      "sha256": "6756b66a1175c541e81717b851d452fd43c48a108c23a795ab6d1ecbf5668dc0"
+      "sha256": "765161dd4d0a2e96be24e5f84713bcc6d159f91ffcafd71bf1348b22df7dd563"
     },
     "catalog/records/nmh-2020-16.json": {
       "bytes": 2519,
-      "sha256": "964b231b115ac97c6468cc2494563a84576552e8a366db4272775b3314f25bbe"
+      "sha256": "3eed4556ec716b443e5dd4ac7af6274e98048f34a5583537f9d98ae897921b73"
     },
     "catalog/records/nmh-2021-17.json": {
       "bytes": 2399,
-      "sha256": "8f030e0d6fccf0f608a72bd0f07a7555903d1cbe0f5e52851d683241ba761cef"
+      "sha256": "212bf58d77980417dc865e8cc56b405addd10455a2acfc575a890ec1c99c43de"
     },
     "catalog/records/nmh-2021-18.json": {
       "bytes": 2403,
-      "sha256": "8f272dde919a3e77a817dd72bb3b62f47f8bfb03b9160857263197788ed815db"
+      "sha256": "eb6ad29d8a4bdfca5530174b22ffb852e5b9ab6084ee5d406c235e1cc7020786"
     },
     "catalog/records/nmh-2021-19.json": {
       "bytes": 2403,
-      "sha256": "c78bd2e1b9ed3f7a16474a2dc08742efde7d80ebc572ae185d1bc8536f5c92ea"
+      "sha256": "1212cb5792d726ebb6a85eac45268ad6252e15776e1235d92b01b530401c25f2"
     },
     "catalog/records/nmh-2021-26.json": {
       "bytes": 2440,
-      "sha256": "a29262bb0f856097ce30695c9c4a807e9a233226f5b0ca50cb110e656043c0c5"
+      "sha256": "39921c7217078c4e89be29e2ebfa678b0033b3968715bbfeb2a925eedd7be15b"
     },
     "catalog/records/nmh-2021-27.json": {
       "bytes": 2440,
-      "sha256": "6f52f6a40f48860b461d925ea431ceddaa71dc59cacff353bbba098b228d5972"
+      "sha256": "cdb7c13643b727620005917e723177ff36bb2d563a429f0bd5297bf9d89e1282"
     },
     "catalog/records/nmh-2022-20.json": {
       "bytes": 2540,
-      "sha256": "fd50cebc9ec422d3b813f99f43fcb573fbf8c867c4eb5f75ba4b9d4911a935a9"
+      "sha256": "93bb70b22e84bd1c44ad12f23a2f56e9c340453ec5c71ab3e7ab1878c589f6e5"
     },
     "catalog/records/nmh-2022-21.json": {
       "bytes": 2540,
-      "sha256": "f7b0866fec6dfda907a3e464b52a4b61c7523ced7b4f44044c01d5b3c168bf62"
+      "sha256": "2b9e38bcbca425f4722fcd4edcc1e4a38a6e93f8d4a22e486f2cb13aa3718ecc"
     },
     "catalog/records/nmh-2022-22.json": {
       "bytes": 2540,
-      "sha256": "dea59a55e551202bd374cc773ac5584eabdc080f4d61f42d0690b2003385b85b"
+      "sha256": "7f5df68fc7f8b30b92cbd7a8b681566394c2a0ea7c3bbaff79483b2f7ace218c"
     },
     "catalog/records/nmh-2022-28.json": {
       "bytes": 2440,
-      "sha256": "26809db73a398c6bd1c45bd4bda1b7507dd2b879769add9eef1d64f6383715d7"
+      "sha256": "bcc2bc3b2af2ea4a72d84b3ff9805091db06a359fcae5c610c70f61921395afe"
     },
     "catalog/records/nmh-2022-29.json": {
       "bytes": 2440,
-      "sha256": "d1f9be945dd0e5682c77c5968dcd3f22ec430fd72786fb044dd6b63419a3cad9"
+      "sha256": "4679b7946c87042a1dcf86b67914aa338e6607d041b208ba1cbd79bf6b3f075e"
     },
     "catalog/records/nmh-2023-23.json": {
       "bytes": 2603,
-      "sha256": "9b0eb08854fe9acd92ddf0a2511cf0602b42383b4ca3102dd9b80fc5a75374fd"
+      "sha256": "e9d54c09390607a95a695f2de41b435cb0bf8f06b893c7c648b31e2d9ea815a1"
     },
     "catalog/records/nmh-2023-24.json": {
       "bytes": 2607,
-      "sha256": "65f53d74339df5cb7025a2fbc568d034763701cb702ce225e86aae2fc70e6514"
+      "sha256": "c783d3911fb6e3152e65a255ecac2bacfb2310131b17cddf868733e3d88b9d7d"
     },
     "catalog/records/nmh-2023-25.json": {
       "bytes": 2607,
-      "sha256": "cba1677df88f486881e7ec27ffc1961a1d625170a6807da13923cf5d5e7562c7"
+      "sha256": "b0c707bc6cd3be67a1cc7eb3d47d9aad69d3e069e71cab9e87ecc4dbd1a9c5ac"
     },
     "catalog/records/nmh-2023-30.json": {
       "bytes": 2503,
-      "sha256": "875b98fa5ecca6c643f403287deebbe636ab98c3743dd70a6be8737e954cbf07"
+      "sha256": "45aa5f5b4a2983b2d1238d2e98a9c8700687aa71ede5ebce1e1f127f1b64acad"
     },
     "catalog/records/nmh-2023-31.json": {
       "bytes": 2503,
-      "sha256": "59c66bbcfbf68310e2faf9b984ae092cfe3d583cd4adbd84f8d8d140d5afff6d"
+      "sha256": "9769d0afaa169c4268b58b9abeef8d4c8ccf49e64587e3884ad21911752ff2ad"
     },
     "catalog/records/nmh-2024-32.json": {
       "bytes": 2893,
-      "sha256": "ceeb78f176c17d3c1ea6cd56e2349d1ffd4c5ce036d9ba9b3de168f43f2f29bf"
+      "sha256": "cfeb2db9e6acdea700945302ccd9dde1597eed0a9eeec8fd6d5ea69b713504bc"
     },
     "catalog/records/nmh-2024-33.json": {
       "bytes": 2824,
-      "sha256": "1c84f3f76fe6bccce709197bd99e421ed6f9acfde651f7a7bfe4b6ea3cca11f9"
+      "sha256": "34441bd0bd9dfff29f8315067110579615f9cb999f6dfef2386fee013ab25587"
     },
     "catalog/records/nmh-2025-34.json": {
       "bytes": 3051,
-      "sha256": "34a42816aa1db51ed30c1d66d3e508d8d7801fee3ac9d0df658ac76d87407732"
+      "sha256": "851e845e543b910179780e2e4f1385ae26b020aa91e56f60e0c9ef688cdff9dc"
     },
     "catalog/records/nmh-2025-35.json": {
       "bytes": 2506,
-      "sha256": "79ae5d64980d3153f49bf0e23504c540438321bc97640b34adab04a7b90cf0fe"
+      "sha256": "2fa91dc630a2e84d70927f73d016368cad319eae7ba2e079cf2f0e2c6315b9b6"
     },
     "catalog/records/nmp-2020-2022-archaeology-arrangement.json": {
       "bytes": 2801,
-      "sha256": "8e2a2712d23cb7892946f05c4e8d12f6b72cc7bc922225b51b9ee1892df04e2f"
+      "sha256": "6484634d23befcb052b2ffa487a83ad5b425827e49bb1bb2495fd6c5762d0ce3"
     },
     "catalog/records/nmp-2020-2022-ethnology-arrangement.json": {
       "bytes": 2794,
-      "sha256": "8cbe046bc40c332d1af154f2ebea3216adc16847ec4cfc7982d3336b9c44456d"
+      "sha256": "668182964dbd8839dd19cb57fad8d00211fc6c1b4a2b034445b29ede3177c2b9"
     },
     "catalog/records/nmp-2020-2022-natural-history-arrangement.json": {
       "bytes": 2804,
-      "sha256": "8c930dc96d04bb4afb6b413ad6292eeb11b349ab9a042340b09333b6616721a6"
+      "sha256": "bca8f26bf62f86692240a6bb037c0f25a769a5ef3e4c525c47c10adefb9262db"
     },
     "catalog/records/nmp-2020-archaeology-arrangement.json": {
       "bytes": 2547,
-      "sha256": "67c03e5125e83086c0e42f6ac4f047bf20540c86afbab13298c6d6f73b4ece06"
+      "sha256": "9328c675c8a55090217bd3d3ebd0a6d722addac17a5219f66b82aa771e581d0f"
     },
     "catalog/records/nmp-2020-display-archaeology.json": {
       "bytes": 2557,
-      "sha256": "9f49c4195bf80628bd6c501e6a92ad9d4310149f5f6eb12a34359f14e1fbed38"
+      "sha256": "fad39461aa53f9d418de99f62d1b4af478b649668cec7e5c29deb81328e3dc8f"
     },
     "catalog/records/nmp-2020-display-ethnology.json": {
       "bytes": 2553,
-      "sha256": "2e5d1a441ff84040b131c06d0378d1888c4b492283193c969446e7fb39e76670"
+      "sha256": "cd270ac23883ee1fca0d71bcc70bc0c3dc3acbbad5725efe199d79e72591cf6a"
     },
     "catalog/records/nmp-2020-display-natural-history.json": {
       "bytes": 2563,
-      "sha256": "f6e424a1c660e64175c637f13677d8f23a232809d5c7b6b2f8d866b4744bf65e"
+      "sha256": "eef158b81f4c9f149af6ab0cdb201f02f32796355f317474b87fe2ecc4ae7387"
     },
     "catalog/records/nmp-2020-display-research.json": {
       "bytes": 2558,
-      "sha256": "bd8004912cfcdb2694f245a049d000dad305a576ce82d3d8b9d01913cd83292d"
+      "sha256": "1f29beacb4c536a32aa9d3e924f3ca387a6fdd0da4d42599cc9222507f109355"
     },
     "catalog/records/nmp-2020-ethnology-entrusted.json": {
       "bytes": 2582,
-      "sha256": "f59fb84be55eecfef3101295c2ae5dade00fc8a43066ea4725610061d3fe6667"
+      "sha256": "81567447d84c7e55045e74cae8b4712648184daced68a7dd616db7c0d5cd3c87"
     },
     "catalog/records/nmp-2020-ethnology-own.json": {
       "bytes": 2534,
-      "sha256": "2574fc4a5939f9e32e34f8b0ca3dc1935029f05bd0122e1552196ac919b268f7"
+      "sha256": "181677af8f590f51b19d6a355e89c556602183f8869f2786ce213a555338477e"
     },
     "catalog/records/nmp-2020-ethnology-total.json": {
       "bytes": 2515,
-      "sha256": "9719fc3a5deb0573a45bb13f5e31c4c009b8bb31088f7564ece69e845b0c42ab"
+      "sha256": "600871bb5900cddb6f9a01ecc64cf43e87bdc70c274d4e01ffd5de50f70d3540"
     },
     "catalog/records/nmp-2021-display-selection-maintenance.json": {
       "bytes": 2741,
-      "sha256": "da105ea211a654fa4d79fbf061fda901c4908115dba2e9d14537e26ca9671cbe"
+      "sha256": "00f3c4790bfb491844f6bb22748120ef92d7c1b67d2437bd0f68d540c398914d"
     },
     "catalog/records/nmp-2021-displayed-ethnology.json": {
       "bytes": 2641,
-      "sha256": "ed25624330695d463472c4ab3c8301adb68a1cef0d7eab03b25fdc8f619463a1"
+      "sha256": "efcb4d595d6d4fa6d2c4567eee3ee128ad5e928ca29b46f8969aaeb3c6be6564"
     },
     "catalog/records/nmp-2021-donated-archaeology.json": {
       "bytes": 2589,
-      "sha256": "d23f918fe1252f056785fd6e10fd6697f8580e65d71ee2a0e2842e70863926ed"
+      "sha256": "a143a694327879f363f8a7a5acac5b82073774acc0e67ce6f8005dcad3d4b6fa"
     },
     "catalog/records/nmp-2021-entrusted-arrangement.json": {
       "bytes": 2570,
-      "sha256": "4ccd4ee04a750f5c8c6df79e448c85d0ad7aba16927edafee4520c8cdf405914"
+      "sha256": "1beaa4274d5c843406815da955c92de353877975442176c213b9340b64d87985"
     },
     "catalog/records/nmp-2021-ethnology-display.json": {
       "bytes": 2585,
-      "sha256": "cd2bddb7730ba7fe3bae7595b5e1a7211dcecb0409558d8e8f06bbab33c2ac44"
+      "sha256": "b8a97bb2a71600d19b354a30ee9ac202fb7ed74d2c0d178739d3f4ecd65b379f"
     },
     "catalog/records/nmp-2022-digital-restoration.json": {
       "bytes": 2579,
-      "sha256": "9c1c69d3675933a3eed5a568b4377dd183aa77c53cbfd44f9a0d37a9c86c8efd"
+      "sha256": "e9bf3838365d98ad654a0f09f81271bed9b4e4a911ad4af5affe8b99b511f5dd"
     },
     "catalog/records/nmp-2022-donated-stone.json": {
       "bytes": 2671,
-      "sha256": "e10b11c3c201d9e58997a5d95767aa6c22ea9fa721ab0fdfebcfc86c6595ce84"
+      "sha256": "b710e1b04683ce39696bbbcc02b5b9ee55f2edffcf45ea901e4bcd2d162021ea"
     },
     "catalog/records/nmp-2022-entrusted.json": {
       "bytes": 2580,
-      "sha256": "07b8288add0ea4e15185e61fb2026daeec879cee464b4a137fcd175ba51fc02f"
+      "sha256": "4008d2f7ec41e18434183cdde8429eca0b628e3add614af3916ed784e0d500e2"
     },
     "catalog/records/nmp-2022-hualien-loan.json": {
       "bytes": 2602,
-      "sha256": "b5ae259fb61e088f75a48238049cc1a94d168c59a621d026592f6102074b3c14"
+      "sha256": "ace2329496ad6d11eba33c21f9d50011268211b18d60769cd61a3348a7f3c78d"
     },
     "catalog/records/nmp-2022-reclassification.json": {
       "bytes": 2653,
-      "sha256": "198ba84c9785275dfb795384140ff3034f815872d66c24595596efcaf72735b0"
+      "sha256": "138d5da27fb544164b9eea275d395a7e21fb336869c8667645c6896496c4d795"
     },
     "catalog/records/nmp-2022-south-arrangement.json": {
       "bytes": 2550,
-      "sha256": "0d5390884a622755f8abde75d5d1f67ebc725103fa254af50f72826fcb3d6c12"
+      "sha256": "6f9a6e41572e8224c4dfc35a23138dd6eec24b4f34b0ac867ff799d69a12e5cc"
     },
     "catalog/records/nmp-2023-donated-pottery.json": {
       "bytes": 2638,
-      "sha256": "a662899a31d002483af97dca10c2eec61440ba2ad36c2d826be86e79018c0b1c"
+      "sha256": "8446cfcda10b50488d10b8808ded99c15d01daf5ca97ac7e6c583c41a44d777d"
     },
     "catalog/records/nmp-2023-entrusted-fumigation.json": {
       "bytes": 2630,
-      "sha256": "4e5690d3055b8939c53a227fa64564eec2c2df0d6dfed309a92c7dc56a1254f7"
+      "sha256": "a57f87feb57244c608933071e8fb18b5103ec71f6272eaea78fc5db449aa1f2c"
     },
     "catalog/records/nmp-2023-entrusted.json": {
       "bytes": 2548,
-      "sha256": "838fc616cfc617565c316176fd70dae0a2526315b6706a2b626b7499230d2cf5"
+      "sha256": "1c1ac2b08186a14a8d1bbbd7da54a8a59c6a7639a6b167d0f2bf1e5a56e6c71c"
     },
     "catalog/records/nmp-2023-plank-boats.json": {
       "bytes": 2589,
-      "sha256": "a33db9f7a7cd5f9512ff0d22a3ee6df09096d36ff0ea341a517fcfd06f11f8f4"
+      "sha256": "e93dc36564cc49db0bcab2d87be5164bc32c5fa1ce2a2422a4f712bfda57595f"
     },
     "catalog/records/nmp-2023-pottery-bags.json": {
       "bytes": 2509,
-      "sha256": "a9669f7893aeb6216b18a4e3d0a670fef10b783bc91435b35de0dac338b40695"
+      "sha256": "df838706ec203c0bbbeb658e562e4739afb6e90a64d7a06676efe6f23b862f73"
     },
     "catalog/records/nmp-2023-pottery-shards.json": {
       "bytes": 2518,
-      "sha256": "e7ff690cf7be8d90a1483ddc18de7f56084191a3dc56abe101af20a3a2fb1897"
+      "sha256": "b6b7a7131a5d7f45def681471293f362837f42a8e48312316418670492238bc4"
     },
     "catalog/records/nmp-2023-reclassification.json": {
       "bytes": 2601,
-      "sha256": "366ed039e6695d1a1329d0231004c2e2df7cc176c28de4234ab82a1bf86b7002"
+      "sha256": "e969f49ca73259ca238c631c95ab806ca3e5416facf770ede262ec28e1a8a579"
     },
     "catalog/records/nmp-2023-research-bags.json": {
       "bytes": 2558,
-      "sha256": "edb3e8b78754e47392b48c9367212224b446e7c3297ead6805db26c7215691c1"
+      "sha256": "36d34443fa0d54e6f67afd69309de1522e4e1b96485ae095c0986517a16d5209"
     },
     "catalog/records/nmp-2023-south-arrangement.json": {
       "bytes": 2517,
-      "sha256": "432e36013498d9ea6a0ba42dae839523bbfdde85b193da92f3c5888c9b8a0893"
+      "sha256": "4622691c5f657019a89acbd64d6056964fd23dcc0ad4bb27b81c598acdb0f234"
     },
     "catalog/records/nmp-2024-bone-antler-arrangement.json": {
       "bytes": 2530,
-      "sha256": "76e891a88af7fd06cb0c6e9ab5ba478ded32b1a385e21290d8207932c162c4c7"
+      "sha256": "c4847a67c74df6f545309726ed261e182f42bc54d054a20e85534468347fb929"
     },
     "catalog/records/nmp-2024-donated-specimens.json": {
       "bytes": 2683,
-      "sha256": "e55d5fe199fc8da0705fc19d43021d1a14243c5b86e1fff2cb1e5a6363d1a822"
+      "sha256": "5daeb1cae6a2a7d3d9225b6f8eeea7baa86f4c96c7cbb9501ff49ff12f92ac21"
     },
     "catalog/records/nmp-2024-ethnology-arrangement.json": {
       "bytes": 2618,
-      "sha256": "b96e4f289aa5c6d91014791c31301f9ee5400b76544209f83870a1635605c6ee"
+      "sha256": "171f1d481c01340d20bf0c1b7f1f40a17834bb7c98b1704d24c29c733e6f6438"
     },
     "catalog/records/nmp-2024-pottery-restoration.json": {
       "bytes": 2550,
-      "sha256": "f2209ccb9954d70f604f1ef4340039da38e9767a67303074e19e42a147c3f9d8"
+      "sha256": "5b12d4b74a83cf45c94d0922f18eafd50eb0aaceaa03b0775a8690fc39cd371e"
     },
     "catalog/records/nmp-2024-research-bags.json": {
       "bytes": 2552,
-      "sha256": "2b589e933f0e1a981c53fd2e9ca384ff09273a164dc6da2e0535af2eca7178cc"
+      "sha256": "b2d646f3c082ad97b8670f2a858bae15ea13cfe2fcda66b271253c3f0117e58d"
     },
     "catalog/records/nmp-2024-south-total.json": {
       "bytes": 2587,
-      "sha256": "cad292e3227e42f131bee7e44b1d3f82cc0bcca86b8b489f32993efc856c21ab"
+      "sha256": "d0c55f24dc50392e4416807a4ab813614bb851215a29f83e302f6bee733d5134"
     },
     "catalog/records/nmp-2025-artwork-restoration.json": {
       "bytes": 2544,
-      "sha256": "34d0f4bfd63bb048f194185ef587a7ac9c609b1713a1e940ae8b47bc5821d221"
+      "sha256": "9e37429703516c02d3f7ff17b6ccfe3eaf776a6ae1b6f4c458a81008a8e3c929"
     },
     "catalog/records/nmp-2025-ethnology-arrangement.json": {
       "bytes": 2580,
-      "sha256": "2ff8074a8ff90eb26d9a62ef983c19a685fbe1cb5300704a72578cd07ad1993f"
+      "sha256": "a22cb1315df2e52a198b6e01ccd56a3234c3e817a9b613c6ae32a91ebcd16fbc"
     },
     "catalog/records/nmp-2025-transferred-arrangement.json": {
       "bytes": 2568,
-      "sha256": "f9661a6fed820b59c0e3c63c68ae3fb541db9560dd375456429274d25a68095d"
+      "sha256": "fd36a74fd9bd2f08e034466832687b0377ec46f9e217d6dc94b321d2c94d41ba"
     },
     "catalog/records/nmp-2025-xrf-archaeology.json": {
       "bytes": 2544,
-      "sha256": "9d6a509da601292c95bbcb13726b391e38e940ec0ed5b338e411545dd754b09d"
+      "sha256": "7fb1ca5efbc60e0c4c820ef2ced24bd943ff20c21a47aa4b829d0524754727f8"
     },
     "catalog/records/nmp-2025-xrf-ethnology.json": {
       "bytes": 2540,
-      "sha256": "54c4579f919a1298ea65bc632d3aa470741fd341767b6c19c3b8568c6a2d2be8"
+      "sha256": "029cc95f02f58401ce6adc799418b4755e7358537dd3bb74aea0bc34f6dfb787"
     },
     "catalog/records/north4-daxi-2024-repair-batch.json": {
       "bytes": 2500,
-      "sha256": "0b619bcf9cbc63e761c08f2e1161de2dd37282a2b4b46e2b639a538794dee6de"
+      "sha256": "dfdd1b285024fc20ee25fcdc8045f9ae61cd7f4cd19454e011d0c7f0520b6a45"
     },
     "catalog/records/north4-sshm-2022-fumigation.json": {
       "bytes": 2554,
-      "sha256": "354e98f6c207a800f1a81b61e0bd9aecbb92ea2006f767acb3192f833fabf21c"
+      "sha256": "dd955effb41d5950ebf6bd6e0df16909b40bc5c6a657a75994cd28c49e39a857"
     },
     "catalog/records/ntm-2020-damage-treatment.json": {
       "bytes": 2835,
-      "sha256": "98a272832bd6d6b873901aacc0d980884122c00eb9558a96f01131f5e7f83bf3"
+      "sha256": "8e2ef4816f2eaa76bed9bbc0375432544850617a453d22507c50224ade53463f"
     },
     "catalog/records/ntm-2020-mixed-table-total.json": {
       "bytes": 3612,
-      "sha256": "d22604a414959bb7ed4adc15b3137689f26cfabc6dcec077336f5683b55611b8"
+      "sha256": "af297416f88a5fef75d2edc545cb834051d67472d5c6e2093cde49f559648e72"
     },
     "catalog/records/ntm-2021-damage-treatment.json": {
       "bytes": 2811,
-      "sha256": "c6182ca63b1c03a344d6e1b1de470d99a3e40d23846b44fdc08299e403e7f980"
+      "sha256": "06843d138baf1f4c7146b036f132ac2889d161ef29b34d080bf5dda19db541f6"
     },
     "catalog/records/ntm-2021-mixed-table-total.json": {
       "bytes": 3615,
-      "sha256": "1d4c870ae556ad8c3d6bc5a6c22c521ecfa403593c9b9d91c195cd6015a9855f"
+      "sha256": "c32d8e6d44ace0a08aa45ae1616c030e9e34527887f5962146c8f43cef75075b"
     },
     "catalog/records/ntm-2022-mixed-table-total.json": {
       "bytes": 4199,
-      "sha256": "5049ffa9310b2390d192b4f968bebf451610a2e567a90b5e41283416c08b967a"
+      "sha256": "a893bdffe2c637b09ef5c982719010b9513b29fc38fe6463ad041fef8237fd36"
     },
     "catalog/records/ntm-2022-puppet-project-completed.json": {
       "bytes": 2931,
-      "sha256": "986d402162f481de15ba1de228a16f3126e6089ab69183018d2f5719d4b47a1f"
+      "sha256": "ce6bffefcc50056dc3154d7ff126ca40227cbd823339ce65d65b14f3130160cd"
     },
     "catalog/records/ntm-reread-2023-accounts-reported-completed.json": {
       "bytes": 2676,
-      "sha256": "f0cb5b393667334247d8ad86887773ccfde00b8bdd29cdd89285116044394a45"
+      "sha256": "7a160010cf42c87f7c928e80eed1a226d1acea8530358b387d10a3f209b08775"
     },
     "catalog/records/ntm-reread-2024-accounts-reported-completed.json": {
       "bytes": 2676,
-      "sha256": "593face5f03249933d9ea27af2820d5e783361b250ad1adfdd461157b5f1d75a"
+      "sha256": "d0d9185bbe5932446145b8e5d730b2ed39e7b6150160d72e8db164041f8d6759"
     },
     "catalog/records/ntm-reread-2025-accounts-reported-completed.json": {
       "bytes": 2676,
-      "sha256": "e72b51bcf63038379ed104b899b84ac7c91323b950bc2c9a4b50e9f466c203a7"
+      "sha256": "64fcf98da7cb631f7a9a06dbddc735d96b24cf88ba3fdb4f9589c8fa509ca6c5"
     },
     "catalog/records/ntmofa-2020-1.json": {
       "bytes": 3376,
-      "sha256": "4140c5316c9879d4f4535d2d8a1a441d8eb3bfa1be674e569dbb83b842afdb20"
+      "sha256": "139b10fc38d0b9265b9aba27465871b5d7fb38b870c85d948b24915d6ee8ebd6"
     },
     "catalog/records/ntmofa-2020-7.json": {
       "bytes": 2565,
-      "sha256": "274c0fa4f0f6d2dc62fa02e36c88f56f07a7863ff1a2335c7ba6a408381fda26"
+      "sha256": "9a489a608fdfa90a88c397cd15bfece07a38c8208582afe9e197e6e19cda7645"
     },
     "catalog/records/ntmofa-2021-2.json": {
       "bytes": 3111,
-      "sha256": "9911390002e0fc557049f0cc1417b29c73ec46a1c2f3c549b4023e476d9fbed8"
+      "sha256": "a4d511d584a1786109b6464c9e3af2b1082741e4a22a464fae30c507fed07a30"
     },
     "catalog/records/ntmofa-2021-8.json": {
       "bytes": 2467,
-      "sha256": "862d346a3966d81d148e06101661ae5bc0173b8498b2bf69df8070bbd0e88258"
+      "sha256": "9f781689c55f87a9e9dbf49f0a489469fff108b71818d5ea92b04a64fa8d5cf2"
     },
     "catalog/records/ntmofa-2022-10.json": {
       "bytes": 2489,
-      "sha256": "9d14f11725e09dac50dcf19bf6979a63cef370f5f72805a8c39bcefae1b6e285"
+      "sha256": "090c398d1a30d9196c7e396f6375550cdc92bfb811aa6c4463a1d299874d7975"
     },
     "catalog/records/ntmofa-2022-3.json": {
       "bytes": 3094,
-      "sha256": "90e5f2c0dea24d3daffa0d79475234584b4cc6f122b02b1305c287127a095565"
+      "sha256": "276c738f035133e5e5bd3c83be35250b73de3f8babc71cb97dc59911c5e45678"
     },
     "catalog/records/ntmofa-2022-9.json": {
       "bytes": 2487,
-      "sha256": "cbb45c3e4d82046058054a610555775d8be11130286a3f41dd54386097ea84b5"
+      "sha256": "d732b05ada5c1858099a8ea253686b77031c0ed26ac41156a3dc99f1c6d90798"
     },
     "catalog/records/ntmofa-2023-11.json": {
       "bytes": 2577,
-      "sha256": "96c3d7bf8db67b275b04fda6c4300d16f711c453ed6e3fdfbf16665bd9bac494"
+      "sha256": "b4513208d17ae36009d90b616629117f6076e9356c08a7ea0dc4c1bc2cdad2df"
     },
     "catalog/records/ntmofa-2023-12.json": {
       "bytes": 2604,
-      "sha256": "c1d2b720d1006709e46c946bd2978a3e0d63b3c4d085ced013c8ac1c276a88db"
+      "sha256": "9d8632f186760a3b6e0a349accbd92b948396ef1b99a83837a9d0e27d36782c5"
     },
     "catalog/records/ntmofa-2023-4.json": {
       "bytes": 3049,
-      "sha256": "51a3cbf23f597b3a6f37ce151a57bb78abc550d190e1efebc411976c092066e7"
+      "sha256": "7649a6c9336066d8279ef3bba1d4fd610601f3254e1ddd916032bc8b561eed02"
     },
     "catalog/records/ntmofa-2024-13.json": {
       "bytes": 2586,
-      "sha256": "da2c59efb13dfbed3e4f97f824c1c36deb4c451418c712f07d212b1f54e95de8"
+      "sha256": "0e6430004b8ddc514fc3aebbcd683bdc23b7daecff1b105da31fe66532ad7e72"
     },
     "catalog/records/ntmofa-2024-14.json": {
       "bytes": 2637,
-      "sha256": "8588fcc5793c255bd6a67c3deed5e18864a8e8c33f36ea3cfa521d43e484f93f"
+      "sha256": "8ba367d61d3d39c2ac5373ea1435402da07e9c14b465eef1e0250d62bd256fdd"
     },
     "catalog/records/ntmofa-2024-5.json": {
       "bytes": 3064,
-      "sha256": "898b8a8dafaac3ef91c54f79eed620254dc3ea9da7acd20ad3e9528fca2198f4"
+      "sha256": "04ed30bb7f67b1eee9fa948f7ae78af11d01814ef5309dd065c91e183ce172a2"
     },
     "catalog/records/ntmofa-2025-6.json": {
       "bytes": 3221,
-      "sha256": "f8f83c720cb2fe9ed30ed7d69f5fcc2382eb59082ed6d541238d134db504f918"
+      "sha256": "a5ff07b23c6b687d07ca3d9933b7f73694c23cf2717bad5f7ceba3bb59799b2f"
     },
     "catalog/records/pilot-daxi-2024-combined.json": {
       "bytes": 2802,
-      "sha256": "00df54b1d1f54fe07f56e9cbd186a6cef0a64d749cad3061043241ad42037e77"
+      "sha256": "55c3d1883c809ef57689097c614c2e1433794e05587a2cb74804abd4abecf626"
     },
     "catalog/records/pilot-ntcart-2025-inspection.json": {
       "bytes": 2430,
-      "sha256": "2343c49e330f1763c3eef117f2deaf9d63e15341ae21f86034be592b405c94b5"
+      "sha256": "fec28f5831ede931a47bc3704f136f20623d356b44ae75fd88e1a2e2602c5bcf"
     },
     "catalog/records/pilot-ntcart-2025-mounting.json": {
       "bytes": 2353,
-      "sha256": "8a48449da39e87a621ae6af8233cb3f9b9c90dd07c5b66919ceeac87db1318fd"
+      "sha256": "f8cb39460b2991af4d85330461790cdfd6d2c1e1f0c32a4cb87fcbbc17782325"
     },
     "catalog/records/pilot-ntcart-2025-professional.json": {
       "bytes": 2392,
-      "sha256": "b3e30514fb924df14d46c9037005ea1bae407f8cbc039da8b10e0470ef1d63f4"
+      "sha256": "6d3b86d39060e8db39cd8f83d765b93b38c35216f20b900816a358ac5e2d62a8"
     },
     "catalog/records/sshm-2021-ceramic-repair.json": {
       "bytes": 2561,
-      "sha256": "070368f29c1fcbd4f852ba3f314d4fa0cd072de4c8d637584b6da437ee80ccbe"
+      "sha256": "c6df52b4481605e8e8bfb149add08096d4ea6b32aa656f69110a52dc9b9a8846"
     },
     "catalog/records/sshm-2021-fumigation-reported.json": {
       "bytes": 2504,
-      "sha256": "a6e466a45105676c7c844e76923824ca45fe2345bd98baad24bb66f3a76641ce"
+      "sha256": "941a6778171f9270432d299c19f75e29e40a8fca751f0255859e0791932806e6"
     },
     "catalog/records/sshm-2023-fumigation-reported.json": {
       "bytes": 2390,
-      "sha256": "d3f1dd7754c1edb4d7038671a10561faed87c02e713ce1879f5cf58ff6cff6b9"
+      "sha256": "c7a854e53cdf608371b705381778899f8a5fc9a0a2bb61be91b1572f17de7a11"
     },
     "catalog/records/sshm-2024-collection-fumigation.json": {
       "bytes": 2429,
-      "sha256": "8d158e918b8365fbeca0acb31cef0a2886c0bcddb62784e1bec8640e07ae20d9"
+      "sha256": "a42b1a04c15648d20cc72fabec529c56d0eb9eebbdd7367b65111c6d888fb62e"
     },
     "catalog/records/sshm-2024-loan-fumigation.json": {
       "bytes": 2450,
-      "sha256": "a293ed114e801a24fc9ee253c49f8f5fbc48cca5435611d1835857dd5e21ff55"
+      "sha256": "e62bdefaa54f3ac5e061f53693ed0982f864d9ff3be3b95b6d9410d0dffa5ffa"
     },
     "catalog/records/sshm-2025-collection-fumigation.json": {
       "bytes": 2396,
-      "sha256": "8c5c9a24cc5ef2200f85f0903fc1d7ac4145728bcccd8f9fa02acee70ca8f86e"
+      "sha256": "a8b0d50d7f2584bea6ef161975ce927d55f031b50f32ca509fb7b7ae322c9bd9"
     },
     "catalog/records/sshm-2025-loan-fumigation.json": {
       "bytes": 2417,
-      "sha256": "0917f2c67c853049b4c4842be33168c4264b59e63b950cabe5df95b670be0585"
+      "sha256": "7ab6f058de8643aa0252cbd8602ec978818e7d554bc1695b75b796b555f4adad"
     },
     "catalog/records/tfam-2020-calligraphy_remounting.json": {
       "bytes": 2605,
-      "sha256": "49022aa92cd2aad8c24ebcf0d518663b1910e5e2705a77429c0aaaae8f701406"
+      "sha256": "e9f0e0a4dd9c6b059fc634fe32e0fa23ec33a4f6684f85cb87b44aac48d76851"
     },
     "catalog/records/tfam-2020-oil_painting_restoration_annual.json": {
       "bytes": 2707,
-      "sha256": "fc4ec06345fe7a3a96462c5f135013197b3ffe32bc4e2ea554da4919598faa67"
+      "sha256": "60496b5fa538595e3b0ee544b3818f2692355e21faf35a9d090232bad6da93a1"
     },
     "catalog/records/tfam-2020-oil_project_phase2.json": {
       "bytes": 2714,
-      "sha256": "b93c034d7b1d76a7f97ec47678737ea8b44d2717d1045976cf39b9b64b3ffe82"
+      "sha256": "0cfe0b7aa3b3378bc2b1076791b53594efc06f7272625e19dadafcac5c002ce3"
     },
     "catalog/records/tfam-2020-oil_project_two_completed.json": {
       "bytes": 2550,
-      "sha256": "d5a32fc17a7d2f7db82ad0267e6bdea294a8cc0aaa3aa4e2c6ddfbf0c0f139f3"
+      "sha256": "88c1befed1bd2d19a6125f8c064350554e21acf149eb386795471e7c2e6b0de6"
     },
     "catalog/records/tfam-2021-display_arrangement-html.json": {
       "bytes": 2565,
-      "sha256": "d1e588fed9b39338386bcbc59e6d6837a0a01d94dfdb08c3229b718c0a6ea373"
+      "sha256": "94391d6a297d78dc9f475486520ae7e649926d64dfe26b463af1d4025355a105"
     },
     "catalog/records/tfam-2021-outsourced_restoration-html.json": {
       "bytes": 2585,
-      "sha256": "e1614744434603b7f03554cee088c9ed434a2797f511a27194ecc303bcd59796"
+      "sha256": "0ff0eceabdade423aacf41410ae076af2c63aea76cc3bf4ba89bf080881703fe"
     },
     "catalog/records/tfam-2022-display_treatment.json": {
       "bytes": 2563,
-      "sha256": "e892fcb3ef25679147fc544448f23a7fdcc1777911eee870811186b6f1f324bd"
+      "sha256": "960cba8e9c3eabe1be27e1fabeec713f05e28e608ef69339512ca7079914bbf3"
     },
     "catalog/records/tfam-2022-exhibition_collection_restoration.json": {
       "bytes": 2603,
-      "sha256": "b99100ff11e5548b2378c33d24a45622bb39c732531483d8c2f856210ba8668c"
+      "sha256": "9cbc9960637e1768372e7be42b6c0885fad6681bdaaf0e8216beff3b736963d5"
     },
     "catalog/records/tfam-2022-new_collection_exhibition_treatment.json": {
       "bytes": 2545,
-      "sha256": "bb85fc7981bae43ac7db6d4ae613bb373f3887547be45e5d003d330dd48c25c1"
+      "sha256": "78a5eb8a4541ad2c27264db0414e61271af8b3b298bd62b12461b603179ec078"
     },
     "catalog/records/tfam-2022-preservation_measures.json": {
       "bytes": 2620,
-      "sha256": "9305d14313d934a139729f24157d74057f8f913873c9f915a516373c9a007a12"
+      "sha256": "583b760f89ac939633ecbe251909b690078b5543b546772d53073d941210ad7c"
     },
     "catalog/records/tfam-2022-routine_restoration-html.json": {
       "bytes": 2765,
-      "sha256": "65ed7428684d5d01366e95aca8ebca00c0dd4b83295513cc6f327b68fcc0d87f"
+      "sha256": "fefccb10406e6927fc0884b3f67030527b555d3a22b5f19f911b5b530be022ee"
     },
     "catalog/records/tfam-2023-commissioned_restoration.json": {
       "bytes": 2362,
-      "sha256": "551b5e066b1c97f270c0b8d67de101faed9db2e828d6e98e506ffd5166c4d060"
+      "sha256": "c6080f53514afa1756b35479c7489cf83c2364d14219e21c171ee49b0033d75a"
     },
     "catalog/records/tfam-2023-internal-derived.json": {
       "bytes": 3864,
-      "sha256": "5d86906aa7497b33ec53957b7e0c112b2e05f98024ad3cb5f21a80e3ae9853da"
+      "sha256": "323fbdd5f4715658a16afc05f87d6f40e6d23c15dfe4c80befb988f8c5b6867e"
     },
     "catalog/records/tfam-2024-inspection_or_cleaning.json": {
       "bytes": 2411,
-      "sha256": "ac24460c3d16522a5d56cf3ac3ff3f39ea047df1cb669aff9d934a516ca1f877"
+      "sha256": "1c083380fedec23c7aba58da6d2e9e1f223d8b24bfc7ae9199aa06395f1a429f"
     },
     "catalog/records/tfam-2024-project_book_conservation.json": {
       "bytes": 2431,
-      "sha256": "58f3a0334aff5bfe18b57084cfcbfa4de69cef1c0c611ae37f3926b973a986a4"
+      "sha256": "996379b6fe706078259f13076fd79a7921ef628c289bf59fbdd54beaecec4632"
     },
     "catalog/records/tfam-2024-project_paper_conservation.json": {
       "bytes": 2417,
-      "sha256": "22cb2e6c6b6d4954488cacc69133f54ba828dc86da222d1302c32e15e3c6f004"
+      "sha256": "0918c3d49395c0e9a699c16b8928929a3765653dbed21f71c1b5290070ae342e"
     },
     "catalog/records/tfam-2024-restoration_summary.json": {
       "bytes": 2490,
-      "sha256": "005e00628685a58586943aeb47fce6d091d138184d5ecc9e68503648e9fc8780"
+      "sha256": "116c56dc537bbe365bb72694f8080d7394837eac6b2db1f561004357686fee3b"
     },
     "catalog/records/tfam-2025-conservation_and_restoration_total.json": {
       "bytes": 2514,
-      "sha256": "1845aad0d9e23742a28b8db4bea9024f1a39afd66988ca089222ad5011585b5c"
+      "sha256": "fee83ea73eed6e5f48a6ddb9d3f5d1490e6fc03b26f849dbe588defb4a0dc1d1"
     },
     "catalog/records/tfam-2025-inspection_and_registration.json": {
       "bytes": 2399,
-      "sha256": "7c08dee874c96924256948cd5f6f833e589e46d798c58b3070d136703c526b47"
+      "sha256": "e7bf89c821e22fceb40a2540a01826a1dc7892e6ca63f14825cc074cc2a3f2ad"
     },
     "catalog/records/tfam-2025-project_restoration.json": {
       "bytes": 2325,
-      "sha256": "114d9a3ee2e688ec6ba6e503ffb8eef0c94e456809f590bd245367901da576a5"
+      "sha256": "db2d66ff33727e775e62d98a0d319838ce97ff0d12b69bd41ab519370c39f32a"
     },
     "catalog/records/tfam-2025-routine_conservation.json": {
       "bytes": 2442,
-      "sha256": "4d336c49975c2d9855393d0efcd9d8ed4f30ca6c4d93a70b17eb6dbf1fd26f23"
+      "sha256": "2ff941c4fda250391fbd1cf95128be6eb96223071762987a8c456d72c3cca755"
     },
     "catalog/records/thcdc-2024-arrangement-registration.json": {
       "bytes": 2662,
-      "sha256": "f6a10b287d92aadca8f3e5515a37ea2f130c0ed043aefe32af743ec2febfe215"
+      "sha256": "2859dc7c2e222eaa13ac091242523983e9a19f463cbbf0d1e6db351b00de0a66"
     },
     "catalog/records/thcdc-2025-arrangement-cataloguing.json": {
       "bytes": 2609,
-      "sha256": "d93625dc10497223921606df808cb0b8108bc3f8538ec45789cf46f712169a16"
+      "sha256": "b074254d4d9fd104a333efb5e22acafb7663728976f277f610a91a484e238472"
     },
     "catalog/records/thcdc-2025-cannon-combined-treatment.json": {
       "bytes": 2761,
-      "sha256": "ee262460abb3c158ad7f856e427a74ab95319b7b7a870fc97e31c3c134d8c897"
+      "sha256": "6354fff4d2070834723714c75e226f72cd36c4f97433b4548547ef8d788e4f65"
+    },
+    "catalog/records/yilan-2022-conservation15.json": {
+      "bytes": 2759,
+      "sha256": "3694629b9cd227a33aed1ee3c99fb41d1d3d9859c8ff86f10c2eee0a92d3004f"
+    },
+    "catalog/records/yilan-2023-compound-maintenance26.json": {
+      "bytes": 2945,
+      "sha256": "54c94c7201c058d0dd62196cb6a903349f6d177205bb13d5afd0a11f4ae996dc"
+    },
+    "catalog/records/yilan-2023-stability-maintenance133.json": {
+      "bytes": 2833,
+      "sha256": "c99712745a4bc98f1f65375865c68933c23a391499391fd90cd2f8c03c719a8d"
+    },
+    "catalog/records/yilan-2025-oil-restoration8.json": {
+      "bytes": 2790,
+      "sha256": "cac47c4e63c6303c8656a70b042e9aba1d57cdcbf5dc5fb2874a4bdc1b7b4f6b"
     },
     "catalog/records/yingge-2020-source-reported-annual-repair.json": {
       "bytes": 2506,
-      "sha256": "b30f86c4c1126209011487c85ef3df0ca507eabc8ad86872d6120dc011357f18"
+      "sha256": "fd837fd203a3d6da0c1fc2877fe2644b28d64207ba42dabb5f99901a094d23b9"
     },
     "catalog/records/yingge-2021-reported-annual-repair.json": {
       "bytes": 2427,
-      "sha256": "31075f86706ba67d8653c8d3f468b225d325e1bd3bd57b76771a831fef0252de"
+      "sha256": "96b4d716c57976de953af2b045611ea4d6a388f8808d8ef608c0a334c10dff6e"
     },
     "data/baseline_organizations.csv": {
       "bytes": 34777,
@@ -1189,12 +1277,12 @@
       "sha256": "26c5548c0f470de712c4d94c95d3c60e58d266397d8faf5a06ecfeea3509773d"
     },
     "data/body_reviews.csv": {
-      "bytes": 78776,
-      "sha256": "9f766f811534b3c3163fe9622392453bfd1a50ba06a2d2a2e0bd2f0829302f83"
+      "bytes": 161874,
+      "sha256": "317c2353e95bdb2d0adead9f811381c07018dd5d6892bd326d15d5a2033d5741"
     },
     "data/body_reviews.jsonl": {
-      "bytes": 102835,
-      "sha256": "5d38236b87ed120c853d29d965460232fe2619ed4ccf5fd0a52125560ab67288"
+      "bytes": 211694,
+      "sha256": "a6812c59b8e8e456b672334142888e6150188878b191f6ac7acd4885e98a40f3"
     },
     "data/facility_candidates.csv": {
       "bytes": 5064,
@@ -1205,12 +1293,12 @@
       "sha256": "f4678e49d47e5e3ab58be74d085cb8545d9d95e718944fb841bc683a80269320"
     },
     "data/facts.json": {
-      "bytes": 755019,
-      "sha256": "beb21bec9491e6e55946b35ddfe81839464286fb0febc6a9082d5b3ed07f8f76"
+      "bytes": 950482,
+      "sha256": "52d7ccefc4f3ce9061fcb6f068160187db252ddcfaf5c3ce2296a5780615130c"
     },
     "data/museum-conservation.sqlite": {
-      "bytes": 1482752,
-      "sha256": "126f80de703dc25ee8b43377f52fcb2f53f58646343d6e9541bc6a7a81eee2d8"
+      "bytes": 1675264,
+      "sha256": "294e4b36c9820a38bfa3377d58965084aead313ebd7e87de6fc383d39ab53ae0"
     },
     "data/name_relations.csv": {
       "bytes": 5107,
@@ -1221,20 +1309,20 @@
       "sha256": "ec8f241113652b44313a341cc62f0df228bee3088b921330bcd5bf2017635d23"
     },
     "data/observations.csv": {
-      "bytes": 219347,
-      "sha256": "c409ac2e642418a86b9372af59b219f1f872715b80314e44407fcb98ebcc3e68"
+      "bytes": 224717,
+      "sha256": "881ca447bcea804c54afc1b38dded9a2d0b03891efcb79588aa1abb791db50d8"
     },
     "data/observations.jsonl": {
-      "bytes": 392468,
-      "sha256": "68b4e2a530a5d00e62b9bb37fbb5a8a9e5799b6a84b67d85e18db31e49c6a5e2"
+      "bytes": 401784,
+      "sha256": "db6199fcd1a8f47255fad2f167cb2c035f407dbeddb14b77816cafa87c63270c"
     },
     "data/relations.csv": {
-      "bytes": 19946,
-      "sha256": "27b40ec6634aab860f50ecd3bd977b8cf60891992c44a398e4ac22fcf8b65d4a"
+      "bytes": 20486,
+      "sha256": "35d1606e5fbf328a7e6c618f46ae854323993ce0fcb95b7568d318a98cc4f917"
     },
     "data/relations.jsonl": {
-      "bytes": 22799,
-      "sha256": "95e205a52455ff0f06f69669c25c61317fe3631729dc4ff0d42b5ebf07a3f72e"
+      "bytes": 23427,
+      "sha256": "800bf56c101bb47912db203e1db72e8d8ee1961df19d883d698426abd21250d1"
     },
     "data/source_inventory.csv": {
       "bytes": 187740,
@@ -1245,12 +1333,12 @@
       "sha256": "1961e95e0329de751ebd9fcf8a4ede66b049f305a9a400be5edb8d7ab897f0ea"
     },
     "data/sources.csv": {
-      "bytes": 68998,
-      "sha256": "d2b1eb1a1da236023e590ef554e550c3dd6e6e87d0ddd470c244489a471e4449"
+      "bytes": 95996,
+      "sha256": "0cf810325ef04f6cb32301c98dcaa04ac617edce5c0281a6fc66ecfb1d25024a"
     },
     "data/sources.jsonl": {
-      "bytes": 101706,
-      "sha256": "1c62620b1a4cdae5bba46eaed7df34f70a62c9a6f9a02fbe45f9baa4ccb71fe3"
+      "bytes": 143424,
+      "sha256": "51cbd71f45fdecc1bdbc712312a8a180a0b77ad985bfb8d0ae95288a7c4ad8df"
     },
     "data/supplemental_organizations.csv": {
       "bytes": 8265,
@@ -1265,8 +1353,8 @@
       "sha256": "6b558af0cdf3b9bf4ac6cabf30d62078779525572501621b7d7f9dd3da55f49f"
     },
     "metadata/read_coverage.json": {
-      "bytes": 32865,
-      "sha256": "905034c3afcdaaa2aea0b890198d13928e32f994a3246f34bab8422efa83a7f4"
+      "bytes": 34606,
+      "sha256": "a13178452b1a296edef085cc800c6b0c828d6d3c208384e258d20eaee10281e7"
     },
     "schema/vocabulary.json": {
       "bytes": 1820,
@@ -1277,6 +1365,12 @@
   "original_source_versions": {
     "https://bhx.yuntech.edu.tw/node/73": [
       "cf90ba12248e0bdbee0fc9c2eae063c485bab803fec36a92f3a0009fa39e05e3"
+    ],
+    "https://ca.hl.gov.tw/Upload/202010081426478642731.pdf": [
+      "145a6a6487d266b1805b286689f4cf0ae141c04bae44562e3a4cc54f72dabd60"
+    ],
+    "https://ca.hl.gov.tw/Upload/202510021413326644051.pdf": [
+      "9b1a8e111dda56e77253acb75683ff53f5ff1f678556832d283188081e552222"
     ],
     "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/125529/2a11790e-0b01-4701-ba73-c422cf311344.pdf": [
       "702b9e3c5ed5ddee3a6c83b524a4a5dcf811650c23ea841df2d4e961acd17981"
@@ -1293,11 +1387,20 @@
     "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/143756/c786c9e9-4273-425a-bdd2-9b56c2fffc98.pdf": [
       "87530a6874d9bb16f6f4d1b5b78864fbe808825504bd435f7755dc6b600472ff"
     ],
+    "https://cypac.cyhg.gov.tw/News.aspx?n=9258&sms=20567": [
+      "ec6547207c425849c821666197c337fc38196332a229d8739ea198634f4aa5c5"
+    ],
     "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1893.htm": [
       "5f332232138a067772081bbccbe92cb7055c8d6ad2d5e807dd6032b59fa8d1bc"
     ],
     "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1899.htm": [
       "feec77cbcb4d419712e7f98ebc455bf63b6d659021d0882a2d185181ac7ac16b"
+    ],
+    "https://eng.yuntech.edu.tw/index.php/2019-07-25-11-32-12/2019-04-10-08-06-44/2019-04-10-08-06-113/2019-04-10-08-06-118/item/8270-2023-03-13-05-24-50": [
+      "451bc840ea42c40376182b9e185f9b3ec82969f745eaf7ec06e8cb10dd79d0f4"
+    ],
+    "https://epaper.mlc.gov.tw/df_ufiles/018/%E8%B2%93%E8%A3%8F%E8%97%9D%E6%96%872020%E5%B9%B46%E6%9C%88%E8%99%9F.pdf": [
+      "a1724a775a0ac6387634ebd54ffe32c7626089654b5f0b616b3d279294d73260"
     ],
     "https://epaper.mlc.gov.tw/df_ufiles/018/2020%E5%B9%B4%E8%B2%93%E8%A3%8F%E8%97%9D%E6%96%877%E6%9C%88%E8%99%9F.pdf": [
       "45c4846190f880d28ea9ab04c173039a00002b0a7cb29cd691aa973d7ea3f382"
@@ -1440,6 +1543,24 @@
     "https://ntcart.museum/retrieve/opendata/202604151149505100.pdf": [
       "b0540f9e81020edcd76623315ce65f70712f2faf1f8a4871dab454f63f162eb3"
     ],
+    "https://tcdbdata.ntcri.gov.tw/upload/file/2021-11-23/fe0ae20c-6ba5-48af-b155-3e88dab886e3/109%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97.pdf": [
+      "662bfd2de07bb47bee72a62eebe30d30988464f8fa8576fc2c0b42c97baeb878"
+    ],
+    "https://tcdbdata.ntcri.gov.tw/upload/file/2023-11-02/4ce25fe0-8c42-4ab9-8139-7086cc655950/110%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97%2B.pdf": [
+      "57002cf2abc5a831e654f26c174553e0b1a55f78c86c4fef83df88f6a8b26244"
+    ],
+    "https://tcdbdata.ntcri.gov.tw/upload/file/2023-11-02/5e622497-5f8f-4d19-b500-2a77eda79632/111%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97%28%E5%AF%A9%E5%AE%9A%E6%9C%AC%29.pdf": [
+      "0557b238b099194e08c6120919e9e4174e8246ac338d54628fd89b43f7657877"
+    ],
+    "https://tcdbdata.ntcri.gov.tw/upload/file/2024-09-09/927cf409-55a1-48ce-baaf-0adeff7de262/112%E5%B9%B4%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B7%A5%E8%97%9D%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%83%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97%28%E5%AF%A9%E5%AE%9A%E6%9C%AC%29.pdf": [
+      "097d007363655da8d2bc0fe9a5bd7299370a48bed3636f9de28cc4026aff8d17"
+    ],
+    "https://tcdbdata.ntcri.gov.tw/upload/file/2025-09-15/7ab8c9c3-83c3-4655-9858-17bd693ad873/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B7%A5%E8%97%9D%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%83-113%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97%28%E5%AF%A9%E5%AE%9A%E6%9C%AC%29.pdf": [
+      "88cc97b4828b524aa16edd7bacbbddd957dd573e96072eff9c971c0bcd1f71b1"
+    ],
+    "https://tcdbdata.ntcri.gov.tw/upload/file/2026-03-04/2ea5ff84-e211-451c-a2ff-bc38e7f8b982/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B7%A5%E8%97%9D%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%83-114%E5%B9%B4%E5%96%AE%E4%BD%8D%E6%B1%BA%E7%AE%97.pdf": [
+      "b08eae1e6bb831e474027b9de7203ae3ece0fe6c6e470c8502e3896c4c27772a"
+    ],
     "https://thcdc.hakka.gov.tw/media/3laol4ei/109%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97-%E5%AF%A9%E5%AE%9A%E7%89%88.pdf?mediaDL=true": [
       "e2b146bca4ef141762972aacef34c930a18841525bba061e8ca9d9aa3ba54bbb"
     ],
@@ -1463,6 +1584,36 @@
     ],
     "https://thcdc.hakka.gov.tw/media/vo0ck1ra/110%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97.pdf?mediaDL=true": [
       "d0dc904b9ab2f4203a4dd550ce553da9256caeb8a53727ce6da36d607a6933b3"
+    ],
+    "https://ws.bocach.gov.tw/001/Upload/1/ebook/ebook_28711/pdf/full.pdf": [
+      "5b9e1d4e35d328772bed43a8f288a94dc2c4b9ca303e5eabe6bb6c63fb5ed195"
+    ],
+    "https://ws.bocach.gov.tw/001/Upload/1/relfile/9969/42226/d4c418b3-de79-4f1c-8a06-ba6c1d260d2a.pdf": [
+      "7dc7bb4ff0a35e372d1f8797955ad9202877a4029b7973c309b0576145f036b0"
+    ],
+    "https://ws.bocach.gov.tw/001/Upload/1/relfile/9969/51368/825175f6-2e6b-4ab9-8c7b-790ce26c7876.pdf": [
+      "659e9e7f5f2fe1bb37932cea397e3b94cb1d5811883fa4f030bb386b68026503"
+    ],
+    "https://ws.bocach.gov.tw/001/Upload/1/relfile/9969/53677/25ee6edd-531e-4a58-9291-7c9696a0c822.pdf": [
+      "1b6b8210ddbb04f3974aabf3f40ce6475b8691192938a3fdf9c63536568c4587"
+    ],
+    "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDEvMjM0MTgxLzlkY2EwYjg2LTg2NjctNDBhYi1iNjVkLTM4YWJmMjQ4ZWI4NC5wZGY%3d&n=MjHmlofljJblsYAucGRm": [
+      "95190042d2c0efdd79c561830ae8365a7e6ae34891fd94bcecf1a0c9e8bfd4b3"
+    ],
+    "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDEvMjQxOTA0LzQwODlmYzE5LTA3YWUtNDE2MS04YzBmLTUyMjVlNzNhY2VlNS5wZGY%3d&n=5paH5YyW5bGAMTEw5bm05bqm5pa95pS%2f6KiI55Wr57i%2b5pWI5aCx5ZGKIC5wZGY%3d": [
+      "5c57367f96e831ac6d23b723c732e8848f8a805e16f86110f497a17387d666d4"
+    ],
+    "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDEvMjU4OTAwLzVlYjllYTQ1LWJhYzktNGE2Ny1hNWM3LWNmMTkyMzg1Njc0ZC5wZGY%3d&n=5paw56u557ij5pS%2f5bqc5paH5YyW5bGAMTEy5bm05bqm5pa95pS%2f6KiI55Wr57i%2b5pWI5aCx5ZGKLnBkZg%3d%3d": [
+      "533e21fa76d82de33d52e7dd422aae91372eb64772a87c1c88f9262092a98d1d"
+    ],
+    "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDEvMjUwMzAwLzM1MzhkYmNmLTc3MjktNGYwMy1iZTNlLWY0MjRmNDU0NTAxMS5wZGY%3d&n=5paw56u557ij5pS%2f5bqc5paH5YyW5bGAMTEx5bm05bqm5pa95pS%2f6KiI55Wr57i%2b5pWI5aCx5ZGKLnBkZg%3d%3d": [
+      "a0d00c3e229067de85345392dcd0f8017c3d6b43827e7b8374e803de51ac9d0a"
+    ],
+    "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDEvMjcwMTY3LzdjYjFiZTc0LWVjMjYtNGNkOC05MjRlLWIwMDc2ZjZhZjM5Ny5wZGY%3d&n=5paw56u557ij5pS%2f5bqc5paH5YyW5bGAMTEz5bm05bqm5pa95pS%2f6KiI55Wr57i%2b5pWI5aCx5ZGKLnBkZg%3d%3d": [
+      "659747627d27fcf097f3da6677c4f17c41484e22f87713ebe83256ff89fcc086"
+    ],
+    "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg3MDEvMjgxOTI5Lzc5YThlMGNlLWJkZmYtNGJkMS1hZTgwLThiZTdmYWIwODI3Yi5wZGY%3d&n=5paw56u557ij5pS%2f5bqc5paH5YyW5bGAMTE05bm05bqm5pa95pS%2f6KiI55Wr57i%2b5pWI5aCx5ZGKLnBkZg%3d%3d": [
+      "7dd5b00150316b5ba41dc384171c602550df054f4f12a5bf7ca66bf4586046aa"
     ],
     "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjE3L3JlbGZpbGUvNjQzMC8xMTIzMi9hYzFjNmRmYy0zNDlmLTRlNDgtODNmMS1jYjE1MzQ5ODk4MmYucGRm&n=MDIyMl8xMDnlubTluqbmsbrnrpflvZnnuL1fZmluYWwucGRm&icon=..pdf": [
       "53a2b580f8e9467fcc1d1e7a8b905814a69e48689385856ce8ddfd03f0a61075"
@@ -1518,6 +1669,21 @@
     "https://ws.tycg.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvODYvcmVsZmlsZS8xMzY3NC8xNDE2OTk5LzU2OWYxYWZiLWRmNzMtNDJhOS1hNTJiLTgyMzBhODcyMTgzZi5wZGY%3d&n=MjAyM%2bacqOWNmumkqOW5tOWgsV%2fpm7vlrZDmm7hfMTEyOC5wZGY%3d": [
       "1514012834c49014604463cbe45e1e6dffcb9163e6c9ec03bf01a9936d3bd12d"
     ],
+    "https://www-ws.e-land.gov.tw/Download.ashx?u=LzAwMS8yMDE1eWlsYW4vMTc3L1JlbEZpbGUvMTAwNTAvMjQ3OTcwLzQxNDk0ZjkzLTdjNzctNGJkMS05ZTEyLWUwZmQ1NWVjMmM2Ny5wZGY%3d&n=MTEw5bm05bqm5bel5L2c5aCx5ZGKLnBkZg%3d%3d&icon=..pdf": [
+      "a7672f10a1b3a9d4cfbc3954187b3709232892d48ae70d8e4498ade84a722086"
+    ],
+    "https://www-ws.e-land.gov.tw/Download.ashx?u=LzAwMS8yMDE1eWlsYW4vMTc3L1JlbEZpbGUvMTAwNTAvMjY5NzA0LzQyMDE3NDYyLTlkMGUtNGQ4ZC1iYTZkLTBhZjA5NzU3ZGMxOS5wZGY%3d&n=MTEx5bm05bqm5bel5L2c5aCx5ZGKLnBkZg%3d%3d&icon=..pdf": [
+      "a64d502224892713143cf7fd7d9e76252daf607ef0f20bdae710a9724560892b"
+    ],
+    "https://www-ws.e-land.gov.tw/Download.ashx?u=LzAwMS8yMDE1eWlsYW4vMTc3L1JlbEZpbGUvMTAwNTAvMjg3MDM1LzBkYjk2NjNkLTFkODEtNDVkZS1hNjJlLTQzMjIzODkyYmMyZC5wZGY%3d&n=MDQyNS0xMTLlubTluqblt6XkvZzloLHlkYot5L%2bu5pS5LnBkZg%3d%3d&icon=..pdf": [
+      "ad56b43aae546a108929fe84973a6e8e38bd81e5c0c3f3ef6740307434a24f12"
+    ],
+    "https://www-ws.e-land.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDM1L3JlbGZpbGUvMTIzMjQvMjQ0MDk0L2Q0ZTRiMzdiLTI3ZWQtNDA1OC1iMDZjLWY1NjI0MmY5YWE2Ni5wZGY%3d&n=MTEz5bm05bqm5bel5L2c5aCx5ZGKX2ZpbmFsLnBkZg%3d%3d&icon=..pdf": [
+      "535f501ce82623c0e9ec3fb1d8491bb4688707029a715b472f2612c90ef45c26"
+    ],
+    "https://www-ws.e-land.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDM1L3JlbGZpbGUvMTIzMjQvMzk1OTg3LzliNzYyMjdhLTg1MjUtNGE1Ni04OWU0LTFhZDE1MTYwYmFhNS5wZGY%3d&n=MTE05bm05bqm5bel5L2c5aCx5ZGKLnBkZg%3d%3d&icon=..pdf": [
+      "1e7ca58a85a9e0b470e590d04a90f9ffea4c594952a33663d674f94f2c877392"
+    ],
     "https://www.ceramics.ntpc.gov.tw/files/file_pool/1/0N209489345934800145/%E9%99%B6%E5%8D%9A111%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97%E6%9B%B8.pdf": [
       "765038e189b5a9c3fc3c7b5653463fd2cca9ec2b6c278e68ea32f495292c98c8"
     ],
@@ -1551,6 +1717,42 @@
     "https://www.e-land.gov.tw/News_Content.aspx?n=11419&s=351290": [
       "24449dd73f61481fc1cfbaacebf14337c95f514aefdbad341c9ca8c228877b58"
     ],
+    "https://www.hccc.gov.tw/Utility/DisplayFile?id=11836": [
+      "1318f9fa63770404490826d8a2c0870572362c51c142d7fddc0ed407a03333db"
+    ],
+    "https://www.hccc.gov.tw/Utility/DisplayFile?id=12845": [
+      "704a8acfe661b4bf1b892f24ec16f16af6dffd04e65f50a51ab583a428aa366d"
+    ],
+    "https://www.hccc.gov.tw/Utility/DisplayFile?id=13193": [
+      "8a644faad8aa529ee2c988b446f549cee3465d20d31021223a138d96bf312925"
+    ],
+    "https://www.hccc.gov.tw/Utility/DisplayFile?id=14425": [
+      "518e25880474d256a5e266d5690436c0cc8a596f90a28275516983bf1d59715a"
+    ],
+    "https://www.hccc.gov.tw/Utility/DisplayFile?id=15030": [
+      "e71717ea55a5ede6a2b5d3b6577b3d15dda94f36436c0f40b822fa83a29fd984"
+    ],
+    "https://www.hccc.gov.tw/Utility/DisplayFile?id=15851": [
+      "ff7f8761f0cc9a47d8db4ea043cfe0940c4a5d1dd09af5648baef12e7af10b45"
+    ],
+    "https://www.klcg.gov.tw/wSite/public/Attachment/01703/f1638786278919.pdf": [
+      "1c5c9736cf63adb9ff3a696fb82a4d6b4488417f2f22949efe220b3d9d6d24eb"
+    ],
+    "https://www.klcg.gov.tw/wSite/public/Attachment/01703/f1646983739926.pdf": [
+      "b82a155c93fbd805d3dc226dd55b674c7e2144752637f4790cdee1fffc086545"
+    ],
+    "https://www.klcg.gov.tw/wSite/public/Attachment/01703/f1679556397045.pdf": [
+      "4efbf250f78ae7ccbf6e2196d312586f0da301e8380b96553d50cdd3d336e195"
+    ],
+    "https://www.klcg.gov.tw/wSite/public/Attachment/01703/f1711073506493.pdf": [
+      "e9b4225b29ff6c38a0e40ab17f3e66e0cede753c281b11946c56444ea11cdac7"
+    ],
+    "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1742261002348.pdf": [
+      "2b10dd111bfee97fbb3615bf09001f0f437cf294b957880faf2f8b3184888ebf"
+    ],
+    "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1773905019827.pdf": [
+      "1440ac2d0c0e1345ac3a7a5c01cc3cfda7a2ed45408425a06c85634e0476677e"
+    ],
     "https://www.kmfa.gov.tw/FileDownload/Journals/20170913182030457670956.pdf": [
       "cbc631aca1cc8b5b2553a06d6f883fc82816d1cedd8586ef857b664597cb45ac"
     ],
@@ -1572,6 +1774,9 @@
     "https://www.kmfa.gov.tw/Uploads/files/2025%E9%AB%98%E7%BE%8E%E9%A4%A8%E5%B9%B4%E5%A0%B1.pdf": [
       "04bdb3097844a8d34c159490a81c520b22521e615d8fee1f021d47eaa41c022f"
     ],
+    "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=715959": [
+      "cb30d9c28b9288bf6ebb6bb95d4410397784f4cf8801c29f04e051a0fa30e764"
+    ],
     "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=752962": [
       "a4a1325f779806760bb69481a9af97056902e2229518752db89d75ad3feeffb6"
     ],
@@ -1589,6 +1794,18 @@
     ],
     "https://www.mlc.gov.tw/df_ufiles/069/110決算公告-1.pdf": [
       "e95394e5c0f0fa4a897a08bd53286ee7f9f5587f737c740f0ed83b4401c972f6"
+    ],
+    "https://www.nantou.gov.tw/getfile.php?path=upload%2F127503_f25.pdf": [
+      "b628d48b687e266ef0f2b76ca32f7d4eef8ef8a1ff10908300985ee64a536bab"
+    ],
+    "https://www.nantou.gov.tw/getfile.php?path=upload%2F140874_f25.pdf": [
+      "12063065adc61e58d373afa48eeb1dc1427e4c167d6b79e6b9a8b24e782727f7"
+    ],
+    "https://www.nantou.gov.tw/getfile.php?path=upload%2F72WmqccNCtUq3HzZ.pdf": [
+      "c68ff3361abeb9e592bdf88695414deca368d3401f117fbbcb18fdd0e699a6af"
+    ],
+    "https://www.nantou.gov.tw/getfile.php?path=upload%2FNh7YsYw014VErUeQ.pdf": [
+      "51653de81e470e538420286de85a22a045311a28dfc7ec970d3ded11baf615eb"
     ],
     "https://www.nmns.edu.tw/export/sites/nmns/ch/about/.galleries/files/20210222.pdf": [
       "b4178df637adb32c6e0d7f0b32f5c70eb246ffc757b6b3f13eb5a3ca952a9309"
@@ -1638,6 +1855,9 @@
     "https://www.oac.gov.tw/ch%20/home.jsp?dataserno=202512110004&id=546&mcustomize=onemessages_view.jsp&parentpath=0%2C513%2C533%2C538": [
       "7ce1f3c7ddc80ed7cf904ee275aaff9c55bc4a54253526077a6b5c9ec2ab05a7"
     ],
+    "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7": [
+      "40653d80ac86ad5870731b90c2ee058d36a76eae5b108f03e2aaffaaddd1be17"
+    ],
     "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0L362520354032833587/109%E5%B9%B4%E5%8D%81%E4%B8%89%E8%A1%8C%E5%B9%B4%E5%A0%B1%28%E9%9B%BB%E5%AD%90%E6%9B%B8%29.pdf": [
       "aba6935ae0832f13cfdb89f50ecd82e81796ff621fce61efc56a73ca1eeb1a1c"
     ],
@@ -1658,6 +1878,24 @@
     ],
     "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0p217548681190409494/113年度新北市立十三行博物館單位決算.pdf": [
       "c72c034c7ab775a5e5f88605dfe1bf65ce52a232f8f3c5506321eed0a8d0bd3e"
+    ],
+    "https://www.tcf.taipei/taipeicultureSysUpDoc/achievements/2020%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf": [
+      "9b760857572a6615442fcaf5dbb4e73e5cca3eefb88c39394ffd56fbc67a125f"
+    ],
+    "https://www.tcf.taipei/taipeicultureSysUpDoc/achievements/2021%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf": [
+      "c27ecdf0895b067101baf72cf7496636c9383002832db196f0c5c0ad7a6de2d6"
+    ],
+    "https://www.tcf.taipei/taipeicultureSysUpDoc/achievements/2022%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf": [
+      "12b47d8e09baf5c71d7bed6b4cb04a38b6c2a176911d7484a016121ded26939d"
+    ],
+    "https://www.tcf.taipei/taipeicultureSysUpDoc/achievements/2023%E5%8F%B0%E5%8C%97%E5%B8%82%E6%96%87%E5%9F%BA%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf": [
+      "e4e18115cb884f120dc5e9e19778bc7e1f68d46ebfe7088d6947ce7e2f292a3f"
+    ],
+    "https://www.tcf.taipei/taipeicultureSysUpDoc/achievements/2024台北市文基會年報.pdf": [
+      "56d40a7b5666696786e84af2b537b2d243abe748736f17b4d91ced9600ef314c"
+    ],
+    "https://www.tcf.taipei/taipeicultureSysUpDoc/achievements/2025%E6%96%87%E5%9F%BA%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf": [
+      "2767b43aec063234e85b5492009aa4d82b822afa5618bfd5ef46eabaa3cec086"
     ],
     "https://www.tfam.museum/AnnualReport/2020/2020tfam_annualreport_ch.pdf?ddlLang=zh-tw": [
       "c69c9258adf06de42feebb292e28f6738365daa36df4d98defd1c05fdc631007"

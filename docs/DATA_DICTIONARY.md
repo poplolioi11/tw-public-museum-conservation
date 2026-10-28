@@ -94,3 +94,7 @@ HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_lo
 ## 正文查核的文字與圖像證據（v0.7.0）
 
 `source_page_reviews`可另列`text_read_pdf_pages_1_based`、`image_viewed_pdf_pages_1_based`與`verification_status`，區分文字定位／閱讀及實際看過原圖的範圍。兩種頁列均須落在該來源的`pdf_pages_1_based`內，頁碼為正整數；未列的證據層級不自行推定。`official_entry_url`為可省欄位，原件與正式入口仍由`source_ids`連到來源表。更新器以標準函式庫實際檢查這份schema所用的required/type/enum/const/minimum/additionalProperties及巢狀items，不宣稱通用完整JSON Schema驗證器。
+
+## 並列量詞與原字形（v0.8.0）
+
+例如原報「1,360組3,169件」保留於同一quantity_raw，unit_as_reported保留兩種量詞「組、件」，quantity_numeric保持null，不拆成可相加兩列或猜換算率。字型解碼的相容字形可留在metric_as_reported，另用metric_label供一般字形搜尋；標籤不覆寫來源原詞或更改數字。

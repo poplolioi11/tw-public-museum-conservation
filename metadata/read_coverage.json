@@ -283,6 +283,17 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立臺灣工藝研究發展中心",
+      "reported_periods": [],
+      "source_ids": [
+        "src-097d007363655da8"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2020,
       "fact_rows": 4,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -477,6 +488,39 @@
       "reported_periods": [],
       "source_ids": [
         "src-c18e42d214521bc8"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-a64d502224892713"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-ad56b43aae546a10"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-1e7ca58a85a9e0b4"
       ]
     },
     {
@@ -823,6 +867,6 @@
       ]
     }
   ],
-  "dataset_version": "0.7.0",
+  "dataset_version": "0.8.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }
