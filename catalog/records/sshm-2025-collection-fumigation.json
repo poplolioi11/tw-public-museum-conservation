@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "maintenance"
     ],
     "aggregation_role": "原報分項；未證與其他分項互斥，不自動相加",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "completion_from_context",
     "completion_status": "completed_under_parent_statement",
     "cross_museum_comparable": false,
@@ -50,5 +50,5 @@
     "title": "新北市立十三行博物館114年度單位決算",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/sshm-2025-collection-fumigation.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/sshm-2025-collection-fumigation.json"
 }

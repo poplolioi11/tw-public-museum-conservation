@@ -14,6 +14,14 @@ def main():
     assert builder.source_number('近兩')is None and builder.source_number('兩組（四件）')is None
     rows=[json.loads(line)for line in(ROOT/'data/observations.jsonl').read_text().splitlines()]
     assert rows==facts['observations']
+    # An inspection subrow remains inspection even under a treatment-table title.
+    npm_inspections=[r for r in rows if r['organization_id']=='BASE-023' and r['metric_class']=='museum_reported_inspection']
+    assert len(npm_inspections)==10
+    assert all(r['action_categories']==['inspection_registration'] for r in npm_inspections)
+    npm_2025=next(r for r in npm_inspections if r['observation_id']=='NPM-2025-finalaccounts-inspection')
+    assert npm_2025['metric_as_reported']=='文物狀況檢示'
+    assert npm_2025['quantity_raw']=='3,109' and npm_2025['quantity_numeric']==3109
+    assert npm_2025['unit_as_reported']=='件' and npm_2025['publication_year']is None
     schema=builder.read(ROOT/'schema/observation.schema.json')
     # Check the types/required/const/enum/minimum subset used by our schema.
     types={'string':lambda v:isinstance(v,str),'null':lambda v:v is None,'integer':lambda v:isinstance(v,int)and not isinstance(v,bool),'number':lambda v:isinstance(v,(int,float))and not isinstance(v,bool),'array':lambda v:isinstance(v,list),'object':lambda v:isinstance(v,dict)}

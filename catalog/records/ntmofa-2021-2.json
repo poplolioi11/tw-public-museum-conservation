@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
     ],
     "aggregation_role": "source_total_with_components",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "annual_execution_reported",
     "cross_museum_comparable": false,
@@ -75,5 +75,5 @@
     "title": "國立臺灣美術館2021年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/ntmofa-2021-2.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/ntmofa-2021-2.json"
 }

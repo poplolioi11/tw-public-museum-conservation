@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
     ],
     "aggregation_role": "scope_not_verified_mutually_exclusive",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "annual_execution_reported_no_explicit_completed",
     "cross_museum_comparable": false,
@@ -50,5 +50,5 @@
     "title": "國立臺灣史前文化博物館112年度單位決算書",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/nmp-2023-plank-boats.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/nmp-2023-plank-boats.json"
 }

@@ -7,7 +7,7 @@ Unknown completion labels require controller review before publishing.
 import json,re
 from pathlib import Path
 
-RULE_VERSION='1.1'
+RULE_VERSION='1.2'
 ACTION_LABELS={
  'restoration_as_reported':'修護／修復（依原報）',
  'maintenance':'保存維護／預防性保存',
@@ -60,6 +60,11 @@ def action_categories(record):
     if re.search('維護|保存|預防性|薰蒸|燻蒸|除蟲',metric):tags.add('maintenance')
     if re.search('整飭|整理',metric):tags.add('arrangement')
     if re.search('檢視|巡檢|登錄|檢登',metric):tags.add('inspection_registration')
+    # A treatment-table heading must not label its inspection subrow as treatment.
+    # The 2025 actual-results source spelling 檢示 is preserved in the raw metric.
+    if cls=='museum_reported_inspection':
+        tags.discard('restoration_as_reported')
+        tags.add('inspection_registration')
     if re.search('清潔|除塵|除膠|除黴',metric):tags.add('cleaning')
     if re.search('加固|搶救',metric):tags.add('stabilization')
     if re.search('裝裱|裝潢',metric+' '+cls):tags.add('mounting')

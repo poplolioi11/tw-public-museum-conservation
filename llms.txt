@@ -1,60 +1,23 @@
-# 臺灣公立館保存修護公開資料索引（持續整理）
+# 臺灣公立館保存修護公開資料索引
 
-> 官方保存修護資料的來源與已覆讀分項索引。v0.5.1美術館補查與互動查詢版；不代表全國完整館數、完整年度修護總量或可比較績效。
+版本v0.6.0；資料截至2026-10-28。265列含262筆原報觀測、1筆程式推算及2筆脈絡，不是修復文物合計或全國完整數據。
 
-- 資料截至：2026-10-28
-- 發行日期：2026-10-28
-- 儲存庫名稱：tw-public-museum-conservation
-
-## 文件
-
-- [專案範圍與使用方法](README.md)
-- [公開範圍與原件／投影雜湊](docs/PUBLICATION.md)
-- [既有成果與查核界線](docs/PRIOR_ART.md)
-- [來源權利與MIT適用範圍](LICENSE.md)
-- [AI使用與核對範圍](AI_USAGE.md)
-- [版本紀錄](CHANGELOG.md)
-
-## 解讀原則
-
-原基線71個組織列沿用2025-11-21名單的索引轉錄，原PDF尚未正文覆核。426格是組織年度來源查找，不是修護數值筆數或已讀報告份數。補充14個組織與13個館室候選另列，不能合算全國館數。
-
-數值僅為已覆讀子集。保留原報值與程式推算的差異、資料年與出版年的差異，以及件／冊／組／案／條／號／次等單位。修護、整飭、巡檢、檢測、進行中與完成量不混加；總子項、母子館與重疊批次沒有明確去重證據便不相加。未知與未定位不是零。
-
-原報PDF、整頁文字與圖片未重新發布；官方原件SHA與公開投影SHA分開。程式及文件MIT不會改變原來源權利。不要將這份索引描述為全國第一、所有來源全文已核、人類正式雙校或績效可比資料集。
-
-## 可直接讀取的資料
-
-- [完整事實與推算JSON](data/facts.json)
+- [網站機讀入口](https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt)
+- [資料版本與網站manifest](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)
+- [完整公開事實JSON](data/facts.json)
 - [逐筆JSONL](data/observations.jsonl)
-- [來源清單](data/sources.jsonl)
-- [非加總關係](data/relations.jsonl)
-- [原始盤點](metadata/inventory.json)
-- [正文分項涵蓋](metadata/read_coverage.json)
+- [原件來源與SHA](data/sources.jsonl)
+- [不相加關係](data/relations.jsonl)
+- [正文覆讀及範圍](data/body_reviews.jsonl)
+- [館所索引](catalog/README.md)
+- [故宮2020–2025來源與口徑](docs/NPM.md)
 - [欄位字典](docs/DATA_DICTIONARY.md)
+- [公開範圍與權利](docs/PUBLICATION.md)
+- [既有整合與查核界線](docs/PRIOR_ART.md)
+- [AI使用與核對層級](AI_USAGE.md)
 
-205列包含202筆原報觀測、1筆derived_summary、2筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
+保留資料年與出版年、原作業、原數字、量詞、完成狀態、官方URL及PDF頁碼或HTML定位。未知與未定位不是零；件、筆、批次及其他單位不互換。修護、檢視、防蟲、數位作業及總子項不直接相加；不做全國總量或績效排名。
 
-## 新增資料的必要限制
+故宮60列含官方永續報告原有2021–2024整合20列，另與年報及2025決算並列；不宣稱首創數列。同年原值或原量詞不同時保留來源版次，不擇一覆寫、推差異原因或建立未核去重關係。原文檢示保留，檢視分項不算修復。
 
-- [本批正文覆讀JSONL](data/body_reviews.jsonl)與[CSV](data/body_reviews.csv)：查找目標年度，不是文物修護量。
-- [正文覆讀欄位規格](schema/body_review.schema.json)。
-- data_year為null時，請查看reporting_period_raw與data_year_start/end；跨年合計只存一筆，不能複製成每年相同產出或平均。
-- body_read_no_eligible_quantity_located代表所列範圍未定位合格數字，不代表零修護、業務不存在或整份報告未公開。標本新增／初製、活體照養及數位化不自動等同實物修護。
-
-整理與發布：曲宸宇（Chu, Chen-Yu）；poplolioi11是同一人的GitHub帳號，非第二位作者。
-
-## 固定索引與分類
-
-- [館所索引](catalog/README.md)與[查詢方法](docs/QUERYING.md)。
-- catalog/records/{observation_id}.json提供逐筆紀錄及來源；以tag路徑引用固定版本。
-- action_categories為複選查詢標籤，不是作業數量拆分；completion_category不改寫原完成狀態，subject_scope_category不作法律權屬認證。
-- 61則來源查核對應60組館所年度；海生2020年報未定位與後續決算正文覆讀可並存，不能把不同scope互相覆蓋。
-
-## 網站與 HTML 來源
-
-- [互動查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)
-- [網站機讀清單](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)提供版本、完整公開 JSON 的內容雜湊與相對下載路徑。
-- 網站根目錄 llms.txt 提供簡明資料入口，records/{observation_id}.json 保留數值、來源與關聯註記。
-- 結構版本4.0：HTML數值的pdf_page_1_based與printed_page為null，source_locator保留年度段落定位；不能借用另一份PDF頁碼。
-- 原文「兩」保留於quantity_raw，明確單字數詞由程式轉為2；近似量、雙單位與未定位數值不因此改寫。
+71基線與426來源格是歷史索引盤點，另14組織候選與13場域候選不直接合為全國館數。原名冊PDF仍未核。官方原件、整頁文字、圖片及私人流程不重發布；MIT不改變第三方權利，不宣稱人類逐格雙校或館方認證。

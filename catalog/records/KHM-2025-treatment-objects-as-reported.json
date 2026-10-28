@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "maintenance",
@@ -7,7 +7,7 @@
       "restoration_as_reported"
     ],
     "aggregation_role": "parallel_reported_unit_scope",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "explicit_completed",
     "completion_status": "explicit_completed",
     "cross_museum_comparable": false,
@@ -52,5 +52,5 @@
     "title": "高雄市專業文化機構114年度執行成果暨決算報告（高史博業務節錄）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/KHM-2025-treatment-objects-as-reported.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/KHM-2025-treatment-objects-as-reported.json"
 }

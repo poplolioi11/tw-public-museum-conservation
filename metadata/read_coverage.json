@@ -3,6 +3,76 @@
     {
       "complete_annual_quantity_series_verified": false,
       "data_year": 2020,
+      "fact_rows": 7,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立故宮博物院",
+      "reported_periods": [],
+      "source_ids": [
+        "src-f658917294560f61"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 12,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立故宮博物院",
+      "reported_periods": [],
+      "source_ids": [
+        "src-0507d326f92a6260",
+        "src-094a7b40a1ea10c7"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 12,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立故宮博物院",
+      "reported_periods": [],
+      "source_ids": [
+        "src-0507d326f92a6260",
+        "src-776383b41caa2e3f"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 12,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立故宮博物院",
+      "reported_periods": [],
+      "source_ids": [
+        "src-0507d326f92a6260",
+        "src-33903b787d65df59"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 12,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立故宮博物院",
+      "reported_periods": [],
+      "source_ids": [
+        "src-0507d326f92a6260",
+        "src-cf91020a2de76a3f"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 5,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立故宮博物院",
+      "reported_periods": [],
+      "source_ids": [
+        "src-838fcb8db76c3527"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2020,
       "fact_rows": 2,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
       "organization_name": "國立歷史博物館",
@@ -753,6 +823,6 @@
       ]
     }
   ],
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }

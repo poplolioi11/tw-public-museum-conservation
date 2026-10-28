@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "maintenance",
@@ -8,7 +8,7 @@
       "stabilization"
     ],
     "aggregation_role": "原報親項合計；不與三分項重加",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
     "cross_museum_comparable": false,
@@ -53,5 +53,5 @@
     "title": "國立臺灣歷史博物館年報2020",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/NMTH-2020-conservation-reported-total.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/NMTH-2020-conservation-reported-total.json"
 }

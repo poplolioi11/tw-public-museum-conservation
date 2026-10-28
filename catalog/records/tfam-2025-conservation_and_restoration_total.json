@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "maintenance",
@@ -7,7 +7,7 @@
       "restoration_as_reported"
     ],
     "aggregation_role": "parent",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "as_reported_annual_operation",
     "cross_museum_comparable": false,
@@ -51,5 +51,5 @@
     "title": "臺北市立美術館2025年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/tfam-2025-conservation_and_restoration_total.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/tfam-2025-conservation_and_restoration_total.json"
 }

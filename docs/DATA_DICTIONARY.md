@@ -84,3 +84,9 @@ HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_lo
 ## SQLite邏輯內容與檔案版本
 
 跨SQLite版本重建時，以相同schema、所有資料表的完整列資料及資料庫完整性檢查核對邏輯等價，不只比筆數或抽樣。不同SQLite版本可能產生不同binary layout；邏輯等價不表示檔案bytes或SHA相同。實際發行的SQLite檔仍必須與該版發行manifest的SHA一致；下載檔不符時保持待核，不能以邏輯等價跳過原檔雜湊檢查。重建檢查不因runtime差異覆寫已保留的發行檔bytes或manifest。
+
+## v0.6.0故宮的原量詞與查詢分類
+
+同一館同年度不同官方來源可有相同分類的並列觀測，關係類型`same_year_metric_family_different_official_sources_not_additive`只供查找；不證明相同物件母體或包含關係。原「件」「筆」「批次」不互換。官方VDR出版年2025、表內資料年2021–2024分開；2025決算明載年度實績而出版年月未核，publication_year為null。
+
+分類規則1.2按明確`museum_reported_inspection`分項保留檢視標籤，避免上層修護表題附加修復標籤；決算原文「檢示」仍保存在metric_as_reported，不默改原字。其餘舊205列證據欄位與標籤意義保持，規則版號更新。

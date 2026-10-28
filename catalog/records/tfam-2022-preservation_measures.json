@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "maintenance"
     ],
     "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "annual_execution_not_explicit",
     "completion_status": "as_reported_annual_operation",
     "cross_museum_comparable": false,
@@ -51,5 +51,5 @@
     "title": "2022北美館年報",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/tfam-2022-preservation_measures.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/tfam-2022-preservation_measures.json"
 }

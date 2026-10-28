@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "cleaning",
       "restoration_as_reported"
     ],
     "aggregation_role": "原報分項，未證互斥，不可逕相加",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "explicit_completed",
     "completion_status": "原文明載完成",
     "cross_museum_comparable": false,
@@ -50,5 +50,5 @@
     "title": "國立臺灣文學館年報2022",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/NMTL-2022-basic-repair.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/NMTL-2022-basic-repair.json"
 }

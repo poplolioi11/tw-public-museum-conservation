@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.5.1",
+  "dataset_version": "0.6.0",
   "record": {
     "action_categories": [
       "maintenance",
       "restoration_as_reported"
     ],
     "aggregation_role": "standalone_scope",
-    "classification_rule_version": "1.1",
+    "classification_rule_version": "1.2",
     "completion_category": "in_progress",
     "completion_status": "進行處置；不可當已完成",
     "cross_museum_comparable": false,
@@ -50,5 +50,5 @@
     "title": "2022臺南市美術館年報（中文版）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/TNAM-2022-under-treatment.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/TNAM-2022-under-treatment.json"
 }
