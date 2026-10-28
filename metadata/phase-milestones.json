@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-28",
   "data_schema_version": "4.0",
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.9.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -140,7 +140,29 @@
       "scope": "順序三16列地方美術工藝候選2020–2025第一輪來源查找",
       "source_review_records": 192,
       "unique_source_year_cells": 186
+    },
+    {
+      "completed_in_release": "v0.9.0",
+      "deployment_verification_basis": "公開版本/manifest/完整資料另行讀回；metadata不推定已部署。",
+      "lookup_candidate_rows": 10,
+      "lookup_cells": 60,
+      "national_or_all_years_complete": false,
+      "new_observation_records": 6,
+      "new_original_source_versions": 43,
+      "new_review_status_counts": {
+        "body_read_no_eligible_quantity_located": 42,
+        "numeric_observations_verified": 6,
+        "outside_selected_scope": 1,
+        "source_found_body_not_reviewed": 6,
+        "source_not_located_in_this_search": 5
+      },
+      "new_source_review_records": 60,
+      "old_271_records_190_sources_192_reviews_preserved": true,
+      "original_inventory_frozen": true,
+      "scope": "順序四10列公立大學及研究機構附設館2020–2025第一輪來源查找",
+      "source_review_records": 252,
+      "unique_source_year_cells": 246
     }
   ],
-  "ongoing_gaps": "順序三來源未定位、原件／正文待核、年度與新設範圍缺口依逐格保留；下一批學研附設館，尚非全國完整數列。"
+  "ongoing_gaps": "順序四正文/來源/年度或父機構範圍缺口逐格保留；下一批地方文史考古民俗，尚非全國完整數列。"
 }

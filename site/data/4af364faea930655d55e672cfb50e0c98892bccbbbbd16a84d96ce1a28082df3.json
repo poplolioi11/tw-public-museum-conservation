@@ -6307,9 +6307,2011 @@
       ],
       "target_data_year": 2025,
       "verified_at": "2026-10-28T13:57:43.542053+00:00"
+    },
+    {
+      "interpretation_note": "指定校史館、館群組織與館務段未定位適用文物處理量；不把館數、活動人數或典藏概述當修護。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lib.ntu.edu.tw/en/p",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "review_id": "review-NTU-2020-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        56,
+        61,
+        62,
+        63,
+        66
+      ],
+      "source_ids": [
+        "src-a57ade19f7f4e750"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            56,
+            61,
+            62,
+            63,
+            66
+          ],
+          "review_scope": "年報校史館／博物館群指定文物、典藏、整飭與數位化子段；未讀其他財務／工程業務",
+          "source_id": "src-a57ade19f7f4e750",
+          "text_read_pdf_pages_1_based": [
+            56,
+            61,
+            62,
+            63,
+            66
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "指定徵集與數位化段的19件文物拍攝、80張圖像及科研調研對象不是既有文物修護量；典藏法規與資料庫建置未量化修護。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lib.ntu.edu.tw/en/p",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "review_id": "review-NTU-2021-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        65,
+        66,
+        67
+      ],
+      "source_ids": [
+        "src-d3e96b664768a7fc"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            65,
+            66,
+            67
+          ],
+          "review_scope": "年報校史館／博物館群指定文物、典藏、整飭與數位化子段；未讀其他財務／工程業務",
+          "source_id": "src-d3e96b664768a7fc",
+          "text_read_pdf_pages_1_based": [
+            65,
+            66,
+            67
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "只採校史館明信片3張之原報部分對象；同頁50件系統導入、25件文物拍攝及157張影像不採修護，不替其他館填數。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NTU-2022-historygallery-postcards3"
+      ],
+      "official_entry_url": "https://www.lib.ntu.edu.tw/en/p",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "review_id": "review-NTU-2022-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        64
+      ],
+      "source_ids": [
+        "src-f2819013af4a6e86"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            64
+          ],
+          "pdf_pages_1_based": [
+            64
+          ],
+          "review_scope": "年報校史館／博物館群指定文物、典藏、整飭與數位化子段；未讀其他財務／工程業務",
+          "source_id": "src-f2819013af4a6e86",
+          "text_read_pdf_pages_1_based": [
+            64
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "指定子段的69件入藏及1,820件基本資料／詮釋與數位化成果不是完成修護量；園藝系文物盤點整飭未在指定段明列適用量。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lib.ntu.edu.tw/en/p",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "review_id": "review-NTU-2023-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        59,
+        60,
+        75
+      ],
+      "source_ids": [
+        "src-d3ae9ca17d3694d6"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            59,
+            60,
+            75
+          ],
+          "review_scope": "年報校史館／博物館群指定文物、典藏、整飭與數位化子段；未讀其他財務／工程業務",
+          "source_id": "src-d3ae9ca17d3694d6",
+          "text_read_pdf_pages_1_based": [
+            59,
+            60,
+            75
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "指定典藏段以徵集入館及學生參與老照片整飭、數位化敘述為主，學生人數不當處理物件量。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lib.ntu.edu.tw/en/p",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "review_id": "review-NTU-2024-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        63,
+        65
+      ],
+      "source_ids": [
+        "src-69abdedb7d53afd6"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            63,
+            65
+          ],
+          "review_scope": "年報校史館／博物館群指定文物、典藏、整飭與數位化子段；未讀其他財務／工程業務",
+          "source_id": "src-69abdedb7d53afd6",
+          "text_read_pdf_pages_1_based": [
+            63,
+            65
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "指定盤點造冊前置、盤整與保存條件評估段未明列適用動產處理量；新徵集、條列序號及印製品數不採。群辦公室填報前年度資料不改資料年。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.lib.ntu.edu.tw/en/p",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "review_id": "review-NTU-2025-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        62,
+        67,
+        68
+      ],
+      "source_ids": [
+        "src-2c0a9cac198a149f"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            62,
+            67,
+            68
+          ],
+          "review_scope": "年報校史館／博物館群指定文物、典藏、整飭與數位化子段；未讀其他財務／工程業務",
+          "source_id": "src-2c0a9cac198a149f",
+          "text_read_pdf_pages_1_based": [
+            62,
+            67,
+            68
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "原件無可抽文字，本輪只實看PDF35／39（印28／32）常態檢視登錄、乾式清潔與典藏公版系統段；未見處理量，系統存量不採修護。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "review_id": "review-NCKU-2020-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        35,
+        39
+      ],
+      "source_ids": [
+        "src-e2dee056f1e9944f"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            35,
+            39
+          ],
+          "pdf_pages_1_based": [
+            35,
+            39
+          ],
+          "review_scope": "博物館年報指定常態檢視或藏品保存修護子段，非建築、工程、財務或典藏存量",
+          "source_id": "src-e2dee056f1e9944f",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "selected_original_images_read_no_extractable_text"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "指定保存及修護段有證書修護完成敘述，但未明列可採處理數字；不由列名與登錄號補1。另禮服修護明載2015–2017，2021再次展示不改成2021修復量。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "review_id": "review-NCKU-2021-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        39,
+        41
+      ],
+      "source_ids": [
+        "src-7248743adcc53c4d"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            39,
+            41
+          ],
+          "review_scope": "博物館年報指定常態檢視或藏品保存修護子段，非建築、工程、財務或典藏存量",
+          "source_id": "src-7248743adcc53c4d",
+          "text_read_pdf_pages_1_based": [
+            39,
+            41
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "採本年度委託修護6案，保留中文委託及英文requests received層次，未明載全部完成，案件不等於件數。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NCKU-2022-commissioned-conservation-cases"
+      ],
+      "official_entry_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "review_id": "review-NCKU-2022-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        41
+      ],
+      "source_ids": [
+        "src-518fbef8ba22e4a2"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            41
+          ],
+          "pdf_pages_1_based": [
+            41
+          ],
+          "review_scope": "博物館年報指定常態檢視或藏品保存修護子段，非建築、工程、財務或典藏存量",
+          "source_id": "src-518fbef8ba22e4a2",
+          "text_read_pdf_pages_1_based": [
+            41
+          ],
+          "verification_status": "selected_collection_text_read_not_all_source_pages"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "本輪官方年報目錄最新列資料年2022；有限官方年度／藏品來源查找未取得此目標年的適用原報量。不由館舍修繕或講座活動量替代。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "review_id": "review-NCKU-2023-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-95584a8fb3d8e2e9"
+      ],
+      "source_locators": [
+        {
+          "locator": "博物館年報清單：2022第十五號、2021第十四號、2020第十三號及較早年度；未將未列年份推定為未出版",
+          "source_id": "src-95584a8fb3d8e2e9"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方博物館年報目錄本輪列2022至2008；有限搜尋未定位目標年的適用年度正文",
+          "source_id": "src-95584a8fb3d8e2e9",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_annual_index_read_applicable_year_body_not_located"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "本輪官方年報目錄最新列資料年2022；有限官方年度／藏品來源查找未取得此目標年的適用原報量。不由館舍修繕或講座活動量替代。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "review_id": "review-NCKU-2024-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-95584a8fb3d8e2e9"
+      ],
+      "source_locators": [
+        {
+          "locator": "博物館年報清單：2022第十五號、2021第十四號、2020第十三號及較早年度；未將未列年份推定為未出版",
+          "source_id": "src-95584a8fb3d8e2e9"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方博物館年報目錄本輪列2022至2008；有限搜尋未定位目標年的適用年度正文",
+          "source_id": "src-95584a8fb3d8e2e9",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_annual_index_read_applicable_year_body_not_located"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "2025出版的藏品研究期刊與修復歷程正文已定位，但本輪尚未核適用修護年別、工作量與完成狀態；不由出版年或2023古物指定年回填修護量。正式2025年度年報仍未定位。 本輪未定位／待核不代表全年零修護、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.ncku.edu.tw/index.php?c_id=6&id=143&inter=publication&tab=books",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "review_id": "review-NCKU-2025-batch4",
+      "review_scope": "本輪指定來源、館務／典藏子段的有限查核或年度指標定位；不是全年全部來源或整個父機構。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-fb028cf4ddec101d",
+        "src-8a3429daa744519f"
+      ],
+      "source_locators": [
+        {
+          "locator": "羅望子Vol.7：大學博物館與典藏研究；出版日期2025-12-30；修復歷程介紹",
+          "source_id": "src-8a3429daa744519f"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "已取得完整官方2025年出版羅望子Vol.7原件；無可抽文字，適用修護歷程正文／年別未核",
+          "source_id": "src-fb028cf4ddec101d",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_original_acquired_selected_body_not_reviewed"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "單書頁出版日期2025-12-30及修復歷程簡介；出版年不是處理年度",
+          "source_id": "src-8a3429daa744519f",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_publication_entry_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "典藏段提借三件是借展，維運與環境控管未量化，非實物修護數。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://sec.tnua.edu.tw/wp-content/uploads/2020/09/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84%E6%A0%B8%E5%8F%AF%E7%89%88%E5%85%A81090914-1.pdf",
+      "organization_id": "BASE-013",
+      "organization_name": "國立臺北藝術大學關渡美術館",
+      "review_id": "review-BASE-013-2020-batch4-universities",
+      "review_scope": "以會議日期2020-09-14定位本目標年之當次關渡館務報告；只核典藏及相鄰館務段，非年度總結。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        71,
+        72
+      ],
+      "source_ids": [
+        "src-fb45a1da4e63e502"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            71,
+            72
+          ],
+          "review_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+          "source_id": "src-fb45a1da4e63e502",
+          "text_read_pdf_pages_1_based": [
+            71,
+            72
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "典藏段說明消毒與環境控管，但對象為空間，未給既有動產處理量；不摘具體位置或安全資訊。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://sec.tnua.edu.tw/wp-content/uploads/2021/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420211018%E5%85%A8%E7%89%88-1.pdf",
+      "organization_id": "BASE-013",
+      "organization_name": "國立臺北藝術大學關渡美術館",
+      "review_id": "review-BASE-013-2021-batch4-universities",
+      "review_scope": "以會議日期2021-10-18定位本目標年之當次關渡館務報告；只核典藏及相鄰館務段，非年度總結。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        78
+      ],
+      "source_ids": [
+        "src-39401cfe6ecafef8"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            78
+          ],
+          "pdf_pages_1_based": [
+            78
+          ],
+          "review_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+          "source_id": "src-39401cfe6ecafef8",
+          "text_read_pdf_pages_1_based": [
+            78
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "年度典藏品複盤已完成，未報件數；盤點完成日期與網站維運不代填修護量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://sec.tnua.edu.tw/wp-content/uploads/2022/08/%E9%97%9C%E6%B8%A1%E7%BE%8E%E8%A1%93%E9%A4%A820220824.pdf",
+      "organization_id": "BASE-013",
+      "organization_name": "國立臺北藝術大學關渡美術館",
+      "review_id": "review-BASE-013-2022-batch4-universities",
+      "review_scope": "以會議日期2022-08-24定位本目標年之當次關渡館務報告；只核典藏及相鄰館務段，非年度總結。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1
+      ],
+      "source_ids": [
+        "src-80cac8efff581d8b"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            1
+          ],
+          "review_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+          "source_id": "src-80cac8efff581d8b",
+          "text_read_pdf_pages_1_based": [
+            1
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "典藏段為納藏規劃、科技藝術典藏與展示版本紀錄，沒有可採既有動產修護量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://sec.tnua.edu.tw/wp-content/uploads/2023/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420230925%E6%A0%B8%E5%8F%AF.pdf",
+      "organization_id": "BASE-013",
+      "organization_name": "國立臺北藝術大學關渡美術館",
+      "review_id": "review-BASE-013-2023-batch4-universities",
+      "review_scope": "以會議日期2023-09-25定位本目標年之當次關渡館務報告；只核典藏及相鄰館務段，非年度總結。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        65,
+        66
+      ],
+      "source_ids": [
+        "src-6d7b843c3a1d894d"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            65,
+            66
+          ],
+          "review_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+          "source_id": "src-6d7b843c3a1d894d",
+          "text_read_pdf_pages_1_based": [
+            65,
+            66
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "典藏跨頁段為媒體作品借展與歸還，作品名稱或單件作品不推修護件數。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://sec.tnua.edu.tw/wp-content/uploads/2024/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420241014%E9%80%9A%E9%81%8E-1.pdf",
+      "organization_id": "BASE-013",
+      "organization_name": "國立臺北藝術大學關渡美術館",
+      "review_id": "review-BASE-013-2024-batch4-universities",
+      "review_scope": "以會議日期2024-10-14定位本目標年之當次關渡館務報告；只核典藏及相鄰館務段，非年度總結。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        67,
+        68
+      ],
+      "source_ids": [
+        "src-a30883723400c2a8"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            68
+          ],
+          "pdf_pages_1_based": [
+            67,
+            68
+          ],
+          "review_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+          "source_id": "src-a30883723400c2a8",
+          "text_read_pdf_pages_1_based": [
+            67,
+            68
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "典藏段為本年度委員會與納藏規劃，未量化既有動產保存修護。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://sec.tnua.edu.tw/wp-content/uploads/2025/01/%E9%97%9C%E6%B8%A1%E7%BE%8E%E8%A1%93%E9%A4%A820250115.pdf",
+      "organization_id": "BASE-013",
+      "organization_name": "國立臺北藝術大學關渡美術館",
+      "review_id": "review-BASE-013-2025-batch4-universities",
+      "review_scope": "以會議日期2025-01-15定位本目標年之當次關渡館務報告；只核典藏及相鄰館務段，非年度總結。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1
+      ],
+      "source_ids": [
+        "src-21e3321238704ffc"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            1
+          ],
+          "pdf_pages_1_based": [
+            1
+          ],
+          "review_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+          "source_id": "src-21e3321238704ffc",
+          "text_read_pdf_pages_1_based": [
+            1
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "74件為研究展作品，不是修護量；不從展示作品名稱或保存狀況補件。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/684909705.pdf",
+      "organization_id": "BASE-014",
+      "organization_name": "MoNTUE 北師美術館",
+      "review_id": "review-BASE-014-2020-batch4-universities",
+      "review_scope": "館務報告日期2020-09-30，原期間「109年9月–109年10月」；只核北師美術館該頁，非完整年度。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        187
+      ],
+      "source_ids": [
+        "src-4b01f95721a58243"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            187
+          ],
+          "review_scope": "僅北師美術館指定工作報告頁；原期間為109年9月–109年10月，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+          "source_id": "src-4b01f95721a58243",
+          "text_read_pdf_pages_1_based": [
+            187
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "甘露水重見天日的新聞發布與展覽籌辦，不代表館方當年自藏修復完成量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/422096652.pdf",
+      "organization_id": "BASE-014",
+      "organization_name": "MoNTUE 北師美術館",
+      "review_id": "review-BASE-014-2021-batch4-universities",
+      "review_scope": "館務報告日期2021-10-27，原期間「110年10月起」；只核北師美術館該頁，非完整年度。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        250
+      ],
+      "source_ids": [
+        "src-19fa54c1fa94cd2c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            250
+          ],
+          "pdf_pages_1_based": [
+            250
+          ],
+          "review_scope": "僅北師美術館指定工作報告頁；原期間為110年10月起，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+          "source_id": "src-19fa54c1fa94cd2c",
+          "text_read_pdf_pages_1_based": [
+            250
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "整飭太平國小校史藏品之對象不是北師自藏；測量攝影登錄為資料作業，留私人對象不同線索，不歸本館量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。 主代理另對原圖核對：前半約一千兩百件為專案整飭對象／範圍，未明載全數已施作；後半目前已測量、攝影登錄約六百筆資料是不同作業及量詞。館外服務本身不是排除理由，但本句不足以把前者當完成量或後者改成實物修護量；不轉換、相加或算進度率。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/270577241.pdf",
+      "organization_id": "BASE-014",
+      "organization_name": "MoNTUE 北師美術館",
+      "review_id": "review-BASE-014-2022-batch4-universities",
+      "review_scope": "館務報告日期2022-08-31，原期間「111年8月–111年9月」；只核北師美術館該頁，非完整年度。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        163
+      ],
+      "source_ids": [
+        "src-e33d4cd81fa46f31"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            163
+          ],
+          "pdf_pages_1_based": [
+            163
+          ],
+          "review_scope": "僅北師美術館指定工作報告頁；原期間為111年8月–111年9月，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+          "source_id": "src-e33d4cd81fa46f31",
+          "text_read_pdf_pages_1_based": [
+            163
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "展品整飭計畫名稱與補助資訊，不是已完成修護的實績數；不採金額或計畫項數。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/229789825.pdf",
+      "organization_id": "BASE-014",
+      "organization_name": "MoNTUE 北師美術館",
+      "review_id": "review-BASE-014-2023-batch4-universities",
+      "review_scope": "館務報告日期2023-12-27，原期間「當次館務工作報告」；只核北師美術館該頁，非完整年度。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        126
+      ],
+      "source_ids": [
+        "src-fa13d5726977916a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            126
+          ],
+          "review_scope": "僅北師美術館指定工作報告頁；原期間為當次館務工作報告，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+          "source_id": "src-fa13d5726977916a",
+          "text_read_pdf_pages_1_based": [
+            126
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "工作報告為策展、前置研究、教育課程與志工培訓，未見適用既有動產處理量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/129504889.pdf",
+      "organization_id": "BASE-014",
+      "organization_name": "MoNTUE 北師美術館",
+      "review_id": "review-BASE-014-2024-batch4-universities",
+      "review_scope": "館務報告日期2024-05-29，原期間「當次館務工作報告」；只核北師美術館該頁，非完整年度。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        90
+      ],
+      "source_ids": [
+        "src-f3724d853c9d1413"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            90
+          ],
+          "pdf_pages_1_based": [
+            90
+          ],
+          "review_scope": "僅北師美術館指定工作報告頁；原期間為當次館務工作報告，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+          "source_id": "src-f3724d853c9d1413",
+          "text_read_pdf_pages_1_based": [
+            90
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "太平國小博物館專案推廣與展覽活動不是北師自藏修護量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/236787238.pdf",
+      "organization_id": "BASE-014",
+      "organization_name": "MoNTUE 北師美術館",
+      "review_id": "review-BASE-014-2025-batch4-universities",
+      "review_scope": "館務報告日期2025-07-30，原期間「當次館務工作報告」；只核北師美術館該頁，非完整年度。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        169
+      ],
+      "source_ids": [
+        "src-ce11858e8572013f"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            169
+          ],
+          "pdf_pages_1_based": [
+            169
+          ],
+          "review_scope": "僅北師美術館指定工作報告頁；原期間為當次館務工作報告，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+          "source_id": "src-ce11858e8572013f",
+          "text_read_pdf_pages_1_based": [
+            169
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "官方年報清單有對應標籤入口，但未取得／核讀該入口的民族博物館專屬正文，封面版年與資料年亦未確認。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/zh-tw/highlights-of-the-year",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "review-BASE-015-2020-batch4-universities",
+      "review_scope": "僅年度來源入口查找，不能把索引當年報正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-c19ae5f986378ed7"
+      ],
+      "source_locators": [
+        {
+          "locator": "年報清單之2020標籤及電子書入口；只作來源指標",
+          "locator_type": "html_source_index",
+          "source_id": "src-c19ae5f986378ed7"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "官方年報清單有對應標籤入口，但未取得／核讀該入口的民族博物館專屬正文，封面版年與資料年亦未確認。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/zh-tw/highlights-of-the-year",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "review-BASE-015-2021-batch4-universities",
+      "review_scope": "僅年度來源入口查找，不能把索引當年報正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-c19ae5f986378ed7"
+      ],
+      "source_locators": [
+        {
+          "locator": "年報清單之2021標籤及電子書入口；只作來源指標",
+          "locator_type": "html_source_index",
+          "source_id": "src-c19ae5f986378ed7"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "原文是資料庫系統、數位策展與教學成果，沒有適用既有動產修護量；111成果年與2023發布年分開。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://topu.nccu.edu.tw/achievement/view/189",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "review-BASE-015-2022-batch4-universities",
+      "review_scope": "官方111年成果HTML第一節民族博物館數位策展與研究展示；不是館務全年量。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-04ae99a402e32926"
+      ],
+      "source_locators": [
+        {
+          "locator": "第一節「從田野到線上」民族博物館數位策展與研究展示段",
+          "locator_type": "html_article_body",
+          "source_id": "src-04ae99a402e32926"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "核心為數位典藏材料整合、資料庫與線上策展，特展累計數不是實物修護量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2023.pdf",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "review-BASE-015-2023-batch4-universities",
+      "review_scope": "年度USR報告PDF95–98／印094–097之博物館專節；不涵蓋父校全部館所或全館所有來源。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        95,
+        96,
+        97,
+        98
+      ],
+      "source_ids": [
+        "src-e44c328282ee9f9f"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            95
+          ],
+          "pdf_pages_1_based": [
+            95,
+            96,
+            97,
+            98
+          ],
+          "review_scope": "僅PDF95–98／印094–097大學博物館與社會實踐專節；非全館所有來源。",
+          "source_id": "src-e44c328282ee9f9f",
+          "text_read_pdf_pages_1_based": [
+            95,
+            96,
+            97,
+            98
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "30項為文物歸檔、藏品描述與編號，並置數位照片與教學成果，未明載實物保存處置，不改稱修復。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2024.pdf",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "review-BASE-015-2024-batch4-universities",
+      "review_scope": "年度USR報告PDF86–91／印084–089之博物館專節；不涵蓋父校全部館所或全館所有來源。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "source_ids": [
+        "src-2f051ac741943766"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            86,
+            89
+          ],
+          "pdf_pages_1_based": [
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "review_scope": "僅PDF86–91／印084–089大學博物館與社會實踐專節；數位化、歸檔描述編號及課程不改稱實物修復。",
+          "source_id": "src-2f051ac741943766",
+          "text_read_pdf_pages_1_based": [
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "物件維護為歷史脈絡與合作敘述；保存修護出現於工作坊討論，沒有年度已處置數量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2025.pdf",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "review-BASE-015-2025-batch4-universities",
+      "review_scope": "年度USR報告PDF62–67／印054–059之博物館專節；不涵蓋父校全部館所或全館所有來源。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "source_ids": [
+        "src-c414d65d12aa5a49"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            62
+          ],
+          "pdf_pages_1_based": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "review_scope": "僅PDF62–67／印054–059 Museums for Education專節；保留原維護脈絡與工作坊敘述，不把研究或討論當修復量。",
+          "source_id": "src-c414d65d12aa5a49",
+          "text_read_pdf_pages_1_based": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "verification_status": "specified_text_scope_with_image_subset_not_whole_report"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "本輪年度館務來源與補充館網查找未定位適用正文；舊年修復展不配置2020年。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "review-BASE-017-2020-batch4-universities",
+      "review_scope": "限定2020年度來源族及館網補充族。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "搜尋索引定位官方會議報告線索；舊president主機DNS失敗後不重試同方法，未取得這份完整原件／館務正文，沒有SHA或數量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://president.ntua.edu.tw/wp-content/uploads/2021/09/110%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "review-BASE-017-2021-batch4-universities",
+      "review_scope": "只保留官方來源指標；不是PDF已讀或館藏年度實績。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "搜尋索引定位官方會議報告線索；舊president主機DNS失敗後不重試同方法，未取得這份完整原件／館務正文，沒有SHA或數量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://president.ntua.edu.tw/wp-content/uploads/2022/04/110%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC9%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "review-BASE-017-2022-batch4-universities",
+      "review_scope": "只保留官方來源指標；不是PDF已讀或館藏年度實績。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "搜尋索引定位官方會議報告線索；舊president主機DNS失敗後不重試同方法，未取得這份完整原件／館務正文，沒有SHA或數量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://president.ntua.edu.tw/wp-content/uploads/2025/04/113-9%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "review-BASE-017-2025-batch4-universities",
+      "review_scope": "只保留官方來源指標；不是PDF已讀或館藏年度實績。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "未定位適用年度館藏保存修護成果；搜尋中的新建、課程、對外服務或展覽不能替代。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "review-BASE-017-2023-batch4-universities",
+      "review_scope": "限定2023館務報告族與官方館網補充族。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "原件為修復工作坊，學員攜帶個人物件與修復示範，不是本館藏品年度處置量。 只限列明來源與段落，不代表全館全年未公開或零修護；未知不等於零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.ntua.edu.tw/A01-1.asp?kk=15066",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "review-BASE-017-2024-batch4-universities",
+      "review_scope": "2024/3/25官方活動文章的課程簡介、學員攜件及實作段；年度館務成果另待定位。",
+      "review_status": "outside_selected_scope",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-313c5f308daecf69"
+      ],
+      "source_locators": [
+        {
+          "locator": "課程簡介及「學員可攜帶自己的珍寶」／學員實作段",
+          "locator_type": "html_article_body",
+          "source_id": "src-313c5f308daecf69"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "讀到有年度定位的展覽事件與延續展期，未見本次範圍可採的保存修護數量；不能推為全年修護量為零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://museum.sinica.edu.tw/resources/item/127/",
+      "organization_id": "ADD-008",
+      "organization_name": "中央研究院歷史語言研究所歷史文物陳列館",
+      "review_id": "sinica-review-ADD-008-2020",
+      "review_scope": "館大事紀2020年12月3日段落；非正式年度典藏成果報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-659a4d77b8725039"
+      ],
+      "source_locators": [
+        {
+          "locator": "館大事紀2020年12月3日段落；非正式年度典藏成果報告。",
+          "source_id": "src-659a4d77b8725039"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "館大事紀2020年12月3日段落；非正式年度典藏成果報告。",
+          "source_id": "src-659a4d77b8725039",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "限定館務段落核讀；所列展示、新建檔、調閱、借展或數位化量不替代既有動產保存修護量；本輪未見適用量，不代表未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3432",
+      "organization_id": "ADD-008",
+      "organization_name": "中央研究院歷史語言研究所歷史文物陳列館",
+      "review_id": "sinica-review-ADD-008-2021",
+      "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        59
+      ],
+      "source_ids": [
+        "src-99681c24a1f8652d"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            59
+          ],
+          "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+          "source_id": "src-99681c24a1f8652d",
+          "text_read_pdf_pages_1_based": [
+            59
+          ],
+          "verification_status": "extracted_text_reviewed_in_stated_scope"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "限定館務段落核讀；所列展示、新建檔、調閱、借展或數位化量不替代既有動產保存修護量；本輪未見適用量，不代表未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3735",
+      "organization_id": "ADD-008",
+      "organization_name": "中央研究院歷史語言研究所歷史文物陳列館",
+      "review_id": "sinica-review-ADD-008-2022",
+      "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        61
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            61
+          ],
+          "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+          "source_id": "src-363e41f33121636c",
+          "text_read_pdf_pages_1_based": [
+            61
+          ],
+          "verification_status": "extracted_text_reviewed_in_stated_scope"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "限定館務段落核讀；所列展示、新建檔、調閱、借展或數位化量不替代既有動產保存修護量；本輪未見適用量，不代表未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4252",
+      "organization_id": "ADD-008",
+      "organization_name": "中央研究院歷史語言研究所歷史文物陳列館",
+      "review_id": "sinica-review-ADD-008-2023",
+      "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        58
+      ],
+      "source_ids": [
+        "src-b78ae56ececc5bff"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            58
+          ],
+          "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+          "source_id": "src-b78ae56ececc5bff",
+          "text_read_pdf_pages_1_based": [
+            58
+          ],
+          "verification_status": "extracted_text_reviewed_in_stated_scope"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "限定館務段落核讀；所列展示、新建檔、調閱、借展或數位化量不替代既有動產保存修護量；本輪未見適用量，不代表未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4649",
+      "organization_id": "ADD-008",
+      "organization_name": "中央研究院歷史語言研究所歷史文物陳列館",
+      "review_id": "sinica-review-ADD-008-2024",
+      "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        61
+      ],
+      "source_ids": [
+        "src-c76c9d5d43172a13"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            61
+          ],
+          "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+          "source_id": "src-c76c9d5d43172a13",
+          "text_read_pdf_pages_1_based": [
+            61
+          ],
+          "verification_status": "extracted_text_reviewed_in_stated_scope"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "限定館務段落核讀；所列展示、新建檔、調閱、借展或數位化量不替代既有動產保存修護量；本輪未見適用量，不代表未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4823",
+      "organization_id": "ADD-008",
+      "organization_name": "中央研究院歷史語言研究所歷史文物陳列館",
+      "review_id": "sinica-review-ADD-008-2025",
+      "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        54
+      ],
+      "source_ids": [
+        "src-3cda345a23c2db5a"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            54
+          ],
+          "review_scope": "院決算重要施政計畫執行成果中歷史語言研究之歷史文物陳列館館務段落。",
+          "source_id": "src-3cda345a23c2db5a",
+          "text_read_pdf_pages_1_based": [
+            54
+          ],
+          "verification_status": "extracted_text_reviewed_in_stated_scope"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "典藏照護及早年複製工作敘述未提供2020年可採修護量；跨年、早年或藏品成組數不改派到2020年。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://newsletter.sinica.edu.tw/22037/",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "review_id": "sinica-review-ADD-009-2020",
+      "review_scope": "2020年6月9日專刊特稿之博物館典藏維護敘述段落；非年度成果全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-ecf5daa055375db2"
+      ],
+      "source_locators": [
+        {
+          "locator": "2020年6月9日專刊特稿之博物館典藏維護敘述段落；非年度成果全文。",
+          "source_id": "src-ecf5daa055375db2"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "2020年6月9日專刊特稿之博物館典藏維護敘述段落；非年度成果全文。",
+          "source_id": "src-ecf5daa055375db2",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "僅核明列博物館段落；新入藏、數位圖像、卸展及移動數不作保存修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3432",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "review_id": "sinica-review-ADD-009-2021",
+      "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        61
+      ],
+      "source_ids": [
+        "src-99681c24a1f8652d"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            61
+          ],
+          "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+          "source_id": "src-99681c24a1f8652d",
+          "text_read_pdf_pages_1_based": [
+            61
+          ],
+          "verification_status": "extracted_text_reviewed_in_stated_scope"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "僅核明列博物館段落；新入藏、數位圖像、卸展及移動數不作保存修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "IOE-2022-museum-arrangement-as-reported"
+      ],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3735",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "review_id": "sinica-review-ADD-009-2022",
+      "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        62,
+        63
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            63
+          ],
+          "pdf_pages_1_based": [
+            62,
+            63
+          ],
+          "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+          "source_id": "src-363e41f33121636c",
+          "text_read_pdf_pages_1_based": [
+            62,
+            63
+          ],
+          "verification_status": "text_and_rendered_original_page_verified"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "僅核明列博物館段落；新入藏、數位圖像、卸展及移動數不作保存修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "IOE-2023-museum-arrangement-as-reported"
+      ],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4252",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "review_id": "sinica-review-ADD-009-2023",
+      "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        60
+      ],
+      "source_ids": [
+        "src-b78ae56ececc5bff"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            60
+          ],
+          "pdf_pages_1_based": [
+            60
+          ],
+          "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+          "source_id": "src-b78ae56ececc5bff",
+          "text_read_pdf_pages_1_based": [
+            60
+          ],
+          "verification_status": "text_and_rendered_original_page_verified"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "僅核明列博物館段落；新入藏、數位圖像、卸展及移動數不作保存修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "IOE-2024-museum-arrangement-as-reported"
+      ],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4649",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "review_id": "sinica-review-ADD-009-2024",
+      "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        63
+      ],
+      "source_ids": [
+        "src-c76c9d5d43172a13"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            63
+          ],
+          "pdf_pages_1_based": [
+            63
+          ],
+          "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+          "source_id": "src-c76c9d5d43172a13",
+          "text_read_pdf_pages_1_based": [
+            63
+          ],
+          "verification_status": "text_and_rendered_original_page_verified"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "僅核明列博物館段落；新入藏、數位圖像、卸展及移動數不作保存修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "IOE-2025-museum-arrangement-as-reported"
+      ],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4823",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "review_id": "sinica-review-ADD-009-2025",
+      "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        55,
+        56
+      ],
+      "source_ids": [
+        "src-3cda345a23c2db5a"
+      ],
+      "source_locators": [],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            56
+          ],
+          "pdf_pages_1_based": [
+            55,
+            56
+          ],
+          "review_scope": "院決算重要施政計畫執行成果／民族學研究／8.博物館之藏品管理與檔案類藏品管理段落。",
+          "source_id": "src-3cda345a23c2db5a",
+          "text_read_pdf_pages_1_based": [
+            55,
+            56
+          ],
+          "verification_status": "text_and_rendered_original_page_verified"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "所核列表以參訪活動為主，未見適用保存修護量；活動件數、參訪次數與庫存不替代修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://lnfam.sinica.edu.tw/pages/2739",
+      "organization_id": "ADD-010",
+      "organization_name": "中央研究院嶺南美術館",
+      "review_id": "sinica-review-ADD-010-2020",
+      "review_scope": "官方「2020年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-e029d6c6dc34a2e2"
+      ],
+      "source_locators": [
+        {
+          "locator": "官方「2020年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-e029d6c6dc34a2e2"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方「2020年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-e029d6c6dc34a2e2",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "所核列表以參訪活動為主，未見適用保存修護量；活動件數、參訪次數與庫存不替代修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://lnfam.sinica.edu.tw/pages/2963",
+      "organization_id": "ADD-010",
+      "organization_name": "中央研究院嶺南美術館",
+      "review_id": "sinica-review-ADD-010-2021",
+      "review_scope": "官方「2021年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-04a56d01bf1c2b92"
+      ],
+      "source_locators": [
+        {
+          "locator": "官方「2021年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-04a56d01bf1c2b92"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方「2021年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-04a56d01bf1c2b92",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本輪未定位可核的2022年度館藏保存修護正文；其他年度活動列表及閉館公告不代替該年年度成果。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": null,
+      "organization_id": "ADD-010",
+      "organization_name": "中央研究院嶺南美術館",
+      "review_id": "sinica-review-ADD-010-2022",
+      "review_scope": "官方年度活動頁與官方站內年度／維護詞有界搜尋。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_locators": [],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "所核列表以參訪活動為主，未見適用保存修護量；活動件數、參訪次數與庫存不替代修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://lnfam.sinica.edu.tw/pages/4003",
+      "organization_id": "ADD-010",
+      "organization_name": "中央研究院嶺南美術館",
+      "review_id": "sinica-review-ADD-010-2023",
+      "review_scope": "官方「2023年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-bf5acfbb55e055ea"
+      ],
+      "source_locators": [
+        {
+          "locator": "官方「2023年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-bf5acfbb55e055ea"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方「2023年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-bf5acfbb55e055ea",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "所核列表以參訪活動為主，未見適用保存修護量；活動件數、參訪次數與庫存不替代修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://lnfam.sinica.edu.tw/pages/4203",
+      "organization_id": "ADD-010",
+      "organization_name": "中央研究院嶺南美術館",
+      "review_id": "sinica-review-ADD-010-2024",
+      "review_scope": "官方「2024年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-ec8aa0b07739bbb5"
+      ],
+      "source_locators": [
+        {
+          "locator": "官方「2024年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-ec8aa0b07739bbb5"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方「2024年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-ec8aa0b07739bbb5",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "所核列表以參訪活動為主，未見適用保存修護量；活動件數、參訪次數與庫存不替代修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://lnfam.sinica.edu.tw/pages/4632",
+      "organization_id": "ADD-010",
+      "organization_name": "中央研究院嶺南美術館",
+      "review_id": "sinica-review-ADD-010-2025",
+      "review_scope": "官方「2025年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-468b128d588b7ff7"
+      ],
+      "source_locators": [
+        {
+          "locator": "官方「2025年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-468b128d588b7ff7"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方「2025年」活動紀錄頁之年度標題與活動條目標題；未宣稱讀完所連結活動內頁或年度典藏報告。",
+          "source_id": "src-468b128d588b7ff7",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本年度表列館務未見符合既有動產保存修護的原報數量；建築修復不採，早年文獻修復不移入本年度。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "organization_id": "ADD-011",
+      "organization_name": "中央研究院胡適紀念館",
+      "review_id": "sinica-review-ADD-011-2020",
+      "review_scope": "大事紀表格「2020年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-81a5d9b7c2d96bc6"
+      ],
+      "source_locators": [
+        {
+          "locator": "大事紀表格「2020年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "大事紀表格「2020年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本年度表列館務未見符合既有動產保存修護的原報數量；建築修復不採，早年文獻修復不移入本年度。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "organization_id": "ADD-011",
+      "organization_name": "中央研究院胡適紀念館",
+      "review_id": "sinica-review-ADD-011-2021",
+      "review_scope": "大事紀表格「2021年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-81a5d9b7c2d96bc6"
+      ],
+      "source_locators": [
+        {
+          "locator": "大事紀表格「2021年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "大事紀表格「2021年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本年度表列館務未見符合既有動產保存修護的原報數量；建築修復不採，早年文獻修復不移入本年度。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "organization_id": "ADD-011",
+      "organization_name": "中央研究院胡適紀念館",
+      "review_id": "sinica-review-ADD-011-2022",
+      "review_scope": "大事紀表格「2022年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-81a5d9b7c2d96bc6"
+      ],
+      "source_locators": [
+        {
+          "locator": "大事紀表格「2022年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "大事紀表格「2022年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本年度表列館務未見符合既有動產保存修護的原報數量；建築修復不採，早年文獻修復不移入本年度。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "organization_id": "ADD-011",
+      "organization_name": "中央研究院胡適紀念館",
+      "review_id": "sinica-review-ADD-011-2023",
+      "review_scope": "大事紀表格「2023年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-81a5d9b7c2d96bc6"
+      ],
+      "source_locators": [
+        {
+          "locator": "大事紀表格「2023年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "大事紀表格「2023年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本年度表列館務未見符合既有動產保存修護的原報數量；建築修復不採，早年文獻修復不移入本年度。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "organization_id": "ADD-011",
+      "organization_name": "中央研究院胡適紀念館",
+      "review_id": "sinica-review-ADD-011-2024",
+      "review_scope": "大事紀表格「2024年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-81a5d9b7c2d96bc6"
+      ],
+      "source_locators": [
+        {
+          "locator": "大事紀表格「2024年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "大事紀表格「2024年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
+    },
+    {
+      "interpretation_note": "本年度表列館務未見符合既有動產保存修護的原報數量；建築修復不採，早年文獻修復不移入本年度。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "organization_id": "ADD-011",
+      "organization_name": "中央研究院胡適紀念館",
+      "review_id": "sinica-review-ADD-011-2025",
+      "review_scope": "大事紀表格「2025年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-81a5d9b7c2d96bc6"
+      ],
+      "source_locators": [
+        {
+          "locator": "大事紀表格「2025年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "大事紀表格「2025年」館務記錄，僅辨識中立典藏作業線索；非全館年報全文。",
+          "source_id": "src-81a5d9b7c2d96bc6",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_target_section_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28T14:48:05.797611+00:00"
     }
   ],
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.9.0",
   "observations": [
     {
       "action_categories": [
@@ -16857,6 +18859,248 @@
       "unit_status": "reported",
       "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
       "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "reported_partial_scope_not_additive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原文明列「國立臺灣大學早期明信片3張」，位於修復文物包括的對象列；其他列名未自行補1或數清單。段落同列評估、整飭修復、夾裱及保護盒工作，未明載此分項完成，不推每張都做每道工序。未將一般圖書館文獻修護量歸入館群。",
+      "metric_as_reported": "珍貴藏品修復；整飭修復、夾裱安裝與保護盒製作工作",
+      "metric_class": "combined_historygallery_restoration_mounting_storage_measures",
+      "metric_label": "校史館明信片修復及保存措施（原報部分對象）",
+      "numeric_origin": "source_reported",
+      "observation_id": "NTU-2022-historygallery-postcards3",
+      "organization_id": "BASE-016",
+      "organization_name": "國立臺灣大學博物館群",
+      "pdf_page_1_based": 64,
+      "printed_page": "63",
+      "publication_year": null,
+      "quantity_numeric": 3,
+      "quantity_qualifier": "explicit_partial_subject_quantity_not_whole_network_or_year_total",
+      "quantity_raw": "3",
+      "record_kind": "observation",
+      "source_id": "src-f2819013af4a6e86",
+      "source_scope": "圖書館年報「延伸營運／校史館／六 珍貴藏品修復」右欄明列的明信片部分；不是博物館群全體或所有原列物件合計。",
+      "subject_scope": "本館藏品（原報臺大校史館明信片，僅博物館群一個成員館的部分對象；不代表館群合計）。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "張",
+      "unit_status": "reported",
+      "verification_status": "selected_original_page_rendered_viewed_and_literal_text_cross_checked",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "reported_partial_scope_not_additive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "中文原報「本年度委託修護計6案」；英文寫Six item restoration requests were received this year。保留委託案件年度執行層次，未稱6案全數完成，更不改成6件已修復物件。清潔、除蟲、修護、保護盒等作業可同案，不按列名或序號補物件量；個案頁的捐入／轉移量不直接當本年度完成修護量。",
+      "metric_as_reported": "藏品保存及修護工作；本年度委託修護計",
+      "metric_class": "combined_collection_preservation_treatment_project_cases",
+      "metric_label": "年度委託保存修護案件（依原報，未明載全部完成）",
+      "numeric_origin": "source_reported",
+      "observation_id": "NCKU-2022-commissioned-conservation-cases",
+      "organization_id": "BASE-020",
+      "organization_name": "國立成功大學博物館",
+      "pdf_page_1_based": 41,
+      "printed_page": "033",
+      "publication_year": 2023,
+      "quantity_numeric": 6,
+      "quantity_qualifier": "commissioned_project_cases_as_reported_not_objects_or_completed_total",
+      "quantity_raw": "6",
+      "record_kind": "observation",
+      "source_id": "src-518fbef8ba22e4a2",
+      "source_scope": "2022年報「常態文物檢視登錄工作／藏品保存及修護工作」中文年度敘述及同頁英文；未採人員、經費、工程或新入藏量。",
+      "subject_scope": "本館藏品（原報保存及修護工作案件，含不同保存工序與原報對象；不另作法律權屬查核）。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "案",
+      "unit_status": "reported",
+      "verification_status": "selected_original_page_rendered_viewed_and_literal_text_cross_checked",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "reported_operation_subitem",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "data_year_end": 2022,
+      "data_year_start": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "手稿田野筆記整飭與相鄰照片整飭、影像校對項目分列；不以相同數字認定同批，不當修復量。 年度業務成果列未對此分項明載完成；不由鄰近文字或分類名稱推定。 主代理對原頁核對，保留原報整飭632件，但原件或數位版本未明，對象查詢標為待核；不把它當632件已完成實體修復。",
+      "metric_as_reported": "手稿田野筆記整飭",
+      "metric_class": "archival_arrangement_as_reported",
+      "metric_label": "手稿田野筆記整飭（原件／數位版本未另核）",
+      "numeric_origin": "source_reported",
+      "observation_id": "IOE-2022-museum-arrangement-as-reported",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "pdf_page_1_based": 63,
+      "printed_page": "58",
+      "publication_year": null,
+      "quantity_numeric": 632,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "632",
+      "record_kind": "observation",
+      "reporting_period_raw": "111年度",
+      "source_id": "src-363e41f33121636c",
+      "source_locator": "重要施政計畫執行成果＞民族學研究＞8.博物館＞藏品管理",
+      "source_scope": "中央研究院年度單位決算重要施政計畫執行成果／民族學研究／8.博物館之明列分項；非全院量分配",
+      "subject_scope": "本館藏品：手稿田野筆記（原報未明列原件或數位版本，本輪未另核）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "explicit_as_reported",
+      "verification_status": "text_and_rendered_original_page_verified",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement",
+        "cleaning",
+        "mixed_workflow"
+      ],
+      "aggregation_role": "reported_operation_subitem",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "data_year_end": 2023,
+      "data_year_start": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "整飭與清潔合列，原報未拆分工序量；不解讀為每件完成同等處置。 年度業務成果列未對此分項明載完成；不由鄰近文字或分類名稱推定。",
+      "metric_as_reported": "大型藏品整飭清潔",
+      "metric_class": "combined_arrangement_cleaning",
+      "metric_label": "大型藏品整飭清潔",
+      "numeric_origin": "source_reported",
+      "observation_id": "IOE-2023-museum-arrangement-as-reported",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "pdf_page_1_based": 60,
+      "printed_page": "55",
+      "publication_year": null,
+      "quantity_numeric": 6,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "6",
+      "record_kind": "observation",
+      "reporting_period_raw": "112年度",
+      "source_id": "src-b78ae56ececc5bff",
+      "source_locator": "重要施政計畫執行成果＞民族學研究＞8.博物館＞藏品管理",
+      "source_scope": "中央研究院年度單位決算重要施政計畫執行成果／民族學研究／8.博物館之明列分項；非全院量分配",
+      "subject_scope": "本館藏品：大型藏品",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "explicit_as_reported",
+      "verification_status": "text_and_rendered_original_page_verified",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "reported_operation_subitem",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "data_year_end": 2024,
+      "data_year_start": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報檔案類藏品整飭分項；卸展、儲位更新及數位影像項目不混入本筆。 年度業務成果列未對此分項明載完成；不由鄰近文字或分類名稱推定。",
+      "metric_as_reported": "檔案類藏品管理：藏品整飭",
+      "metric_class": "archival_arrangement_as_reported",
+      "metric_label": "檔案類藏品管理：藏品整飭",
+      "numeric_origin": "source_reported",
+      "observation_id": "IOE-2024-museum-arrangement-as-reported",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "pdf_page_1_based": 63,
+      "printed_page": "58",
+      "publication_year": null,
+      "quantity_numeric": 96,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "96",
+      "record_kind": "observation",
+      "reporting_period_raw": "113年度",
+      "source_id": "src-c76c9d5d43172a13",
+      "source_locator": "重要施政計畫執行成果＞民族學研究＞8.博物館＞檔案類藏品管理",
+      "source_scope": "中央研究院年度單位決算重要施政計畫執行成果／民族學研究／8.博物館之明列分項；非全院量分配",
+      "subject_scope": "本館藏品：檔案類藏品",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "explicit_as_reported",
+      "verification_status": "text_and_rendered_original_page_verified",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "reported_operation_subitem",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "data_year_end": 2025,
+      "data_year_start": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報檔案類藏品整飭分項；無證據可排除同件跨年重複，不作獨特物件數或工作量比較。 年度業務成果列未對此分項明載完成；不由鄰近文字或分類名稱推定。",
+      "metric_as_reported": "檔案類藏品管理：藏品整飭",
+      "metric_class": "archival_arrangement_as_reported",
+      "metric_label": "檔案類藏品管理：藏品整飭",
+      "numeric_origin": "source_reported",
+      "observation_id": "IOE-2025-museum-arrangement-as-reported",
+      "organization_id": "ADD-009",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "pdf_page_1_based": 56,
+      "printed_page": "51",
+      "publication_year": null,
+      "quantity_numeric": 272,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "272",
+      "record_kind": "observation",
+      "reporting_period_raw": "114年度",
+      "source_id": "src-3cda345a23c2db5a",
+      "source_locator": "重要施政計畫執行成果＞民族學研究＞8.博物館＞檔案類藏品管理",
+      "source_scope": "中央研究院年度單位決算重要施政計畫執行成果／民族學研究／8.博物館之明列分項；非全院量分配",
+      "subject_scope": "本館藏品：檔案類藏品",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "explicit_as_reported",
+      "verification_status": "text_and_rendered_original_page_verified",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
     }
   ],
   "relations": [
@@ -17615,6 +19859,17 @@
         "yilan-2023-stability-maintenance133"
       ],
       "relation_type": "do_not_add_unknown_overlap"
+    },
+    {
+      "interpretation_note": "僅表明四筆同館不同年度原報分項；不相加、不認定同母體、同處置或不重複物件序列。",
+      "observation_ids": [
+        "IOE-2022-museum-arrangement-as-reported",
+        "IOE-2023-museum-arrangement-as-reported",
+        "IOE-2024-museum-arrangement-as-reported",
+        "IOE-2025-museum-arrangement-as-reported"
+      ],
+      "relation_id": "IOE-2022-2025-operations-not-automatic-series",
+      "relation_type": "different_year_object_process_scope_not_automatically_comparable"
     }
   ],
   "schema_version": "4.0",
@@ -20447,39 +22702,789 @@
       "source_use": "numeric_evidence",
       "title": "宜蘭縣政府114年度工作報告",
       "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2020.pdf",
+      "official_landing_url": "https://www.lib.ntu.edu.tw/en/p",
+      "original_file_bytes": 8378464,
+      "original_file_pdf_pages": 80,
+      "original_file_sha256": "a57ade19f7f4e750deff4cacc1b1b04cd37761e324b4fb2095021ebccf4a0330",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-a57ade19f7f4e750",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立臺灣大學圖書館2020年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2021.pdf",
+      "official_landing_url": "https://www.lib.ntu.edu.tw/en/p",
+      "original_file_bytes": 7850574,
+      "original_file_pdf_pages": 90,
+      "original_file_sha256": "d3e96b664768a7fca2afa794101986eccd8e2678c5369e0ea4eee38e3b2ec71e",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-d3e96b664768a7fc",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立臺灣大學圖書館2021年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2022.pdf",
+      "official_landing_url": "https://www.lib.ntu.edu.tw/en/p",
+      "original_file_bytes": 8431209,
+      "original_file_pdf_pages": 94,
+      "original_file_sha256": "f2819013af4a6e869459f1bc2d5797d5c419ccca6251aa037640f38d4ea805f8",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-f2819013af4a6e86",
+      "source_use": "numeric_observations_and_body_review",
+      "title": "國立臺灣大學圖書館2022年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2023.pdf",
+      "official_landing_url": "https://www.lib.ntu.edu.tw/en/p",
+      "original_file_bytes": 8929812,
+      "original_file_pdf_pages": 89,
+      "original_file_sha256": "d3ae9ca17d3694d6b59e4be80b25cb6e2e258cd52557c731733224d13de1475f",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-d3ae9ca17d3694d6",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立臺灣大學圖書館2023年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2024.pdf",
+      "official_landing_url": "https://www.lib.ntu.edu.tw/en/p",
+      "original_file_bytes": 9286340,
+      "original_file_pdf_pages": 90,
+      "original_file_sha256": "69abdedb7d53afd631f87bafc26e7c1667b9947c215f5154cf0ebbc9a47bde91",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-69abdedb7d53afd6",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立臺灣大學圖書館2024年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2025.pdf",
+      "official_landing_url": "https://www.lib.ntu.edu.tw/en/p",
+      "original_file_bytes": 52460952,
+      "original_file_pdf_pages": 82,
+      "original_file_sha256": "2c0a9cac198a149f35f909321d6db3f83a043d3b3d1fa4946a60dac8efa4deef",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-2c0a9cac198a149f",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立臺灣大學圖書館2025年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://museum.ncku.edu.tw/upload/publication/2023041216353458.pdf",
+      "official_landing_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "original_file_bytes": 29048754,
+      "original_file_pdf_pages": 118,
+      "original_file_sha256": "e2dee056f1e9944f445e4226af60ca19001572f2340045d52dd3bfd6936c5c45",
+      "original_file_type": "PDF",
+      "publication_year": 2023,
+      "publication_year_basis": "官方出版目錄或單書頁所列出版日期；不以檔名上傳年替代",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e2dee056f1e9944f",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立成功大學博物館2020年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://museum.ncku.edu.tw/upload/publication/2024122613565593.pdf",
+      "official_landing_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "original_file_bytes": 10748313,
+      "original_file_pdf_pages": 115,
+      "original_file_sha256": "7248743adcc53c4d828c1026cd8a06f9a05016ffb615beee2cd9c66c1a63e32b",
+      "original_file_type": "PDF",
+      "publication_year": 2023,
+      "publication_year_basis": "官方出版目錄或單書頁所列出版日期；不以檔名上傳年替代",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-7248743adcc53c4d",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立成功大學博物館2021年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://museum.ncku.edu.tw/upload/publication/2024122613595117.pdf",
+      "official_landing_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "original_file_bytes": 33379991,
+      "original_file_pdf_pages": 130,
+      "original_file_sha256": "518fbef8ba22e4a2b39a8451a69366dd5e7716f1d5921a11e58f5eab539d892f",
+      "original_file_type": "PDF",
+      "publication_year": 2023,
+      "publication_year_basis": "2022年報PDF129出版日期2023年12月，另與官方出版頁對照",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-518fbef8ba22e4a2",
+      "source_use": "numeric_observations_and_body_review",
+      "title": "國立成功大學博物館2022年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "official_landing_url": "https://museum.ncku.edu.tw/index.php?c_id=3&inter=publication",
+      "original_file_bytes": 72866,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "95584a8fb3d8e2e93520042f4097e73faeabb363eb321ca579f9c7caeb66f528",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未核明確出版年月；年報資料年與PDF檔名不代填出版年",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-95584a8fb3d8e2e9",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立成功大學博物館官方年報目錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://museum.ncku.edu.tw/upload/publication/2026010912152959.pdf",
+      "official_landing_url": "https://museum.ncku.edu.tw/index.php?c_id=6&id=143&inter=publication&tab=books",
+      "original_file_bytes": 13799831,
+      "original_file_pdf_pages": 48,
+      "original_file_sha256": "fb028cf4ddec101d6688adb79a12daa367c1b26e372ccf508a4228affe6095d6",
+      "original_file_type": "PDF",
+      "publication_year": 2025,
+      "publication_year_basis": "官方出版目錄或單書頁所列出版日期；不以檔名上傳年替代",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-fb028cf4ddec101d",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立成功大學博物館羅望子Vol.7：大學博物館與典藏研究",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://museum.ncku.edu.tw/index.php?c_id=6&id=143&inter=publication&tab=books",
+      "official_landing_url": "https://museum.ncku.edu.tw/index.php?c_id=6&id=143&inter=publication&tab=books",
+      "original_file_bytes": 58741,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "8a3429daa744519f135cc667f87a00a3ecc5a4deefbc6860600a961a944ec8b4",
+      "original_file_type": "HTML",
+      "publication_year": 2025,
+      "publication_year_basis": "官方出版目錄或單書頁所列出版日期；不以檔名上傳年替代",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-8a3429daa744519f",
+      "source_use": "body_review_or_annual_source_pointer",
+      "title": "國立成功大學博物館羅望子Vol.7：大學博物館與典藏研究官方出版頁",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://sec.tnua.edu.tw/wp-content/uploads/2020/09/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84%E6%A0%B8%E5%8F%AF%E7%89%88%E5%85%A81090914-1.pdf",
+      "official_landing_url": "https://sec.tnua.edu.tw/wp-content/uploads/2020/09/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84%E6%A0%B8%E5%8F%AF%E7%89%88%E5%85%A81090914-1.pdf",
+      "original_file_bytes": 6625591,
+      "original_file_pdf_pages": 72,
+      "original_file_sha256": "fb45a1da4e63e50266dd78491e00bfc065f5657da60432deae859ffd1497ca1f",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-fb45a1da4e63e502",
+      "source_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+      "source_use": "body_review_only",
+      "title": "關渡美術館主管會報工作報告（2020-09-14）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://sec.tnua.edu.tw/wp-content/uploads/2021/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420211018%E5%85%A8%E7%89%88-1.pdf",
+      "official_landing_url": "https://sec.tnua.edu.tw/wp-content/uploads/2021/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420211018%E5%85%A8%E7%89%88-1.pdf",
+      "original_file_bytes": 6836621,
+      "original_file_pdf_pages": 86,
+      "original_file_sha256": "39401cfe6ecafef80dc6fab9a6c50ff5e6d545c0398ee9990e8d924e80255ce5",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-39401cfe6ecafef8",
+      "source_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+      "source_use": "body_review_only",
+      "title": "關渡美術館主管會報工作報告（2021-10-18）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://sec.tnua.edu.tw/wp-content/uploads/2022/08/%E9%97%9C%E6%B8%A1%E7%BE%8E%E8%A1%93%E9%A4%A820220824.pdf",
+      "official_landing_url": "https://sec.tnua.edu.tw/wp-content/uploads/2022/08/%E9%97%9C%E6%B8%A1%E7%BE%8E%E8%A1%93%E9%A4%A820220824.pdf",
+      "original_file_bytes": 172499,
+      "original_file_pdf_pages": 2,
+      "original_file_sha256": "80cac8efff581d8bf473510e763d66b2da2e539962d23ed312d2566922bfebbc",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-80cac8efff581d8b",
+      "source_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+      "source_use": "body_review_only",
+      "title": "關渡美術館主管會報工作報告（2022-08-24）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://sec.tnua.edu.tw/wp-content/uploads/2023/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420230925%E6%A0%B8%E5%8F%AF.pdf",
+      "official_landing_url": "https://sec.tnua.edu.tw/wp-content/uploads/2023/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420230925%E6%A0%B8%E5%8F%AF.pdf",
+      "original_file_bytes": 3910153,
+      "original_file_pdf_pages": 66,
+      "original_file_sha256": "6d7b843c3a1d894de78a3f1a6fd0a626261871cb7f7343fd58d20343cba57173",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-6d7b843c3a1d894d",
+      "source_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+      "source_use": "body_review_only",
+      "title": "關渡美術館主管會報工作報告（2023-09-25）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://sec.tnua.edu.tw/wp-content/uploads/2024/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420241014%E9%80%9A%E9%81%8E-1.pdf",
+      "official_landing_url": "https://sec.tnua.edu.tw/wp-content/uploads/2024/10/%E4%B8%BB%E7%AE%A1%E6%9C%83%E5%A0%B1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%8420241014%E9%80%9A%E9%81%8E-1.pdf",
+      "original_file_bytes": 5743528,
+      "original_file_pdf_pages": 76,
+      "original_file_sha256": "a30883723400c2a8ae470388ae76277585a54ee3985eb600fa0ea402bda17e80",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-a30883723400c2a8",
+      "source_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+      "source_use": "body_review_only",
+      "title": "關渡美術館主管會報工作報告（2024-10-14）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://sec.tnua.edu.tw/wp-content/uploads/2025/01/%E9%97%9C%E6%B8%A1%E7%BE%8E%E8%A1%93%E9%A4%A820250115.pdf",
+      "official_landing_url": "https://sec.tnua.edu.tw/wp-content/uploads/2025/01/%E9%97%9C%E6%B8%A1%E7%BE%8E%E8%A1%93%E9%A4%A820250115.pdf",
+      "original_file_bytes": 125418,
+      "original_file_pdf_pages": 2,
+      "original_file_sha256": "21e3321238704ffcc0a66a23e55226d2afc5b8fc472fa3bd4bfc7d9558805644",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-21e3321238704ffc",
+      "source_scope": "只核關渡美術館工作報告典藏及相鄰館務段；為當次會報，非完整曆年年報；不採設備、工程及其他單位內容。",
+      "source_use": "body_review_only",
+      "title": "關渡美術館主管會報工作報告（2025-01-15）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/684909705.pdf",
+      "official_landing_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/684909705.pdf",
+      "original_file_bytes": 10325521,
+      "original_file_pdf_pages": 191,
+      "original_file_sha256": "4b01f95721a582430fb23a8843c9b6278cfdef0d5759265b34e3b7d63267f9f2",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-4b01f95721a58243",
+      "source_scope": "僅北師美術館指定工作報告頁；原期間為109年9月–109年10月，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+      "source_use": "body_review_only",
+      "title": "國立臺北教育大學第179次行政會議北師美術館工作報告（2020-09-30）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/422096652.pdf",
+      "official_landing_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/422096652.pdf",
+      "original_file_bytes": 7487261,
+      "original_file_pdf_pages": 251,
+      "original_file_sha256": "19fa54c1fa94cd2cda57c40722fe7cb7e61195ad6138044907d5f9746d63190a",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-19fa54c1fa94cd2c",
+      "source_scope": "僅北師美術館指定工作報告頁；原期間為110年10月起，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+      "source_use": "body_review_only",
+      "title": "國立臺北教育大學第192次行政會議北師美術館工作報告（2021-10-27）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/270577241.pdf",
+      "official_landing_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/270577241.pdf",
+      "original_file_bytes": 7896067,
+      "original_file_pdf_pages": 165,
+      "original_file_sha256": "e33d4cd81fa46f315ab1bd972d26a1cfde2145e69cef33179ab064ec4e1299db",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e33d4cd81fa46f31",
+      "source_scope": "僅北師美術館指定工作報告頁；原期間為111年8月–111年9月，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+      "source_use": "body_review_only",
+      "title": "國立臺北教育大學第202次行政會議北師美術館工作報告（2022-08-31）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/229789825.pdf",
+      "official_landing_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/229789825.pdf",
+      "original_file_bytes": 9604846,
+      "original_file_pdf_pages": 130,
+      "original_file_sha256": "fa13d5726977916a201bde9bf6084bb24f9c56c2184dc0a6681f967fb5652389",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-fa13d5726977916a",
+      "source_scope": "僅北師美術館指定工作報告頁；原期間為當次館務工作報告，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+      "source_use": "body_review_only",
+      "title": "國立臺北教育大學第218次行政會議北師美術館工作報告（2023-12-27）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/129504889.pdf",
+      "official_landing_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/129504889.pdf",
+      "original_file_bytes": 3987870,
+      "original_file_pdf_pages": 94,
+      "original_file_sha256": "f3724d853c9d14133a35b6814f7e33ccbb2d7110d1630145a74ba8bd96b94a87",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-f3724d853c9d1413",
+      "source_scope": "僅北師美術館指定工作報告頁；原期間為當次館務工作報告，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+      "source_use": "body_review_only",
+      "title": "國立臺北教育大學第223次行政會議北師美術館工作報告（2024-05-29）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/236787238.pdf",
+      "official_landing_url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/236787238.pdf",
+      "original_file_bytes": 7495998,
+      "original_file_pdf_pages": 173,
+      "original_file_sha256": "ce11858e8572013fe87a6796af8ff45acc97c97b059a3b0003dbe1de647bd1e9",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ce11858e8572013f",
+      "source_scope": "僅北師美術館指定工作報告頁；原期間為當次館務工作報告，不是完整曆年；他館專案、展覽、課程及設施不當本館實物修護。",
+      "source_use": "body_review_only",
+      "title": "國立臺北教育大學第237次行政會議北師美術館工作報告（2025-07-30）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://usr.nccu.edu.tw/zh-tw/highlights-of-the-year",
+      "official_landing_url": "https://usr.nccu.edu.tw/zh-tw/highlights-of-the-year",
+      "original_file_bytes": 28817,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "c19ae5f986378ed7ae2ef71c46cfe6353961c4a188e2229e67ef786b999786dc",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c19ae5f986378ed7",
+      "source_scope": "只讀年報清單2020及2021入口；未讀這兩年館務章與封面，尚未確認資料年。",
+      "source_use": "source_pointer_only",
+      "title": "國立政治大學USR年報目錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://topu.nccu.edu.tw/achievement/view/189",
+      "official_landing_url": "https://topu.nccu.edu.tw/achievement/view/189",
+      "original_file_bytes": 14789,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "04ae99a402e32926c833163de735d4baa606d8eec82d6a446e79fc024436ef83",
+      "original_file_type": "HTML",
+      "publication_year": 2023,
+      "publication_year_note": "官方HTML正文日期2023年06月29日；標題111年為目標成果年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-04ae99a402e32926",
+      "source_scope": "僅官方成果文章之民族博物館資料庫／數位策展與課程段；非館藏實物處理量。",
+      "source_use": "body_review_only",
+      "title": "111年以博物館學分學程、數位博物館推動政大博物館學群",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2023.pdf",
+      "official_landing_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2023.pdf",
+      "original_file_bytes": 42848467,
+      "original_file_pdf_pages": 137,
+      "original_file_sha256": "e44c328282ee9f9f1a0d289d685939290362fb61464b679a2e8cd5ede7c14242",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "會議日期／網頁日期不自動當另核出版年；未核者保持null。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e44c328282ee9f9f",
+      "source_scope": "僅PDF95–98／印094–097大學博物館與社會實踐專節；非全館所有來源。",
+      "source_use": "body_review_only",
+      "title": "國立政治大學2023大學社會責任年度報告書",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2024.pdf",
+      "official_landing_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2024.pdf",
+      "original_file_bytes": 84647982,
+      "original_file_pdf_pages": 148,
+      "original_file_sha256": "2f051ac7419437668fe390dac972aea95caee0466f59851e1170624c93f9736b",
+      "original_file_type": "PDF",
+      "publication_year": 2025,
+      "publication_year_note": "PDF146版權頁文字層明載出版日期2025年4月；此頁僅出版年證據，未稱館務正文。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-2f051ac741943766",
+      "source_scope": "僅PDF86–91／印084–089大學博物館與社會實踐專節；數位化、歸檔描述編號及課程不改稱實物修復。",
+      "source_use": "body_review_only",
+      "title": "國立政治大學2024大學社會責任年度報告書",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2025.pdf",
+      "official_landing_url": "https://usr.nccu.edu.tw/upfiles/ebook/NCCUUSR2025.pdf",
+      "original_file_bytes": 22147045,
+      "original_file_pdf_pages": 134,
+      "original_file_sha256": "c414d65d12aa5a495f8cbc60437f14a4e682de09c5c73d4eb7ee825b5e3faa75",
+      "original_file_type": "PDF",
+      "publication_year": 2026,
+      "publication_year_note": "PDF132版權頁明載出版日期2026年5月，已view_image；此頁僅出版年證據。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c414d65d12aa5a49",
+      "source_scope": "僅PDF62–67／印054–059 Museums for Education專節；保留原維護脈絡與工作坊敘述，不把研究或討論當修復量。",
+      "source_use": "body_review_only",
+      "title": "國立政治大學2025大學社會責任年度報告書",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://museum.ntua.edu.tw/A01-1.asp?kk=15066",
+      "official_landing_url": "https://museum.ntua.edu.tw/A01-1.asp?kk=15066",
+      "original_file_bytes": 29508,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "313c5f308daecf69cbd8ee319190245d530aeb01170943926a54f733aa9b840e",
+      "original_file_type": "HTML",
+      "publication_year": 2024,
+      "publication_year_note": "官方HTML正文發布2024/3/25；課程日期為2024年4月。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-313c5f308daecf69",
+      "source_scope": "只讀2024年工作坊課程內容與學員攜件要求；不是本館既有藏品修護成果。",
+      "source_use": "excluded_not_in_scope",
+      "title": "有章藝術博物館【展覽教育推廣｜庫房出走】修復工作坊",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://acc.sinica.edu.tw/archives/117b471397008c62?110中央研究院單位決算(院修版).pdf",
+      "official_landing_url": "https://acc.sinica.edu.tw/pages/3432",
+      "original_file_bytes": 5607131,
+      "original_file_pdf_pages": 284,
+      "original_file_sha256": "99681c24a1f8652d7b4296e1d1aff19cb210fa4936a33ee5ddc87c1c7999a222",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-99681c24a1f8652d",
+      "source_use": "body_review",
+      "title": "中央研究院110年度單位決算（官方業務成果分館段落）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://acc.sinica.edu.tw/archives/47355c56d191b94e?110中央研究院單位決算(自編版).pdf",
+      "official_landing_url": "https://acc.sinica.edu.tw/pages/3735",
+      "original_file_bytes": 6389855,
+      "original_file_pdf_pages": 285,
+      "original_file_sha256": "363e41f33121636c7193c108d4b06f60ea0376abde3a415126758e395c2881eb",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-363e41f33121636c",
+      "source_use": "numeric_evidence",
+      "title": "中央研究院111年度單位決算（官方業務成果分館段落）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://acc.sinica.edu.tw/archives/1ccd10570819c32a?112中央研究院單位決算(自編版).pdf",
+      "official_landing_url": "https://acc.sinica.edu.tw/pages/4252",
+      "original_file_bytes": 6657054,
+      "original_file_pdf_pages": 359,
+      "original_file_sha256": "b78ae56ececc5bff5689773c386906ad68a88c473d8443b4142c21a04e841f99",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b78ae56ececc5bff",
+      "source_use": "numeric_evidence",
+      "title": "中央研究院112年度單位決算（官方業務成果分館段落）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://acc.sinica.edu.tw/archives/edebe0c3b5c10fc6?113年度中央研究院單位決算(自編版).pdf",
+      "official_landing_url": "https://acc.sinica.edu.tw/pages/4649",
+      "original_file_bytes": 6994389,
+      "original_file_pdf_pages": 323,
+      "original_file_sha256": "c76c9d5d43172a13ca35a03a69a9bca0adfe5fed12e7c03f5ddce9ed20bf8cbf",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c76c9d5d43172a13",
+      "source_use": "numeric_evidence",
+      "title": "中央研究院113年度單位決算（官方業務成果分館段落）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://acc.sinica.edu.tw/archives/e8bf832384a830e9?114年度中央研究院單位決算(自編版).pdf",
+      "official_landing_url": "https://acc.sinica.edu.tw/pages/4823",
+      "original_file_bytes": 7627383,
+      "original_file_pdf_pages": 328,
+      "original_file_sha256": "3cda345a23c2db5a7d8282df1e8854d43a85fbbeab8369f13de3782047ce3654",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-3cda345a23c2db5a",
+      "source_use": "numeric_evidence",
+      "title": "中央研究院114年度單位決算（官方業務成果分館段落）",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://museum.sinica.edu.tw/resources/item/127/",
+      "official_landing_url": "https://museum.sinica.edu.tw/resources/item/127/",
+      "original_file_bytes": 53981,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "659a4d77b8725039e0c09b32f43b0461570256ade283d36f7344567aa2a863a0",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-659a4d77b8725039",
+      "source_use": "body_review",
+      "title": "歷史文物陳列館大事紀：2020年12月3日年度事件段落",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://newsletter.sinica.edu.tw/22037/",
+      "official_landing_url": "https://newsletter.sinica.edu.tw/22037/",
+      "original_file_bytes": 127526,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "ecf5daa055375db2ecb872b67a21e2a960a5aa4a5b25ff2dfb197fc2e0bedd52",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ecf5daa055375db2",
+      "source_use": "body_review",
+      "title": "中央研究院週報：[專刊特稿] 走進人類學家的博物館，看見多元文化的繽紛──民族學研究所博物館",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://lnfam.sinica.edu.tw/pages/2739",
+      "official_landing_url": "https://lnfam.sinica.edu.tw/pages/2739",
+      "original_file_bytes": 42782,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "e029d6c6dc34a2e2a11736bf9cace11ffeae7798520b9148c44fde6271ad16e3",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e029d6c6dc34a2e2",
+      "source_use": "body_review",
+      "title": "中央研究院嶺南美術館：2020年活動紀錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://lnfam.sinica.edu.tw/pages/2963",
+      "official_landing_url": "https://lnfam.sinica.edu.tw/pages/2963",
+      "original_file_bytes": 43883,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "04a56d01bf1c2b9260a87aee9a49b96708c640118a721edacc6cf32837f9b12b",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-04a56d01bf1c2b92",
+      "source_use": "body_review",
+      "title": "中央研究院嶺南美術館：2021年活動紀錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://lnfam.sinica.edu.tw/pages/4003",
+      "official_landing_url": "https://lnfam.sinica.edu.tw/pages/4003",
+      "original_file_bytes": 45312,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "bf5acfbb55e055ea7b0c7725f7448f221008a1eaabe425da06a96e378be43979",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-bf5acfbb55e055ea",
+      "source_use": "body_review",
+      "title": "中央研究院嶺南美術館：2023年活動紀錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://lnfam.sinica.edu.tw/pages/4203",
+      "official_landing_url": "https://lnfam.sinica.edu.tw/pages/4203",
+      "original_file_bytes": 45402,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "ec8aa0b07739bbb5e8ca382ac2fc91a752b875c56693bec20d0a69d07a4a3e5b",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ec8aa0b07739bbb5",
+      "source_use": "body_review",
+      "title": "中央研究院嶺南美術館：2024年活動紀錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://lnfam.sinica.edu.tw/pages/4632",
+      "official_landing_url": "https://lnfam.sinica.edu.tw/pages/4632",
+      "original_file_bytes": 43321,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "468b128d588b7ff72262915b34e4fa3ff8e548b31cf4962566067f7099e684d7",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-468b128d588b7ff7",
+      "source_use": "body_review",
+      "title": "中央研究院嶺南美術館：2025年活動紀錄",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "official_landing_url": "https://hushih.mh.sinica.edu.tw/Hushih_Events?mid=81",
+      "original_file_bytes": 322578,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "81a5d9b7c2d96bc6953b9c97429f8dc6a5c2b5073aa91a75ab09cecd07aa34f7",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未獨立確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-81a5d9b7c2d96bc6",
+      "source_use": "body_review",
+      "title": "中央研究院胡適紀念館大事紀（分年館務紀錄）",
+      "verified_at": "2026-10-28"
     }
   ],
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 192,
-    "body_review_source_file_versions": 144,
-    "body_review_target_year_cells": 186,
+    "body_review_records": 252,
+    "body_review_source_file_versions": 187,
+    "body_review_target_year_cells": 246,
     "context_component_records": 2,
     "derived_summary_records": 1,
     "multi_year_records_not_allocated_to_years": 3,
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 270
+      "source_reported": 276
     },
-    "numeric_support_source_file_versions": 77,
-    "observation_records": 268,
-    "organizations_with_facts": 18,
-    "organizations_with_facts_or_new_body_reviews": 39,
+    "numeric_support_source_file_versions": 83,
+    "observation_records": 274,
+    "organizations_with_facts": 21,
+    "organizations_with_facts_or_new_body_reviews": 49,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
-    "total_fact_rows": 271,
+    "total_fact_rows": 277,
     "units": {
-      "件": 188,
+      "件": 192,
       "件作品": 3,
       "件數": 6,
       "作品": 1,
       "卷": 1,
       "幅": 1,
       "座": 1,
+      "張": 1,
       "批次": 3,
       "未明列": 2,
-      "案": 5,
+      "案": 6,
       "條": 2,
       "次": 7,
       "片": 4,
@@ -20493,9 +23498,9 @@
       "部": 1,
       "項": 2
     },
-    "verified_original_html_files": 10,
-    "verified_original_pdf_files": 180,
-    "verified_original_source_files": 190,
+    "verified_original_html_files": 23,
+    "verified_original_pdf_files": 210,
+    "verified_original_source_files": 233,
     "years": [
       2015,
       2016,

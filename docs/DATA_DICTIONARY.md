@@ -98,3 +98,7 @@ HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_lo
 ## 並列量詞與原字形（v0.8.0）
 
 例如原報「1,360組3,169件」保留於同一quantity_raw，unit_as_reported保留兩種量詞「組、件」，quantity_numeric保持null，不拆成可相加兩列或猜換算率。字型解碼的相容字形可留在metric_as_reported，另用metric_label供一般字形搜尋；標籤不覆寫來源原詞或更改數字。
+
+## 館群子集與案件（v0.9.0）
+
+organization_id可指原名錄的博物館群工作項目，source_scope、subject_scope及metric_label須另標資料實際只涉及哪個成員館或部分對象；不能由群ID推全群合計。委託修護案件數保留unit_as_reported=案，不能當物件件數或完成件數；完成狀態按原句，不由表題、年度或收到請求推成已完成。出版年及上傳檔名不決定data_year。

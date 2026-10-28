@@ -2,6 +2,69 @@
   "cohorts": [
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "reported_periods": [
+        "111年度"
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "reported_periods": [
+        "112年度"
+      ],
+      "source_ids": [
+        "src-b78ae56ececc5bff"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "reported_periods": [
+        "113年度"
+      ],
+      "source_ids": [
+        "src-c76c9d5d43172a13"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "中央研究院民族學研究所博物館",
+      "reported_periods": [
+        "114年度"
+      ],
+      "source_ids": [
+        "src-3cda345a23c2db5a"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立成功大學博物館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-518fbef8ba22e4a2"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2020,
       "fact_rows": 7,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -279,6 +342,17 @@
       "reported_periods": [],
       "source_ids": [
         "src-e8a33d179cc672b7"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立臺灣大學博物館群",
+      "reported_periods": [],
+      "source_ids": [
+        "src-f2819013af4a6e86"
       ]
     },
     {
@@ -867,6 +941,6 @@
       ]
     }
   ],
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.9.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }
