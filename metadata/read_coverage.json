@@ -865,6 +865,32 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": null,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "臺灣戲劇館",
+      "reported_periods": [
+        "112-113年度台灣戲劇館典藏能量與專業功能提升計畫"
+      ],
+      "source_ids": [
+        "src-535f501ce82623c0"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "臺灣戲劇館",
+      "reported_periods": [
+        "111年度"
+      ],
+      "source_ids": [
+        "src-a64d502224892713"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2024,
       "fact_rows": 3,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -939,8 +965,21 @@
       "source_ids": [
         "src-87530a6874d9bb16"
       ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市電影館",
+      "reported_periods": [
+        "111年度影片分類表"
+      ],
+      "source_ids": [
+        "src-db7ecc443847c7ef"
+      ]
     }
   ],
-  "dataset_version": "0.9.0",
+  "dataset_version": "0.10.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }

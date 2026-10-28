@@ -102,3 +102,7 @@ HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_lo
 ## 館群子集與案件（v0.9.0）
 
 organization_id可指原名錄的博物館群工作項目，source_scope、subject_scope及metric_label須另標資料實際只涉及哪個成員館或部分對象；不能由群ID推全群合計。委託修護案件數保留unit_as_reported=案，不能當物件件數或完成件數；完成狀態按原句，不由表題、年度或收到請求推成已完成。出版年及上傳檔名不決定data_year。
+
+## 量詞未明列、累計與跨期（v0.10.0）
+
+原表數量欄有數字但未標量詞時，unit_as_reported明示未明列，不由片名、工作或列序猜部／案／件。純數位修復維持digital_restoration，不當實體膠卷量。跨年計畫原報只存一筆multi_year_not_allocated，查找格可共同引用，不能相加或年拆。起點未知累計無法以現行起訖期間模型忠實表達時，不猜起點或塞出版年；先留來源查核與私人候選。

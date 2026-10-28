@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.0",
+  "dataset_version": "0.10.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -50,5 +50,5 @@
     "title": "國立故宮博物院114年度單位決算",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.9.0/catalog/records/NPM-2025-finalaccounts-paintings.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.10.0/catalog/records/NPM-2025-finalaccounts-paintings.json"
 }
