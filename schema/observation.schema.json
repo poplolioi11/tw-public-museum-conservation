@@ -55,7 +55,10 @@
       "type": "string"
     },
     "pdf_page_1_based": {
-      "type": "integer",
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 1
     },
     "printed_page": {
@@ -177,6 +180,13 @@
         "type": "integer",
         "minimum": 1
       }
+    },
+    "source_locator": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "HTML observation: non-empty annual section/body locator; do not invent a PDF page."
     }
   },
   "required": [

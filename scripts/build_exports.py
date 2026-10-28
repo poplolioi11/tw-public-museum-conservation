@@ -15,6 +15,12 @@ if not __debug__:raise SystemExit('Validation must run with normal Python, witho
 def encode(x):return (json.dumps(x,ensure_ascii=False,sort_keys=True,indent=2)+'\n').encode()
 def digest(x):return hashlib.sha256(x).hexdigest()
 def read(p):return json.loads(p.read_text())
+def source_number(raw):
+    if raw is None:return None
+    text=unicodedata.normalize('NFKC',str(raw)).replace(',','').strip()
+    if text.isdecimal():return int(text)
+    # Exact single Chinese numerals only; qualifiers and composite units remain null.
+    return {'零':0,'〇':0,'一':1,'二':2,'兩':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9,'十':10}.get(text)
 def flat(v):
     if isinstance(v,(dict,list)):return json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(',',':'))
     if v is None:return ''
@@ -48,6 +54,7 @@ def validate(facts,inventory,version):
         assert s['original_file_bytes']>0 and s['redistributed_original']is False
         assert s['original_file_type']in ['PDF','HTML']
         official_url(s['official_landing_url']);official_url(s['official_file_url'])
+    source_by_id={s['source_id']:s for s in sources}
     for r in obs:
         assert r['source_id']in sid
         if r['data_year']is None:
@@ -58,7 +65,12 @@ def validate(facts,inventory,version):
         else:
             assert isinstance(r['data_year'],int)and 1900<=r['data_year']<=2100
             assert r.get('year_assignment_status')!='multi_year_not_allocated','A multi-year figure must not be assigned to one year.'
-        assert isinstance(r['pdf_page_1_based'],int)and r['pdf_page_1_based']>0
+        if source_by_id[r['source_id']]['original_file_type']=='PDF':
+            assert isinstance(r['pdf_page_1_based'],int)and r['pdf_page_1_based']>0
+        else:
+            assert r['pdf_page_1_based']is None,'HTML observations must not invent a PDF page.'
+            assert r['printed_page']is None,'HTML observations must not borrow a printed PDF page.'
+            assert isinstance(r.get('source_locator'),str)and r['source_locator'].strip(),'HTML observations need a body locator.'
         assert r['metric_as_reported']
         if r['unit_as_reported']is None:assert r.get('unit_status')=='not_stated_in_source'
         assert r['default_aggregation_allowed']is False
@@ -72,9 +84,7 @@ def validate(facts,inventory,version):
             cs=r['derivation']['components'];assert {c['unit_raw']for c in cs}=={r['unit_as_reported']}
             assert sum(c['quantity_numeric']for c in cs)==value
         elif raw is not None:
-            n=unicodedata.normalize('NFKC',str(raw)).replace(',','').strip()
-            if n.isdecimal():assert int(n)==value
-            else:assert value is None
+            assert source_number(raw)==value,('quantity_conversion',r['observation_id'],raw,value)
         else:assert value is None,'Missing source number must not acquire an imputed numeric value.'
     for r in facts['relations']:
         for k in ['parent','parent_observation_id','observation_id','from_observation_id','to_existing_observation_id','larger_scope','completion_subset','treatment_record','completed_record']:
@@ -160,14 +170,16 @@ def generate(facts,inventory,version):
         example(label,lambda r,s=suffix:r['observation_id']=='KHM-2024-'+s,'同年件、案、項各有原報範圍，不互換、不相加。')
     example('跨年期間',lambda r:r['data_year']is None,'保留原報期間，不平均分配到各年度。')
     example('程式推算',lambda r:r['numeric_origin']=='controller_derived','另標計算依據，不能當作原報總數。')
+    example('官方網頁',lambda r:source_map[r['source_id']]['original_file_type']=='HTML','依網頁的年度段落定位，不借用其他PDF的頁碼。')
     sample=['# 資料樣貌',f'\n版本：{version}。以下挑選不同資料型態，示範如何閱讀；不是隨機抽樣或可相加的統計表。\n',
       '|型態|館所｜資料年／期間|原報作業|原數字與量詞|如何閱讀|回查來源|','|---|---|---|---|---|---|']
     for label,row,note in examples:
         period=str(row['data_year'])if row['data_year']is not None else row['reporting_period_raw']
         raw=str(row['quantity_raw'])if row['quantity_raw']is not None else'程式推算 '+str(row['quantity_numeric'])
         source=source_map[row['source_id']]
+        original=('[官方PDF第'+str(row['pdf_page_1_based'])+'頁]('+source['official_file_url']+'#page='+str(row['pdf_page_1_based'])+')')if source['original_file_type']=='PDF'else('[官方網頁]('+source['official_file_url']+')')
         values=[label,row['organization_name']+'｜'+period,row['metric_as_reported'],quantity_display(row),note,
-          '[逐筆資料](records/'+row['observation_id']+'.json)／[官方PDF第'+str(row['pdf_page_1_based'])+'頁]('+source['official_file_url']+'#page='+str(row['pdf_page_1_based'])+')']
+          '[逐筆資料](records/'+row['observation_id']+'.json)／'+original]
         sample.append('|'.join(['']+[v.replace('|','／').replace('\n',' ')for v in values]+['']))
     sample+=['\n每筆完整資料還保留完成狀態、對象範圍、來源版次與雜湊。近似量或雙單位的精確數值欄留空，是保留不確定性。\n',
       '[依館所查找](README.md)｜[全部CSV資料](../data/observations.csv)｜[欄位說明](../docs/DATA_DICTIONARY.md)\n']

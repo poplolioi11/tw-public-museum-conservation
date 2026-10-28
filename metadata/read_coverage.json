@@ -555,6 +555,40 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2020,
+      "fact_rows": 4,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "臺北市立美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-c69c9258adf06de4"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "臺北市立美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-87263430fbb7b334"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 5,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "臺北市立美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-87263430fbb7b334",
+        "src-97a71364755deb98"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2023,
       "fact_rows": 2,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -684,8 +718,41 @@
       "source_ids": [
         "src-cbc631aca1cc8b5b"
       ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-ec76f7798e250091"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-b0bb570120618cb3"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-87530a6874d9bb16"
+      ]
     }
   ],
-  "dataset_version": "0.4.0",
+  "dataset_version": "0.5.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }

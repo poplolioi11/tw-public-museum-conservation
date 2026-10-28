@@ -1,6 +1,6 @@
 # 資料樣貌
 
-版本：0.4.0。以下挑選不同資料型態，示範如何閱讀；不是隨機抽樣或可相加的統計表。
+版本：0.5.0。以下挑選不同資料型態，示範如何閱讀；不是隨機抽樣或可相加的統計表。
 
 |型態|館所｜資料年／期間|原報作業|原數字與量詞|如何閱讀|回查來源|
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 |工作項數|高雄市立歷史博物館｜2024|典藏文物修復及維護工作|22 項|同年件、案、項各有原報範圍，不互換、不相加。|[逐筆資料](records/KHM-2024-conservation-work-items.json)／[官方PDF第52頁](https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/138582/9d920ab0-b661-4da4-98c3-2e9c33c88284.pdf#page=52)|
 |跨年期間|國立臺灣史前文化博物館｜2020-2022|考古學整飭|5,910 件|保留原報期間，不平均分配到各年度。|[逐筆資料](records/nmp-2020-2022-archaeology-arrangement.json)／[官方PDF第27頁](https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMTc0NDU0LzI0NWQ0YTQ1LWY5OGQtNDVmNy1iMTI2LWM2Y2M1ZmRkM2RkNi5wZGY%3d&n=MjAyMC0yMDIy5bm05aCxKOS4reaWhykucGRm#page=27)|
 |程式推算|臺北市立美術館｜2023|館內自行修護|程式推算 30 件|另標計算依據，不能當作原報總數。|[逐筆資料](records/tfam-2023-internal-derived.json)／[官方PDF第61頁](https://www.tfam.museum/AnnualReport/2023/2023tfam_annualreport_ch.pdf#page=61)|
+|官方網頁|臺北市立美術館｜2021|因應展示整理|2 件|依網頁的年度段落定位，不借用其他PDF的頁碼。|[逐筆資料](records/tfam-2021-display_arrangement-html.json)／[官方網頁](https://www.tfam.museum/Common/editor.aspx?id=39)|
 
 每筆完整資料還保留完成狀態、對象範圍、來源版次與雜湊。近似量或雙單位的精確數值欄留空，是保留不確定性。
 

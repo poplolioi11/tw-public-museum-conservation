@@ -10,6 +10,8 @@ def hashes(root):
 def main():
     facts=builder.read(ROOT/'data/facts.json');inventory=builder.read(ROOT/'metadata/inventory.json');version=(ROOT/'VERSION').read_text().strip()
     checks=builder.validate(facts,inventory,version)
+    assert builder.source_number('兩')==2 and builder.source_number('〇')==0
+    assert builder.source_number('近兩')is None and builder.source_number('兩組（四件）')is None
     rows=[json.loads(line)for line in(ROOT/'data/observations.jsonl').read_text().splitlines()]
     assert rows==facts['observations']
     schema=builder.read(ROOT/'schema/observation.schema.json')
@@ -49,6 +51,19 @@ def main():
     try:builder.validate(multi,inventory,version)
     except AssertionError:pass
     else:raise AssertionError('multi-year figure silently became a single-year value')
+    # Synthetic contract fixture: an HTML source has a body locator, never borrowed PDF pages.
+    html=json.loads(json.dumps(facts));hr=html['observations'][0]
+    hr.update(source_id=next(s['source_id']for s in html['sources']if s['original_file_type']=='HTML'),pdf_page_1_based=None,printed_page=None,source_locator='synthetic annual body locator')
+    builder.validate(html,inventory,version)
+    for key,badvalue in [('pdf_page_1_based',1),('printed_page','13'),('source_locator','')]:
+        bad=json.loads(json.dumps(html));bad['observations'][0][key]=badvalue
+        try:builder.validate(bad,inventory,version)
+        except AssertionError:pass
+        else:raise AssertionError('HTML locator contract accepted invalid '+key)
+    bad=json.loads(json.dumps(facts));pr=next(r for r in bad['observations']if next(s for s in bad['sources']if s['source_id']==r['source_id'])['original_file_type']=='PDF');pr['pdf_page_1_based']=None
+    try:builder.validate(bad,inventory,version)
+    except AssertionError:pass
+    else:raise AssertionError('PDF observation lost its real page')
     with tempfile.TemporaryDirectory()as tmp:
         root=Path(tmp)/'pilot';root.mkdir()
         for folder in ['data','metadata','scripts','catalog','schema']:shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns('__pycache__'))
@@ -82,5 +97,5 @@ def main():
         target=root/'data/observations.csv';target.write_bytes(target.read_bytes()+b'broken\n');broken=hashes(root)
         result=subprocess.run(cmd+['--check'],capture_output=True,text=True)
         assert result.returncode!=0 and hashes(root)==broken
-    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
+    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'html_locator_contract':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
 if __name__=='__main__':main()

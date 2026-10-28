@@ -1,9 +1,9 @@
 # 臺灣公立館保存修護公開資料索引（持續整理）
 
-> 官方保存修護資料的來源與已覆讀分項索引。v0.3.0地方館與查詢分類版；不代表全國完整館數、完整年度修護總量或可比較績效。
+> 官方保存修護資料的來源與已覆讀分項索引。v0.5.0美術館補查與互動查詢版；不代表全國完整館數、完整年度修護總量或可比較績效。
 
-- 資料截至：2026-10-26
-- 發行日期：2026-10-26
+- 資料截至：2026-10-28
+- 發行日期：2026-10-28
 - 儲存庫名稱：tw-public-museum-conservation
 
 ## 文件
@@ -33,7 +33,7 @@
 - [正文分項涵蓋](metadata/read_coverage.json)
 - [欄位字典](docs/DATA_DICTIONARY.md)
 
-164列包含161筆原報觀測、1筆derived_summary、2筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
+205列包含202筆原報觀測、1筆derived_summary、2筆context_component；不得將列數或各列數字相加解釋為修復物件總量。
 
 ## 新增資料的必要限制
 
@@ -49,4 +49,12 @@
 - [館所索引](catalog/README.md)與[查詢方法](docs/QUERYING.md)。
 - catalog/records/{observation_id}.json提供逐筆紀錄及來源；以tag路徑引用固定版本。
 - action_categories為複選查詢標籤，不是作業數量拆分；completion_category不改寫原完成狀態，subject_scope_category不作法律權屬認證。
-- 36則來源查核對應35組館所年度；海生2020年報未定位與後續決算正文覆讀可並存，不能把不同scope互相覆蓋。
+- 61則來源查核對應60組館所年度；海生2020年報未定位與後續決算正文覆讀可並存，不能把不同scope互相覆蓋。
+
+## 網站與 HTML 來源
+
+- [互動查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)
+- [網站機讀清單](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)提供版本、完整公開 JSON 的內容雜湊與相對下載路徑。
+- 網站根目錄 llms.txt 提供簡明資料入口，records/{observation_id}.json 保留數值、來源與關聯註記。
+- 結構版本4.0：HTML數值的pdf_page_1_based與printed_page為null，source_locator保留年度段落定位；不能借用另一份PDF頁碼。
+- 原文「兩」保留於quantity_raw，明確單字數詞由程式轉為2；近似量、雙單位與未定位數值不因此改寫。

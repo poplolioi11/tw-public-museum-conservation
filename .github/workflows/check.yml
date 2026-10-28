@@ -1,0 +1,27 @@
+name: Check public museum data
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Check data and update behavior
+        run: |
+          python3 scripts/build_exports.py --check
+          python3 scripts/selfcheck.py
+      - name: Check generated website
+        run: |
+          python3 scripts/build_site.py --check
+          node --check site-src/app.js
+          test -f site/index.html
+          test -f site/manifest.json
+          test -z "$(find site -type l -print -quit)"

@@ -1,54 +1,239 @@
 {
   "build_exports_check": {
     "checks": {
-      "body_review_records": 52,
+      "body_review_records": 61,
       "context_components": 2,
       "derived_summaries": 1,
-      "distinct_source_year_review_cells": 51,
-      "fact_rows": 191,
+      "distinct_source_year_review_cells": 60,
+      "fact_rows": 205,
       "inventory_lookup_grid_cells_not_facts": 426,
       "multi_year_records_not_allocated_to_years": 3,
       "organizations_with_facts": 15,
-      "original_html_versions": 2,
-      "original_pdf_versions": 96,
-      "original_source_versions": 98,
+      "original_html_versions": 3,
+      "original_pdf_versions": 108,
+      "original_source_versions": 111,
       "query_facets_reproduced": true,
       "source_pdf_revalidation_performed": false,
-      "source_reported_observations": 188,
+      "source_reported_observations": 202,
       "unknown_values_are_not_zero": true
     },
     "mode": "offline_projection_and_export_consistency",
     "status": "pass"
   },
-  "dataset_version": "0.4.0",
-  "execution_location": "local_python_on_mac",
+  "dataset_version": "0.5.0",
+  "execution_location": "local_python_and_own_headless_chromium_on_mac",
   "full_json_schema_conformance_claimed": false,
   "jsonschema_package_used": false,
-  "scope": "offline_projection_export_update_behavior_and_schema_subset; source PDF evidence reviewed separately",
+  "public_projection_preflight": {
+    "historical_blobs_scanned": 514,
+    "old_observations_preserved": 191,
+    "reviewed_public_files": 489,
+    "source_originals_and_private_files_excluded": true
+  },
+  "scope": "public_projection_export_consistency_schema_subset_update_failure_behavior_and_static_website; original source evidence reviewed separately",
   "selfcheck": {
     "changed_source_requires_review": true,
     "check_detects_export_corruption_without_writing": true,
     "checks": {
-      "body_review_records": 52,
+      "body_review_records": 61,
       "context_components": 2,
       "derived_summaries": 1,
-      "distinct_source_year_review_cells": 51,
-      "fact_rows": 191,
+      "distinct_source_year_review_cells": 60,
+      "fact_rows": 205,
       "inventory_lookup_grid_cells_not_facts": 426,
       "multi_year_records_not_allocated_to_years": 3,
       "organizations_with_facts": 15,
-      "original_html_versions": 2,
-      "original_pdf_versions": 96,
-      "original_source_versions": 98,
+      "original_html_versions": 3,
+      "original_pdf_versions": 108,
+      "original_source_versions": 111,
       "query_facets_reproduced": true,
       "source_pdf_revalidation_performed": false,
-      "source_reported_observations": 188,
+      "source_reported_observations": 202,
       "unknown_values_are_not_zero": true
     },
     "csv_jsonl_sqlite_equal": true,
+    "html_locator_contract": true,
     "invalid_candidate_preserves_previous": true,
     "status": "pass",
     "unchanged_writes_zero_files": true
   },
-  "validated_at_utc": "2026-10-26T15:03:10.997762+00:00"
+  "source_evidence": {
+    "cloud_raw_stream_readback": {
+      "bytes": 587185269,
+      "frozen_input_json_files": 2,
+      "local_reference_unchanged": true,
+      "original_html_files": 1,
+      "original_pdf_files": 14,
+      "sha256_and_byte_counts_match": true,
+      "source_and_frozen_input_files": 17,
+      "status": "pass"
+    },
+    "main_agent_original_page_spotcheck": [
+      {
+        "pdf_page_1_based": 51,
+        "source_id": "src-c69c9258adf06de4",
+        "verified": "兩幅 and 19件 scopes preserved separately"
+      },
+      {
+        "pdf_page_1_based": 23,
+        "source_id": "src-ec76f7798e250091",
+        "verified": "12件油畫 subset retained; mixed-scope total not adopted"
+      }
+    ],
+    "new_observations": 14,
+    "new_source_versions": 13,
+    "reused_prior_source_versions": 2,
+    "source_originals_adopted_this_round": 15
+  },
+  "validated_at_utc": "2026-10-28T09:46:40.649746+00:00",
+  "website_manifest_sha256": "332b44dbca82948a03d2a6de9e0132ff2aa5e578325b650f2f496cda2362f56f",
+  "website_tests": {
+    "builder_contract": {
+      "checks": [
+        {
+          "name": "candidate --check does not write outputs",
+          "status": "pass"
+        },
+        {
+          "name": "unchanged build preserves content and mtime",
+          "status": "pass"
+        },
+        {
+          "name": "full public facts copied exactly with content hash and bytes",
+          "status": "pass"
+        },
+        {
+          "name": "stale template detected without writing in --check",
+          "status": "pass"
+        },
+        {
+          "name": "changed canonical input detected without writing in --check",
+          "status": "pass"
+        },
+        {
+          "name": "only old manifest-tracked generated hash removed; untracked original retained",
+          "status": "pass"
+        },
+        {
+          "name": "VERSION/facts mismatch fails before output mutation",
+          "status": "pass"
+        },
+        {
+          "name": "concurrent source mutation simulation rejected before outputs",
+          "status": "pass"
+        }
+      ],
+      "dataset_version": "0.5.0",
+      "facts_sha256": "92ba2cd9f78754633ebb8fad9ebe2f859844d36be5aff371b64b8b0f6c283908",
+      "manifest_sha256": "332b44dbca82948a03d2a6de9e0132ff2aa5e578325b650f2f496cda2362f56f",
+      "status": "passed"
+    },
+    "final_targeted_suite": {
+      "browser": "151.0.7922.34",
+      "checks": [
+        {
+          "name": "actual TFAM 2022 observation_ids relation preserves note/type and links exact records",
+          "status": "pass"
+        },
+        {
+          "name": "actual TFAM 2021 HTML locator with no invented PDF or printed page",
+          "status": "pass"
+        },
+        {
+          "name": "actual Chinese raw quantity 兩 remains distinct from numeric 2",
+          "status": "pass"
+        },
+        {
+          "name": "CSV provenance covers every matching row including HTML, raw 兩, nulls and source SHA/bytes",
+          "status": "pass"
+        },
+        {
+          "name": "no page errors or console errors in primary UI flow",
+          "status": "pass"
+        }
+      ],
+      "dataset_version": "0.5.0",
+      "facts_sha256": "92ba2cd9f78754633ebb8fad9ebe2f859844d36be5aff371b64b8b0f6c283908",
+      "headless": true,
+      "manifest_sha256": "332b44dbca82948a03d2a6de9e0132ff2aa5e578325b650f2f496cda2362f56f",
+      "status": "passed",
+      "tested_at": "2026-10-28T09:44:21.403Z"
+    },
+    "initial_full_suite": {
+      "browser": "151.0.7922.34",
+      "checks": [
+        {
+          "name": "subpath load, full record count, labelled selects",
+          "status": "pass"
+        },
+        {
+          "name": "CSV downloads all matches beyond current page, BOM, null, zero, raw strings",
+          "status": "pass"
+        },
+        {
+          "name": "pagination changes rows without changing full filter download scope",
+          "status": "pass"
+        },
+        {
+          "name": "source zero stays visible and URL filters survive reload",
+          "status": "pass"
+        },
+        {
+          "name": "parent-child non-additive details, complete source SHA, fixed JSON, keyboard escape",
+          "status": "pass"
+        },
+        {
+          "name": "multi-year period is distinct and not copied into annual filter",
+          "status": "pass"
+        },
+        {
+          "name": "action, unit, completion, search combine and download all filtered rows",
+          "status": "pass"
+        },
+        {
+          "name": "review-only organization and empty result explain limited scope",
+          "status": "pass"
+        },
+        {
+          "name": "dual-unit raw display, approximate raw, derived record marked and unknown publication",
+          "status": "pass"
+        },
+        {
+          "name": "mobile 390px has no horizontal overflow and keyboard-closeable source",
+          "status": "pass"
+        },
+        {
+          "name": "static HTML exposes manifest and public index without JS",
+          "status": "pass"
+        },
+        {
+          "name": "manifest version mismatch shows error and retry recovers",
+          "status": "pass"
+        },
+        {
+          "name": "file byte length mismatch shows error",
+          "status": "pass"
+        },
+        {
+          "name": "file hash mismatch shows error",
+          "status": "pass"
+        },
+        {
+          "name": "HTML locator and untrusted source text rendered safely (test fixture only)",
+          "status": "pass"
+        },
+        {
+          "name": "no page errors or console errors in primary UI flow",
+          "status": "pass"
+        }
+      ],
+      "dataset_version": "0.5.0",
+      "facts_sha256": "92ba2cd9f78754633ebb8fad9ebe2f859844d36be5aff371b64b8b0f6c283908",
+      "headless": true,
+      "manifest_sha256": "792db296b12648b60f5a1ad462fb4dc5d7198eff87a2f815e130d52632d25df1",
+      "status": "passed",
+      "tested_at": "2026-10-28T09:35:23.865Z"
+    },
+    "scope_note": "Full 16-case suite ran after 205-row integration. Later relation/provenance UI changes were covered by 5 targeted checks; the final builder passed 8 contract checks. These are local headless tests, not physical-device or deployed-site acceptance."
+  }
 }

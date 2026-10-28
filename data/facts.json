@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-28",
   "body_reviews": [
     {
       "interpretation_note": "本輪未定位2020原年度報；後年回述不替代原報，未定位不表示未公開或數量為零。",
@@ -1795,9 +1795,367 @@
       ],
       "target_data_year": 2025,
       "verified_at": "2026-10-26"
+    },
+    {
+      "interpretation_note": "三年來源與正文均已定位。2021年報無明列量的已讀範圍，與另採HTML明列量分開。 只核列示頁及HTML年度段落，非全文查核；未量化不作0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "tfam-2020-oil_painting_restoration_annual",
+        "tfam-2020-calligraphy_remounting",
+        "tfam-2020-oil_project_phase2",
+        "tfam-2020-oil_project_two_completed"
+      ],
+      "official_entry_url": "https://www.tfam.museum/AnnualReport/2020/2020tfam_annualreport_ch.pdf?ddlLang=zh-tw",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "review_id": "review-BASE-030-2020-stage8",
+      "review_scope": "年報指定典藏保存／修復及必要大事記；2021數值與2022補充數值另取官方HTML，不混同來源",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        51,
+        67,
+        68
+      ],
+      "source_ids": [
+        "src-c69c9258adf06de4"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            51,
+            67,
+            68
+          ],
+          "review_scope": "實際讀圖之指定典藏保存／修復段落，2020另讀採用大事記；不稱全文。",
+          "source_id": "src-c69c9258adf06de4"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "三年來源與正文均已定位。2021年報無明列量的已讀範圍，與另採HTML明列量分開。 只核列示頁及HTML年度段落，非全文查核；未量化不作0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "tfam-2021-outsourced_restoration-html",
+        "tfam-2021-display_arrangement-html"
+      ],
+      "official_entry_url": "https://www.tfam.museum/AnnualReport/2021/2021tfam_annualreport_ch.pdf",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "review_id": "review-BASE-030-2021-stage8",
+      "review_scope": "年報指定典藏保存／修復及必要大事記；2021數值與2022補充數值另取官方HTML，不混同來源",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        52,
+        61
+      ],
+      "source_ids": [
+        "src-e0f72b22a2e269cb",
+        "src-87263430fbb7b334"
+      ],
+      "source_locators": [
+        {
+          "locator": "典藏修復／修復成果／2021年委外修復……等5件作品",
+          "locator_type": "html_article_body",
+          "source_id": "src-87263430fbb7b334"
+        },
+        {
+          "locator": "典藏修復／修復成果／2021年段落／並因應展示整理……2件作品",
+          "locator_type": "html_article_body",
+          "source_id": "src-87263430fbb7b334"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            52,
+            61
+          ],
+          "review_scope": "實際讀圖之指定典藏保存／修復段落，2020另讀採用大事記；不稱全文。",
+          "source_id": "src-e0f72b22a2e269cb"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "三年來源與正文均已定位。2021年報無明列量的已讀範圍，與另採HTML明列量分開。 只核列示頁及HTML年度段落，非全文查核；未量化不作0或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "tfam-2022-exhibition_collection_restoration",
+        "tfam-2022-preservation_measures",
+        "tfam-2022-new_collection_exhibition_treatment",
+        "tfam-2022-display_treatment",
+        "tfam-2022-routine_restoration-html"
+      ],
+      "official_entry_url": "https://www.tfam.museum/AnnualReport/2022/2022tfam_annualreport_ch.pdf",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "review_id": "review-BASE-030-2022-stage8",
+      "review_scope": "年報指定典藏保存／修復及必要大事記；2021數值與2022補充數值另取官方HTML，不混同來源",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        55,
+        61
+      ],
+      "source_ids": [
+        "src-97a71364755deb98",
+        "src-87263430fbb7b334"
+      ],
+      "source_locators": [
+        {
+          "locator": "典藏修復／修復成果／2022年段落／定期維護部分，本年度修復……等9件作品",
+          "locator_type": "html_article_body",
+          "source_id": "src-87263430fbb7b334"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            55,
+            61
+          ],
+          "review_scope": "實際讀圖之指定典藏保存／修復段落，2020另讀採用大事記；不稱全文。",
+          "source_id": "src-97a71364755deb98"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "年報PDF8印刷15有藝術品修復與維護的完成敘述，未明載原報數字與量詞；不依名稱數推件數。本輪未另定位109年度行政法人執行成果原件。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "review-BASE-058-2020-stage8",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        8,
+        27
+      ],
+      "source_ids": [
+        "src-9776e48139fd601d"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            8,
+            27
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-9776e48139fd601d"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "年報典藏段PDF3至5及全檔關鍵字掃描、本輪另讀行政法人高美館分章，未見適用既有動產修護量；入藏、外借、3D建模及教育活動不作修護數。本輪未見不等於未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "review-BASE-058-2021-stage8",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        3,
+        4,
+        5,
+        24
+      ],
+      "source_ids": [
+        "src-f54466c8f7cc93b8",
+        "src-702b9e3c5ed5ddee"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            3,
+            4,
+            5,
+            24
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-f54466c8f7cc93b8"
+        },
+        {
+          "pdf_pages_1_based": [],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-702b9e3c5ed5ddee"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "年報PDF11印刷18至19記高美館典藏品修復及教育推廣，無適用原報修護數字與量詞；另讀行政法人高美館分章，未見合格量。本輪未見不等於未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "review-BASE-058-2022-stage8",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        11,
+        30
+      ],
+      "source_ids": [
+        "src-650d4d8dbd83b82a",
+        "src-db7ecc443847c7ef"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            11,
+            30
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-650d4d8dbd83b82a"
+        },
+        {
+          "pdf_pages_1_based": [],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-db7ecc443847c7ef"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "採行政法人高美館分章油畫分項；園區作品、移撥雕塑與原報合計待核動產範圍。年報PDF22主要是修復展示推廣，沒有替代年度修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KMFA-2023-oil-painting-restoration"
+      ],
+      "official_entry_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "review-BASE-058-2023-stage8",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        22,
+        23,
+        36,
+        43
+      ],
+      "source_ids": [
+        "src-23abe42cc85e48ec",
+        "src-ec76f7798e250091"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            22,
+            43
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-23abe42cc85e48ec"
+        },
+        {
+          "pdf_pages_1_based": [
+            23,
+            36
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-ec76f7798e250091"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "採行政法人高美館年度實績欄；年報PDF23的導覽與工坊人次不作修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KMFA-2024-existing-collection-restoration"
+      ],
+      "official_entry_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "review-BASE-058-2024-stage8",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        23,
+        35,
+        46
+      ],
+      "source_ids": [
+        "src-b462136aaee0b0f7",
+        "src-b0bb570120618cb3"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            23,
+            46
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-b462136aaee0b0f7"
+        },
+        {
+          "pdf_pages_1_based": [
+            35
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-b0bb570120618cb3"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-28"
+    },
+    {
+      "interpretation_note": "採行政法人高美館年度實績欄。年報PDF17約數是戶外雕塑／公共藝術存量，並非年度檢視或清潔量；推廣場次及參與人次不作修護量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KMFA-2025-existing-collection-restoration"
+      ],
+      "official_entry_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "review-BASE-058-2025-stage8",
+      "review_scope": "官方年度典藏業務指定段落／來源查找；非全文。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        17,
+        37,
+        47
+      ],
+      "source_ids": [
+        "src-04bdb3097844a8d3",
+        "src-87530a6874d9bb16"
+      ],
+      "source_page_reviews": [
+        {
+          "pdf_pages_1_based": [
+            17,
+            37
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-04bdb3097844a8d3"
+        },
+        {
+          "pdf_pages_1_based": [
+            47
+          ],
+          "review_scope": "指定典藏業務頁；非全文。",
+          "source_id": "src-87530a6874d9bb16"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-28"
     }
   ],
-  "dataset_version": "0.4.0",
+  "dataset_version": "0.5.0",
   "observations": [
     {
       "action_categories": [
@@ -7814,6 +8172,415 @@
     },
     {
       "action_categories": [
+        "mounting"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原數字為中文「兩」、單位幅；不改成件，不推全館全年總量。",
+      "metric_as_reported": "書畫作品重新裝裱",
+      "metric_class": "mounting",
+      "metric_label": "書畫作品重新裝裱",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2020-calligraphy_remounting",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 51,
+      "printed_page": "51",
+      "publication_year": 2021,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "兩",
+      "record_kind": "observation",
+      "source_id": "src-c69c9258adf06de4",
+      "source_locator": "典藏修復／PDF51／書畫作品重新裝裱",
+      "source_scope": "典藏修復年度敘述之書畫重新裝裱分項；短證據以刪節號略去作品及人名。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "幅",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "同段另記相關科學檢測分析研究，未將數量拆配至各作業。與大事記油畫個案數可能重疊，不再相加。",
+      "metric_as_reported": "油畫作品修復",
+      "metric_class": "restoration_as_reported_with_scientific_examination_context",
+      "metric_label": "油畫作品修復",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2020-oil_painting_restoration_annual",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 51,
+      "printed_page": "51",
+      "publication_year": 2021,
+      "quantity_numeric": 19,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "19",
+      "record_kind": "observation",
+      "source_id": "src-c69c9258adf06de4",
+      "source_locator": "典藏修復／PDF51／油畫作品修復",
+      "source_scope": "典藏修復年度敘述之油畫分項，非全館全年所有材質修復總量。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "completion_from_context",
+      "completion_status": "completed_under_parent_statement",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "完成語義來自父句「完成第二期」；原計畫年度不改寫為資料年。可能包含於同年19件油畫敘述，不再相加。",
+      "metric_as_reported": "油畫作品修復（第二期）",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "油畫作品修復（第二期）",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2020-oil_project_phase2",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 67,
+      "printed_page": "67",
+      "publication_year": 2021,
+      "quantity_numeric": 9,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "9",
+      "record_kind": "observation",
+      "source_id": "src-c69c9258adf06de4",
+      "source_locator": "典藏修復／PDF67／油畫作品修復（第二期）",
+      "source_scope": "2020.05大事記記載特定專案第二期；108年度是原計畫名稱，實績年依2020.05章節。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "explicit_completed",
+      "completion_status": "completed_explicit",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原文明載修復完成；可能與典藏年度敘述重疊，不再相加。",
+      "metric_as_reported": "作品修復完成",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "作品修復完成",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2020-oil_project_two_completed",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 68,
+      "printed_page": "68",
+      "publication_year": 2021,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-c69c9258adf06de4",
+      "source_locator": "典藏修復／PDF68／作品修復完成",
+      "source_scope": "2020.06大事記記載特定兩件油畫修復完成。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "展示整理是原報作業，與委外修復分開，不換作修復或合計。",
+      "metric_as_reported": "因應展示整理",
+      "metric_class": "arrangement",
+      "metric_label": "因應展示整理",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2021-display_arrangement-html",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": null,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2",
+      "record_kind": "observation",
+      "source_id": "src-87263430fbb7b334",
+      "source_locator": "典藏修復／修復成果／2021年段落／並因應展示整理……2件作品",
+      "source_scope": "2021年修復成果同段落、2022年起句之前的展示整理分項；不稱純修復。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_html_original_bytes_and_article_body_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "短證據以刪節號略去作品及個人姓名；未另明載完成日，保留年度作業語義。",
+      "metric_as_reported": "委外修復",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "委外修復",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2021-outsourced_restoration-html",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": null,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 5,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "5",
+      "record_kind": "observation",
+      "source_id": "src-87263430fbb7b334",
+      "source_locator": "典藏修復／修復成果／2021年委外修復……等5件作品",
+      "source_scope": "官方修復成果網頁明列2021年度之委外修復分項；非全館全年總量。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_html_original_bytes_and_article_body_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "官網另報定期維護部分9件，範圍不同，未以算術將8改9或推其他件數。",
+      "metric_as_reported": "修復處理作業",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "修復處理作業",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2022-display_treatment",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 61,
+      "printed_page": "61",
+      "publication_year": 2023,
+      "quantity_numeric": 8,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "8",
+      "record_kind": "observation",
+      "source_id": "src-97a71364755deb98",
+      "source_locator": "典藏修復／PDF61／修復處理作業",
+      "source_scope": "配合展出需求之特定作品修復處理分項；不是全館總量。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "短證據以刪節號略去個人姓名。與其他展覽或維護分項是否有重複未逐件核對。",
+      "metric_as_reported": "典藏品修復",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "典藏品修復",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2022-exhibition_collection_restoration",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 61,
+      "printed_page": "61",
+      "publication_year": 2023,
+      "quantity_numeric": 80,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "80",
+      "record_kind": "observation",
+      "source_id": "src-97a71364755deb98",
+      "source_locator": "典藏修復／PDF61／典藏品修復",
+      "source_scope": "典藏修復年度敘述之特定展覽藏品修復分項；非全館總量。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "短證據略去作品與個人姓名，不將列名另行計件。",
+      "metric_as_reported": "修護",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2022-new_collection_exhibition_treatment",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 61,
+      "printed_page": "61",
+      "publication_year": 2023,
+      "quantity_numeric": 5,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "5",
+      "record_kind": "observation",
+      "source_id": "src-97a71364755deb98",
+      "source_locator": "典藏修復／PDF61／修護",
+      "source_scope": "新進典藏作品展中特定劣化作品修護分項；非純選件或徵集量。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原詞對象是保存維護措施；不改稱藏品修復數，不與80件相加或建立一對一關係。",
+      "metric_as_reported": "製作保存維護措施",
+      "metric_class": "maintenance",
+      "metric_label": "製作保存維護措施",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2022-preservation_measures",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": 61,
+      "printed_page": "61",
+      "publication_year": 2023,
+      "quantity_numeric": 120,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "120",
+      "record_kind": "observation",
+      "source_id": "src-97a71364755deb98",
+      "source_locator": "典藏修復／PDF61／製作保存維護措施",
+      "source_scope": "為既有館藏所製作保存維護措施的原報量；不是藝術品新增製作量。",
+      "subject_scope": "本館典藏品之保存維護措施；120件為措施量，未明示等於120件藏品。",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_render_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "原報特定作業或分項，未驗互斥及逐件去重，不逕相加",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "as_reported_annual_operation",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "官網9件與年報8件不同敘述範圍，可能重疊；不相加、不互相改寫，也不按作品列名補算其他件數。",
+      "metric_as_reported": "定期維護部分，本年度修復",
+      "metric_class": "combined_maintenance_restoration",
+      "metric_label": "定期維護部分，本年度修復",
+      "numeric_origin": "source_reported",
+      "observation_id": "tfam-2022-routine_restoration-html",
+      "organization_id": "BASE-030",
+      "organization_name": "臺北市立美術館",
+      "pdf_page_1_based": null,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 9,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "9",
+      "record_kind": "observation",
+      "source_id": "src-87263430fbb7b334",
+      "source_locator": "典藏修復／修復成果／2022年段落／定期維護部分，本年度修復……等9件作品",
+      "source_scope": "官網2022年段落的定期維護修復分項；與年報配合展出需求8件分項未建立完整映射。",
+      "subject_scope": "本館典藏品（依原報典藏修復段落；未另核法律權屬）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_html_original_bytes_and_article_body_read",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
         "restoration_as_reported"
       ],
       "aggregation_role": "standalone_scope",
@@ -9207,6 +9974,114 @@
       "unit_status": "reported",
       "verification_status": "worker_and_controller_text_and_render_checked",
       "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "reported_component",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported_no_explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "修復／修護為原報用語，不改稱純結構修復；不同媒材與處置難度不可用數量直接比較。原件出版年本輪未核，不套用同資料年度年報的出版年。 只採油畫分項；同段園區／移撥作品及合計動產範圍待核，未併入此筆。同份實績表重述同作業，不再新增觀測。",
+      "metric_as_reported": "修復修護",
+      "metric_class": "museum_reported_treatment_component",
+      "metric_label": "修復修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "KMFA-2023-oil-painting-restoration",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "pdf_page_1_based": 23,
+      "printed_page": "17",
+      "publication_year": null,
+      "quantity_numeric": 12,
+      "quantity_qualifier": "exact",
+      "quantity_raw": "12",
+      "record_kind": "observation",
+      "source_id": "src-ec76f7798e250091",
+      "source_scope": "年度原報修復修護之油畫分項；不是本館全年所有材質的修護總量。",
+      "subject_scope": "原報既有典藏品之油畫分項；依同份報告PDF36實績表確認既有典藏脈絡，未另核法律權屬。",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "annual_reported_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported_no_explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "修復／修護為原報用語，不改稱純結構修復；不同媒材與處置難度不可用數量直接比較。原件出版年本輪未核，不套用同資料年度年報的出版年。",
+      "metric_as_reported": "修復既有典藏品",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "修復既有典藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "KMFA-2024-existing-collection-restoration",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "pdf_page_1_based": 35,
+      "printed_page": "29",
+      "publication_year": null,
+      "quantity_numeric": 19,
+      "quantity_qualifier": "exact",
+      "quantity_raw": "19",
+      "record_kind": "observation",
+      "source_id": "src-b0bb570120618cb3",
+      "source_scope": "113年度業務執行成果欄之既有典藏品修復原報量；未另證每筆處置與去重。",
+      "subject_scope": "原報本館既有典藏品；未另核法律權屬或逐件動產分類。",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件作品",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "annual_reported_scope",
+      "classification_rule_version": "1.1",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported_no_explicit_completed",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "修復／修護為原報用語，不改稱純結構修復；不同媒材與處置難度不可用數量直接比較。原件出版年本輪未核，不套用同資料年度年報的出版年。",
+      "metric_as_reported": "修復既有典藏品",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "修復既有典藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "KMFA-2025-existing-collection-restoration",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "pdf_page_1_based": 47,
+      "printed_page": "43",
+      "publication_year": null,
+      "quantity_numeric": 57,
+      "quantity_qualifier": "exact",
+      "quantity_raw": "57",
+      "record_kind": "observation",
+      "source_id": "src-87530a6874d9bb16",
+      "source_scope": "114年度業務執行成果欄之既有典藏品修復原報量；未另證每筆處置與去重。",
+      "subject_scope": "原報本館既有典藏品；未另核法律權屬或逐件動產分類。",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件作品",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
     }
   ],
   "relations": [
@@ -9693,9 +10568,63 @@
         "KHM-2025-conservation-work-items"
       ],
       "type": "parallel_reported_units_not_converted"
+    },
+    {
+      "not_additive_together": true,
+      "note": "年度油畫19件與大事記9件、2件可能重疊；未建立完整逐件映射，不作總加或相減。",
+      "observation_ids": [
+        "tfam-2020-oil_painting_restoration_annual",
+        "tfam-2020-oil_project_phase2",
+        "tfam-2020-oil_project_two_completed"
+      ],
+      "relation_id": "tfam-2020-annual-and-chronology-not-added",
+      "relation_type": "potential_overlap_not_aggregated"
+    },
+    {
+      "not_additive_together": true,
+      "note": "委外修復與因應展示整理分別保留原詞，未宣稱互斥或合計。",
+      "observation_ids": [
+        "tfam-2021-outsourced_restoration-html",
+        "tfam-2021-display_arrangement-html"
+      ],
+      "relation_id": "tfam-2021-distinct-work-labels-not-added",
+      "relation_type": "parallel_reported_work_scopes"
+    },
+    {
+      "not_additive_together": true,
+      "note": "80件為藏品修復，120件為保存維護措施製作；不能相加或假設一對一。",
+      "observation_ids": [
+        "tfam-2022-exhibition_collection_restoration",
+        "tfam-2022-preservation_measures"
+      ],
+      "relation_id": "tfam-2022-objects-vs-protective-measures",
+      "relation_type": "different_subject_counts_not_converted"
+    },
+    {
+      "not_additive_together": true,
+      "note": "年報配合展出需求8件與官網定期維護部分9件各保留原口徑，不以算術推補、合併或判錯。",
+      "observation_ids": [
+        "tfam-2022-display_treatment",
+        "tfam-2022-routine_restoration-html"
+      ],
+      "relation_id": "tfam-2022-report-vs-html-scopes",
+      "relation_type": "parallel_official_scopes_overlap_unverified"
+    },
+    {
+      "note": "同份報告正文與年度實績表重述油畫修復修護分項，只保留一筆觀測。",
+      "observation_ids": [
+        "KMFA-2023-oil-painting-restoration"
+      ],
+      "pdf_pages_1_based": [
+        23,
+        36
+      ],
+      "relation_id": "KMFA-2023-same-work-repeated",
+      "source_id": "src-ec76f7798e250091",
+      "type": "same_operation_restatement_not_added"
     }
   ],
-  "schema_version": "3.0",
+  "schema_version": "4.0",
   "sources": [
     {
       "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL2ZpbGVzLzIwMjIxMi82Njg2MWI2MS1kYzlmLTRkZDMtOGE0YS01NDA0MzRkNzBlZDMucGRm&n=5ZyL56uL6Ie654Gj5q235Y%2by5Y2a54mp6aSoMjAyMOW5tOWgsS5wZGY%3d",
@@ -9723,6 +10652,20 @@
       "source_use": "numeric_evidence",
       "title": "臺北市立美術館2025年報",
       "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.kmfa.gov.tw/Uploads/files/2025%E9%AB%98%E7%BE%8E%E9%A4%A8%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "original_file_bytes": 4989772,
+      "original_file_pdf_pages": 37,
+      "original_file_sha256": "04bdb3097844a8d34c159490a81c520b22521e615d8fee1f021d47eaa41c022f",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-04bdb3097844a8d3",
+      "source_use": "body_review",
+      "title": "高雄市立美術館2025年度全記錄／年報",
+      "verified_at": "2026-10-28"
     },
     {
       "official_file_url": "https://www.tnam.museum/filesys/files/ch/about_us/freedomofinfo/80/%E5%8D%97%E7%BE%8E%E5%B9%B4%E5%A0%B12022-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
@@ -9832,6 +10775,20 @@
       "source_use": "numeric_evidence",
       "title": "國立臺灣博物館112年度單位決算報告（審定本）",
       "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.kmfa.gov.tw/Uploads/files/%E9%AB%98%E7%BE%8E%E9%A4%A82023%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "original_file_bytes": 9736979,
+      "original_file_pdf_pages": 43,
+      "original_file_sha256": "23abe42cc85e48ec4458722fc4cce0550f57350e941cef5bb9ed35482125cd43",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-23abe42cc85e48ec",
+      "source_use": "body_review",
+      "title": "高雄市立美術館2023年度全記錄／年報",
+      "verified_at": "2026-10-28"
     },
     {
       "official_file_url": "https://www.e-land.gov.tw/News_Content.aspx?n=11419&s=351290",
@@ -10076,6 +11033,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.kmfa.gov.tw/Uploads/files/2022%E5%B9%B4%E5%A0%B1%E5%85%A7%E9%A0%810927.pdf",
+      "official_landing_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "original_file_bytes": 21663528,
+      "original_file_pdf_pages": 30,
+      "original_file_sha256": "650d4d8dbd83b82a594196945b56f1eb2a141f99075ce14371f2d3700bdbec12",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-650d4d8dbd83b82a",
+      "source_use": "body_review",
+      "title": "高雄市立美術館2022年度全記錄／年報",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/001/Upload/520/relfile/14286/242243/48dca901-1b5d-4c42-a56d-b4b1f02f2801.pdf",
       "official_landing_url": "https://www.ntm.gov.tw/News_Content.aspx?n=9908&s=242243",
       "original_file_bytes": 6471410,
@@ -10126,6 +11097,20 @@
       "source_use": "numeric_evidence",
       "title": "國立臺灣美術館2020年報",
       "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/125529/2a11790e-0b01-4701-ba73-c422cf311344.pdf",
+      "official_landing_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/125529/2a11790e-0b01-4701-ba73-c422cf311344.pdf",
+      "original_file_bytes": 14696504,
+      "original_file_pdf_pages": 254,
+      "original_file_sha256": "702b9e3c5ed5ddee3a6c83b524a4a5dcf811650c23ea841df2d4e961acd17981",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-702b9e3c5ed5ddee",
+      "source_use": "body_review",
+      "title": "高雄市專業文化機構110年度執行成果暨決算報告",
+      "verified_at": "2026-10-28"
     },
     {
       "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvODYvUmVsRmlsZS8xMzY3NC85NTU0MjgvMjAyMOacqOWNmumkqOW5tOWgsS5wZGY%3d&n=MjAyMOacqOWNmumkqOW5tOWgsS5wZGY%3d",
@@ -10277,6 +11262,19 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.tfam.museum/Common/editor.aspx?id=39",
+      "official_landing_url": "https://www.tfam.museum/Common/editor.aspx?id=39",
+      "original_file_bytes": 108211,
+      "original_file_sha256": "87263430fbb7b334645b63e273ea9b17eee5fa9981f57845b446ef4b7ca1ab05",
+      "original_file_type": "HTML",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_HTML_not_redistributed",
+      "source_id": "src-87263430fbb7b334",
+      "source_use": "numeric_evidence",
+      "title": "典藏修復／修復成果（2021與2022年度段落）",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/143756/c786c9e9-4273-425a-bdd2-9b56c2fffc98.pdf",
       "official_landing_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/143756/c786c9e9-4273-425a-bdd2-9b56c2fffc98.pdf",
       "original_file_bytes": 21221224,
@@ -10372,6 +11370,34 @@
       "source_use": "numeric_evidence",
       "title": "國立臺灣美術館2023年報",
       "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.kmfa.gov.tw/Uploads/files/2020%E9%AB%98%E7%BE%8E%E9%A4%A8%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "original_file_bytes": 14754494,
+      "original_file_pdf_pages": 27,
+      "original_file_sha256": "9776e48139fd601dc6ad2bfe385441802f0af1b3448f23d3e6755ed17d8d8e62",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-9776e48139fd601d",
+      "source_use": "body_review",
+      "title": "高雄市立美術館2020年度全記錄／年報",
+      "verified_at": "2026-10-28"
+    },
+    {
+      "official_file_url": "https://www.tfam.museum/AnnualReport/2022/2022tfam_annualreport_ch.pdf",
+      "official_landing_url": "https://www.tfam.museum/AnnualReport/2022/2022tfam_annualreport_ch.pdf",
+      "original_file_bytes": 130693507,
+      "original_file_pdf_pages": 135,
+      "original_file_sha256": "97a71364755deb98664538632c0586b347d7fb3b181ab981810b591d0a846cb3",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-97a71364755deb98",
+      "source_use": "numeric_evidence",
+      "title": "2022北美館年報",
+      "verified_at": "2026-10-28"
     },
     {
       "official_file_url": "https://file.moc.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDk3L3JlbGZpbGUvMTE1NjkvMjU2ODMxLzM5ZjZlNDc5LWNmOTAtNDE4ZC1hMzY0LWM5YzRjY2JkNjQ5ZS5wZGY%3d&n=5Y%2by5YmN6aSoMjAyMy0yNOW5tOWgse%2b8iOi3qOmgge%2b8iS5wZGY%3d",
@@ -10633,6 +11659,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.kmfa.gov.tw/Uploads/files/%E9%AB%98%E7%BE%8E%E9%A4%A82024%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "original_file_bytes": 8106506,
+      "original_file_pdf_pages": 46,
+      "original_file_sha256": "b462136aaee0b0f76315c297e9cc02e872c403222e557a245b8aea6e55cc8ff1",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b462136aaee0b0f7",
+      "source_use": "body_review",
+      "title": "高雄市立美術館2024年度全記錄／年報",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://www.tfam.museum/AnnualReport/2023/2023tfam_annualreport_ch.pdf",
       "official_landing_url": "https://www.tfam.museum/AnnualReport/2023/2023tfam_annualreport_ch.pdf",
       "original_file_bytes": 97523862,
@@ -10782,6 +11822,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.tfam.museum/AnnualReport/2020/2020tfam_annualreport_ch.pdf?ddlLang=zh-tw",
+      "official_landing_url": "https://www.tfam.museum/AnnualReport/2020/2020tfam_annualreport_ch.pdf?ddlLang=zh-tw",
+      "original_file_bytes": 141014569,
+      "original_file_pdf_pages": 85,
+      "original_file_sha256": "c69c9258adf06de42feebb292e28f6738365daa36df4d98defd1c05fdc631007",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c69c9258adf06de4",
+      "source_use": "numeric_evidence",
+      "title": "2020北美館年報",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://ws.nmmba.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjIzL3JlbGZpbGUvNjQ1NC8xNTE4Mi80NDhjZTgwYy0xNTc4LTQ4MTgtYTNhMi00NWUxNWE3MDM5YWIucGRm&n=aOa1t%2beUn%2bmkqF8xMTTlubTloLFfMDblhbjol4%2fokpDpm4YucGRm&icon=.pdf",
       "official_landing_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=3A38B1109889C9B0",
       "original_file_bytes": 723918,
@@ -10837,6 +11891,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/130605/a036b4b0-127c-47cb-a2c1-72d585e58a92.pdf",
+      "official_landing_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/130605/a036b4b0-127c-47cb-a2c1-72d585e58a92.pdf",
+      "original_file_bytes": 14903511,
+      "original_file_pdf_pages": 254,
+      "original_file_sha256": "db7ecc443847c7ef11e5793395fbb3c5a700fad9bb64ccf35c2e4a991da4dc2d",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-db7ecc443847c7ef",
+      "source_use": "body_review",
+      "title": "高雄市專業文化機構111年度執行成果暨決算報告",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://file.moc.gov.tw/001/Upload/520/relfile/14286/259972/042f6e34-380e-4302-93e7-4ded587ae1be.pdf",
       "official_landing_url": "https://www.ntm.gov.tw/News_Content.aspx?n=9908&s=259972",
       "original_file_bytes": 4852448,
@@ -10875,6 +11943,20 @@
       "source_use": "numeric_evidence",
       "title": "2021臺南市美術館年報（中文版）",
       "verified_at": "2026-10-26"
+    },
+    {
+      "official_file_url": "https://www.tfam.museum/AnnualReport/2021/2021tfam_annualreport_ch.pdf",
+      "official_landing_url": "https://www.tfam.museum/AnnualReport/2021/2021tfam_annualreport_ch.pdf",
+      "original_file_bytes": 149313513,
+      "original_file_pdf_pages": 140,
+      "original_file_sha256": "e0f72b22a2e269cb96990fc355531b6f803b995fb2d20a053c1101e2fe3c8ac6",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e0f72b22a2e269cb",
+      "source_use": "body_review",
+      "title": "2021北美館年報",
+      "verified_at": "2026-10-28"
     },
     {
       "official_file_url": "https://thcdc.hakka.gov.tw/media/3laol4ei/109%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97-%E5%AF%A9%E5%AE%9A%E7%89%88.pdf?mediaDL=true",
@@ -10959,6 +12041,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/135312/e8685a4d-eb77-4f06-86a1-a521b63e4e48.pdf",
+      "official_landing_url": "https://cissearch.kcc.gov.tw/Upload/Attachment/Proposal/135312/e8685a4d-eb77-4f06-86a1-a521b63e4e48.pdf",
+      "original_file_bytes": 21071707,
+      "original_file_pdf_pages": 276,
+      "original_file_sha256": "ec76f7798e25009173d1c0986ee9c67eed508e0b1dc19b8e07618dd35023872e",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-ec76f7798e250091",
+      "source_use": "numeric_evidence",
+      "title": "高雄市專業文化機構112年度執行成果暨決算報告",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?n=5qGD5ZyS5biC56uL5aSn5rqq5pyo6Jed55Sf5oWL5Y2a54mp6aSoMjAyNOW5tOWgsS5wZGY%3D&u=LzAwMS9VcGxvYWQvODYvcmVsZmlsZS8xMzY3NC8xNTkzODQ3L2EzOTZjMmQ1LTk2MWYtNGM5OC1iMmQxLTZjOGMxZDdkZjcyOS5wZGY%3D",
       "official_landing_url": "https://wem.tycg.gov.tw/News_Photo_Content.aspx?n=9720&s=1593847",
       "original_file_bytes": 45374067,
@@ -11000,6 +12096,20 @@
       "verified_at": "2026-10-26"
     },
     {
+      "official_file_url": "https://www.kmfa.gov.tw/Uploads/files/%E9%AB%98%E7%BE%8E%E9%A4%A82021%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.kmfa.gov.tw/AboutUs/AboutKmfa/InfoEnKmfa01.htm",
+      "original_file_bytes": 18740125,
+      "original_file_pdf_pages": 24,
+      "original_file_sha256": "f54466c8f7cc93b82f4c0bd4fbc94a2f4ac0c1a924bfb734714ccf64d147302f",
+      "original_file_type": "PDF",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-f54466c8f7cc93b8",
+      "source_use": "body_review",
+      "title": "高雄市立美術館2021年度全記錄／年報",
+      "verified_at": "2026-10-28"
+    },
+    {
       "official_file_url": "https://www.sshm.ntpc.gov.tw/files/file_pool/4/0Q254404217722450956/114年度決算書.pdf",
       "official_landing_url": "https://www.sshm.ntpc.gov.tw/xmdoc/cont?xsmsid=0G244563901816087425",
       "original_file_bytes": 14448869,
@@ -11030,29 +12140,30 @@
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 52,
-    "body_review_source_file_versions": 52,
-    "body_review_target_year_cells": 51,
+    "body_review_records": 61,
+    "body_review_source_file_versions": 65,
+    "body_review_target_year_cells": 60,
     "context_component_records": 2,
     "derived_summary_records": 1,
     "multi_year_records_not_allocated_to_years": 3,
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 190
+      "source_reported": 204
     },
-    "numeric_support_source_file_versions": 62,
-    "observation_records": 188,
+    "numeric_support_source_file_versions": 66,
+    "observation_records": 202,
     "organizations_with_facts": 15,
     "organizations_with_facts_or_new_body_reviews": 18,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
-    "total_fact_rows": 191,
+    "total_fact_rows": 205,
     "units": {
-      "件": 131,
-      "件作品": 1,
+      "件": 142,
+      "件作品": 3,
       "件數": 6,
       "作品": 1,
       "卷": 1,
+      "幅": 1,
       "座": 1,
       "未明列": 2,
       "案": 5,
@@ -11068,9 +12179,9 @@
       "部": 1,
       "項": 2
     },
-    "verified_original_html_files": 2,
-    "verified_original_pdf_files": 96,
-    "verified_original_source_files": 98,
+    "verified_original_html_files": 3,
+    "verified_original_pdf_files": 108,
+    "verified_original_source_files": 111,
     "years": [
       2015,
       2016,

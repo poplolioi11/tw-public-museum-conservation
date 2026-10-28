@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="dataset-version" content="__DATASET_VERSION__">
+  <meta name="description" content="依館所、期間及原報作業查閱臺灣公立館保存修護資料，保留原始量詞、範圍與逐筆官方來源。">
+  <title>公立館保存修護資料｜原報查閱目錄</title>
+  <link rel="stylesheet" href="./app.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#results">跳到資料結果</a>
+<header class="masthead">
+  <div class="edition"><span>臺灣公立館・公開資料整理</span><span id="version">資料讀取中</span></div>
+  <div class="title-line"><div><p class="eyebrow">保存工作的原報紀錄</p><h1>公立館保存修護資料</h1><p class="subtitle">從館所年度報告，查閱每一筆數字的原詞、範圍與來源。</p></div><span class="seal" aria-hidden="true">原報<br>查閱</span></div>
+  <p class="scope-note">這是一份持續整理的有限來源目錄，並非全國完整統計。不同作業、期間與量詞不可直接相加；沒有符合紀錄，也不代表全年零修護。</p>
+  <nav aria-label="頁面導覽"><a href="#filters">篩選紀錄</a><a href="#coverage">查核範圍</a><a href="#about">如何閱讀</a></nav>
+</header>
+<main>
+  <section id="load-state" class="load-state" aria-live="polite" aria-atomic="true"><p id="load-message">正在讀取並核對資料完整性…</p><button id="retry" type="button" hidden>重試讀取</button></section>
+  <section id="filters" class="filter-section" aria-labelledby="filter-title" hidden>
+    <div class="section-title"><h2 id="filter-title">查閱條件</h2><p>各條件同時符合；跨年期間獨立列出，不拆成年份。</p></div>
+    <form id="filter-form" role="search">
+      <div class="search-row"><label for="search">文字搜尋<span class="hint">館名、原報詞、範圍、註記、紀錄識別碼</span></label><input id="search" name="q" type="search" autocomplete="off" placeholder="例如：整飭、裝裱、文獻"></div>
+      <div class="filter-grid">
+        <div><label for="museum">館所／組織</label><select id="museum" name="museum"><option value="">全部館所</option></select></div>
+        <div><label for="period">資料年／原報期間</label><select id="period" name="period"><option value="">全部期間</option></select></div>
+        <div><label for="action">作業分類</label><select id="action" name="action"><option value="">全部作業</option></select></div>
+        <div><label for="unit">原報單位</label><select id="unit" name="unit"><option value="">全部單位</option></select></div>
+        <div><label for="completion">完成狀態</label><select id="completion" name="completion"><option value="">全部完成狀態</option></select></div>
+        <div><label for="sort">排列方式</label><select id="sort" name="sort"><option value="museum">館名、期間、識別碼</option><option value="period">期間、館名、識別碼</option></select></div>
+      </div>
+      <div class="form-actions"><button id="reset" type="button" class="secondary">重設條件</button><button id="share" type="button" class="secondary">顯示分享網址</button><p id="share-note" role="status"></p></div>
+      <div id="share-box" hidden><label for="share-url">目前條件網址（可選取複製）</label><input id="share-url" type="url" readonly></div>
+    </form>
+  </section>
+  <section id="results" aria-labelledby="results-title" hidden>
+    <div class="result-heading"><div><p class="eyebrow">原報紀錄目錄</p><h2 id="results-title">查閱結果</h2><p id="result-count" aria-live="polite" aria-atomic="true"></p></div><button id="download" type="button">下載全部符合紀錄 CSV</button></div>
+    <p class="table-note">下列為「紀錄筆數」，並非修復物件總數。原報合計、分項、推導與脈絡列均保留標記，不可重複相加。</p>
+    <div id="empty" class="empty" role="status" aria-live="polite" hidden><h3>目前條件沒有符合紀錄</h3><p>可調整篩選條件。這不代表館所沒有公開資料，或該年修護量為零；下方另列本次有限查核範圍。</p></div>
+    <div class="table-wrap"><table id="records"><caption class="sr-only">符合條件的保存修護原報紀錄</caption><thead><tr><th scope="col">館所／期間</th><th scope="col">原報作業</th><th scope="col">原報數量</th><th scope="col">完成狀態</th><th scope="col">查閱</th></tr></thead><tbody id="rows"></tbody></table></div>
+    <nav class="pagination" aria-label="結果分頁"><button id="prev" class="secondary" type="button">上一頁</button><span id="page-label"></span><button id="next" class="secondary" type="button">下一頁</button></nav>
+  </section>
+  <section id="coverage" class="coverage" aria-labelledby="coverage-title" hidden><div class="section-title"><h2 id="coverage-title">有限查核範圍</h2><p>正文查核與數值紀錄分開記錄；本區的零筆數值不是年度零修護。</p></div><p id="coverage-intro"></p><div id="review-list"></div></section>
+  <section id="about" class="about" aria-labelledby="about-title"><p class="eyebrow">使用這份目錄</p><h2 id="about-title">把數字放回原來的句子</h2><div class="reading-columns"><div><h3>保留原詞與量詞</h3><p>「修護」可能涵蓋檢視、清潔、整飭或混合作業；件、案、項、次及跨年合計各有不同範圍。近似量與雙單位保持原字串，不強制換算。</p></div><div><h3>分清完成與執行</h3><p>年度執行不自動等於完成，「完整修護」也不推定已完成。每筆都保留完成狀態、對象範圍及比較限制。</p></div><div><h3>回到官方來源</h3><p>開啟紀錄可讀原報頁碼或網頁正文定位、出版年、原件完整 SHA-256 與固定逐筆 JSON。來源原件僅連結官方，不在本站重製 PDF。</p></div></div><p id="vocabulary-limits"></p><p class="data-index-links"><a href="./manifest.json">網站資料清單 manifest.json</a> · <a href="https://github.com/poplolioi11/tw-public-museum-conservation/tree/main/data">GitHub 公開資料索引</a></p><details><summary>資料檔案與完整性</summary><div id="integrity"></div></details><noscript><p class="error">此目錄的互動篩選需要 JavaScript。可由<a href="./manifest.json">資料清單</a>尋找完整 JSON 下載，或前往<a href="https://github.com/poplolioi11/tw-public-museum-conservation/tree/main/data">GitHub 公開資料索引</a>。</p></noscript></section>
+</main>
+<footer><p>曲宸宇／Chu, Chen-Yu・公開資料整理</p><p>有限查核、未知不補零、不作館際績效比較。</p></footer>
+<dialog id="record-dialog" aria-labelledby="record-title"><div class="dialog-top"><p class="eyebrow">逐筆來源紀錄</p><button id="close-dialog" type="button" class="secondary">關閉 ×</button></div><h2 id="record-title"></h2><div id="record-body"></div></dialog>
+</body>
+</html>

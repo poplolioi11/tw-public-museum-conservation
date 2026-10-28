@@ -1,0 +1,14 @@
+# 臺灣公立館保存修護公開資料索引
+
+資料版本 0.5.0；資料截點 2026-10-28。這是有限來源子集，不是全國完整修護統計。
+
+- [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
+- [本版完整公開事實](data/92ba2cd9f78754633ebb8fad9ebe2f859844d36be5aff371b64b8b0f6c283908.json)：observations、sources、relations、body_reviews 與範圍摘要。
+- [分類詞彙](data/892a545a271361a99683ba30fb0ce200c111519b2c2efc3d59b7458707cb6247.json)：分類標籤及使用限制。
+- 逐筆紀錄：records/{observation_id}.json，含 observation、source、relations。
+- [GitHub 說明與固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation)。
+
+共 205 列紀錄，列數不是修復物件數。保留原數字字串、量詞、完成狀態與官方來源。
+未知不是零；近似量與雙單位不強轉整數；跨年數值不拆成年份；分項、合計與可能重疊的批次不相加。
+HTML 來源以 source_locator 定位，PDF 頁碼為 null；PDF 來源以 pdf_page_1_based 定位。
+引用請同時提供資料版本、observation_id 與原官方來源及頁碼／正文定位。程式與文件的 MIT 不改變來源權利。
