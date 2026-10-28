@@ -204,6 +204,84 @@
       "data_year": 2020,
       "fact_rows": 2,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立海洋科技博物館",
+      "reported_periods": [
+        "中華民國109年度；業務計畫實施績效表執行成果欄"
+      ],
+      "source_ids": [
+        "src-df2b3c8500f51834"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立海洋科技博物館",
+      "reported_periods": [
+        "中華民國110年度；業務計畫實施績效表執行成果欄"
+      ],
+      "source_ids": [
+        "src-2683f25adc2cbd78"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立海洋科技博物館",
+      "reported_periods": [
+        "中華民國111年度；業務計畫實施績效表執行成果欄"
+      ],
+      "source_ids": [
+        "src-db2755c4e2a5ada6"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立海洋科技博物館",
+      "reported_periods": [
+        "中華民國112年度；業務計畫實施績效表執行成果欄"
+      ],
+      "source_ids": [
+        "src-8b00b3e95a88da51"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2024,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立海洋科技博物館",
+      "reported_periods": [
+        "中華民國113年度；業務計畫實施績效表執行成果欄"
+      ],
+      "source_ids": [
+        "src-c3779413972905cb"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "國立海洋科技博物館",
+      "reported_periods": [
+        "中華民國114年度；業務計畫實施績效表執行成果欄"
+      ],
+      "source_ids": [
+        "src-450a8d74fd5d5513"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2020,
+      "fact_rows": 2,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
       "organization_name": "國立臺灣博物館",
       "reported_periods": [],
       "source_ids": [
@@ -562,6 +640,58 @@
       "reported_periods": [],
       "source_ids": [
         "src-c18e42d214521bc8"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": null,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "reported_periods": [
+        "110年10月15日至111年9月30日"
+      ],
+      "source_ids": [
+        "src-a64d502224892713"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2020,
+      "fact_rows": 3,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "reported_periods": [
+        "109年"
+      ],
+      "source_ids": [
+        "src-0442736db293c8a2"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "reported_periods": [
+        "110年（同段計畫期110年10月15日至111年9月30日）"
+      ],
+      "source_ids": [
+        "src-a7672f10a1b3a9d4"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2025,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "reported_periods": [
+        "114年7月至12月"
+      ],
+      "source_ids": [
+        "src-1e7ca58a85a9e0b4"
       ]
     },
     {
@@ -980,6 +1110,6 @@
       ]
     }
   ],
-  "dataset_version": "0.10.0",
+  "dataset_version": "0.11.0",
   "note": "與凍結的426格盤點狀態不同；不回填未知數值為零。"
 }

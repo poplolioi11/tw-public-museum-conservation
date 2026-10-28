@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "data_schema_version": "4.0",
-  "dataset_version": "0.10.0",
+  "dataset_version": "0.11.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -185,7 +185,45 @@
       "scope": "順序五22列地方文史、考古與民俗館2020–2025第一輪來源查找",
       "source_review_records": 384,
       "unique_source_year_cells": 378
+    },
+    {
+      "completed_in_release": "v0.11.0",
+      "deployment_verification_basis": "原件、公開版本、manifest、完整下載與網站各自讀回；metadata不推定已發布或部署。",
+      "first_pass_priorities_1_to_6_completed": true,
+      "historical_rename_not_additional_organization": true,
+      "lookup_candidate_rows": 11,
+      "lookup_cells": 66,
+      "multi_year_records_not_allocated_to_years": 5,
+      "national_or_all_years_complete": false,
+      "new_observation_records": 18,
+      "new_original_cloud_raw_readback_all_sha256_match": true,
+      "new_original_cloud_raw_readback_bytes": 569284693,
+      "new_original_cloud_raw_readback_versions": 28,
+      "new_original_html_versions": 4,
+      "new_original_pdf_versions": 24,
+      "new_original_source_versions": 28,
+      "new_review_status_counts": {
+        "annual_scope_not_separable": 2,
+        "body_read_no_eligible_quantity_located": 38,
+        "numeric_observations_verified": 10,
+        "source_found_body_not_reviewed": 6,
+        "source_not_located_in_this_search": 10
+      },
+      "new_source_review_records": 66,
+      "old_280_records_288_sources_384_reviews_and_relations_preserved": true,
+      "organizations_including_body_review_by_id": 79,
+      "organizations_with_facts": 25,
+      "original_html_versions": 36,
+      "original_inventory_frozen": true,
+      "original_organization_names_including_review": 80,
+      "original_pdf_versions": 280,
+      "original_source_versions": 316,
+      "scope": "順序六11工作列自然科學靜態館藏2020–2025第一輪有界來源查找",
+      "source_review_records": 450,
+      "status": "reviewed_source_subset_prepared",
+      "total_fact_rows": 298,
+      "unique_source_year_cells": 426
     }
   ],
-  "ongoing_gaps": "順序五來源/正文/起點未知累計與父機構邊界逐格保留；下一批自然科學靜態館藏，仍非全國完整。"
+  "ongoing_gaps": "原定優先順序一至六第一輪已完成，仍非全國或全年全量；後續依逐格缺口與新附件、館別正文、完成清冊或逐年表等具體線索續核，不重複同文無效搜尋。"
 }

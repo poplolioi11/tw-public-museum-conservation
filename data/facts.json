@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "body_reviews": [
     {
       "interpretation_note": "本輪未定位2020原年度報；後年回述不替代原報，未定位不表示未公開或數量為零。",
@@ -12771,9 +12771,2532 @@
       "source_page_reviews": [],
       "target_data_year": 2025,
       "verified_at": "2026-10-28T15:34:40.652291+00:00"
+    },
+    {
+      "interpretation_note": "主來源可分新增蒐藏、數位資料及盤點；指定盤點是跨學門標本／文物合計，未分離既有靜態標本之保存修護作業。典藏範圍另含活體及多媒體，不把盤點或新增量直接當修復量，不自行配分靜態子集。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmns.edu.tw/ch/about/administration-service/rule/index.html",
+      "organization_id": "BASE-019",
+      "organization_name": "國立自然科學博物館",
+      "review_id": "batch6-main-BASE-019-2020",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        4
+      ],
+      "source_ids": [
+        "src-b4178df637adb32c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            4
+          ],
+          "review_scope": "自然物蒐集研究／加強文物典藏與維護、規劃標本盤點之執行成果欄，非其他財務或設施頁。",
+          "source_id": "src-b4178df637adb32c",
+          "text_read_pdf_pages_1_based": [
+            4
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "主來源可分新增蒐藏、數位資料及盤點；指定盤點是跨學門標本／文物合計，未分離既有靜態標本之保存修護作業。典藏範圍另含活體及多媒體，不把盤點或新增量直接當修復量，不自行配分靜態子集。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmns.edu.tw/ch/about/administration-service/rule/index.html",
+      "organization_id": "BASE-019",
+      "organization_name": "國立自然科學博物館",
+      "review_id": "batch6-main-BASE-019-2021",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-13b282621e0ce0d2"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "自然物蒐集研究／加強文物典藏與維護、規劃標本盤點之執行成果欄，非其他財務或設施頁。",
+          "source_id": "src-13b282621e0ce0d2",
+          "text_read_pdf_pages_1_based": [
+            9
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "主來源可分新增蒐藏、數位資料及盤點；指定盤點是跨學門標本／文物合計，未分離既有靜態標本之保存修護作業。典藏範圍另含活體及多媒體，不把盤點或新增量直接當修復量，不自行配分靜態子集。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmns.edu.tw/ch/about/administration-service/rule/index.html",
+      "organization_id": "BASE-019",
+      "organization_name": "國立自然科學博物館",
+      "review_id": "batch6-main-BASE-019-2022",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-57930feb3f1cf31a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "自然物蒐集研究／加強文物典藏與維護、規劃標本盤點之執行成果欄，非其他財務或設施頁。",
+          "source_id": "src-57930feb3f1cf31a",
+          "text_read_pdf_pages_1_based": [
+            9
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "主來源可分新增蒐藏、數位資料及盤點；指定盤點是跨學門標本／文物合計，未分離既有靜態標本之保存修護作業。典藏範圍另含活體及多媒體，不把盤點或新增量直接當修復量，不自行配分靜態子集。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmns.edu.tw/ch/about/administration-service/rule/index.html",
+      "organization_id": "BASE-019",
+      "organization_name": "國立自然科學博物館",
+      "review_id": "batch6-main-BASE-019-2023",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9
+      ],
+      "source_ids": [
+        "src-8aaf869c68ad1000"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            9
+          ],
+          "review_scope": "自然物蒐集研究／加強文物典藏與維護、規劃標本盤點之執行成果欄，非其他財務或設施頁。",
+          "source_id": "src-8aaf869c68ad1000",
+          "text_read_pdf_pages_1_based": [
+            9
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "主來源可分新增蒐藏、數位資料及盤點；指定盤點是跨學門標本／文物合計，未分離既有靜態標本之保存修護作業。典藏範圍另含活體及多媒體，不把盤點或新增量直接當修復量，不自行配分靜態子集。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmns.edu.tw/ch/about/administration-service/rule/index.html",
+      "organization_id": "BASE-019",
+      "organization_name": "國立自然科學博物館",
+      "review_id": "batch6-main-BASE-019-2024",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        7,
+        84,
+        86
+      ],
+      "source_ids": [
+        "src-f4a2758244caabcc",
+        "src-77dc95839eef88b3"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            7
+          ],
+          "review_scope": "自然物蒐集研究／加強文物典藏與維護、規劃標本盤點之執行成果欄，非其他財務或設施頁。",
+          "source_id": "src-f4a2758244caabcc",
+          "text_read_pdf_pages_1_based": [
+            7
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            84,
+            86
+          ],
+          "review_scope": "僅典藏對象／入館處理與標本來源表之範圍辨識；不擷取其他治理、設施或資源指標。",
+          "source_id": "src-77dc95839eef88b3",
+          "text_read_pdf_pages_1_based": [
+            84,
+            86
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "主來源可分新增蒐藏、數位資料及盤點；指定盤點是跨學門標本／文物合計，未分離既有靜態標本之保存修護作業。典藏範圍另含活體及多媒體，不把盤點或新增量直接當修復量，不自行配分靜態子集。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmns.edu.tw/ch/about/administration-service/rule/index.html",
+      "organization_id": "BASE-019",
+      "organization_name": "國立自然科學博物館",
+      "review_id": "batch6-main-BASE-019-2025",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        8
+      ],
+      "source_ids": [
+        "src-efcfdffa1a3df270"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            8
+          ],
+          "review_scope": "自然物蒐集研究／加強文物典藏與維護、規劃標本盤點之執行成果欄，非其他財務或設施頁。",
+          "source_id": "src-efcfdffa1a3df270",
+          "text_read_pdf_pages_1_based": [
+            8
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原段的典藏管理職掌、教學／展示標本、數位模型、圖書存量與教育活動不代既有動產藏品保存修護量；不能因科教／展示為主而推定沒有典藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "organization_id": "BASE-012",
+      "organization_name": "國立臺灣科學教育館",
+      "review_id": "batch6-main-BASE-012-2020",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        69,
+        112
+      ],
+      "source_ids": [
+        "src-52799d68d035855b",
+        "src-0d779702e5ec8916"
+      ],
+      "source_locators": [
+        {
+          "locator": "科教館年報＞109年度對應PDF附件列。",
+          "source_id": "src-0d779702e5ec8916"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            69,
+            112
+          ],
+          "review_scope": "僅典藏職掌、藏品數位應用、標本與文物科學教學或圖書館藏相關命中子段；非全卷逐字覆讀。",
+          "source_id": "src-52799d68d035855b",
+          "text_read_pdf_pages_1_based": [
+            69,
+            112
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "年報索引之目標年度附件列，只作版本／年度來源定位。",
+          "source_id": "src-0d779702e5ec8916",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原段的典藏管理職掌、教學／展示標本、數位模型、圖書存量與教育活動不代既有動產藏品保存修護量；不能因科教／展示為主而推定沒有典藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "organization_id": "BASE-012",
+      "organization_name": "國立臺灣科學教育館",
+      "review_id": "batch6-main-BASE-012-2021",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        17,
+        48,
+        82
+      ],
+      "source_ids": [
+        "src-2c3fc81186da6771",
+        "src-0d779702e5ec8916"
+      ],
+      "source_locators": [
+        {
+          "locator": "科教館年報＞110年度對應PDF附件列。",
+          "source_id": "src-0d779702e5ec8916"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            17,
+            48,
+            82
+          ],
+          "review_scope": "僅典藏職掌、藏品數位應用、標本與文物科學教學或圖書館藏相關命中子段；非全卷逐字覆讀。",
+          "source_id": "src-2c3fc81186da6771",
+          "text_read_pdf_pages_1_based": [
+            17,
+            48,
+            82
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "年報索引之目標年度附件列，只作版本／年度來源定位。",
+          "source_id": "src-0d779702e5ec8916",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原段的典藏管理職掌、教學／展示標本、數位模型、圖書存量與教育活動不代既有動產藏品保存修護量；不能因科教／展示為主而推定沒有典藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "organization_id": "BASE-012",
+      "organization_name": "國立臺灣科學教育館",
+      "review_id": "batch6-main-BASE-012-2022",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        17,
+        130,
+        135
+      ],
+      "source_ids": [
+        "src-7829d11700183f77",
+        "src-0d779702e5ec8916"
+      ],
+      "source_locators": [
+        {
+          "locator": "科教館年報＞111年度對應PDF附件列。",
+          "source_id": "src-0d779702e5ec8916"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            17,
+            130,
+            135
+          ],
+          "review_scope": "僅典藏職掌、藏品數位應用、標本與文物科學教學或圖書館藏相關命中子段；非全卷逐字覆讀。",
+          "source_id": "src-7829d11700183f77",
+          "text_read_pdf_pages_1_based": [
+            17,
+            130,
+            135
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "年報索引之目標年度附件列，只作版本／年度來源定位。",
+          "source_id": "src-0d779702e5ec8916",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原段的典藏管理職掌、教學／展示標本、數位模型、圖書存量與教育活動不代既有動產藏品保存修護量；不能因科教／展示為主而推定沒有典藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "organization_id": "BASE-012",
+      "organization_name": "國立臺灣科學教育館",
+      "review_id": "batch6-main-BASE-012-2023",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        17,
+        88,
+        120
+      ],
+      "source_ids": [
+        "src-3bb79351b0209548",
+        "src-0d779702e5ec8916"
+      ],
+      "source_locators": [
+        {
+          "locator": "科教館年報＞112年度對應PDF附件列。",
+          "source_id": "src-0d779702e5ec8916"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            17,
+            88,
+            120
+          ],
+          "review_scope": "僅典藏職掌、藏品數位應用、標本與文物科學教學或圖書館藏相關命中子段；非全卷逐字覆讀。",
+          "source_id": "src-3bb79351b0209548",
+          "text_read_pdf_pages_1_based": [
+            17,
+            88,
+            120
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "年報索引之目標年度附件列，只作版本／年度來源定位。",
+          "source_id": "src-0d779702e5ec8916",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原段的典藏管理職掌、教學／展示標本、數位模型、圖書存量與教育活動不代既有動產藏品保存修護量；不能因科教／展示為主而推定沒有典藏。指定段另含他館典藏合作，不把合作對象藏品或場域轉成本館修護數。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "organization_id": "BASE-012",
+      "organization_name": "國立臺灣科學教育館",
+      "review_id": "batch6-main-BASE-012-2024",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        17,
+        43,
+        44,
+        55,
+        67,
+        119
+      ],
+      "source_ids": [
+        "src-08919c738916b317",
+        "src-0d779702e5ec8916"
+      ],
+      "source_locators": [
+        {
+          "locator": "科教館年報＞113年度對應PDF附件列。",
+          "source_id": "src-0d779702e5ec8916"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            17,
+            43,
+            44,
+            55,
+            67,
+            119
+          ],
+          "review_scope": "僅典藏職掌、藏品數位應用、標本與文物科學教學或圖書館藏相關命中子段；非全卷逐字覆讀。",
+          "source_id": "src-08919c738916b317",
+          "text_read_pdf_pages_1_based": [
+            17,
+            43,
+            44,
+            55,
+            67,
+            119
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "年報索引之目標年度附件列，只作版本／年度來源定位。",
+          "source_id": "src-0d779702e5ec8916",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原段的典藏管理職掌、教學／展示標本、數位模型、圖書存量與教育活動不代既有動產藏品保存修護量；不能因科教／展示為主而推定沒有典藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "organization_id": "BASE-012",
+      "organization_name": "國立臺灣科學教育館",
+      "review_id": "batch6-main-BASE-012-2025",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        15,
+        34,
+        94,
+        106
+      ],
+      "source_ids": [
+        "src-c65671a27f1415e8",
+        "src-0d779702e5ec8916"
+      ],
+      "source_locators": [
+        {
+          "locator": "科教館年報＞114年度對應PDF附件列。",
+          "source_id": "src-0d779702e5ec8916"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            15,
+            34,
+            94,
+            106
+          ],
+          "review_scope": "僅典藏職掌、藏品數位應用、標本與文物科學教學或圖書館藏相關命中子段；非全卷逐字覆讀。",
+          "source_id": "src-c65671a27f1415e8",
+          "text_read_pdf_pages_1_based": [
+            15,
+            34,
+            94,
+            106
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "年報索引之目標年度附件列，只作版本／年度來源定位。",
+          "source_id": "src-0d779702e5ec8916",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定章段為展場、劇場及觀測教學設施營運／維護，未取得可辨識為既有靜態館藏保存修護之原報量；不能由展示設備維護或影像內容更新推作藏品修護，也不據此宣稱全館沒有收藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "organization_id": "BASE-032",
+      "organization_name": "臺北市立天文科學教育館",
+      "review_id": "batch6-main-BASE-032-2020",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        2
+      ],
+      "source_ids": [
+        "src-b61846f92782bb4c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2
+          ],
+          "review_scope": "經營管理章之展示組／視聽組館務與展示維護指定子段。",
+          "source_id": "src-b61846f92782bb4c",
+          "text_read_pdf_pages_1_based": [
+            2
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定章段為展場、劇場及觀測教學設施營運／維護，未取得可辨識為既有靜態館藏保存修護之原報量；不能由展示設備維護或影像內容更新推作藏品修護，也不據此宣稱全館沒有收藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "organization_id": "BASE-032",
+      "organization_name": "臺北市立天文科學教育館",
+      "review_id": "batch6-main-BASE-032-2022",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        2
+      ],
+      "source_ids": [
+        "src-f2fd4d2474913bd8"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2
+          ],
+          "review_scope": "經營管理章之展示組／視聽組館務與展示維護指定子段。",
+          "source_id": "src-f2fd4d2474913bd8",
+          "text_read_pdf_pages_1_based": [
+            2
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定章段為展場、劇場及觀測教學設施營運／維護，未取得可辨識為既有靜態館藏保存修護之原報量；不能由展示設備維護或影像內容更新推作藏品修護，也不據此宣稱全館沒有收藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "organization_id": "BASE-032",
+      "organization_name": "臺北市立天文科學教育館",
+      "review_id": "batch6-main-BASE-032-2023",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        2
+      ],
+      "source_ids": [
+        "src-32f06c0a296fb74b"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2
+          ],
+          "review_scope": "經營管理章之展示組／視聽組館務與展示維護指定子段。",
+          "source_id": "src-32f06c0a296fb74b",
+          "text_read_pdf_pages_1_based": [
+            2
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定章段為展場、劇場及觀測教學設施營運／維護，未取得可辨識為既有靜態館藏保存修護之原報量；不能由展示設備維護或影像內容更新推作藏品修護，也不據此宣稱全館沒有收藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "organization_id": "BASE-032",
+      "organization_name": "臺北市立天文科學教育館",
+      "review_id": "batch6-main-BASE-032-2024",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3
+      ],
+      "source_ids": [
+        "src-dc810532b2134cb2"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3
+          ],
+          "review_scope": "經營管理章之展示組／視聽組館務與展示維護指定子段。",
+          "source_id": "src-dc810532b2134cb2",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定章段為展場、劇場及觀測教學設施營運／維護，未取得可辨識為既有靜態館藏保存修護之原報量；不能由展示設備維護或影像內容更新推作藏品修護，也不據此宣稱全館沒有收藏。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "organization_id": "BASE-032",
+      "organization_name": "臺北市立天文科學教育館",
+      "review_id": "batch6-main-BASE-032-2025",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        3,
+        4
+      ],
+      "source_ids": [
+        "src-9c220f6418dd3fe1"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            3,
+            4
+          ],
+          "review_scope": "經營管理章之展示組／視聽組館務與展示維護指定子段。",
+          "source_id": "src-9c220f6418dd3fe1",
+          "text_read_pdf_pages_1_based": [
+            3,
+            4
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "官方索引本輪可見109、111、112、113、114年度等列，有限補充官方搜尋未定位110年度適用來源；其他年度不代填。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "organization_id": "BASE-032",
+      "organization_name": "臺北市立天文科學教育館",
+      "review_id": "batch6-main-BASE-032-2021",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-1620b5107c1f8291"
+      ],
+      "source_locators": [
+        {
+          "locator": "天文館年報年度表：110年度適用來源未定位，不推從未公布。",
+          "source_id": "src-1620b5107c1f8291"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "本次取得之歷年年報索引年度表；未定位110年度對應附件，非該年正文。",
+          "source_id": "src-1620b5107c1f8291",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪未定位該年度適用靜態動產典藏成果來源；不能以內部控制聲明、一般營運資料或其他年度會議紀錄代替。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "organization_id": "BASE-054",
+      "organization_name": "臺南市南瀛科學教育館",
+      "review_id": "batch6-main-BASE-054-2020",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-b00544c601fccf3b"
+      ],
+      "source_locators": [
+        {
+          "locator": "相關法規／組織職掌資訊；非目標年度保存修護成果。",
+          "source_id": "src-b00544c601fccf3b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方組織／相關法規頁和有限年度館務來源查找，不是目標年成果報告。",
+          "source_id": "src-b00544c601fccf3b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪未定位該年度適用靜態動產典藏成果來源；不能以內部控制聲明、一般營運資料或其他年度會議紀錄代替。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "organization_id": "BASE-054",
+      "organization_name": "臺南市南瀛科學教育館",
+      "review_id": "batch6-main-BASE-054-2021",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-b00544c601fccf3b"
+      ],
+      "source_locators": [
+        {
+          "locator": "相關法規／組織職掌資訊；非目標年度保存修護成果。",
+          "source_id": "src-b00544c601fccf3b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方組織／相關法規頁和有限年度館務來源查找，不是目標年成果報告。",
+          "source_id": "src-b00544c601fccf3b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪未定位該年度適用靜態動產典藏成果來源；不能以內部控制聲明、一般營運資料或其他年度會議紀錄代替。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "organization_id": "BASE-054",
+      "organization_name": "臺南市南瀛科學教育館",
+      "review_id": "batch6-main-BASE-054-2022",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-b00544c601fccf3b"
+      ],
+      "source_locators": [
+        {
+          "locator": "相關法規／組織職掌資訊；非目標年度保存修護成果。",
+          "source_id": "src-b00544c601fccf3b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方組織／相關法規頁和有限年度館務來源查找，不是目標年成果報告。",
+          "source_id": "src-b00544c601fccf3b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本來源只涵蓋2023年10月前後之工作紀錄，非全年；原有展品盤點敘述未明列適用靜態藏品保存修護量，不能把設施設備與教具製作當館藏修護。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tn.edu.tw/wp-content/uploads/2023/11/%E5%B1%80%E5%8B%99%E6%9C%83%E8%AD%B0%E7%AC%AC389%E6%AC%A1%E7%B4%80%E9%8C%84%E5%AE%9A%E7%A8%BF.pdf",
+      "organization_id": "BASE-054",
+      "organization_name": "臺南市南瀛科學教育館",
+      "review_id": "batch6-main-BASE-054-2023",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        61
+      ],
+      "source_ids": [
+        "src-8f62aa578ac7ab06"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            61
+          ],
+          "review_scope": "第十二項南瀛科學教育館工作報告之館務／原有展品盤點／教育推廣子段；不採廠商、金額或其他科室人事頁。",
+          "source_id": "src-8f62aa578ac7ab06",
+          "text_read_pdf_pages_1_based": [
+            61
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪未定位該年度適用靜態動產典藏成果來源；不能以內部控制聲明、一般營運資料或其他年度會議紀錄代替。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "organization_id": "BASE-054",
+      "organization_name": "臺南市南瀛科學教育館",
+      "review_id": "batch6-main-BASE-054-2024",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-b00544c601fccf3b"
+      ],
+      "source_locators": [
+        {
+          "locator": "相關法規／組織職掌資訊；非目標年度保存修護成果。",
+          "source_id": "src-b00544c601fccf3b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方組織／相關法規頁和有限年度館務來源查找，不是目標年成果報告。",
+          "source_id": "src-b00544c601fccf3b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪未定位該年度適用靜態動產典藏成果來源；不能以內部控制聲明、一般營運資料或其他年度會議紀錄代替。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "organization_id": "BASE-054",
+      "organization_name": "臺南市南瀛科學教育館",
+      "review_id": "batch6-main-BASE-054-2025",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-b00544c601fccf3b"
+      ],
+      "source_locators": [
+        {
+          "locator": "相關法規／組織職掌資訊；非目標年度保存修護成果。",
+          "source_id": "src-b00544c601fccf3b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [],
+          "review_scope": "官方組織／相關法規頁和有限年度館務來源查找，不是目標年成果報告。",
+          "source_id": "src-b00544c601fccf3b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "official_html_source_index_or_scope_section_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪館方／主管機關正式館務來源族及補充官方搜尋，尚未定位該年可核保存修護來源；場館介紹與後續年度展覽不回填當年。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tvsm.com.tw/",
+      "organization_id": "BASE-056",
+      "organization_name": "樹谷生活科學館",
+      "review_id": "batch6-main-BASE-056-2020",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪館方／主管機關正式館務來源族及補充官方搜尋，尚未定位該年可核保存修護來源；場館介紹與後續年度展覽不回填當年。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tvsm.com.tw/",
+      "organization_id": "BASE-056",
+      "organization_name": "樹谷生活科學館",
+      "review_id": "batch6-main-BASE-056-2021",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪館方／主管機關正式館務來源族及補充官方搜尋，尚未定位該年可核保存修護來源；場館介紹與後續年度展覽不回填當年。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tvsm.com.tw/",
+      "organization_id": "BASE-056",
+      "organization_name": "樹谷生活科學館",
+      "review_id": "batch6-main-BASE-056-2022",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪館方／主管機關正式館務來源族及補充官方搜尋，尚未定位該年可核保存修護來源；場館介紹與後續年度展覽不回填當年。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tvsm.com.tw/",
+      "organization_id": "BASE-056",
+      "organization_name": "樹谷生活科學館",
+      "review_id": "batch6-main-BASE-056-2023",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "source_not_located_in_this_search",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原來源涵蓋2024–2025部分期間，樹谷在合作展覽敘述中出現；鄰列左鎮化石清修示範及活動場次不是樹谷藏品處理量，不按合作關係轉配或當全年數列。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://w3fs.tainan.gov.tw/Download.ashx?n=5biC6K2w5pyD56ysNOWxhuesrDXmrKHluILplbfmlr3mlL%2FnuL3loLHlkYoo5pu46Z2i5aCx5ZGKKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk5ODgvODczNjA0Mi9mZjJjMjBjNy0wOGU0LTQ3OTAtYTUwZC1iMGFmZjI4NTNhMDMucGRm",
+      "organization_id": "BASE-056",
+      "organization_name": "樹谷生活科學館",
+      "review_id": "batch6-main-BASE-056-2024",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        25
+      ],
+      "source_ids": [
+        "src-176416ec76d625e9"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            25
+          ],
+          "review_scope": "主管機關部分期間報告中樹谷生活科學館合作巡迴特展之必要句；其他館及其他領域內容不配入。",
+          "source_id": "src-176416ec76d625e9",
+          "text_read_pdf_pages_1_based": [
+            25
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "原來源涵蓋2024–2025部分期間，樹谷在合作展覽敘述中出現；鄰列左鎮化石清修示範及活動場次不是樹谷藏品處理量，不按合作關係轉配或當全年數列。 未定位不補零、不推全年未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://w3fs.tainan.gov.tw/Download.ashx?n=5biC6K2w5pyD56ysNOWxhuesrDXmrKHluILplbfmlr3mlL%2FnuL3loLHlkYoo5pu46Z2i5aCx5ZGKKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk5ODgvODczNjA0Mi9mZjJjMjBjNy0wOGU0LTQ3OTAtYTUwZC1iMGFmZjI4NTNhMDMucGRm",
+      "organization_id": "BASE-056",
+      "organization_name": "樹谷生活科學館",
+      "review_id": "batch6-main-BASE-056-2025",
+      "review_scope": "只查指定年度來源之館務／典藏子段與必要組織範圍；非整頁每字、整份或全年所有來源已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        25
+      ],
+      "source_ids": [
+        "src-176416ec76d625e9"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            25
+          ],
+          "review_scope": "主管機關部分期間報告中樹谷生活科學館合作巡迴特展之必要句；其他館及其他領域內容不配入。",
+          "source_id": "src-176416ec76d625e9",
+          "text_read_pdf_pages_1_based": [
+            25
+          ],
+          "verification_status": "bounded_target_text_paragraph_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定「(三)標本館」段落列蒐集／增加及累計館藏，另有遺傳物質作業；沒有將這些數字轉作既有標本保存修護量。「交流、運用與整理後」後接累計存量，不能視為當年整理處理量。僅核此段，不代表全館全年沒有修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=547",
+      "organization_id": "BASE-028",
+      "organization_name": "行政院農業委員會特有生物研究保育中心",
+      "review_id": "batch6-biodiversity-BASE-028-2020",
+      "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        35
+      ],
+      "source_ids": [
+        "src-139c00872ec0a5a3"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            35
+          ],
+          "pdf_pages_1_based": [
+            35
+          ],
+          "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+          "source_id": "src-139c00872ec0a5a3",
+          "text_read_pdf_pages_1_based": [
+            35
+          ],
+          "verification_status": "original_page_images_viewed_and_target_text_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定「(三)標本館」段落列蒐集／增加及累計館藏，另有遺傳物質作業；沒有將這些數字轉作既有標本保存修護量。「交流、運用與整理後」後接累計存量，不能視為當年整理處理量。僅核此段，不代表全館全年沒有修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=546",
+      "organization_id": "BASE-028",
+      "organization_name": "行政院農業委員會特有生物研究保育中心",
+      "review_id": "batch6-biodiversity-BASE-028-2021",
+      "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        33,
+        34
+      ],
+      "source_ids": [
+        "src-429a9a540f05be11"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            33,
+            34
+          ],
+          "pdf_pages_1_based": [
+            33,
+            34
+          ],
+          "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+          "source_id": "src-429a9a540f05be11",
+          "text_read_pdf_pages_1_based": [
+            33,
+            34
+          ],
+          "verification_status": "original_page_images_viewed_and_target_text_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定「(三)標本館」段落列蒐集／增加及累計館藏，另有遺傳物質作業；沒有將這些數字轉作既有標本保存修護量。「交流、運用與整理後」後接累計存量，不能視為當年整理處理量。僅核此段，不代表全館全年沒有修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=545",
+      "organization_id": "BASE-028",
+      "organization_name": "行政院農業委員會特有生物研究保育中心",
+      "review_id": "batch6-biodiversity-BASE-028-2022",
+      "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        36,
+        37
+      ],
+      "source_ids": [
+        "src-48a89f361f1ca1e5"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            36,
+            37
+          ],
+          "pdf_pages_1_based": [
+            36,
+            37
+          ],
+          "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+          "source_id": "src-48a89f361f1ca1e5",
+          "text_read_pdf_pages_1_based": [
+            36,
+            37
+          ],
+          "verification_status": "original_page_images_viewed_and_target_text_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定「(三)標本館」段落列蒐集／增加及累計館藏，另有遺傳物質作業；沒有將這些數字轉作既有標本保存修護量。「交流、運用與整理後」後接累計存量，不能視為當年整理處理量。僅核此段，不代表全館全年沒有修護。本報採改制後所名；前言PDF3明示2023-08-01由特生中心改制，全年不是同一機關名稱不變。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=544",
+      "organization_id": "BASE-028",
+      "organization_name": "農業部生物多樣性研究所",
+      "review_id": "batch6-biodiversity-BASE-028-2023",
+      "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        53,
+        54
+      ],
+      "source_ids": [
+        "src-7e2793e72a65beeb"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            53,
+            54
+          ],
+          "pdf_pages_1_based": [
+            53,
+            54
+          ],
+          "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+          "source_id": "src-7e2793e72a65beeb",
+          "text_read_pdf_pages_1_based": [
+            53,
+            54
+          ],
+          "verification_status": "original_page_images_viewed_and_target_text_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定「(三)標本館」段落列蒐集／增加及累計館藏，另有遺傳物質作業；沒有將這些數字轉作既有標本保存修護量。「交流、運用與整理後」後接累計存量，不能視為當年整理處理量。僅核此段，不代表全館全年沒有修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=847",
+      "organization_id": "BASE-028",
+      "organization_name": "農業部生物多樣性研究所",
+      "review_id": "batch6-biodiversity-BASE-028-2024",
+      "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        38,
+        39
+      ],
+      "source_ids": [
+        "src-a07dd21089cc5a30"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            38,
+            39
+          ],
+          "pdf_pages_1_based": [
+            38,
+            39
+          ],
+          "review_scope": "年度年報「參、科技行政／五／(三)標本館」指定完整段落；不含相鄰儀器添購表。",
+          "source_id": "src-a07dd21089cc5a30",
+          "text_read_pdf_pages_1_based": [
+            38,
+            39
+          ],
+          "verification_status": "original_page_images_viewed_and_target_text_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "這幾頁所列為分類研究、典藏存量、既有研究標本比對與調查等業務，未定位既有標本保存修護數量；研究用途檢視不當保存處理量。原件幾乎無可讀文字層，已以原頁圖讀此有限範圍，其他業務頁未讀。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=935",
+      "organization_id": "BASE-028",
+      "organization_name": "農業部生物多樣性研究所",
+      "review_id": "batch6-biodiversity-BASE-028-2025",
+      "review_scope": "114年度決算PDF6–8（印3–5），三、重要施政計畫執行成果之說明之指定業務敘述；不是整份決算。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        6,
+        7,
+        8
+      ],
+      "source_ids": [
+        "src-15706b95e52bc522"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            6,
+            7,
+            8
+          ],
+          "pdf_pages_1_based": [
+            6,
+            7,
+            8
+          ],
+          "review_scope": "114年度決算PDF6–8（印3–5），三、重要施政計畫執行成果之說明之指定業務敘述；不是整份決算。",
+          "source_id": "src-15706b95e52bc522",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "original_page_images_viewed_text_layer_not_readable"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "官方本文可確認靜態標本典藏；所述是採集初製流程及館藏介紹，未提供可配置為2020全年既有館藏修護量的口徑。不能把入藏前除蟲等初製作業或館藏數量改稱年度修護；不據此推零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://newsletter.sinica.edu.tw/22055/",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "batch6-biodiversity-ADD-012-2020",
+      "review_scope": "2020-06-09官方專刊指定館別段落；非年度成果報告。",
+      "review_status": "annual_scope_not_separable",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-e20d147ecc9e8ce8"
+      ],
+      "source_locators": [
+        {
+          "locator": "「生物大觀園：動物乾製標本室」採製／入藏流程與館藏介紹段",
+          "locator_type": "html_article_body",
+          "source_id": "src-e20d147ecc9e8ce8"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "已取得正式年度原件，但本輪讀到的是跨單位數位工具與展示平台業務，沒有把它當本館既有動產保存成果或把平台合計分給本館。館別保存正文尚未核讀；不是全文未見修護，亦不是全年零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3432",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "batch6-biodiversity-ADD-012-2021",
+      "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        36
+      ],
+      "source_ids": [
+        "src-99681c24a1f8652d"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            36
+          ],
+          "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+          "source_id": "src-99681c24a1f8652d",
+          "text_read_pdf_pages_1_based": [
+            36
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "已取得正式年度原件，但本輪讀到的是跨單位數位工具與展示平台業務，沒有把它當本館既有動產保存成果或把平台合計分給本館。館別保存正文尚未核讀；不是全文未見修護，亦不是全年零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3735",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "batch6-biodiversity-ADD-012-2022",
+      "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        35,
+        36,
+        37
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            35,
+            36,
+            37
+          ],
+          "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+          "source_id": "src-363e41f33121636c",
+          "text_read_pdf_pages_1_based": [
+            35,
+            36,
+            37
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定正文提到生多研究博物館標本典藏管理系統及數位展示功能，未量化本館既有實物保存修護；平台／子站合計不分配兩館。只核該數位館務段，其他館別正文未擴讀。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4252",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "batch6-biodiversity-ADD-012-2023",
+      "review_scope": "院級112年度決算PDF33（印28）「學術出版與數位展示／開放博物館」中明列生多研究博物館系統之段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        33
+      ],
+      "source_ids": [
+        "src-b78ae56ececc5bff"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            33
+          ],
+          "review_scope": "院級112年度決算PDF33（印28）「學術出版與數位展示／開放博物館」中明列生多研究博物館系統之段落。",
+          "source_id": "src-b78ae56ececc5bff",
+          "text_read_pdf_pages_1_based": [
+            33
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "所述為線上管理系統，未定位既有標本實物保存修護量；不以系統功能當實物處置，不據此推定全年沒有修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4649",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "batch6-biodiversity-ADD-012-2024",
+      "review_scope": "院級113年度決算PDF37（印32）標本典藏管理系統2.0、魚類及鳥類線上管理段。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        37
+      ],
+      "source_ids": [
+        "src-c76c9d5d43172a13"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            37
+          ],
+          "review_scope": "院級113年度決算PDF37（印32）標本典藏管理系統2.0、魚類及鳥類線上管理段。",
+          "source_id": "src-c76c9d5d43172a13",
+          "text_read_pdf_pages_1_based": [
+            37
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "父中心段落為資料欄位、學名比對關聯及數位展示，未定位本館既有標本實物保存修護量；不將中心業務分配為館別年度處置數。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4823",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "batch6-biodiversity-ADD-012-2025",
+      "review_scope": "院級114年度決算PDF32（印27）生物多樣性研究中心無脊椎動物標本資料欄位分析段。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        32
+      ],
+      "source_ids": [
+        "src-3cda345a23c2db5a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            32
+          ],
+          "review_scope": "院級114年度決算PDF32（印27）生物多樣性研究中心無脊椎動物標本資料欄位分析段。",
+          "source_id": "src-3cda345a23c2db5a",
+          "text_read_pdf_pages_1_based": [
+            32
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "官方本文可確認靜態標本典藏；所述是採集初製流程及館藏介紹，未提供可配置為2020全年既有館藏修護量的口徑。不能把入藏前除蟲等初製作業或館藏數量改稱年度修護；不據此推零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://newsletter.sinica.edu.tw/22055/",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "batch6-biodiversity-ADD-013-2020",
+      "review_scope": "2020-06-09官方專刊指定館別段落；非年度成果報告。",
+      "review_status": "annual_scope_not_separable",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-e20d147ecc9e8ce8"
+      ],
+      "source_locators": [
+        {
+          "locator": "「一葉知秋：植物標本館」採集／製作／歸檔流程與館藏介紹段",
+          "locator_type": "html_article_body",
+          "source_id": "src-e20d147ecc9e8ce8"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "已取得正式年度原件，但本輪讀到的是跨單位數位工具與展示平台業務，沒有把它當本館既有動產保存成果或把平台合計分給本館。館別保存正文尚未核讀；不是全文未見修護，亦不是全年零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3432",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "batch6-biodiversity-ADD-013-2021",
+      "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        36
+      ],
+      "source_ids": [
+        "src-99681c24a1f8652d"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            36
+          ],
+          "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+          "source_id": "src-99681c24a1f8652d",
+          "text_read_pdf_pages_1_based": [
+            36
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "已取得正式年度原件，但本輪讀到的是跨單位數位工具與展示平台業務，沒有把它當本館既有動產保存成果或把平台合計分給本館。館別保存正文尚未核讀；不是全文未見修護，亦不是全年零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3735",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "batch6-biodiversity-ADD-013-2022",
+      "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        35,
+        36,
+        37
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            35,
+            36,
+            37
+          ],
+          "review_scope": "已讀院級單位決算數位人文／開放博物館指定段；本館個別館藏保存業務正文仍待定位。",
+          "source_id": "src-363e41f33121636c",
+          "text_read_pdf_pages_1_based": [
+            35,
+            36,
+            37
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "指定正文提到生多研究博物館標本典藏管理系統及數位展示功能，未量化本館既有實物保存修護；平台／子站合計不分配兩館。只核該數位館務段，其他館別正文未擴讀。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4252",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "batch6-biodiversity-ADD-013-2023",
+      "review_scope": "院級112年度決算PDF33（印28）「學術出版與數位展示／開放博物館」中明列生多研究博物館系統之段落。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        33
+      ],
+      "source_ids": [
+        "src-b78ae56ececc5bff"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            33
+          ],
+          "review_scope": "院級112年度決算PDF33（印28）「學術出版與數位展示／開放博物館」中明列生多研究博物館系統之段落。",
+          "source_id": "src-b78ae56ececc5bff",
+          "text_read_pdf_pages_1_based": [
+            33
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪指定段提及魚鳥或無脊椎動物的數位標本管理，沒有植物標本館個別保存處理正文。原件可用但本館正文仍待核；不將動物或父中心業務量分給植物館，也不據此推零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4649",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "batch6-biodiversity-ADD-013-2024",
+      "review_scope": "已讀院級決算相關數位標本管理業務段；植物標本館個別保存正文仍待定位。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        37
+      ],
+      "source_ids": [
+        "src-c76c9d5d43172a13"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            37
+          ],
+          "review_scope": "已讀院級決算相關數位標本管理業務段；植物標本館個別保存正文仍待定位。",
+          "source_id": "src-c76c9d5d43172a13",
+          "text_read_pdf_pages_1_based": [
+            37
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "本輪指定段提及魚鳥或無脊椎動物的數位標本管理，沒有植物標本館個別保存處理正文。原件可用但本館正文仍待核；不將動物或父中心業務量分給植物館，也不據此推零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4823",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "batch6-biodiversity-ADD-013-2025",
+      "review_scope": "已讀院級決算相關數位標本管理業務段；植物標本館個別保存正文仍待定位。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        32
+      ],
+      "source_ids": [
+        "src-3cda345a23c2db5a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            32
+          ],
+          "review_scope": "已讀院級決算相關數位標本管理業務段；植物標本館個別保存正文仍待定位。",
+          "source_id": "src-3cda345a23c2db5a",
+          "text_read_pdf_pages_1_based": [
+            32
+          ],
+          "verification_status": "text_layer_read_only"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "執行成果欄的現有靜態標本與海洋人文類藏品整理原報量；不等於純修復或不重複物件，新增入藏、活體、儀器及數位化列另排除。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMMST-2020-specimens-arrangement",
+        "NMMST-2020-humanities-arrangement"
+      ],
+      "official_entry_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "review_id": "review-BASE-018-2020-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2
+      ],
+      "source_ids": [
+        "src-df2b3c8500f51834"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "review_scope": "總說明「業務計畫實施績效」的建構海洋特色典藏計畫第1、2項與相鄰對照列；僅機關／年度表頭及所列業務，不是全文件全文。",
+          "source_id": "src-df2b3c8500f51834",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "執行成果欄的現有靜態標本與海洋人文類藏品整理原報量；不等於純修復或不重複物件，新增入藏、活體、儀器及數位化列另排除。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMMST-2021-specimens-arrangement",
+        "NMMST-2021-humanities-arrangement"
+      ],
+      "official_entry_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "review_id": "review-BASE-018-2021-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2,
+        3
+      ],
+      "source_ids": [
+        "src-2683f25adc2cbd78"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            1,
+            2,
+            3
+          ],
+          "review_scope": "總說明「業務計畫實施績效」的建構海洋特色典藏計畫第1、2項與相鄰對照列；僅機關／年度表頭及所列業務，不是全文件全文。",
+          "source_id": "src-2683f25adc2cbd78",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2,
+            3
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "執行成果欄的現有靜態標本與海洋人文類藏品整理原報量；不等於純修復或不重複物件，新增入藏、活體、儀器及數位化列另排除。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMMST-2022-specimens-arrangement",
+        "NMMST-2022-humanities-arrangement"
+      ],
+      "official_entry_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "review_id": "review-BASE-018-2022-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2
+      ],
+      "source_ids": [
+        "src-db2755c4e2a5ada6"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "review_scope": "總說明「業務計畫實施績效」的建構海洋特色典藏計畫第1、2項與相鄰對照列；僅機關／年度表頭及所列業務，不是全文件全文。",
+          "source_id": "src-db2755c4e2a5ada6",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "執行成果欄的現有靜態標本與海洋人文類藏品整理原報量；不等於純修復或不重複物件，新增入藏、活體、儀器及數位化列另排除。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMMST-2023-specimens-arrangement",
+        "NMMST-2023-humanities-arrangement"
+      ],
+      "official_entry_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "review_id": "review-BASE-018-2023-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2
+      ],
+      "source_ids": [
+        "src-8b00b3e95a88da51"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "review_scope": "總說明「業務計畫實施績效」的建構海洋特色典藏計畫第1、2項與相鄰對照列；僅機關／年度表頭及所列業務，不是全文件全文。",
+          "source_id": "src-8b00b3e95a88da51",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "執行成果欄的現有靜態標本與海洋人文類藏品整理原報量；不等於純修復或不重複物件，新增入藏、活體、儀器及數位化列另排除。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMMST-2024-specimens-arrangement",
+        "NMMST-2024-humanities-arrangement"
+      ],
+      "official_entry_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "review_id": "review-BASE-018-2024-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        8
+      ],
+      "source_ids": [
+        "src-c3779413972905cb"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            8
+          ],
+          "pdf_pages_1_based": [
+            8
+          ],
+          "review_scope": "總說明「業務計畫實施績效」的建構海洋特色典藏計畫第1、2項與相鄰對照列；僅機關／年度表頭及所列業務，不是全文件全文。",
+          "source_id": "src-c3779413972905cb",
+          "text_read_pdf_pages_1_based": [
+            8
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "interpretation_note": "執行成果欄的現有靜態標本與海洋人文類藏品整理原報量；不等於純修復或不重複物件，新增入藏、活體、儀器及數位化列另排除。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NMMST-2025-specimens-arrangement",
+        "NMMST-2025-humanities-arrangement"
+      ],
+      "official_entry_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "review_id": "review-BASE-018-2025-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        8
+      ],
+      "source_ids": [
+        "src-450a8d74fd5d5513"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            8
+          ],
+          "pdf_pages_1_based": [
+            8
+          ],
+          "review_scope": "總說明「業務計畫實施績效」的建構海洋特色典藏計畫第1、2項與相鄰對照列；僅機關／年度表頭及所列業務，不是全文件全文。",
+          "source_id": "src-450a8d74fd5d5513",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-062-2020-stage6",
+      "interpretation_note": "原報分項與對象／期間分開保留，不當全館年總量；未知不補零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "LYM-2020-cleaning-maintenance",
+        "LYM-2020-display-support-maintenance",
+        "LYM-2020-inbound-exhibit-freezing"
+      ],
+      "official_entry_url": "https://www.e-land.gov.tw/cp.aspx?n=9241",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2020-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        429,
+        435,
+        436
+      ],
+      "source_ids": [
+        "src-0442736db293c8a2"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            435
+          ],
+          "pdf_pages_1_based": [
+            429,
+            435,
+            436
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；相鄰工程、財務、對象名單不採；非全縣全館年度全文。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-0442736db293c8a2",
+          "text_read_pdf_pages_1_based": [
+            429,
+            435,
+            436
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-062-2021-stage6",
+      "interpretation_note": "原報分項與對象／期間分開保留，不當全館年總量；未知不補零。同一跨年整飭計畫的53件與278件可能重疊，不相加、不年拆。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "LYM-2021-arrangement-partial-year",
+        "LYM-2021-2022-arrangement-project"
+      ],
+      "official_entry_url": "https://www.e-land.gov.tw/OpenData_DealData.aspx?n=9929&sms=12324&s=68821",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2021-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        395,
+        401,
+        402,
+        455,
+        461,
+        462
+      ],
+      "source_ids": [
+        "src-a7672f10a1b3a9d4",
+        "src-a64d502224892713"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            401
+          ],
+          "pdf_pages_1_based": [
+            395,
+            401,
+            402
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；相鄰工程、財務、對象名單不採；非全縣全館年度全文。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-a7672f10a1b3a9d4",
+          "text_read_pdf_pages_1_based": [
+            395,
+            401,
+            402
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [
+            462
+          ],
+          "pdf_pages_1_based": [
+            455,
+            461,
+            462
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；相鄰工程、財務、對象名單不採；非全縣全館年度全文。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-a64d502224892713",
+          "text_read_pdf_pages_1_based": [
+            455,
+            461,
+            462
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-062-2022-stage6",
+      "interpretation_note": "原報分項與對象／期間分開保留，不當全館年總量；未知不補零。同一跨年整飭計畫的53件與278件可能重疊，不相加、不年拆。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "LYM-2021-2022-arrangement-project"
+      ],
+      "official_entry_url": "https://www.e-land.gov.tw/OpenData_DealData.aspx?n=9929&sms=12324&s=69030",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2022-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        455,
+        461,
+        462
+      ],
+      "source_ids": [
+        "src-a64d502224892713"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            462
+          ],
+          "pdf_pages_1_based": [
+            455,
+            461,
+            462
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；相鄰工程、財務、對象名單不採；非全縣全館年度全文。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-a64d502224892713",
+          "text_read_pdf_pages_1_based": [
+            455,
+            461,
+            462
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-062-2023-stage6",
+      "interpretation_note": "所列研究典藏段落有館藏文物整飭作業，但未見本輪可採的明列數量；不推為年度無作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.e-land.gov.tw/OpenData_DealData.aspx?n=9929&sms=12324&s=229893",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2023-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        444,
+        452,
+        453
+      ],
+      "source_ids": [
+        "src-ad56b43aae546a10"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            444,
+            452,
+            453
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；相鄰工程、財務、對象名單不採；非全縣全館年度全文。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-ad56b43aae546a10",
+          "text_read_pdf_pages_1_based": [
+            444,
+            452,
+            453
+          ],
+          "verification_status": "selected_text_body_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-062-2024-stage6",
+      "interpretation_note": "所列研究典藏段落有館藏文物整飭作業，但未見本輪可採的明列數量；不推為年度無作業或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.e-land.gov.tw/OpenData_DealData.aspx?n=9929&sms=12324&s=244094",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2024-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        429,
+        430,
+        437,
+        438
+      ],
+      "source_ids": [
+        "src-535f501ce82623c0"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            429,
+            430,
+            437,
+            438
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；相鄰工程、財務、對象名單不採；非全縣全館年度全文。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-535f501ce82623c0",
+          "text_read_pdf_pages_1_based": [
+            429,
+            430,
+            437,
+            438
+          ],
+          "verification_status": "selected_text_body_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-062-2025-stage6",
+      "interpretation_note": "原報分項與對象／期間分開保留，不當全館年總量；未知不補零。原文辦理專案列有4冊，未明載完成；封面115年3月編印。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "LYM-2025-gazetteer-conservation"
+      ],
+      "official_entry_url": "https://www.e-land.gov.tw/OpenData_DealData.aspx?n=9929&sms=12324&s=395987",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "review_id": "review-BASE-062-2025-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        434,
+        441,
+        442
+      ],
+      "source_ids": [
+        "src-1e7ca58a85a9e0b4"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            1,
+            442
+          ],
+          "pdf_pages_1_based": [
+            1,
+            434,
+            441,
+            442
+          ],
+          "review_scope": "蘭陽博物館業務「研究典藏」所列段落；僅典藏文物作業及必要來源表頭；不採相鄰工程、財務、對象名單。2025另實看封面編印115年3月。；補核館別章節標題與前後跨頁連續性，僅館別表頭定位，非該頁其他業務全文覆讀。",
+          "source_id": "src-1e7ca58a85a9e0b4",
+          "text_read_pdf_pages_1_based": [
+            1,
+            434,
+            441,
+            442
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2020-stage6",
+      "interpretation_note": "重用109決算總說明典藏業務列；所列為新增、典藏存量及展示，未定位合格保存修護量。原年度年報缺口仍保留。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/News_Content.aspx?n=99C65689F85FE3A0&sms=863EF9A8FB355DB4&s=4BEEF51EB5F1EC40",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2020-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        9,
+        10
+      ],
+      "source_ids": [
+        "src-53a2b580f8e9467f"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            9,
+            10
+          ],
+          "review_scope": "109決算總說明典藏業務列，非原年度年報。",
+          "source_id": "src-53a2b580f8e9467f",
+          "text_read_pdf_pages_1_based": [
+            9,
+            10
+          ],
+          "verification_status": "selected_text_body_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2021",
+      "interpretation_note": "所讀為典藏蒐集指定正文；新增標本、初製、數位資料與展示數不能替代既有動產館藏保存修護數；本輪未定位合格原報數量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=9A0A3F97F66B1753",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2021-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "source_ids": [
+        "src-bc2b40d4ddf8cf1a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "review_scope": "年報典藏蒐集分章的指定正文；排除訪客名單，非全書全文。2025文字層失真改讀前輪清晰原頁PNG。",
+          "source_id": "src-bc2b40d4ddf8cf1a",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "verification_status": "selected_text_body_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2022",
+      "interpretation_note": "所讀為典藏蒐集指定正文；新增標本、初製、數位資料與展示數不能替代既有動產館藏保存修護數；本輪未定位合格原報數量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=A9723C2A692537DA",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2022-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_ids": [
+        "src-c55ef828d4d467d3"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "review_scope": "年報典藏蒐集分章的指定正文；排除訪客名單，非全書全文。2025文字層失真改讀前輪清晰原頁PNG。",
+          "source_id": "src-c55ef828d4d467d3",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "verification_status": "selected_text_body_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2023",
+      "interpretation_note": "所讀為典藏蒐集指定正文；新增標本、初製、數位資料與展示數不能替代既有動產館藏保存修護數；本輪未定位合格原報數量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=866D41CE85655B07",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2023-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "source_ids": [
+        "src-c6843c2fc71183c6"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "review_scope": "年報典藏蒐集分章的指定正文；排除訪客名單，非全書全文。2025文字層失真改讀前輪清晰原頁PNG。",
+          "source_id": "src-c6843c2fc71183c6",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "verification_status": "selected_text_body_read"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2024",
+      "interpretation_note": "典藏章明載標本修復完成敘述，但無原報數字與量詞；不按名稱推件數，與前年度初製對象關係未核。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=182753B4C8854F02",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2024-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "source_ids": [
+        "src-8b32f5d50c602a6e"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            7
+          ],
+          "pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "review_scope": "年報典藏蒐集分章的指定正文；排除訪客名單，非全書全文。2025文字層失真改讀前輪清晰原頁PNG。",
+          "source_id": "src-8b32f5d50c602a6e",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "review-BASE-022-2025",
+      "interpretation_note": "所讀為典藏蒐集指定正文；新增標本、初製、數位資料與展示數不能替代既有動產館藏保存修護數；本輪未定位合格原報數量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=5D0CA55BC7547AA5&sms=A4164DF4295ED9D4&s=3A38B1109889C9B0",
+      "organization_id": "BASE-022",
+      "organization_name": "國立海洋生物博物館",
+      "review_id": "review-BASE-022-2025-batch6-marine",
+      "review_scope": "僅所列來源頁的指定典藏業務段落及必要表頭／封面，不宣稱全文或全年全部業務。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "source_ids": [
+        "src-c69ce01b9e8cf688"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            1,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "pdf_pages_1_based": [
+            1,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "review_scope": "年報典藏蒐集分章的指定正文；排除訪客名單，非全書全文。2025文字層失真改讀前輪清晰原頁PNG。",
+          "source_id": "src-c69ce01b9e8cf688",
+          "text_read_pdf_pages_1_based": [
+            1
+          ],
+          "verification_status": "text_and_selected_original_images_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
     }
   ],
-  "dataset_version": "0.10.0",
+  "dataset_version": "0.11.0",
   "observations": [
     {
       "action_categories": [
@@ -23685,6 +26208,731 @@
       "verification_status": "text_and_rendered_original_page_verified",
       "year_assignment_status": "multi_year_not_allocated",
       "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "data_year_end": 2020,
+      "data_year_start": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有標本",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有標本",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2020-specimens-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2600,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,600",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國109年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-df2b3c8500f51834",
+      "source_scope": "109年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館標本（原報現有海洋生物標本；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "data_year_end": 2020,
+      "data_year_start": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有藏品",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2020-humanities-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2000,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,000",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國109年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-df2b3c8500f51834",
+      "source_scope": "109年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館藏品（原報海洋人文類既有藏品；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "data_year_end": 2021,
+      "data_year_start": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有標本",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有標本",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2021-specimens-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2000,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,000",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國110年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-2683f25adc2cbd78",
+      "source_scope": "110年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館標本（原報現有海洋生物標本；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "data_year_end": 2021,
+      "data_year_start": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有藏品",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2021-humanities-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 1000,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "1,000",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國110年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-2683f25adc2cbd78",
+      "source_scope": "110年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館藏品（原報海洋人文類既有藏品；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "data_year_end": 2022,
+      "data_year_start": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有標本",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有標本",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2022-specimens-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2800,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,800",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國111年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-db2755c4e2a5ada6",
+      "source_scope": "111年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館標本（原報現有海洋生物標本；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "data_year_end": 2022,
+      "data_year_start": 2022,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有藏品",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2022-humanities-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2200,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,200",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國111年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-db2755c4e2a5ada6",
+      "source_scope": "111年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館藏品（原報海洋人文類既有藏品；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "data_year_end": 2023,
+      "data_year_start": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有標本",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有標本",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2023-specimens-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2800,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,800",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國112年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-8b00b3e95a88da51",
+      "source_scope": "112年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館標本（原報現有海洋生物標本；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "data_year_end": 2023,
+      "data_year_start": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有藏品",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2023-humanities-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 2,
+      "printed_page": null,
+      "publication_year": null,
+      "quantity_numeric": 2400,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,400",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國112年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-8b00b3e95a88da51",
+      "source_scope": "112年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館藏品（原報海洋人文類既有藏品；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "data_year_end": 2024,
+      "data_year_start": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有標本",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有標本",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2024-specimens-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 8,
+      "printed_page": "5-1",
+      "publication_year": null,
+      "quantity_numeric": 2800,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,800",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國113年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-c3779413972905cb",
+      "source_scope": "113年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館標本（原報現有海洋生物標本；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2024,
+      "data_year_end": 2024,
+      "data_year_start": 2024,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有藏品",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2024-humanities-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 8,
+      "printed_page": "5-1",
+      "publication_year": null,
+      "quantity_numeric": 2400,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,400",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國113年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-c3779413972905cb",
+      "source_scope": "113年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館藏品（原報海洋人文類既有藏品；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "data_year_end": 2025,
+      "data_year_start": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有標本",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有標本",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2025-specimens-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 8,
+      "printed_page": "6-2",
+      "publication_year": null,
+      "quantity_numeric": 2800,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,800",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國114年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-450a8d74fd5d5513",
+      "source_scope": "114年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館標本（原報現有海洋生物標本；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_image_read_text_layer_corrupted",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "data_year_end": 2025,
+      "data_year_start": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報僅稱整理，未列工序明細；本專案不判定其是否包含清潔、保存處理或資料作業，不改稱純修復。相鄰新增入藏、活體、數位化與研究儀器列不採。未證實為不重複物件或各年相異批次，不跨項／跨年加總。",
+      "metric_as_reported": "整理現有藏品",
+      "metric_class": "collection_arrangement",
+      "metric_label": "整理現有藏品",
+      "numeric_origin": "source_reported",
+      "observation_id": "NMMST-2025-humanities-arrangement",
+      "organization_id": "BASE-018",
+      "organization_name": "國立海洋科技博物館",
+      "pdf_page_1_based": 8,
+      "printed_page": "6-2",
+      "publication_year": null,
+      "quantity_numeric": 2400,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "2,400",
+      "record_kind": "observation",
+      "reporting_period_raw": "中華民國114年度；業務計畫實施績效表執行成果欄",
+      "source_id": "src-450a8d74fd5d5513",
+      "source_scope": "114年度決算總說明；建構海洋特色典藏計畫；執行成果欄分項",
+      "subject_scope": "本館藏品（原報海洋人文類既有藏品；不含同列新增入藏）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_original_page_image_read_text_layer_corrupted",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "cleaning",
+        "maintenance",
+        "mixed_workflow"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "explicit_completed",
+      "completion_status": "completed_explicit",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "data_year_end": 2020,
+      "data_year_start": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報完成清潔維護，不改稱修復；與同段展示支撐加固及入館防蟲批次是否重疊未核，不相加。",
+      "metric_as_reported": "清潔維護",
+      "metric_class": "combined_cleaning_and_maintenance",
+      "metric_label": "清潔維護",
+      "numeric_origin": "source_reported",
+      "observation_id": "LYM-2020-cleaning-maintenance",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "pdf_page_1_based": 435,
+      "printed_page": "412",
+      "publication_year": null,
+      "quantity_numeric": 215,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "215",
+      "record_kind": "observation",
+      "reporting_period_raw": "109年",
+      "source_id": "src-0442736db293c8a2",
+      "source_scope": "109年度工作報告；本館研究典藏作業分項",
+      "subject_scope": "本館藏品及展場展示文物（原報兩類對象，權屬未另核）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "mixed_workflow",
+        "stabilization"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "data_year_end": 2020,
+      "data_year_start": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原文「進行」；不挪用前分句完成詞。組件維持原量詞；支撐加固與維護未拆工序，與其他批次可能重疊，不相加。",
+      "metric_as_reported": "文物展示支撐加固及維護措施",
+      "metric_class": "combined_display_support_stabilization_and_maintenance",
+      "metric_label": "文物展示支撐加固及維護措施",
+      "numeric_origin": "source_reported",
+      "observation_id": "LYM-2020-display-support-maintenance",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "pdf_page_1_based": 435,
+      "printed_page": "412",
+      "publication_year": null,
+      "quantity_numeric": 20,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "20",
+      "record_kind": "observation",
+      "reporting_period_raw": "109年",
+      "source_id": "src-0442736db293c8a2",
+      "source_scope": "109年度工作報告；本館研究典藏作業分項",
+      "subject_scope": "本館藏品及展場展示文物（原報兩類對象，權屬未另核）",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "組件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "explicit_completed",
+      "completion_status": "completed_explicit",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "data_year_end": 2020,
+      "data_year_start": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報完成預防除蟲處理，不推為本館所有或既有典藏存量，也不當新入藏數；作業對象按展示文物保留。與同年其他維護批次重疊未核。",
+      "metric_as_reported": "文物低溫冷凍除蟲措施",
+      "metric_class": "preventive_pest_treatment",
+      "metric_label": "文物低溫冷凍除蟲措施",
+      "numeric_origin": "source_reported",
+      "observation_id": "LYM-2020-inbound-exhibit-freezing",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "pdf_page_1_based": 435,
+      "printed_page": "412",
+      "publication_year": null,
+      "quantity_numeric": 55,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "55",
+      "record_kind": "observation",
+      "reporting_period_raw": "109年",
+      "source_id": "src-0442736db293c8a2",
+      "source_scope": "109年度工作報告；兒童考古探索廳展示文物入館預防性處理",
+      "subject_scope": "本館兒童考古探索廳展示文物；入館處理，借展／入藏與權屬未核",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "explicit_completed",
+      "completion_status": "completed_explicit",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "data_year_end": 2021,
+      "data_year_start": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原段明載110年完成53件。計畫期為110年10月15日至111年9月30日；後年報278件未明示扣除此53，兩筆可能重疊，不相加。",
+      "metric_as_reported": "文物整飭",
+      "metric_class": "collection_arrangement",
+      "metric_label": "文物整飭",
+      "numeric_origin": "source_reported",
+      "observation_id": "LYM-2021-arrangement-partial-year",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "pdf_page_1_based": 401,
+      "printed_page": "378",
+      "publication_year": null,
+      "quantity_numeric": 53,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "53",
+      "record_kind": "observation",
+      "reporting_period_raw": "110年（同段計畫期110年10月15日至111年9月30日）",
+      "source_id": "src-a7672f10a1b3a9d4",
+      "source_scope": "110年度工作報告；跨年館藏文物整飭計畫中明載110年分項",
+      "subject_scope": "本館藏品（館藏文物整飭計畫；專案對象）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "arrangement"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "explicit_completed",
+      "completion_status": "completed_explicit",
+      "cross_museum_comparable": false,
+      "data_year": null,
+      "data_year_end": 2022,
+      "data_year_start": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原段列跨年計畫並記完成278件，未將數量另限111年，保留跨年一次觀測。與110年53件可能重疊，不相加、不年拆。",
+      "metric_as_reported": "文物整飭",
+      "metric_class": "collection_arrangement",
+      "metric_label": "文物整飭",
+      "numeric_origin": "source_reported",
+      "observation_id": "LYM-2021-2022-arrangement-project",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "pdf_page_1_based": 462,
+      "printed_page": "439",
+      "publication_year": null,
+      "quantity_numeric": 278,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "278",
+      "record_kind": "observation",
+      "reporting_period_raw": "110年10月15日至111年9月30日",
+      "source_id": "src-a64d502224892713",
+      "source_scope": "111年度工作報告；110年10月15日至111年9月30日跨年計畫總述，非已證111單年度量",
+      "subject_scope": "本館藏品（館藏文物整飭計畫；專案對象）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "multi_year_not_allocated",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance",
+        "restoration_as_reported"
+      ],
+      "aggregation_role": "scope_not_verified_mutually_exclusive",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "data_year_end": 2025,
+      "data_year_start": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "封面編印115年3月；按原文「辦理」年度執行保留。4冊是原列專案對象，未明載完成，不把冊數當全館年度修護完成量。",
+      "metric_as_reported": "保存修護",
+      "metric_class": "restoration_as_reported",
+      "metric_label": "保存修護（原列專案對象冊數，未明載完成）",
+      "numeric_origin": "source_reported",
+      "observation_id": "LYM-2025-gazetteer-conservation",
+      "organization_id": "BASE-062",
+      "organization_name": "宜蘭縣立蘭陽博物館",
+      "pdf_page_1_based": 442,
+      "printed_page": "417",
+      "publication_year": 2026,
+      "quantity_numeric": 4,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "4",
+      "record_kind": "observation",
+      "reporting_period_raw": "114年7月至12月",
+      "source_id": "src-1e7ca58a85a9e0b4",
+      "source_scope": "114年度工作報告研究典藏第7項；專案原列對象冊數，非全館年度完成總量",
+      "subject_scope": "本館藏品（原列館藏文物「噶瑪蘭廳志4冊」）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "冊",
+      "unit_status": "reported",
+      "verification_status": "official_pdf_text_and_original_page_image_read",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
     }
   ],
   "relations": [
@@ -24471,6 +27719,47 @@
       ],
       "relation_id": "DRAMA-packaging-versus-inventory-arrangement-no-sum",
       "relation_type": "different_period_process_overlap_unknown"
+    },
+    {
+      "interpretation_note": "同一110年10月15日至111年9月30日館藏文物整飭計畫；110年明載53件，後報完成278件未另限單年，可能重疊，不相加、不年拆。",
+      "note": "同一110年10月15日至111年9月30日館藏文物整飭計畫；110年明載53件，後報完成278件未另限單年，可能重疊，不相加、不年拆。",
+      "observation_ids": [
+        "LYM-2021-arrangement-partial-year",
+        "LYM-2021-2022-arrangement-project"
+      ],
+      "relation_id": "LYM-same-project-53-278-possible-overlap",
+      "relation_type": "same_project_partial_year_and_multi_year_possible_overlap"
+    },
+    {
+      "interpretation_note": "清潔維護、展示支撐及入館防蟲的對象批次與同件重複未核，量詞件與組件亦不互換，不加成年度獨特物件總數。",
+      "note": "清潔維護、展示支撐及入館防蟲的對象批次與同件重複未核，量詞件與組件亦不互換，不加成年度獨特物件總數。",
+      "observation_ids": [
+        "LYM-2020-cleaning-maintenance",
+        "LYM-2020-display-support-maintenance",
+        "LYM-2020-inbound-exhibit-freezing"
+      ],
+      "relation_id": "LYM-2020-different-actions-no-sum",
+      "relation_type": "different_operations_overlap_unknown"
+    },
+    {
+      "interpretation_note": "各年原報靜態既有標本與人文類藏品整理，工序、批次及同件重複未拆，不能跨項／跨年加總或當可比較績效序列。",
+      "note": "各年原報靜態既有標本與人文類藏品整理，工序、批次及同件重複未拆，不能跨項／跨年加總或當可比較績效序列。",
+      "observation_ids": [
+        "NMMST-2020-specimens-arrangement",
+        "NMMST-2020-humanities-arrangement",
+        "NMMST-2021-specimens-arrangement",
+        "NMMST-2021-humanities-arrangement",
+        "NMMST-2022-specimens-arrangement",
+        "NMMST-2022-humanities-arrangement",
+        "NMMST-2023-specimens-arrangement",
+        "NMMST-2023-humanities-arrangement",
+        "NMMST-2024-specimens-arrangement",
+        "NMMST-2024-humanities-arrangement",
+        "NMMST-2025-specimens-arrangement",
+        "NMMST-2025-humanities-arrangement"
+      ],
+      "relation_id": "NMMST-annual-arrangement-not-automatic-series",
+      "relation_type": "different_year_object_process_scope_not_automatically_comparable"
     }
   ],
   "schema_version": "4.0",
@@ -28978,33 +32267,510 @@
       "source_use": "body_review",
       "title": "桃園市政府文化局113年第3屆第3次定期會工作報告（含112年8月至113年初館務段落）",
       "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 277784,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "0d779702e5ec89160cb98907ab16934eda453aa1dbc27ffc5ba1005d8feb0737",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-0d779702e5ec8916",
+      "source_use": "official_annual_source_index",
+      "title": "國立臺灣科學教育館年報索引",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=4707",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 18909334,
+      "original_file_pdf_pages": 124,
+      "original_file_sha256": "52799d68d035855bf11d6a33f3e7db78bf17bf892c89a382037da4120db93ebc",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-52799d68d035855b",
+      "source_use": "official_annual_body",
+      "title": "109國立臺灣科學教育館年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=5921",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 87857952,
+      "original_file_pdf_pages": 132,
+      "original_file_sha256": "2c3fc81186da67710c8630867b0bea7d436a0d90e8d354dae09d780b96295194",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-2c3fc81186da6771",
+      "source_use": "official_annual_body",
+      "title": "110國立臺灣科學教育館年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=5922",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 76181063,
+      "original_file_pdf_pages": 144,
+      "original_file_sha256": "7829d11700183f77ad9d683cb7ed123827da44053005865a1e5864804377e600",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-7829d11700183f77",
+      "source_use": "official_annual_body",
+      "title": "111國立臺灣科學教育館年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=7372",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 73605816,
+      "original_file_pdf_pages": 130,
+      "original_file_sha256": "3bb79351b020954844679f9fb49bab5ad54b45963658a24e38e151aa71782d25",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-3bb79351b0209548",
+      "source_use": "official_annual_body",
+      "title": "112國立臺灣科學教育館年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=7743",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 121979574,
+      "original_file_pdf_pages": 130,
+      "original_file_sha256": "08919c738916b31759e70c5fe17480ea06d84f5ed0e2ef7d9903216f2a1eb350",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-08919c738916b317",
+      "source_use": "official_annual_body",
+      "title": "113國立臺灣科學教育館年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://www.ntsec.gov.tw/article/FileAtt.ashx?id=8298",
+      "official_landing_url": "https://www.ntsec.gov.tw/article/detail.aspx?a=189",
+      "original_file_bytes": 123731200,
+      "original_file_pdf_pages": 128,
+      "original_file_sha256": "c65671a27f1415e8dba25bda893d76a36e27e2bbadd244a795c16a96134e51af",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c65671a27f1415e8",
+      "source_use": "official_annual_body",
+      "title": "114國立臺灣科學教育館年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "official_landing_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "original_file_bytes": 129598,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "1620b5107c1f8291e3f9a12f2ade658635d7b649a390e41264158ece1f917b66",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-1620b5107c1f8291",
+      "source_use": "official_annual_source_index",
+      "title": "臺北市立天文科學教育館年報索引",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://www-ws.gov.taipei/001/Upload/439/relfile/21694/9303237/a3df11f8-e013-4657-afed-e12dd59e1cb4.pdf",
+      "official_landing_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "original_file_bytes": 1265664,
+      "original_file_pdf_pages": 3,
+      "original_file_sha256": "b61846f92782bb4cd841137d4b5bc6528c138d74a8d56d473b5bc94b7215b741",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b61846f92782bb4c",
+      "source_use": "official_annual_body",
+      "title": "臺北市立天文科學教育館109年報：經營管理",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://www-ws.gov.taipei/001/Upload/439/relfile/21694/9303237/b50e020b-5de8-48c6-8d1c-029577d03a9c.pdf",
+      "official_landing_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "original_file_bytes": 773637,
+      "original_file_pdf_pages": 3,
+      "original_file_sha256": "f2fd4d2474913bd88981549c81fc6f8fd027adae89ecb1242e07c69fa9b1cf52",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-f2fd4d2474913bd8",
+      "source_use": "official_annual_body",
+      "title": "臺北市立天文科學教育館111年報：經營管理",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://www-ws.gov.taipei/001/Upload/439/relfile/21694/9303237/8d6edb60-ce97-4570-86de-00f2600a3840.pdf",
+      "official_landing_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "original_file_bytes": 1362597,
+      "original_file_pdf_pages": 3,
+      "original_file_sha256": "32f06c0a296fb74be90a88b174809a34de974b4620789ab87371ddaab2527e76",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-32f06c0a296fb74b",
+      "source_use": "official_annual_body",
+      "title": "臺北市立天文科學教育館112年報：經營管理",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://www-ws.gov.taipei/001/Upload/439/relfile/21694/9303237/8bb7990f-ba46-4898-a53a-1c4846346853.pdf",
+      "official_landing_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "original_file_bytes": 3431247,
+      "original_file_pdf_pages": 4,
+      "original_file_sha256": "dc810532b2134cb28f3548dcace33e59027c2066664114e11c759e84e1e25558",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-dc810532b2134cb2",
+      "source_use": "official_annual_body",
+      "title": "臺北市立天文科學教育館113年報：經營管理",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://www-ws.gov.taipei/001/Upload/439/relfile/21694/9303237/6680c6b0-bd94-46e2-9f55-6bd9559d74bd.pdf",
+      "official_landing_url": "https://tam.gov.taipei/News_Content.aspx?n=4CF041ACA68FCDFC&s=1BAB8EF7737B3218&sms=C4C7F0E20993AEC7",
+      "original_file_bytes": 7466554,
+      "original_file_pdf_pages": 6,
+      "original_file_sha256": "9c220f6418dd3fe15689af9d2631d788a9b3af3d2d5a84a3b21f6821310235c0",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-9c220f6418dd3fe1",
+      "source_use": "official_annual_body",
+      "title": "臺北市立天文科學教育館114年報：經營管理",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "official_landing_url": "https://service.taea.tn.edu.tw/main/page/d7d504a0-ffa8-11ea-bbee-b7a0ad77fdd9",
+      "original_file_bytes": 46036,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "b00544c601fccf3b1c12d0da951979d119cef53e669efd56bd98a9072f3650d2",
+      "original_file_type": "HTML",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b00544c601fccf3b",
+      "source_use": "official_scope_and_document_index",
+      "title": "臺南市南瀛天文館：相關法規與組織資訊頁",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://www.tn.edu.tw/wp-content/uploads/2023/11/%E5%B1%80%E5%8B%99%E6%9C%83%E8%AD%B0%E7%AC%AC389%E6%AC%A1%E7%B4%80%E9%8C%84%E5%AE%9A%E7%A8%BF.pdf",
+      "official_landing_url": "https://www.tn.edu.tw/wp-content/uploads/2023/11/%E5%B1%80%E5%8B%99%E6%9C%83%E8%AD%B0%E7%AC%AC389%E6%AC%A1%E7%B4%80%E9%8C%84%E5%AE%9A%E7%A8%BF.pdf",
+      "original_file_bytes": 2094183,
+      "original_file_pdf_pages": 107,
+      "original_file_sha256": "8f62aa578ac7ab061c69951540303c266e4ffd584110672628e4f28abd43e8a0",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版年月；原報工作年度與索引更新日期不代填出版年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-8f62aa578ac7ab06",
+      "source_use": "official_partial_period_business_body",
+      "title": "臺南市政府教育局第389次局務會議紀錄：南瀛科學教育館工作報告",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://www.tbri.gov.tw/redirect_file.php?theme=web_structure&id=2175",
+      "official_landing_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=547",
+      "original_file_bytes": 7031629,
+      "original_file_pdf_pages": 54,
+      "original_file_sha256": "139c00872ec0a5a3e73ec68e69c7e3f1d79a0d0563b5795e52b29c856efdb927",
+      "original_file_type": "PDF",
+      "publication_year": 2021,
+      "publication_year_basis": "原件PDF53版權頁文字層明載2021年6月；已與原字串核對，不是從資料年推算。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-139c00872ec0a5a3",
+      "source_use": "body_review",
+      "title": "行政院農業委員會特有生物研究保育中心109年度年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://www.tbri.gov.tw/redirect_file.php?theme=web_structure&id=2174",
+      "official_landing_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=546",
+      "original_file_bytes": 7030553,
+      "original_file_pdf_pages": 54,
+      "original_file_sha256": "429a9a540f05be1192475892d666cb6da697166768cc8b8dbdeeebf5be588377",
+      "original_file_type": "PDF",
+      "publication_year": 2022,
+      "publication_year_basis": "原件PDF53版權頁文字層明載2022年6月；已與原字串核對，不是從資料年推算。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-429a9a540f05be11",
+      "source_use": "body_review",
+      "title": "行政院農業委員會特有生物研究保育中心110年度年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://www.tbri.gov.tw/redirect_file.php?theme=web_structure&id=2173",
+      "official_landing_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=545",
+      "original_file_bytes": 8746931,
+      "original_file_pdf_pages": 58,
+      "original_file_sha256": "48a89f361f1ca1e5c78aab19c47cebc61864b845255d02c464c126600ef52822",
+      "original_file_type": "PDF",
+      "publication_year": 2023,
+      "publication_year_basis": "原件PDF57版權頁文字層明載2023年6月；已與原字串核對，不是從資料年推算。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-48a89f361f1ca1e5",
+      "source_use": "body_review",
+      "title": "行政院農業委員會特有生物研究保育中心111年度年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://www.tbri.gov.tw/redirect_file.php?theme=web_structure&id=4182",
+      "official_landing_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=544",
+      "original_file_bytes": 5566858,
+      "original_file_pdf_pages": 74,
+      "original_file_sha256": "7e2793e72a65beeb6c321cc9abbc8489bf6b3533f5a27eebdf358af8351e67f5",
+      "original_file_type": "PDF",
+      "publication_year": 2024,
+      "publication_year_basis": "原件PDF73版權頁文字層明載2024年6月；已與原字串核對，不是從資料年推算。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-7e2793e72a65beeb",
+      "source_use": "body_review",
+      "title": "農業部生物多樣性研究所112年度年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://www.tbri.gov.tw/redirect_file.php?theme=web_structure&id=4469",
+      "official_landing_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=847",
+      "original_file_bytes": 7063220,
+      "original_file_pdf_pages": 64,
+      "original_file_sha256": "a07dd21089cc5a30a64aed4309c6eeaaa36b9171aaab5f5909ed0e60463b6184",
+      "original_file_type": "PDF",
+      "publication_year": 2025,
+      "publication_year_basis": "原件PDF63版權頁文字層明載2025年6月；已與原字串核對，不是從資料年推算。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-a07dd21089cc5a30",
+      "source_use": "body_review",
+      "title": "農業部生物多樣性研究所113年度年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://www.tbri.gov.tw/redirect_file.php?theme=web_structure&id=4852",
+      "official_landing_url": "https://www.tbri.gov.tw/view.php?theme=web_structure&id=935",
+      "original_file_bytes": 10959284,
+      "original_file_pdf_pages": 114,
+      "original_file_sha256": "15706b95e52bc522cca2fdc519cda2b4c6ffb326d046406d11ba01599b586e54",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未確認出版年；不以資料年、檔名或取得年推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-15706b95e52bc522",
+      "source_use": "body_review",
+      "title": "農業部生物多樣性研究所114年度單位決算（重要施政計畫執行成果指定業務段）",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://newsletter.sinica.edu.tw/22055/",
+      "official_landing_url": "https://newsletter.sinica.edu.tw/22055/",
+      "original_file_bytes": 133327,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "e20d147ecc9e8ce8ba045de2350ebb099f2ca5bd1546e4371ebc58b7f74343a7",
+      "original_file_type": "HTML",
+      "publication_year": 2020,
+      "publication_year_basis": "官方文章頁面明載2020-06-09；這是專刊發表日期，不是全年修護資料年。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e20d147ecc9e8ce8",
+      "source_use": "body_review",
+      "title": "中研院訊：寂靜的生物大觀園──生物多樣性研究博物館（動／植物標本館）",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://www.nmmst.gov.tw/other/wc-20240620150818.pdf",
+      "official_landing_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "original_file_bytes": 447097,
+      "original_file_pdf_pages": 20,
+      "original_file_sha256": "2683f25adc2cbd787313c4fc133a7beabd61fda83dd2f1a437f7e2b29f3fcf0c",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版／版權頁，保持null",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-2683f25adc2cbd78",
+      "source_use": "numeric_evidence",
+      "title": "國立海洋科技博物館110年度審定決算書",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://www.nmmst.gov.tw/other/wc-20260729092657.pdf",
+      "official_landing_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "original_file_bytes": 1019791,
+      "original_file_pdf_pages": 62,
+      "original_file_sha256": "450a8d74fd5d5513c395337fb88b28adb315cfd1f2eb9d33bda7f73018ba2b26",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版／版權頁，保持null",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-450a8d74fd5d5513",
+      "source_use": "numeric_evidence",
+      "title": "國立海洋科技博物館114年度審定決算書",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://www.nmmst.gov.tw/other/wc-20240806091515.pdf",
+      "official_landing_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "original_file_bytes": 258516,
+      "original_file_pdf_pages": 16,
+      "original_file_sha256": "8b00b3e95a88da51cd879f1acbdbd8f58dbb9fdd5dc0f9db9b8aad369e20b1a9",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版／版權頁，保持null",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-8b00b3e95a88da51",
+      "source_use": "numeric_evidence",
+      "title": "國立海洋科技博物館112年度審定決算書",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://www.nmmst.gov.tw/other/wc-20250806144809.pdf",
+      "official_landing_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "original_file_bytes": 1194230,
+      "original_file_pdf_pages": 60,
+      "original_file_sha256": "c3779413972905cb72ad51d021c2e075c655dc9b79d8a86a04f7126c8f160b3e",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版／版權頁，保持null",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c3779413972905cb",
+      "source_use": "numeric_evidence",
+      "title": "國立海洋科技博物館113年度審定決算書",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://www.nmmst.gov.tw/other/wc-20230811170021.pdf",
+      "official_landing_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "original_file_bytes": 370159,
+      "original_file_pdf_pages": 18,
+      "original_file_sha256": "db2755c4e2a5ada66c9adc869a8f24c90bf6583fa4bf59d096429f625daa75a7",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版／版權頁，保持null",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-db2755c4e2a5ada6",
+      "source_use": "numeric_evidence",
+      "title": "國立海洋科技博物館111年度審定決算書",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2020,
+      "official_file_url": "https://www.nmmst.gov.tw/other/wc-20240624114942.pdf",
+      "official_landing_url": "https://www.nmmst.gov.tw/chhtml/download/64",
+      "original_file_bytes": 350859,
+      "original_file_pdf_pages": 17,
+      "original_file_sha256": "df2b3c8500f5183456e99a2886f364524ecbb38cd812453b542f0c1f9beec420",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "本輪未另核出版／版權頁，保持null",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-df2b3c8500f51834",
+      "source_use": "numeric_evidence",
+      "title": "國立海洋科技博物館109年度審定決算書",
+      "verified_at": "2026-10-29"
     }
   ],
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 384,
-    "body_review_source_file_versions": 242,
-    "body_review_target_year_cells": 378,
+    "body_review_records": 450,
+    "body_review_source_file_versions": 270,
+    "body_review_target_year_cells": 426,
     "context_component_records": 2,
     "derived_summary_records": 1,
-    "multi_year_records_not_allocated_to_years": 3,
+    "multi_year_records_not_allocated_to_years": 5,
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 279
+      "source_reported": 297
     },
-    "numeric_support_source_file_versions": 85,
-    "observation_records": 277,
-    "organizations_with_facts": 23,
-    "organizations_with_facts_or_new_body_reviews": 71,
+    "numeric_support_source_file_versions": 93,
+    "observation_records": 295,
+    "organizations_with_facts": 25,
+    "organizations_with_facts_or_new_body_reviews": 80,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
-    "total_fact_rows": 280,
+    "total_fact_rows": 298,
     "units": {
-      "件": 194,
+      "件": 210,
       "件作品": 3,
       "件數": 6,
       "作品": 1,
+      "冊": 1,
       "卷": 1,
       "幅": 1,
       "座": 1,
@@ -29018,7 +32784,7 @@
       "片": 4,
       "筆": 17,
       "組、件": 2,
-      "組件": 7,
+      "組件": 8,
       "組（件）": 2,
       "艘": 1,
       "號": 12,
@@ -29026,9 +32792,9 @@
       "部": 1,
       "項": 2
     },
-    "verified_original_html_files": 32,
-    "verified_original_pdf_files": 256,
-    "verified_original_source_files": 288,
+    "verified_original_html_files": 36,
+    "verified_original_pdf_files": 280,
+    "verified_original_source_files": 316,
     "years": [
       2015,
       2016,
