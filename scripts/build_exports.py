@@ -15,6 +15,29 @@ if not __debug__:raise SystemExit('Validation must run with normal Python, witho
 def encode(x):return (json.dumps(x,ensure_ascii=False,sort_keys=True,indent=2)+'\n').encode()
 def digest(x):return hashlib.sha256(x).hexdigest()
 def read(p):return json.loads(p.read_text())
+def sqlite_logically_equal(left,right):
+    """SQLite versions can change page layouts; compare schema and every table cell.
+
+    The selected artifact's exact bytes remain bound by metadata/build.json.
+    Both connections are read-only temporary copies, never the published files.
+    """
+    try:
+        with tempfile.TemporaryDirectory()as tmp:
+            paths=[Path(tmp)/name for name in ['left.sqlite','right.sqlite']]
+            for path,body in zip(paths,[left,right]):path.write_bytes(body)
+            connections=[sqlite3.connect(path.as_uri()+'?mode=ro',uri=True)for path in paths]
+            try:
+                if any(c.execute('PRAGMA integrity_check').fetchone()!=('ok',)for c in connections):return False
+                schema=[c.execute('SELECT type,name,tbl_name,sql FROM sqlite_master ORDER BY type,name').fetchall()for c in connections]
+                if schema[0]!=schema[1]:return False
+                for kind,name,_,_ in schema[0]:
+                    if kind!='table':continue
+                    if not re.fullmatch('[A-Za-z_][A-Za-z0-9_]*',name):return False
+                    if connections[0].execute('SELECT * FROM "'+name+'" ORDER BY rowid').fetchall()!=connections[1].execute('SELECT * FROM "'+name+'" ORDER BY rowid').fetchall():return False
+                return True
+            finally:
+                for c in connections:c.close()
+    except sqlite3.DatabaseError:return False
 def source_number(raw):
     if raw is None:return None
     text=unicodedata.normalize('NFKC',str(raw)).replace(',','').strip()
@@ -213,6 +236,12 @@ def main():
     facts=read(args.candidate_facts or root/'data/facts.json');inventory=read(args.candidate_inventory or root/'metadata/inventory.json')
     checks=validate(facts,inventory,version)
     outputs=generate(facts,inventory,version)
+    sqlite_path='data/museum-conservation.sqlite'
+    existing=root/sqlite_path
+    if existing.is_file():
+        published_bytes=existing.read_bytes()
+        if published_bytes!=outputs[sqlite_path]and sqlite_logically_equal(published_bytes,outputs[sqlite_path]):
+            outputs[sqlite_path]=published_bytes
     previous=read(root/'metadata/build.json')if(root/'metadata/build.json').exists()else None
     versions={}
     for s in facts['sources']:

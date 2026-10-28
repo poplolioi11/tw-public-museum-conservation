@@ -8,7 +8,7 @@
 
 每列保留固定JSON入口。網站使用`records/{observation_id}.json`；儲存庫中的[固定紀錄目錄](../catalog/README.md)保留`catalog/records/{observation_id}.json`。不可變版本引用可使用：
 
-`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.0/catalog/records/{observation_id}.json`
+`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/{observation_id}.json`
 
 main可查目前版，固定tag供重現；引用時核對發行版本與檔案雜湊。網站[資料manifest](../site/manifest.json)指向帶SHA檔名的完整資料／詞表JSON與固定入口範本。[官方來源清單](../data/sources.csv)另列原件網址、類型與SHA；投影JSON雜湊不能冒充原件雜湊。
 
@@ -38,6 +38,8 @@ main可查目前版，固定tag供重現；引用時核對發行版本與檔案�
 
 ## 使用界線
 
-v0.5.0共有205列，其中202觀測、1推算、2脈絡；不是全國修復物件總量。保留observation_id、資料年或期間、quantity_raw、原單位、原詞及官方來源定位再引用。網站不提供跨館總量或責任績效排行。
+v0.5.1共有205列，其中202觀測、1推算、2脈絡；不是全國修復物件總量。保留observation_id、資料年或期間、quantity_raw、原單位、原詞及官方來源定位再引用。網站不提供跨館總量或責任績效排行。
 
 [JSON](../data/facts.json)、[JSONL](../data/observations.jsonl)、[CSV](../data/observations.csv)、[SQLite](../data/museum-conservation.sqlite)及網站由同一公開主檔產生。先看[資料樣貌](../catalog/SAMPLE.md)可比較不同計量方式；例子不構成可相加數列。
+
+SQLite下載檔以發行manifest核SHA；跨SQLite版本重建則核schema、全表rows與完整性。兩者是不同檢查，邏輯等價不代表原檔SHA相同。

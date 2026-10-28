@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.0",
+  "dataset_version": "0.5.1",
   "milestones": [
     {
       "scope": "美術館首個可引用子集",
@@ -49,7 +49,7 @@
     },
     {
       "scope": "美術館缺年、HTML數值定位與靜態查詢網站",
-      "completed_in_release": "v0.5.0",
+      "completed_in_release": "v0.5.1",
       "new_fact_rows": 14,
       "new_tfam_rows": 11,
       "new_kmfa_rows": 3,
@@ -71,7 +71,11 @@
       "national_or_all_years_complete": false,
       "website_url": "https://poplolioi11.github.io/tw-public-museum-conservation/",
       "machine_readable_entry": "https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt",
-      "deployment_verification_basis": "公開網址讀回紀錄及版本／檔案雜湊核對；本metadata不作部署回執。"
+      "deployment_verification_basis": "公開網址讀回紀錄及版本／檔案雜湊核對；本metadata不作部署回執。",
+      "attempted_tag": "v0.5.0",
+      "attempted_tag_status": "標籤保留；首次Linux CI失敗，未建立GitHub Release，未由該次CI部署。",
+      "ci_rework_note": "v0.5.1修正SQLite跨runtime邏輯核對；205列內容不變，原估與任務開始時間不重設。",
+      "sqlite_verification_policy": "跨版本核相同schema、所有表完整rows及完整性；實際發行SQLite bytes仍與發行manifest核SHA，邏輯等價不代表SHA相同。"
     }
   ],
   "ongoing_gaps": "高美館2020–2022目前只在指定正文範圍未定位合格量，不作零或未公開；其他館所及缺年逐批補齊，未完成全國。網站每版部署結果依公開網址讀回紀錄核對。",

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.0",
+  "dataset_version": "0.5.1",
   "record": {
     "action_categories": [
       "maintenance",
@@ -50,5 +50,5 @@
     "title": "2022臺南市美術館年報（中文版）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.0/catalog/records/TNAM-2022-under-treatment.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.5.1/catalog/records/TNAM-2022-under-treatment.json"
 }

@@ -57,7 +57,7 @@ SQLite的`observations`保留常用欄位的數字／null，另有完整`record_
 
 `missing_quantity_is_zero`固定false。科學館的標本採集、入藏、初次製作、活體照養、研究／數位化與設施維修不能只因同頁出現「修復」便改作既有館藏完成修復量。公共來源中的無關人類遺骸個案也不在這批公開範圍。
 
-v0.2.0的主檔schema_version為2.0：data_year允許跨年null，並新增body_reviews。資料版本(dataset_version)與結構版本分開；本版v0.5.0的主檔結構為4.0，舊版結構及內容保留於各tag。
+v0.2.0的主檔schema_version為2.0：data_year允許跨年null，並新增body_reviews。資料版本(dataset_version)與結構版本分開；本版v0.5.1的主檔結構為4.0，舊版結構及內容保留於各tag。
 
 ## v0.3.0查詢欄位與補充來源
 
@@ -67,7 +67,7 @@ action_categories是來源作業用語的複選標籤；completion_category將�
 
 跨頁數值保留additional_pdf_pages_1_based，與首個pdf_page_1_based合讀；不將跨頁後半句當作另一份來源。
 
-## v0.5.0結構4.0：HTML數值與精確數詞
+## v0.5.1結構4.0：HTML數值與精確數詞
 
 HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_locator`。來源`original_file_type=HTML`的SHA與bytes指完整取得的原始HTML，不是文字擷取檔、截圖或衍生列印PDF。HTML出版年未核仍為null；頁面更新日期不能冒充資料年或出版年。
 
@@ -80,3 +80,7 @@ HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_lo
 網站`site/manifest.json`記錄靜態資料JSON、詞表及固定逐筆入口的建置雜湊；其manifest結構版號與事實主檔結構4.0是不同層次。公開JSON投影SHA、網站檔案SHA與官方原件SHA各指不同bytes。
 
 篩選CSV另帶來源表的五欄：`official_file_url`、`official_landing_url`、`original_file_type`、`original_file_sha256`、`original_file_bytes`；觀測本身的`source_locator`與原單位照常保留。網站根`llms.txt`僅作版本與入口導航，不是新的數值來源。
+
+## SQLite邏輯內容與檔案版本
+
+跨SQLite版本重建時，以相同schema、所有資料表的完整列資料及資料庫完整性檢查核對邏輯等價，不只比筆數或抽樣。不同SQLite版本可能產生不同binary layout；邏輯等價不表示檔案bytes或SHA相同。實際發行的SQLite檔仍必須與該版發行manifest的SHA一致；下載檔不符時保持待核，不能以邏輯等價跳過原檔雜湊檢查。重建檢查不因runtime差異覆寫已保留的發行檔bytes或manifest。

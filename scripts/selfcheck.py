@@ -39,6 +39,15 @@ def main():
         for k in builder.columns(rows):assert str(builder.flat(expected.get(k)))==actual[k],(expected['observation_id'],k)
     assert len(rows)==len(csvrows)
     reviews=facts.get('body_reviews',[])
+    # A writer-version header difference can preserve logical content. The artifact
+    # hash still binds its exact bytes, while schema/row corruption is rejected.
+    sqlite_bytes=(ROOT/'data/museum-conservation.sqlite').read_bytes()
+    alternate=bytearray(sqlite_bytes);alternate[96:100]=(3051000).to_bytes(4,'big')
+    assert builder.sqlite_logically_equal(sqlite_bytes,bytes(alternate))
+    with tempfile.TemporaryDirectory()as sqltmp:
+        other=Path(sqltmp)/'changed.sqlite';other.write_bytes(sqlite_bytes)
+        with sqlite3.connect(other)as con:con.execute("UPDATE observations SET quantity_raw='999999' WHERE rowid=1")
+        assert not builder.sqlite_logically_equal(sqlite_bytes,other.read_bytes())
     review_lines=[json.loads(line)for line in(ROOT/'data/body_reviews.jsonl').read_text().splitlines()]
     assert reviews==review_lines
     with sqlite3.connect(ROOT/'data/museum-conservation.sqlite')as con:
@@ -97,5 +106,10 @@ def main():
         target=root/'data/observations.csv';target.write_bytes(target.read_bytes()+b'broken\n');broken=hashes(root)
         result=subprocess.run(cmd+['--check'],capture_output=True,text=True)
         assert result.returncode!=0 and hashes(root)==broken
-    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'html_locator_contract':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
+        # Logically equal SQLite bytes cannot silently replace the manifest-bound artifact.
+        shutil.copy(ROOT/'data/observations.csv',target)
+        target=root/'data/museum-conservation.sqlite';target.write_bytes(bytes(alternate));broken=hashes(root)
+        result=subprocess.run(cmd+['--check'],capture_output=True,text=True)
+        assert result.returncode!=0 and hashes(root)==broken
+    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
 if __name__=='__main__':main()
