@@ -12,7 +12,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VIEWER_VERSION = '1.0.0'
+VIEWER_VERSION = '1.1.0'
 REPOSITORY = 'https://github.com/poplolioi11/tw-public-museum-conservation'
 
 
@@ -90,6 +90,8 @@ def expected(root, inputs):
 - [GitHub 說明與固定發行版本]({REPOSITORY})。
 
 共 {len(facts['observations'])} 列紀錄，列數不是修復物件數。保留原數字字串、量詞、完成狀態與官方來源。
+body_reviews含{len(facts['body_reviews'])}則歷史查核；目前紀錄為未被extends_review_id延伸的所有紀錄，同館同年可有多則，不按日期或狀態挑一筆。六種查核狀態分開，適用正文待核不等於指定正文已讀無量；每則原註記的文字／圖頁範圍也不等於全年已讀。
+metric_label供解讀，metric_as_reported保留原詞。專案原列對象量不等於年度已完成量，請同讀完成狀態、原報期間與對象範圍。
 未知不是零；近似量與雙單位不強轉整數；跨年數值不拆成年份；分項、合計與可能重疊的批次不相加。
 HTML 來源以 source_locator 定位，PDF 頁碼為 null；PDF 來源以 pdf_page_1_based 定位。
 引用請同時提供資料版本、observation_id 與原官方來源及頁碼／正文定位。程式與文件的 MIT 不改變來源權利。

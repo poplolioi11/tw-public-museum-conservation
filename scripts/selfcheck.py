@@ -47,10 +47,20 @@ def main():
         for k in builder.columns(rows):assert str(builder.flat(expected.get(k)))==actual[k],(expected['observation_id'],k)
     assert len(rows)==len(csvrows)
     reviews=facts.get('body_reviews',[])
+    current=builder.current_reviews(reviews)
+    extended={r['extends_review_id']for r in reviews if r.get('extends_review_id')}
+    assert {r['review_id']for r in current}=={r['review_id']for r in reviews}-extended
+    # Independent current evidence for the same museum-year must survive.
+    assert len(current)>len({(r['organization_id'],r['target_data_year'])for r in current})
+    coverage=builder.read(ROOT/'metadata/read_coverage.json')['body_reviews']
+    assert coverage['current_record_count']==len(current)
     # A writer-version header difference can preserve logical content. The artifact
     # hash still binds its exact bytes, while schema/row corruption is rejected.
     sqlite_bytes=(ROOT/'data/museum-conservation.sqlite').read_bytes()
-    alternate=bytearray(sqlite_bytes);alternate[96:100]=(3051000).to_bytes(4,'big')
+    alternate=bytearray(sqlite_bytes)
+    alternate_version=3040001 if int.from_bytes(sqlite_bytes[96:100],'big')==3051000 else 3051000
+    alternate[96:100]=alternate_version.to_bytes(4,'big')
+    assert bytes(alternate)!=sqlite_bytes
     assert builder.sqlite_logically_equal(sqlite_bytes,bytes(alternate))
     with tempfile.TemporaryDirectory()as sqltmp:
         other=Path(sqltmp)/'changed.sqlite';other.write_bytes(sqlite_bytes)
@@ -107,6 +117,15 @@ def main():
             elif case=='unknown_evidence_field':detail['image_page_count']=1;expected='review_schema_additional_property'
             elif case=='boolean_page':detail['image_viewed_pdf_pages_1_based']=[True];expected='review_schema_type'
             else:detail['image_viewed_pdf_pages_1_based']=[99999];expected='review_evidence_outside_reviewed_pages'
+            candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
+            assert result.returncode!=0 and expected in result.stderr and hashes(root)==before,(case,result.stderr)
+        # Broken lineage must not hide a current record or replace prior exports.
+        for case in ['self_cycle','two_record_cycle','different_year_parent','different_museum_parent']:
+            bad=json.loads(json.dumps(facts));review=next(r for r in bad['body_reviews']if r.get('extends_review_id'));parent=next(r for r in bad['body_reviews']if r['review_id']==review['extends_review_id'])
+            if case=='self_cycle':review['extends_review_id']=review['review_id'];expected='review_extension_cycle'
+            elif case=='two_record_cycle':parent['extends_review_id']=review['review_id'];expected='review_extension_cycle'
+            elif case=='different_year_parent':review['target_data_year']=parent['target_data_year']+1;expected='review_parent_scope_mismatch'
+            else:review['organization_id']='synthetic-other-museum';expected='review_parent_scope_mismatch'
             candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
             assert result.returncode!=0 and expected in result.stderr and hashes(root)==before,(case,result.stderr)
         optimized=subprocess.run([sys.executable,'-O',str(root/'scripts/build_exports.py'),'--check'],capture_output=True,text=True)

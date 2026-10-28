@@ -1,6 +1,6 @@
 # 國立臺灣博物館
 
-版本：0.11.0。以下為本版已核子集；列數不代表不重複文物或修復量。
+版本：0.12.0。以下為本版已核子集；列數不代表不重複文物或修復量。
 
 |資料年／期間|原報作業|原數字與量詞|逐筆來源|
 |---|---|---|---|
@@ -14,7 +14,7 @@
 |2024|典藏品修護與維護|30 件|[ntm-reread-2024-accounts-reported-completed](../records/ntm-reread-2024-accounts-reported-completed.json)|
 |2025|典藏品修護與維護|30 件|[ntm-reread-2025-accounts-reported-completed](../records/ntm-reread-2025-accounts-reported-completed.json)|
 
-## 補充正文查核
+## 目前補充查核
 
-以下另記來源查找與指定正文核讀範圍；未定位數量不代表零。
+依明確延伸關係保留所有尚未被延伸的紀錄；同館同年可能有多則。所列頁段不代表全年所有來源已讀，未定位數量不代表零。
 

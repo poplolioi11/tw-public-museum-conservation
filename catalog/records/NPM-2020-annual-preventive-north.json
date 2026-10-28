@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.11.0",
+  "dataset_version": "0.12.0",
   "record": {
     "action_categories": [
       "maintenance"
@@ -50,5 +50,5 @@
     "title": "故宮109年度年報",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.11.0/catalog/records/NPM-2020-annual-preventive-north.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.12.0/catalog/records/NPM-2020-annual-preventive-north.json"
 }

@@ -1,23 +1,23 @@
 # 臺灣公立館保存修護公開資料索引
 
-版本v0.6.0；資料截至2026-10-28。265列含262筆原報觀測、1筆程式推算及2筆脈絡，不是修復文物合計或全國完整數據。
+版本v0.12.0；資料截至2026-10-29。298列含295筆原報觀測、1筆程式推算及2筆脈絡，不是修復物件合計或全國完整統計。
 
 - [網站機讀入口](https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt)
-- [資料版本與網站manifest](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)
+- [網站資料manifest](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)
 - [完整公開事實JSON](data/facts.json)
 - [逐筆JSONL](data/observations.jsonl)
 - [原件來源與SHA](data/sources.jsonl)
-- [不相加關係](data/relations.jsonl)
-- [正文覆讀及範圍](data/body_reviews.jsonl)
+- [查核含歷史紀錄](data/body_reviews.jsonl)
+- [目前查核識別與涵蓋](metadata/read_coverage.json)
+- [正文補讀與49格結果](docs/BODY_FOLLOWUP.md)
 - [館所索引](catalog/README.md)
-- [故宮2020–2025來源與口徑](docs/NPM.md)
+- [不相加關係](data/relations.jsonl)
 - [欄位字典](docs/DATA_DICTIONARY.md)
 - [公開範圍與權利](docs/PUBLICATION.md)
-- [既有整合與查核界線](docs/PRIOR_ART.md)
 - [AI使用與核對層級](AI_USAGE.md)
 
-保留資料年與出版年、原作業、原數字、量詞、完成狀態、官方URL及PDF頁碼或HTML定位。未知與未定位不是零；件、筆、批次及其他單位不互換。修護、檢視、防蟲、數位作業及總子項不直接相加；不做全國總量或績效排名。
+322個來源版次；509則查核含歷史，目前437則對應426組候選識別×目標年。同館年多則全部保留，目前紀錄依明確extends_review_id葉節點選取，不選較好狀態或最新日期。來源未定位、適用正文待核、指定段未定位量、已核數值、年度不可拆、範圍外是六種不同狀態。
 
-故宮60列含官方永續報告原有2021–2024整合20列，另與年報及2025決算並列；不宣稱首創數列。同年原值或原量詞不同時保留來源版次，不擇一覆寫、推差異原因或建立未核去重關係。原文檢示保留，檢視分項不算修復。
+保留資料年與出版年、metric_as_reported原詞、metric_label解讀標籤、數字字串、量詞、完成詞、對象及原件定位。PDF實讀文字頁與原圖頁分列；HTML用原段定位，不借PDF頁碼。專案對象量不等於已完成量，跨年不拆，混合作業不改稱純修復。未知不填零，不同單位、批次及總子項不直接相加或排名。
 
-71基線與426來源格是歷史索引盤點，另14組織候選與13場域候選不直接合為全國館數。原名冊PDF仍未核。官方原件、整頁文字、圖片及私人流程不重發布；MIT不改變第三方權利，不宣稱人類逐格雙校或館方認證。
+原71組織與426格是歷史索引盤點，另14組織候選與13場域候選不合為全國法定館數；原名冊PDF仍未核。官方原件、整頁文字、圖片及私有流程不重發布；MIT不改變第三方權利，不稱人類逐格二校或館方認證。

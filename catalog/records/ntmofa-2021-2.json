@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.11.0",
+  "dataset_version": "0.12.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -75,5 +75,5 @@
     "title": "國立臺灣美術館2021年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.11.0/catalog/records/ntmofa-2021-2.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.12.0/catalog/records/ntmofa-2021-2.json"
 }

@@ -106,3 +106,9 @@ organization_id可指原名錄的博物館群工作項目，source_scope、subje
 ## 量詞未明列、累計與跨期（v0.10.0）
 
 原表數量欄有數字但未標量詞時，unit_as_reported明示未明列，不由片名、工作或列序猜部／案／件。純數位修復維持digital_restoration，不當實體膠卷量。跨年計畫原報只存一筆multi_year_not_allocated，查找格可共同引用，不能相加或年拆。起點未知累計無法以現行起訖期間模型忠實表達時，不猜起點或塞出版年；先留來源查核與私人候選。
+
+## 目前查核、歷史延伸與解讀標籤（v0.12.0）
+
+extends_review_id保留同一organization_id及target_data_year的前則紀錄。資料主檔保留所有歷史；目前查核選取未被任何紀錄延伸的所有review_id，同館年多個葉節點全部保留。連結不得自指、循環或跨館年，未由日期或狀態選優。metadata/read_coverage.json另列current_review_ids及狀態數；紀錄筆數不是館年格數，也不是全文已讀率。
+
+metric_label是經來源核對的解讀與搜尋標籤，列表、詳情及篩選CSV可同時提供；metric_as_reported仍保存原字形及原作業詞，不被標籤改寫。專案對象量、年度執行與明載完成依原詞及既有完成分類判讀，不對全部舊紀錄自動猜配新角色。

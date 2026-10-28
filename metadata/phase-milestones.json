@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-29",
   "data_schema_version": "4.0",
-  "dataset_version": "0.11.0",
+  "dataset_version": "0.12.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -223,7 +223,28 @@
       "status": "reviewed_source_subset_prepared",
       "total_fact_rows": 298,
       "unique_source_year_cells": 426
+    },
+    {
+      "additional_existing_source_cells": 2,
+      "completed_in_release": "v0.12.0",
+      "current_original49_status_counts": {
+        "annual_scope_not_separable": 1,
+        "body_read_no_eligible_quantity_located": 8,
+        "source_found_body_not_reviewed": 40
+      },
+      "current_review_records": 437,
+      "deployment_verification_basis": "公開附件、資料CI、部署CI及實際網站另外讀回，metadata不推定已部署。",
+      "national_or_all_years_complete": false,
+      "new_observation_records": 0,
+      "new_source_review_records": 59,
+      "new_source_versions": 6,
+      "old_298_records_316_sources_450_reviews_and_relations_preserved": true,
+      "original_pending_cells": 49,
+      "original_source_versions": 322,
+      "scope": "49待核正文有界補追及2格既存來源補核；目前與歷史查核及數字口徑提示",
+      "source_review_records": 509,
+      "unique_source_year_cells": 426
     }
   ],
-  "ongoing_gaps": "原定優先順序一至六第一輪已完成，仍非全國或全年全量；後續依逐格缺口與新附件、館別正文、完成清冊或逐年表等具體線索續核，不重複同文無效搜尋。"
+  "ongoing_gaps": "原49格仍40適用正文待核；依新官方附件或既存未讀原件等具體線索續核，不把索引或父機構章節當館別全年全讀，未知不補零。"
 }

@@ -91,6 +91,20 @@ def official_url(u):
     assert not p.username and not p.password
     assert p.hostname not in ['localhost','127.0.0.1']
     assert not p.hostname.endswith('google.com')and p.hostname!='drive.google.com',('private_or_non_source_url',u)
+def current_reviews(reviews):
+    """Keep every unextended record; an organization-year may have several leaves."""
+    by_id={r['review_id']:r for r in reviews}
+    assert len(by_id)==len(reviews), 'duplicate_review_id'
+    parents=set()
+    for row in reviews:
+        seen={row['review_id']};parent_id=row.get('extends_review_id')
+        while parent_id:
+            assert parent_id in by_id,('review_parent_missing',row['review_id'])
+            assert parent_id not in seen,('review_extension_cycle',row['review_id'])
+            seen.add(parent_id);parent=by_id[parent_id]
+            assert (parent['organization_id'],parent['target_data_year'])==(row['organization_id'],row['target_data_year']),('review_parent_scope_mismatch',row['review_id'])
+            parents.add(parent_id);parent_id=parent.get('extends_review_id')
+    return [r for r in reviews if r['review_id']not in parents]
 def validate(facts,inventory,version):
     assert facts['dataset_version']==version
     obs=facts['observations'];sources=facts['sources'];ids=[r['observation_id']for r in obs];sid=[r['source_id']for r in sources]
@@ -180,6 +194,7 @@ def validate(facts,inventory,version):
             if maximum:assert all(p<=maximum for p in detail['pdf_pages_1_based'])
         assert r['reviewed_pdf_pages_1_based']==sorted({p for detail in r['source_page_reviews']for p in detail['pdf_pages_1_based']})
     assert s['body_review_records']==len(reviews)
+    current_reviews(reviews)
     distinct_reviews={(r['organization_name'],r['target_data_year'])for r in reviews}
     assert s['body_review_target_year_cells']==len(distinct_reviews)
     return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_source_versions':len(sources),'original_pdf_versions':s['verified_original_pdf_files'],'original_html_versions':s['verified_original_html_files'],'multi_year_records_not_allocated_to_years':sum(r['data_year']is None for r in obs),'body_review_records':len(reviews),'distinct_source_year_review_cells':len(distinct_reviews),'inventory_lookup_grid_cells_not_facts':len(keys),'unknown_values_are_not_zero':True,'query_facets_reproduced':True,'source_pdf_revalidation_performed':False}
@@ -196,6 +211,7 @@ def generate(facts,inventory,version):
     review_labels={'numeric_observations_verified':'已核原報數值','body_read_no_eligible_quantity_located':'指定正文未定位合格數量',
       'source_found_body_not_reviewed':'找到來源，正文待讀','source_not_located_in_this_search':'本輪未定位指定來源',
       'annual_scope_not_separable':'年度範圍無法拆分','outside_selected_scope':'不在本次採用範圍'}
+    current=current_reviews(facts.get('body_reviews',[]));current_ids={r['review_id']for r in current}
     names=sorted({r['organization_name']for r in facts['observations']+facts.get('body_reviews',[])})
     for name in names:
         rows=[r for r in facts['observations']if r['organization_name']==name];reviews=[r for r in facts.get('body_reviews',[])if r['organization_name']==name]
@@ -205,8 +221,13 @@ def generate(facts,inventory,version):
         for r in rows:
             period=str(r['data_year'])if r['data_year']is not None else r['reporting_period_raw'];raw=r['quantity_raw']if r['quantity_raw']is not None else'程式推算 '+str(r['quantity_numeric'])
             lines.append('|'+period+'|'+r['metric_as_reported'].replace('|','／')+'|'+quantity_display(r)+'|['+r['observation_id']+'](../records/'+r['observation_id']+'.json)|')
-        lines+=['\n## 補充正文查核\n','以下另記來源查找與指定正文核讀範圍；未定位數量不代表零。\n']
-        for r in reviews:lines.append(f"- {r['target_data_year']}｜{review_labels[r['review_status']]}：{r['review_scope']} {r['interpretation_note']}")
+        lines+=['\n## 目前補充查核\n','依明確延伸關係保留所有尚未被延伸的紀錄；同館同年可能有多則。所列頁段不代表全年所有來源已讀，未定位數量不代表零。\n']
+        for r in reviews:
+            if r['review_id']in current_ids:lines.append(f"- {r['target_data_year']}｜{review_labels[r['review_status']]}：{r['review_scope']} {r['interpretation_note']}（{r['review_id']}）")
+        history=[r for r in reviews if r['review_id']not in current_ids]
+        if history:
+            lines+=['\n## 已有後續覆讀的歷史查核\n','原紀錄保留；目前結論請沿extends_review_id讀取後續紀錄，不以狀態好壞或日期挑選。\n']
+            for r in history:lines.append(f"- {r['target_data_year']}｜{review_labels[r['review_status']]}：{r['review_scope']} {r['interpretation_note']}（{r['review_id']}）")
         output[f'catalog/museums/{orgid}.md']=('\n'.join(lines)+'\n').encode()
     output['catalog/README.md']=('\n'.join(catalog)+'\n').encode()
     examples=[]
@@ -239,7 +260,7 @@ def generate(facts,inventory,version):
     for organization,year in sorted({(r['organization_name'],r['data_year'])for r in facts['observations']},key=lambda v:(v[0],v[1]if v[1]is not None else -1)):
         selected=[r for r in facts['observations']if r['organization_name']==organization and r['data_year']==year]
         coverage.append({'organization_name':organization,'data_year':year,'fact_rows':len(selected),'source_ids':sorted({r['source_id']for r in selected}),'reported_periods':sorted({r['reporting_period_raw']for r in selected if r.get('reporting_period_raw')}),'complete_annual_quantity_series_verified':False,'note':'只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。'})
-    output['metadata/read_coverage.json']=encode({'dataset_version':version,'cohorts':coverage,'note':'與凍結的426格盤點狀態不同；不回填未知數值為零。'})
+    output['metadata/read_coverage.json']=encode({'dataset_version':version,'cohorts':coverage,'body_reviews':{'historical_record_count':len(facts.get('body_reviews',[])),'current_record_count':len(current),'current_organization_year_cells':len({(r['organization_id'],r['target_data_year'])for r in current}),'current_status_counts':dict(Counter(r['review_status']for r in current)),'current_review_ids':[r['review_id']for r in current],'selection_rule':'all leaves of explicit extends_review_id links; do not collapse organization-year, choose latest date or prefer a status','full_year_all_sources_reviewed':False},'note':'與凍結的426格盤點狀態不同；紀錄數不等於館年格數，同格多則全部保留；不回填未知數值為零。'})
     for name,rows in tables.items():
         output[f'data/{name}.jsonl']=jsonl_bytes(rows)
         output[f'data/{name}.csv']=csv_bytes(rows)
