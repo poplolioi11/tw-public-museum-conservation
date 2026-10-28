@@ -98,6 +98,17 @@ def main():
         bad=json.loads(json.dumps(facts));r=next(r for r in bad['observations']if r['numeric_origin']=='source_reported');r['quantity_raw']=None;r['quantity_numeric']=0
         candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
         assert result.returncode!=0 and hashes(root)==before
+        # Actual review evidence fields must match the published nested schema.
+        # Reject each malformed candidate before any existing export is replaced.
+        for case in ['missing_scope','unknown_evidence_field','boolean_page','page_outside_review']:
+            bad=json.loads(json.dumps(facts));review=next(r for r in bad['body_reviews']if any('image_viewed_pdf_pages_1_based'in d for d in r['source_page_reviews']))
+            detail=next(d for d in review['source_page_reviews']if 'image_viewed_pdf_pages_1_based'in d)
+            if case=='missing_scope':del review['review_scope'];expected='review_schema_required'
+            elif case=='unknown_evidence_field':detail['image_page_count']=1;expected='review_schema_additional_property'
+            elif case=='boolean_page':detail['image_viewed_pdf_pages_1_based']=[True];expected='review_schema_type'
+            else:detail['image_viewed_pdf_pages_1_based']=[99999];expected='review_evidence_outside_reviewed_pages'
+            candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
+            assert result.returncode!=0 and expected in result.stderr and hashes(root)==before,(case,result.stderr)
         optimized=subprocess.run([sys.executable,'-O',str(root/'scripts/build_exports.py'),'--check'],capture_output=True,text=True)
         assert optimized.returncode!=0 and hashes(root)==before
         # Same official source URL, changed bytes: requires a deliberate reviewed change.
@@ -119,5 +130,5 @@ def main():
         target=root/'data/museum-conservation.sqlite';target.write_bytes(bytes(alternate));broken=hashes(root)
         result=subprocess.run(cmd+['--check'],capture_output=True,text=True)
         assert result.returncode!=0 and hashes(root)==broken
-    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
+    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
 if __name__=='__main__':main()

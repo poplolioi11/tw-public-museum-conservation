@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-28",
   "data_schema_version": "4.0",
-  "dataset_version": "0.6.0",
+  "dataset_version": "0.7.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -84,6 +84,7 @@
       "body_review_records": 72,
       "body_review_target_year_cells": 66,
       "classification_rule_version": "1.2",
+      "completed_in_release": "v0.6.0",
       "deployment_verification_basis": "另以公開版本及資料／逐筆JSON讀回，不由本metadata推定已部署。",
       "national_or_all_workflows_complete": false,
       "numeric_organizations": 16,
@@ -95,7 +96,29 @@
       "scope": "故宮2020–2025與既有官方整合對照",
       "status": "reviewed_source_subset_prepared",
       "total_fact_rows": 265
+    },
+    {
+      "completed_in_release": "v0.7.0",
+      "deployment_verification_basis": "公開版本、網站manifest與完整資料另外讀回，不由本metadata推定已部署。",
+      "national_or_all_years_complete": false,
+      "new_observation_records": 0,
+      "new_review_status_counts": {
+        "body_read_no_eligible_quantity_located": 22,
+        "source_found_body_not_reviewed": 1,
+        "source_not_located_in_this_search": 1
+      },
+      "new_source_review_records": 24,
+      "new_source_versions": 21,
+      "old_265_records_and_119_sources_preserved": true,
+      "organizations_including_body_review": 23,
+      "organizations_with_numeric_facts": 16,
+      "original_html_versions": 6,
+      "original_pdf_versions": 134,
+      "original_source_versions": 140,
+      "scope": "順序二四館2020–2025第一輪來源查找",
+      "source_review_records": 96,
+      "unique_source_year_cells": 90
     }
   ],
-  "ongoing_gaps": "高美館2020–2022目前只在指定正文範圍未定位合格量，不作零或未公開；其他館所及缺年逐批補齊，未完成全國。網站每版部署結果依公開網址讀回紀錄核對。"
+  "ongoing_gaps": "順序二22格只在指定正文未定位量，三義2021業務正文待核、2025本輪未定位適用來源；其他館與缺年續補，未完成全國資料。"
 }

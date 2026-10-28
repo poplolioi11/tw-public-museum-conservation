@@ -90,3 +90,7 @@ HTML觀測使用`pdf_page_1_based=null`、`printed_page=null`及必填`source_lo
 同一館同年度不同官方來源可有相同分類的並列觀測，關係類型`same_year_metric_family_different_official_sources_not_additive`只供查找；不證明相同物件母體或包含關係。原「件」「筆」「批次」不互換。官方VDR出版年2025、表內資料年2021–2024分開；2025決算明載年度實績而出版年月未核，publication_year為null。
 
 分類規則1.2按明確`museum_reported_inspection`分項保留檢視標籤，避免上層修護表題附加修復標籤；決算原文「檢示」仍保存在metric_as_reported，不默改原字。其餘舊205列證據欄位與標籤意義保持，規則版號更新。
+
+## 正文查核的文字與圖像證據（v0.7.0）
+
+`source_page_reviews`可另列`text_read_pdf_pages_1_based`、`image_viewed_pdf_pages_1_based`與`verification_status`，區分文字定位／閱讀及實際看過原圖的範圍。兩種頁列均須落在該來源的`pdf_pages_1_based`內，頁碼為正整數；未列的證據層級不自行推定。`official_entry_url`為可省欄位，原件與正式入口仍由`source_ids`連到來源表。更新器以標準函式庫實際檢查這份schema所用的required/type/enum/const/minimum/additionalProperties及巢狀items，不宣稱通用完整JSON Schema驗證器。

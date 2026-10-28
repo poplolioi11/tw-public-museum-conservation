@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.6.0",
+  "dataset_version": "0.7.0",
   "record": {
     "action_categories": [
       "maintenance",
@@ -52,5 +52,5 @@
     "title": "典藏修復／修復成果（2021與2022年度段落）",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.6.0/catalog/records/tfam-2022-routine_restoration-html.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.7.0/catalog/records/tfam-2022-routine_restoration-html.json"
 }

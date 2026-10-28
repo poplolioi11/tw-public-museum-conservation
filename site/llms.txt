@@ -1,9 +1,9 @@
 # 臺灣公立館保存修護公開資料索引
 
-資料版本 0.6.0；資料截點 2026-10-28。這是有限來源子集，不是全國完整修護統計。
+資料版本 0.7.0；資料截點 2026-10-28。這是有限來源子集，不是全國完整修護統計。
 
 - [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
-- [本版完整公開事實](data/4c2aa62904556c1359127ef27bb08ac93c712256178c6d102c4cb66e2e9fcac2.json)：observations、sources、relations、body_reviews 與範圍摘要。
+- [本版完整公開事實](data/beb21bec9491e6e55946b35ddfe81839464286fb0febc6a9082d5b3ed07f8f76.json)：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙](data/38a6e7769ad84614fb08bd27c7dafb7b29ee05759acf3e6bdda6f7a87d31275d.json)：分類標籤及使用限制。
 - 逐筆紀錄：records/{observation_id}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation)。

@@ -79,6 +79,23 @@
           },
           "review_scope": {
             "type": "string"
+          },
+          "verification_status": {
+            "type": "string"
+          },
+          "text_read_pdf_pages_1_based": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "image_viewed_pdf_pages_1_based": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
           }
         },
         "required": [
@@ -105,7 +122,6 @@
     "source_ids",
     "observation_ids",
     "reviewed_pdf_pages_1_based",
-    "official_entry_url",
     "review_scope",
     "interpretation_note",
     "missing_quantity_is_zero",

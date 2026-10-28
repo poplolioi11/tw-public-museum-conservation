@@ -15,6 +15,30 @@ if not __debug__:raise SystemExit('Validation must run with normal Python, witho
 def encode(x):return (json.dumps(x,ensure_ascii=False,sort_keys=True,indent=2)+'\n').encode()
 def digest(x):return hashlib.sha256(x).hexdigest()
 def read(p):return json.loads(p.read_text())
+def validate_review_shape(value,rule,path='$'):
+    """Enforce the documented schema subset, recursively; no full JSON Schema claim."""
+    supported={'$schema','$id','title','description','type','properties','required','additionalProperties','items','minimum','enum','const'}
+    assert not set(rule)-supported,('unsupported_review_schema_keyword',path,set(rule)-supported)
+    types={'string':lambda v:isinstance(v,str),'null':lambda v:v is None,
+           'integer':lambda v:isinstance(v,int)and not isinstance(v,bool),
+           'number':lambda v:isinstance(v,(int,float))and not isinstance(v,bool),
+           'array':lambda v:isinstance(v,list),'object':lambda v:isinstance(v,dict),
+           'boolean':lambda v:isinstance(v,bool)}
+    if 'type'in rule:
+        allowed=rule['type']if isinstance(rule['type'],list)else[rule['type']]
+        assert all(t in types for t in allowed),('unsupported_review_schema_type',path)
+        assert any(types[t](value)for t in allowed),('review_schema_type',path)
+    if 'const'in rule:assert value==rule['const']and type(value)is type(rule['const']),('review_schema_const',path)
+    if 'enum'in rule:assert value in rule['enum'],('review_schema_enum',path)
+    if value is not None and'minimum'in rule:assert value>=rule['minimum'],('review_schema_minimum',path)
+    if isinstance(value,dict):
+        props=rule.get('properties',{})
+        assert set(rule.get('required',[]))<=value.keys(),('review_schema_required',path)
+        if rule.get('additionalProperties')is False:assert set(value)<=props.keys(),('review_schema_additional_property',path)
+        for k,v in value.items():
+            if k in props:validate_review_shape(v,props[k],path+'/'+k)
+    if isinstance(value,list)and'items'in rule:
+        for i,v in enumerate(value):validate_review_shape(v,rule['items'],path+'/'+str(i))
 def sqlite_logically_equal(left,right):
     """SQLite versions can change page layouts; compare schema and every table cell.
 
@@ -136,7 +160,9 @@ def validate(facts,inventory,version):
     reviews=facts.get('body_reviews',[])
     rid=[r['review_id']for r in reviews];assert len(rid)==len(set(rid))
     source_map={s['source_id']:s for s in sources}
+    review_schema=read(ROOT/'schema/body_review.schema.json')
     for r in reviews:
+        validate_review_shape(r,review_schema,r['review_id'])
         assert isinstance(r['target_data_year'],int)
         assert r['review_status']in ['numeric_observations_verified','body_read_no_eligible_quantity_located','source_found_body_not_reviewed','source_not_located_in_this_search','annual_scope_not_separable','outside_selected_scope']
         for v in r['source_ids']:assert v in sid,('review_source_missing',v)
@@ -148,6 +174,8 @@ def validate(facts,inventory,version):
         for detail in r['source_page_reviews']:
             assert detail['source_id']in r['source_ids']
             assert all(isinstance(p,int)and p>0 for p in detail['pdf_pages_1_based'])
+            for page_kind in ['text_read_pdf_pages_1_based','image_viewed_pdf_pages_1_based']:
+                assert set(detail.get(page_kind,[]))<=set(detail['pdf_pages_1_based']),('review_evidence_outside_reviewed_pages',r['review_id'],page_kind)
             maximum=source_map[detail['source_id']].get('original_file_pdf_pages')
             if maximum:assert all(p<=maximum for p in detail['pdf_pages_1_based'])
         assert r['reviewed_pdf_pages_1_based']==sorted({p for detail in r['source_page_reviews']for p in detail['pdf_pages_1_based']})
