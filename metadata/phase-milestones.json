@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-29",
   "data_schema_version": "4.0",
-  "dataset_version": "0.12.0",
+  "dataset_version": "0.13.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -244,7 +244,27 @@
       "scope": "49待核正文有界補追及2格既存來源補核；目前與歷史查核及數字口徑提示",
       "source_review_records": 509,
       "unique_source_year_cells": 426
+    },
+    {
+      "completed_in_release": "v0.13.0",
+      "current_original40_status_counts": {
+        "body_read_no_eligible_quantity_located": 3,
+        "numeric_observations_verified": 1,
+        "source_found_body_not_reviewed": 36
+      },
+      "current_review_records": 437,
+      "deployment_verification_basis": "附件、資料CI、部署CI、實際網站及保存原件各自讀回；此metadata不是部署回執。",
+      "national_or_all_years_complete": false,
+      "new_observation_records": 1,
+      "new_source_review_records": 43,
+      "new_source_versions": 6,
+      "old_298_records_322_sources_509_reviews_and_relations_preserved": true,
+      "original_pending_cells": 40,
+      "original_source_versions": 328,
+      "scope": "40格既存原件優先有界補讀及新臺藝官方原件",
+      "source_review_records": 552,
+      "unique_source_year_cells": 426
     }
   ],
-  "ongoing_gaps": "原49格仍40適用正文待核；依新官方附件或既存未讀原件等具體線索續核，不把索引或父機構章節當館別全年全讀，未知不補零。"
+  "ongoing_gaps": "原40格尚36適用正文待核；依新附件與可讀原件續查，未知不補零，不以父機構或活動資料填格。"
 }

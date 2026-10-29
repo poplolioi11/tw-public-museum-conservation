@@ -49,3 +49,6 @@ python3 scripts/check_original_sources.py --cache-dir /absolute/path/to/source-c
 跨SQLite版本重建時，以相同schema、所有資料表的完整列資料及資料庫完整性檢查核對邏輯等價，不只比筆數或抽樣。不同SQLite版本可能產生不同binary layout；邏輯等價不表示檔案bytes或SHA相同。實際發行的SQLite檔仍必須與該版發行manifest的SHA一致；下載檔不符時保持待核，不能以邏輯等價跳過原檔雜湊檢查。重建檢查不因runtime差異覆寫已保留的發行檔bytes或manifest。
 
 v0.5.0標籤保留。該次Linux CI因要求跨SQLite版本重建bytes完全一致而失敗，未建立GitHub Release，也未由該次CI部署。v0.5.1修正可攜性檢查，沿用同一205列內容；後續版本的公開部署與下載檔仍依各自讀回紀錄核對。
+
+
+v0.13.0接續40格，先核既存原件，新增臺藝新官方入口之3件會議。1格有數值、3格指定段未定位量、36格仍缺適用正文；細節及下一來源條件見[BODY_FOLLOWUP40](BODY_FOLLOWUP40.md)。不把有界跟進完成稱全國來源齊備。

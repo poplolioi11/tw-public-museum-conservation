@@ -17339,9 +17339,1537 @@
       ],
       "target_data_year": 2021,
       "verified_at": "2026-10-28T23:20:24.538485+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-SANYI-2021-batch2",
+      "interpretation_note": "已補核本保存檔其餘頁的文種及結構，確認現有20頁為會計報表節錄，未附可辨識的本館年度典藏業務成果正文；不能因整份報表各頁類型已辨識，就改稱館別正文已讀無量。 僅限明列文件與頁段，不表示全年未辦理或未公開，未知不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": null,
+      "organization_id": "BASE-047",
+      "organization_name": "三義木雕博物館",
+      "review_id": "body40-root-BASE-047-2021",
+      "review_scope": "既存110年度20頁原件的新增頁頭／結構核對；非館級保存正文或財務分析。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20
+      ],
+      "source_ids": [
+        "src-e95394e5c0f0fa4a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20
+          ],
+          "review_scope": "只補核先前未列讀核的其餘15頁表頭與文種；各頁為歲入、歲出、轉入或平衡報表，未轉錄或分析各列財務數字。",
+          "source_id": "src-e95394e5c0f0fa4a",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20
+          ],
+          "verification_status": "new_unread_page_headers_document_type_only_not_museum_body"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-ADD-004-2021-batch3-central",
+      "interpretation_note": "已補核本保存檔其餘頁的文種及結構，確認現有20頁為會計報表節錄，未附可辨識的本館年度典藏業務成果正文；不能因整份報表各頁類型已辨識，就改稱館別正文已讀無量。 僅限明列文件與頁段，不表示全年未辦理或未公開，未知不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.mlc.gov.tw/form/Details.aspx?Parser=28,10,69,,,,635,37",
+      "organization_id": "ADD-004",
+      "organization_name": "苗栗陶瓷博物館",
+      "review_id": "body40-root-ADD-004-2021",
+      "review_scope": "既存110年度20頁原件的新增頁頭／結構核對；非館級保存正文或財務分析。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20
+      ],
+      "source_ids": [
+        "src-e95394e5c0f0fa4a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20
+          ],
+          "review_scope": "只補核先前未列讀核的其餘15頁表頭與文種；各頁為歲入、歲出、轉入或平衡報表，未轉錄或分析各列財務數字。",
+          "source_id": "src-e95394e5c0f0fa4a",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20
+          ],
+          "verification_status": "new_unread_page_headers_document_type_only_not_museum_body"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-ADD-006-2025-batch3-central",
+      "interpretation_note": "另核先前保存但未採用的114年文化統計年報原頁；其表3為全縣藝文展演類別與參與統計，館舍頁為圖片介紹，不能拆配竹藝館保存修護量。原跨年工作報告其餘未核章節亦未定位本館適用年度典藏正文，故仍待核，不將圖表可讀當館別年度正文齊備。 僅限明列文件與頁段，不表示全年未辦理或未公開，未知不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.nantou.gov.tw/getfile.php?path=upload%2FNh7YsYw014VErUeQ.pdf",
+      "organization_id": "ADD-006",
+      "organization_name": "南投縣政府文化局竹藝博物館",
+      "review_id": "body40-root-ADD-006-2025",
+      "review_scope": "已保存的文化統計年報新增指定原圖讀核與跨年工作報告未讀章節辨識；不是全文逐字或全年所有來源。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        3,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        18,
+        19
+      ],
+      "source_ids": [
+        "src-5e39781d513c33ae",
+        "src-51653de81e470e53"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            1,
+            3,
+            5,
+            9,
+            10,
+            11,
+            18,
+            19
+          ],
+          "pdf_pages_1_based": [
+            1,
+            3,
+            5,
+            9,
+            10,
+            11,
+            18,
+            19
+          ],
+          "review_scope": "封面資料／出版年、凡例、目次、館舍圖片介紹及表3藝文展演活動分類；未讀人力或經費表。",
+          "source_id": "src-5e39781d513c33ae",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "original_scanned_page_scope_and_activity_table_read"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "review_scope": "新增頁段僅判別章節與館別適用性；為其他科室業務及圖書推廣，未轉錄旁列人名、款項或非動產項目。",
+          "source_id": "src-51653de81e470e53",
+          "text_read_pdf_pages_1_based": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "verification_status": "new_page_section_scope_read_not_target_museum_body"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "optimization-hualien-existing-image-BASE-067-2020-followup",
+      "interpretation_note": "補讀另一份既存跨期文化業務報告，具名內容仍為館舍準備而非可定位的館級動產保存正文，且資料跨2020–2021部分期間；不能配作2020年度修護量，保留正文待核。 僅限明列文件與頁段，不表示全年未辦理或未公開，未知不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hccc.gov.tw/zh-tw/Download/List/40",
+      "organization_id": "BASE-067",
+      "organization_name": "花蓮縣考古博物館",
+      "review_id": "body40-root-BASE-067-2020",
+      "review_scope": "既存未採用的109年9月至110年3月報告首段與目標館名範圍辨識；不分析非動產業務。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        2
+      ],
+      "source_ids": [
+        "src-3c058b4016815973"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "review_scope": "首段所列109年9月至110年3月期段及館名相關必要句；館舍準備敘述不作既有動產藏品保存業務。",
+          "source_id": "src-3c058b4016815973",
+          "text_read_pdf_pages_1_based": [
+            1,
+            2
+          ],
+          "verification_status": "new_saved_original_period_and_target_scope_text_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "optimization-hualien-existing-image-BASE-067-2021-followup",
+      "interpretation_note": "已在先前保存而未採用的報告中讀到具名館別營運專章。此報涵蓋2021年9月至2022年3月部分期間，內容為試營運、展覽與教育推廣及典藏研究職掌，指定章未列適用動產保存修護處理量；參訪人次、活動、商品與職掌名稱不代處理量，不推全2021年度已核。 僅限明列文件與頁段，不表示全年未辦理或未公開，未知不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hccc.gov.tw/zh-tw/Download/List/40",
+      "organization_id": "BASE-067",
+      "organization_name": "花蓮縣考古博物館",
+      "review_id": "body40-root-BASE-067-2021",
+      "review_scope": "110年9月至111年3月跨期報告的具名考古博物館營運專章；只限明列頁段，非完整2021全年來源。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        64,
+        65
+      ],
+      "source_ids": [
+        "src-a4530f3da306cf18"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            64,
+            65
+          ],
+          "pdf_pages_1_based": [
+            1,
+            64,
+            65
+          ],
+          "review_scope": "PDF1核原報期段；PDF64–65／印426–427僅「四、花蓮縣考古博物館營運管理維護計畫」完整四項館務敘述，不含前節殘文及費用數字。",
+          "source_id": "src-a4530f3da306cf18",
+          "text_read_pdf_pages_1_based": [
+            1,
+            64,
+            65
+          ],
+          "verification_status": "new_saved_target_museum_body_text_and_original_images_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29"
+    },
+    {
+      "extends_review_id": "optimization-sinica-ADD-012-2021-v1",
+      "interpretation_note": "目次及父中心業務列相鄰界線未新增指定標本館保存正文。原已讀父中心研究成果不分配兩標本館，研究、出版、展示與學術活動不當藏品處理量。本格保持正文待核，未定位不代表零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3432",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "body40-agency-ADD-012-2021",
+      "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        58
+      ],
+      "source_ids": [
+        "src-99681c24a1f8652d"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            58
+          ],
+          "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+          "source_id": "src-99681c24a1f8652d",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            58
+          ],
+          "verification_status": "toc_text_and_parent_business_boundary_read_not_museum_body"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-sinica-ADD-012-2022-v1",
+      "interpretation_note": "目次及父中心業務列相鄰界線未新增指定標本館保存正文。原已讀父中心研究成果不分配兩標本館，研究、出版、展示與學術活動不當藏品處理量。本格保持正文待核，未定位不代表零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3735",
+      "organization_id": "ADD-012",
+      "organization_name": "中央研究院生物多樣性研究博物館－動物標本館",
+      "review_id": "body40-agency-ADD-012-2022",
+      "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        59
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            59
+          ],
+          "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+          "source_id": "src-363e41f33121636c",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            59
+          ],
+          "verification_status": "toc_text_and_parent_business_boundary_read_not_museum_body"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-sinica-ADD-013-2021-v1",
+      "interpretation_note": "目次及父中心業務列相鄰界線未新增指定標本館保存正文。原已讀父中心研究成果不分配兩標本館，研究、出版、展示與學術活動不當藏品處理量。本格保持正文待核，未定位不代表零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3432",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "body40-agency-ADD-013-2021",
+      "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        58
+      ],
+      "source_ids": [
+        "src-99681c24a1f8652d"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            58
+          ],
+          "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+          "source_id": "src-99681c24a1f8652d",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            58
+          ],
+          "verification_status": "toc_text_and_parent_business_boundary_read_not_museum_body"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-sinica-ADD-013-2022-v1",
+      "interpretation_note": "目次及父中心業務列相鄰界線未新增指定標本館保存正文。原已讀父中心研究成果不分配兩標本館，研究、出版、展示與學術活動不當藏品處理量。本格保持正文待核，未定位不代表零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/3735",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "body40-agency-ADD-013-2022",
+      "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        59
+      ],
+      "source_ids": [
+        "src-363e41f33121636c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            59
+          ],
+          "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+          "source_id": "src-363e41f33121636c",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            59
+          ],
+          "verification_status": "toc_text_and_parent_business_boundary_read_not_museum_body"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-sinica-ADD-013-2024-v1",
+      "interpretation_note": "目次及父中心業務列相鄰界線未新增指定標本館保存正文。原已讀父中心研究成果不分配兩標本館，研究、出版、展示與學術活動不當藏品處理量。本格保持正文待核，未定位不代表零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4649",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "body40-agency-ADD-013-2024",
+      "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        58
+      ],
+      "source_ids": [
+        "src-c76c9d5d43172a13"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            58
+          ],
+          "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+          "source_id": "src-c76c9d5d43172a13",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            58
+          ],
+          "verification_status": "toc_text_and_parent_business_boundary_read_not_museum_body"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-sinica-ADD-013-2025-v1",
+      "interpretation_note": "目次仍以父院重要施政計畫成果為主；相鄰列界線核讀未新增指定標本館保存正文。2025年讀到的父中心研究列續尾亦非兩標本館保存實績；不把研究或展示項目分配子館。本格保持正文待核，未定位不代表零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://acc.sinica.edu.tw/pages/4823",
+      "organization_id": "ADD-013",
+      "organization_name": "中央研究院生物多樣性研究博物館－植物標本館",
+      "review_id": "body40-agency-ADD-013-2025",
+      "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        52
+      ],
+      "source_ids": [
+        "src-3cda345a23c2db5a"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            52
+          ],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            52
+          ],
+          "review_scope": "新增核讀決算PDF2–3目次的章節定位，以及相鄰研究列界線；未定位指定標本館保存／整理／修護正文。",
+          "source_id": "src-3cda345a23c2db5a",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3,
+            52
+          ],
+          "verification_status": "toc_text_and_parent_business_boundary_read_not_museum_body"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-kinmen-BASE-071-2020-followup",
+      "interpretation_note": "原件目次列有後續附表，現存檔末頁頁碼早於該等附表，不能把完整檔案bytes等同所有目次章節均在檔內。跨年補充成果的包裝運輸背景不是本目標年保存處理實績。本格仍未定位適用館級保存正文，不補零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://kmcpao.kinmen.gov.tw/docDetail.aspx?fid=63&docID=10259",
+      "organization_id": "BASE-071",
+      "organization_name": "金門縣文化園區歷史民俗博物館",
+      "review_id": "body40-agency-BASE-071-2020",
+      "review_scope": "新增讀PDF2–3目次及PDF19末頁頁碼（僅頁尾裁圖），核實現存原件涵蓋界線；另讀跨年補充成果PDF161之包裝運輸背景段，未讀其配置或其他擴充指標段。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        3,
+        19,
+        161
+      ],
+      "source_ids": [
+        "src-ba8465199a171151",
+        "src-e2d7ebdbe7a435f3"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2,
+            3,
+            19
+          ],
+          "pdf_pages_1_based": [
+            2,
+            3,
+            19
+          ],
+          "review_scope": "PDF2–3目次；PDF19僅頁尾印刷頁碼裁圖，非全文。",
+          "source_id": "src-ba8465199a171151",
+          "text_read_pdf_pages_1_based": [
+            2,
+            3
+          ],
+          "verification_status": "toc_and_file_extent_image_confirmed"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            161
+          ],
+          "review_scope": "僅PDF161「B.藏品包裝與運輸」背景段；非目標年度處理實績。",
+          "source_id": "src-e2d7ebdbe7a435f3",
+          "text_read_pdf_pages_1_based": [
+            161
+          ],
+          "verification_status": "bounded_background_paragraph_text_read"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-kinmen-BASE-071-2021-followup",
+      "interpretation_note": "本輪新查看頁為空白，未新增館級保存正文；不把空白頁或已讀簡述當作館方全年無保存修護。本格保持正文待核，缺值不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://kmcpao.kinmen.gov.tw/docDetail.aspx?fid=63&docID=10178",
+      "organization_id": "BASE-071",
+      "organization_name": "金門縣文化園區歷史民俗博物館",
+      "review_id": "body40-agency-BASE-071-2021",
+      "review_scope": "新增查看PDF2，確認此頁為空白；這是來源範圍探查，沒有新增館務正文。原已核的年度簡述頁不重讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2
+      ],
+      "source_ids": [
+        "src-f064c942be6b2d04"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            2
+          ],
+          "review_scope": "新增查看PDF2，確認此頁為空白；這是來源範圍探查，沒有新增館務正文。原已核的年度簡述頁不重讀。",
+          "source_id": "src-f064c942be6b2d04",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "blank_page_image_confirmed_not_new_body_content"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-kinmen-BASE-071-2022-followup",
+      "interpretation_note": "本輪新查看頁為空白，未新增館級保存正文；不把空白頁或已讀簡述當作館方全年無保存修護。本格保持正文待核，缺值不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://kmcpao.kinmen.gov.tw/docDetail.aspx?fid=63&docID=10179",
+      "organization_id": "BASE-071",
+      "organization_name": "金門縣文化園區歷史民俗博物館",
+      "review_id": "body40-agency-BASE-071-2022",
+      "review_scope": "新增查看PDF2，確認此頁為空白；這是來源範圍探查，沒有新增館務正文。原已核的年度簡述頁不重讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2
+      ],
+      "source_ids": [
+        "src-c4d4155e6a1dbc0c"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            2
+          ],
+          "review_scope": "新增查看PDF2，確認此頁為空白；這是來源範圍探查，沒有新增館務正文。原已核的年度簡述頁不重讀。",
+          "source_id": "src-c4d4155e6a1dbc0c",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "blank_page_image_confirmed_not_new_body_content"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-kinmen-BASE-071-2023-followup",
+      "interpretation_note": "本輪新查看頁為空白，未新增館級保存正文；不把空白頁或已讀簡述當作館方全年無保存修護。本格保持正文待核，缺值不是零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://kmcpao.kinmen.gov.tw/docDetail.aspx?fid=63&docID=10254",
+      "organization_id": "BASE-071",
+      "organization_name": "金門縣文化園區歷史民俗博物館",
+      "review_id": "body40-agency-BASE-071-2023",
+      "review_scope": "新增查看PDF2，確認此頁為空白；這是來源範圍探查，沒有新增館務正文。原已核的年度簡述頁不重讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2
+      ],
+      "source_ids": [
+        "src-6340101aa8380efe"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2
+          ],
+          "pdf_pages_1_based": [
+            2
+          ],
+          "review_scope": "新增查看PDF2，確認此頁為空白；這是來源範圍探查，沒有新增館務正文。原已核的年度簡述頁不重讀。",
+          "source_id": "src-6340101aa8380efe",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "blank_page_image_confirmed_not_new_body_content"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-kinmen-BASE-071-2024-followup",
+      "interpretation_note": "新增附表檢查未定位館級保存處理正文；行政附表的「無」不可當作館藏保存修護數量為零。本格保持正文待核，不由附表空缺推全年未執行或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://kmcpao.kinmen.gov.tw/docDetail.aspx?fid=63&docID=10255",
+      "organization_id": "BASE-071",
+      "organization_name": "金門縣文化園區歷史民俗博物館",
+      "review_id": "body40-agency-BASE-071-2024",
+      "review_scope": "新增讀PDF3–4目次及PDF52（印48）重大計畫執行績效報告表；表格未提供館級保存作業正文，未採其財務欄。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        3,
+        4,
+        52
+      ],
+      "source_ids": [
+        "src-dd2238f2e4cf76a5"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            3,
+            4,
+            52
+          ],
+          "pdf_pages_1_based": [
+            3,
+            4,
+            52
+          ],
+          "review_scope": "新增讀PDF3–4目次及PDF52（印48）重大計畫執行績效報告表；表格未提供館級保存作業正文，未採其財務欄。",
+          "source_id": "src-dd2238f2e4cf76a5",
+          "text_read_pdf_pages_1_based": [
+            3,
+            4,
+            52
+          ],
+          "verification_status": "toc_and_appendix_image_read_not_museum_conservation_body"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-meiling-SUP-008-2022-followup",
+      "interpretation_note": "既有原件新增附表檢查仍未定位梅嶺館別保存／整飭處理正文。母中心附表沒有適用館別實績可分配，表內「無」亦不是修護數量零；保持正文待核，不把2025年館別段反推本目標年。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://cypac.cyhg.gov.tw/News.aspx?n=9258&sms=20567",
+      "organization_id": "SUP-008",
+      "organization_name": "梅嶺美術館",
+      "review_id": "body40-agency-SUP-008-2022",
+      "review_scope": "新增完整核讀PDF2目次與PDF56重大計畫執行績效報告表；該附表未提供梅嶺館別保存作業正文。僅讀表格範圍，不採財務欄。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        56
+      ],
+      "source_ids": [
+        "src-1a04d967b2d4ad83"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2,
+            56
+          ],
+          "pdf_pages_1_based": [
+            2,
+            56
+          ],
+          "review_scope": "新增完整核讀PDF2目次與PDF56重大計畫執行績效報告表；該附表未提供梅嶺館別保存作業正文。僅讀表格範圍，不採財務欄。",
+          "source_id": "src-1a04d967b2d4ad83",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "scanned_toc_and_appendix_image_read_not_museum_conservation_body"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-meiling-SUP-008-2023-followup",
+      "interpretation_note": "既有原件新增附表檢查仍未定位梅嶺館別保存／整飭處理正文。母中心附表沒有適用館別實績可分配，表內「無」亦不是修護數量零；保持正文待核，不把2025年館別段反推本目標年。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://cypac.cyhg.gov.tw/News.aspx?n=9258&sms=20567",
+      "organization_id": "SUP-008",
+      "organization_name": "梅嶺美術館",
+      "review_id": "body40-agency-SUP-008-2023",
+      "review_scope": "新增完整核讀PDF2目次與PDF61重大計畫執行績效報告表；該附表未提供梅嶺館別保存作業正文。僅讀表格範圍，不採財務欄。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        61
+      ],
+      "source_ids": [
+        "src-fb0e805b8fd26328"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2,
+            61
+          ],
+          "pdf_pages_1_based": [
+            2,
+            61
+          ],
+          "review_scope": "新增完整核讀PDF2目次與PDF61重大計畫執行績效報告表；該附表未提供梅嶺館別保存作業正文。僅讀表格範圍，不採財務欄。",
+          "source_id": "src-fb0e805b8fd26328",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "scanned_toc_and_appendix_image_read_not_museum_conservation_body"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "optimization-meiling-SUP-008-2024-followup",
+      "interpretation_note": "既有原件新增附表檢查仍未定位梅嶺館別保存／整飭處理正文。母中心附表沒有適用館別實績可分配，表內「無」亦不是修護數量零；保持正文待核，不把2025年館別段反推本目標年。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://cypac.cyhg.gov.tw/News.aspx?n=9258&sms=20567",
+      "organization_id": "SUP-008",
+      "organization_name": "梅嶺美術館",
+      "review_id": "body40-agency-SUP-008-2024",
+      "review_scope": "新增完整核讀PDF2目次與PDF61重大計畫執行績效報告表；該附表未提供梅嶺館別保存作業正文。僅讀表格範圍，不採財務欄。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        2,
+        61
+      ],
+      "source_ids": [
+        "src-adb2933f41679ab3"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            2,
+            61
+          ],
+          "pdf_pages_1_based": [
+            2,
+            61
+          ],
+          "review_scope": "新增完整核讀PDF2目次與PDF61重大計畫執行績效報告表；該附表未提供梅嶺館別保存作業正文。僅讀表格範圍，不採財務欄。",
+          "source_id": "src-adb2933f41679ab3",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "scanned_toc_and_appendix_image_read_not_museum_conservation_body"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29T04:06:39.878361+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-043-2020-batch5-north-central",
+      "interpretation_note": "已保存的短篇原件為會計表，另一份標為決算的附件實為藝文活動時程；本次僅核文件種類，不採其中數字。未將文種確認視為館級保存業務已讀，亦不以2021–2024年來源代本目標年。適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/ch/home.jsp?id=435&parentpath=0,5&mcustomize=multimessages_view.jsp&toolsflag=Y&dataserno=202107150002&t=InfoPublic&mserno=201810050002",
+      "organization_id": "BASE-043",
+      "organization_name": "新竹市影像博物館",
+      "review_id": "body40-local-ereader-BASE-043-2020-v1",
+      "review_scope": "既存2020年度入口及本機概表／誤名附件的文件種類補核；未取得適用館級保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-d691776b575c48be"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-d691776b575c48be"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-043-2025-batch5-north-central",
+      "interpretation_note": "本機保存材料未有可核2025年度完整館務業務原件；2020概表與2021–2024年度文件均不能代填。未重試先前失敗網址，適用正文維持待核，不推全年無量或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/ch/home.jsp?id=435&parentpath=0%2C5",
+      "organization_id": "BASE-043",
+      "organization_name": "新竹市影像博物館",
+      "review_id": "body40-local-ereader-BASE-043-2025-v1",
+      "review_scope": "檢查本機保存庫與既存2025年度索引線索；本目標的完整年度原件尚未保存，未作正文覆讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-dfacfee2ae156468"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-dfacfee2ae156468"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-044-2020-batch5-north-central",
+      "interpretation_note": "已保存的短篇原件為會計表，另一份標為決算的附件實為藝文活動時程；本次僅核文件種類，不採其中數字。未將文種確認視為館級保存業務已讀，亦不以2021–2024年來源代本目標年。適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/ch/home.jsp?id=435&parentpath=0,5&mcustomize=multimessages_view.jsp&toolsflag=Y&dataserno=202107150002&t=InfoPublic&mserno=201810050002",
+      "organization_id": "BASE-044",
+      "organization_name": "新竹市眷村博物館",
+      "review_id": "body40-local-ereader-BASE-044-2020-v1",
+      "review_scope": "既存2020年度入口及本機概表／誤名附件的文件種類補核；未取得適用館級保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-d691776b575c48be"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-d691776b575c48be"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-044-2025-batch5-north-central",
+      "interpretation_note": "本機保存材料未有可核2025年度完整館務業務原件；2020概表與2021–2024年度文件均不能代填。未重試先前失敗網址，適用正文維持待核，不推全年無量或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/ch/home.jsp?id=435&parentpath=0%2C5",
+      "organization_id": "BASE-044",
+      "organization_name": "新竹市眷村博物館",
+      "review_id": "body40-local-ereader-BASE-044-2025-v1",
+      "review_scope": "檢查本機保存庫與既存2025年度索引線索；本目標的完整年度原件尚未保存，未作正文覆讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-dfacfee2ae156468"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-dfacfee2ae156468"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-046-2020-batch5-north-central",
+      "interpretation_note": "已保存的短篇原件為會計表，另一份標為決算的附件實為藝文活動時程；本次僅核文件種類，不採其中數字。未將文種確認視為館級保存業務已讀，亦不以2021–2024年來源代本目標年。適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/ch/home.jsp?id=435&parentpath=0,5&mcustomize=multimessages_view.jsp&toolsflag=Y&dataserno=202107150002&t=InfoPublic&mserno=201810050002",
+      "organization_id": "BASE-046",
+      "organization_name": "新竹市黑蝙蝠中隊文物陳列館",
+      "review_id": "body40-local-ereader-BASE-046-2020-v1",
+      "review_scope": "既存2020年度入口及本機概表／誤名附件的文件種類補核；未取得適用館級保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-d691776b575c48be"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-d691776b575c48be"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-046-2025-batch5-north-central",
+      "interpretation_note": "本機保存材料未有可核2025年度完整館務業務原件；2020概表與2021–2024年度文件均不能代填。未重試先前失敗網址，適用正文維持待核，不推全年無量或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/ch/home.jsp?id=435&parentpath=0%2C5",
+      "organization_id": "BASE-046",
+      "organization_name": "新竹市黑蝙蝠中隊文物陳列館",
+      "review_id": "body40-local-ereader-BASE-046-2025-v1",
+      "review_scope": "檢查本機保存庫與既存2025年度索引線索；本目標的完整年度原件尚未保存，未作正文覆讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-dfacfee2ae156468"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-dfacfee2ae156468"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-SUP-009-2020-v1",
+      "interpretation_note": "原年度附件頁先前已讀，本輪不冒稱新正文。本機未保存對應年度的館別保存業務正文，未因附件標題推定內容。未把市公所總表、典藏存量或展覽數當保存量；適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7",
+      "organization_id": "SUP-009",
+      "organization_name": "屏東美術館",
+      "review_id": "body40-local-ereader-SUP-009-2020-v1",
+      "review_scope": "已存年度索引與附件鏈的閱讀紀錄比對；本年尚無新增館別保存正文可讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-40653d80ac86ad58"
+      ],
+      "source_locators": [
+        {
+          "locator": "109年度總決算主要表附件入口；舊讀範圍保留，未當館別保存正文。",
+          "source_id": "src-40653d80ac86ad58"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-SUP-009-2021-v1",
+      "interpretation_note": "原年度附件頁先前已讀，本輪不冒稱新正文。本機未保存對應年度的館別保存業務正文，未因附件標題推定內容。未把市公所總表、典藏存量或展覽數當保存量；適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7",
+      "organization_id": "SUP-009",
+      "organization_name": "屏東美術館",
+      "review_id": "body40-local-ereader-SUP-009-2021-v1",
+      "review_scope": "已存年度索引與附件鏈的閱讀紀錄比對；本年尚無新增館別保存正文可讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-40653d80ac86ad58"
+      ],
+      "source_locators": [
+        {
+          "locator": "110年度總決算主要表附件入口；舊讀範圍保留，未當館別保存正文。",
+          "source_id": "src-40653d80ac86ad58"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-SUP-009-2022-v1",
+      "interpretation_note": "原年度附件頁先前已讀，本輪不冒稱新正文。本機未保存對應年度的館別保存業務正文，未因附件標題推定內容。未把市公所總表、典藏存量或展覽數當保存量；適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7",
+      "organization_id": "SUP-009",
+      "organization_name": "屏東美術館",
+      "review_id": "body40-local-ereader-SUP-009-2022-v1",
+      "review_scope": "已存年度索引與附件鏈的閱讀紀錄比對；本年尚無新增館別保存正文可讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-40653d80ac86ad58"
+      ],
+      "source_locators": [
+        {
+          "locator": "111年度總決算主要表附件入口；舊讀範圍保留，未當館別保存正文。",
+          "source_id": "src-40653d80ac86ad58"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-SUP-009-2023-v1",
+      "interpretation_note": "原年度附件頁先前已讀，本輪不冒稱新正文。本機未保存對應年度的館別保存業務正文，未因附件標題推定內容。未把市公所總表、典藏存量或展覽數當保存量；適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7",
+      "organization_id": "SUP-009",
+      "organization_name": "屏東美術館",
+      "review_id": "body40-local-ereader-SUP-009-2023-v1",
+      "review_scope": "已存年度索引與附件鏈的閱讀紀錄比對；本年尚無新增館別保存正文可讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-40653d80ac86ad58"
+      ],
+      "source_locators": [
+        {
+          "locator": "112年度總決算主要表附件入口；舊讀範圍保留，未當館別保存正文。",
+          "source_id": "src-40653d80ac86ad58"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-SUP-009-2024-v1",
+      "interpretation_note": "原年度附件頁先前已讀，本輪不冒稱新正文。本機未保存對應年度的館別保存業務正文，未因附件標題推定內容。未把市公所總表、典藏存量或展覽數當保存量；適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7",
+      "organization_id": "SUP-009",
+      "organization_name": "屏東美術館",
+      "review_id": "body40-local-ereader-SUP-009-2024-v1",
+      "review_scope": "已存年度索引與附件鏈的閱讀紀錄比對；本年尚無新增館別保存正文可讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-40653d80ac86ad58"
+      ],
+      "source_locators": [
+        {
+          "locator": "113年度總決算主要表附件入口；舊讀範圍保留，未當館別保存正文。",
+          "source_id": "src-40653d80ac86ad58"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-SUP-009-2025-v1",
+      "interpretation_note": "原年度附件頁先前已讀，本輪不冒稱新正文。已實看本機2025主要表首頁，屬會計比較表；只確認文種，不擷取財務數字。未把市公所總表、典藏存量或展覽數當保存量；適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.ptcg.gov.tw/News.aspx?CategorySN=2526&n=70DF03305BEF1D56&sms=974833EFB6A305E7",
+      "organization_id": "SUP-009",
+      "organization_name": "屏東美術館",
+      "review_id": "body40-local-ereader-SUP-009-2025-v1",
+      "review_scope": "已存年度索引與附件鏈的閱讀紀錄比對；另核既存2025主要表的文件種類，非館別業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-40653d80ac86ad58"
+      ],
+      "source_locators": [
+        {
+          "locator": "114年度總決算主要表附件入口；舊讀範圍保留，未當館別保存正文。",
+          "source_id": "src-40653d80ac86ad58"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-BASE-015-2020-v1",
+      "interpretation_note": "局部對映只由同報已存目次原圖與原搜尋字串對齊，未借後年資料；大量未解字碼保留，不稱完整解碼或已讀館級正文。不因搜尋未命中或無法解碼改為已讀無量，民族博物館年度保存正文仍待核。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/zh-tw/highlights-of-the-year",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "body40-local-ereader-BASE-015-2020-v1",
+      "review_scope": "既存2020電子書目次圖與搜尋原文重新核對；同報目次建立局部字碼對映供定位，原鄉章節正文仍多不可可靠解讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-c19ae5f986378ed7"
+      ],
+      "source_locators": [
+        {
+          "locator": "2020閱讀器textForPages索引7目次（原圖已存）；99章題可讀，100及104正文原字碼仍不可靠。這些是電子書／JS區段索引，不是PDF頁碼。",
+          "review_scope": "由已存官方索引追溯的電子書材料；不是HTML索引本身有館務正文。",
+          "source_id": "src-c19ae5f986378ed7"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-pingtung-nccu-BASE-015-2021-v1",
+      "interpretation_note": "原搜尋文字可讀，本輪從機器定位進一步讀完指定段；所述他館參訪、博物教育輔具與展覽不歸為民族博物館藏品保存作業。沒有只憑全文搜尋未命中改N，館級保存正文仍待核，不配後年資料或推全年無量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://usr.nccu.edu.tw/zh-tw/highlights-of-the-year",
+      "organization_id": "BASE-015",
+      "organization_name": "國立政治大學民族博物館",
+      "review_id": "body40-local-ereader-BASE-015-2021-v1",
+      "review_scope": "既存2021電子書搜尋原文區段29、118–119完整指定段新讀；其內容為參訪他館、博物教育合作及展覽，非民族博物館館務保存正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-c19ae5f986378ed7"
+      ],
+      "source_locators": [
+        {
+          "locator": "2021閱讀器textForPages[28]、[117]、[118]（電子書索引29、118、119，原文本尾印頁025、114、115）；非PDF頁序。",
+          "review_scope": "由已存官方索引追溯的電子書材料；不是HTML索引本身有館務正文。",
+          "source_id": "src-c19ae5f986378ed7"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-hccg-entry-BASE-045-2020-followup",
+      "interpretation_note": "已保存的短篇原件為會計表，另一份標為決算的附件實為藝文活動時程；本次僅核文件種類，不採其中數字。未將文種確認視為館級保存業務已讀，亦不以2021–2024年來源代本目標年。適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/uploaddowndoc?file=infopublic%2F202109140933530.pdf&filedisplay=109%E5%B9%B4%E9%87%8D%E8%A6%81%E7%B5%B1%E8%A8%88%E5%B9%B4%E5%A0%B1.pdf&flag=doc",
+      "organization_id": "BASE-045",
+      "organization_name": "新竹市玻璃工藝博物館",
+      "review_id": "body40-local-ereader-BASE-045-2020-v1",
+      "review_scope": "既存2020年度入口及本機概表／誤名附件的文件種類補核；未取得適用館級保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-d691776b575c48be"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-d691776b575c48be"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-hccg-entry-BASE-045-2025-followup",
+      "interpretation_note": "本機保存材料未有可核2025年度完整館務業務原件；2020概表與2021–2024年度文件均不能代填。未重試先前失敗網址，適用正文維持待核，不推全年無量或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/uploaddowndoc?file=infopublic%2F202604161521060.pdf&filedisplay=114%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97%E5%85%A8%28%E5%90%AB%E5%B0%81%E9%9D%A2%29.pdf&flag=doc",
+      "organization_id": "BASE-045",
+      "organization_name": "新竹市玻璃工藝博物館",
+      "review_id": "body40-local-ereader-BASE-045-2025-v1",
+      "review_scope": "檢查本機保存庫與既存2025年度索引線索；本目標的完整年度原件尚未保存，未作正文覆讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-dfacfee2ae156468"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-dfacfee2ae156468"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-hccg-entry-SUP-004-2020-followup",
+      "interpretation_note": "已保存的短篇原件為會計表，另一份標為決算的附件實為藝文活動時程；本次僅核文件種類，不採其中數字。未將文種確認視為館級保存業務已讀，亦不以2021–2024年來源代本目標年。適用正文仍待核，非全年零或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/uploaddowndoc?file=infopublic%2F202109140933530.pdf&filedisplay=109%E5%B9%B4%E9%87%8D%E8%A6%81%E7%B5%B1%E8%A8%88%E5%B9%B4%E5%A0%B1.pdf&flag=doc",
+      "organization_id": "SUP-004",
+      "organization_name": "新竹市美術館",
+      "review_id": "body40-local-ereader-SUP-004-2020-v1",
+      "review_scope": "既存2020年度入口及本機概表／誤名附件的文件種類補核；未取得適用館級保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-d691776b575c48be"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-d691776b575c48be"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "optimization-hccg-entry-SUP-004-2025-followup",
+      "interpretation_note": "本機保存材料未有可核2025年度完整館務業務原件；2020概表與2021–2024年度文件均不能代填。未重試先前失敗網址，適用正文維持待核，不推全年無量或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://culture.hccg.gov.tw/uploaddowndoc?file=infopublic%2F202604161521060.pdf&filedisplay=114%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97%E5%85%A8%28%E5%90%AB%E5%B0%81%E9%9D%A2%29.pdf&flag=doc",
+      "organization_id": "SUP-004",
+      "organization_name": "新竹市美術館",
+      "review_id": "body40-local-ereader-SUP-004-2025-v1",
+      "review_scope": "檢查本機保存庫與既存2025年度索引線索；本目標的完整年度原件尚未保存，未作正文覆讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [
+        "src-dfacfee2ae156468"
+      ],
+      "source_locators": [
+        {
+          "locator": "既存年度決算索引／附件入口；文件種類及本機材料缺口補核，非館別正文。",
+          "source_id": "src-dfacfee2ae156468"
+        }
+      ],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-017-2021-batch4-universities",
+      "interpretation_note": "已存會議原件是113年11月會議；館別段為作品典藏獎規則修訂及藝術教育敘述，不能依檔名或未來適用年度轉成本目標年的館藏處理量。該原件留作非適用期段的查核佐證，未為增加來源數納入公開來源；本目標館級保存正文仍待核，非全年無量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://president.ntua.edu.tw/wp-content/uploads/2021/09/110%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "body40-local-ereader-BASE-017-2021-v1",
+      "review_scope": "補核已存會議原件的日期、館別典藏規則與藝術教育指定段；原件明載2024年會議，未定位本目標年度的保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-017-2022-batch4-universities",
+      "interpretation_note": "已存會議原件是113年11月會議；館別段為作品典藏獎規則修訂及藝術教育敘述，不能依檔名或未來適用年度轉成本目標年的館藏處理量。該原件留作非適用期段的查核佐證，未為增加來源數納入公開來源；本目標館級保存正文仍待核，非全年無量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://president.ntua.edu.tw/wp-content/uploads/2022/04/110%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC9%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "body40-local-ereader-BASE-017-2022-v1",
+      "review_scope": "補核已存會議原件的日期、館別典藏規則與藝術教育指定段；原件明載2024年會議，未定位本目標年度的保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "bodyfollowup-review-BASE-017-2025-batch4-universities",
+      "interpretation_note": "已存會議原件是113年11月會議；館別段為作品典藏獎規則修訂及藝術教育敘述，不能依檔名或未來適用年度轉成本目標年的館藏處理量。該原件留作非適用期段的查核佐證，未為增加來源數納入公開來源；本目標館級保存正文仍待核，非全年無量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://president.ntua.edu.tw/wp-content/uploads/2025/04/113-9%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "body40-local-ereader-BASE-017-2025-v1",
+      "review_scope": "補核已存會議原件的日期、館別典藏規則與藝術教育指定段；原件明載2024年會議，未定位本目標年度的保存業務正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29T04:03:03.933883+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-017-2021-v1",
+      "interpretation_note": "指定本館典藏段列受贈審議及藏品應用，未定位適用保存修護處理量；受贈、展出及作者數不代修護數。其後另起中心外部業務不混作本館藏品年度量。這是指定學期業務段結果，非全年無量、未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://pres.ntua.edu.tw/Home/SchoolAffairMeeting",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "body40-ntua-new-original-BASE-017-2021-v1",
+      "review_scope": "110年12月28日會議封面PDF1、PDF38–39有章藝術博物館具名業務之展覽及典藏段；僅指定段，不含其後文物維護研究中心外部工作。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        38,
+        39
+      ],
+      "source_ids": [
+        "src-c6c3ff07c6dd8e5f"
+      ],
+      "source_locators": [
+        {
+          "locator": "PDF38–39／印38–39：單位有章藝術博物館、五典藏業務辦理；PDF39六為另一中心業務邊界。",
+          "source_id": "src-c6c3ff07c6dd8e5f"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            1,
+            38,
+            39
+          ],
+          "pdf_pages_1_based": [
+            1,
+            38,
+            39
+          ],
+          "review_scope": "110年12月28日會議封面PDF1、PDF38–39有章藝術博物館具名業務之展覽及典藏段；僅指定段，不含其後文物維護研究中心外部工作。",
+          "source_id": "src-c6c3ff07c6dd8e5f",
+          "text_read_pdf_pages_1_based": [
+            1,
+            38,
+            39
+          ],
+          "verification_status": "selected_original_text_and_rendered_images_read"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-29T04:17:40.298794+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-017-2022-v1",
+      "interpretation_note": "原報明列海報修復6件，位於本館典藏品修復分項；保留會議所附本學期業務範圍，非全年總量。原句未另載完成，不由修復動詞推明示完成；受贈、借展及中心外部業務不混入。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "NTUA-2022-meeting1102-conserved-posters"
+      ],
+      "official_entry_url": "https://pres.ntua.edu.tw/Home/SchoolAffairMeeting",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "body40-ntua-new-original-BASE-017-2022-v1",
+      "review_scope": "111年6月7日會議封面PDF1、PDF41館別與本學期標題、PDF42四（三）本館典藏品修復分項；不含其後中心業務。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        41,
+        42
+      ],
+      "source_ids": [
+        "src-88277f26807682a8"
+      ],
+      "source_locators": [
+        {
+          "locator": "PDF41／印41館別標題；PDF42／印42：四典藏業務辦理（三）典藏品修復。",
+          "source_id": "src-88277f26807682a8"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            1,
+            41,
+            42
+          ],
+          "pdf_pages_1_based": [
+            1,
+            41,
+            42
+          ],
+          "review_scope": "111年6月7日會議封面PDF1、PDF41館別與本學期標題、PDF42四（三）本館典藏品修復分項；不含其後中心業務。",
+          "source_id": "src-88277f26807682a8",
+          "text_read_pdf_pages_1_based": [
+            1,
+            41,
+            42
+          ],
+          "verification_status": "selected_original_text_and_rendered_images_read"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-29T04:17:40.298794+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-017-2025-v1",
+      "interpretation_note": "新官方入口取得具名館務正文，指定段的典藏審議、藝術地圖、展覽、移撥評估規劃及提借申請，不等同本館保存修護處理量；未定位可採用量。文物維護研究中心外部服務對象與本館藏品分開，不以服務名稱點算案數。僅限明列頁段，不推全年未辦理、未公開或零。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://pres.ntua.edu.tw/Home/SchoolAffairMeeting",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "review_id": "body40-ntua-2025-new-official-body",
+      "review_scope": "114年12月16日校務會議具名博物館館務第1至6節與典藏研究段；不是全年或全部會議原件逐字已核。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        1,
+        9,
+        58,
+        59,
+        60,
+        61
+      ],
+      "source_ids": [
+        "src-af83125283daddf8"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "pdf_pages_1_based": [
+            1,
+            9,
+            58,
+            59,
+            60,
+            61
+          ],
+          "review_scope": "PDF1只核會議日期，PDF9核目次；PDF58–61／印46–49具名博物館第1至6節，僅判別館務範圍並讀典藏研究段。第7節另屬文物維護研究中心，外部服務不歸本館藏品。未轉錄其餘非本次資料。",
+          "source_id": "src-af83125283daddf8",
+          "text_read_pdf_pages_1_based": [
+            1,
+            9,
+            58,
+            59,
+            60,
+            61
+          ],
+          "verification_status": "official_new_host_original_named_museum_section_text_and_images_read"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-29"
     }
   ],
-  "dataset_version": "0.12.0",
+  "dataset_version": "0.13.0",
   "observations": [
     {
       "action_categories": [
@@ -28978,6 +30506,51 @@
       "verification_status": "official_pdf_text_and_original_page_image_read",
       "year_assignment_status": "single_year_as_reported",
       "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "additional_pdf_pages_1_based": [
+        1,
+        41
+      ],
+      "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.2",
+      "completion_category": "not_explicitly_stated",
+      "completion_status": "原文未另載完成",
+      "cross_museum_comparable": false,
+      "data_year": 2022,
+      "data_year_end": null,
+      "data_year_start": null,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原報列修復海報6件，未另載完成；不由動詞或會議學年度推定全年已完成量。受贈、借展及後列中心外部業務不混入；未驗證獨特物件、跨來源去重或可相加總量。證據摘句省略捐贈者姓名。",
+      "metric_as_reported": "典藏品修復",
+      "metric_class": "museum_reported_restoration",
+      "metric_label": "典藏海報修復（學期業務分項，未另載完成）",
+      "numeric_origin": "source_reported",
+      "observation_id": "NTUA-2022-meeting1102-conserved-posters",
+      "organization_id": "BASE-017",
+      "organization_name": "國立臺灣藝術大學有章藝術博物館",
+      "pdf_page_1_based": 42,
+      "printed_page": "42",
+      "publication_year": null,
+      "quantity_numeric": 6,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "6",
+      "record_kind": "observation",
+      "reporting_period_raw": "本學期（110學年度第2次校務會議業務報告；會議111年6月7日）",
+      "source_id": "src-88277f26807682a8",
+      "source_locator": "四、典藏業務辦理／（三）典藏品修復；前頁有章藝術博物館及本學期標題，封面111年6月7日。",
+      "source_scope": "2022年6月7日校務會議所附本學期有章藝術博物館業務報告的典藏品修復分項；不是全館全年總量。",
+      "subject_scope": "本館典藏品中的捐贈海報",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_assignment_status": "single_year_as_reported",
+      "year_on_year_ready": false
     }
   ],
   "relations": [
@@ -34890,13 +36463,119 @@
       "source_use": "body_review",
       "title": "嘉義縣表演藝術中心114年度單位決算",
       "verified_at": "2026-10-28"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://ca.hl.gov.tw/Upload/202104220904587843221.pdf",
+      "official_landing_url": null,
+      "original_file_bytes": 704351,
+      "original_file_pdf_pages": 58,
+      "original_file_sha256": "3c058b401681597300a200874470bb8e6da00de36bf988f8864e71346074652c",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "未另核出版年月，不由上傳網址或資料年推定。",
+      "redistributed_original": false,
+      "reporting_period_raw": "109年9月1日至110年3月31日",
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-3c058b4016815973",
+      "source_use": "bounded_body_or_document_scope_review",
+      "title": "花蓮縣政府文化業務工作報告（109年9月1日至110年3月31日）",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://www.nthcc.gov.tw/Uploads/userfile/A6_3/2026-08-18_090207_114%E5%B9%B4%E5%8D%97%E6%8A%95%E7%B8%A3%E6%96%87%E5%8C%96%E7%B5%B1%E8%A8%88%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.nthcc.gov.tw/A6_3",
+      "original_file_bytes": 1618085,
+      "original_file_pdf_pages": 37,
+      "original_file_sha256": "5e39781d513c33aef3aba19270a12652b5b6bc14c41a8b37323b2d22802343d9",
+      "original_file_type": "PDF",
+      "publication_year": 2026,
+      "publication_year_basis": "封面明載中華民國115年8月18日；資料114年與出版115年分開。",
+      "redistributed_original": false,
+      "reporting_period_raw": "114年為主、含103–114年統計",
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-5e39781d513c33ae",
+      "source_use": "bounded_body_or_document_scope_review",
+      "title": "南投縣114年文化統計年報",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://ca.hl.gov.tw/Upload/202204260906534934541.pdf",
+      "official_landing_url": null,
+      "original_file_bytes": 1136924,
+      "original_file_pdf_pages": 65,
+      "original_file_sha256": "a4530f3da306cf183f45d1ccc40f67ef24e404ce1115d7be3fa4d7cf9da84f9a",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "未另核出版年月，不由上傳網址或資料年推定。",
+      "redistributed_original": false,
+      "reporting_period_raw": "110年9月1日至111年3月31日",
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-a4530f3da306cf18",
+      "source_use": "bounded_body_or_document_scope_review",
+      "title": "花蓮縣政府文化業務工作報告（110年9月1日至111年3月31日）",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "official_file_url": "https://pres.ntua.edu.tw/Home/DownloadSchoolAffairMeeting/6c5421a0-d8da-4b1d-ab01-47476ddf6527",
+      "official_landing_url": "https://pres.ntua.edu.tw/Home/SchoolAffairMeeting",
+      "original_file_bytes": 25709566,
+      "original_file_pdf_pages": 250,
+      "original_file_sha256": "c6c3ff07c6dd8e5fef32c2d7d9ce86bd5cd33aed26de081aa3b4f1ecb819d121",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "會議日期不直接充作正式出版年，未另核出版日期。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c6c3ff07c6dd8e5f",
+      "source_scope": "封面及具名有章藝術博物館學期業務指定段；非全校、全館全年或全文。",
+      "source_use": "body_review",
+      "title": "國立臺灣藝術大學110學年度第1次校務會議紀錄（會議日期2021-12-28）",
+      "verified_at": "2026-10-29T04:17:40.298794+00:00"
+    },
+    {
+      "official_file_url": "https://pres.ntua.edu.tw/Home/DownloadSchoolAffairMeeting/b3189398-e800-4623-a4b0-fcecb76e8f0b",
+      "official_landing_url": "https://pres.ntua.edu.tw/Home/SchoolAffairMeeting",
+      "original_file_bytes": 16109020,
+      "original_file_pdf_pages": 371,
+      "original_file_sha256": "88277f26807682a84b10b603cce439b7707b7d9b3d096d189de87fa0d51ddde0",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "會議日期不直接充作正式出版年，未另核出版日期。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-88277f26807682a8",
+      "source_scope": "封面及具名有章藝術博物館學期業務指定段；非全校、全館全年或全文。",
+      "source_use": "numeric_evidence",
+      "title": "國立臺灣藝術大學110學年度第2次校務會議紀錄（會議日期2022-06-07）",
+      "verified_at": "2026-10-29T04:17:40.298794+00:00"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://pres.ntua.edu.tw/Home/DownloadSchoolAffairMeeting/3b7373f1-7fcf-428c-8cf8-f92784113f81",
+      "official_landing_url": "https://pres.ntua.edu.tw/Home/SchoolAffairMeeting",
+      "original_file_bytes": 6041100,
+      "original_file_pdf_pages": 181,
+      "original_file_sha256": "af83125283daddf8ee6c856657e82788e4913f38f2c8b1921051a39f44a56dfe",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_basis": "PDF1明載會議114年12月16日；會議日期不是另行出版日期。",
+      "redistributed_original": false,
+      "reporting_period_raw": "114學年度第1次會議；館務段列114年業務及115年後續規劃，非2025完整全年報告。",
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-af83125283daddf8",
+      "source_use": "bounded_museum_body_review",
+      "title": "國立臺灣藝術大學114學年度第1次校務會議紀錄（114年12月16日）",
+      "verified_at": "2026-10-29"
     }
   ],
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 509,
-    "body_review_source_file_versions": 276,
+    "body_review_records": 552,
+    "body_review_source_file_versions": 282,
     "body_review_target_year_cells": 426,
     "context_component_records": 2,
     "derived_summary_records": 1,
@@ -34904,16 +36583,16 @@
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 297
+      "source_reported": 298
     },
-    "numeric_support_source_file_versions": 93,
-    "observation_records": 295,
-    "organizations_with_facts": 25,
+    "numeric_support_source_file_versions": 94,
+    "observation_records": 296,
+    "organizations_with_facts": 26,
     "organizations_with_facts_or_new_body_reviews": 80,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
-    "total_fact_rows": 298,
+    "total_fact_rows": 299,
     "units": {
-      "件": 210,
+      "件": 211,
       "件作品": 3,
       "件數": 6,
       "作品": 1,
@@ -34940,8 +36619,8 @@
       "項": 2
     },
     "verified_original_html_files": 36,
-    "verified_original_pdf_files": 286,
-    "verified_original_source_files": 322,
+    "verified_original_pdf_files": 292,
+    "verified_original_source_files": 328,
     "years": [
       2015,
       2016,

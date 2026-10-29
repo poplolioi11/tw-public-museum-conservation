@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.12.0",
+  "dataset_version": "0.13.0",
   "record": {
     "action_categories": [
       "mixed_workflow",
@@ -106,5 +106,5 @@
     "title": "國立臺灣博物館2022年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.12.0/catalog/records/ntm-2022-mixed-table-total.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.13.0/catalog/records/ntm-2022-mixed-table-total.json"
 }

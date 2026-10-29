@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.12.0",
+  "dataset_version": "0.13.0",
   "record": {
     "action_categories": [
       "arrangement"
@@ -50,5 +50,5 @@
     "title": "國立臺灣史前文化博物館109年度單位決算書",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.12.0/catalog/records/nmp-2020-display-natural-history.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.13.0/catalog/records/nmp-2020-display-natural-history.json"
 }
