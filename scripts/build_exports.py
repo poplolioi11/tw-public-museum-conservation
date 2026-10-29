@@ -198,9 +198,13 @@ def validate(facts,inventory,version):
     distinct_reviews={(r['organization_name'],r['target_data_year'])for r in reviews}
     assert s['body_review_target_year_cells']==len(distinct_reviews)
     return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_source_versions':len(sources),'original_pdf_versions':s['verified_original_pdf_files'],'original_html_versions':s['verified_original_html_files'],'multi_year_records_not_allocated_to_years':sum(r['data_year']is None for r in obs),'body_review_records':len(reviews),'distinct_source_year_review_cells':len(distinct_reviews),'inventory_lookup_grid_cells_not_facts':len(keys),'unknown_values_are_not_zero':True,'query_facets_reproduced':True,'source_pdf_revalidation_performed':False}
-def generate(facts,inventory,version):
+def generate(facts,inventory,version,root=ROOT):
+    import enrichment
+    enriched=enrichment.generate(facts,inventory,root,validate_review_shape)
     tables={'observations':facts['observations'],'sources':facts['sources'],'relations':facts['relations'],'body_reviews':facts.get('body_reviews',[]),'source_inventory':inventory['source_inventory_records'],'baseline_organizations':inventory['baseline_71_organizations'],'supplemental_organizations':inventory['supplemental_14_organization_candidates'],'facility_candidates':inventory['additional_13_public_facility_candidates'],'name_relations':inventory['name_relations']}
+    tables.update(enriched['tables'])
     output={'data/facts.json':encode(facts),'metadata/inventory.json':encode(inventory)}
+    output.update(enriched['outputs'])
     output['schema/vocabulary.json']=encode(vocabulary())
     source_map={s['source_id']:s for s in facts['sources']}
     for r in facts['observations']:
@@ -284,13 +288,6 @@ def main():
     root=args.root;version=(root/'VERSION').read_text().strip()
     facts=read(args.candidate_facts or root/'data/facts.json');inventory=read(args.candidate_inventory or root/'metadata/inventory.json')
     checks=validate(facts,inventory,version)
-    outputs=generate(facts,inventory,version)
-    sqlite_path='data/museum-conservation.sqlite'
-    existing=root/sqlite_path
-    if existing.is_file():
-        published_bytes=existing.read_bytes()
-        if published_bytes!=outputs[sqlite_path]and sqlite_logically_equal(published_bytes,outputs[sqlite_path]):
-            outputs[sqlite_path]=published_bytes
     previous=read(root/'metadata/build.json')if(root/'metadata/build.json').exists()else None
     versions={}
     for s in facts['sources']:
@@ -301,6 +298,13 @@ def main():
             old=previous['original_source_versions'].get(u)
             if isinstance(old,str):old=[old]
             assert old is None or old==hs,'Source bytes changed: review before replacing an earlier version.'
+    outputs=generate(facts,inventory,version,root)
+    sqlite_path='data/museum-conservation.sqlite'
+    existing=root/sqlite_path
+    if existing.is_file():
+        published_bytes=existing.read_bytes()
+        if published_bytes!=outputs[sqlite_path]and sqlite_logically_equal(published_bytes,outputs[sqlite_path]):
+            outputs[sqlite_path]=published_bytes
     manifest={'dataset_version':version,'as_of':facts['as_of'],'checks':checks,'canonical_fact_projection_sha256':digest(encode(facts)),'inventory_projection_sha256':digest(encode(inventory)),'original_source_versions':versions,'exports':{p:{'sha256':digest(b),'bytes':len(b)}for p,b in sorted(outputs.items())}}
     outputs['metadata/build.json']=encode(manifest)
     if args.check:

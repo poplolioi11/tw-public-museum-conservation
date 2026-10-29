@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/main/schema/normalization_record.schema.json",
+  "title": "Quantity-free conservative search aliases for one existing observation",
+  "description": "原值與 canonical facets 的搜尋別名；不換算、不拆配數量、不授予加總資格。",
+  "type": "object",
+  "properties": {
+    "observation_id": {
+      "type": "string"
+    },
+    "metric_class_original": {
+      "type": "string"
+    },
+    "metric_class_normalized": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "restoration_as_reported",
+          "maintenance",
+          "arrangement",
+          "inspection_registration",
+          "scientific_examination",
+          "digitization",
+          "digital_restoration",
+          "cleaning",
+          "stabilization",
+          "mounting",
+          "mixed_workflow",
+          "needs_review"
+        ]
+      }
+    },
+    "completion_status_original": {
+      "type": "string"
+    },
+    "completion_status_normalized": {
+      "enum": [
+        "explicit_completed",
+        "completion_from_context",
+        "completed_at_stated_cutoff",
+        "annual_execution_not_explicit",
+        "in_progress",
+        "performed_activity",
+        "not_explicitly_stated",
+        "needs_review"
+      ]
+    },
+    "unit_as_reported": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unit_normalized": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unit_mapping_status": {
+      "enum": [
+        "lexical_alias_only",
+        "retained_as_reported",
+        "compound_not_convertible",
+        "not_stated",
+        "not_explicitly_stated"
+      ]
+    },
+    "unit_alias_is_conversion": {
+      "const": false
+    },
+    "default_aggregation_allowed": {
+      "const": false
+    },
+    "cross_museum_comparable": {
+      "const": false
+    },
+    "unique_object_count_verified": {
+      "const": false
+    },
+    "year_on_year_ready": {
+      "const": false
+    },
+    "action_class_v2": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "arrangement_inventory",
+          "cleaning",
+          "digital_restoration",
+          "digitization",
+          "inspection_examination",
+          "mixed_workflow",
+          "mounting",
+          "needs_review",
+          "preventive_maintenance",
+          "reported_restoration",
+          "stabilization"
+        ]
+      }
+    },
+    "normalization_rule_version": {
+      "const": "1.0"
+    },
+    "classification_rule_version": {
+      "const": "1.2"
+    }
+  },
+  "required": [
+    "observation_id",
+    "metric_class_original",
+    "metric_class_normalized",
+    "completion_status_original",
+    "completion_status_normalized",
+    "unit_as_reported",
+    "unit_normalized",
+    "unit_mapping_status",
+    "unit_alias_is_conversion",
+    "default_aggregation_allowed",
+    "cross_museum_comparable",
+    "unique_object_count_verified",
+    "year_on_year_ready",
+    "action_class_v2",
+    "normalization_rule_version",
+    "classification_rule_version"
+  ],
+  "additionalProperties": false
+}

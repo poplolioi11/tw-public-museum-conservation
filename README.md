@@ -1,77 +1,60 @@
 # 臺灣公立館保存修護公開資料索引（持續整理）
 
-這個專案將分散在官方年報、年度成果與統計表中的保存修護資料整理成可回查的索引。每筆保留數字出自哪個版本、哪個位置、指什麼對象，以及尚不能比較或相加的原因。
+將官方年報、年度成果與業務報告中的保存修護資料整理成可回查索引，保留原數字、作業詞、單位、期間、完成用語、來源版本與定位。
 
-本版為 **v0.13.0**，資料截點為 **2026-10-29**，主檔結構版本為 **4.0**。儲存庫名稱為 `tw-public-museum-conservation`。[互動查詢入口](https://poplolioi11.github.io/tw-public-museum-conservation/)提供資料查找；網站與發行版本的驗證，以公開網址讀回及雜湊核對紀錄為準。
+**v0.14.0｜2026-10-30**。[公開查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)及[已發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)的狀態，以各自顯示版本與實際讀回結果為準。
 
-## 本版範圍
+## 從這裡開始
+
+- **哪館有數字？** 先開[館所索引](catalog/README.md)或[互動查詢](https://poplolioi11.github.io/tw-public-museum-conservation/)，依館名、資料年及作業查找。[資料樣貌](catalog/SAMPLE.md)提供原口徑範例。有數值查核與另一來源的指定段未定位量，可以同時出現在同一館年。
+- **怎麼查一筆？** 在[觀測JSONL](data/observations.jsonl)搜尋固定`observation_id`，例如`ntm-2022-puppet-project-completed`。先讀`quantity_raw`、`unit_as_reported`、期間、完成狀態及範圍，再以`source_id`對照[來源表](data/sources.csv)，回官方原件的PDF頁序／印頁或HTML段落。逐筆查法見[查詢說明](docs/QUERYING.md)。
+- **下載新增附表。** [指定段缺量註記CSV](data/absence_annotations.csv)／[JSONL](data/absence_annotations.jsonl)、[搜尋正規化CSV](data/normalized_observations.csv)／[JSONL](data/normalized_observations.jsonl)、[館年狀態CSV](data/coverage_cells.csv)／[JSONL](data/coverage_cells.jsonl)、[分組摘要CSV](data/coverage_groups.csv)／[JSONL](data/coverage_groups.jsonl)。附表以固定ID連回原紀錄，沒有改寫原值或增加可相加性。
+
+## 本版資料與變更
 
 | 層級 | 本版筆數 | 代表什麼 |
 |---|---:|---|
-| 登記基線組織列 | 71 | 沿用2025-11-21版名單的索引轉錄；不是現行全國獨立館數 |
-| 基線組織的年度來源查找格 | 426 | 2020–2025的組織×目標年度狀態；不是修護數值或已讀報告份數 |
-| 名錄外補充組織候選 | 14 | 與基線分層保留，不逕加為法定博物館數 |
-| 公共館室與場域候選 | 13 | 可能是分館、附設館室或收藏群，不推成獨立組織 |
-| 公開紀錄（含觀測、推算與脈絡） | 299 | 296筆原報觀測、1筆程式推算、2筆脈絡；不是修復物件合計 |
-| 已核來源原件版次 | 328（292 PDF＋36 HTML） | 數值、正文覆讀、出版日期及年度指標等用途分列 |
-| 來源查核紀錄（含歷史） | 552 | 目前437則，對應426組實際館所年度；同年可有多則目前紀錄 |
+| 公開紀錄 | 299 | 296筆原報觀測、1筆程式推算、2筆脈絡；不是物件合計 |
+| 官方原件版本 | 328 | 292 PDF、36 HTML；取得版本與核讀範圍分開記錄 |
+| 來源查核紀錄，含歷史 | 582 | 原552則保留，追加30則既有觀測的關聯索引 |
+| 目前查核葉節點／館年格 | 467／456 | 同館同年可能有多則目前查核，全部保留 |
+| 指定段未定位量的分類 | 275則／269格 | 264則有註記支持、11則資訊不足；不是未公開機構數 |
 
-數值子集涵蓋26個館所／管理中心；連同來源查核，依`organization_id`涵蓋79個候選識別、80個原報名稱。差異來自同一識別下特生中心與生多所的年度更名，不能當兩間新館。其中5筆跨年紀錄只存一次，未拆年。原71組織的426格歷史來源矩陣，與552則歷史／437則目前查核對應的426組實際館所年度不是同一集合，不因筆數相同而互相替代。原名單PDF仍未取得可供正文核對的版本，基線保留「僅索引轉錄」層級。
+本次30則只連回89筆既有原報觀測，沒有新增觀測、來源原件或原件閱讀；細節見[索引回填](docs/INDEX_BACKFILL30.md)。原299列紀錄、328個來源及原有關係保留。5筆跨年紀錄仍只存一次，不拆年或平均配置。
 
-公立、公設民營、設置機關、權管機關與營運單位分別處理；行政或場址關係不代表每件藏品所有權。本索引不作企業分析，也不主張涵蓋全國全部館所。
+缺量分類只判讀275則**既有公開查核註記**的指定範圍，沒有藉此重讀原報。每則保存引文、內容標籤、未採量原因及資訊不足狀態；不解釋機構未做或未公開的原因。數位、盤點、展教、研究、入藏、存量及保存敘述分開，原因可複選，不能相加當互斥比例。見[缺量註記方法](docs/ABSENCE.md)及[分類詞表](metadata/absence_vocabulary.json)。
 
-## 下載與查找
+涵蓋摘要分開提供原歷史基線426格、本版有界查核456格，以及兩者聯集541格。聯集中85格為`not_assessed`，與本輪查找未定位來源不同。同格的所有目前狀態均保留；不挑最高狀態取代混合證據。工作批次、權管與島群的分組只描述索引集合，不是全國估計、官方館類或館所績效。見[分母及涵蓋方法](docs/COVERAGE.md)、[涵蓋JSON](metadata/coverage.json)及[研究筆記草稿](docs/RESEARCH_NOTE_DRAFT.md)。
 
-- [資料樣貌](catalog/SAMPLE.md)、[館所固定索引](catalog/README.md)、[查詢分類及使用例](docs/QUERYING.md)。
-- [完整事實JSON](data/facts.json)、[逐筆JSONL](data/observations.jsonl)、[完整CSV](data/observations.csv)、[SQLite資料庫](data/museum-conservation.sqlite)。
-- [機讀文字導航llms.txt](https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt)：供AI與程式先辨識版本、資料入口、來源定位及使用限制；不是事實主檔或原始證據。
-- [官方來源清單與原件雜湊](data/sources.csv)、[網站資料manifest](site/manifest.json)、[版本與投影雜湊](metadata/build.json)。網站manifest記錄資料／詞表JSON的雜湊與固定紀錄入口；官方原件SHA仍見來源表。
-- [原71組織與426格來源盤點](metadata/inventory.json)、[本版正文分項涵蓋](metadata/read_coverage.json)、[欄位字典](docs/DATA_DICTIONARY.md)、[結構規格](schema/observation.schema.json)、[更新計畫](docs/UPDATE_PLAN.md)。
+## 搜尋分類與原口徑
 
-本版網站檔案提供依館所、年度、作業、單位與完成狀態查找，以及完整篩選結果CSV、逐筆固定JSON、官方來源與限制。篩選CSV涵蓋當下條件的全部結果，不限畫面分頁，並帶有官方檔案網址、官方入口、原件類型、SHA與bytes五項來源欄位；完整CSV則是整版資料。這些下載列數都不是修復物件總量或績效排名。
+新增正規化附表提供搜尋用別名及作業多標籤，原`metric_class`、`completion_status`、`unit_as_reported`及觀測內容不變。91個作業分類原值不等於91種獨立作業；34個完成用語原值不壓成同一完成定義；25個單位原值包含`null`與「未明列」，不能稱為25種量詞。
 
-固定版本引用使用v0.13.0 tag；網站版本、下載檔與公開入口依[發布範圍](docs/PUBLICATION.md)的讀回原則核對。
+- [作業分類對照](docs/METRIC_CLASS_MAP.md)：複合作業保留多標籤，不拆配數量或改稱純修復。
+- [完成用語對照](docs/COMPLETION_STATUS_MAP.md)：年度執行、完成、進行中與目標分開，未明載完成不等於未完成。
+- [單位對照](docs/UNIT_MAP.md)：字面別名只改善搜尋；件、組、組件、案、冊等不互換，同為件也須核對對象。
 
-## 如何閱讀
+典藏存量、新入藏、初製、展示、課程、館舍維護及外部服務不直接代填既有館藏修護量。總項與子項、不同報告、母子館、跨年或可能重疊批次，沒有包含與去重證據便不相加。未知、`null`、原刊留白與未定位不補零；近似量及雙單位不猜確數。
 
-先看館名、資料年與原報作業詞，再看單位、對象範圍和完成狀態，最後回官方網址與定位查核。資料年與出版年分開；報告標稱年另見來源標題。
+## 完整資料、來源與版本
 
-- `quantity_raw`保留原字串；例如「兩」仍保留「兩」，明確單字數詞由本機程式精確轉為`quantity_numeric=2`。近似量、雙單位合列不猜成確數。
-- 件、幅、冊、組、組件、案、條、號、項、頁與次不可混加；同為「件」也須核對計數對象。
-- 修復、修護、整飭、清潔、巡檢、科學檢測與數位化不是同一指標。複合作業保留原範圍，不改稱純修復。
-- 完成、父項完成脈絡、年度執行、進行中與計畫目標分開；未另載完成日期也不能逕判未完成。
-- 總項與子項、母館與子館、不同報告或可能重疊批次，沒有包含與去重證據便不相加。
-- PDF保留頁序與印刷頁；HTML兩種頁碼均為`null`，以必填的`source_locator`回到明確年度段落。HTML渲染所得PDF不是官方原件PDF。
-- 未知、`null`、原刊留白與未定位來源不等於零。只有來源明載且語義確認的零才記零。
+- [事實主檔JSON](data/facts.json)、[觀測CSV](data/observations.csv)、[SQLite](data/museum-conservation.sqlite)、[欄位字典](docs/DATA_DICTIONARY.md)及[觀測結構](schema/observation.schema.json)。
+- [來源清單與原件雜湊](data/sources.csv)、[既有來源盤點](metadata/inventory.json)、[正文分項範圍](metadata/read_coverage.json)。原名錄仍保留索引轉錄層級，不因本版附表而升格為原PDF已核。
+- [附表建置資訊](metadata/enrichment_build.json)、[正規化規則](metadata/normalization_rules.json)、[網站manifest](site/manifest.json)與[版本建置資訊](metadata/build.json)。官方原件SHA、資料投影SHA與網站建置SHA分開核對。
+- [機讀導航llms.txt](https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt)、[更新計畫](docs/UPDATE_PLAN.md)、[版本紀錄](CHANGELOG.md)。機讀導航不是事實主檔或原始證據。
 
-本版可用於查找官方來源、檢查口徑與辨識缺口；尚不是全國修護完成總量、同質工作量或可比較的績效排名。
+網站的完整篩選CSV涵蓋當下條件的全部結果；完整資料CSV則是整版紀錄。下載列數都不是修復物件總量。原報資料年、出版年及跨年期間分開；HTML的PDF頁碼為`null`，以段落定位回查，渲染PDF不冒充官方原件PDF。
 
-## 本版新增與限制
+## 查核、權利與引用
 
-本版接續40格適用正文缺口，先查已保存原件與先前未核頁段，再依新官方入口取得臺藝大3份會議原件。新增採用6個PDF版本、43則延伸查核及1筆原報觀測；既有298列紀錄、322來源、509查核及關係完整保留。
+本索引可用於尋找官方來源、檢查口徑及辨識缺口。公立、公設民營、設置機關、權管與營運關係分開，行政或場址關係不等於每件藏品所有權；不主張涵蓋全國全部館所。
 
-有章藝術博物館111年6月7日會議報告的典藏分項列海報修復6件，原段未另載「完成」；這是該次報告分項，不是2022全年完成總量。提借、典藏審議與文物維護研究中心替其他對象做的業務不混入本館處理量。詳見[40格原件補讀與缺口](docs/BODY_FOLLOWUP40.md)。
+公開內容為必要事實及短定位，官方PDF、完整HTML、整頁文字與圖片不重新發布。原創程式與文件採MIT，第三方來源權利仍依原來源處理，見[授權](LICENSE.md)、[公開範圍](docs/PUBLICATION.md)及[既有成果與查核界線](docs/PRIOR_ART.md)。
 
-原40格目前為1格已核原報數值、3格指定段未定位適用量、36格仍待適用正文。花蓮2021找到的具名館務段出自2021年9月至2022年3月跨期報告，只表示指定段已讀；不能推完整年度無量。金門2020現存檔止於印16，目次所列後續附表並未隨此檔取得，不以完整下載bytes冒充全報內容。
+資料由Codex協作整理與本機Python實算驗證，AI參與及核對層級見[AI使用說明](AI_USAGE.md)。不宣稱人類逐格雙校、專家審定、館方認證或跨館可比性認證。原件版本、資料附件及網站各自讀回，不能互相代替。
 
-網站保留六狀態、目前全部葉節點及歷史查核；本版552則含歷史，目前437則對應426組館所年度。同館年可有多則目前紀錄，文字頁、實看圖頁與原驗證標記分列。不同單位、跨年、混合作業及可能重疊批次不相加，未知不填零。前版補讀沿革見[BODY_FOLLOWUP](docs/BODY_FOLLOWUP.md)，原順序一至六的有界來源查找與歷史矩陣保留。
-
-網站沿用圖書館參考版本commit `558c16b3db18675b6afbaeeb6568af7881d56060`的主檔、帶雜湊JSON、靜態前端與檢查後部署流程；每版本站部署及下載檔仍需公開讀回驗證。
-
-## 公開範圍、查核與引用
-
-公開白名單事實投影包含館所識別、官方網址、版本、必要原詞與數字、單位、期間、來源定位、核讀狀態及中性說明。官方PDF、完整HTML、整頁文字與圖片不重新發布；私人路徑、聯絡資料、工具紀錄及完整中間檔也不在公開範圍。
-
-`original_file_sha256`指取得的官方PDF或HTML原始bytes；公開投影與網站建置SHA另列，不能互相冒充。只讀到索引而未取得原件時，不使用索引快照雜湊冒充原件SHA。
-
-資料由Codex協作整理、來源覆讀與本機Python檢查，Gemini參與已提供文字及UI判讀審閱，範圍見[AI使用說明](AI_USAGE.md)。不宣稱人類逐格雙校、專家審定、館方認證或跨館可比性認證。
-
-本專案原創程式與文件採MIT；第三方來源仍依原來源權利處理，不一律套用MIT或OGDL。詳見[授權](LICENSE.md)、[公開範圍](docs/PUBLICATION.md)及[既有成果與查核界線](docs/PRIOR_ART.md)。有限搜尋未確認同範圍成熟數列，不表示其他成果不存在。
-
-引用請列專案名稱、v0.13.0、版本日期、公開投影SHA，以及實際觀測的官方來源與PDF頁碼或HTML段落定位；保留本專案的轉錄／推算角色與原口徑。
-
-既有v0.5.1修正SQLite跨執行環境重建檢查，205列內容不變。跨版本核對schema、全表列資料與完整性；實際下載的SQLite檔仍按發行manifest核SHA。詳見[更新與核對原則](docs/UPDATE_PLAN.md)。
+引用請保留專案名稱、實際發行版本、日期、公開投影SHA，以及觀測對應的官方來源與頁碼／段落。固定版本引用使用v0.14.0標籤與發行頁；網站則先核對manifest的版本與雜湊。本儲存庫的[研究筆記](docs/RESEARCH_NOTE_DRAFT.md)是方法草稿，沒有宣稱投稿、DOI或正式審查。
 
 ## 整理者
 
-曲宸宇（Chu, Chen-Yu；GitHub：[poplolioi11](https://github.com/poplolioi11)），[ORCID 0009-0003-9738-6914](https://orcid.org/0009-0003-9738-6914)。本名、中英文姓名與帳號指同一位整理者，不重複列為多位作者；角色為資料整理、選題與AI協作。
+曲宸宇（Chu, Chen-Yu；GitHub：[poplolioi11](https://github.com/poplolioi11)），[ORCID 0009-0003-9738-6914](https://orcid.org/0009-0003-9738-6914)。本名、中英文姓名與帳號指同一位整理者；角色為資料整理、選題與AI協作。

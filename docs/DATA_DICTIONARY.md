@@ -112,3 +112,20 @@ organization_id可指原名錄的博物館群工作項目，source_scope、subje
 extends_review_id保留同一organization_id及target_data_year的前則紀錄。資料主檔保留所有歷史；目前查核選取未被任何紀錄延伸的所有review_id，同館年多個葉節點全部保留。連結不得自指、循環或跨館年，未由日期或狀態選優。metadata/read_coverage.json另列current_review_ids及狀態數；紀錄筆數不是館年格數，也不是全文已讀率。
 
 metric_label是經來源核對的解讀與搜尋標籤，列表、詳情及篩選CSV可同時提供；metric_as_reported仍保存原字形及原作業詞，不被標籤改寫。專案對象量、年度執行與明載完成依原詞及既有完成分類判讀，不對全部舊紀錄自動猜配新角色。
+
+## 證據註記、搜尋別名與覆蓋分母（v0.14.0）
+
+事實主檔結構4.0與既有分類規則1.2不變。新增附表各用1.0規則，保留原主檔逐列字典；它們不是新增原報觀測。
+
+| 檔案／識別 | 用途與界線 |
+|---|---|
+| `data/absence_annotations.json`／`review_id` | 目前N查核說明的逐則分類輸入；`evidence`記原欄位、連續引文及支持的複選標籤，`classification_status`區分說明支持與資訊不足。不是機構未公開原因或新官方原件引文。 |
+| `data/normalized_observations.jsonl`／`observation_id` | 逐列保留原分類、完成詞與量詞，另提供canonical搜尋別名及作業多標籤；不帶quantity，所有可比與加總旗標保持false。 |
+| `metadata/coverage.json`／`population_id` | 三種明確集合、逐格狀態及各切面分母；`review_statuses`保留同格所有目前狀態，`mixed_current_states`不取最高狀態，`not_assessed`不同於未定位來源。 |
+| `data/coverage_cells.jsonl`／`coverage_cell_id` | 組織候選識別×目標年，含所屬集合、目前review_ids與全部狀態；不是全年修護作業清冊。 |
+| `data/coverage_groups.jsonl`／`population_id`＋`dimension`＋`group_values` | 每列帶該分組的分母、狀態數與比例；不同集合／切面互相重疊，整張表不能相加。 |
+| `metadata/organization_dimensions.json`／`organization_id` | 工作批次、原權管文字與行政區島群的有界分類及逐項來源；工作批次非官方館類，未知不推填，原名錄PDF未核層級不變。 |
+
+缺量輸入依[註記schema](../schema/absence_annotation.schema.json)驗證；搜尋輸出依[附表schema](../schema/normalization_record.schema.json)驗證。[規則清冊](../metadata/normalization_rules.json)、[內容詞表](../metadata/absence_vocabulary.json)與[建置清單](../metadata/enrichment_build.json)記版本、輸入SHA、圖表來源及輸出範圍。JSONL、CSV與SQLite同名表由單一建置程序生成；CSV的陣列／物件仍為JSON字串，空欄代表null，不自動補零。
+
+核心建置與CI僅用Python標準函式庫。三張SVG由`scripts/plot_coverage.py`與可選`requirements-figures.txt`重繪；可指定CJK字體及候選facts，先重繪再建置匯出及網站。圖中的0只計格或註記，不是0件修護量。字體不同可能改變SVG bytes；已發布圖仍以manifest記錄的SHA為準。

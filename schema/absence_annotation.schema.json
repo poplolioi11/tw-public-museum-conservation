@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "absence_reason": {
+      "items": {
+        "enum": [
+          "non_treatment_collection_stock",
+          "acquisition_or_preparation_not_treatment_quantity",
+          "exhibition_or_education_outputs",
+          "other_digital_outputs_not_adopted_in_review",
+          "research_outputs",
+          "preservation_mentioned_no_eligible_quantity",
+          "non_movable_site_or_building_scope",
+          "parent_or_other_museum_not_allocable",
+          "collection_use_or_administrative_outputs",
+          "inventory_activity_without_eligible_treatment_quantity",
+          "external_or_other_subject_scope",
+          "no_specific_reason_documented"
+        ]
+      },
+      "type": "array"
+    },
+    "annotation_note": {
+      "type": "string"
+    },
+    "classification_status": {
+      "enum": [
+        "supported_by_review_note",
+        "insufficient_detail"
+      ]
+    },
+    "content_tags": {
+      "items": {
+        "enum": [
+          "stock",
+          "acquisition",
+          "exhibition_education",
+          "digital",
+          "research",
+          "preservation_narrative",
+          "building_site",
+          "parent_scope",
+          "collection_administration",
+          "inventory_activity",
+          "external_service"
+        ]
+      },
+      "type": "array"
+    },
+    "criteria_version": {
+      "const": "absence-reason-1.0"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "absence_reason": {
+            "items": {
+              "enum": [
+                "non_treatment_collection_stock",
+                "acquisition_or_preparation_not_treatment_quantity",
+                "exhibition_or_education_outputs",
+                "other_digital_outputs_not_adopted_in_review",
+                "research_outputs",
+                "preservation_mentioned_no_eligible_quantity",
+                "non_movable_site_or_building_scope",
+                "parent_or_other_museum_not_allocable",
+                "collection_use_or_administrative_outputs",
+                "inventory_activity_without_eligible_treatment_quantity",
+                "external_or_other_subject_scope",
+                "no_specific_reason_documented"
+              ]
+            },
+            "type": "array"
+          },
+          "content_tags": {
+            "items": {
+              "enum": [
+                "stock",
+                "acquisition",
+                "exhibition_education",
+                "digital",
+                "research",
+                "preservation_narrative",
+                "building_site",
+                "parent_scope",
+                "collection_administration",
+                "inventory_activity",
+                "external_service"
+              ]
+            },
+            "type": "array"
+          },
+          "field": {
+            "enum": [
+              "review_scope",
+              "interpretation_note"
+            ]
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "field",
+          "quote",
+          "content_tags",
+          "absence_reason"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "evidence_basis": {
+      "const": "existing_public_review_note"
+    },
+    "not_institutional_nonpublication": {
+      "const": true
+    },
+    "organization_id": {
+      "type": "string"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "source_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "target_data_year": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "review_id",
+    "organization_id",
+    "target_data_year",
+    "source_ids",
+    "content_tags",
+    "absence_reason",
+    "classification_status",
+    "evidence_basis",
+    "evidence",
+    "annotation_note",
+    "criteria_version",
+    "not_institutional_nonpublication"
+  ],
+  "title": "Source-scoped annotation of an existing bounded review note; not institutional nonpublication",
+  "type": "object"
+}

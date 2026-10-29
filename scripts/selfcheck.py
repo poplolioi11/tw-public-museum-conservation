@@ -93,7 +93,7 @@ def main():
     else:raise AssertionError('PDF observation lost its real page')
     with tempfile.TemporaryDirectory()as tmp:
         root=Path(tmp)/'pilot';root.mkdir()
-        for folder in ['data','metadata','scripts','catalog','schema']:shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns('__pycache__'))
+        for folder in ['data','metadata','scripts','catalog','schema','docs']:shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns('__pycache__'))
         shutil.copy(ROOT/'VERSION',root/'VERSION')
         cmd=[sys.executable,str(root/'scripts/build_exports.py')]
         before=hashes(root)
@@ -149,5 +149,7 @@ def main():
         target=root/'data/museum-conservation.sqlite';target.write_bytes(bytes(alternate));broken=hashes(root)
         result=subprocess.run(cmd+['--check'],capture_output=True,text=True)
         assert result.returncode!=0 and hashes(root)==broken
-    print(json.dumps({'status':'pass','checks':checks,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
+    import check_enrichment
+    enriched=check_enrichment.check(ROOT)
+    print(json.dumps({'status':'pass','checks':checks,'enrichment':enriched,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
 if __name__=='__main__':main()

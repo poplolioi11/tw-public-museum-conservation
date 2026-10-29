@@ -1,0 +1,38 @@
+{
+  "absence_reason_labels": {
+    "acquisition_or_preparation_not_treatment_quantity": "新增等不代既有藏品處理量",
+    "collection_use_or_administrative_outputs": "藏品行政／使用成果不代處理量",
+    "exhibition_or_education_outputs": "展覽／教育成果不代處理量",
+    "external_or_other_subject_scope": "此則對象與目標範圍不同",
+    "inventory_activity_without_eligible_treatment_quantity": "此則盤點敘述未定位適用處理量",
+    "no_specific_reason_documented": "既有說明不足以判定具體原因",
+    "non_movable_site_or_building_scope": "建物場域非本題動產範圍",
+    "non_treatment_collection_stock": "存量不代處理量",
+    "other_digital_outputs_not_adopted_in_review": "此則其他數位成果未採為適用量",
+    "parent_or_other_museum_not_allocable": "父機構／館群／他館範圍不拆配",
+    "preservation_mentioned_no_eligible_quantity": "提及保存修護但未定位適用量",
+    "research_outputs": "研究成果不代處理量"
+  },
+  "content_tag_labels": {
+    "acquisition": "入藏／採集等新增",
+    "building_site": "建物或場域範圍",
+    "collection_administration": "藏品行政或使用",
+    "digital": "數位資料相關",
+    "exhibition_education": "展覽或教育推廣",
+    "external_service": "館外對象服務敘述",
+    "inventory_activity": "盤點或清查作業",
+    "parent_scope": "父機構／館群／他館範圍",
+    "preservation_narrative": "保存修護等敘述",
+    "research": "研究相關",
+    "stock": "典藏存量或累計"
+  },
+  "criteria_version": "absence-reason-1.0",
+  "evidence_basis": "existing_public_review_note",
+  "limits": [
+    "標籤只描述既有查核說明的指定範圍，非機構未做或未公開的原因。",
+    "可複選，標籤筆數不能當館年數、報告數或物件數。",
+    "數位作業、盤點或館外服務並非一律排除，適用性仍依各筆原範圍。",
+    "未提及某個標籤不代表已確認該內容不存在。",
+    "引用的是整理者公開查核說明，不冒充官方原件逐字引文或新的原件核讀。"
+  ]
+}

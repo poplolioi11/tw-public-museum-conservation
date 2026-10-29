@@ -1,0 +1,4 @@
+# Optional offline figure regeneration; the core build uses only stdlib.
+# Replayed with Python 3.12.14 and a Traditional Chinese CJK system font.
+matplotlib==3.10.7
+numpy==2.5.4

@@ -1,0 +1,47 @@
+{
+  "annotation_classification_status_counts": {
+    "insufficient_detail": 11,
+    "supported_by_review_note": 264
+  },
+  "annotation_records": 275,
+  "canonical_facts_sha256": "e588ab8f66e76194bb21f02d4c5be5fdcccf0ecea6a132a309cfd90670fbf88a",
+  "coverage_current_review_records": 467,
+  "coverage_reviewed_cells": 456,
+  "dataset_version": "0.14.0",
+  "figure_artifacts": {
+    "absence-tags.svg": {
+      "bytes": 356043,
+      "path": "docs/figures/absence-tags.svg",
+      "sha256": "a84d6ddecb4738eac8c5c9adf7414c3657b0d8142069781bd41231c23ef6bcc2"
+    },
+    "coverage-facets.svg": {
+      "bytes": 608473,
+      "path": "docs/figures/coverage-facets.svg",
+      "sha256": "1d4781b6a638a36c1afc088d46d6ffe1f935bd1593837eb06d8d794c6b3b5b6a"
+    },
+    "coverage-states.svg": {
+      "bytes": 494321,
+      "path": "docs/figures/coverage-states.svg",
+      "sha256": "dbd08e651e3678cae0ec1fc806da56771ac2bcfe7b0d2aa46dc5bd6246a2ff9a"
+    }
+  },
+  "figure_source_sha256": "ebb684c735790a18a3581bc04c296b55e21fd3ed3afc1f95e6c7c862dc7a4d31",
+  "input_sha256": {
+    "data/absence_annotations.json": "47f0a70c08933531eb8566f01c6a0278d8f2bba941339cc0866a7b5c49259e21",
+    "metadata/absence_vocabulary.json": "7ef6380b0cc7a59ed38957bf52b5de80c2770eb514174258b2662e88467c9997",
+    "metadata/normalization_rules.json": "818c42bf23c1de973a66b75638c7f877dbd72a030c9fd3135c46cbd0c504c0ba",
+    "metadata/organization_dimensions.json": "ca445c997470d049e8c3f203f40a697b6413d7307ecb8e85b70760c401ccf670",
+    "schema/absence_annotation.schema.json": "21c9b862df9ce8e0aa7b8e0e23c3f9a93aa91531f0fd6b258b0f0b20cc731d1c",
+    "schema/normalization_record.schema.json": "2ee59fafb1d06be501cc9d6dceb89bbd53c7e28234694a42473dbc6626b39650"
+  },
+  "national_estimate": false,
+  "normalized_observation_records": 299,
+  "original_observations_mutated": false,
+  "quantities_summed_or_converted": false,
+  "schema_version": "1.0",
+  "source_schema_versions": {
+    "absence": "1.0",
+    "coverage": "1.0",
+    "normalization": "1.0"
+  }
+}

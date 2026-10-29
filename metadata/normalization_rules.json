@@ -1,0 +1,1941 @@
+{
+  "normalization_rule_version": "1.0",
+  "classification_rule_version": "1.2",
+  "reviewed_observation_count": 299,
+  "canonical_aliases": {
+    "metric_class_normalized": "action_categories",
+    "completion_status_normalized": "completion_category"
+  },
+  "canonical_authority": {
+    "source": "data/facts.json",
+    "verification_program": "scripts/classify_facets.py",
+    "action_function": "action_categories(record)",
+    "completion_mapping": "COMPLETION_MAP",
+    "classification_basis": "沿用既有逐列 action_categories 與 completion_category；重跑既有分類器只用於偵測漂移，不重判或覆寫資料。",
+    "metric_class_role": "既有歷史分類欄，不是館方原文；來源原詞另存 metric_as_reported。",
+    "inventory_role": "逐原值與 observation_id 清冊，只鎖定已覆核範圍，不另建立 metric 或 completion 同義映射。",
+    "evidence_locator": {
+      "dataset": "data/facts.json",
+      "join_field": "observation_id",
+      "source_fields": [
+        "source_id",
+        "pdf_page_1_based",
+        "printed_page",
+        "source_locator"
+      ]
+    }
+  },
+  "action_class_v2_projection": {
+    "restoration_as_reported": "reported_restoration",
+    "maintenance": "preventive_maintenance",
+    "arrangement": "arrangement_inventory",
+    "inspection_registration": "inspection_examination",
+    "scientific_examination": "inspection_examination",
+    "digitization": "digitization",
+    "digital_restoration": "digital_restoration",
+    "cleaning": "cleaning",
+    "stabilization": "stabilization",
+    "mounting": "mounting",
+    "mixed_workflow": "mixed_workflow",
+    "needs_review": "needs_review"
+  },
+  "action_projection_basis": "逐列對既有 action_categories 多標籤投影並去重；檢視／登錄與科學檢測共用 inspection_examination 搜尋值，原細分類保留；不得拆配數量。",
+  "proposed_unused_actions": [
+    {
+      "action_class": "initial_preparation",
+      "status": "proposed_unused",
+      "assigned_observation_ids": [],
+      "rationale": "本清冊未將任何觀測判為初製；保存盒製作不等於文物初製。"
+    }
+  ],
+  "unit_mapping_basis": "僅件、件數、件作品使用 item_word 字面搜尋別名；null 與未明列量詞維持 null，狀態分開；其他原詞保持，組件不拆，組（件）及組、件不換算。",
+  "review_gate": "任何未知原值、清冊歸屬改變、分類漂移或 needs_review 候選皆拒絕，不自動歸類。",
+  "limits": [
+    "搜尋別名不改變觀測數、來源、原始文字、數量、紀錄角色、重疊關係或計數定義。",
+    "normalization sidecar 不帶 quantity 欄位；unit_alias_is_conversion 與四項加總／可比旗標固定 false。",
+    "item_word 不代表唯一物件、文物件數、工作量相等、可加總或跨館跨年可比。",
+    "活動次數不轉文物件數；缺量詞不補件；混合作業與多標籤不代表將同一數字複製到各類相加。",
+    "未明載完成不等於未完成；完整修護分類詞不推定完成。",
+    "純數位修復不歸實體修復或數位化；保存盒製作不推文物初製。"
+  ],
+  "inventories": {
+    "metric_class": [
+      {
+        "mapping_id": "metric_class-inventory-001",
+        "raw_value": "archival_arrangement_as_reported",
+        "observation_ids": [
+          "IOE-2022-museum-arrangement-as-reported",
+          "IOE-2024-museum-arrangement-as-reported",
+          "IOE-2025-museum-arrangement-as-reported"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-002",
+        "raw_value": "arrangement",
+        "observation_ids": [
+          "tfam-2021-display_arrangement-html"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-003",
+        "raw_value": "arrangement_and_inspection",
+        "observation_ids": [
+          "pilot-ntcart-2025-inspection"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-004",
+        "raw_value": "collection_arrangement",
+        "observation_ids": [
+          "LYM-2021-2022-arrangement-project",
+          "LYM-2021-arrangement-partial-year",
+          "NMMST-2020-humanities-arrangement",
+          "NMMST-2020-specimens-arrangement",
+          "NMMST-2021-humanities-arrangement",
+          "NMMST-2021-specimens-arrangement",
+          "NMMST-2022-humanities-arrangement",
+          "NMMST-2022-specimens-arrangement",
+          "NMMST-2023-humanities-arrangement",
+          "NMMST-2023-specimens-arrangement",
+          "NMMST-2024-humanities-arrangement",
+          "NMMST-2024-specimens-arrangement",
+          "NMMST-2025-humanities-arrangement",
+          "NMMST-2025-specimens-arrangement",
+          "nmp-2020-2022-archaeology-arrangement",
+          "nmp-2020-2022-ethnology-arrangement",
+          "nmp-2020-2022-natural-history-arrangement",
+          "nmp-2020-archaeology-arrangement",
+          "nmp-2020-display-archaeology",
+          "nmp-2020-display-ethnology",
+          "nmp-2020-display-natural-history",
+          "nmp-2020-display-research",
+          "nmp-2020-ethnology-entrusted",
+          "nmp-2020-ethnology-own",
+          "nmp-2020-ethnology-total",
+          "nmp-2021-donated-archaeology",
+          "nmp-2021-entrusted-arrangement",
+          "nmp-2021-ethnology-display",
+          "nmp-2022-donated-stone",
+          "nmp-2022-entrusted",
+          "nmp-2022-hualien-loan",
+          "nmp-2022-reclassification",
+          "nmp-2022-south-arrangement",
+          "nmp-2023-donated-pottery",
+          "nmp-2023-entrusted",
+          "nmp-2023-entrusted-fumigation",
+          "nmp-2023-pottery-bags",
+          "nmp-2023-pottery-shards",
+          "nmp-2023-reclassification",
+          "nmp-2023-research-bags",
+          "nmp-2023-south-arrangement",
+          "nmp-2024-bone-antler-arrangement",
+          "nmp-2024-ethnology-arrangement",
+          "nmp-2024-research-bags",
+          "nmp-2025-ethnology-arrangement",
+          "nmp-2025-transferred-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-005",
+        "raw_value": "combined_arrangement_cataloguing",
+        "observation_ids": [
+          "thcdc-2025-arrangement-cataloguing"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-006",
+        "raw_value": "combined_arrangement_cataloguing_registration",
+        "observation_ids": [
+          "thcdc-2024-arrangement-registration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-007",
+        "raw_value": "combined_arrangement_cleaning",
+        "observation_ids": [
+          "IOE-2023-museum-arrangement-as-reported"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-008",
+        "raw_value": "combined_arrangement_cleaning_storage",
+        "observation_ids": [
+          "nmp-2021-displayed-ethnology"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-009",
+        "raw_value": "combined_arrangement_digitisation",
+        "observation_ids": [
+          "nmp-2024-donated-specimens"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-010",
+        "raw_value": "combined_arrangement_restoration_preservation_reproduction",
+        "observation_ids": [
+          "thcdc-2025-cannon-combined-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-011",
+        "raw_value": "combined_cleaning_and_maintenance",
+        "observation_ids": [
+          "LYM-2020-cleaning-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-012",
+        "raw_value": "combined_collection_preservation_treatment_project_cases",
+        "observation_ids": [
+          "NCKU-2022-commissioned-conservation-cases"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-013",
+        "raw_value": "combined_digitization_arrangement_restoration_project",
+        "observation_ids": [
+          "daxi-2025-combined-project",
+          "pilot-daxi-2024-combined"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-014",
+        "raw_value": "combined_display_support_stabilization_and_maintenance",
+        "observation_ids": [
+          "LYM-2020-display-support-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-015",
+        "raw_value": "combined_historygallery_restoration_mounting_storage_measures",
+        "observation_ids": [
+          "NTU-2022-historygallery-postcards3"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-016",
+        "raw_value": "combined_inspection_cleaning_photography_registration_condition_assessment",
+        "observation_ids": [
+          "daxi-2021-combined-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-017",
+        "raw_value": "combined_inventory_arrangement",
+        "observation_ids": [
+          "DRAMA-2023-2024-inventory-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-018",
+        "raw_value": "combined_maintenance_restoration",
+        "observation_ids": [
+          "KHM-2024-conservation-work-items",
+          "KHM-2025-conservation-work-items",
+          "KHM-2025-treatment-objects-as-reported",
+          "KHM-2025-treatment-project-cases",
+          "tfam-2022-routine_restoration-html"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-019",
+        "raw_value": "combined_mount_form_and_storage_box_preservation",
+        "observation_ids": [
+          "yilan-2023-compound-maintenance26"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-020",
+        "raw_value": "commissioned_restoration",
+        "observation_ids": [
+          "tfam-2023-commissioned_restoration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-021",
+        "raw_value": "conservation_and_restoration_total",
+        "observation_ids": [
+          "tfam-2025-conservation_and_restoration_total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-022",
+        "raw_value": "conservation_historical_register_unspecified_treatment",
+        "observation_ids": [
+          "KMFA-2015-register-01",
+          "KMFA-2016-register-02",
+          "KMFA-2016-register-03",
+          "KMFA-2016-register-04",
+          "KMFA-2016-register-05",
+          "KMFA-2016-register-06"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-023",
+        "raw_value": "conservation_restoration",
+        "observation_ids": [
+          "pilot-ntcart-2025-professional"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-024",
+        "raw_value": "digital_restoration",
+        "observation_ids": [
+          "nmp-2022-digital-restoration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-025",
+        "raw_value": "digital_restoration_film_table_quantity_unit_not_stated",
+        "observation_ids": [
+          "KFA-2022-digital-restoration-reported-quantity"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-026",
+        "raw_value": "document_arrangement_not_restoration",
+        "observation_ids": [
+          "TNAM-2024-document-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-027",
+        "raw_value": "inspection_and_registration",
+        "observation_ids": [
+          "tfam-2025-inspection_and_registration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-028",
+        "raw_value": "inspection_or_cleaning",
+        "observation_ids": [
+          "tfam-2024-inspection_or_cleaning"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-029",
+        "raw_value": "internal_conservation_category_subtotal",
+        "observation_ids": [
+          "tfam-2023-internal-derived"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-030",
+        "raw_value": "maintenance",
+        "observation_ids": [
+          "tfam-2022-preservation_measures"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-031",
+        "raw_value": "mixed_arrangement_restoration",
+        "observation_ids": [
+          "nmp-2024-south-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-032",
+        "raw_value": "mixed_selection_maintenance",
+        "observation_ids": [
+          "nmp-2021-display-selection-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-033",
+        "raw_value": "mounting",
+        "observation_ids": [
+          "pilot-ntcart-2025-mounting",
+          "tfam-2020-calligraphy_remounting"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-034",
+        "raw_value": "museum_reported_inspection",
+        "observation_ids": [
+          "NPM-2020-annual-inspection",
+          "NPM-2021-annual-inspection",
+          "NPM-2021-vdr2025-inspection",
+          "NPM-2022-annual-inspection",
+          "NPM-2022-vdr2025-inspection",
+          "NPM-2023-annual-inspection",
+          "NPM-2023-vdr2025-inspection",
+          "NPM-2024-annual-inspection",
+          "NPM-2024-vdr2025-inspection",
+          "NPM-2025-finalaccounts-inspection",
+          "NTCRI-2023-finalaccounts-condition-form",
+          "NTCRI-2023-finalaccounts-condition-inspection"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-035",
+        "raw_value": "museum_reported_restoration",
+        "observation_ids": [
+          "NTUA-2022-meeting1102-conserved-posters",
+          "yilan-2025-oil-restoration8"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-036",
+        "raw_value": "museum_reported_treatment",
+        "observation_ids": [
+          "KHM-2024-treatment-objects-as-reported",
+          "KHM-2024-treatment-project-cases",
+          "KMFA-2024-existing-collection-restoration",
+          "KMFA-2025-existing-collection-restoration",
+          "NPM-2020-annual-books",
+          "NPM-2020-annual-objects",
+          "NPM-2020-annual-paintings",
+          "NPM-2020-annual-textiles",
+          "NPM-2021-annual-books",
+          "NPM-2021-annual-objects",
+          "NPM-2021-annual-paintings",
+          "NPM-2021-annual-textiles",
+          "NPM-2021-vdr2025-books",
+          "NPM-2021-vdr2025-objects",
+          "NPM-2021-vdr2025-paintings",
+          "NPM-2021-vdr2025-textiles",
+          "NPM-2022-annual-books",
+          "NPM-2022-annual-objects",
+          "NPM-2022-annual-paintings",
+          "NPM-2022-annual-textiles",
+          "NPM-2022-vdr2025-books",
+          "NPM-2022-vdr2025-objects",
+          "NPM-2022-vdr2025-paintings",
+          "NPM-2022-vdr2025-textiles",
+          "NPM-2023-annual-books",
+          "NPM-2023-annual-objects",
+          "NPM-2023-annual-paintings",
+          "NPM-2023-annual-textiles",
+          "NPM-2023-vdr2025-books",
+          "NPM-2023-vdr2025-objects",
+          "NPM-2023-vdr2025-paintings",
+          "NPM-2023-vdr2025-textiles",
+          "NPM-2024-annual-books",
+          "NPM-2024-annual-objects",
+          "NPM-2024-annual-paintings",
+          "NPM-2024-annual-textiles",
+          "NPM-2024-vdr2025-books",
+          "NPM-2024-vdr2025-objects",
+          "NPM-2024-vdr2025-paintings",
+          "NPM-2024-vdr2025-textiles",
+          "NPM-2025-finalaccounts-books",
+          "NPM-2025-finalaccounts-objects",
+          "NPM-2025-finalaccounts-paintings",
+          "NPM-2025-finalaccounts-textiles",
+          "nmh-2020-15",
+          "nmh-2020-16",
+          "nmh-2021-17",
+          "nmh-2021-18",
+          "nmh-2021-19",
+          "nmh-2021-26",
+          "nmh-2021-27",
+          "nmh-2022-20",
+          "nmh-2022-21",
+          "nmh-2022-22",
+          "nmh-2022-28",
+          "nmh-2022-29",
+          "nmh-2023-23",
+          "nmh-2023-24",
+          "nmh-2023-25",
+          "nmh-2023-30",
+          "nmh-2023-31",
+          "nmh-2024-32",
+          "nmh-2024-33",
+          "nmh-2025-34",
+          "nmh-2025-35",
+          "ntmofa-2020-1",
+          "ntmofa-2020-7",
+          "ntmofa-2021-2",
+          "ntmofa-2021-8",
+          "ntmofa-2022-10",
+          "ntmofa-2022-3",
+          "ntmofa-2022-9",
+          "ntmofa-2023-11",
+          "ntmofa-2023-12",
+          "ntmofa-2023-4",
+          "ntmofa-2024-13",
+          "ntmofa-2024-14",
+          "ntmofa-2024-5",
+          "ntmofa-2025-6",
+          "sshm-2021-ceramic-repair",
+          "yilan-2022-conservation15"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-037",
+        "raw_value": "museum_reported_treatment_component",
+        "observation_ids": [
+          "KMFA-2023-oil-painting-restoration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-038",
+        "raw_value": "physical_restoration",
+        "observation_ids": [
+          "nmp-2023-plank-boats",
+          "nmp-2024-pottery-restoration",
+          "nmp-2025-artwork-restoration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-039",
+        "raw_value": "preventive_collection_maintenance",
+        "observation_ids": [
+          "yilan-2023-stability-maintenance133"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-040",
+        "raw_value": "preventive_conservation_as_reported",
+        "observation_ids": [
+          "NPM-2020-annual-preventive-north",
+          "NPM-2020-annual-preventive-south",
+          "NPM-2021-annual-preventive-north",
+          "NPM-2021-annual-preventive-south",
+          "NPM-2022-annual-preventive-north",
+          "NPM-2022-annual-preventive-south",
+          "NPM-2023-annual-preventive-north",
+          "NPM-2023-annual-preventive-south",
+          "NPM-2024-annual-preventive-north",
+          "NPM-2024-annual-preventive-south"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-041",
+        "raw_value": "preventive_conservation_operations",
+        "observation_ids": [
+          "north4-sshm-2022-fumigation",
+          "sshm-2021-fumigation-reported",
+          "sshm-2023-fumigation-reported",
+          "sshm-2024-collection-fumigation",
+          "sshm-2024-loan-fumigation",
+          "sshm-2025-collection-fumigation",
+          "sshm-2025-loan-fumigation"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-042",
+        "raw_value": "preventive_packaging_as_reported",
+        "observation_ids": [
+          "DRAMA-2022-acid-free-packaging"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-043",
+        "raw_value": "preventive_pest_treatment",
+        "observation_ids": [
+          "LYM-2020-inbound-exhibit-freezing"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-044",
+        "raw_value": "project_book_conservation",
+        "observation_ids": [
+          "tfam-2024-project_book_conservation"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-045",
+        "raw_value": "project_paper_conservation",
+        "observation_ids": [
+          "tfam-2024-project_paper_conservation"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-046",
+        "raw_value": "project_restoration",
+        "observation_ids": [
+          "tfam-2025-project_restoration"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-047",
+        "raw_value": "restoration_as_reported",
+        "observation_ids": [
+          "LYM-2025-gazetteer-conservation",
+          "tfam-2020-oil_project_phase2",
+          "tfam-2020-oil_project_two_completed",
+          "tfam-2021-outsourced_restoration-html",
+          "tfam-2022-display_treatment",
+          "tfam-2022-exhibition_collection_restoration",
+          "tfam-2022-new_collection_exhibition_treatment",
+          "yingge-2020-source-reported-annual-repair"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-048",
+        "raw_value": "restoration_as_reported_including_cleaning",
+        "observation_ids": [
+          "yingge-2021-reported-annual-repair"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-049",
+        "raw_value": "restoration_as_reported_with_scientific_examination_context",
+        "observation_ids": [
+          "tfam-2020-oil_painting_restoration_annual"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-050",
+        "raw_value": "restoration_summary",
+        "observation_ids": [
+          "tfam-2024-restoration_summary"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-051",
+        "raw_value": "routine_conservation",
+        "observation_ids": [
+          "tfam-2025-routine_conservation"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-052",
+        "raw_value": "scientific_examination",
+        "observation_ids": [
+          "nmp-2025-xrf-archaeology",
+          "nmp-2025-xrf-ethnology"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-053",
+        "raw_value": "treatment_batch",
+        "observation_ids": [
+          "north4-daxi-2024-repair-batch"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-054",
+        "raw_value": "保存維護",
+        "observation_ids": [
+          "NMTL-2020-maintenance",
+          "NMTL-2021-maintenance",
+          "NMTL-2022-maintenance",
+          "NMTL-2023-maintenance",
+          "NMTL-2025-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-055",
+        "raw_value": "修護及保存維護混合",
+        "observation_ids": [
+          "TNAM-2022-completed",
+          "TNAM-2022-under-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-056",
+        "raw_value": "原報年度修護與維護混合業務量",
+        "observation_ids": [
+          "ntm-reread-2023-accounts-reported-completed",
+          "ntm-reread-2024-accounts-reported-completed",
+          "ntm-reread-2025-accounts-reported-completed"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-057",
+        "raw_value": "原報摘要合計_混合單位疑義",
+        "observation_ids": [
+          "NMTL-2025-reported-summary-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-058",
+        "raw_value": "原報標籤衝突_不得作修復量",
+        "observation_ids": [
+          "NMTL-2024-summary-family-label"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-059",
+        "raw_value": "原報混合修護維護及檢測表",
+        "observation_ids": [
+          "ntm-2022-mixed-table-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-060",
+        "raw_value": "原報混合修護維護表",
+        "observation_ids": [
+          "ntm-2020-mixed-table-total",
+          "ntm-2021-mixed-table-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-061",
+        "raw_value": "原報混合合計_不可作修復總數",
+        "observation_ids": [
+          "TNAM-2024-reported-composite-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-062",
+        "raw_value": "原報混合年度合計",
+        "observation_ids": [
+          "TNAM-2023-reported-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-063",
+        "raw_value": "原報藏品修護年度合計（含不同處置）",
+        "observation_ids": [
+          "NMTH-2020-conservation-reported-total",
+          "NMTH-2022-conservation-reported-total",
+          "NMTH-2023-conservation-reported-total",
+          "NMTH-2024-conservation-reported-total"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-064",
+        "raw_value": "基礎修復_含多種處理",
+        "observation_ids": [
+          "NMTL-2020-basic-repair",
+          "NMTL-2021-basic-repair",
+          "NMTL-2022-basic-repair",
+          "NMTL-2023-basic-repair"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-065",
+        "raw_value": "完整修護（原表分類）",
+        "observation_ids": [
+          "NMTH-2020-full-treatment",
+          "NMTH-2022-full-treatment",
+          "NMTH-2023-full-treatment",
+          "NMTH-2024-full-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-066",
+        "raw_value": "展覽修護",
+        "observation_ids": [
+          "TNAM-2025-exhibition-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-067",
+        "raw_value": "展覽修護專案",
+        "observation_ids": [
+          "TNAM-2024-exhibition-project"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-068",
+        "raw_value": "展覽館外作品緊急維護",
+        "observation_ids": [
+          "TNAM-2023-exhibition-emergency"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-069",
+        "raw_value": "底片修護",
+        "observation_ids": [
+          "NMTL-2025-film-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-070",
+        "raw_value": "底片修護及數位化混合",
+        "observation_ids": [
+          "NMTL-2024-film-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-071",
+        "raw_value": "損傷修護_含清潔與加固等",
+        "observation_ids": [
+          "ntm-2020-damage-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-072",
+        "raw_value": "損傷修護_含除塵除蟲害除標記",
+        "observation_ids": [
+          "ntm-2021-damage-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-073",
+        "raw_value": "整飭資料筆數_非修復",
+        "observation_ids": [
+          "NMTL-2024-collection-arrangement",
+          "NMTL-2025-collection-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-074",
+        "raw_value": "文物修護",
+        "observation_ids": [
+          "NMTL-2025-collection-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-075",
+        "raw_value": "文獻整飭_非純修復",
+        "observation_ids": [
+          "NMTL-2024-family-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-076",
+        "raw_value": "日常維護（原表分類）",
+        "observation_ids": [
+          "NMTH-2020-routine-maintenance",
+          "NMTH-2022-routine-maintenance",
+          "NMTH-2023-routine-maintenance",
+          "NMTH-2024-routine-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-077",
+        "raw_value": "書畫修護_含重新裝潢",
+        "observation_ids": [
+          "NMTL-2020-calligraphy-treatment",
+          "NMTL-2022-calligraphy-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-078",
+        "raw_value": "書畫修護_館內外混合",
+        "observation_ids": [
+          "NMTL-2023-mixed-calligraphy"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-079",
+        "raw_value": "清潔修護與檢登數位化混合計畫",
+        "observation_ids": [
+          "NMTH-2021-film-pieces",
+          "NMTH-2021-film-reels",
+          "NMTH-2021-film-titles"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-080",
+        "raw_value": "特定計畫完成修護_含檢視影像科學分析",
+        "observation_ids": [
+          "ntm-2022-puppet-project-completed"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-081",
+        "raw_value": "緊急加固（原表分類）",
+        "observation_ids": [
+          "NMTH-2020-emergency-stabilization",
+          "NMTH-2022-emergency-stabilization",
+          "NMTH-2023-emergency-stabilization",
+          "NMTH-2024-emergency-stabilization"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-082",
+        "raw_value": "館內修護",
+        "observation_ids": [
+          "TNAM-2024-internal-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-083",
+        "raw_value": "館內與展覽混合修護",
+        "observation_ids": [
+          "TNAM-2021-internal-exhibition-completed"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-084",
+        "raw_value": "館內藏品維護",
+        "observation_ids": [
+          "TNAM-2023-collection-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-085",
+        "raw_value": "館外受託修護",
+        "observation_ids": [
+          "TNAM-2021-external-service",
+          "TNAM-2023-external-service",
+          "TNAM-2024-external-service",
+          "TNAM-2025-external-service"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-086",
+        "raw_value": "館外書畫修護",
+        "observation_ids": [
+          "NMTL-2024-family-calligraphy"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-087",
+        "raw_value": "館外館群修護",
+        "observation_ids": [
+          "NMTL-2023-family-museum-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-088",
+        "raw_value": "館藏修復與維護",
+        "observation_ids": [
+          "NMTL-2022-collection-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-089",
+        "raw_value": "館藏修護",
+        "observation_ids": [
+          "NMTL-2020-collection-treatment",
+          "NMTL-2023-collection-treatment",
+          "NMTL-2024-collection-treatment",
+          "NMTL-2024-fire-damaged-manuscripts"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-090",
+        "raw_value": "館藏修護_含重新裝潢",
+        "observation_ids": [
+          "NMTL-2021-collection-treatment"
+        ]
+      },
+      {
+        "mapping_id": "metric_class-inventory-091",
+        "raw_value": "館藏動產修護",
+        "observation_ids": [
+          "NMTH-2025-wall-panels-completed"
+        ]
+      }
+    ],
+    "completion_status": [
+      {
+        "mapping_id": "completion_status-inventory-001",
+        "raw_value": "annual_actual_table_completion_not_explicit",
+        "observation_ids": [
+          "nmh-2020-15",
+          "nmh-2020-16"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-002",
+        "raw_value": "annual_execution_reported",
+        "observation_ids": [
+          "DRAMA-2023-2024-inventory-arrangement",
+          "IOE-2022-museum-arrangement-as-reported",
+          "IOE-2023-museum-arrangement-as-reported",
+          "IOE-2024-museum-arrangement-as-reported",
+          "IOE-2025-museum-arrangement-as-reported",
+          "KFA-2022-digital-restoration-reported-quantity",
+          "LYM-2020-display-support-maintenance",
+          "LYM-2025-gazetteer-conservation",
+          "NCKU-2022-commissioned-conservation-cases",
+          "NMMST-2020-humanities-arrangement",
+          "NMMST-2020-specimens-arrangement",
+          "NMMST-2021-humanities-arrangement",
+          "NMMST-2021-specimens-arrangement",
+          "NMMST-2022-humanities-arrangement",
+          "NMMST-2022-specimens-arrangement",
+          "NMMST-2023-humanities-arrangement",
+          "NMMST-2023-specimens-arrangement",
+          "NMMST-2024-humanities-arrangement",
+          "NMMST-2024-specimens-arrangement",
+          "NMMST-2025-humanities-arrangement",
+          "NMMST-2025-specimens-arrangement",
+          "NPM-2020-annual-books",
+          "NPM-2020-annual-inspection",
+          "NPM-2020-annual-objects",
+          "NPM-2020-annual-paintings",
+          "NPM-2020-annual-preventive-north",
+          "NPM-2020-annual-preventive-south",
+          "NPM-2020-annual-textiles",
+          "NPM-2021-annual-books",
+          "NPM-2021-annual-inspection",
+          "NPM-2021-annual-objects",
+          "NPM-2021-annual-paintings",
+          "NPM-2021-annual-preventive-north",
+          "NPM-2021-annual-preventive-south",
+          "NPM-2021-annual-textiles",
+          "NPM-2021-vdr2025-books",
+          "NPM-2021-vdr2025-inspection",
+          "NPM-2021-vdr2025-objects",
+          "NPM-2021-vdr2025-paintings",
+          "NPM-2021-vdr2025-textiles",
+          "NPM-2022-annual-books",
+          "NPM-2022-annual-inspection",
+          "NPM-2022-annual-objects",
+          "NPM-2022-annual-paintings",
+          "NPM-2022-annual-preventive-north",
+          "NPM-2022-annual-preventive-south",
+          "NPM-2022-annual-textiles",
+          "NPM-2022-vdr2025-books",
+          "NPM-2022-vdr2025-inspection",
+          "NPM-2022-vdr2025-objects",
+          "NPM-2022-vdr2025-paintings",
+          "NPM-2022-vdr2025-textiles",
+          "NPM-2023-annual-books",
+          "NPM-2023-annual-inspection",
+          "NPM-2023-annual-objects",
+          "NPM-2023-annual-paintings",
+          "NPM-2023-annual-preventive-north",
+          "NPM-2023-annual-preventive-south",
+          "NPM-2023-annual-textiles",
+          "NPM-2023-vdr2025-books",
+          "NPM-2023-vdr2025-inspection",
+          "NPM-2023-vdr2025-objects",
+          "NPM-2023-vdr2025-paintings",
+          "NPM-2023-vdr2025-textiles",
+          "NPM-2024-annual-books",
+          "NPM-2024-annual-inspection",
+          "NPM-2024-annual-objects",
+          "NPM-2024-annual-paintings",
+          "NPM-2024-annual-preventive-north",
+          "NPM-2024-annual-preventive-south",
+          "NPM-2024-annual-textiles",
+          "NPM-2024-vdr2025-books",
+          "NPM-2024-vdr2025-inspection",
+          "NPM-2024-vdr2025-objects",
+          "NPM-2024-vdr2025-paintings",
+          "NPM-2024-vdr2025-textiles",
+          "NPM-2025-finalaccounts-books",
+          "NPM-2025-finalaccounts-inspection",
+          "NPM-2025-finalaccounts-objects",
+          "NPM-2025-finalaccounts-paintings",
+          "NPM-2025-finalaccounts-textiles",
+          "NTU-2022-historygallery-postcards3",
+          "nmh-2025-35",
+          "ntmofa-2020-1",
+          "ntmofa-2020-7",
+          "ntmofa-2021-2",
+          "ntmofa-2021-8",
+          "ntmofa-2022-10",
+          "ntmofa-2022-3",
+          "ntmofa-2022-9",
+          "ntmofa-2023-11",
+          "ntmofa-2023-12",
+          "ntmofa-2023-4",
+          "ntmofa-2024-13",
+          "ntmofa-2024-14",
+          "ntmofa-2024-5",
+          "ntmofa-2025-6",
+          "yilan-2022-conservation15"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-003",
+        "raw_value": "annual_execution_reported_no_explicit_completed",
+        "observation_ids": [
+          "KMFA-2023-oil-painting-restoration",
+          "KMFA-2024-existing-collection-restoration",
+          "KMFA-2025-existing-collection-restoration",
+          "nmp-2020-2022-archaeology-arrangement",
+          "nmp-2020-2022-ethnology-arrangement",
+          "nmp-2020-2022-natural-history-arrangement",
+          "nmp-2020-archaeology-arrangement",
+          "nmp-2020-display-archaeology",
+          "nmp-2020-display-ethnology",
+          "nmp-2020-display-natural-history",
+          "nmp-2020-display-research",
+          "nmp-2020-ethnology-entrusted",
+          "nmp-2020-ethnology-own",
+          "nmp-2020-ethnology-total",
+          "nmp-2021-display-selection-maintenance",
+          "nmp-2021-displayed-ethnology",
+          "nmp-2021-donated-archaeology",
+          "nmp-2021-entrusted-arrangement",
+          "nmp-2021-ethnology-display",
+          "nmp-2022-donated-stone",
+          "nmp-2022-entrusted",
+          "nmp-2022-hualien-loan",
+          "nmp-2022-reclassification",
+          "nmp-2023-donated-pottery",
+          "nmp-2023-entrusted",
+          "nmp-2023-entrusted-fumigation",
+          "nmp-2023-plank-boats",
+          "nmp-2023-pottery-bags",
+          "nmp-2023-pottery-shards",
+          "nmp-2023-reclassification",
+          "nmp-2023-research-bags",
+          "nmp-2024-donated-specimens",
+          "nmp-2024-ethnology-arrangement",
+          "nmp-2024-research-bags",
+          "nmp-2025-ethnology-arrangement",
+          "nmp-2025-transferred-arrangement",
+          "nmp-2025-xrf-archaeology",
+          "nmp-2025-xrf-ethnology",
+          "sshm-2021-ceramic-repair"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-004",
+        "raw_value": "annual_operation_listed",
+        "observation_ids": [
+          "tfam-2023-internal-derived"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-005",
+        "raw_value": "annual_output_as_reported",
+        "observation_ids": [
+          "yingge-2020-source-reported-annual-repair",
+          "yingge-2021-reported-annual-repair"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-006",
+        "raw_value": "as_reported_annual_operation",
+        "observation_ids": [
+          "tfam-2020-calligraphy_remounting",
+          "tfam-2020-oil_painting_restoration_annual",
+          "tfam-2021-display_arrangement-html",
+          "tfam-2021-outsourced_restoration-html",
+          "tfam-2022-display_treatment",
+          "tfam-2022-exhibition_collection_restoration",
+          "tfam-2022-new_collection_exhibition_treatment",
+          "tfam-2022-preservation_measures",
+          "tfam-2022-routine_restoration-html",
+          "tfam-2023-commissioned_restoration",
+          "tfam-2024-inspection_or_cleaning",
+          "tfam-2024-project_book_conservation",
+          "tfam-2024-project_paper_conservation",
+          "tfam-2024-restoration_summary",
+          "tfam-2025-conservation_and_restoration_total",
+          "tfam-2025-inspection_and_registration",
+          "tfam-2025-project_restoration",
+          "tfam-2025-routine_conservation"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-007",
+        "raw_value": "completed_as_of_stated_month",
+        "observation_ids": [
+          "nmp-2022-south-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-008",
+        "raw_value": "completed_as_reported",
+        "observation_ids": [
+          "north4-daxi-2024-repair-batch",
+          "pilot-daxi-2024-combined",
+          "pilot-ntcart-2025-inspection",
+          "pilot-ntcart-2025-mounting",
+          "pilot-ntcart-2025-professional"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-009",
+        "raw_value": "completed_explicit",
+        "observation_ids": [
+          "DRAMA-2022-acid-free-packaging",
+          "LYM-2020-cleaning-maintenance",
+          "LYM-2020-inbound-exhibit-freezing",
+          "LYM-2021-2022-arrangement-project",
+          "LYM-2021-arrangement-partial-year",
+          "NTCRI-2023-finalaccounts-condition-form",
+          "NTCRI-2023-finalaccounts-condition-inspection",
+          "nmh-2021-17",
+          "nmh-2021-18",
+          "nmh-2021-19",
+          "nmh-2021-26",
+          "nmh-2021-27",
+          "nmh-2022-20",
+          "nmh-2022-21",
+          "nmh-2022-22",
+          "nmh-2022-28",
+          "nmh-2022-29",
+          "nmh-2023-23",
+          "nmh-2023-24",
+          "nmh-2023-25",
+          "nmh-2023-30",
+          "nmh-2023-31",
+          "nmh-2024-32",
+          "nmh-2024-33",
+          "nmh-2025-34",
+          "tfam-2020-oil_project_two_completed"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-010",
+        "raw_value": "completed_under_parent_statement",
+        "observation_ids": [
+          "nmp-2024-bone-antler-arrangement",
+          "nmp-2024-pottery-restoration",
+          "sshm-2023-fumigation-reported",
+          "sshm-2024-collection-fumigation",
+          "sshm-2024-loan-fumigation",
+          "sshm-2025-collection-fumigation",
+          "sshm-2025-loan-fumigation",
+          "tfam-2020-oil_project_phase2",
+          "yilan-2023-compound-maintenance26",
+          "yilan-2023-stability-maintenance133"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-011",
+        "raw_value": "explicit_completed",
+        "observation_ids": [
+          "KHM-2024-conservation-work-items",
+          "KHM-2024-treatment-objects-as-reported",
+          "KHM-2024-treatment-project-cases",
+          "KHM-2025-conservation-work-items",
+          "KHM-2025-treatment-objects-as-reported",
+          "KHM-2025-treatment-project-cases",
+          "daxi-2021-combined-arrangement",
+          "daxi-2025-combined-project",
+          "nmp-2022-digital-restoration",
+          "nmp-2023-south-arrangement",
+          "nmp-2024-south-total",
+          "nmp-2025-artwork-restoration",
+          "thcdc-2024-arrangement-registration",
+          "thcdc-2025-arrangement-cataloguing",
+          "thcdc-2025-cannon-combined-treatment",
+          "yilan-2025-oil-restoration8"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-012",
+        "raw_value": "not_explicitly_stated",
+        "observation_ids": [
+          "KMFA-2015-register-01",
+          "KMFA-2016-register-02",
+          "KMFA-2016-register-03",
+          "KMFA-2016-register-04",
+          "KMFA-2016-register-05",
+          "KMFA-2016-register-06",
+          "TNAM-2024-document-arrangement"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-013",
+        "raw_value": "performed_as_reported",
+        "observation_ids": [
+          "north4-sshm-2022-fumigation",
+          "sshm-2021-fumigation-reported"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-014",
+        "raw_value": "原文明載111年完成全數20件",
+        "observation_ids": [
+          "ntm-2022-puppet-project-completed"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-015",
+        "raw_value": "原文明載修護完成",
+        "observation_ids": [
+          "TNAM-2021-internal-exhibition-completed"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-016",
+        "raw_value": "原文明載完成",
+        "observation_ids": [
+          "NMTH-2021-film-pieces",
+          "NMTH-2021-film-reels",
+          "NMTH-2021-film-titles",
+          "NMTH-2025-wall-panels-completed",
+          "NMTL-2020-basic-repair",
+          "NMTL-2020-maintenance",
+          "NMTL-2021-basic-repair",
+          "NMTL-2021-maintenance",
+          "NMTL-2022-basic-repair",
+          "NMTL-2022-maintenance",
+          "NMTL-2023-basic-repair",
+          "NMTL-2023-family-museum-treatment",
+          "NMTL-2023-maintenance",
+          "NMTL-2024-collection-arrangement",
+          "NMTL-2024-collection-treatment",
+          "NMTL-2024-family-arrangement",
+          "NMTL-2024-film-treatment",
+          "NMTL-2024-fire-damaged-manuscripts",
+          "NMTL-2024-summary-family-label",
+          "NMTL-2025-collection-arrangement",
+          "NMTL-2025-collection-treatment",
+          "NMTL-2025-film-treatment",
+          "NMTL-2025-maintenance",
+          "TNAM-2022-completed",
+          "TNAM-2024-exhibition-project"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-017",
+        "raw_value": "原文明載完成，但為混合合計",
+        "observation_ids": [
+          "TNAM-2024-reported-composite-total"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-018",
+        "raw_value": "原文明載截至資料年底已完成",
+        "observation_ids": [
+          "ntm-reread-2023-accounts-reported-completed",
+          "ntm-reread-2024-accounts-reported-completed",
+          "ntm-reread-2025-accounts-reported-completed"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-019",
+        "raw_value": "原文未另載完成",
+        "observation_ids": [
+          "NTUA-2022-meeting1102-conserved-posters",
+          "TNAM-2023-collection-maintenance",
+          "TNAM-2023-exhibition-emergency",
+          "TNAM-2023-external-service",
+          "TNAM-2023-reported-total",
+          "TNAM-2025-exhibition-treatment",
+          "TNAM-2025-external-service"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-020",
+        "raw_value": "原文稱執行修護，未另載完成",
+        "observation_ids": [
+          "NMTL-2020-calligraphy-treatment",
+          "NMTL-2023-mixed-calligraphy"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-021",
+        "raw_value": "原文稱本年度辦理修護，未另載完成",
+        "observation_ids": [
+          "NMTL-2020-collection-treatment"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-022",
+        "raw_value": "原文稱館內處理數量，未另載逐件完成日",
+        "observation_ids": [
+          "ntm-2020-damage-treatment",
+          "ntm-2021-damage-treatment"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-023",
+        "raw_value": "原表為2020年年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+        "observation_ids": [
+          "NMTH-2020-conservation-reported-total",
+          "NMTH-2020-emergency-stabilization",
+          "NMTH-2020-full-treatment",
+          "NMTH-2020-routine-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-024",
+        "raw_value": "原表為年度件數，未另載完成用語；不由分類名完整修護推定完成。",
+        "observation_ids": [
+          "NMTH-2022-conservation-reported-total",
+          "NMTH-2022-emergency-stabilization",
+          "NMTH-2022-full-treatment",
+          "NMTH-2022-routine-maintenance",
+          "NMTH-2023-conservation-reported-total",
+          "NMTH-2023-emergency-stabilization",
+          "NMTH-2023-full-treatment",
+          "NMTH-2023-routine-maintenance",
+          "NMTH-2024-conservation-reported-total",
+          "NMTH-2024-emergency-stabilization",
+          "NMTH-2024-full-treatment",
+          "NMTH-2024-routine-maintenance"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-025",
+        "raw_value": "已完成施政概述中的原報數，分項未另載完成",
+        "observation_ids": [
+          "NMTL-2025-reported-summary-total"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-026",
+        "raw_value": "年度已執行敘述，未另載完成",
+        "observation_ids": [
+          "NMTL-2022-collection-treatment"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-027",
+        "raw_value": "年度已完成計畫之執行分項",
+        "observation_ids": [
+          "NMTL-2024-family-calligraphy"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-028",
+        "raw_value": "年度已處置敘述，未逐件另載完成日",
+        "observation_ids": [
+          "ntm-2020-mixed-table-total",
+          "ntm-2022-mixed-table-total"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-029",
+        "raw_value": "年度處置表，未逐件另載完成日",
+        "observation_ids": [
+          "ntm-2021-mixed-table-total"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-030",
+        "raw_value": "未對此分項另載完成字樣",
+        "observation_ids": [
+          "TNAM-2021-external-service"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-031",
+        "raw_value": "本年度修護敘述，未另載完成",
+        "observation_ids": [
+          "NMTL-2021-collection-treatment",
+          "NMTL-2022-calligraphy-treatment"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-032",
+        "raw_value": "本計畫年度執行敘述，未另載完成",
+        "observation_ids": [
+          "NMTL-2023-collection-treatment"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-033",
+        "raw_value": "段落有完成總述；分項未另載完成",
+        "observation_ids": [
+          "TNAM-2024-external-service",
+          "TNAM-2024-internal-treatment"
+        ]
+      },
+      {
+        "mapping_id": "completion_status-inventory-034",
+        "raw_value": "進行處置；不可當已完成",
+        "observation_ids": [
+          "TNAM-2022-under-treatment"
+        ]
+      }
+    ],
+    "unit_as_reported": [
+      {
+        "mapping_id": "unit_as_reported-inventory-001",
+        "raw_value": null,
+        "observation_ids": [
+          "ntm-2021-mixed-table-total",
+          "ntm-2022-mixed-table-total"
+        ],
+        "normalized_value": null,
+        "mapping_status": "not_stated",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-002",
+        "raw_value": "件",
+        "observation_ids": [
+          "DRAMA-2022-acid-free-packaging",
+          "DRAMA-2023-2024-inventory-arrangement",
+          "IOE-2022-museum-arrangement-as-reported",
+          "IOE-2023-museum-arrangement-as-reported",
+          "IOE-2024-museum-arrangement-as-reported",
+          "IOE-2025-museum-arrangement-as-reported",
+          "KHM-2024-treatment-objects-as-reported",
+          "KHM-2025-treatment-objects-as-reported",
+          "KMFA-2023-oil-painting-restoration",
+          "LYM-2020-cleaning-maintenance",
+          "LYM-2020-inbound-exhibit-freezing",
+          "LYM-2021-2022-arrangement-project",
+          "LYM-2021-arrangement-partial-year",
+          "NMMST-2020-humanities-arrangement",
+          "NMMST-2020-specimens-arrangement",
+          "NMMST-2021-humanities-arrangement",
+          "NMMST-2021-specimens-arrangement",
+          "NMMST-2022-humanities-arrangement",
+          "NMMST-2022-specimens-arrangement",
+          "NMMST-2023-humanities-arrangement",
+          "NMMST-2023-specimens-arrangement",
+          "NMMST-2024-humanities-arrangement",
+          "NMMST-2024-specimens-arrangement",
+          "NMMST-2025-humanities-arrangement",
+          "NMMST-2025-specimens-arrangement",
+          "NMTH-2020-conservation-reported-total",
+          "NMTH-2020-emergency-stabilization",
+          "NMTH-2020-full-treatment",
+          "NMTH-2020-routine-maintenance",
+          "NMTH-2022-conservation-reported-total",
+          "NMTH-2022-emergency-stabilization",
+          "NMTH-2022-full-treatment",
+          "NMTH-2022-routine-maintenance",
+          "NMTH-2023-conservation-reported-total",
+          "NMTH-2023-emergency-stabilization",
+          "NMTH-2023-full-treatment",
+          "NMTH-2023-routine-maintenance",
+          "NMTH-2024-conservation-reported-total",
+          "NMTH-2024-emergency-stabilization",
+          "NMTH-2024-full-treatment",
+          "NMTH-2024-routine-maintenance",
+          "NMTH-2025-wall-panels-completed",
+          "NMTL-2020-basic-repair",
+          "NMTL-2020-calligraphy-treatment",
+          "NMTL-2020-collection-treatment",
+          "NMTL-2020-maintenance",
+          "NMTL-2021-basic-repair",
+          "NMTL-2021-collection-treatment",
+          "NMTL-2021-maintenance",
+          "NMTL-2022-basic-repair",
+          "NMTL-2022-calligraphy-treatment",
+          "NMTL-2022-collection-treatment",
+          "NMTL-2022-maintenance",
+          "NMTL-2023-basic-repair",
+          "NMTL-2023-collection-treatment",
+          "NMTL-2023-family-museum-treatment",
+          "NMTL-2023-maintenance",
+          "NMTL-2023-mixed-calligraphy",
+          "NMTL-2024-collection-treatment",
+          "NMTL-2024-family-arrangement",
+          "NMTL-2024-family-calligraphy",
+          "NMTL-2024-fire-damaged-manuscripts",
+          "NMTL-2024-summary-family-label",
+          "NMTL-2025-collection-treatment",
+          "NMTL-2025-maintenance",
+          "NMTL-2025-reported-summary-total",
+          "NPM-2020-annual-books",
+          "NPM-2020-annual-inspection",
+          "NPM-2020-annual-objects",
+          "NPM-2020-annual-paintings",
+          "NPM-2020-annual-preventive-north",
+          "NPM-2020-annual-preventive-south",
+          "NPM-2020-annual-textiles",
+          "NPM-2021-annual-books",
+          "NPM-2021-annual-inspection",
+          "NPM-2021-annual-objects",
+          "NPM-2021-annual-paintings",
+          "NPM-2021-annual-preventive-north",
+          "NPM-2021-annual-textiles",
+          "NPM-2021-vdr2025-books",
+          "NPM-2021-vdr2025-inspection",
+          "NPM-2021-vdr2025-objects",
+          "NPM-2021-vdr2025-paintings",
+          "NPM-2021-vdr2025-textiles",
+          "NPM-2022-annual-preventive-north",
+          "NPM-2022-vdr2025-books",
+          "NPM-2022-vdr2025-inspection",
+          "NPM-2022-vdr2025-objects",
+          "NPM-2022-vdr2025-paintings",
+          "NPM-2022-vdr2025-textiles",
+          "NPM-2023-annual-preventive-north",
+          "NPM-2023-annual-preventive-south",
+          "NPM-2023-vdr2025-books",
+          "NPM-2023-vdr2025-inspection",
+          "NPM-2023-vdr2025-objects",
+          "NPM-2023-vdr2025-paintings",
+          "NPM-2023-vdr2025-textiles",
+          "NPM-2024-annual-preventive-north",
+          "NPM-2024-vdr2025-books",
+          "NPM-2024-vdr2025-inspection",
+          "NPM-2024-vdr2025-objects",
+          "NPM-2024-vdr2025-paintings",
+          "NPM-2024-vdr2025-textiles",
+          "NPM-2025-finalaccounts-books",
+          "NPM-2025-finalaccounts-inspection",
+          "NPM-2025-finalaccounts-objects",
+          "NPM-2025-finalaccounts-paintings",
+          "NPM-2025-finalaccounts-textiles",
+          "NTUA-2022-meeting1102-conserved-posters",
+          "TNAM-2021-external-service",
+          "TNAM-2021-internal-exhibition-completed",
+          "TNAM-2023-collection-maintenance",
+          "TNAM-2023-exhibition-emergency",
+          "TNAM-2023-external-service",
+          "TNAM-2023-reported-total",
+          "TNAM-2024-document-arrangement",
+          "TNAM-2024-internal-treatment",
+          "daxi-2021-combined-arrangement",
+          "nmh-2021-19",
+          "nmh-2021-27",
+          "nmh-2022-22",
+          "nmh-2022-29",
+          "nmh-2023-25",
+          "nmh-2023-31",
+          "nmp-2020-2022-archaeology-arrangement",
+          "nmp-2020-2022-ethnology-arrangement",
+          "nmp-2020-2022-natural-history-arrangement",
+          "nmp-2020-archaeology-arrangement",
+          "nmp-2020-display-archaeology",
+          "nmp-2020-display-ethnology",
+          "nmp-2020-display-natural-history",
+          "nmp-2020-display-research",
+          "nmp-2020-ethnology-entrusted",
+          "nmp-2020-ethnology-own",
+          "nmp-2020-ethnology-total",
+          "nmp-2021-display-selection-maintenance",
+          "nmp-2021-displayed-ethnology",
+          "nmp-2021-donated-archaeology",
+          "nmp-2021-entrusted-arrangement",
+          "nmp-2021-ethnology-display",
+          "nmp-2022-digital-restoration",
+          "nmp-2022-donated-stone",
+          "nmp-2022-entrusted",
+          "nmp-2022-hualien-loan",
+          "nmp-2022-reclassification",
+          "nmp-2022-south-arrangement",
+          "nmp-2023-donated-pottery",
+          "nmp-2023-entrusted",
+          "nmp-2023-entrusted-fumigation",
+          "nmp-2023-reclassification",
+          "nmp-2023-south-arrangement",
+          "nmp-2024-bone-antler-arrangement",
+          "nmp-2024-donated-specimens",
+          "nmp-2024-ethnology-arrangement",
+          "nmp-2024-pottery-restoration",
+          "nmp-2024-south-total",
+          "nmp-2025-artwork-restoration",
+          "nmp-2025-ethnology-arrangement",
+          "nmp-2025-transferred-arrangement",
+          "nmp-2025-xrf-archaeology",
+          "nmp-2025-xrf-ethnology",
+          "north4-daxi-2024-repair-batch",
+          "ntm-2020-damage-treatment",
+          "ntm-2020-mixed-table-total",
+          "ntm-2021-damage-treatment",
+          "ntm-2022-puppet-project-completed",
+          "ntm-reread-2023-accounts-reported-completed",
+          "ntm-reread-2024-accounts-reported-completed",
+          "ntm-reread-2025-accounts-reported-completed",
+          "ntmofa-2020-1",
+          "ntmofa-2021-2",
+          "ntmofa-2022-10",
+          "ntmofa-2022-3",
+          "ntmofa-2022-9",
+          "ntmofa-2023-11",
+          "ntmofa-2023-12",
+          "ntmofa-2023-4",
+          "ntmofa-2024-13",
+          "ntmofa-2024-14",
+          "ntmofa-2024-5",
+          "ntmofa-2025-6",
+          "pilot-ntcart-2025-inspection",
+          "pilot-ntcart-2025-mounting",
+          "pilot-ntcart-2025-professional",
+          "sshm-2021-ceramic-repair",
+          "tfam-2020-oil_painting_restoration_annual",
+          "tfam-2020-oil_project_phase2",
+          "tfam-2020-oil_project_two_completed",
+          "tfam-2021-display_arrangement-html",
+          "tfam-2021-outsourced_restoration-html",
+          "tfam-2022-display_treatment",
+          "tfam-2022-exhibition_collection_restoration",
+          "tfam-2022-new_collection_exhibition_treatment",
+          "tfam-2022-preservation_measures",
+          "tfam-2022-routine_restoration-html",
+          "tfam-2023-commissioned_restoration",
+          "tfam-2023-internal-derived",
+          "tfam-2024-inspection_or_cleaning",
+          "tfam-2024-project_book_conservation",
+          "tfam-2024-project_paper_conservation",
+          "tfam-2024-restoration_summary",
+          "tfam-2025-conservation_and_restoration_total",
+          "tfam-2025-inspection_and_registration",
+          "tfam-2025-project_restoration",
+          "tfam-2025-routine_conservation",
+          "thcdc-2024-arrangement-registration",
+          "thcdc-2025-arrangement-cataloguing",
+          "yilan-2022-conservation15",
+          "yilan-2023-compound-maintenance26",
+          "yilan-2023-stability-maintenance133",
+          "yilan-2025-oil-restoration8"
+        ],
+        "normalized_value": "item_word",
+        "mapping_status": "lexical_alias_only",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-003",
+        "raw_value": "件作品",
+        "observation_ids": [
+          "KMFA-2024-existing-collection-restoration",
+          "KMFA-2025-existing-collection-restoration",
+          "yingge-2020-source-reported-annual-repair"
+        ],
+        "normalized_value": "item_word",
+        "mapping_status": "lexical_alias_only",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-004",
+        "raw_value": "件數",
+        "observation_ids": [
+          "KMFA-2015-register-01",
+          "KMFA-2016-register-02",
+          "KMFA-2016-register-03",
+          "KMFA-2016-register-04",
+          "KMFA-2016-register-05",
+          "KMFA-2016-register-06"
+        ],
+        "normalized_value": "item_word",
+        "mapping_status": "lexical_alias_only",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-005",
+        "raw_value": "作品",
+        "observation_ids": [
+          "yingge-2021-reported-annual-repair"
+        ],
+        "normalized_value": "作品",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-006",
+        "raw_value": "冊",
+        "observation_ids": [
+          "LYM-2025-gazetteer-conservation"
+        ],
+        "normalized_value": "冊",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-007",
+        "raw_value": "卷",
+        "observation_ids": [
+          "NMTH-2021-film-reels"
+        ],
+        "normalized_value": "卷",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-008",
+        "raw_value": "幅",
+        "observation_ids": [
+          "tfam-2020-calligraphy_remounting"
+        ],
+        "normalized_value": "幅",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-009",
+        "raw_value": "座",
+        "observation_ids": [
+          "thcdc-2025-cannon-combined-treatment"
+        ],
+        "normalized_value": "座",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-010",
+        "raw_value": "張",
+        "observation_ids": [
+          "NTU-2022-historygallery-postcards3"
+        ],
+        "normalized_value": "張",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-011",
+        "raw_value": "批次",
+        "observation_ids": [
+          "NPM-2021-annual-preventive-south",
+          "NPM-2022-annual-preventive-south",
+          "NPM-2024-annual-preventive-south"
+        ],
+        "normalized_value": "批次",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-012",
+        "raw_value": "未明列（原表僅標「數量」）",
+        "observation_ids": [
+          "KFA-2022-digital-restoration-reported-quantity"
+        ],
+        "normalized_value": null,
+        "mapping_status": "not_explicitly_stated",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-013",
+        "raw_value": "案",
+        "observation_ids": [
+          "KHM-2024-treatment-project-cases",
+          "KHM-2025-treatment-project-cases",
+          "NCKU-2022-commissioned-conservation-cases",
+          "nmh-2021-17",
+          "nmh-2022-20",
+          "nmh-2023-23"
+        ],
+        "normalized_value": "案",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-014",
+        "raw_value": "條",
+        "observation_ids": [
+          "NMTL-2024-film-treatment",
+          "NMTL-2025-film-treatment"
+        ],
+        "normalized_value": "條",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-015",
+        "raw_value": "次",
+        "observation_ids": [
+          "north4-sshm-2022-fumigation",
+          "sshm-2021-fumigation-reported",
+          "sshm-2023-fumigation-reported",
+          "sshm-2024-collection-fumigation",
+          "sshm-2024-loan-fumigation",
+          "sshm-2025-collection-fumigation",
+          "sshm-2025-loan-fumigation"
+        ],
+        "normalized_value": "次",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-016",
+        "raw_value": "片",
+        "observation_ids": [
+          "NMTH-2021-film-pieces",
+          "nmp-2023-pottery-shards",
+          "ntmofa-2020-7",
+          "ntmofa-2021-8"
+        ],
+        "normalized_value": "片",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-017",
+        "raw_value": "筆",
+        "observation_ids": [
+          "NMTL-2024-collection-arrangement",
+          "NMTL-2025-collection-arrangement",
+          "NPM-2022-annual-books",
+          "NPM-2022-annual-inspection",
+          "NPM-2022-annual-objects",
+          "NPM-2022-annual-paintings",
+          "NPM-2022-annual-textiles",
+          "NPM-2023-annual-books",
+          "NPM-2023-annual-inspection",
+          "NPM-2023-annual-objects",
+          "NPM-2023-annual-paintings",
+          "NPM-2023-annual-textiles",
+          "NPM-2024-annual-books",
+          "NPM-2024-annual-inspection",
+          "NPM-2024-annual-objects",
+          "NPM-2024-annual-paintings",
+          "NPM-2024-annual-textiles"
+        ],
+        "normalized_value": "筆",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-018",
+        "raw_value": "組、件",
+        "observation_ids": [
+          "NTCRI-2023-finalaccounts-condition-form",
+          "NTCRI-2023-finalaccounts-condition-inspection"
+        ],
+        "normalized_value": "組、件",
+        "mapping_status": "compound_not_convertible",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-019",
+        "raw_value": "組件",
+        "observation_ids": [
+          "LYM-2020-display-support-maintenance",
+          "TNAM-2022-completed",
+          "TNAM-2022-under-treatment",
+          "TNAM-2024-exhibition-project",
+          "TNAM-2024-external-service",
+          "TNAM-2024-reported-composite-total",
+          "TNAM-2025-exhibition-treatment",
+          "TNAM-2025-external-service"
+        ],
+        "normalized_value": "組件",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-020",
+        "raw_value": "組（件）",
+        "observation_ids": [
+          "daxi-2025-combined-project",
+          "pilot-daxi-2024-combined"
+        ],
+        "normalized_value": "組（件）",
+        "mapping_status": "compound_not_convertible",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-021",
+        "raw_value": "艘",
+        "observation_ids": [
+          "nmp-2023-plank-boats"
+        ],
+        "normalized_value": "艘",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-022",
+        "raw_value": "號",
+        "observation_ids": [
+          "nmh-2020-15",
+          "nmh-2020-16",
+          "nmh-2021-18",
+          "nmh-2021-26",
+          "nmh-2022-21",
+          "nmh-2022-28",
+          "nmh-2023-24",
+          "nmh-2023-30",
+          "nmh-2024-32",
+          "nmh-2024-33",
+          "nmh-2025-34",
+          "nmh-2025-35"
+        ],
+        "normalized_value": "號",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-023",
+        "raw_value": "袋",
+        "observation_ids": [
+          "nmp-2023-pottery-bags",
+          "nmp-2023-research-bags",
+          "nmp-2024-research-bags"
+        ],
+        "normalized_value": "袋",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-024",
+        "raw_value": "部",
+        "observation_ids": [
+          "NMTH-2021-film-titles"
+        ],
+        "normalized_value": "部",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      },
+      {
+        "mapping_id": "unit_as_reported-inventory-025",
+        "raw_value": "項",
+        "observation_ids": [
+          "KHM-2024-conservation-work-items",
+          "KHM-2025-conservation-work-items"
+        ],
+        "normalized_value": "項",
+        "mapping_status": "retained_as_reported",
+        "unit_alias_is_conversion": false
+      }
+    ]
+  }
+}

@@ -1,26 +1,39 @@
 # 臺灣公立館保存修護公開資料索引
 
-版本v0.13.0；資料截至2026-10-29。299列含296筆原報觀測、1筆程式推算及2筆脈絡，不是修復物件合計或全國完整統計。
+版本v0.14.0；資料截至2026-10-30。299列含296筆原報觀測、1筆程式推算與2筆脈絡，不是修護物件合計或全國完整統計。
 
-- [網站機讀入口](https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt)
+- [互動網站與資料入口](https://poplolioi11.github.io/tw-public-museum-conservation/)
+- [本階段的分類、詞表與覆蓋率](https://poplolioi11.github.io/tw-public-museum-conservation/enrichment.html)
 - [網站資料manifest](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)
 - [完整公開事實JSON](data/facts.json)
 - [逐筆JSONL](data/observations.jsonl)
-- [原件來源與SHA](data/sources.jsonl)
-- [查核含歷史紀錄](data/body_reviews.jsonl)
-- [目前查核識別與涵蓋](metadata/read_coverage.json)
-- [40格原件補讀與目前缺口](docs/BODY_FOLLOWUP40.md)
-- [前版49格補讀沿革](docs/BODY_FOLLOWUP.md)
+- [來源定位與版次SHA](data/sources.jsonl)
+- [查核含歷史](data/body_reviews.jsonl)
+- [目前查核識別](metadata/read_coverage.json)
+- [缺量內容與證據註記JSONL](data/absence_annotations.jsonl)
+- [搜尋別名JSONL](data/normalized_observations.jsonl)
+- [三種集合、分組與狀態JSON](metadata/coverage.json)
+- [逐格CSV](data/coverage_cells.csv)
+- [分組CSV](data/coverage_groups.csv)
+- [原分組證據與不確定性](metadata/organization_dimensions.json)
+- [缺量註記說明](docs/ABSENCE.md)
+- [覆蓋率分母說明](docs/COVERAGE.md)
+- [作業分類對照](docs/METRIC_CLASS_MAP.md)
+- [完成詞對照](docs/COMPLETION_STATUS_MAP.md)
+- [單位詞對照](docs/UNIT_MAP.md)
+- [30格索引回掛](docs/INDEX_BACKFILL30.md)
+- [研究筆記草稿](docs/RESEARCH_NOTE_DRAFT.md)
 - [館所索引](catalog/README.md)
-- [不相加關係](data/relations.jsonl)
 - [欄位字典](docs/DATA_DICTIONARY.md)
 - [公開範圍與權利](docs/PUBLICATION.md)
 - [AI使用與核對層級](AI_USAGE.md)
 
-328個來源版次；552則查核含歷史，目前437則對應426組候選識別×目標年。同館年多則全部保留，目前紀錄依明確extends_review_id葉節點選取，不選較好狀態或最新日期。來源未定位、適用正文待核、指定段未定位量、已核數值、年度不可拆、範圍外是六種不同狀態。
+328個來源版次；582則查核含歷史，目前467則對應456組候選識別×目標年。同格多則全部保留，目前紀錄依明確extends_review_id葉節點選取，不選較好狀態或最新日期。本版30格只回掛既有已核原報觀測與定位，不表示重新閱讀原件。
 
-保留資料年與出版年、metric_as_reported原詞、metric_label解讀標籤、數字字串、量詞、完成詞、對象及原件定位。PDF實讀文字頁與原圖頁分列；HTML用原段定位，不借PDF頁碼。專案對象量不等於已完成量，跨年不拆，混合作業不改稱純修復。未知不填零，不同單位、批次及總子項不直接相加或排名。
+275則N葉節點對應269個含N格，包含268個僅N格及1個與其他來源有數值並存的混合格。264則說明足以支持內容／原因標籤，11則資訊不足；引用的是既有公開查核說明，不冒充官方原件逐字引文或新核讀。多選標籤不能相加為館年數，也不推機構未做或未公開。
 
-原71組織與426格是歷史索引盤點，另14組織候選與13場域候選不合為全國法定館數；原名冊PDF仍未核。官方原件、整頁文字、圖片及私有流程不重發布；MIT不改變第三方權利，不稱人類逐格二校或館方認證。
+覆蓋率分開歷史索引426格、本版已有有界查核456格及聯集541格。聯集85格本版無查核；無查核不同於原輪次未定位來源。工作批次是流程而非官方館類，權管及島群依原中繼資料且保留unknown。這些是有界格狀態比例，不是全國公開率、年度修護趨勢或績效排名。
 
-本版新增有章藝術博物館2022學期報告海報修復6件；原段未另載完成，非全年完成總量。原40格目前1格有數值、3格指定段未定位量、36格適用正文待核。
+原詞、量詞、完成詞、對象與期段逐筆保留；搜尋別名另存sidecar，不能換算、配分、加總或提升可比資格。91種metric_class既有分類不是館方原詞；館方原詞在metric_as_reported。25個unit_as_reported相異值包含null及未明列文字，不稱25種量詞。
+
+PDF文字頁與原圖頁分列，HTML用原段定位；跨年不拆年，未知不填零。原71組織索引、另14組織候選及13場域候選不合稱全國法定館數，原名冊PDF仍未重核。官方原件、整頁文字與圖片不重發布；MIT不改變第三方權利，不稱人類二校、專家或館方認證。
