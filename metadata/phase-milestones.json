@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-30",
   "data_schema_version": "4.0",
-  "dataset_version": "0.14.0",
+  "dataset_version": "0.15.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -287,7 +287,34 @@
       "scope": "既有30格索引回掛、N註記分類、保守搜尋詞表與明確分母覆蓋率",
       "source_review_records": 582,
       "unique_source_year_cells": 456
+    },
+    {
+      "annotation_insufficient_detail": 1,
+      "annotation_records": 275,
+      "annotation_supported_by_review_note": 274,
+      "completed_in_release": "v0.15.0",
+      "coverage_denominators": {
+        "baseline_inventory_71x6": 426,
+        "baseline_review_union": 541,
+        "reviewed_cohort": 469
+      },
+      "current_review_records": 480,
+      "deployment_verification_basis": "完整階段驗收後一次發布；附件、同提交CI及實際網站各自讀回，本metadata不是部署回執。",
+      "existing_observations_linked_by_backfill": 17,
+      "first_search_cells": 5,
+      "first_search_numeric_cells": 4,
+      "first_search_source_not_located_cells": 1,
+      "index_backfill_cells": 8,
+      "national_or_all_years_complete": false,
+      "new_observation_records": 8,
+      "new_source_review_records": 24,
+      "new_source_versions": 2,
+      "normalization_records": 307,
+      "old_299_records_328_sources_582_reviews_83_relations_preserved": true,
+      "scope": "既有8格索引回補、5缺年有界首查與11則指定子段註記補讀",
+      "source_review_records": 606,
+      "unique_source_year_cells": 469
     }
   ],
-  "ongoing_gaps": "36格適用正文待核、48格原輪次未定位來源依原重啟條件續查；本版整理既有證據，不新增查找批次。未查核、未定位與指定段無量分開，未知不補零。"
+  "ongoing_gaps": "原36格適用正文待核與48格未定位來源，本輪無確認適用的新觸發證據，不重抓同一失敗端點；新高史博2020格未定位適用館級來源另記。72個聯集格無查核索引，不等於未做或未公開；不開新館批次。"
 }

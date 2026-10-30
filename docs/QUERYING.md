@@ -8,7 +8,7 @@
 
 每列保留固定JSON入口。網站使用`records/{observation_id}.json`；儲存庫中的[固定紀錄目錄](../catalog/README.md)保留`catalog/records/{observation_id}.json`。不可變版本引用可使用：
 
-`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.14.0/catalog/records/{observation_id}.json`
+`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.15.0/catalog/records/{observation_id}.json`
 
 main可查目前版，固定tag供重現；引用時核對發行版本與檔案雜湊。網站[資料manifest](../site/manifest.json)指向帶SHA檔名的完整資料／詞表JSON與固定入口範本。[官方來源清單](../data/sources.csv)另列原件網址、類型與SHA；投影JSON雜湊不能冒充原件雜湊。
 
@@ -38,11 +38,11 @@ main可查目前版，固定tag供重現；引用時核對發行版本與檔案�
 
 ## 使用界線
 
-v0.14.0共有299列，其中296原報觀測、1推算、2脈絡；不是全國修復物件總量。保留observation_id、資料年或期間、quantity_raw、原單位、原詞及官方來源定位再引用。網站不提供跨館總量或責任績效排行。
+v0.15.0共有307列，其中304原報觀測、1推算、2脈絡；不是全國修復物件總量。保留observation_id、資料年或期間、quantity_raw、原單位、原詞及官方來源定位再引用。網站不提供跨館總量或責任績效排行。
 
-## v0.14.0的補充查找表
+## v0.15.0的補充查找表
 
-[缺量註記](../data/absence_annotations.jsonl)以review_id連回275則目前指定段無量查核；標籤與引文是既有公開查核說明的分類，不代替官方原件。11則資訊不足保留，不推未公開原因。275則、269個含N格與268個僅N格的粒度不同。
+[缺量註記](../data/absence_annotations.jsonl)以review_id連回275則目前指定段無量查核；標籤與引文是目前公開查核說明的分類（本版11則新增指定子段補讀延伸），不代替官方原件。1則資訊不足保留，不推未公開原因。275則、269個含N格與268個僅N格的粒度不同。
 
 [搜尋別名](../data/normalized_observations.jsonl)以observation_id連回原列；不帶數量、不改完成狀態或可比資格。[作業對照表](METRIC_CLASS_MAP.md)、[完成詞表](COMPLETION_STATUS_MAP.md)及[單位表](UNIT_MAP.md)說明映射與null的保留方式。
 

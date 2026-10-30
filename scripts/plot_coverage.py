@@ -29,7 +29,7 @@ STATE_LABELS = {
     "body_pending": "適用正文待核",
     "annual_not_separable": "年度範圍不可分離",
     "outside_scope": "不在採用範圍",
-    "not_assessed": "本版無有界查核",
+    "not_assessed": "本版無館年查核索引",
 }
 COLORS = ("#296783", "#B7D4CD", "#705A83", "#CDA065",
           "#89ADC2", "#BA8E93", "#AEA89C", "#E7E7E2")
@@ -283,7 +283,7 @@ def generate_figures(coverage, annotations, vocabulary, font_file=None, preview_
             stream = io.BytesIO()
             fig.savefig(stream, format="svg", metadata={"Date": None, "Creator": "Matplotlib",
                         "Description": "有界查核格與既有說明標籤；非全國估計，不含保存修護量加總。"})
-            body = stream.getvalue()
+            body = b"\n".join(line.rstrip() for line in stream.getvalue().splitlines()) + b"\n"
             marker = f"<!-- enrichment-source-sha256: {source_sha} -->\n".encode()
             # Preserve XML declaration/DOCTYPE and add provenance within the root.
             match = re.search(rb"<svg\b[^>]*>", body)

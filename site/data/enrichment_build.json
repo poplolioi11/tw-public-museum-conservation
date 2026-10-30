@@ -1,41 +1,41 @@
 {
   "annotation_classification_status_counts": {
-    "insufficient_detail": 11,
-    "supported_by_review_note": 264
+    "insufficient_detail": 1,
+    "supported_by_review_note": 274
   },
   "annotation_records": 275,
-  "canonical_facts_sha256": "e588ab8f66e76194bb21f02d4c5be5fdcccf0ecea6a132a309cfd90670fbf88a",
-  "coverage_current_review_records": 467,
-  "coverage_reviewed_cells": 456,
-  "dataset_version": "0.14.0",
+  "canonical_facts_sha256": "4cd020a0045db91c20493275b8cb19fc43a2273bd6a14f113268d79e992777b6",
+  "coverage_current_review_records": 480,
+  "coverage_reviewed_cells": 469,
+  "dataset_version": "0.15.0",
   "figure_artifacts": {
     "absence-tags.svg": {
-      "bytes": 356043,
+      "bytes": 340906,
       "path": "docs/figures/absence-tags.svg",
-      "sha256": "a84d6ddecb4738eac8c5c9adf7414c3657b0d8142069781bd41231c23ef6bcc2"
+      "sha256": "8fa100494ab0ef9a76e02fa21841d61be61d226b667e4dbefd12394f5121742c"
     },
     "coverage-facets.svg": {
-      "bytes": 608473,
+      "bytes": 593279,
       "path": "docs/figures/coverage-facets.svg",
-      "sha256": "1d4781b6a638a36c1afc088d46d6ffe1f935bd1593837eb06d8d794c6b3b5b6a"
+      "sha256": "8bc42ea54e04a365ff33254a731f5071ad0fa8a91f58a42c7f0be84c2f5808ff"
     },
     "coverage-states.svg": {
-      "bytes": 494321,
+      "bytes": 478834,
       "path": "docs/figures/coverage-states.svg",
-      "sha256": "dbd08e651e3678cae0ec1fc806da56771ac2bcfe7b0d2aa46dc5bd6246a2ff9a"
+      "sha256": "8b723cebcdf174326e8cbec386e1435d7763c7297d9ac4befe2a5eaa265fd506"
     }
   },
-  "figure_source_sha256": "ebb684c735790a18a3581bc04c296b55e21fd3ed3afc1f95e6c7c862dc7a4d31",
+  "figure_source_sha256": "1fa0cd2639fbd5bae05189bc0a833f904070ff530f0466d6e8b1cfad8b153227",
   "input_sha256": {
-    "data/absence_annotations.json": "47f0a70c08933531eb8566f01c6a0278d8f2bba941339cc0866a7b5c49259e21",
+    "data/absence_annotations.json": "f9dbfc3d1b3b3c9a3d1bf78be7e6e02a76915fae5f14e7401661d8e8f66abad1",
     "metadata/absence_vocabulary.json": "7ef6380b0cc7a59ed38957bf52b5de80c2770eb514174258b2662e88467c9997",
-    "metadata/normalization_rules.json": "818c42bf23c1de973a66b75638c7f877dbd72a030c9fd3135c46cbd0c504c0ba",
-    "metadata/organization_dimensions.json": "ca445c997470d049e8c3f203f40a697b6413d7307ecb8e85b70760c401ccf670",
+    "metadata/normalization_rules.json": "24defed73b2aafe071fa84c07acbe3410e26bd4993bb2a636bd36b687e76a9b2",
+    "metadata/organization_dimensions.json": "f35d11430f0d683b41653db70b0070352f35850037dd5a097a88ec53c753206f",
     "schema/absence_annotation.schema.json": "21c9b862df9ce8e0aa7b8e0e23c3f9a93aa91531f0fd6b258b0f0b20cc731d1c",
     "schema/normalization_record.schema.json": "2ee59fafb1d06be501cc9d6dceb89bbd53c7e28234694a42473dbc6626b39650"
   },
   "national_estimate": false,
-  "normalized_observation_records": 299,
+  "normalized_observation_records": 307,
   "original_observations_mutated": false,
   "quantities_summed_or_converted": false,
   "schema_version": "1.0",

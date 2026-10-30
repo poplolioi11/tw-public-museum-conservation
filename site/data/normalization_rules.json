@@ -1,7 +1,13 @@
 {
   "normalization_rule_version": "1.0",
   "classification_rule_version": "1.2",
-  "reviewed_observation_count": 299,
+  "reviewed_observation_count": 307,
+  "reviewed_input_manifest": {
+    "source": "data/facts.json",
+    "dataset_version": "0.15.0",
+    "reviewed_observation_count": 307,
+    "observations_sha256": "07e245d2e7aa14e056f93d481508121e4ac1eff58af9fad2d6b4d948eb9ec962"
+  },
   "canonical_aliases": {
     "metric_class_normalized": "action_categories",
     "completion_status_normalized": "completion_category"
@@ -231,6 +237,9 @@
         "mapping_id": "metric_class-inventory-018",
         "raw_value": "combined_maintenance_restoration",
         "observation_ids": [
+          "KHM-2023-conservation-work-items",
+          "KHM-2023-treatment-objects-as-reported",
+          "KHM-2023-treatment-project-cases",
           "KHM-2024-conservation-work-items",
           "KHM-2025-conservation-work-items",
           "KHM-2025-treatment-objects-as-reported",
@@ -331,6 +340,8 @@
         "mapping_id": "metric_class-inventory-031",
         "raw_value": "mixed_arrangement_restoration",
         "observation_ids": [
+          "KHM-2022-paper-treatment-objects",
+          "KHM-2022-paper-treatment-project-cases",
           "nmp-2024-south-total"
         ]
       },
@@ -379,6 +390,8 @@
         "mapping_id": "metric_class-inventory-036",
         "raw_value": "museum_reported_treatment",
         "observation_ids": [
+          "KHM-2021-treatment-items-as-reported",
+          "KHM-2022-yongxingle-script-treatment-volumes",
           "KHM-2024-treatment-objects-as-reported",
           "KHM-2024-treatment-project-cases",
           "KMFA-2024-existing-collection-restoration",
@@ -423,6 +436,7 @@
           "NPM-2025-finalaccounts-objects",
           "NPM-2025-finalaccounts-paintings",
           "NPM-2025-finalaccounts-textiles",
+          "TNAM-2020-refugee-project-scope",
           "nmh-2020-15",
           "nmh-2020-16",
           "nmh-2021-17",
@@ -1023,6 +1037,11 @@
         "mapping_id": "completion_status-inventory-003",
         "raw_value": "annual_execution_reported_no_explicit_completed",
         "observation_ids": [
+          "KHM-2021-treatment-items-as-reported",
+          "KHM-2022-paper-treatment-project-cases",
+          "KHM-2022-yongxingle-script-treatment-volumes",
+          "KHM-2023-treatment-objects-as-reported",
+          "KHM-2023-treatment-project-cases",
           "KMFA-2023-oil-painting-restoration",
           "KMFA-2024-existing-collection-restoration",
           "KMFA-2025-existing-collection-restoration",
@@ -1173,6 +1192,8 @@
         "mapping_id": "completion_status-inventory-011",
         "raw_value": "explicit_completed",
         "observation_ids": [
+          "KHM-2022-paper-treatment-objects",
+          "KHM-2023-conservation-work-items",
           "KHM-2024-conservation-work-items",
           "KHM-2024-treatment-objects-as-reported",
           "KHM-2024-treatment-project-cases",
@@ -1278,6 +1299,7 @@
         "raw_value": "原文未另載完成",
         "observation_ids": [
           "NTUA-2022-meeting1102-conserved-posters",
+          "TNAM-2020-refugee-project-scope",
           "TNAM-2023-collection-maintenance",
           "TNAM-2023-exhibition-emergency",
           "TNAM-2023-external-service",
@@ -1433,6 +1455,8 @@
           "IOE-2023-museum-arrangement-as-reported",
           "IOE-2024-museum-arrangement-as-reported",
           "IOE-2025-museum-arrangement-as-reported",
+          "KHM-2022-paper-treatment-objects",
+          "KHM-2023-treatment-objects-as-reported",
           "KHM-2024-treatment-objects-as-reported",
           "KHM-2025-treatment-objects-as-reported",
           "KMFA-2023-oil-painting-restoration",
@@ -1684,6 +1708,7 @@
         "mapping_id": "unit_as_reported-inventory-006",
         "raw_value": "冊",
         "observation_ids": [
+          "KHM-2022-yongxingle-script-treatment-volumes",
           "LYM-2025-gazetteer-conservation"
         ],
         "normalized_value": "冊",
@@ -1756,6 +1781,8 @@
         "mapping_id": "unit_as_reported-inventory-013",
         "raw_value": "案",
         "observation_ids": [
+          "KHM-2022-paper-treatment-project-cases",
+          "KHM-2023-treatment-project-cases",
           "KHM-2024-treatment-project-cases",
           "KHM-2025-treatment-project-cases",
           "NCKU-2022-commissioned-conservation-cases",
@@ -1849,6 +1876,7 @@
         "raw_value": "組件",
         "observation_ids": [
           "LYM-2020-display-support-maintenance",
+          "TNAM-2020-refugee-project-scope",
           "TNAM-2022-completed",
           "TNAM-2022-under-treatment",
           "TNAM-2024-exhibition-project",
@@ -1929,6 +1957,8 @@
         "mapping_id": "unit_as_reported-inventory-025",
         "raw_value": "項",
         "observation_ids": [
+          "KHM-2021-treatment-items-as-reported",
+          "KHM-2023-conservation-work-items",
           "KHM-2024-conservation-work-items",
           "KHM-2025-conservation-work-items"
         ],

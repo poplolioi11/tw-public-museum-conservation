@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="dataset-version" content="0.14.0">
+  <meta name="dataset-version" content="0.15.0">
   <meta name="description" content="分清保存修護資料的查核格集合、指定段缺量註記與搜尋別名；保留未知、原來源及使用限制。">
   <title>有界資料整理｜公立館保存修護資料</title>
   <link rel="stylesheet" href="./app.css">
@@ -14,7 +14,7 @@
 <body>
 <a class="skip" href="#populations">跳到集合狀態表</a>
 <header class="masthead">
-  <div class="edition"><span>臺灣公立館・公開資料整理</span><span>v0.14.0・2026-10-30</span></div>
+  <div class="edition"><span>臺灣公立館・公開資料整理</span><span>v0.15.0・2026-10-30</span></div>
   <div class="title-line"><div><p class="eyebrow">查核範圍與衍生查找欄位</p><h1>有界資料整理</h1><p class="subtitle">把查核格、缺量註記與搜尋別名放在各自的證據範圍內。</p></div></div>
   <p class="scope-note">這裡計數的是館年格、查核註記或紀錄列，不是文物件數、全年作業總量或全國公開率。不同館所、作業、期間與量詞的量值不相加。</p>
   <nav aria-label="頁面導覽"><a href="./index.html">回原報查詢</a><a href="#populations">集合狀態表</a><a href="#absence">缺量內容註記</a><a href="#downloads">資料下載</a></nav>
@@ -23,10 +23,10 @@
   <section id="populations" aria-labelledby="populations-title">
     <p class="eyebrow">先確認分母</p><h2 id="populations-title">三種集合分開閱讀</h2>
     <p>觀察單位是候選識別 × 目標年格。原歷史索引、本版已有有界查核的集合及兩者聯集互有重疊，不能把三個分母或欄內數量跨欄相加。聯集也不是全部候選的所有年份或全國母體。</p>
-    <ul><li>原71組織×2020–2025歷史索引格：426個館年格，對應352則目前來源查核。</li><li>本版已有有界查核的館所候選×目標年：456個館年格，對應467則目前來源查核。</li><li>原歷史索引與本版有界查核的聯集：541個館年格，對應467則目前來源查核。</li></ul>
+    <ul><li>原71組織×2020–2025歷史索引格：426個館年格，對應365則目前來源查核。</li><li>本版已有有界查核的館所候選×目標年：469個館年格，對應480則目前來源查核。</li><li>原歷史索引與本版有界查核的聯集：541個館年格，對應480則目前來源查核。</li></ul>
     <figure><a href="./figures/coverage-states.svg"><img src="./figures/coverage-states.svg" alt="三種集合的查核格狀態圖；相同計數見下方狀態表。"></a><figcaption>三種明確集合的格狀態。<a href="./figures/coverage-states.svg">開啟或下載 SVG</a>；文字替代見下表。</figcaption></figure>
-    <div class="table-wrap"><table class="summary-table"><caption>每欄使用自己的館年格分母；三欄不能相加</caption><thead><tr><th scope="col">目前來源狀態</th><th scope="col">原71組織×2020–2025歷史索引格<br>426格</th><th scope="col">本版已有有界查核的館所候選×目標年<br>456格</th><th scope="col">原歷史索引與本版有界查核的聯集<br>541格</th></tr></thead><tbody><tr><th scope="row">年度範圍不可分離</th><td>6</td><td>14</td><td>14</td></tr><tr><th scope="row">適用正文待核</th><td>17</td><td>36</td><td>36</td></tr><tr><th scope="row">同格有不同來源狀態</th><td>1</td><td>1</td><td>1</td></tr><tr><th scope="row">只有指定段未定位適用量查核</th><td>205</td><td>268</td><td>268</td></tr><tr><th scope="row">本版無有界查核</th><td>85</td><td>0</td><td>85</td></tr><tr><th scope="row">只有已核數值查核</th><td>82</td><td>87</td><td>87</td></tr><tr><th scope="row">不在採用範圍</th><td>1</td><td>2</td><td>2</td></tr><tr><th scope="row">本輪未定位來源</th><td>29</td><td>48</td><td>48</td></tr></tbody></table></div>
-    <details><summary>每種狀態表示什麼</summary><dl><dt>年度範圍不可分離</dt><dd>來源的年度或館級範圍無法分離，不拆年、不分配父機構或他館的數量。</dd><dt>適用正文待核</dt><dd>來源或原件已定位，適用正文仍待核，不能當成已讀無量。</dd><dt>同格有不同來源狀態</dt><dd>同館同年不同來源有不同狀態，全部保留；有數值與另一來源指定段無量可以並存。</dd><dt>只有指定段未定位適用量查核</dt><dd>目前來源查核只有指定段未定位適用量；不是零修護，也不是全年未公開。</dd><dt>本版無有界查核</dt><dd>此格沒有本版有界查核，不改寫成未定位來源或已讀無量。</dd><dt>只有已核數值查核</dt><dd>目前來源查核只有已核數值狀態；仍僅限所列分項，不證明全館全年完整。</dd><dt>不在採用範圍</dt><dd>所列來源或年度不在本題採用範圍，不表示該館沒有保存工作。</dd><dt>本輪未定位來源</dt><dd>原輪次的有限查找未定位適用來源，不等於沒有來源、沒有作業或未公開。</dd></dl></details>
+    <div class="table-wrap"><table class="summary-table"><caption>每欄使用自己的館年格分母；三欄不能相加</caption><thead><tr><th scope="col">目前來源狀態</th><th scope="col">原71組織×2020–2025歷史索引格<br>426格</th><th scope="col">本版已有有界查核的館所候選×目標年<br>469格</th><th scope="col">原歷史索引與本版有界查核的聯集<br>541格</th></tr></thead><tbody><tr><th scope="row">年度範圍不可分離</th><td>6</td><td>14</td><td>14</td></tr><tr><th scope="row">適用正文待核</th><td>17</td><td>36</td><td>36</td></tr><tr><th scope="row">同格有不同來源狀態</th><td>1</td><td>1</td><td>1</td></tr><tr><th scope="row">只有指定段未定位適用量查核</th><td>205</td><td>268</td><td>268</td></tr><tr><th scope="row">本版無館年查核索引</th><td>72</td><td>0</td><td>72</td></tr><tr><th scope="row">只有已核數值查核</th><td>94</td><td>99</td><td>99</td></tr><tr><th scope="row">不在採用範圍</th><td>1</td><td>2</td><td>2</td></tr><tr><th scope="row">本輪未定位來源</th><td>30</td><td>49</td><td>49</td></tr></tbody></table></div>
+    <details><summary>每種狀態表示什麼</summary><dl><dt>年度範圍不可分離</dt><dd>來源的年度或館級範圍無法分離，不拆年、不分配父機構或他館的數量。</dd><dt>適用正文待核</dt><dd>來源或原件已定位，適用正文仍待核，不能當成已讀無量。</dd><dt>同格有不同來源狀態</dt><dd>同館同年不同來源有不同狀態，全部保留；有數值與另一來源指定段無量可以並存。</dd><dt>只有指定段未定位適用量查核</dt><dd>目前來源查核只有指定段未定位適用量；不是零修護，也不是全年未公開。</dd><dt>本版無館年查核索引</dt><dd>此格沒有本版有界查核，不改寫成未定位來源或已讀無量。</dd><dt>只有已核數值查核</dt><dd>目前來源查核只有已核數值狀態；仍僅限所列分項，不證明全館全年完整。</dd><dt>不在採用範圍</dt><dd>所列來源或年度不在本題採用範圍，不表示該館沒有保存工作。</dd><dt>本輪未定位來源</dt><dd>原輪次的有限查找未定位適用來源，不等於沒有來源、沒有作業或未公開。</dd></dl></details>
     <p class="notice">表中的0格只表示該集合沒有這種狀態的格，沒有把未知數量填為0件。已有數值也只證明指定來源分項；同格的多個目前來源狀態全部保留，不用最高層級取代其他來源。</p>
   </section>
   <section id="dimensions" aria-labelledby="dimensions-title">
@@ -37,22 +37,22 @@
   </section>
   <section id="absence" aria-labelledby="absence-title">
     <h2 id="absence-title">指定範圍的缺量內容註記</h2>
-    <p>本版為275則目前「指定段未定位適用量」查核增加內容註記；264則有既有查核說明文字支持，11則資訊不足。註記的單位是查核則數，與館年格數不同。</p>
+    <p>本版為275則目前「指定段未定位適用量」查核增加內容註記；274則有既有查核說明文字支持，1則資訊不足。註記的單位是查核則數，與館年格數不同。</p>
     <p>引文來自整理者既有公開查核說明，不冒充官方原件逐字引文，也不表示本版重新讀取全部原件。註記連回 review_id、來源及原範圍，原查核狀態沒有因標籤改寫。</p>
     <p>資訊不足維持資訊不足；這些標籤不能當成機構沒有做或未公開的原因。沒有指派某標籤，不等於確認該內容不存在。數位作業、盤點或館外服務也不是一律排除，仍須依每則原對象與作業範圍判讀。</p>
     <figure><a href="./figures/absence-tags.svg"><img src="./figures/absence-tags.svg" alt="既有缺量查核說明的內容標籤圖；相同計數見下方可複選標籤表。" loading="lazy"></a><figcaption>同一則可有多個標籤，標籤數不可相加為館年、機構、報告或物件總數。<a href="./figures/absence-tags.svg">開啟或下載 SVG</a>。</figcaption></figure>
-    <div class="table-wrap"><table class="summary-table"><caption>既有查核說明的內容標籤，可複選，不可相加</caption><thead><tr><th scope="col">內容標籤</th><th scope="col">查核註記數</th></tr></thead><tbody><tr><th scope="row">入藏／採集等新增</th><td>55</td></tr><tr><th scope="row">建物或場域範圍</th><td>29</td></tr><tr><th scope="row">藏品行政或使用</th><td>60</td></tr><tr><th scope="row">數位資料相關</th><td>77</td></tr><tr><th scope="row">展覽或教育推廣</th><td>171</td></tr><tr><th scope="row">館外對象服務敘述</th><td>7</td></tr><tr><th scope="row">盤點或清查作業</th><td>21</td></tr><tr><th scope="row">父機構／館群／他館範圍</th><td>44</td></tr><tr><th scope="row">保存修護等敘述</th><td>42</td></tr><tr><th scope="row">研究相關</th><td>35</td></tr><tr><th scope="row">典藏存量或累計</th><td>36</td></tr></tbody></table></div>
+    <div class="table-wrap"><table class="summary-table"><caption>既有查核說明的內容標籤，可複選，不可相加</caption><thead><tr><th scope="col">內容標籤</th><th scope="col">查核註記數</th></tr></thead><tbody><tr><th scope="row">入藏／採集等新增</th><td>57</td></tr><tr><th scope="row">建物或場域範圍</th><td>30</td></tr><tr><th scope="row">藏品行政或使用</th><td>60</td></tr><tr><th scope="row">數位資料相關</th><td>80</td></tr><tr><th scope="row">展覽或教育推廣</th><td>177</td></tr><tr><th scope="row">館外對象服務敘述</th><td>7</td></tr><tr><th scope="row">盤點或清查作業</th><td>21</td></tr><tr><th scope="row">父機構／館群／他館範圍</th><td>47</td></tr><tr><th scope="row">保存修護等敘述</th><td>43</td></tr><tr><th scope="row">研究相關</th><td>36</td></tr><tr><th scope="row">典藏存量或累計</th><td>36</td></tr></tbody></table></div>
   </section>
   <section id="normalization" aria-labelledby="normalization-title">
     <h2 id="normalization-title">搜尋別名保留原紀錄</h2>
-    <p>本版提供299列對應既有 observation_id 的搜尋別名，只沿用已覆核的作業與完成分類。原詞、原量詞、數字、來源、紀錄角色及重疊關係保持原樣。</p>
+    <p>本版提供307列對應既有 observation_id 的搜尋別名，只沿用已覆核的作業與完成分類。原詞、原量詞、數字、來源、紀錄角色及重疊關係保持原樣。</p>
     <p>件、件數與件作品的 item_word 只是字面查找別名，不是件數換算、唯一物件定義或可加總證明。缺量詞不補件，複合單位不拆；跨年不拆成年份，混合作業不把同一數字複製到各類相加，未明載完成也不等於未完成。純數位修復不改歸實體修復。</p>
     <p class="notice">衍生搜尋表不帶 quantity 欄位；原報量值請回到<a href="./index.html">原報查詢</a>，同讀完成狀態、對象範圍與官方來源定位。</p>
   </section>
   <section id="downloads" aria-labelledby="downloads-title">
     <h2 id="downloads-title">資料與規則下載</h2>
     <p>各檔直接保存公開輸入的原始bytes。<a href="./manifest.json">網站資料清單 manifest.json</a>列出所有端點的SHA-256、bytes、來源路徑與本版版本；<a href="./llms.txt">llms.txt</a>提供機器入口。查核狀態、缺量註記與搜尋別名互不代替。</p>
-    <ul><li><a href="./data/coverage.json">查核格狀態與三種集合 JSON</a> <span class="download-size">（908390 bytes）</span></li><li><a href="./data/absence_annotations.json">缺量註記與引文 JSON</a> <span class="download-size">（366543 bytes）</span></li><li><a href="./data/absence_annotations.jsonl">缺量註記 JSONL</a> <span class="download-size">（294959 bytes）</span></li><li><a href="./data/absence_annotations.csv">缺量註記 CSV</a> <span class="download-size">（242416 bytes）</span></li><li><a href="./data/normalized_observations.jsonl">搜尋別名 JSONL</a> <span class="download-size">（198922 bytes）</span></li><li><a href="./data/normalized_observations.csv">搜尋別名 CSV</a> <span class="download-size">（77127 bytes）</span></li><li><a href="./data/coverage_cells.jsonl">逐格查核狀態 JSONL</a> <span class="download-size">（419701 bytes）</span></li><li><a href="./data/coverage_cells.csv">逐格查核狀態 CSV</a> <span class="download-size">（188212 bytes）</span></li><li><a href="./data/coverage_groups.jsonl">分組分母與狀態 JSONL</a> <span class="download-size">（247658 bytes）</span></li><li><a href="./data/coverage_groups.csv">分組分母與狀態 CSV</a> <span class="download-size">（205849 bytes）</span></li><li><a href="./data/organization_dimensions.json">組織分組與原始證據 JSON</a> <span class="download-size">（447276 bytes）</span></li><li><a href="./data/absence_vocabulary.json">缺量內容與原因詞表 JSON</a> <span class="download-size">（2165 bytes）</span></li><li><a href="./data/normalization_rules.json">搜尋別名規則與覆核清冊 JSON</a> <span class="download-size">（67630 bytes）</span></li><li><a href="./data/enrichment_build.json">有界整理來源與圖表版本清單 JSON</a> <span class="download-size">（2023 bytes）</span></li></ul>
+    <ul><li><a href="./data/coverage.json">查核格狀態與三種集合 JSON</a> <span class="download-size">（911884 bytes）</span></li><li><a href="./data/absence_annotations.json">缺量註記與引文 JSON</a> <span class="download-size">（366972 bytes）</span></li><li><a href="./data/absence_annotations.jsonl">缺量註記 JSONL</a> <span class="download-size">（294816 bytes）</span></li><li><a href="./data/absence_annotations.csv">缺量註記 CSV</a> <span class="download-size">（242389 bytes）</span></li><li><a href="./data/normalized_observations.jsonl">搜尋別名 JSONL</a> <span class="download-size">（204641 bytes）</span></li><li><a href="./data/normalized_observations.csv">搜尋別名 CSV</a> <span class="download-size">（79606 bytes）</span></li><li><a href="./data/coverage_cells.jsonl">逐格查核狀態 JSONL</a> <span class="download-size">（422134 bytes）</span></li><li><a href="./data/coverage_cells.csv">逐格查核狀態 CSV</a> <span class="download-size">（190873 bytes）</span></li><li><a href="./data/coverage_groups.jsonl">分組分母與狀態 JSONL</a> <span class="download-size">（247769 bytes）</span></li><li><a href="./data/coverage_groups.csv">分組分母與狀態 CSV</a> <span class="download-size">（205960 bytes）</span></li><li><a href="./data/organization_dimensions.json">組織分組與原始證據 JSON</a> <span class="download-size">（447276 bytes）</span></li><li><a href="./data/absence_vocabulary.json">缺量內容與原因詞表 JSON</a> <span class="download-size">（2165 bytes）</span></li><li><a href="./data/normalization_rules.json">搜尋別名規則與覆核清冊 JSON</a> <span class="download-size">（69050 bytes）</span></li><li><a href="./data/enrichment_build.json">有界整理來源與圖表版本清單 JSON</a> <span class="download-size">（2022 bytes）</span></li></ul>
     <p>官方原件、整頁圖文、私人路徑與中間檔不在此重製；資料格式及網站程式的授權不改變官方來源權利。AI輔助整理與程式驗證不等於人類二校、專家或館方認證。</p>
   </section>
 </main>

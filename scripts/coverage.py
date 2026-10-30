@@ -11,7 +11,7 @@ STATES = {
     'body_pending': '適用正文待核',
     'annual_not_separable': '年度範圍不可分離',
     'outside_scope': '不在採用範圍',
-    'not_assessed': '本版無有界查核',
+    'not_assessed': '本版無館年查核索引',
 }
 SINGLE = {
     'numeric_observations_verified': 'numeric_only',

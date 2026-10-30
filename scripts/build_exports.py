@@ -17,7 +17,7 @@ def digest(x):return hashlib.sha256(x).hexdigest()
 def read(p):return json.loads(p.read_text())
 def validate_review_shape(value,rule,path='$'):
     """Enforce the documented schema subset, recursively; no full JSON Schema claim."""
-    supported={'$schema','$id','title','description','type','properties','required','additionalProperties','items','minimum','enum','const'}
+    supported={'$schema','$id','title','description','type','properties','required','additionalProperties','items','minimum','maximum','enum','const'}
     assert not set(rule)-supported,('unsupported_review_schema_keyword',path,set(rule)-supported)
     types={'string':lambda v:isinstance(v,str),'null':lambda v:v is None,
            'integer':lambda v:isinstance(v,int)and not isinstance(v,bool),
@@ -31,6 +31,7 @@ def validate_review_shape(value,rule,path='$'):
     if 'const'in rule:assert value==rule['const']and type(value)is type(rule['const']),('review_schema_const',path)
     if 'enum'in rule:assert value in rule['enum'],('review_schema_enum',path)
     if value is not None and'minimum'in rule:assert value>=rule['minimum'],('review_schema_minimum',path)
+    if value is not None and'maximum'in rule:assert value<=rule['maximum'],('review_schema_maximum',path)
     if isinstance(value,dict):
         props=rule.get('properties',{})
         assert set(rule.get('required',[]))<=value.keys(),('review_schema_required',path)
@@ -116,7 +117,9 @@ def validate(facts,inventory,version):
         assert s['original_file_type']in ['PDF','HTML']
         official_url(s['official_landing_url']);official_url(s['official_file_url'])
     source_by_id={s['source_id']:s for s in sources}
+    observation_schema=read(ROOT/'schema/observation.schema.json')
     for r in obs:
+        validate_review_shape(r,observation_schema,r['observation_id'])
         assert r['source_id']in sid
         if r['data_year']is None:
             assert r.get('year_assignment_status')=='multi_year_not_allocated'

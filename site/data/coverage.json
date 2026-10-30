@@ -3483,10 +3483,14 @@
       "baseline_lookup_record_id": "BASE-007::2021",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-007::2021",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-007",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "NMTH-2021-film-pieces",
+        "NMTH-2021-film-reels",
+        "NMTH-2021-film-titles"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-007",
       "organization_names_as_reported": [
@@ -3494,10 +3498,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-007-2021-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "NMTH-2021-film-pieces",
         "NMTH-2021-film-reels",
@@ -3640,10 +3649,12 @@
       "baseline_lookup_record_id": "BASE-007::2025",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-007::2025",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-007",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "NMTH-2025-wall-panels-completed"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-007",
       "organization_names_as_reported": [
@@ -3651,10 +3662,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-007-2025-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "NMTH-2025-wall-panels-completed"
       ],
@@ -5384,7 +5400,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-NTU-2020-batch4"
+        "quality-followup-NTU-2020-batch4-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -7042,8 +7058,8 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-NPM-2025-finalaccounts",
-        "review-NPM-2025-performance"
+        "quality-followup-NPM-2025-performance-v015",
+        "review-NPM-2025-finalaccounts"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located",
@@ -7082,7 +7098,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-024-2020-stage6"
+        "quality-followup-BASE-024-2020-stage6-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -7114,7 +7130,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-024-2021-stage6"
+        "quality-followup-BASE-024-2021-stage6-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -7146,7 +7162,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-024-2022-stage6"
+        "quality-followup-BASE-024-2022-stage6-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -7178,7 +7194,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-024-2023-stage6"
+        "quality-followup-BASE-024-2023-stage6-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -8263,10 +8279,12 @@
       "baseline_lookup_record_id": "BASE-030::2023",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-030::2023",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-030",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "tfam-2023-commissioned_restoration"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-030",
       "organization_names_as_reported": [
@@ -8274,10 +8292,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-030-2023-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "tfam-2023-commissioned_restoration",
         "tfam-2023-internal-derived"
@@ -8293,10 +8316,15 @@
       "baseline_lookup_record_id": "BASE-030::2024",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-030::2024",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-030",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "tfam-2024-inspection_or_cleaning",
+        "tfam-2024-project_book_conservation",
+        "tfam-2024-project_paper_conservation",
+        "tfam-2024-restoration_summary"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-030",
       "organization_names_as_reported": [
@@ -8304,10 +8332,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-030-2024-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "tfam-2024-inspection_or_cleaning",
         "tfam-2024-project_book_conservation",
@@ -8325,10 +8358,15 @@
       "baseline_lookup_record_id": "BASE-030::2025",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-030::2025",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-030",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "tfam-2025-conservation_and_restoration_total",
+        "tfam-2025-inspection_and_registration",
+        "tfam-2025-project_restoration",
+        "tfam-2025-routine_conservation"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-030",
       "organization_names_as_reported": [
@@ -8336,10 +8374,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-030-2025-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "tfam-2025-conservation_and_restoration_total",
         "tfam-2025-inspection_and_registration",
@@ -9475,10 +9518,12 @@
       "baseline_lookup_record_id": "BASE-037::2020",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-037::2020",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-037",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "yingge-2020-source-reported-annual-repair"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-037",
       "organization_names_as_reported": [
@@ -9486,10 +9531,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-037-2020-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "yingge-2020-source-reported-annual-repair"
       ],
@@ -9504,10 +9554,12 @@
       "baseline_lookup_record_id": "BASE-037::2021",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-037::2021",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-037",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "yingge-2021-reported-annual-repair"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-037",
       "organization_names_as_reported": [
@@ -9515,10 +9567,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-037-2021-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "yingge-2021-reported-annual-repair"
       ],
@@ -10339,10 +10396,13 @@
       "baseline_lookup_record_id": "BASE-041::2024",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-041::2024",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-041",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "north4-daxi-2024-repair-batch",
+        "pilot-daxi-2024-combined"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-041",
       "organization_names_as_reported": [
@@ -10350,10 +10410,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "index-backfill-BASE-041-2024-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
       "single_year_fact_ids": [
         "north4-daxi-2024-repair-batch",
         "pilot-daxi-2024-combined"
@@ -10420,7 +10485,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-042-2020-batch5-north-central"
+        "quality-followup-BASE-042-2020-batch5-north-central-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -10484,7 +10549,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-042-2022-batch5-north-central"
+        "quality-followup-BASE-042-2022-batch5-north-central-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -10516,7 +10581,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-042-2023-batch5-north-central"
+        "quality-followup-BASE-042-2023-batch5-north-central-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -10548,7 +10613,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-042-2024-batch5-north-central"
+        "quality-followup-BASE-042-2024-batch5-north-central-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -10580,7 +10645,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-BASE-042-2025-batch5-north-central"
+        "quality-followup-BASE-042-2025-batch5-north-central-v015"
       ],
       "review_statuses": [
         "body_read_no_eligible_quantity_located"
@@ -12901,10 +12966,12 @@
       "baseline_lookup_record_id": "BASE-055::2020",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-055::2020",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-055",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "TNAM-2020-refugee-project-scope"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-055",
       "organization_names_as_reported": [
@@ -12912,11 +12979,18 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
-      "single_year_fact_ids": [],
+      "review_ids": [
+        "existing-gap-BASE-055-2020-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
+      "single_year_fact_ids": [
+        "TNAM-2020-refugee-project-scope"
+      ],
       "target_data_year": 2020,
       "working_category_by_batch": [
         "pre_batch_or_unassigned"
@@ -13319,7 +13393,7 @@
       "baseline_lookup_record_id": "BASE-057::2020",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-057::2020",
-      "coverage_state": "not_assessed",
+      "coverage_state": "source_not_located",
       "dimension_evidence_organization_id": "BASE-057",
       "island_group": "main_island",
       "linked_observation_ids": [],
@@ -13330,10 +13404,15 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
+      "review_ids": [
+        "existing-gap-BASE-057-2020-v015"
+      ],
+      "review_statuses": [
+        "source_not_located_in_this_search"
+      ],
       "single_year_fact_ids": [],
       "target_data_year": 2020,
       "working_category_by_batch": [
@@ -13346,10 +13425,12 @@
       "baseline_lookup_record_id": "BASE-057::2021",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-057::2021",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-057",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "KHM-2021-treatment-items-as-reported"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-057",
       "organization_names_as_reported": [
@@ -13357,11 +13438,18 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
-      "single_year_fact_ids": [],
+      "review_ids": [
+        "existing-gap-BASE-057-2021-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
+      "single_year_fact_ids": [
+        "KHM-2021-treatment-items-as-reported"
+      ],
       "target_data_year": 2021,
       "working_category_by_batch": [
         "pre_batch_or_unassigned"
@@ -13373,10 +13461,14 @@
       "baseline_lookup_record_id": "BASE-057::2022",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-057::2022",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-057",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "KHM-2022-paper-treatment-objects",
+        "KHM-2022-paper-treatment-project-cases",
+        "KHM-2022-yongxingle-script-treatment-volumes"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-057",
       "organization_names_as_reported": [
@@ -13384,11 +13476,20 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
-      "single_year_fact_ids": [],
+      "review_ids": [
+        "existing-gap-BASE-057-2022-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
+      "single_year_fact_ids": [
+        "KHM-2022-paper-treatment-objects",
+        "KHM-2022-paper-treatment-project-cases",
+        "KHM-2022-yongxingle-script-treatment-volumes"
+      ],
       "target_data_year": 2022,
       "working_category_by_batch": [
         "pre_batch_or_unassigned"
@@ -13400,10 +13501,14 @@
       "baseline_lookup_record_id": "BASE-057::2023",
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "BASE-057::2023",
-      "coverage_state": "not_assessed",
+      "coverage_state": "numeric_only",
       "dimension_evidence_organization_id": "BASE-057",
       "island_group": "main_island",
-      "linked_observation_ids": [],
+      "linked_observation_ids": [
+        "KHM-2023-conservation-work-items",
+        "KHM-2023-treatment-objects-as-reported",
+        "KHM-2023-treatment-project-cases"
+      ],
       "national_population_membership_verified": false,
       "organization_id": "BASE-057",
       "organization_names_as_reported": [
@@ -13411,11 +13516,20 @@
       ],
       "populations": [
         "baseline_inventory_71x6",
-        "baseline_review_union"
+        "baseline_review_union",
+        "reviewed_cohort"
       ],
-      "review_ids": [],
-      "review_statuses": [],
-      "single_year_fact_ids": [],
+      "review_ids": [
+        "existing-gap-BASE-057-2023-v015"
+      ],
+      "review_statuses": [
+        "numeric_observations_verified"
+      ],
+      "single_year_fact_ids": [
+        "KHM-2023-conservation-work-items",
+        "KHM-2023-treatment-objects-as-reported",
+        "KHM-2023-treatment-project-cases"
+      ],
       "target_data_year": 2023,
       "working_category_by_batch": [
         "pre_batch_or_unassigned"
@@ -17529,7 +17643,7 @@
       "working_category_membership_set": "BATCH5"
     }
   ],
-  "dataset_version": "0.14.0",
+  "dataset_version": "0.15.0",
   "geography_is_recorded_roster_or_authority_area_not_all_branch_or_object_location": true,
   "groups": [
     {
@@ -17546,20 +17660,20 @@
         "body_pending": 7,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 31,
-        "not_assessed": 15,
-        "numeric_only": 10,
+        "not_assessed": 12,
+        "numeric_only": 12,
         "outside_scope": 0,
-        "source_not_located": 7
+        "source_not_located": 8
       },
       "state_percentages": {
         "annual_not_separable": 1.408451,
         "body_pending": 9.859155,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 43.661972,
-        "not_assessed": 21.126761,
-        "numeric_only": 14.084507,
+        "not_assessed": 16.901408,
+        "numeric_only": 16.901408,
         "outside_scope": 0.0,
-        "source_not_located": 9.859155
+        "source_not_located": 11.267606
       }
     },
     {
@@ -17576,8 +17690,8 @@
         "body_pending": 3,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 36,
-        "not_assessed": 15,
-        "numeric_only": 12,
+        "not_assessed": 12,
+        "numeric_only": 15,
         "outside_scope": 0,
         "source_not_located": 4
       },
@@ -17586,8 +17700,8 @@
         "body_pending": 4.225352,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 50.704225,
-        "not_assessed": 21.126761,
-        "numeric_only": 16.901408,
+        "not_assessed": 16.901408,
+        "numeric_only": 21.126761,
         "outside_scope": 0.0,
         "source_not_located": 5.633803
       }
@@ -17606,8 +17720,8 @@
         "body_pending": 1,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 34,
-        "not_assessed": 13,
-        "numeric_only": 18,
+        "not_assessed": 12,
+        "numeric_only": 19,
         "outside_scope": 0,
         "source_not_located": 4
       },
@@ -17616,8 +17730,8 @@
         "body_pending": 1.408451,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 47.887324,
-        "not_assessed": 18.309859,
-        "numeric_only": 25.352113,
+        "not_assessed": 16.901408,
+        "numeric_only": 26.760563,
         "outside_scope": 0.0,
         "source_not_located": 5.633803
       }
@@ -17636,8 +17750,8 @@
         "body_pending": 1,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 36,
-        "not_assessed": 14,
-        "numeric_only": 14,
+        "not_assessed": 12,
+        "numeric_only": 16,
         "outside_scope": 0,
         "source_not_located": 6
       },
@@ -17646,8 +17760,8 @@
         "body_pending": 1.408451,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 50.704225,
-        "not_assessed": 19.71831,
-        "numeric_only": 19.71831,
+        "not_assessed": 16.901408,
+        "numeric_only": 22.535211,
         "outside_scope": 0.0,
         "source_not_located": 8.450704
       }
@@ -17666,8 +17780,8 @@
         "body_pending": 1,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 36,
-        "not_assessed": 14,
-        "numeric_only": 14,
+        "not_assessed": 12,
+        "numeric_only": 16,
         "outside_scope": 1,
         "source_not_located": 3
       },
@@ -17676,8 +17790,8 @@
         "body_pending": 1.408451,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 50.704225,
-        "not_assessed": 19.71831,
-        "numeric_only": 19.71831,
+        "not_assessed": 16.901408,
+        "numeric_only": 22.535211,
         "outside_scope": 1.408451,
         "source_not_located": 4.225352
       }
@@ -17696,8 +17810,8 @@
         "body_pending": 4,
         "mixed_current_states": 1,
         "no_quantity_scope_only": 32,
-        "not_assessed": 14,
-        "numeric_only": 14,
+        "not_assessed": 12,
+        "numeric_only": 16,
         "outside_scope": 0,
         "source_not_located": 5
       },
@@ -17706,8 +17820,8 @@
         "body_pending": 5.633803,
         "mixed_current_states": 1.408451,
         "no_quantity_scope_only": 45.070423,
-        "not_assessed": 19.71831,
-        "numeric_only": 19.71831,
+        "not_assessed": 16.901408,
+        "numeric_only": 22.535211,
         "outside_scope": 0.0,
         "source_not_located": 7.042254
       }
@@ -17906,20 +18020,20 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 15,
-        "not_assessed": 85,
-        "numeric_only": 56,
+        "not_assessed": 72,
+        "numeric_only": 68,
         "outside_scope": 0,
-        "source_not_located": 0
+        "source_not_located": 1
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 9.615385,
-        "not_assessed": 54.487179,
-        "numeric_only": 35.897436,
+        "not_assessed": 46.153846,
+        "numeric_only": 43.589744,
         "outside_scope": 0.0,
-        "source_not_located": 0.0
+        "source_not_located": 0.641026
       }
     },
     {
@@ -17936,8 +18050,8 @@
         "body_pending": 2,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 69,
-        "not_assessed": 38,
-        "numeric_only": 46,
+        "not_assessed": 36,
+        "numeric_only": 48,
         "outside_scope": 1,
         "source_not_located": 5
       },
@@ -17946,8 +18060,8 @@
         "body_pending": 1.234568,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 42.592593,
-        "not_assessed": 23.45679,
-        "numeric_only": 28.395062,
+        "not_assessed": 22.222222,
+        "numeric_only": 29.62963,
         "outside_scope": 0.617284,
         "source_not_located": 3.08642
       }
@@ -17966,20 +18080,20 @@
         "body_pending": 15,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 136,
-        "not_assessed": 47,
-        "numeric_only": 31,
+        "not_assessed": 36,
+        "numeric_only": 41,
         "outside_scope": 0,
-        "source_not_located": 24
+        "source_not_located": 25
       },
       "state_percentages": {
         "annual_not_separable": 1.937984,
         "body_pending": 5.813953,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 52.713178,
-        "not_assessed": 18.217054,
-        "numeric_only": 12.015504,
+        "not_assessed": 13.953488,
+        "numeric_only": 15.891473,
         "outside_scope": 0.0,
-        "source_not_located": 9.302326
+        "source_not_located": 9.689922
       }
     },
     {
@@ -18026,20 +18140,20 @@
         "body_pending": 12,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 176,
-        "not_assessed": 79,
-        "numeric_only": 74,
+        "not_assessed": 66,
+        "numeric_only": 86,
         "outside_scope": 1,
-        "source_not_located": 27
+        "source_not_located": 28
       },
       "state_percentages": {
         "annual_not_separable": 0.806452,
         "body_pending": 3.225806,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 47.311828,
-        "not_assessed": 21.236559,
-        "numeric_only": 19.892473,
+        "not_assessed": 17.741935,
+        "numeric_only": 23.11828,
         "outside_scope": 0.268817,
-        "source_not_located": 7.258065
+        "source_not_located": 7.526882
       }
     },
     {
@@ -18416,8 +18530,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 0,
-        "not_assessed": 6,
-        "numeric_only": 5,
+        "not_assessed": 5,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -18426,8 +18540,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 0.0,
-        "not_assessed": 54.545455,
-        "numeric_only": 45.454545,
+        "not_assessed": 45.454545,
+        "numeric_only": 54.545455,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -19076,8 +19190,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 0,
-        "not_assessed": 6,
-        "numeric_only": 5,
+        "not_assessed": 5,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -19086,8 +19200,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 0.0,
-        "not_assessed": 54.545455,
-        "numeric_only": 45.454545,
+        "not_assessed": 45.454545,
+        "numeric_only": 54.545455,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -19637,20 +19751,20 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 3,
-        "not_assessed": 9,
-        "numeric_only": 1,
+        "not_assessed": 6,
+        "numeric_only": 3,
         "outside_scope": 0,
-        "source_not_located": 0
+        "source_not_located": 1
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 23.076923,
-        "not_assessed": 69.230769,
-        "numeric_only": 7.692308,
+        "not_assessed": 46.153846,
+        "numeric_only": 23.076923,
         "outside_scope": 0.0,
-        "source_not_located": 0.0
+        "source_not_located": 7.692308
       }
     },
     {
@@ -19802,8 +19916,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
-        "not_assessed": 8,
-        "numeric_only": 4,
+        "not_assessed": 6,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -19812,8 +19926,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 7.692308,
-        "not_assessed": 61.538462,
-        "numeric_only": 30.769231,
+        "not_assessed": 46.153846,
+        "numeric_only": 46.153846,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -19967,8 +20081,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 3,
-        "not_assessed": 7,
-        "numeric_only": 3,
+        "not_assessed": 6,
+        "numeric_only": 4,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -19977,8 +20091,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 23.076923,
-        "not_assessed": 53.846154,
-        "numeric_only": 23.076923,
+        "not_assessed": 46.153846,
+        "numeric_only": 30.769231,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -20132,8 +20246,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 2,
-        "not_assessed": 8,
-        "numeric_only": 3,
+        "not_assessed": 6,
+        "numeric_only": 5,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -20142,8 +20256,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 15.384615,
-        "not_assessed": 61.538462,
-        "numeric_only": 23.076923,
+        "not_assessed": 46.153846,
+        "numeric_only": 38.461538,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -20297,8 +20411,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
-        "not_assessed": 8,
-        "numeric_only": 4,
+        "not_assessed": 6,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -20307,8 +20421,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 7.692308,
-        "not_assessed": 61.538462,
-        "numeric_only": 30.769231,
+        "not_assessed": 46.153846,
+        "numeric_only": 46.153846,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -20462,8 +20576,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
-        "not_assessed": 7,
-        "numeric_only": 5,
+        "not_assessed": 6,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -20472,8 +20586,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 7.692308,
-        "not_assessed": 53.846154,
-        "numeric_only": 38.461538,
+        "not_assessed": 46.153846,
+        "numeric_only": 46.153846,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -21074,7 +21188,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 75,
+      "denominator_cells": 78,
       "dimension": "year",
       "group_values": {
         "year": 2020
@@ -21087,24 +21201,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 40,
         "not_assessed": 0,
-        "numeric_only": 10,
+        "numeric_only": 12,
         "outside_scope": 1,
-        "source_not_located": 10
+        "source_not_located": 11
       },
       "state_percentages": {
-        "annual_not_separable": 6.666667,
-        "body_pending": 12.0,
+        "annual_not_separable": 6.410256,
+        "body_pending": 11.538462,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 53.333333,
+        "no_quantity_scope_only": 51.282051,
         "not_assessed": 0.0,
-        "numeric_only": 13.333333,
-        "outside_scope": 1.333333,
-        "source_not_located": 13.333333
+        "numeric_only": 15.384615,
+        "outside_scope": 1.282051,
+        "source_not_located": 14.102564
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 75,
+      "denominator_cells": 78,
       "dimension": "year",
       "group_values": {
         "year": 2021
@@ -21117,24 +21231,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 47,
         "not_assessed": 0,
-        "numeric_only": 12,
+        "numeric_only": 15,
         "outside_scope": 0,
         "source_not_located": 7
       },
       "state_percentages": {
-        "annual_not_separable": 2.666667,
-        "body_pending": 9.333333,
+        "annual_not_separable": 2.564103,
+        "body_pending": 8.974359,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 62.666667,
+        "no_quantity_scope_only": 60.25641,
         "not_assessed": 0.0,
-        "numeric_only": 16.0,
+        "numeric_only": 19.230769,
         "outside_scope": 0.0,
-        "source_not_located": 9.333333
+        "source_not_located": 8.974359
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 77,
+      "denominator_cells": 78,
       "dimension": "year",
       "group_values": {
         "year": 2022
@@ -21147,24 +21261,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 43,
         "not_assessed": 0,
-        "numeric_only": 19,
+        "numeric_only": 20,
         "outside_scope": 0,
         "source_not_located": 8
       },
       "state_percentages": {
-        "annual_not_separable": 2.597403,
-        "body_pending": 6.493506,
+        "annual_not_separable": 2.564103,
+        "body_pending": 6.410256,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 55.844156,
+        "no_quantity_scope_only": 55.128205,
         "not_assessed": 0.0,
-        "numeric_only": 24.675325,
+        "numeric_only": 25.641026,
         "outside_scope": 0.0,
-        "source_not_located": 10.38961
+        "source_not_located": 10.25641
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 76,
+      "denominator_cells": 78,
       "dimension": "year",
       "group_values": {
         "year": 2023
@@ -21177,24 +21291,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 48,
         "not_assessed": 0,
-        "numeric_only": 15,
+        "numeric_only": 17,
         "outside_scope": 0,
         "source_not_located": 8
       },
       "state_percentages": {
-        "annual_not_separable": 2.631579,
-        "body_pending": 3.947368,
+        "annual_not_separable": 2.564103,
+        "body_pending": 3.846154,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 63.157895,
+        "no_quantity_scope_only": 61.538462,
         "not_assessed": 0.0,
-        "numeric_only": 19.736842,
+        "numeric_only": 21.794872,
         "outside_scope": 0.0,
-        "source_not_located": 10.526316
+        "source_not_located": 10.25641
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 76,
+      "denominator_cells": 78,
       "dimension": "year",
       "group_values": {
         "year": 2024
@@ -21207,24 +21321,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 49,
         "not_assessed": 0,
-        "numeric_only": 15,
+        "numeric_only": 17,
         "outside_scope": 1,
         "source_not_located": 5
       },
       "state_percentages": {
-        "annual_not_separable": 2.631579,
-        "body_pending": 5.263158,
+        "annual_not_separable": 2.564103,
+        "body_pending": 5.128205,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 64.473684,
+        "no_quantity_scope_only": 62.820513,
         "not_assessed": 0.0,
-        "numeric_only": 19.736842,
-        "outside_scope": 1.315789,
-        "source_not_located": 6.578947
+        "numeric_only": 21.794872,
+        "outside_scope": 1.282051,
+        "source_not_located": 6.410256
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 77,
+      "denominator_cells": 79,
       "dimension": "year",
       "group_values": {
         "year": 2025
@@ -21237,19 +21351,19 @@
         "mixed_current_states": 1,
         "no_quantity_scope_only": 41,
         "not_assessed": 0,
-        "numeric_only": 16,
+        "numeric_only": 18,
         "outside_scope": 0,
         "source_not_located": 10
       },
       "state_percentages": {
-        "annual_not_separable": 1.298701,
-        "body_pending": 10.38961,
-        "mixed_current_states": 1.298701,
-        "no_quantity_scope_only": 53.246753,
+        "annual_not_separable": 1.265823,
+        "body_pending": 10.126582,
+        "mixed_current_states": 1.265823,
+        "no_quantity_scope_only": 51.898734,
         "not_assessed": 0.0,
-        "numeric_only": 20.779221,
+        "numeric_only": 22.78481,
         "outside_scope": 0.0,
-        "source_not_located": 12.987013
+        "source_not_located": 12.658228
       }
     },
     {
@@ -21434,7 +21548,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 72,
+      "denominator_cells": 85,
       "dimension": "working_category_by_batch",
       "group_values": {
         "working_category_membership_set": "pre_batch_or_unassigned"
@@ -21447,24 +21561,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 15,
         "not_assessed": 0,
-        "numeric_only": 57,
+        "numeric_only": 69,
         "outside_scope": 0,
-        "source_not_located": 0
+        "source_not_located": 1
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 20.833333,
+        "no_quantity_scope_only": 17.647059,
         "not_assessed": 0.0,
-        "numeric_only": 79.166667,
+        "numeric_only": 81.176471,
         "outside_scope": 0.0,
-        "source_not_located": 0.0
+        "source_not_located": 1.176471
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 160,
+      "denominator_cells": 162,
       "dimension": "admin_group",
       "group_values": {
         "admin_group": "central"
@@ -21477,24 +21591,24 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 92,
         "not_assessed": 0,
-        "numeric_only": 50,
+        "numeric_only": 52,
         "outside_scope": 1,
         "source_not_located": 6
       },
       "state_percentages": {
-        "annual_not_separable": 1.875,
-        "body_pending": 5.0,
+        "annual_not_separable": 1.851852,
+        "body_pending": 4.938272,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 57.5,
+        "no_quantity_scope_only": 56.790123,
         "not_assessed": 0.0,
-        "numeric_only": 31.25,
-        "outside_scope": 0.625,
-        "source_not_located": 3.75
+        "numeric_only": 32.098765,
+        "outside_scope": 0.617284,
+        "source_not_located": 3.703704
       }
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 290,
+      "denominator_cells": 301,
       "dimension": "admin_group",
       "group_values": {
         "admin_group": "local"
@@ -21507,19 +21621,19 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 176,
         "not_assessed": 0,
-        "numeric_only": 32,
+        "numeric_only": 42,
         "outside_scope": 1,
-        "source_not_located": 42
+        "source_not_located": 43
       },
       "state_percentages": {
-        "annual_not_separable": 3.793103,
-        "body_pending": 9.655172,
+        "annual_not_separable": 3.654485,
+        "body_pending": 9.302326,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 60.689655,
+        "no_quantity_scope_only": 58.471761,
         "not_assessed": 0.0,
-        "numeric_only": 11.034483,
-        "outside_scope": 0.344828,
-        "source_not_located": 14.482759
+        "numeric_only": 13.953488,
+        "outside_scope": 0.332226,
+        "source_not_located": 14.285714
       }
     },
     {
@@ -21554,7 +21668,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 366,
+      "denominator_cells": 379,
       "dimension": "island_group",
       "group_values": {
         "island_group": "main_island"
@@ -21567,19 +21681,19 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 211,
         "not_assessed": 0,
-        "numeric_only": 75,
+        "numeric_only": 87,
         "outside_scope": 2,
-        "source_not_located": 44
+        "source_not_located": 45
       },
       "state_percentages": {
-        "annual_not_separable": 2.459016,
-        "body_pending": 6.830601,
+        "annual_not_separable": 2.37467,
+        "body_pending": 6.596306,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 57.650273,
+        "no_quantity_scope_only": 55.672823,
         "not_assessed": 0.0,
-        "numeric_only": 20.491803,
-        "outside_scope": 0.546448,
-        "source_not_located": 12.021858
+        "numeric_only": 22.955145,
+        "outside_scope": 0.527704,
+        "source_not_located": 11.873351
       }
     },
     {
@@ -21941,7 +22055,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 5,
+      "denominator_cells": 6,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "central",
@@ -21957,7 +22071,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 0,
         "not_assessed": 0,
-        "numeric_only": 5,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -22601,7 +22715,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 5,
+      "denominator_cells": 6,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "central",
@@ -22617,7 +22731,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 0,
         "not_assessed": 0,
-        "numeric_only": 5,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -23360,7 +23474,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 4,
+      "denominator_cells": 7,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "local",
@@ -23376,19 +23490,19 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 3,
         "not_assessed": 0,
-        "numeric_only": 1,
+        "numeric_only": 3,
         "outside_scope": 0,
-        "source_not_located": 0
+        "source_not_located": 1
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 75.0,
+        "no_quantity_scope_only": 42.857143,
         "not_assessed": 0.0,
-        "numeric_only": 25.0,
+        "numeric_only": 42.857143,
         "outside_scope": 0.0,
-        "source_not_located": 0.0
+        "source_not_located": 14.285714
       }
     },
     {
@@ -23525,7 +23639,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 5,
+      "denominator_cells": 7,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "local",
@@ -23541,7 +23655,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
         "not_assessed": 0,
-        "numeric_only": 4,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -23549,9 +23663,9 @@
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 20.0,
+        "no_quantity_scope_only": 14.285714,
         "not_assessed": 0.0,
-        "numeric_only": 80.0,
+        "numeric_only": 85.714286,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -23690,7 +23804,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 6,
+      "denominator_cells": 7,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "local",
@@ -23706,7 +23820,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 3,
         "not_assessed": 0,
-        "numeric_only": 3,
+        "numeric_only": 4,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -23714,9 +23828,9 @@
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 50.0,
+        "no_quantity_scope_only": 42.857143,
         "not_assessed": 0.0,
-        "numeric_only": 50.0,
+        "numeric_only": 57.142857,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -23855,7 +23969,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 5,
+      "denominator_cells": 7,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "local",
@@ -23871,7 +23985,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 2,
         "not_assessed": 0,
-        "numeric_only": 3,
+        "numeric_only": 5,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -23879,9 +23993,9 @@
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 40.0,
+        "no_quantity_scope_only": 28.571429,
         "not_assessed": 0.0,
-        "numeric_only": 60.0,
+        "numeric_only": 71.428571,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -24020,7 +24134,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 5,
+      "denominator_cells": 7,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "local",
@@ -24036,7 +24150,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
         "not_assessed": 0,
-        "numeric_only": 4,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -24044,9 +24158,9 @@
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 20.0,
+        "no_quantity_scope_only": 14.285714,
         "not_assessed": 0.0,
-        "numeric_only": 80.0,
+        "numeric_only": 85.714286,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -24185,7 +24299,7 @@
     },
     {
       "all_memberships_preserved_as_one_disjoint_set": true,
-      "denominator_cells": 7,
+      "denominator_cells": 8,
       "dimension": "working_category_by_batch+admin_group+island_group+year",
       "group_values": {
         "admin_group": "local",
@@ -24201,7 +24315,7 @@
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
         "not_assessed": 0,
-        "numeric_only": 6,
+        "numeric_only": 7,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -24209,9 +24323,9 @@
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
-        "no_quantity_scope_only": 14.285714,
+        "no_quantity_scope_only": 12.5,
         "not_assessed": 0.0,
-        "numeric_only": 85.714286,
+        "numeric_only": 87.5,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -24824,20 +24938,20 @@
         "body_pending": 9,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 40,
-        "not_assessed": 15,
-        "numeric_only": 10,
+        "not_assessed": 12,
+        "numeric_only": 12,
         "outside_scope": 1,
-        "source_not_located": 10
+        "source_not_located": 11
       },
       "state_percentages": {
         "annual_not_separable": 5.555556,
         "body_pending": 10.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 44.444444,
-        "not_assessed": 16.666667,
-        "numeric_only": 11.111111,
+        "not_assessed": 13.333333,
+        "numeric_only": 13.333333,
         "outside_scope": 1.111111,
-        "source_not_located": 11.111111
+        "source_not_located": 12.222222
       }
     },
     {
@@ -24854,8 +24968,8 @@
         "body_pending": 7,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 47,
-        "not_assessed": 15,
-        "numeric_only": 12,
+        "not_assessed": 12,
+        "numeric_only": 15,
         "outside_scope": 0,
         "source_not_located": 7
       },
@@ -24864,8 +24978,8 @@
         "body_pending": 7.777778,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 52.222222,
-        "not_assessed": 16.666667,
-        "numeric_only": 13.333333,
+        "not_assessed": 13.333333,
+        "numeric_only": 16.666667,
         "outside_scope": 0.0,
         "source_not_located": 7.777778
       }
@@ -24884,8 +24998,8 @@
         "body_pending": 5,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 43,
-        "not_assessed": 13,
-        "numeric_only": 19,
+        "not_assessed": 12,
+        "numeric_only": 20,
         "outside_scope": 0,
         "source_not_located": 8
       },
@@ -24894,8 +25008,8 @@
         "body_pending": 5.555556,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 47.777778,
-        "not_assessed": 14.444444,
-        "numeric_only": 21.111111,
+        "not_assessed": 13.333333,
+        "numeric_only": 22.222222,
         "outside_scope": 0.0,
         "source_not_located": 8.888889
       }
@@ -24914,8 +25028,8 @@
         "body_pending": 3,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 48,
-        "not_assessed": 14,
-        "numeric_only": 15,
+        "not_assessed": 12,
+        "numeric_only": 17,
         "outside_scope": 0,
         "source_not_located": 8
       },
@@ -24924,8 +25038,8 @@
         "body_pending": 3.333333,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 53.333333,
-        "not_assessed": 15.555556,
-        "numeric_only": 16.666667,
+        "not_assessed": 13.333333,
+        "numeric_only": 18.888889,
         "outside_scope": 0.0,
         "source_not_located": 8.888889
       }
@@ -24944,8 +25058,8 @@
         "body_pending": 4,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 49,
-        "not_assessed": 14,
-        "numeric_only": 15,
+        "not_assessed": 12,
+        "numeric_only": 17,
         "outside_scope": 1,
         "source_not_located": 5
       },
@@ -24954,8 +25068,8 @@
         "body_pending": 4.444444,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 54.444444,
-        "not_assessed": 15.555556,
-        "numeric_only": 16.666667,
+        "not_assessed": 13.333333,
+        "numeric_only": 18.888889,
         "outside_scope": 1.111111,
         "source_not_located": 5.555556
       }
@@ -24974,8 +25088,8 @@
         "body_pending": 8,
         "mixed_current_states": 1,
         "no_quantity_scope_only": 41,
-        "not_assessed": 14,
-        "numeric_only": 16,
+        "not_assessed": 12,
+        "numeric_only": 18,
         "outside_scope": 0,
         "source_not_located": 10
       },
@@ -24984,8 +25098,8 @@
         "body_pending": 8.791209,
         "mixed_current_states": 1.098901,
         "no_quantity_scope_only": 45.054945,
-        "not_assessed": 15.384615,
-        "numeric_only": 17.582418,
+        "not_assessed": 13.186813,
+        "numeric_only": 19.78022,
         "outside_scope": 0.0,
         "source_not_located": 10.989011
       }
@@ -25184,20 +25298,20 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 15,
-        "not_assessed": 85,
-        "numeric_only": 57,
+        "not_assessed": 72,
+        "numeric_only": 69,
         "outside_scope": 0,
-        "source_not_located": 0
+        "source_not_located": 1
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 9.55414,
-        "not_assessed": 54.140127,
-        "numeric_only": 36.305732,
+        "not_assessed": 45.859873,
+        "numeric_only": 43.949045,
         "outside_scope": 0.0,
-        "source_not_located": 0.0
+        "source_not_located": 0.636943
       }
     },
     {
@@ -25214,8 +25328,8 @@
         "body_pending": 8,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 92,
-        "not_assessed": 38,
-        "numeric_only": 50,
+        "not_assessed": 36,
+        "numeric_only": 52,
         "outside_scope": 1,
         "source_not_located": 6
       },
@@ -25224,8 +25338,8 @@
         "body_pending": 4.040404,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 46.464646,
-        "not_assessed": 19.191919,
-        "numeric_only": 25.252525,
+        "not_assessed": 18.181818,
+        "numeric_only": 26.262626,
         "outside_scope": 0.505051,
         "source_not_located": 3.030303
       }
@@ -25244,20 +25358,20 @@
         "body_pending": 28,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 176,
-        "not_assessed": 47,
-        "numeric_only": 32,
+        "not_assessed": 36,
+        "numeric_only": 42,
         "outside_scope": 1,
-        "source_not_located": 42
+        "source_not_located": 43
       },
       "state_percentages": {
         "annual_not_separable": 3.264095,
         "body_pending": 8.308605,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 52.225519,
-        "not_assessed": 13.946588,
-        "numeric_only": 9.495549,
+        "not_assessed": 10.682493,
+        "numeric_only": 12.462908,
         "outside_scope": 0.296736,
-        "source_not_located": 12.462908
+        "source_not_located": 12.759644
       }
     },
     {
@@ -25304,20 +25418,20 @@
         "body_pending": 25,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 211,
-        "not_assessed": 79,
-        "numeric_only": 75,
+        "not_assessed": 66,
+        "numeric_only": 87,
         "outside_scope": 2,
-        "source_not_located": 44
+        "source_not_located": 45
       },
       "state_percentages": {
         "annual_not_separable": 2.022472,
         "body_pending": 5.617978,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 47.41573,
-        "not_assessed": 17.752809,
-        "numeric_only": 16.853933,
+        "not_assessed": 14.831461,
+        "numeric_only": 19.550562,
         "outside_scope": 0.449438,
-        "source_not_located": 9.88764
+        "source_not_located": 10.11236
       }
     },
     {
@@ -25694,8 +25808,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 0,
-        "not_assessed": 6,
-        "numeric_only": 5,
+        "not_assessed": 5,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -25704,8 +25818,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 0.0,
-        "not_assessed": 54.545455,
-        "numeric_only": 45.454545,
+        "not_assessed": 45.454545,
+        "numeric_only": 54.545455,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -26354,8 +26468,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 0,
-        "not_assessed": 6,
-        "numeric_only": 5,
+        "not_assessed": 5,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -26364,8 +26478,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 0.0,
-        "not_assessed": 54.545455,
-        "numeric_only": 45.454545,
+        "not_assessed": 45.454545,
+        "numeric_only": 54.545455,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -27113,20 +27227,20 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 3,
-        "not_assessed": 9,
-        "numeric_only": 1,
+        "not_assessed": 6,
+        "numeric_only": 3,
         "outside_scope": 0,
-        "source_not_located": 0
+        "source_not_located": 1
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 23.076923,
-        "not_assessed": 69.230769,
-        "numeric_only": 7.692308,
+        "not_assessed": 46.153846,
+        "numeric_only": 23.076923,
         "outside_scope": 0.0,
-        "source_not_located": 0.0
+        "source_not_located": 7.692308
       }
     },
     {
@@ -27278,8 +27392,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
-        "not_assessed": 8,
-        "numeric_only": 4,
+        "not_assessed": 6,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -27288,8 +27402,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 7.692308,
-        "not_assessed": 61.538462,
-        "numeric_only": 30.769231,
+        "not_assessed": 46.153846,
+        "numeric_only": 46.153846,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -27443,8 +27557,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 3,
-        "not_assessed": 7,
-        "numeric_only": 3,
+        "not_assessed": 6,
+        "numeric_only": 4,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -27453,8 +27567,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 23.076923,
-        "not_assessed": 53.846154,
-        "numeric_only": 23.076923,
+        "not_assessed": 46.153846,
+        "numeric_only": 30.769231,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -27608,8 +27722,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 2,
-        "not_assessed": 8,
-        "numeric_only": 3,
+        "not_assessed": 6,
+        "numeric_only": 5,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -27618,8 +27732,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 15.384615,
-        "not_assessed": 61.538462,
-        "numeric_only": 23.076923,
+        "not_assessed": 46.153846,
+        "numeric_only": 38.461538,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -27773,8 +27887,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
-        "not_assessed": 8,
-        "numeric_only": 4,
+        "not_assessed": 6,
+        "numeric_only": 6,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -27783,8 +27897,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 7.692308,
-        "not_assessed": 61.538462,
-        "numeric_only": 30.769231,
+        "not_assessed": 46.153846,
+        "numeric_only": 46.153846,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -27938,8 +28052,8 @@
         "body_pending": 0,
         "mixed_current_states": 0,
         "no_quantity_scope_only": 1,
-        "not_assessed": 7,
-        "numeric_only": 6,
+        "not_assessed": 6,
+        "numeric_only": 7,
         "outside_scope": 0,
         "source_not_located": 0
       },
@@ -27948,8 +28062,8 @@
         "body_pending": 0.0,
         "mixed_current_states": 0.0,
         "no_quantity_scope_only": 7.142857,
-        "not_assessed": 50.0,
-        "numeric_only": 42.857143,
+        "not_assessed": 42.857143,
+        "numeric_only": 50.0,
         "outside_scope": 0.0,
         "source_not_located": 0.0
       }
@@ -28562,8 +28676,8 @@
   "observation_unit": "organization_id_target_year_cell",
   "populations": [
     {
-      "cells_with_any_verified_observation_review": 83,
-      "current_review_records": 352,
+      "cells_with_any_verified_observation_review": 95,
+      "current_review_records": 365,
       "definition": "原71組織×2020–2025歷史索引格",
       "denominator_cells": 426,
       "not_a_national_rate": true,
@@ -28573,27 +28687,27 @@
         "body_pending": 17,
         "mixed_current_states": 1,
         "no_quantity_scope_only": 205,
-        "not_assessed": 85,
-        "numeric_only": 82,
+        "not_assessed": 72,
+        "numeric_only": 94,
         "outside_scope": 1,
-        "source_not_located": 29
+        "source_not_located": 30
       },
       "state_percentages": {
         "annual_not_separable": 1.408451,
         "body_pending": 3.99061,
         "mixed_current_states": 0.234742,
         "no_quantity_scope_only": 48.122066,
-        "not_assessed": 19.953052,
-        "numeric_only": 19.248826,
+        "not_assessed": 16.901408,
+        "numeric_only": 22.065728,
         "outside_scope": 0.234742,
-        "source_not_located": 6.807512
+        "source_not_located": 7.042254
       }
     },
     {
-      "cells_with_any_verified_observation_review": 88,
-      "current_review_records": 467,
+      "cells_with_any_verified_observation_review": 100,
+      "current_review_records": 480,
       "definition": "本版已有有界查核的館所候選×目標年",
-      "denominator_cells": 456,
+      "denominator_cells": 469,
       "not_a_national_rate": true,
       "population_id": "reviewed_cohort",
       "state_counts": {
@@ -28602,24 +28716,24 @@
         "mixed_current_states": 1,
         "no_quantity_scope_only": 268,
         "not_assessed": 0,
-        "numeric_only": 87,
+        "numeric_only": 99,
         "outside_scope": 2,
-        "source_not_located": 48
+        "source_not_located": 49
       },
       "state_percentages": {
-        "annual_not_separable": 3.070175,
-        "body_pending": 7.894737,
-        "mixed_current_states": 0.219298,
-        "no_quantity_scope_only": 58.77193,
+        "annual_not_separable": 2.985075,
+        "body_pending": 7.675906,
+        "mixed_current_states": 0.21322,
+        "no_quantity_scope_only": 57.142857,
         "not_assessed": 0.0,
-        "numeric_only": 19.078947,
-        "outside_scope": 0.438596,
-        "source_not_located": 10.526316
+        "numeric_only": 21.108742,
+        "outside_scope": 0.426439,
+        "source_not_located": 10.447761
       }
     },
     {
-      "cells_with_any_verified_observation_review": 88,
-      "current_review_records": 467,
+      "cells_with_any_verified_observation_review": 100,
+      "current_review_records": 480,
       "definition": "原歷史索引與本版有界查核的聯集",
       "denominator_cells": 541,
       "not_a_national_rate": true,
@@ -28629,20 +28743,20 @@
         "body_pending": 36,
         "mixed_current_states": 1,
         "no_quantity_scope_only": 268,
-        "not_assessed": 85,
-        "numeric_only": 87,
+        "not_assessed": 72,
+        "numeric_only": 99,
         "outside_scope": 2,
-        "source_not_located": 48
+        "source_not_located": 49
       },
       "state_percentages": {
         "annual_not_separable": 2.5878,
         "body_pending": 6.654344,
         "mixed_current_states": 0.184843,
         "no_quantity_scope_only": 49.537893,
-        "not_assessed": 15.711645,
-        "numeric_only": 16.081331,
+        "not_assessed": 13.308688,
+        "numeric_only": 18.299445,
         "outside_scope": 0.369686,
-        "source_not_located": 8.872458
+        "source_not_located": 9.057301
       }
     }
   ],
@@ -28652,7 +28766,7 @@
     "body_pending": "適用正文待核",
     "mixed_current_states": "同格有不同來源狀態",
     "no_quantity_scope_only": "只有指定段未定位適用量查核",
-    "not_assessed": "本版無有界查核",
+    "not_assessed": "本版無館年查核索引",
     "numeric_only": "只有已核數值查核",
     "outside_scope": "不在採用範圍",
     "source_not_located": "本輪未定位來源"

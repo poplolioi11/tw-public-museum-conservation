@@ -1,7 +1,7 @@
 {
   "body_reviews": {
-    "current_organization_year_cells": 456,
-    "current_record_count": 467,
+    "current_organization_year_cells": 469,
+    "current_record_count": 480,
     "current_review_ids": [
       "review-BASE-019-2020",
       "review-BASE-019-2021",
@@ -15,10 +15,6 @@
       "review-BASE-010-2023",
       "review-BASE-010-2024",
       "review-BASE-010-2025",
-      "review-BASE-024-2020-stage6",
-      "review-BASE-024-2021-stage6",
-      "review-BASE-024-2022-stage6",
-      "review-BASE-024-2023-stage6",
       "review-BASE-024-2024-stage6",
       "review-BASE-024-2025-stage6",
       "review-BASE-007-2020-stage6",
@@ -61,7 +57,6 @@
       "review-NPM-2023-vdr2025",
       "review-NPM-2024-vdr2025",
       "review-NPM-2025-finalaccounts",
-      "review-NPM-2025-performance",
       "review-MOFIA-2020-finalaccounts",
       "review-MOFIA-2021-finalaccounts",
       "review-MOFIA-2022-finalaccounts",
@@ -157,7 +152,6 @@
       "br-east-south-add-003-2023",
       "br-east-south-add-003-2024",
       "br-east-south-add-003-2025",
-      "review-NTU-2020-batch4",
       "review-NTU-2021-batch4",
       "review-NTU-2022-batch4",
       "review-NTU-2023-batch4",
@@ -265,12 +259,7 @@
       "review-BASE-040-2023-batch5-north-central",
       "review-BASE-040-2024-batch5-north-central",
       "review-BASE-040-2025-batch5-north-central",
-      "review-BASE-042-2020-batch5-north-central",
       "review-BASE-042-2021-batch5-north-central",
-      "review-BASE-042-2022-batch5-north-central",
-      "review-BASE-042-2023-batch5-north-central",
-      "review-BASE-042-2024-batch5-north-central",
-      "review-BASE-042-2025-batch5-north-central",
       "review-BASE-043-2021-batch5-north-central",
       "review-BASE-043-2022-batch5-north-central",
       "review-BASE-043-2023-batch5-north-central",
@@ -469,18 +458,42 @@
       "index-backfill-BASE-055-2023-v014",
       "index-backfill-BASE-055-2024-v014",
       "index-backfill-BASE-055-2025-v014",
-      "index-backfill-SUP-001-2025-v014"
+      "index-backfill-SUP-001-2025-v014",
+      "index-backfill-BASE-007-2021-v015",
+      "index-backfill-BASE-007-2025-v015",
+      "index-backfill-BASE-030-2023-v015",
+      "index-backfill-BASE-030-2024-v015",
+      "index-backfill-BASE-030-2025-v015",
+      "index-backfill-BASE-037-2020-v015",
+      "index-backfill-BASE-037-2021-v015",
+      "index-backfill-BASE-041-2024-v015",
+      "existing-gap-BASE-055-2020-v015",
+      "existing-gap-BASE-057-2020-v015",
+      "existing-gap-BASE-057-2021-v015",
+      "existing-gap-BASE-057-2022-v015",
+      "existing-gap-BASE-057-2023-v015",
+      "quality-followup-BASE-024-2020-stage6-v015",
+      "quality-followup-BASE-024-2021-stage6-v015",
+      "quality-followup-BASE-024-2022-stage6-v015",
+      "quality-followup-BASE-024-2023-stage6-v015",
+      "quality-followup-NPM-2025-performance-v015",
+      "quality-followup-NTU-2020-batch4-v015",
+      "quality-followup-BASE-042-2020-batch5-north-central-v015",
+      "quality-followup-BASE-042-2022-batch5-north-central-v015",
+      "quality-followup-BASE-042-2023-batch5-north-central-v015",
+      "quality-followup-BASE-042-2024-batch5-north-central-v015",
+      "quality-followup-BASE-042-2025-batch5-north-central-v015"
     ],
     "current_status_counts": {
       "annual_scope_not_separable": 14,
       "body_read_no_eligible_quantity_located": 275,
-      "numeric_observations_verified": 92,
+      "numeric_observations_verified": 104,
       "outside_selected_scope": 2,
       "source_found_body_not_reviewed": 36,
-      "source_not_located_in_this_search": 48
+      "source_not_located_in_this_search": 49
     },
     "full_year_all_sources_reviewed": false,
-    "historical_record_count": 582,
+    "historical_record_count": 606,
     "selection_rule": "all leaves of explicit extends_review_id links; do not collapse organization-year, choose latest date or prefer a status"
   },
   "cohorts": [
@@ -1437,6 +1450,17 @@
     },
     {
       "complete_annual_quantity_series_verified": false,
+      "data_year": 2020,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "臺南市美術館",
+      "reported_periods": [],
+      "source_ids": [
+        "src-b6ff1fa8f1b40521"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
       "data_year": 2021,
       "fact_rows": 2,
       "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
@@ -1514,6 +1538,45 @@
       ],
       "source_ids": [
         "src-a64d502224892713"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2021,
+      "fact_rows": 1,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立歷史博物館",
+      "reported_periods": [
+        "110年度"
+      ],
+      "source_ids": [
+        "src-702b9e3c5ed5ddee"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2022,
+      "fact_rows": 3,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立歷史博物館",
+      "reported_periods": [
+        "111年度"
+      ],
+      "source_ids": [
+        "src-db7ecc443847c7ef"
+      ]
+    },
+    {
+      "complete_annual_quantity_series_verified": false,
+      "data_year": 2023,
+      "fact_rows": 3,
+      "note": "只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。",
+      "organization_name": "高雄市立歷史博物館",
+      "reported_periods": [
+        "112年度"
+      ],
+      "source_ids": [
+        "src-ec76f7798e250091"
       ]
     },
     {
@@ -1607,6 +1670,6 @@
       ]
     }
   ],
-  "dataset_version": "0.14.0",
+  "dataset_version": "0.15.0",
   "note": "與凍結的426格盤點狀態不同；紀錄數不等於館年格數，同格多則全部保留；不回填未知數值為零。"
 }

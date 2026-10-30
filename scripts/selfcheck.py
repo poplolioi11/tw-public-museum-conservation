@@ -108,6 +108,16 @@ def main():
         bad=json.loads(json.dumps(facts));r=next(r for r in bad['observations']if r['numeric_origin']=='source_reported');r['quantity_raw']=None;r['quantity_numeric']=0
         candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
         assert result.returncode!=0 and hashes(root)==before
+        # New original observations must satisfy the complete declared shape
+        # before the writer can replace any canonical or exported artifact.
+        for case in ['missing_aggregation_role','year_above_schema_maximum']:
+            bad=json.loads(json.dumps(facts))
+            if case=='missing_aggregation_role':
+                del bad['observations'][-1]['aggregation_role'];expected='review_schema_required'
+            else:
+                bad['observations'][-1]['data_year']=2101;expected='review_schema_maximum'
+            candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
+            assert result.returncode!=0 and expected in result.stderr and hashes(root)==before,(case,result.stderr)
         # Actual review evidence fields must match the published nested schema.
         # Reject each malformed candidate before any existing export is replaced.
         for case in ['missing_scope','unknown_evidence_field','boolean_page','page_outside_review']:

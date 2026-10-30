@@ -1,16 +1,16 @@
 # 臺灣公立館保存修護公開資料索引
 
-資料版本 0.14.0；資料截點 2026-10-30。這是有限來源子集，不是全國完整修護統計。
+資料版本 0.15.0；資料截點 2026-10-30。這是有限來源子集，不是全國完整修護統計。
 
 - [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
-- [本版完整公開事實](data/e588ab8f66e76194bb21f02d4c5be5fdcccf0ecea6a132a309cfd90670fbf88a.json)：observations、sources、relations、body_reviews 與範圍摘要。
+- [本版完整公開事實](data/4cd020a0045db91c20493275b8cb19fc43a2273bd6a14f113268d79e992777b6.json)：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙](data/38a6e7769ad84614fb08bd27c7dafb7b29ee05759acf3e6bdda6f7a87d31275d.json)：分類標籤及使用限制。
 - [有界資料整理](enrichment.html)：三種館年格集合、缺量註記、搜尋別名、文字表格與圖表。
 - 逐筆紀錄：records/{observation_id}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation)。
 
-共 299 列紀錄，列數不是修復物件數。保留原數字字串、量詞、完成狀態與官方來源。
-body_reviews含582則歷史查核；目前紀錄為未被extends_review_id延伸的所有紀錄，同館同年可有多則，不按日期或狀態挑一筆。六種查核狀態分開，適用正文待核不等於指定正文已讀無量；每則原註記的文字／圖頁範圍也不等於全年已讀。
+共 307 列紀錄，列數不是修復物件數。保留原數字字串、量詞、完成狀態與官方來源。
+body_reviews含606則歷史查核；目前紀錄為未被extends_review_id延伸的所有紀錄，同館同年可有多則，不按日期或狀態挑一筆。六種查核狀態分開，適用正文待核不等於指定正文已讀無量；每則原註記的文字／圖頁範圍也不等於全年已讀。
 metric_label供解讀，metric_as_reported保留原詞。專案原列對象量不等於年度已完成量，請同讀完成狀態、原報期間與對象範圍。
 未知不是零；近似量與雙單位不強轉整數；跨年數值不拆成年份；分項、合計與可能重疊的批次不相加。
 HTML 來源以 source_locator 定位，PDF 頁碼為 null；PDF 來源以 pdf_page_1_based 定位。

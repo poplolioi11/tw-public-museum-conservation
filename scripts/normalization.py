@@ -17,6 +17,7 @@ except ImportError:
 
 RULE_VERSION = "1.0"
 CLASSIFICATION_RULE_VERSION = "1.2"
+OBSERVATION_DIGEST_ALGORITHM = "sha256-canonical-json-utf8-ordered-observations-v1"
 PACKAGE_ROOT = Path(__file__).resolve().parents[1]
 RAW_FIELDS = ("metric_class", "completion_status", "unit_as_reported")
 FALSE_FLAGS = ("default_aggregation_allowed", "cross_museum_comparable",
@@ -61,6 +62,17 @@ def _inventory(rows, field):
     return {raw: sorted(ids) for raw, ids in values.items()}
 
 
+def observation_digest(facts):
+    """Fingerprint reviewed observations, including original quantities and order.
+
+    Dataset summaries and source/body review metadata can be refreshed separately;
+    changing any observation still requires an explicit reviewed-manifest update.
+    """
+    encoded = json.dumps(_rows(facts), ensure_ascii=False, sort_keys=True,
+                         separators=(",", ":"), allow_nan=False).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
 def _unit_target(raw):
     """A literal search alias is never a conversion or a counting definition."""
     if raw is None:
@@ -85,6 +97,7 @@ def validate_rules(facts, rules):
     rows = _rows(facts)
     _require(set(rules) == {
         'normalization_rule_version', 'classification_rule_version', 'reviewed_observation_count',
+        'reviewed_input_manifest',
         'canonical_aliases', 'canonical_authority', 'action_class_v2_projection',
         'action_projection_basis', 'proposed_unused_actions', 'unit_mapping_basis',
         'review_gate', 'limits', 'inventories'}, 'unknown or missing rule field')
@@ -93,8 +106,27 @@ def validate_rules(facts, rules):
              "unsupported normalization rule version")
     _require(rules["classification_rule_version"] == CLASSIFICATION_RULE_VERSION
              == classify_facets.RULE_VERSION, "classification rule version mismatch")
-    _require(len(rows) == rules["reviewed_observation_count"] == 299,
+    _require(type(rules["reviewed_observation_count"]) is int and
+             rules["reviewed_observation_count"] > 0 and
+             len(rows) == rules["reviewed_observation_count"],
              "reviewed observation count changed")
+    manifest = rules["reviewed_input_manifest"]
+    _require(isinstance(manifest, dict) and set(manifest) == {
+        "source", "dataset_version", "reviewed_observation_count", "observations_sha256",
+    }, "unknown or missing reviewed input manifest field")
+    _require(manifest["source"] == "data/facts.json", "reviewed input source changed")
+    _require(isinstance(manifest["dataset_version"], str) and manifest["dataset_version"],
+             "missing reviewed dataset version")
+    _require(type(manifest["reviewed_observation_count"]) is int and
+             manifest["reviewed_observation_count"] == rules["reviewed_observation_count"],
+             "reviewed manifest observation count changed")
+    digest = manifest["observations_sha256"]
+    _require(isinstance(digest, str) and len(digest) == 64 and
+             all(char in "0123456789abcdef" for char in digest),
+             "invalid reviewed observations_sha256")
+    if isinstance(facts, dict):
+        _require(facts.get("dataset_version") == manifest["dataset_version"],
+                 "reviewed dataset version changed")
     ids = [row["observation_id"] for row in rows]
     _require(len(set(ids)) == len(ids), "duplicate observation_id")
     _require(rules["canonical_aliases"] == {
@@ -111,12 +143,10 @@ def validate_rules(facts, rules):
         "rationale": "本清冊未將任何觀測判為初製；保存盒製作不等於文物初製。",
     }], "unused initial_preparation must not be assigned")
     counts = {}
-    expected_counts = {"metric_class": 91, "completion_status": 34,
-                       "unit_as_reported": 25}
     for field in RAW_FIELDS:
         entries = rules["inventories"][field]
         actual = _inventory(rows, field)
-        _require(len(entries) == len(actual) == expected_counts[field],
+        _require(isinstance(entries, list) and len(entries) == len(actual),
                  field + " inventory count changed")
         indexed = {}
         for entry in entries:
@@ -138,6 +168,8 @@ def validate_rules(facts, rules):
                          "unit alias cannot be a conversion")
         _require(indexed == actual, field + " unknown or changed inventory membership")
         counts[field] = len(actual)
+    _require(observation_digest(facts) == manifest["observations_sha256"],
+             "unreviewed observation content or order changed")
     for row in rows:
         label = row["observation_id"]
         expected = classify_facets.facets(row)
@@ -222,12 +254,16 @@ def build_outputs(facts, rules):
     rows = _rows(facts)
     intro = ("本表由 `scripts/normalization.py` 的 `build_outputs(facts, rules)` 產生。"
              "規則版 `1.0`；既有分類規則版 `1.2`。\n\n"
+             f"已審核 `data/facts.json` 版本 `{rules['reviewed_input_manifest']['dataset_version']}`，"
+             f"觀測清冊 {rules['reviewed_observation_count']} 筆；"
+             "輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。\n\n"
              "僅供搜尋與發現；未新增觀測、改寫原始欄位、拆配數量、換算或授予加總資格。"
              "各列依 `observation_id` 連回 `data/facts.json` 的原證據與來源定位。\n\n")
     metric = ["# 作業分類搜尋別名\n\n", intro,
               "`metric_class_original` 是既有歷史分類欄，並非館方原文；館方用語另存 `metric_as_reported`。"
               "`metric_class_normalized` 逐列直接複製既有 `action_categories` 陣列，"
-              "不能將 91 種原分類硬映為 91 個單一作業。相同原分類可能有不同標籤組合。\n\n",
+              f"不能將 {len(rules['inventories']['metric_class'])} 種原分類硬映為 "
+              f"{len(rules['inventories']['metric_class'])} 個單一作業。相同原分類可能有不同標籤組合。\n\n",
               "`action_class_v2` 是保留多標籤的搜尋投影；檢視／登錄與科學檢測共用搜尋值，"
               "細分類仍完整保留在 `metric_class_normalized` 與原觀測中。"
               "清潔、加固、裝裱、數位化、純數位修復及混合作業各自保留。\n\n",

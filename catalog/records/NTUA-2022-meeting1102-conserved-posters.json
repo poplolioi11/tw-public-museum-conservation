@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.14.0",
+  "dataset_version": "0.15.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -62,5 +62,5 @@
     "title": "國立臺灣藝術大學110學年度第2次校務會議紀錄（會議日期2022-06-07）",
     "verified_at": "2026-10-29T04:17:40.298794+00:00"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.14.0/catalog/records/NTUA-2022-meeting1102-conserved-posters.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.15.0/catalog/records/NTUA-2022-meeting1102-conserved-posters.json"
 }
