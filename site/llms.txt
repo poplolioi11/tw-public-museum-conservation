@@ -1,16 +1,18 @@
 # 臺灣公立館保存修護公開資料索引
 
-資料版本 0.16.0；資料截點 2026-10-30。這是有限來源子集，不是全國完整修護統計。
+資料版本 0.17.0；資料截點 2026-10-30。這是有限來源子集，不是全國完整修護統計。
 
 - [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
-- [本版完整公開事實](data/e50062b3fb77a6912c8856d22d73516fbedb97c9acc8f3592d1b95940c3e987c.json)：observations、sources、relations、body_reviews 與範圍摘要。
+- [本版完整公開事實](data/bc888e70167e2fc82f99ce7172c6a538f4ca0bd40a889c591f13c5d35acf50a7.json)：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙](data/38a6e7769ad84614fb08bd27c7dafb7b29ee05759acf3e6bdda6f7a87d31275d.json)：分類標籤及使用限制。
 - [有界資料整理](enrichment.html)：館年格全集與年份子集、缺量註記、關係及完成語覆核、文字表格與圖表。
+- [公立非年度量脈絡](context.html)：計畫、累計、平均與跨年專案，並非年度已施作量，不納入公立數值觀測。
+- [私立美術館試辦](private-art.html)：獨立資料層，保留原值、原單位、完成狀態與範圍，不混入公立觀測或分母。
 - 逐筆紀錄：records/{observation_id}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation)。
 
-共 307 列紀錄，列數不是修復物件數。保留原數字字串、量詞、完成狀態與官方來源。
-body_reviews含608則歷史查核；目前紀錄為未被extends_review_id延伸的所有紀錄，同館同年可有多則，不按日期或狀態挑一筆。六種查核狀態分開，適用正文待核不等於指定正文已讀無量；每則原註記的文字／圖頁範圍也不等於全年已讀。
+共 311 列紀錄，列數不是修復物件數。保留原數字字串、量詞、完成狀態與官方來源。
+body_reviews含626則歷史查核；目前紀錄為未被extends_review_id延伸的所有紀錄，同館同年可有多則，不按日期或狀態挑一筆。六種查核狀態分開，適用正文待核不等於指定正文已讀無量；每則原註記的文字／圖頁範圍也不等於全年已讀。
 metric_label供解讀，metric_as_reported保留原詞。專案原列對象量不等於年度已完成量，請同讀完成狀態、原報期間與對象範圍。
 未知不是零；近似量與雙單位不強轉整數；跨年數值不拆成年份；分項、合計與可能重疊的批次不相加。
 HTML 來源以 source_locator 定位，PDF 頁碼為 null；PDF 來源以 pdf_page_1_based 定位。
@@ -23,6 +25,8 @@ manifest.json 的 enrichment.downloads 與 enrichment.figures 提供每個端點
 coverage 的觀察單位是 organization_id×target_data_year；population 全集與年份子集互有重疊，不相加、不稱全國公開率。
 not_assessed、source_not_located、body_pending、no_quantity_scope_only 與 mixed_current_states 分別保留。
 normalization 僅為既有觀測的搜尋別名；不帶 quantity、不換算件數、不使混合作業或跨館量值可相加。
+manifest.json 的 public_context 與 private_art 各列 available、page、data 及 downloads；未納入的舊版本以 available=false 表示，不能解讀為零修護。
+新增層的下載入口保留輸入原始bytes；每個已採端點都有SHA-256與bytes。站點讀回須逐一核對這兩層的頁面與downloads，不能只核公立facts。
 - [查核格狀態與年份子集 JSON](data/coverage.json)
 - [缺量註記與引文 JSON](data/absence_annotations.json)
 - [缺量註記 JSONL](data/absence_annotations.jsonl)
@@ -50,3 +54,16 @@ normalization 僅為既有觀測的搜尋別名；不帶 quantity、不換算件
 - [集合與年份子集的查核格狀態](figures/coverage-states.svg)
 - [分組與年度的有界查核格](figures/coverage-facets.svg)
 - [既有缺量查核說明的內容標籤](figures/absence-tags.svg)
+- [公立非年度量脈絡 JSON](data/public_context_notes.json)
+- [公立非年度量脈絡 JSONL](data/public_context_notes.jsonl)
+- [公立非年度量脈絡 CSV](data/public_context_notes.csv)
+- [私立美術館試辦完整 JSON](data/private_art_pilot.json)
+- [私立館原報紀錄 CSV](data/private_art_observations.csv)
+- [私立館原報紀錄 JSONL](data/private_art_observations.jsonl)
+- [私立館來源清單 CSV](data/private_art_sources.csv)
+- [私立館來源清單 JSONL](data/private_art_sources.jsonl)
+- [私立館有界核讀 CSV](data/private_art_body_reviews.csv)
+- [私立館有界核讀 JSONL](data/private_art_body_reviews.jsonl)
+- [私立館範圍註記 CSV](data/private_art_scope_notes.csv)
+- [私立館範圍註記 JSONL](data/private_art_scope_notes.jsonl)
+- [私立館試辦範圍與輸出清單 JSON](data/private_art_pilot_build.json)

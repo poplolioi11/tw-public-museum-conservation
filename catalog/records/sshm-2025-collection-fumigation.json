@@ -3,9 +3,9 @@
     "observation_id": "sshm-2025-collection-fumigation",
     "original_completion_category_retained": true,
     "review_id": "completion-v016-sshm-2025-collection-fumigation",
-    "versioned_reviews_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/data/completion_reviews.json"
+    "versioned_reviews_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.17.0/data/completion_reviews.json"
   },
-  "dataset_version": "0.16.0",
+  "dataset_version": "0.17.0",
   "record": {
     "action_categories": [
       "maintenance"
@@ -56,5 +56,5 @@
     "title": "新北市立十三行博物館114年度單位決算",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/sshm-2025-collection-fumigation.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.17.0/catalog/records/sshm-2025-collection-fumigation.json"
 }

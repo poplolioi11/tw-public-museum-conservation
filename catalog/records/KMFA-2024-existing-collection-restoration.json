@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.16.0",
+  "dataset_version": "0.17.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -50,5 +50,5 @@
     "title": "高雄市專業文化機構113年度執行成果暨決算報告（高史博業務節錄）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/KMFA-2024-existing-collection-restoration.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.17.0/catalog/records/KMFA-2024-existing-collection-restoration.json"
 }

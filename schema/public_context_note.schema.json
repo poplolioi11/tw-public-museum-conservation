@@ -1,0 +1,23 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Non-annual public-source context; not a numeric observation",
+  "type":"object",
+  "properties":{
+    "note_id":{"type":"string"},
+    "organization_id":{"type":"string"},
+    "organization_name":{"type":"string"},
+    "source_id":{"type":"string"},
+    "source_locator":{"type":"string"},
+    "pdf_page_1_based":{"type":["integer","null"],"minimum":1},
+    "printed_page":{"type":["string","null"]},
+    "context_kind":{"enum":["undated_cumulative","multi_year_average","non_numeric_completed_project","narrative_maintenance","planned_quantity","case_completion_year_not_established"]},
+    "reporting_period_raw":{"type":["string","null"]},
+    "statement_as_reported":{"type":"string"},
+    "interpretation_note":{"type":"string"},
+    "verification_status":{"type":"string"},
+    "annual_quantity_eligible":{"const":false},
+    "default_aggregation_allowed":{"const":false}
+  },
+  "required":["note_id","organization_id","organization_name","source_id","source_locator","pdf_page_1_based","printed_page","context_kind","reporting_period_raw","statement_as_reported","interpretation_note","verification_status","annual_quantity_eligible","default_aggregation_allowed"],
+  "additionalProperties":false
+}

@@ -2,7 +2,7 @@
 
 本表由 `scripts/normalization.py` 的 `build_outputs(facts, rules)` 產生。規則版 `1.0`；既有分類規則版 `1.2`。
 
-已審核 `data/facts.json` 版本 `0.16.0`，觀測清冊 307 筆；輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。
+已審核 `data/facts.json` 版本 `0.17.0`，觀測清冊 311 筆；輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。
 
 僅供搜尋與發現；未新增觀測、改寫原始欄位、拆配數量、換算或授予加總資格。各列依 `observation_id` 連回 `data/facts.json` 的原證據與來源定位。
 
@@ -67,7 +67,7 @@
 | `mixed_selection_maintenance` | `["arrangement", "maintenance", "mixed_workflow"]` | 1 | `nmp-2021-display-selection-maintenance` |
 | `mounting` | `["mounting"]` | 2 | `pilot-ntcart-2025-mounting`, `tfam-2020-calligraphy_remounting` |
 | `museum_reported_inspection` | `["inspection_registration"]` | 12 | `NPM-2020-annual-inspection`, `NPM-2021-annual-inspection`, `NPM-2022-annual-inspection`, `NPM-2023-annual-inspection`, `NPM-2024-annual-inspection`, `NPM-2021-vdr2025-inspection`, `NPM-2022-vdr2025-inspection`, `NPM-2023-vdr2025-inspection`, `NPM-2024-vdr2025-inspection`, `NPM-2025-finalaccounts-inspection`, `NTCRI-2023-finalaccounts-condition-inspection`, `NTCRI-2023-finalaccounts-condition-form` |
-| `museum_reported_restoration` | `["restoration_as_reported"]` | 2 | `yilan-2025-oil-restoration8`, `NTUA-2022-meeting1102-conserved-posters` |
+| `museum_reported_restoration` | `["restoration_as_reported"]` | 6 | `yilan-2025-oil-restoration8`, `NTUA-2022-meeting1102-conserved-posters`, `gold-2020-library-document-treatment`, `taoyuan-2021-paper-completed`, `taoyuan-2023-repair-reported`, `taoyuan-2025-ink-completed` |
 | `museum_reported_treatment` | `["arrangement", "maintenance"]` | 1 | `nmh-2025-35` |
 | `museum_reported_treatment` | `["arrangement"]` | 8 | `ntmofa-2020-7`, `ntmofa-2021-8`, `ntmofa-2022-10`, `ntmofa-2022-9`, `ntmofa-2023-11`, `ntmofa-2023-12`, `ntmofa-2024-13`, `ntmofa-2024-14` |
 | `museum_reported_treatment` | `["cleaning", "restoration_as_reported"]` | 7 | `nmh-2021-26`, `nmh-2021-27`, `nmh-2022-28`, `nmh-2022-29`, `nmh-2023-30`, `nmh-2023-31`, `nmh-2024-33` |

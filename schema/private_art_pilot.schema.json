@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public-source private art museum pilot, separate from the public museum denominator",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_version", "scope", "public_baseline_eligible", "institutions", "sources", "observations", "body_reviews", "scope_notes"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "dataset_version": {"type": "string"},
+    "scope": {"const": "private_art_museum_pilot"},
+    "public_baseline_eligible": {"const": false},
+    "institutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["organization_id", "organization_name", "ownership_type", "official_url", "automatic_numeric_aggregation_allowed"],
+        "properties": {
+          "organization_id": {"type": "string"},
+          "organization_name": {"type": "string"},
+          "ownership_type": {"type": "string"},
+          "official_url": {"type": "string"},
+          "automatic_numeric_aggregation_allowed": {"const": false}
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "The existing facts.sources field whitelist; no original files are redistributed.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "title", "official_file_url", "official_landing_url", "original_file_bytes", "original_file_sha256", "original_file_type", "redistributed_original", "rights_basis", "source_use", "verified_at"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "title": {"type": "string"},
+          "official_file_url": {"type": "string"},
+          "official_landing_url": {"type": ["string", "null"]},
+          "original_file_bytes": {"type": "integer", "minimum": 1},
+          "original_file_sha256": {"type": "string"},
+          "original_file_type": {"enum": ["PDF", "HTML"]},
+          "original_file_pdf_pages": {"type": ["integer", "null"], "minimum": 1},
+          "redistributed_original": {"const": false},
+          "rights_basis": {"type": "string"},
+          "source_use": {"type": "string"},
+          "verified_at": {"type": "string"},
+          "data_year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
+          "publication_year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
+          "publication_year_note": {"type": "string"},
+          "publication_month": {"type": "integer", "minimum": 1, "maximum": 12},
+          "publication_year_basis": {"type": ["string", "null"]},
+          "reporting_period_raw": {"type": "string"},
+          "source_scope": {"type": "string"}
+        }
+      }
+    },
+    "observations": {"type": "array", "items": {"$ref": "observation.schema.json"}},
+    "body_reviews": {"type": "array", "items": {"$ref": "body_review.schema.json"}},
+    "relations": {"type": "array", "const": []},
+    "scope_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["note_id", "organization_id", "source_ids", "observation_ids", "note", "annual_quantity_eligible"],
+        "properties": {
+          "note_id": {"type": "string"},
+          "organization_id": {"type": "string"},
+          "source_ids": {"type": "array", "items": {"type": "string"}},
+          "observation_ids": {"type": "array", "items": {"type": "string"}},
+          "note": {"type": "string"},
+          "annual_quantity_eligible": {"const": false}
+        }
+      }
+    }
+  }
+}

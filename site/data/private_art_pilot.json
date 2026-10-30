@@ -1,0 +1,630 @@
+{
+  "body_reviews": [
+    {
+      "interpretation_note": "館內原報修護包含特展、園區戶外與借展作品，以及除蟲等作業；按原報保留，不列作自藏或純修復量。其他館內外範圍未能分離的承作數值與對象名單不採。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "PRIV-001-2020-internal-as-reported"
+      ],
+      "official_entry_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "review_id": "review-PRIV-001-2020-bounded-20261030",
+      "review_scope": "年度摘要與典藏／保存修護指定正文對讀；逐頁文字與原圖核讀層級依source_page_reviews，不代表全冊或全年所有來源。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        14,
+        15,
+        16
+      ],
+      "source_ids": [
+        "src-e47baafca8679d5b"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            4,
+            16
+          ],
+          "pdf_pages_1_based": [
+            4,
+            14,
+            15,
+            16
+          ],
+          "review_scope": "本輪僅保存典藏維護適用內容，其餘頁段資料不列入。",
+          "source_id": "src-e47baafca8679d5b",
+          "text_read_pdf_pages_1_based": [
+            4,
+            14,
+            15,
+            16
+          ],
+          "verification_status": "bounded_text_read_with_selected_original_images_viewed"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "原報館內作品修護涵蓋典藏品、借展及特展作品；按原報範圍保留，不列作全為自藏或純修復量。年度原報未另載整批完成，不以一般性作業說明推定本年完成量，也不與其他分項加總。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "PRIV-001-2021-internal-as-reported"
+      ],
+      "official_entry_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "review_id": "review-PRIV-001-2021-bounded-20261030",
+      "review_scope": "年度摘要與典藏／保存修護指定正文對讀；逐頁文字與原圖核讀層級依source_page_reviews，不代表全冊或全年所有來源。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        14,
+        15,
+        16
+      ],
+      "source_ids": [
+        "src-1149028b4ddc4515"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            4,
+            16
+          ],
+          "pdf_pages_1_based": [
+            4,
+            14,
+            15,
+            16
+          ],
+          "review_scope": "本輪僅保存典藏維護適用內容，其餘頁段資料不列入。",
+          "source_id": "src-1149028b4ddc4515",
+          "text_read_pdf_pages_1_based": [
+            4,
+            14,
+            15,
+            16
+          ],
+          "verification_status": "bounded_text_read_with_selected_original_images_viewed"
+        }
+      ],
+      "target_data_year": 2021,
+      "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "摘要與正文對館內外對象的描述不盡相同，館內外範圍未能分離；本輪未採適用館內年度數值或對象名單，保留原頁定位，不相減或另行推算。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "review_id": "review-PRIV-001-2022-bounded-20261030",
+      "review_scope": "年度摘要與典藏／保存修護指定正文對讀；逐頁文字與原圖核讀層級依source_page_reviews，不代表全冊或全年所有來源。",
+      "review_status": "annual_scope_not_separable",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        7,
+        8,
+        9
+      ],
+      "source_ids": [
+        "src-b17702eed7901a55"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            4,
+            9
+          ],
+          "pdf_pages_1_based": [
+            4,
+            7,
+            8,
+            9
+          ],
+          "review_scope": "本輪僅保存典藏維護適用內容，其餘頁段資料不列入。",
+          "source_id": "src-b17702eed7901a55",
+          "text_read_pdf_pages_1_based": [
+            4,
+            7,
+            8,
+            9
+          ],
+          "verification_status": "bounded_text_read_with_selected_original_images_viewed"
+        }
+      ],
+      "target_data_year": 2022,
+      "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "摘要與正文的年度維護修護對象描述不盡相同，館內外範圍未能分離；未列作自藏年度量。另列館內砂岩個案與年度口徑的包含關係未明，不另加總。材質鑑定段標示去年度，不配列本年。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "PRIV-001-2023-sandstone-maintenance"
+      ],
+      "official_entry_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "review_id": "review-PRIV-001-2023-bounded-20261030",
+      "review_scope": "年度摘要與典藏／保存修護指定正文對讀；逐頁文字與原圖核讀層級依source_page_reviews，不代表全冊或全年所有來源。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "source_ids": [
+        "src-3be9a7c18b7ee874"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            4,
+            9,
+            10
+          ],
+          "pdf_pages_1_based": [
+            4,
+            8,
+            9,
+            10
+          ],
+          "review_scope": "本輪僅保存典藏維護適用內容，其餘頁段資料不列入。",
+          "source_id": "src-3be9a7c18b7ee874",
+          "text_read_pdf_pages_1_based": [
+            4,
+            8,
+            9,
+            10
+          ],
+          "verification_status": "bounded_text_read_with_selected_original_images_viewed"
+        }
+      ],
+      "target_data_year": 2023,
+      "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "摘要與正文對年度修護對象的描述不盡相同，館內外範圍未能分離；本輪未採年度量或對象名單，保留原頁定位，不相減或另行推算。災損與撤離數不列作修復完成量。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "review_id": "review-PRIV-001-2024-bounded-20261030",
+      "review_scope": "年度摘要與典藏／保存修護指定正文對讀；逐頁文字與原圖核讀層級依source_page_reviews，不代表全冊或全年所有來源。",
+      "review_status": "annual_scope_not_separable",
+      "reviewed_pdf_pages_1_based": [
+        3,
+        18,
+        19,
+        20,
+        21
+      ],
+      "source_ids": [
+        "src-89882e8fba430e72"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            3,
+            21
+          ],
+          "pdf_pages_1_based": [
+            3,
+            18,
+            19,
+            20,
+            21
+          ],
+          "review_scope": "本輪僅保存典藏維護適用內容，其餘頁段資料不列入。",
+          "source_id": "src-89882e8fba430e72",
+          "text_read_pdf_pages_1_based": [
+            3,
+            18,
+            19,
+            20,
+            21
+          ],
+          "verification_status": "bounded_text_read_with_selected_original_images_viewed"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "僅採正文已明載完成、且摘要與正文一致的館內藏品修護。其餘館外承作數值與對象名單不列入。同頁教學合作個案未另載逐件完成語與年度量包含關係，不另加總。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "PRIV-001-2025-internal-completed-as-reported"
+      ],
+      "official_entry_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "review_id": "review-PRIV-001-2025-bounded-20261030",
+      "review_scope": "年度摘要與典藏／保存修護指定正文對讀；逐頁文字與原圖核讀層級依source_page_reviews，不代表全冊或全年所有來源。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        3,
+        19,
+        20,
+        21
+      ],
+      "source_ids": [
+        "src-a2844d89b5274365"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            3,
+            21
+          ],
+          "pdf_pages_1_based": [
+            3,
+            19,
+            20,
+            21
+          ],
+          "review_scope": "本輪僅保存典藏維護適用內容，其餘頁段資料不列入。",
+          "source_id": "src-a2844d89b5274365",
+          "text_read_pdf_pages_1_based": [
+            3,
+            19,
+            20,
+            21
+          ],
+          "verification_status": "bounded_text_read_with_selected_original_images_viewed"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-10-30"
+    }
+  ],
+  "dataset_version": "0.17.0",
+  "institutions": [
+    {
+      "automatic_numeric_aggregation_allowed": false,
+      "official_url": "https://www.juming.org.tw/",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "ownership_type": "私立藝術家基金會館"
+    }
+  ],
+  "observations": [
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "additional_pdf_pages_1_based": [
+        4
+      ],
+      "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2020,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原文為「館內典藏品修護件數為」，未另載完成；包括特展、園區戶外、借展及除蟲等混合口徑，不稱自藏年修復量，不與館外或其他分項相加。",
+      "metric_as_reported": "館內典藏品修護",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "館內典藏品修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "PRIV-001-2020-internal-as-reported",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "pdf_page_1_based": 16,
+      "printed_page": "29（跨頁29-30左頁）",
+      "publication_year": null,
+      "quantity_numeric": 126,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "126",
+      "record_kind": "observation",
+      "source_id": "src-e47baafca8679d5b",
+      "source_scope": "2020年報典藏維護／保存修護指定正文；摘要另對讀",
+      "subject_scope": "館內特展、園區戶外及借展作品混合，未分權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "additional_pdf_pages_1_based": [
+        4
+      ],
+      "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2021,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "正文原文「2021年館內作品修護件數為123件」，包含典藏品、借展及特展作品，與摘要對讀一致；未另載本年整批完成，不以一般性作業說明推定完成。不稱全為自藏或純修復量，也不與其他分項相加。",
+      "metric_as_reported": "館內作品修護",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "館內作品修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "PRIV-001-2021-internal-as-reported",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "pdf_page_1_based": 16,
+      "printed_page": "29（跨頁29-30左頁）",
+      "publication_year": null,
+      "quantity_numeric": 123,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "123",
+      "record_kind": "observation",
+      "source_id": "src-1149028b4ddc4515",
+      "source_scope": "2021年報典藏維護／保存修護指定正文；摘要另對讀",
+      "subject_scope": "館內典藏、借展及特展作品混合，未分權屬",
+      "subject_scope_category": "mixed_or_not_confirmed",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "maintenance"
+      ],
+      "additional_pdf_pages_1_based": [],
+      "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.2",
+      "completion_category": "annual_execution_not_explicit",
+      "completion_status": "annual_execution_reported",
+      "cross_museum_comparable": false,
+      "data_year": 2023,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "原文稱今年度針對劣化較嚴重的一件作品進行維護，未另載完成；是館內砂岩個案，不當全館全年量，與年度維護修護口徑的包含關係未明。",
+      "metric_as_reported": "一件作品進行維護",
+      "metric_class": "museum_reported_maintenance",
+      "metric_label": "一件作品進行維護",
+      "numeric_origin": "source_reported",
+      "observation_id": "PRIV-001-2023-sandstone-maintenance",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "pdf_page_1_based": 10,
+      "printed_page": "17（跨頁17-18左頁）",
+      "publication_year": null,
+      "quantity_numeric": 1,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "一",
+      "record_kind": "observation",
+      "source_id": "src-3be9a7c18b7ee874",
+      "source_scope": "2023年報典藏維護／保存修護指定正文；摘要另對讀",
+      "subject_scope": "本館典藏作品（石雕修護保存教育區砂岩雕塑個案）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    },
+    {
+      "action_categories": [
+        "restoration_as_reported"
+      ],
+      "additional_pdf_pages_1_based": [
+        3
+      ],
+      "aggregation_role": "standalone_scope",
+      "classification_rule_version": "1.2",
+      "completion_category": "explicit_completed",
+      "completion_status": "原文明載完成",
+      "cross_museum_comparable": false,
+      "data_year": 2025,
+      "default_aggregation_allowed": false,
+      "interpretation_note": "正文原文「2025年完成館內藏品修護共189件」與摘要對讀一致；原報修護含維護保存口徑，不改稱純修復、唯一物件數或跨年可比工作量。不含館外委託，不與同頁教學個案另行相加。",
+      "metric_as_reported": "完成館內藏品修護",
+      "metric_class": "museum_reported_treatment",
+      "metric_label": "完成館內藏品修護",
+      "numeric_origin": "source_reported",
+      "observation_id": "PRIV-001-2025-internal-completed-as-reported",
+      "organization_id": "PRIV-001",
+      "organization_name": "朱銘美術館",
+      "pdf_page_1_based": 21,
+      "printed_page": "42（該PDF展開頁右下印刷頁碼）",
+      "publication_year": null,
+      "quantity_numeric": 189,
+      "quantity_qualifier": "exact_as_reported",
+      "quantity_raw": "189",
+      "record_kind": "observation",
+      "source_id": "src-a2844d89b5274365",
+      "source_scope": "2025年報典藏維護／保存修護指定正文；摘要另對讀",
+      "subject_scope": "本館藏品（依原報館內藏品）",
+      "subject_scope_category": "own_collection_as_reported",
+      "unique_object_count_verified": false,
+      "unit_as_reported": "件",
+      "unit_status": "reported",
+      "verification_status": "pdf_original_page_render_visually_read_and_text_checked_where_decodable",
+      "year_on_year_ready": false
+    }
+  ],
+  "public_baseline_eligible": false,
+  "relations": [],
+  "schema_version": "1.0",
+  "scope": "private_art_museum_pilot",
+  "scope_notes": [
+    {
+      "annual_quantity_eligible": false,
+      "note": "館內原報修護包含特展、園區戶外與借展作品，以及除蟲等作業；按原報保留，不列作自藏或純修復量。其他館內外範圍未能分離的承作數值與對象名單不採。",
+      "note_id": "scope-PRIV-001-2020-bounded",
+      "observation_ids": [
+        "PRIV-001-2020-internal-as-reported"
+      ],
+      "organization_id": "PRIV-001",
+      "source_ids": [
+        "src-e47baafca8679d5b"
+      ]
+    },
+    {
+      "annual_quantity_eligible": false,
+      "note": "原報館內作品修護涵蓋典藏品、借展及特展作品；按原報範圍保留，不列作全為自藏或純修復量。年度原報未另載整批完成，不以一般性作業說明推定本年完成量，也不與其他分項加總。",
+      "note_id": "scope-PRIV-001-2021-bounded",
+      "observation_ids": [
+        "PRIV-001-2021-internal-as-reported"
+      ],
+      "organization_id": "PRIV-001",
+      "source_ids": [
+        "src-1149028b4ddc4515"
+      ]
+    },
+    {
+      "annual_quantity_eligible": false,
+      "note": "摘要與正文對館內外對象的描述不盡相同，館內外範圍未能分離；本輪未採適用館內年度數值或對象名單，保留原頁定位，不相減或另行推算。",
+      "note_id": "scope-PRIV-001-2022-bounded",
+      "observation_ids": [],
+      "organization_id": "PRIV-001",
+      "source_ids": [
+        "src-b17702eed7901a55"
+      ]
+    },
+    {
+      "annual_quantity_eligible": false,
+      "note": "摘要與正文的年度維護修護對象描述不盡相同，館內外範圍未能分離；未列作自藏年度量。另列館內砂岩個案與年度口徑的包含關係未明，不另加總。材質鑑定段標示去年度，不配列本年。",
+      "note_id": "scope-PRIV-001-2023-bounded",
+      "observation_ids": [
+        "PRIV-001-2023-sandstone-maintenance"
+      ],
+      "organization_id": "PRIV-001",
+      "source_ids": [
+        "src-3be9a7c18b7ee874"
+      ]
+    },
+    {
+      "annual_quantity_eligible": false,
+      "note": "摘要與正文對年度修護對象的描述不盡相同，館內外範圍未能分離；本輪未採年度量或對象名單，保留原頁定位，不相減或另行推算。災損與撤離數不列作修復完成量。",
+      "note_id": "scope-PRIV-001-2024-bounded",
+      "observation_ids": [],
+      "organization_id": "PRIV-001",
+      "source_ids": [
+        "src-89882e8fba430e72"
+      ]
+    },
+    {
+      "annual_quantity_eligible": false,
+      "note": "僅採正文已明載完成、且摘要與正文一致的館內藏品修護。其餘館外承作數值與對象名單不列入。同頁教學合作個案未另載逐件完成語與年度量包含關係，不另加總。",
+      "note_id": "scope-PRIV-001-2025-bounded",
+      "observation_ids": [
+        "PRIV-001-2025-internal-completed-as-reported"
+      ],
+      "organization_id": "PRIV-001",
+      "source_ids": [
+        "src-a2844d89b5274365"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "data_year": 2020,
+      "official_file_url": "https://comet.noonspace.com/w62/ec/MsgInfo/2020.pdf",
+      "official_landing_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "original_file_bytes": 3164141,
+      "original_file_pdf_pages": 30,
+      "original_file_sha256": "e47baafca8679d5b7f8323345ed52014c9f9121fa216743c99aa0c39ad3fd60c",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "年報年度作資料年；本輪未另核明出版日期，不由PDF上傳日期推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e47baafca8679d5b",
+      "source_use": "private_art_bounded_body_review",
+      "title": "朱銘美術館2020年報",
+      "verified_at": "2026-10-30"
+    },
+    {
+      "data_year": 2021,
+      "official_file_url": "https://comet.noonspace.com/w62/ec/MsgInfo/2021.pdf",
+      "official_landing_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "original_file_bytes": 34714410,
+      "original_file_pdf_pages": 29,
+      "original_file_sha256": "1149028b4ddc4515d412de6044198cf7fc133eeb466f9bd5cedf07e54239285f",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "年報年度作資料年；本輪未另核明出版日期，不由PDF上傳日期推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-1149028b4ddc4515",
+      "source_use": "private_art_bounded_body_review",
+      "title": "朱銘美術館2021年報",
+      "verified_at": "2026-10-30"
+    },
+    {
+      "data_year": 2022,
+      "official_file_url": "https://comet.noonspace.com/w62/ec/MsgInfo/JM_2022AnnualReport.pdf",
+      "official_landing_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "original_file_bytes": 2697271,
+      "original_file_pdf_pages": 31,
+      "original_file_sha256": "b17702eed7901a554cf312abfbfc2c999f95b4ff41c5e7122af8e419b40aa836",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "年報年度作資料年；本輪未另核明出版日期，不由PDF上傳日期推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b17702eed7901a55",
+      "source_use": "private_art_bounded_body_review",
+      "title": "朱銘美術館2022年報",
+      "verified_at": "2026-10-30"
+    },
+    {
+      "data_year": 2023,
+      "official_file_url": "https://comet.noonspace.com/w62/ec/MsgInfo/JM_2023AnnualReport.pdf",
+      "official_landing_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "original_file_bytes": 2987142,
+      "original_file_pdf_pages": 32,
+      "original_file_sha256": "3be9a7c18b7ee874b3a1159ab37a6ca6d5bdaffea44298c06a64f028827ea67a",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "年報年度作資料年；本輪未另核明出版日期，不由PDF上傳日期推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-3be9a7c18b7ee874",
+      "source_use": "private_art_bounded_body_review",
+      "title": "朱銘美術館2023年報",
+      "verified_at": "2026-10-30"
+    },
+    {
+      "data_year": 2024,
+      "official_file_url": "https://comet.noonspace.com/w62/ec/MsgInfo/2024%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "original_file_bytes": 7813372,
+      "original_file_pdf_pages": 35,
+      "original_file_sha256": "89882e8fba430e72af6f2440a16f3b47bc738740b2971f635f5aa99e47a5927f",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "年報年度作資料年；本輪未另核明出版日期，不由PDF上傳日期推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-89882e8fba430e72",
+      "source_use": "private_art_bounded_body_review",
+      "title": "朱銘美術館2024年報",
+      "verified_at": "2026-10-30"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://comet.noonspace.com/w62/ec/ClassInfo/2025%E5%B9%B4%E5%A0%B1.pdf",
+      "official_landing_url": "https://www.juming.org.tw/main/modules/MySpace/index.php?pg=ZC845516&sn=ec",
+      "original_file_bytes": 6391940,
+      "original_file_pdf_pages": 35,
+      "original_file_sha256": "a2844d89b527436577b03fa62fc70bc3a588d4591217dfb30682f53455e4321d",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "publication_year_note": "年報年度作資料年；本輪未另核明出版日期，不由PDF上傳日期推定。",
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-a2844d89b5274365",
+      "source_use": "private_art_bounded_body_review",
+      "title": "朱銘美術館2025年報",
+      "verified_at": "2026-10-30"
+    }
+  ]
+}

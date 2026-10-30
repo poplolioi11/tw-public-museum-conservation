@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-30",
   "data_schema_version": "4.0",
-  "dataset_version": "0.16.0",
+  "dataset_version": "0.17.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -336,7 +336,21 @@
       "scope": "高美館2歷史格索引、86關係附表及14筆完成語原頁覆核",
       "source_review_records": 608,
       "unique_source_year_cells": 471
+    },
+    {
+      "completed_in_release": "v0.17.0",
+      "deployment_verification_basis": "整階段驗收後一次發行；附件、同提交CI、實站與私人Drive另讀回，本metadata不是部署回執。",
+      "national_or_all_years_complete": false,
+      "new_public_observation_records": 4,
+      "new_public_review_records": 18,
+      "new_public_source_versions": 15,
+      "original_307_observations_330_sources_608_reviews_86_relations_preserved": true,
+      "original_71x6_baseline_retained": true,
+      "private_art_separate_from_public_denominators": true,
+      "public_context_note_records": 6,
+      "scope": "桃園與黃金指定正文、師大公立大學館脈絡及朱銘私立獨立試辦",
+      "taoyuan_2024_body_pending": true
     }
   ],
-  "ongoing_gaps": "原36格適用正文待核與48格未定位來源，本輪無確認適用的新觸發證據，不重抓同一失敗端點；新高史博2020格未定位適用館級來源另記。72個聯集格無查核索引，不等於未做或未公開；不開新館批次。"
+  "ongoing_gaps": "原36格適用正文待核及48格未定位來源保留，無新觸發不重抓；另有高史博2020與桃園2024正文待核等後續子集狀態，依逐格表解讀。新增公立大學候選與私立試辦分列，不以累計、計畫或跨年數代填年度完成量。"
 }

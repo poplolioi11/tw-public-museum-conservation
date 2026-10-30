@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VIEWER_VERSION = '1.2.0'
+VIEWER_VERSION = '1.3.0'
 REPOSITORY = 'https://github.com/poplolioi11/tw-public-museum-conservation'
 ENRICHMENT_DOWNLOADS = {
     'coverage': ('metadata/coverage.json', '查核格狀態與年份子集 JSON'),
@@ -41,6 +41,24 @@ ENRICHMENT_DOWNLOADS = {
     'completion_reviews_csv': ('data/completion_reviews.csv', '指定完成語覆核 CSV'),
     'completion_review_rules': ('metadata/completion_review_rules.json', '完成語覆核範圍與清冊 JSON'),
     'completion_review_build': ('metadata/completion_review_build.json', '完成語覆核版本與限制 JSON'),
+}
+OPTIONAL_DOWNLOADS = {
+    'public_context': {
+        'json': ('data/public_context_notes.json', '公立非年度量脈絡 JSON'),
+        'jsonl': ('data/public_context_notes.jsonl', '公立非年度量脈絡 JSONL'),
+        'csv': ('data/public_context_notes.csv', '公立非年度量脈絡 CSV'),
+    },
+    'private_art': {
+        'json': ('data/private_art_pilot.json', '私立美術館試辦完整 JSON'),
+        **{name + '_' + ext: ('data/' + name + '.' + ext, label + ' ' + ext.upper())
+           for name, label in (
+               ('private_art_observations', '私立館原報紀錄'),
+               ('private_art_sources', '私立館來源清單'),
+               ('private_art_body_reviews', '私立館有界核讀'),
+               ('private_art_scope_notes', '私立館範圍註記'))
+           for ext in ('csv', 'jsonl')},
+        'build': ('metadata/private_art_pilot_build.json', '私立館試辦範圍與輸出清單 JSON'),
+    },
 }
 FIGURES = {
     'coverage-states.svg': ('集合與年份子集的查核格狀態',
@@ -81,18 +99,144 @@ def relation_ids(relation):
 
 def input_snapshot(root):
     names = ['VERSION', 'data/facts.json', 'schema/vocabulary.json', 'scripts/build_site.py']
-    names += ['site-src/' + name for name in ('index.html', 'enrichment.html', 'app.css', 'app.js')]
+    names += ['site-src/' + name for name in ('index.html', 'enrichment.html', 'context.html',
+                                             'private-art.html', 'app.css', 'app.js')]
     names += [path for path, _ in ENRICHMENT_DOWNLOADS.values()]
     names += ['metadata/inventory.json', 'schema/absence_annotation.schema.json',
               'schema/normalization_record.schema.json']
     names += ['docs/figures/' + name for name in FIGURES]
+    names += [path for group in OPTIONAL_DOWNLOADS.values() for path, _ in group.values()
+              if (root / path).is_file()]
     return {name: (root / name).read_bytes() for name in names}
 
 
 def safe_old_path(name):
     fixed = {'data/' + Path(path).name for path, _ in ENRICHMENT_DOWNLOADS.values()}
+    fixed |= {'data/' + Path(path).name for group in OPTIONAL_DOWNLOADS.values()
+              for path, _ in group.values()}
     fixed |= {'figures/' + name for name in FIGURES}
     return name in fixed or bool(re.fullmatch(r'data/[a-f0-9]{64}\.json|records/[A-Za-z0-9._-]+\.json', name))
+
+
+def source_link(source, row):
+    """Link only declared public official URLs; never copy an original."""
+    url = source.get('official_file_url') or source.get('official_landing_url') or ''
+    if not re.match(r'^https?://[^/\s]+', url):
+        raise ValueError('Missing public official source URL: ' + str(row.get('source_id')))
+    page = row.get('pdf_page_1_based')
+    if page is not None:
+        url = url.split('#', 1)[0] + '#page=' + str(page)
+        locator = 'PDF ' + str(page) + '／印 ' + str(row.get('printed_page') or '未列')
+    else:
+        locator = row.get('source_locator') or '官方正文'
+    return ('<a href="' + escape(url, quote=True) + '">' + escape(locator) + '</a>'
+            '<span class="supplement-source-id mono">' + escape(row.get('source_id', '')) + '</span>')
+
+
+def supplemental_pages(inputs, facts, vocabulary, version, outputs):
+    """Render two separate optional public-source layers without merging facts."""
+    sources = {s['source_id']: s for s in facts['sources']}
+    entries = {}
+    context_labels = {'planned_quantity': '計畫／優先對象', 'undated_cumulative': '未定統計期的累計',
+        'multi_year_average': '長期平均', 'non_numeric_completed_project': '跨年完成專案脈絡',
+        'narrative_maintenance': '維護敘述', 'case_completion_year_not_established': '完成年度未確立的個案'}
+    review_labels = {'numeric_observations_verified': '有原報數值（仍依分項限制）',
+        'body_read_no_eligible_quantity_located': '指定正文已讀，未定位適用量',
+        'annual_scope_not_separable': '年度或對象範圍無法分離',
+        'source_found_body_not_reviewed': '適用正文待核',
+        'source_not_located_in_this_search': '本輪未定位適用來源',
+        'outside_selected_scope': '不在本次採用範圍'}
+
+    def downloads_for(key):
+        downloads = {}
+        for name, (path, label) in OPTIONAL_DOWNLOADS[key].items():
+            if path not in inputs:
+                continue
+            body = inputs[path]
+            dest = 'data/' + Path(path).name
+            outputs[dest] = body
+            downloads[name] = {'url': dest, 'download_url': './' + dest, 'label': label,
+                               'source_path': path, 'sha256': sha(body), 'bytes': len(body)}
+        return downloads
+
+    def render(key, filename, content, available, count):
+        downloads = downloads_for(key) if available else {}
+        links = ('<ul>' + ''.join('<li><a href="./' + escape(d['url'], quote=True) + '">' +
+            escape(d['label']) + '</a> <span class="download-size">（' + str(d['bytes']) +
+            ' bytes）</span></li>' for d in downloads.values()) + '</ul>') if downloads else '<p>此版本沒有可下載的本層資料檔。</p>'
+        body = inputs['site-src/' + filename].decode()
+        for marker, value in {'__DATASET_VERSION__': escape(version), '__AS_OF__': escape(facts['as_of']),
+                              '__MODULE_CONTENT__': content, '__DOWNLOAD_LINKS__': links}.items():
+            if marker not in body:
+                raise ValueError('Supplement HTML marker missing: ' + marker)
+            body = body.replace(marker, value)
+        if re.search(r'__[A-Z_]+__', body):
+            raise ValueError('Unresolved supplement HTML marker')
+        outputs[filename] = body.encode()
+        entries[key] = {'available': available, 'record_count': count if available else None,
+            'page': {'url': filename, 'sha256': sha(outputs[filename]), 'bytes': len(outputs[filename])},
+            'data': downloads.get('json'), 'downloads': downloads,
+            'included_in_public_numeric_observations': False,
+            'included_in_public_coverage_denominators': False}
+
+    context_path = OPTIONAL_DOWNLOADS['public_context']['json'][0]
+    if context_path in inputs:
+        notes = json.loads(inputs[context_path])
+        if not isinstance(notes, list) or any(n.get('annual_quantity_eligible') is not False or
+                n.get('default_aggregation_allowed') is not False for n in notes):
+            raise ValueError('Public context must remain non-annual and non-aggregating')
+        rows = []
+        for n in notes:
+            if n['source_id'] not in sources:
+                raise ValueError('Unresolved public-context source: ' + n['note_id'])
+            rows.append('<tr><th scope="row">' + escape(n['organization_name']) +
+                '<span class="period-label">' + escape(n.get('reporting_period_raw') or '期間未明列') +
+                '</span></th><td><span class="badge">' + escape(context_labels.get(n['context_kind'], n['context_kind'])) +
+                '</span><p>' + escape(n['statement_as_reported']) + '</p></td><td>' +
+                escape(n['interpretation_note']) + '</td><td>' + source_link(sources[n['source_id']], n) + '</td></tr>')
+        content = '<p>本版列出 ' + str(len(notes)) + ' 則來源脈絡；則數不是修護物件數。</p>'
+        content += ('<div class="table-wrap" tabindex="0" role="region" aria-label="公立脈絡表，可橫向捲動"><table class="supplement-table"><caption>保留原句與期間；計畫數、累計、平均及跨年專案不等於年度已施作量</caption><thead><tr><th scope="col">館所／原報期間</th><th scope="col">原報脈絡</th><th scope="col">解讀界線</th><th scope="col">官方來源</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>') if rows else '<p>本版本未列脈絡紀錄，不表示館所沒有保存工作。</p>'
+        render('public_context', 'context.html', content, True, len(notes))
+    else:
+        render('public_context', 'context.html', '<p class="notice">此資料版本尚未納入公立非年度量脈絡檔；這是版本範圍，不是零修護。</p>', False, 0)
+
+    private_path = OPTIONAL_DOWNLOADS['private_art']['json'][0]
+    if private_path in inputs:
+        data = json.loads(inputs[private_path])
+        if data.get('dataset_version') != version or data.get('scope') != 'private_art_museum_pilot' or data.get('public_baseline_eligible') is not False:
+            raise ValueError('Private-art data version or separate-scope declaration differs')
+        for key in ('observations', 'sources', 'body_reviews', 'scope_notes'):
+            if not isinstance(data.get(key), list):
+                raise ValueError('Private-art list missing: ' + key)
+        private_sources = {s['source_id']: s for s in data['sources']}
+        rows = []
+        for o in data['observations']:
+            if o['source_id'] not in private_sources or o.get('default_aggregation_allowed') is not False:
+                raise ValueError('Unresolved or aggregating private-art observation')
+            period = o.get('reporting_period_raw') or (str(o['data_year']) if o.get('data_year') is not None else '年度未明列')
+            raw = o.get('quantity_raw')
+            quantity = '原文未列數量' if raw is None else str(raw)
+            unit = o.get('unit_as_reported') or '單位未列'
+            completion = vocabulary.get('completion_categories', {}).get(o.get('completion_category'), o.get('completion_category') or '狀態未分類')
+            holding = vocabulary.get('holding_scope_categories', {}).get(o.get('subject_scope_category'), o.get('subject_scope_category') or '範圍未分類')
+            rows.append('<tr><th scope="row">' + escape(o['organization_name']) + '<span class="period-label">' + escape(period) +
+                '</span></th><td><strong>' + escape(o['metric_as_reported']) + '</strong><p class="quantity">' + escape(quantity) +
+                '<span class="quantity-unit">' + escape(unit) + '</span></p><span class="mono">' + escape(o['observation_id']) +
+                '</span></td><td>' + escape(completion) + '<p class="period-label">原狀態：' + escape(o.get('completion_status') or '未列') +
+                '</p></td><td><span class="badge">' + escape(holding) + '</span><p>' + escape(o.get('subject_scope') or '未列') +
+                '</p><p>' + escape(o.get('source_scope') or '') + '</p><p>' + escape(o['interpretation_note']) +
+                '</p></td><td>' + source_link(private_sources[o['source_id']], o) + '</td></tr>')
+        content = '<p>本版有 ' + str(len(data['observations'])) + ' 列原報紀錄、' + str(len(data['body_reviews'])) + ' 則有界核讀；列數與則數都不是修護物件總數。</p>'
+        content += ('<div class="table-wrap" tabindex="0" role="region" aria-label="私立館原報紀錄，可橫向捲動"><table class="supplement-table private-records"><caption>各列保持原值、原單位、完成狀態及對象範圍；不作年度或館際加總</caption><thead><tr><th scope="col">館所／期間</th><th scope="col">作業與原報數量</th><th scope="col">完成狀態</th><th scope="col">對象範圍與解讀界線</th><th scope="col">官方來源</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>') if rows else '<p>本版尚無採入的私立館數值紀錄；不表示零修護。</p>'
+        content += '<h3 class="supplement-subheading">年度核讀與未採原因</h3><p>未列年份只表示本版尚未納入適用核讀，不補成零；同年有分項量也不代表全年範圍已完整。</p>'
+        for r in data['body_reviews']:
+            content += '<details class="review-entry"><summary>' + escape(r['organization_name'] + '／' + str(r['target_data_year']) + '｜' + review_labels.get(r['review_status'], r['review_status'])) + '</summary><div class="review-body"><p>' + escape(r['review_scope']) + '</p><p>' + escape(r['interpretation_note']) + '</p></div></details>'
+        if data['scope_notes']:
+            content += '<h3 class="supplement-subheading">保留的範圍註記</h3><ul>' + ''.join('<li>' + escape(n['note']) + '</li>' for n in data['scope_notes']) + '</ul>'
+        render('private_art', 'private-art.html', content, True, len(data['observations']))
+    else:
+        render('private_art', 'private-art.html', '<p class="notice">此資料版本尚未納入私立美術館試辦資料；未與公立館資料合併，也不表示零修護。</p>', False, 0)
+    return entries
 
 
 def enrichment_page(inputs, facts, version, outputs):
@@ -254,6 +398,7 @@ def expected(root, inputs):
         related = [r for r in facts['relations'] if record_id in relation_ids(r)]
         outputs['records/' + record_id + '.json'] = stable({'dataset_version': version, 'observation': row, 'source': source_map[row['source_id']], 'relations': related})
     enrichment = enrichment_page(inputs, facts, version, outputs)
+    supplements = supplemental_pages(inputs, facts, vocabulary, version, outputs)
     template = inputs['site-src/index.html'].decode()
     if '__DATASET_VERSION__' not in template:
         raise ValueError('HTML dataset-version marker missing')
@@ -269,6 +414,8 @@ def expected(root, inputs):
 - [本版完整公開事實]({entries['data']['url']})：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙]({entries['vocabulary']['url']})：分類標籤及使用限制。
 - [有界資料整理](enrichment.html)：館年格全集與年份子集、缺量註記、關係及完成語覆核、文字表格與圖表。
+- [公立非年度量脈絡](context.html)：計畫、累計、平均與跨年專案，並非年度已施作量，不納入公立數值觀測。
+- [私立美術館試辦](private-art.html)：獨立資料層，保留原值、原單位、完成狀態與範圍，不混入公立觀測或分母。
 - 逐筆紀錄：records/{{observation_id}}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本]({REPOSITORY})。
 
@@ -286,11 +433,22 @@ manifest.json 的 enrichment.downloads 與 enrichment.figures 提供每個端點
 coverage 的觀察單位是 organization_id×target_data_year；population 全集與年份子集互有重疊，不相加、不稱全國公開率。
 not_assessed、source_not_located、body_pending、no_quantity_scope_only 與 mixed_current_states 分別保留。
 normalization 僅為既有觀測的搜尋別名；不帶 quantity、不換算件數、不使混合作業或跨館量值可相加。
+manifest.json 的 public_context 與 private_art 各列 available、page、data 及 downloads；未納入的舊版本以 available=false 表示，不能解讀為零修護。
+新增層的下載入口保留輸入原始bytes；每個已採端點都有SHA-256與bytes。站點讀回須逐一核對這兩層的頁面與downloads，不能只核公立facts。
 ''' + '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for d in enrichment['downloads'].values()) + '\n' +
-        '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for d in enrichment['figures'].values()) + '\n').encode('utf-8')
+        '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for d in enrichment['figures'].values()) + '\n' +
+        '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for module in supplements.values()
+                  for d in module['downloads'].values()) + '\n').encode('utf-8')
     manifest = {'schema_version': 1, 'viewer_version': VIEWER_VERSION, 'dataset_version': version,
                 'as_of': facts['as_of'], 'data': entries['data'], 'vocabulary': entries['vocabulary'],
                 'enrichment': enrichment,
+                **supplements,
+                'readback_contract': {
+                    'optional_module_keys': ['public_context', 'private_art'],
+                    'verify_page_and_each_download': True,
+                    'compare_sha256_and_bytes': True,
+                    'public_private_denominators_separate': True,
+                    'original_source_files_redistributed': False},
                 'repository_url': REPOSITORY, 'record_url_template': './records/{observation_id}.json',
                 'inputs_sha256': {name: sha(body) for name, body in inputs.items()},
                 'scope_note': '有限來源目錄；紀錄筆數不是物件總數，未作年度或館際加總。',

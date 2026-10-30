@@ -4,9 +4,9 @@
   "classification_scope": "working labels from existing inventory authority/city and workflow documents; not current legal museum, ownership, physical-object or all-branch verification",
   "input_manifest": [
     {
-      "bytes": 613327,
+      "bytes": 614749,
       "input_filename": "metadata/inventory.json",
-      "sha256": "6b558af0cdf3b9bf4ac6cabf30d62078779525572501621b7d7f9dd3da55f49f"
+      "sha256": "1e511fefccfab50a92d0e3bdd11cf8c83346bc5cc5f35c48b960425f29c975c8"
     },
     {
       "bytes": 3776,
@@ -39,10 +39,10 @@
       "sha256": "85a15dbf73780fe0372f61c886f0bfbeb0ce46b2840b9f787bef368f9ff46a24"
     },
     {
-      "bytes": 12890,
+      "bytes": 15931,
       "input_filename": "metadata/phase-milestones.json",
       "reference_scope": "unchanged historical workflow scopes; not the new stage status or a national museum classification",
-      "sha256": "6f5a593b83cf01961ff6fabc2ba792fdde49ff107fd364a23efd13c8fa1289e2"
+      "sha256": "4dac6ac4ddd737027bc970bedeb1862eb120a683c34656c47d9926bdc865579d"
     }
   ],
   "input_manifest_completeness": "all existing evidence filenames included; historical workflow scope text remains the v0.13 basis, while manifest hashes the current retained file bytes",
@@ -10326,6 +10326,91 @@
           "verification": "existing_workflow_membership_not_museum_type_certification",
           "working_category": "natural_science_static_collection_workflow",
           "working_category_label": "順序六：自然科學靜態館藏"
+        }
+      ]
+    },
+    {
+      "admin_group": "unknown",
+      "admin_group_assessment": {
+        "confidence_original": null,
+        "evidence": [
+          {
+            "confidence_original": null,
+            "field": "authority_original",
+            "input_filename": "metadata/inventory.json",
+            "literal_short_value": "國立臺灣師範大學（校內附設館；本欄不推定中央主管機關）",
+            "organization_id": "EXP-001",
+            "record_id": "EXP-001",
+            "verification_original": {
+              "related_source_verification": "original_HTML_body_read",
+              "roster_verification": "official_university_museum_pages_not_legal_registry_verification"
+            }
+          }
+        ],
+        "mapping_confidence": "unknown",
+        "notes": [
+          "國立大學名稱及校內附設身分不直接映射中央主管機關、營運或所有權；原欄明示不推定中央主管機關。"
+        ],
+        "reason": "原authority只明列校內附設館，並明說不推定中央主管機關；保留unknown。",
+        "scope": "recorded_authority_label_group_only_not_ownership_operation_or_legal_registration"
+      },
+      "automatic_numeric_aggregation_allowed": false,
+      "inventory_layer": "expanded_public_organization_candidates",
+      "island_group": "main_island",
+      "island_group_assessment": {
+        "administrative_areas_literal_matches": [
+          "臺北市"
+        ],
+        "basis": "city_as_in_source",
+        "confidence_original": null,
+        "evidence": [
+          {
+            "confidence_original": null,
+            "field": "city_as_in_source",
+            "field_present_in_input": true,
+            "input_filename": "metadata/inventory.json",
+            "literal_short_value": "臺北市",
+            "organization_id": "EXP-001",
+            "record_id": "EXP-001",
+            "verification_original": {
+              "related_source_verification": "original_HTML_body_read",
+              "roster_verification": "official_university_museum_pages_not_legal_registry_verification"
+            }
+          }
+        ],
+        "mapping_confidence": "administrative_area_literal_mapping",
+        "reason": "只依原city欄臺北市映射島群，不代表實物或所有分館所在地。",
+        "scope": "roster_or_recorded_authority_administrative_area_not_object_or_all_branch_locations"
+      },
+      "organization_id": "EXP-001",
+      "organization_id_source_field": "source_inventory_id",
+      "organization_name_as_in_inventory": "國立臺灣師範大學美術館",
+      "source_verification_as_in_inventory": {
+        "related_source_verification": "original_HTML_body_read",
+        "roster_verification": "official_university_museum_pages_not_legal_registry_verification"
+      },
+      "working_category_by_batch": [
+        {
+          "batch_id": "v017_public_university_attached_followup",
+          "evidence": [
+            {
+              "confidence_original": null,
+              "field": "project_note",
+              "input_filename": "metadata/inventory.json",
+              "literal_short_value": "v0.17.0公立大學附設館來源追補；原98列、原71×6基線不改；美術館、美術系校藏與文保執行中心角色分開，不回配籌備期量。",
+              "organization_id": "EXP-001",
+              "record_id": "EXP-001",
+              "verification_original": {
+                "related_source_verification": "original_HTML_body_read",
+                "roster_verification": "official_university_museum_pages_not_legal_registry_verification"
+              }
+            }
+          ],
+          "institution_type_inferred": false,
+          "mapping_confidence": "explicit_project_workflow_note",
+          "verification": "inventory_workflow_note_not_museum_type_certification",
+          "working_category": "public_university_research_attached_workflow",
+          "working_category_label": "本階段公立大學附設館來源追補（工作分類）"
         }
       ]
     }

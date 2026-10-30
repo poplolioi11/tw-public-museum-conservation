@@ -7,6 +7,140 @@ spec=importlib.util.spec_from_file_location('build_exports',ROOT/'scripts/build_
 builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
 def hashes(root):
     return {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest()for p in root.rglob('*')if p.is_file()and'__pycache__'not in p.parts}
+
+def assert_typed_equal(actual,expected,label):
+    """Do not let Python's True == 1 hide a lossy export roundtrip."""
+    assert type(actual)is type(expected),(label,'type',type(actual).__name__,type(expected).__name__)
+    if isinstance(expected,dict):
+        assert actual.keys()==expected.keys(),(label,'keys')
+        for key in expected:assert_typed_equal(actual[key],expected[key],label+'/'+key)
+    elif isinstance(expected,list):
+        assert len(actual)==len(expected),(label,'length')
+        for index,(left,right)in enumerate(zip(actual,expected)):assert_typed_equal(left,right,label+'/'+str(index))
+    else:assert actual==expected,(label,'value')
+
+def assert_no_private_ids(value,label):
+    if isinstance(value,dict):
+        for key,item in value.items():
+            assert_no_private_ids(key,label+'/key')
+            assert_no_private_ids(item,label+'/'+str(key))
+    elif isinstance(value,list):
+        for index,item in enumerate(value):assert_no_private_ids(item,label+'/'+str(index))
+    elif isinstance(value,str):assert not value.startswith('PRIV-'),(label,'private_id_in_public_table')
+
+def typed_table_roundtrip(root,name,expected,container_rows=None):
+    """Read every exported cell; private record_json restores original container rows."""
+    jsonrows=[json.loads(line)for line in(root/f'data/{name}.jsonl').read_text().splitlines()if line.strip()]
+    assert_typed_equal(jsonrows,expected,name+'/jsonl')
+    with(root/f'data/{name}.csv').open(encoding='utf-8-sig',newline='')as stream:
+        reader=csv.DictReader(stream);csvrows=list(reader);fields=reader.fieldnames or []
+    wanted=builder.columns(expected)if expected else(['dataset_scope','record_json']if container_rows is not None else[])
+    assert fields==wanted,(name,'csv_columns')
+    assert len(csvrows)==len(expected),(name,'csv_row_count')
+    restored=[]
+    for index,(raw,row)in enumerate(zip(csvrows,expected)):
+        assert set(raw)==set(wanted),(name,index,'csv_fields')
+        decoded={}
+        for key in wanted:
+            value=row.get(key);cell=raw[key]
+            assert str(builder.flat(value))==cell,(name,index,key,'csv_cell')
+            if key not in row:continue
+            if value is None:
+                assert cell=='';decoded[key]=None
+            elif isinstance(value,str):decoded[key]=cell
+            else:decoded[key]=json.loads(cell)
+        assert_typed_equal(decoded,row,name+'/csv/'+str(index));restored.append(decoded)
+    database=root/'data/museum-conservation.sqlite'
+    with sqlite3.connect(database.as_uri()+'?mode=ro',uri=True)as con:
+        sqlrows=[json.loads(row[0])for row in con.execute(f'SELECT record_json FROM {name} ORDER BY row_number')]
+    assert_typed_equal(sqlrows,expected,name+'/sqlite')
+    if container_rows is not None:
+        for format_name,rows in [('jsonl',jsonrows),('csv',restored),('sqlite',sqlrows)]:
+            # SQLite record_json above contains the exported outer row, whose
+            # own record_json must restore the inner original container row.
+            inner=[json.loads(row['record_json'])for row in rows]
+            assert_typed_equal(inner,container_rows,name+'/'+format_name+'/original_container')
+    return {'rows':len(expected),'csv_jsonl_sqlite_typed_equal':True,
+            'original_container_restored':container_rows is not None}
+
+def check_optional_art_layers(root,facts,inventory,version):
+    """Enable only layers whose actual input exists; never fabricate absent data."""
+    root=Path(root).resolve();result={'source_original_semantics_revalidated':False}
+    assert_no_private_ids(facts['observations'],'public/observations')
+    assert_no_private_ids(facts['body_reviews'],'public/body_reviews')
+    for filename in ['metadata/coverage.json','metadata/read_coverage.json',
+                     'data/coverage_cells.jsonl','data/coverage_groups.jsonl']:
+        path=root/filename
+        if path.exists():
+            data=([json.loads(line)for line in path.read_text().splitlines()if line.strip()]
+                  if path.suffix=='.jsonl'else builder.read(path))
+            assert_no_private_ids(data,'public/'+filename)
+    result['public_observations_and_coverage_exclude_private_ids']=True
+    context_path=root/'data/public_context_notes.json'
+    if context_path.exists():
+        from public_expansion import validate_context
+        rows=validate_context(root,facts,inventory,builder.validate_review_shape)
+        assert all(row['annual_quantity_eligible']is False and
+                   row['default_aggregation_allowed']is False for row in rows)
+        result['public_context']=typed_table_roundtrip(root,'public_context_notes',rows)
+        result['expanded_public_organizations']=typed_table_roundtrip(
+            root,'expanded_public_organizations',inventory.get('expanded_public_organization_candidates',[]))
+    else:result['public_context']={'status':'not_enabled_no_input'}
+    if(root/'data/private_art_pilot.json').exists():
+        import private_art_pilot
+        data=builder.read(root/'data/private_art_pilot.json')
+        generated=private_art_pilot.generate(root,version)
+        private={}
+        for name,(key,identity)in private_art_pilot.TABLE_KEYS.items():
+            originals=sorted(data[key],key=lambda row:row[identity])
+            private[name]=typed_table_roundtrip(root,name,generated['tables'][name],originals)
+        result['private_art']=private
+    else:result['private_art']={'status':'not_enabled_no_input'}
+    return result
+
+def invalid_auxiliary_preserves_exports(root,relative,cases):
+    """Only use a temporary clone; snapshot after the intentional bad-input write."""
+    target=root/relative;original=target.read_bytes();good=json.loads(original);pristine=hashes(root);passed=[]
+    try:
+        for label,mutate,error_code in cases:
+            bad=json.loads(json.dumps(good));mutate(bad);target.write_bytes(builder.encode(bad))
+            # The intentional input mutation belongs to this baseline. A failed
+            # run must not change it or any canonical/derived export afterwards.
+            before=hashes(root)
+            proc=subprocess.run([sys.executable,str(root/'scripts/build_exports.py'),
+                                 '--root',str(root)],capture_output=True,text=True)
+            assert proc.returncode!=0 and error_code in proc.stderr,(label,proc.stderr)
+            assert hashes(root)==before,(label,'failed_run_changed_files')
+            target.write_bytes(original);assert hashes(root)==pristine,(label,'input_not_restored')
+            passed.append(label)
+    finally:target.write_bytes(original)
+    return passed
+
+def check_optional_art_failure_protection(root):
+    """Exercise source closure, annual eligibility and private-layer boundaries."""
+    result={}
+    if(root/'data/public_context_notes.json').exists()and builder.read(root/'data/public_context_notes.json'):
+        def bad_context_source(data):data[0]['source_id']='src-selfcheck-missing-source'
+        def bad_context_annual(data):data[0]['annual_quantity_eligible']=True
+        result['public_context']=invalid_auxiliary_preserves_exports(root,'data/public_context_notes.json',[
+            ('context_source_closure',bad_context_source,'context_scope_reference'),
+            ('context_cannot_be_annual_quantity',bad_context_annual,'review_schema_const')])
+    else:result['public_context']={'status':'not_enabled_no_rows'}
+    path=root/'data/private_art_pilot.json'
+    if path.exists()and builder.read(path)['observations']:
+        def bad_quantity(data):
+            row=next(row for row in data['observations']if row['numeric_origin']=='source_reported')
+            row['quantity_raw']='999998'if row['quantity_numeric']==999999 else'999999'
+        def public_owner(data):data['observations'][0]['organization_id']='BASE-039'
+        def bad_source_hash(data):
+            row=data['sources'][0];row['original_file_sha256']='a'*64 if row['original_file_sha256']!='a'*64 else'b'*64
+        result['private_art']=invalid_auxiliary_preserves_exports(root,'data/private_art_pilot.json',[
+            ('private_quantity_raw_numeric_mismatch',bad_quantity,'quantity_conversion'),
+            ('private_observation_cannot_use_public_organization',public_owner,'organization_outside_private_container'),
+            ('private_source_id_sha_closure',bad_source_hash,'source_id_sha_mismatch')])
+    else:result['private_art']={'status':'not_enabled_no_observations'}
+    return result
+
 def main():
     facts=builder.read(ROOT/'data/facts.json');inventory=builder.read(ROOT/'metadata/inventory.json');version=(ROOT/'VERSION').read_text().strip()
     checks=builder.validate(facts,inventory,version)
@@ -70,6 +204,7 @@ def main():
     assert reviews==review_lines
     with sqlite3.connect(ROOT/'data/museum-conservation.sqlite')as con:
         assert [json.loads(r[0])for r in con.execute('SELECT record_json FROM body_reviews ORDER BY row_number')]==reviews
+    optional_art=check_optional_art_layers(ROOT,facts,inventory,version)
     # Multi-year values are stored once with a period, never assigned to a single year.
     multi=json.loads(json.dumps(facts));mr=multi['observations'][0]
     mr.update(data_year=None,reporting_period_raw='2020–2022',data_year_start=2020,data_year_end=2022,year_assignment_status='multi_year_not_allocated')
@@ -100,6 +235,8 @@ def main():
         before=hashes(root)
         same=subprocess.run(cmd,capture_output=True,text=True);assert same.returncode==0,same.stderr
         assert json.loads(same.stdout)['status']=='unchanged';assert hashes(root)==before
+        optional_art_failures=check_optional_art_failure_protection(root)
+        assert hashes(root)==before
         # Wrong number: reject before replacing any release data.
         bad=json.loads(json.dumps(facts));r=next(r for r in bad['observations']if r['quantity_numeric']is not None and r['numeric_origin']=='source_reported');r['quantity_numeric']+=1
         candidate=Path(tmp)/'invalid.json';candidate.write_bytes(builder.encode(bad))
@@ -169,5 +306,5 @@ def main():
         assert result.returncode!=0 and hashes(root)==broken
     import check_enrichment
     enriched=check_enrichment.check(ROOT)
-    print(json.dumps({'status':'pass','checks':checks,'enrichment':enriched,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True},ensure_ascii=False))
+    print(json.dumps({'status':'pass','checks':checks,'enrichment':enriched,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True,'optional_art_layers':optional_art,'optional_art_input_failure_protection':optional_art_failures},ensure_ascii=False))
 if __name__=='__main__':main()

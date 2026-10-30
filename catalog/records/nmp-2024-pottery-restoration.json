@@ -3,9 +3,9 @@
     "observation_id": "nmp-2024-pottery-restoration",
     "original_completion_category_retained": true,
     "review_id": "completion-v016-nmp-2024-pottery-restoration",
-    "versioned_reviews_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/data/completion_reviews.json"
+    "versioned_reviews_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.17.0/data/completion_reviews.json"
   },
-  "dataset_version": "0.16.0",
+  "dataset_version": "0.17.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -56,5 +56,5 @@
     "title": "國立臺灣史前文化博物館113年度單位決算書",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/nmp-2024-pottery-restoration.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.17.0/catalog/records/nmp-2024-pottery-restoration.json"
 }

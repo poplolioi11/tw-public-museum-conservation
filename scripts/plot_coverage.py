@@ -119,7 +119,8 @@ def _font_path(explicit, all_text):
 def _batch_label(value):
     aliases = {"NPM": "NPM 批次", "BATCH2": "順序二", "BATCH3": "順序三",
                "BATCH4": "順序四", "BATCH5": "順序五", "BATCH6": "順序六",
-               "pre_batch_or_unassigned": "前批次或未指派"}
+               "pre_batch_or_unassigned": "前批次或未指派",
+               "v017_public_university_attached_followup": "本階段公立大學館追補"}
     return " ＋ ".join(aliases.get(part, part) for part in value.split("+"))
 
 

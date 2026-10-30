@@ -106,7 +106,7 @@ def current_reviews(reviews):
             assert (parent['organization_id'],parent['target_data_year'])==(row['organization_id'],row['target_data_year']),('review_parent_scope_mismatch',row['review_id'])
             parents.add(parent_id);parent_id=parent.get('extends_review_id')
     return [r for r in reviews if r['review_id']not in parents]
-def validate(facts,inventory,version):
+def validate(facts,inventory,version,root=ROOT):
     assert facts['dataset_version']==version
     obs=facts['observations'];sources=facts['sources'];ids=[r['observation_id']for r in obs];sid=[r['source_id']for r in sources]
     assert len(ids)==len(set(ids));assert len(sid)==len(set(sid))
@@ -201,6 +201,8 @@ def validate(facts,inventory,version):
         assert r['reviewed_pdf_pages_1_based']==sorted({p for detail in r['source_page_reviews']for p in detail['pdf_pages_1_based']})
     assert s['body_review_records']==len(reviews)
     current_reviews(reviews)
+    from public_expansion import validate_context
+    validate_context(root, facts, inventory, validate_review_shape)
     distinct_reviews={(r['organization_name'],r['target_data_year'])for r in reviews}
     assert s['body_review_target_year_cells']==len(distinct_reviews)
     return {'fact_rows':len(obs),'source_reported_observations':s['observation_records'],'derived_summaries':s['derived_summary_records'],'context_components':s['context_component_records'],'organizations_with_facts':s['organizations_with_facts'],'original_source_versions':len(sources),'original_pdf_versions':s['verified_original_pdf_files'],'original_html_versions':s['verified_original_html_files'],'multi_year_records_not_allocated_to_years':sum(r['data_year']is None for r in obs),'body_review_records':len(reviews),'distinct_source_year_review_cells':len(distinct_reviews),'inventory_lookup_grid_cells_not_facts':len(keys),'unknown_values_are_not_zero':True,'query_facets_reproduced':True,'source_pdf_revalidation_performed':False}
@@ -209,8 +211,19 @@ def generate(facts,inventory,version,root=ROOT):
     enriched=enrichment.generate(facts,inventory,root,validate_review_shape)
     tables={'observations':facts['observations'],'sources':facts['sources'],'relations':facts['relations'],'body_reviews':facts.get('body_reviews',[]),'source_inventory':inventory['source_inventory_records'],'baseline_organizations':inventory['baseline_71_organizations'],'supplemental_organizations':inventory['supplemental_14_organization_candidates'],'facility_candidates':inventory['additional_13_public_facility_candidates'],'name_relations':inventory['name_relations']}
     tables.update(enriched['tables'])
+    from public_expansion import validate_context
+    context_notes=validate_context(root,facts,inventory,validate_review_shape)
+    if (root/'data/public_context_notes.json').exists():
+        tables['public_context_notes']=context_notes
+        tables['expanded_public_organizations']=inventory.get('expanded_public_organization_candidates',[])
     output={'data/facts.json':encode(facts),'metadata/inventory.json':encode(inventory)}
     output.update(enriched['outputs'])
+    if (root/'data/private_art_pilot.json').exists():
+        from private_art_pilot import generate as generate_private_art
+        private=generate_private_art(root,version)
+        assert not set(private['tables'])&set(tables),'private_table_collision'
+        tables.update(private['tables'])
+        output.update(private['outputs'])
     output['schema/vocabulary.json']=encode(vocabulary())
     source_map={s['source_id']:s for s in facts['sources']}
     completed_map={r['observation_id']:r for r in enriched['tables']['completion_reviews']}
@@ -276,8 +289,12 @@ def generate(facts,inventory,version,root=ROOT):
         coverage.append({'organization_name':organization,'data_year':year,'fact_rows':len(selected),'source_ids':sorted({r['source_id']for r in selected}),'reported_periods':sorted({r['reporting_period_raw']for r in selected if r.get('reporting_period_raw')}),'complete_annual_quantity_series_verified':False,'note':'只表示本版已有這些正文分項；data_year=null為未拆到單年的跨年期間；不是全館全年所有作業或不重複物件的完整統計。'})
     output['metadata/read_coverage.json']=encode({'dataset_version':version,'cohorts':coverage,'body_reviews':{'historical_record_count':len(facts.get('body_reviews',[])),'current_record_count':len(current),'current_organization_year_cells':len({(r['organization_id'],r['target_data_year'])for r in current}),'current_status_counts':dict(Counter(r['review_status']for r in current)),'current_review_ids':[r['review_id']for r in current],'selection_rule':'all leaves of explicit extends_review_id links; do not collapse organization-year, choose latest date or prefer a status','full_year_all_sources_reviewed':False},'note':'與凍結的426格盤點狀態不同；紀錄數不等於館年格數，同格多則全部保留；不回填未知數值為零。'})
     for name,rows in tables.items():
-        output[f'data/{name}.jsonl']=jsonl_bytes(rows)
-        output[f'data/{name}.csv']=csv_bytes(rows)
+        for suffix,body in [('jsonl',jsonl_bytes(rows)),('csv',csv_bytes(rows))]:
+            path=f'data/{name}.{suffix}'
+            # Empty private tables use an explicit two-column header contract.
+            if path in output:
+                if rows:assert output[path]==body,('private_export_projection_mismatch',path)
+            else:output[path]=body
     with tempfile.TemporaryDirectory()as tmp:
         p=Path(tmp)/'data.sqlite';con=sqlite3.connect(p)
         for name,rows in tables.items():
@@ -297,7 +314,7 @@ def main():
     a=argparse.ArgumentParser();a.add_argument('--root',type=Path,default=ROOT);a.add_argument('--check',action='store_true');a.add_argument('--candidate-facts',type=Path);a.add_argument('--candidate-inventory',type=Path);a.add_argument('--accept-reviewed-source-change',action='store_true');args=a.parse_args()
     root=args.root;version=(root/'VERSION').read_text().strip()
     facts=read(args.candidate_facts or root/'data/facts.json');inventory=read(args.candidate_inventory or root/'metadata/inventory.json')
-    checks=validate(facts,inventory,version)
+    checks=validate(facts,inventory,version,root)
     previous=read(root/'metadata/build.json')if(root/'metadata/build.json').exists()else None
     versions={}
     for s in facts['sources']:

@@ -1,0 +1,69 @@
+{
+  "automatic_numeric_aggregation_allowed": false,
+  "body_review_records": 6,
+  "container_sha256": "4a6fdc4ebf31d13a45c0226e9ba9f30d44b1ba3418385391073581d0a12dc783",
+  "dataset_scope": "private_art_museum_pilot",
+  "dataset_version": "0.17.0",
+  "institution_records": 1,
+  "limits": [
+    "私立館公開來源試作，不是使用者私人台帳；不讀取私人收藏、財務、人員或廠商資料。",
+    "不列入公立71館與426館年格，不跨館加總，不推論全國修護量。",
+    "原詞、原數字、完成狀態與範圍分歧保留；範圍註記不核實包含關係，也不改成年量。",
+    "SHA與來源ID閉合檢查不等同重新下載或人工二校；只在所列來源、頁段與年份內解讀。"
+  ],
+  "national_inference_allowed": false,
+  "national_repaired_object_total": null,
+  "observation_record_kinds": {
+    "observation": 4
+  },
+  "observation_records": 4,
+  "public_baseline_eligible": false,
+  "public_private_denominators_separate": true,
+  "query_facets_reproduced": true,
+  "schema_version": "1.0",
+  "scope_note_records": 6,
+  "source_original_bytes_revalidated_by_exporter": false,
+  "source_records": 6,
+  "source_types": {
+    "PDF": 6
+  },
+  "source_versions": [
+    {
+      "original_file_bytes": 34714410,
+      "original_file_sha256": "1149028b4ddc4515d412de6044198cf7fc133eeb466f9bd5cedf07e54239285f",
+      "original_file_type": "PDF",
+      "source_id": "src-1149028b4ddc4515"
+    },
+    {
+      "original_file_bytes": 2987142,
+      "original_file_sha256": "3be9a7c18b7ee874b3a1159ab37a6ca6d5bdaffea44298c06a64f028827ea67a",
+      "original_file_type": "PDF",
+      "source_id": "src-3be9a7c18b7ee874"
+    },
+    {
+      "original_file_bytes": 7813372,
+      "original_file_sha256": "89882e8fba430e72af6f2440a16f3b47bc738740b2971f635f5aa99e47a5927f",
+      "original_file_type": "PDF",
+      "source_id": "src-89882e8fba430e72"
+    },
+    {
+      "original_file_bytes": 6391940,
+      "original_file_sha256": "a2844d89b527436577b03fa62fc70bc3a588d4591217dfb30682f53455e4321d",
+      "original_file_type": "PDF",
+      "source_id": "src-a2844d89b5274365"
+    },
+    {
+      "original_file_bytes": 2697271,
+      "original_file_sha256": "b17702eed7901a554cf312abfbfc2c999f95b4ff41c5e7122af8e419b40aa836",
+      "original_file_type": "PDF",
+      "source_id": "src-b17702eed7901a55"
+    },
+    {
+      "original_file_bytes": 3164141,
+      "original_file_sha256": "e47baafca8679d5b7f8323345ed52014c9f9121fa216743c99aa0c39ad3fd60c",
+      "original_file_type": "PDF",
+      "source_id": "src-e47baafca8679d5b"
+    }
+  ],
+  "unknown_values_are_not_zero": true
+}

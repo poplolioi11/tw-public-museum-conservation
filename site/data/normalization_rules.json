@@ -163,6 +163,7 @@
           "KMFA-2023-oil-painting-restoration",
           "KMFA-2024-existing-collection-restoration",
           "KMFA-2025-existing-collection-restoration",
+          "gold-2020-library-document-treatment",
           "nmp-2020-2022-archaeology-arrangement",
           "nmp-2020-2022-ethnology-arrangement",
           "nmp-2020-2022-natural-history-arrangement",
@@ -198,7 +199,8 @@
           "nmp-2025-transferred-arrangement",
           "nmp-2025-xrf-archaeology",
           "nmp-2025-xrf-ethnology",
-          "sshm-2021-ceramic-repair"
+          "sshm-2021-ceramic-repair",
+          "taoyuan-2023-repair-reported"
         ],
         "raw_value": "annual_execution_reported_no_explicit_completed"
       },
@@ -287,6 +289,8 @@
           "nmh-2024-32",
           "nmh-2024-33",
           "nmh-2025-34",
+          "taoyuan-2021-paper-completed",
+          "taoyuan-2025-ink-completed",
           "tfam-2020-oil_project_two_completed"
         ],
         "raw_value": "completed_explicit"
@@ -869,6 +873,10 @@
         "mapping_id": "metric_class-inventory-035",
         "observation_ids": [
           "NTUA-2022-meeting1102-conserved-posters",
+          "gold-2020-library-document-treatment",
+          "taoyuan-2021-paper-completed",
+          "taoyuan-2023-repair-reported",
+          "taoyuan-2025-ink-completed",
           "yilan-2025-oil-restoration8"
         ],
         "raw_value": "museum_reported_restoration"
@@ -1544,6 +1552,7 @@
           "TNAM-2024-document-arrangement",
           "TNAM-2024-internal-treatment",
           "daxi-2021-combined-arrangement",
+          "gold-2020-library-document-treatment",
           "nmh-2021-19",
           "nmh-2021-27",
           "nmh-2022-22",
@@ -1611,6 +1620,9 @@
           "pilot-ntcart-2025-mounting",
           "pilot-ntcart-2025-professional",
           "sshm-2021-ceramic-repair",
+          "taoyuan-2021-paper-completed",
+          "taoyuan-2023-repair-reported",
+          "taoyuan-2025-ink-completed",
           "tfam-2020-oil_painting_restoration_annual",
           "tfam-2020-oil_project_phase2",
           "tfam-2020-oil_project_two_completed",
@@ -1961,11 +1973,11 @@
   ],
   "review_gate": "任何未知原值、清冊歸屬改變、分類漂移或 needs_review 候選皆拒絕，不自動歸類。",
   "reviewed_input_manifest": {
-    "dataset_version": "0.16.0",
-    "observations_sha256": "07e245d2e7aa14e056f93d481508121e4ac1eff58af9fad2d6b4d948eb9ec962",
-    "reviewed_observation_count": 307,
+    "dataset_version": "0.17.0",
+    "observations_sha256": "0e67151ea01e7fe66e5929fa012ba94dff240a51f149b6978a78e5f4cabb3d62",
+    "reviewed_observation_count": 311,
     "source": "data/facts.json"
   },
-  "reviewed_observation_count": 307,
+  "reviewed_observation_count": 311,
   "unit_mapping_basis": "僅件、件數、件作品使用 item_word 字面搜尋別名；null 與未明列量詞維持 null，狀態分開；其他原詞保持，組件不拆，組（件）及組、件不換算。"
 }

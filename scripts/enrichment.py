@@ -10,6 +10,7 @@ import coverage as coverage_model
 import normalization
 import relation_projection
 import completion_review
+from public_expansion import roster_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT_FILES = ['data/absence_annotations.json', 'metadata/absence_vocabulary.json',
@@ -70,9 +71,8 @@ def validate_inputs(facts, inventory, root=ROOT, shape_validator=None):
             assert set(e['absence_reason']) <= set(a['absence_reason'])
         assert set(a['content_tags']) <= set(vocabulary['content_tag_labels'])
         assert set(a['absence_reason']) <= set(vocabulary['absence_reason_labels'])
-    expected_ids = {r['source_inventory_id'] for r in inventory['baseline_71_organizations']
-                    + inventory['supplemental_14_organization_candidates']} | {
-        r['source_facility_inventory_id'] for r in inventory['additional_13_public_facility_candidates']}
+    expected_ids = {r.get('source_inventory_id', r.get('source_facility_inventory_id'))
+                    for r in roster_rows(inventory)}
     dd = dimensions['organizations']
     assert len(dd) == len(expected_ids) and {d['organization_id'] for d in dd} == expected_ids
     assert dimensions['working_category_is_workflow_not_institution_type'] is True
@@ -86,8 +86,8 @@ def validate_inputs(facts, inventory, root=ROOT, shape_validator=None):
             assert b['institution_type_inferred'] is False
     # Dimension provenance quotes come from the unchanged inventory/workflow files.
     evidence_inputs = set()
-    roster_rows = inventory['baseline_71_organizations'] + inventory['supplemental_14_organization_candidates'] + inventory['additional_13_public_facility_candidates']
-    roster_by_id = {r.get('source_inventory_id', r.get('source_facility_inventory_id')): r for r in roster_rows}
+    roster_by_id = {r.get('source_inventory_id', r.get('source_facility_inventory_id')): r
+                    for r in roster_rows(inventory)}
     def check_evidence(value):
         if isinstance(value, dict):
             if 'literal_short_value' in value:
@@ -166,7 +166,7 @@ def generate(facts, inventory, root=ROOT, shape_validator=None):
             '|集合|館年格數|目前來源查核則數|本版無查核格|至少一來源有已核紀錄的格|\n|---|---:|---:|---:|---:|']
     for p in cov['populations']:
         summ.append(f'|{p["definition"]}|{p["denominator_cells"]}|{p["current_review_records"]}|{p["state_counts"]["not_assessed"]}|{p["cells_with_any_verified_observation_review"]}|')
-    summ += ['\n原426格與實際review格不同；無查核不能改為本輪未定位來源。聯集也不是98個候選的所有年份或全國母體。',
+    summ += ['\n原426格與實際review格不同；無查核不能改為本輪未定位來源。聯集也不是全部候選的所有年份或全國母體；私立館試辦另列。',
              '已有數值仍只證明所列來源分項，不代表完整年度量；不提供全國公開率或績效排名。\n',
              '歷史索引補登不增加2020–2025的格數；全部已查核及聯集的增加只是把既有歷史觀測掛上索引。\n',
              '![明確集合及年份子集的格狀態](figures/coverage-states.svg)\n',

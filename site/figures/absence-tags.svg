@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="972pt" height="590.4pt" viewBox="0 0 972 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
-<!-- enrichment-source-sha256: 3903a8129fb38017b9490605114bfb54f1260778dba66244a82e8f63b027d4bc -->
+<!-- enrichment-source-sha256: 17421aa3f3790a9707bf8c539259f13acd3c14276a525a680e68ed5753c896c1 -->
 
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -87,18 +87,18 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
-      <path d="M 374.617903 472.32
-L 374.617903 135.792
+      <path d="M 373.396271 472.32
+L 373.396271 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m7cce81095e" x="374.617903" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="373.396271" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
       <!-- 25 -->
-      <g style="fill: #26343c" transform="translate(368.800247 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(367.578615 487.825) scale(0.105 -0.105)">
        <defs>
         <path id="STHeitiTC-Medium-32" d="M 3360 384
 L 90 384
@@ -152,18 +152,18 @@ z
     </g>
     <g id="xtick_3">
      <g id="line2d_5">
-      <path d="M 447.915806 472.32
-L 447.915806 135.792
+      <path d="M 445.472542 472.32
+L 445.472542 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m7cce81095e" x="447.915806" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="445.472542" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
       <!-- 50 -->
-      <g style="fill: #26343c" transform="translate(442.09815 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(439.654886 487.825) scale(0.105 -0.105)">
        <use xlink:href="#STHeitiTC-Medium-35"/>
        <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
       </g>
@@ -171,18 +171,18 @@ L 447.915806 135.792
     </g>
     <g id="xtick_4">
      <g id="line2d_7">
-      <path d="M 521.213709 472.32
-L 521.213709 135.792
+      <path d="M 517.548814 472.32
+L 517.548814 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m7cce81095e" x="521.213709" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="517.548814" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
       <!-- 75 -->
-      <g style="fill: #26343c" transform="translate(515.396052 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(511.731157 487.825) scale(0.105 -0.105)">
        <defs>
         <path id="STHeitiTC-Medium-37" d="M 3443 5069
 L 934 250
@@ -201,18 +201,18 @@ z
     </g>
     <g id="xtick_5">
      <g id="line2d_9">
-      <path d="M 594.511612 472.32
-L 594.511612 135.792
+      <path d="M 589.625085 472.32
+L 589.625085 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#m7cce81095e" x="594.511612" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="589.625085" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
       <!-- 100 -->
-      <g style="fill: #26343c" transform="translate(585.785127 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(580.8986 487.825) scale(0.105 -0.105)">
        <defs>
         <path id="STHeitiTC-Medium-31" d="M 2131 384
 L 1587 384
@@ -232,18 +232,18 @@ z
     </g>
     <g id="xtick_6">
      <g id="line2d_11">
-      <path d="M 667.809515 472.32
-L 667.809515 135.792
+      <path d="M 661.701356 472.32
+L 661.701356 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#m7cce81095e" x="667.809515" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="661.701356" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
       <!-- 125 -->
-      <g style="fill: #26343c" transform="translate(659.08303 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(652.974872 487.825) scale(0.105 -0.105)">
        <use xlink:href="#STHeitiTC-Medium-31"/>
        <use xlink:href="#STHeitiTC-Medium-32" transform="translate(55.399994 0)"/>
        <use xlink:href="#STHeitiTC-Medium-35" transform="translate(110.799988 0)"/>
@@ -252,18 +252,18 @@ L 667.809515 135.792
     </g>
     <g id="xtick_7">
      <g id="line2d_13">
-      <path d="M 741.107417 472.32
-L 741.107417 135.792
+      <path d="M 733.777627 472.32
+L 733.777627 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_14">
       <g>
-       <use xlink:href="#m7cce81095e" x="741.107417" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="733.777627" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
       <!-- 150 -->
-      <g style="fill: #26343c" transform="translate(732.380933 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(725.051143 487.825) scale(0.105 -0.105)">
        <use xlink:href="#STHeitiTC-Medium-31"/>
        <use xlink:href="#STHeitiTC-Medium-35" transform="translate(55.399994 0)"/>
        <use xlink:href="#STHeitiTC-Medium-30" transform="translate(110.799988 0)"/>
@@ -272,18 +272,18 @@ L 741.107417 135.792
     </g>
     <g id="xtick_8">
      <g id="line2d_15">
-      <path d="M 814.40532 472.32
-L 814.40532 135.792
+      <path d="M 805.853898 472.32
+L 805.853898 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#m7cce81095e" x="814.40532" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="805.853898" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
       <!-- 175 -->
-      <g style="fill: #26343c" transform="translate(805.678836 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(797.127414 487.825) scale(0.105 -0.105)">
        <use xlink:href="#STHeitiTC-Medium-31"/>
        <use xlink:href="#STHeitiTC-Medium-37" transform="translate(55.399994 0)"/>
        <use xlink:href="#STHeitiTC-Medium-35" transform="translate(110.799988 0)"/>
@@ -292,18 +292,18 @@ L 814.40532 135.792
     </g>
     <g id="xtick_9">
      <g id="line2d_17">
-      <path d="M 887.703223 472.32
-L 887.703223 135.792
+      <path d="M 877.930169 472.32
+L 877.930169 135.792
 " clip-path="url(#p2f72cc77ef)" style="fill: none; stroke: #dce2e4; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_18">
       <g>
-       <use xlink:href="#m7cce81095e" x="887.703223" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
+       <use xlink:href="#m7cce81095e" x="877.930169" y="472.32" style="fill: #26343c; stroke: #26343c; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
       <!-- 200 -->
-      <g style="fill: #26343c" transform="translate(878.976739 487.825) scale(0.105 -0.105)">
+      <g style="fill: #26343c" transform="translate(869.203685 487.825) scale(0.105 -0.105)">
        <use xlink:href="#STHeitiTC-Medium-32"/>
        <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
        <use xlink:href="#STHeitiTC-Medium-30" transform="translate(110.799988 0)"/>
@@ -10096,32 +10096,32 @@ z
    </g>
    <g id="patch_3">
     <path d="M 301.32 143.068281
-L 468.439219 143.068281
-L 468.439219 161.865341
+L 471.42 143.068281
+L 471.42 161.865341
 L 301.32 161.865341
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 301.32 173.386119
-L 389.277483 173.386119
-L 389.277483 192.183178
+L 390.694576 173.386119
+L 390.694576 192.183178
 L 301.32 192.183178
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 301.32 203.703957
-L 477.234967 203.703957
-L 477.234967 222.501016
+L 488.718305 203.703957
+L 488.718305 222.501016
 L 301.32 222.501016
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 301.32 234.021795
-L 535.873289 234.021795
-L 535.873289 252.818854
+L 537.730169 234.021795
+L 537.730169 252.818854
 L 301.32 252.818854
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
@@ -10136,48 +10136,48 @@ z
    </g>
    <g id="patch_8">
     <path d="M 301.32 294.65747
-L 321.843413 294.65747
-L 321.843413 313.45453
+L 321.501356 294.65747
+L 321.501356 313.45453
 L 301.32 313.45453
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 301.32 324.975308
-L 362.890238 324.975308
-L 362.890238 343.772368
+L 367.630169 324.975308
+L 367.630169 343.772368
 L 301.32 343.772368
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 301.32 355.293146
-L 439.120057 355.293146
-L 439.120057 374.090205
+L 436.82339 355.293146
+L 436.82339 374.090205
 L 301.32 374.090205
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 301.32 385.610984
-L 427.392393 385.610984
-L 427.392393 404.408043
+L 436.82339 385.610984
+L 436.82339 404.408043
 L 301.32 404.408043
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 301.32 415.928822
-L 406.86898 415.928822
-L 406.86898 434.725881
+L 410.875932 415.928822
+L 410.875932 434.725881
 L 301.32 434.725881
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 301.32 446.246659
-L 406.86898 446.246659
-L 406.86898 465.043719
+L 416.642034 446.246659
+L 416.642034 465.043719
 L 301.32 465.043719
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
@@ -10188,15 +10188,42 @@ L 913.68 472.32
 " style="fill: none; stroke: #aab3b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_22">
-    <!-- 57 -->
-    <g style="fill: #26343c" transform="translate(477.780303 156.190483) scale(0.11 -0.11)">
+    <!-- 59 -->
+    <g style="fill: #26343c" transform="translate(480.761085 156.190483) scale(0.11 -0.11)">
+     <defs>
+      <path id="STHeitiTC-Medium-39" d="M 1984 2355
+Q 1798 2310 1613 2310
+Q 1043 2310 656 2716
+Q 269 3123 269 3737
+Q 269 4352 697 4768
+Q 1126 5184 1747 5184
+Q 2368 5184 2777 4758
+Q 3187 4333 3187 3738
+Q 3187 3411 3052 3081
+Q 2918 2752 2662 2368
+L 1248 250
+L 787 544
+L 1984 2355
+z
+M 1728 2803
+Q 2112 2803 2381 3075
+Q 2650 3347 2650 3724
+Q 2650 4102 2381 4374
+Q 2112 4646 1728 4646
+Q 1344 4646 1075 4377
+Q 806 4109 806 3725
+Q 806 3341 1075 3072
+Q 1344 2803 1728 2803
+z
+" transform="scale(0.015625)"/>
+     </defs>
      <use xlink:href="#STHeitiTC-Medium-35"/>
-     <use xlink:href="#STHeitiTC-Medium-37" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-39" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_23">
-    <!-- 30 -->
-    <g style="fill: #26343c" transform="translate(398.618568 186.508321) scale(0.11 -0.11)">
+    <!-- 31 -->
+    <g style="fill: #26343c" transform="translate(400.035661 186.508321) scale(0.11 -0.11)">
      <defs>
       <path id="STHeitiTC-Medium-33" d="M 2554 3021
 Q 2931 2835 3139 2508
@@ -10229,12 +10256,12 @@ z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#STHeitiTC-Medium-33"/>
-     <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-31" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_24">
-    <!-- 60 -->
-    <g style="fill: #26343c" transform="translate(486.576052 216.826158) scale(0.11 -0.11)">
+    <!-- 65 -->
+    <g style="fill: #26343c" transform="translate(498.05939 216.826158) scale(0.11 -0.11)">
      <defs>
       <path id="STHeitiTC-Medium-36" d="M 1594 3098
 Q 1798 3155 1984 3155
@@ -10263,12 +10290,12 @@ z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#STHeitiTC-Medium-36"/>
-     <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-35" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_25">
-    <!-- 80 -->
-    <g style="fill: #26343c" transform="translate(545.214374 247.143996) scale(0.11 -0.11)">
+    <!-- 82 -->
+    <g style="fill: #26343c" transform="translate(547.071254 247.143996) scale(0.11 -0.11)">
      <defs>
       <path id="STHeitiTC-Medium-38" d="M 2547 2950
 Q 3373 2522 3373 1747
@@ -10307,33 +10334,33 @@ z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#STHeitiTC-Medium-38"/>
-     <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-32" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_26">
-    <!-- 177 -->
+    <!-- 180 -->
     <g style="fill: #26343c" transform="translate(829.610237 277.461834) scale(0.11 -0.11)">
      <use xlink:href="#STHeitiTC-Medium-31"/>
-     <use xlink:href="#STHeitiTC-Medium-37" transform="translate(55.399994 0)"/>
-     <use xlink:href="#STHeitiTC-Medium-37" transform="translate(110.799988 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-38" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-30" transform="translate(110.799988 0)"/>
     </g>
    </g>
    <g id="text_27">
     <!-- 7 -->
-    <g style="fill: #26343c" transform="translate(331.184498 307.779672) scale(0.11 -0.11)">
+    <g style="fill: #26343c" transform="translate(330.842441 307.779672) scale(0.11 -0.11)">
      <use xlink:href="#STHeitiTC-Medium-37"/>
     </g>
    </g>
    <g id="text_28">
-    <!-- 21 -->
-    <g style="fill: #26343c" transform="translate(372.231323 338.09751) scale(0.11 -0.11)">
+    <!-- 23 -->
+    <g style="fill: #26343c" transform="translate(376.971254 338.09751) scale(0.11 -0.11)">
      <use xlink:href="#STHeitiTC-Medium-32"/>
-     <use xlink:href="#STHeitiTC-Medium-31" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-33" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_29">
     <!-- 47 -->
-    <g style="fill: #26343c" transform="translate(448.461142 368.415348) scale(0.11 -0.11)">
+    <g style="fill: #26343c" transform="translate(446.164475 368.415348) scale(0.11 -0.11)">
      <defs>
       <path id="STHeitiTC-Medium-34" d="M 3418 1453
 L 2861 1453
@@ -10359,24 +10386,24 @@ z
     </g>
    </g>
    <g id="text_30">
-    <!-- 43 -->
-    <g style="fill: #26343c" transform="translate(436.733478 398.733185) scale(0.11 -0.11)">
+    <!-- 47 -->
+    <g style="fill: #26343c" transform="translate(446.164475 398.733185) scale(0.11 -0.11)">
      <use xlink:href="#STHeitiTC-Medium-34"/>
-     <use xlink:href="#STHeitiTC-Medium-33" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-37" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_31">
-    <!-- 36 -->
-    <g style="fill: #26343c" transform="translate(416.210065 429.051023) scale(0.11 -0.11)">
+    <!-- 38 -->
+    <g style="fill: #26343c" transform="translate(420.217017 429.051023) scale(0.11 -0.11)">
      <use xlink:href="#STHeitiTC-Medium-33"/>
-     <use xlink:href="#STHeitiTC-Medium-36" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-38" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_32">
-    <!-- 36 -->
-    <g style="fill: #26343c" transform="translate(416.210065 459.368861) scale(0.11 -0.11)">
-     <use xlink:href="#STHeitiTC-Medium-33"/>
-     <use xlink:href="#STHeitiTC-Medium-36" transform="translate(55.399994 0)"/>
+    <!-- 40 -->
+    <g style="fill: #26343c" transform="translate(425.983119 459.368861) scale(0.11 -0.11)">
+     <use xlink:href="#STHeitiTC-Medium-34"/>
+     <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
     </g>
    </g>
   </g>
@@ -11610,7 +11637,7 @@ z
    </g>
   </g>
   <g id="text_34">
-   <!-- n=275 則目前 N 查核註記；標籤可複選，依詞表原順序呈現，沒有排名。 -->
+   <!-- n=282 則目前 N 查核註記；標籤可複選，依詞表原順序呈現，沒有排名。 -->
    <g style="fill: #26343c" transform="translate(38.88 65.053) scale(0.11 -0.11)">
     <defs>
      <path id="STHeitiTC-Medium-6e" d="M 3501 384
@@ -13564,8 +13591,8 @@ z
     <use xlink:href="#STHeitiTC-Medium-6e"/>
     <use xlink:href="#STHeitiTC-Medium-3d" transform="translate(60.999985 0)"/>
     <use xlink:href="#STHeitiTC-Medium-32" transform="translate(121.599976 0)"/>
-    <use xlink:href="#STHeitiTC-Medium-37" transform="translate(176.999969 0)"/>
-    <use xlink:href="#STHeitiTC-Medium-35" transform="translate(232.399963 0)"/>
+    <use xlink:href="#STHeitiTC-Medium-38" transform="translate(176.999969 0)"/>
+    <use xlink:href="#STHeitiTC-Medium-32" transform="translate(232.399963 0)"/>
     <use xlink:href="#STHeitiTC-Medium-20" transform="translate(287.799957 0)"/>
     <use xlink:href="#STHeitiTC-Medium-5247" transform="translate(312.799942 0)"/>
     <use xlink:href="#STHeitiTC-Medium-76ee" transform="translate(412.799927 0)"/>
@@ -13601,7 +13628,7 @@ z
    </g>
   </g>
   <g id="text_35">
-   <!-- 既有說明文字支持：274 則；資訊不足：1 則。資訊不足者不強派內容標籤。 -->
+   <!-- 既有說明文字支持：281 則；資訊不足：1 則。資訊不足者不強派內容標籤。 -->
    <g style="fill: #26343c" transform="translate(38.88 513.648) scale(0.105 -0.105)">
     <defs>
      <path id="STHeitiTC-Medium-6587" d="M 2061 3699
@@ -14523,8 +14550,8 @@ z
     <use xlink:href="#STHeitiTC-Medium-6301" transform="translate(699.999893 0)"/>
     <use xlink:href="#STHeitiTC-Medium-ff1a" transform="translate(799.999878 0)"/>
     <use xlink:href="#STHeitiTC-Medium-32" transform="translate(899.999863 0)"/>
-    <use xlink:href="#STHeitiTC-Medium-37" transform="translate(955.399857 0)"/>
-    <use xlink:href="#STHeitiTC-Medium-34" transform="translate(1010.79985 0)"/>
+    <use xlink:href="#STHeitiTC-Medium-38" transform="translate(955.399857 0)"/>
+    <use xlink:href="#STHeitiTC-Medium-31" transform="translate(1010.79985 0)"/>
     <use xlink:href="#STHeitiTC-Medium-20" transform="translate(1066.199844 0)"/>
     <use xlink:href="#STHeitiTC-Medium-5247" transform="translate(1091.199829 0)"/>
     <use xlink:href="#STHeitiTC-Medium-ff1b" transform="translate(1191.199814 0)"/>

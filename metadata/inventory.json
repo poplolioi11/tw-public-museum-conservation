@@ -1504,6 +1504,34 @@
     "version": "2025-11-21"
   },
   "data_kind": "organization_roster_and_source_lookup_inventory",
+  "expanded_public_organization_candidates": [
+    {
+      "authority_original": "國立臺灣師範大學（校內附設館；本欄不推定中央主管機關）",
+      "authority_source_url": "https://www.artmuse.ntnu.edu.tw/index.php/about/history/",
+      "automatic_numeric_aggregation_allowed": false,
+      "city_as_in_source": "臺北市",
+      "current_name_as_in_input": "國立臺灣師範大學美術館",
+      "layer": "expanded_public_organization_candidates",
+      "name_as_in_source_inventory": "國立臺灣師範大學美術館",
+      "official_museum_id": null,
+      "organizational_events": [
+        {
+          "date_as_reported": "2019年4月",
+          "event": "美術館籌備處成立"
+        },
+        {
+          "date_as_reported": "2025年8月",
+          "event": "美術館正式成立"
+        }
+      ],
+      "ownership_or_operation_type_original": "公立大學附設館候選",
+      "project_note": "v0.17.0公立大學附設館來源追補；原98列、原71×6基線不改；美術館、美術系校藏與文保執行中心角色分開，不回配籌備期量。",
+      "related_official_source_url": "https://www.artmuse.ntnu.edu.tw/index.php/collections/",
+      "related_source_verification": "original_HTML_body_read",
+      "roster_verification": "official_university_museum_pages_not_legal_registry_verification",
+      "source_inventory_id": "EXP-001"
+    }
+  ],
   "input_versions_and_sha256": [
     {
       "file_name": "館所名錄與母子館關係_v0.2.json",

@@ -1,42 +1,42 @@
 {
   "annotation_classification_status_counts": {
     "insufficient_detail": 1,
-    "supported_by_review_note": 274
+    "supported_by_review_note": 281
   },
-  "annotation_records": 275,
-  "canonical_facts_sha256": "e50062b3fb77a6912c8856d22d73516fbedb97c9acc8f3592d1b95940c3e987c",
+  "annotation_records": 282,
+  "canonical_facts_sha256": "bc888e70167e2fc82f99ce7172c6a538f4ca0bd40a889c591f13c5d35acf50a7",
   "completion_assessment_counts": {
     "parent_context_supported": 14
   },
   "completion_assessment_records": 14,
-  "coverage_current_review_records": 482,
-  "coverage_reviewed_cells": 471,
-  "dataset_version": "0.16.0",
+  "coverage_current_review_records": 500,
+  "coverage_reviewed_cells": 489,
+  "dataset_version": "0.17.0",
   "figure_artifacts": {
     "absence-tags.svg": {
-      "bytes": 340906,
+      "bytes": 341424,
       "path": "docs/figures/absence-tags.svg",
-      "sha256": "2457460856df8b773e2883b8bdc60259682521ed847be36c2abe16f778243e0c"
+      "sha256": "ba720e9ec9403052ee51d08cc6be90eca8d813eca17cca15069c4318f3ac164f"
     },
     "coverage-facets.svg": {
-      "bytes": 597224,
+      "bytes": 613427,
       "path": "docs/figures/coverage-facets.svg",
-      "sha256": "0945304c64eb7d8f60bc47d2e4f1cb92caea91d86dd19402586ce0c6bd3823e1"
+      "sha256": "e973c1f5236d7b867e34116c46f0563384278cb9c9c031f333306a48257c6cbf"
     },
     "coverage-states.svg": {
-      "bytes": 495749,
+      "bytes": 495720,
       "path": "docs/figures/coverage-states.svg",
-      "sha256": "b019cfc2548879ee2fb0e7e54a3270fa8cad65094147f0378c7a63498b2106ff"
+      "sha256": "bb8f2774fc2a537d7ad6c87772660cb33d16030d465c80c1ac1851cc72ddbb17"
     }
   },
-  "figure_source_sha256": "3903a8129fb38017b9490605114bfb54f1260778dba66244a82e8f63b027d4bc",
+  "figure_source_sha256": "17421aa3f3790a9707bf8c539259f13acd3c14276a525a680e68ed5753c896c1",
   "input_sha256": {
-    "data/absence_annotations.json": "f9dbfc3d1b3b3c9a3d1bf78be7e6e02a76915fae5f14e7401661d8e8f66abad1",
+    "data/absence_annotations.json": "0e259c8ac7a660e2279ea602bf097ce72793ba4a2ae8cc9948c11d7a04057e27",
     "data/completion_reviews.json": "a0c2ad94861fd33d357ba2819a06798b1cb98c0ab6666d13fd58f7e397e2cde6",
     "metadata/absence_vocabulary.json": "7ef6380b0cc7a59ed38957bf52b5de80c2770eb514174258b2662e88467c9997",
-    "metadata/completion_review_rules.json": "7bc75cde360868a8378ce35c661dc308bef125c4f173ffc5d987b660b5f9c5d5",
-    "metadata/normalization_rules.json": "87e0eb05fe005b24f15ab28ed67b46bf41a7a4d0f37c74043915e091617f6ef0",
-    "metadata/organization_dimensions.json": "00e7360558186cfcfb17bf2d22d21a30735cc8779fbcf62e09abb8a01e30e291",
+    "metadata/completion_review_rules.json": "65561a8da9a14463b2e80480264401df242da7d0766d9de7541424c6e0fd2b19",
+    "metadata/normalization_rules.json": "ab266d63fb776044ed74678f8c73a6d78198754396158530f278fac8948f0c52",
+    "metadata/organization_dimensions.json": "6d182ad67de732b5c3d327f8a65a6a822a5bb6b4cf7e0d244487ed3af4749b54",
     "metadata/relation_projection_rules.json": "32c842c70fa468cfddde9d6463c402f1e4d8f8dd2fd936eef6c265bf8a20e2db",
     "schema/absence_annotation.schema.json": "21c9b862df9ce8e0aa7b8e0e23c3f9a93aa91531f0fd6b258b0f0b20cc731d1c",
     "schema/completion_review.schema.json": "e657c989c5864679e10f18b9557310d45ea105c6672c1d10149004b0c91168b5",
@@ -44,7 +44,7 @@
     "schema/relation_projection.schema.json": "8ad97cddc1f544bf4600495ee94e8ac200e30d2b641111c1174aefadd30842cb"
   },
   "national_estimate": false,
-  "normalized_observation_records": 307,
+  "normalized_observation_records": 311,
   "original_observations_mutated": false,
   "quantities_summed_or_converted": false,
   "relation_projection_records": 86,
