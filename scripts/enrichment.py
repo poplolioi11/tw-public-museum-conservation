@@ -8,11 +8,16 @@ from collections import Counter
 import hashlib, json, re
 import coverage as coverage_model
 import normalization
+import relation_projection
+import completion_review
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT_FILES = ['data/absence_annotations.json', 'metadata/absence_vocabulary.json',
                'metadata/organization_dimensions.json', 'metadata/normalization_rules.json',
-               'schema/absence_annotation.schema.json', 'schema/normalization_record.schema.json']
+               'schema/absence_annotation.schema.json', 'schema/normalization_record.schema.json',
+               'metadata/relation_projection_rules.json', 'schema/relation_projection.schema.json',
+               'data/completion_reviews.json', 'metadata/completion_review_rules.json',
+               'schema/completion_review.schema.json']
 FIGURE_NAMES = ['coverage-states.svg', 'coverage-facets.svg', 'absence-tags.svg']
 
 
@@ -108,17 +113,24 @@ def validate_inputs(facts, inventory, root=ROOT, shape_validator=None):
     for row in normalized:
         shape_validator(row, norm_schema, row['observation_id'])
     coverage = coverage_model.generate(facts, inventory, dimensions)
+    relations = relation_projection.generate(facts, root)
+    completed = completion_review.generate(facts, root, shape_validator)
     return {'annotations': annotations, 'vocabulary': vocabulary, 'dimensions': dimensions,
-            'rules': rules, 'normalized': normalized, 'coverage': coverage}
+            'rules': rules, 'normalized': normalized, 'coverage': coverage,
+            'relation_projection': relations, 'completion_reviews': completed}
 
 
 def generate(facts, inventory, root=ROOT, shape_validator=None):
     inputs = validate_inputs(facts, inventory, root, shape_validator)
     aa, vocab, cov = inputs['annotations'], inputs['vocabulary'], inputs['coverage']
     tables = {'absence_annotations': aa, 'normalized_observations': inputs['normalized'],
-              'coverage_cells': cov['cells'], 'coverage_groups': cov['groups']}
+              'coverage_cells': cov['cells'], 'coverage_groups': cov['groups'],
+              'relation_projection': inputs['relation_projection']['rows'],
+              'completion_reviews': inputs['completion_reviews']['rows']}
     outputs = {'metadata/coverage.json': encode(cov)}
     outputs.update(normalization.build_outputs(facts, inputs['rules']))
+    outputs.update(inputs['relation_projection']['outputs'])
+    outputs.update(inputs['completion_reviews']['outputs'])
     labels = vocab['content_tag_labels']
     tagcounts = Counter(t for row in aa for t in row['content_tags'])
     reasoncounts = Counter(t for row in aa for t in row['absence_reason'])
@@ -150,13 +162,14 @@ def generate(facts, inventory, root=ROOT, shape_validator=None):
                '原核讀證據見[data/body_reviews.jsonl](../data/body_reviews.jsonl)。原狀態與歷史未因標籤改寫。\n']
     outputs['docs/ABSENCE.md'] = ('\n'.join(report) + '\n').encode()
     summ = ['# 查核格的範圍與覆蓋分母\n', f'版本v{facts["dataset_version"]}。觀察單位是候選識別×目標年格，不是修護物件或完整報告份數。\n',
-            '三個集合分開呈現；狀態保留全部目前來源，混合狀態不以最高層級覆蓋。\n',
+            '歷史基線、全部已查核與聯集分開；另列2020–2025及期間外歷史子集。全集已包含子集，各欄不能再相加。狀態保留全部目前來源，混合狀態不以最高層級覆蓋。\n',
             '|集合|館年格數|目前來源查核則數|本版無查核格|至少一來源有已核紀錄的格|\n|---|---:|---:|---:|---:|']
     for p in cov['populations']:
         summ.append(f'|{p["definition"]}|{p["denominator_cells"]}|{p["current_review_records"]}|{p["state_counts"]["not_assessed"]}|{p["cells_with_any_verified_observation_review"]}|')
     summ += ['\n原426格與實際review格不同；無查核不能改為本輪未定位來源。聯集也不是98個候選的所有年份或全國母體。',
              '已有數值仍只證明所列來源分項，不代表完整年度量；不提供全國公開率或績效排名。\n',
-             '![三種明確集合的格狀態](figures/coverage-states.svg)\n',
+             '歷史索引補登不增加2020–2025的格數；全部已查核及聯集的增加只是把既有歷史觀測掛上索引。\n',
+             '![明確集合及年份子集的格狀態](figures/coverage-states.svg)\n',
              '![按工作流程、原權管文字、行政區島群與年度的有界查核格](figures/coverage-facets.svg)\n',
              '## 分組的意思\n',
              'working_category_by_batch只表示原NPM／順序二至六工作文件實列的流程成員，不是官方館類。未在這些表中指派者保留pre_batch_or_unassigned；不推未曾研究。多批次以完整成員集合形成互斥組，沒有一格重算多次。',
@@ -179,9 +192,13 @@ def generate(facts, inventory, root=ROOT, shape_validator=None):
         'schema_version': '1.0', 'dataset_version': facts['dataset_version'],
         'canonical_facts_sha256': digest(encode(facts)),
         'input_sha256': {name: digest((root / name).read_bytes()) for name in INPUT_FILES},
-        'source_schema_versions': {'absence': '1.0', 'normalization': '1.0', 'coverage': '1.0'},
+        'source_schema_versions': {'absence': '1.0', 'normalization': '1.0', 'coverage': '1.1',
+                                   'relation_projection': '1.0', 'completion_reviews': '1.0'},
         'annotation_records': len(aa), 'annotation_classification_status_counts': dict(cc),
         'normalized_observation_records': len(inputs['normalized']),
+        'relation_projection_records': len(inputs['relation_projection']['rows']),
+        'completion_assessment_records': len(inputs['completion_reviews']['rows']),
+        'completion_assessment_counts': inputs['completion_reviews']['summary']['assessment_counts'],
         'coverage_current_review_records': len(coverage_model.current_reviews(facts['body_reviews'])),
         'coverage_reviewed_cells': next(p['denominator_cells'] for p in cov['populations'] if p['population_id'] == 'reviewed_cohort'),
         'figure_source_sha256': source_sha, 'figure_artifacts': figures,

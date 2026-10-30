@@ -1,5 +1,11 @@
 {
-  "dataset_version": "0.15.0",
+  "completion_review_reference": {
+    "observation_id": "yilan-2023-compound-maintenance26",
+    "original_completion_category_retained": true,
+    "review_id": "completion-v016-yilan-2023-compound-maintenance26",
+    "versioned_reviews_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/data/completion_reviews.json"
+  },
+  "dataset_version": "0.16.0",
   "record": {
     "action_categories": [
       "maintenance",
@@ -54,5 +60,5 @@
     "title": "宜蘭縣政府112年度工作報告",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.15.0/catalog/records/yilan-2023-compound-maintenance26.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/yilan-2023-compound-maintenance26.json"
 }

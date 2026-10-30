@@ -81,6 +81,7 @@ def main():
     # Synthetic contract fixture: an HTML source has a body locator, never borrowed PDF pages.
     html=json.loads(json.dumps(facts));hr=html['observations'][0]
     hr.update(source_id=next(s['source_id']for s in html['sources']if s['original_file_type']=='HTML'),pdf_page_1_based=None,printed_page=None,source_locator='synthetic annual body locator')
+    html['summary']['numeric_support_source_file_versions']=len({r['source_id']for r in html['observations']})
     builder.validate(html,inventory,version)
     for key,badvalue in [('pdf_page_1_based',1),('printed_page','13'),('source_locator','')]:
         bad=json.loads(json.dumps(html));bad['observations'][0][key]=badvalue
@@ -110,6 +111,13 @@ def main():
         assert result.returncode!=0 and hashes(root)==before
         # New original observations must satisfy the complete declared shape
         # before the writer can replace any canonical or exported artifact.
+        for field,expected in [('numeric_origins','summary_numeric_origins_stale'),('units','summary_unit_rows_stale'),('numeric_support_source_file_versions','summary_fact_source_versions_stale')]:
+            bad=json.loads(json.dumps(facts))
+            if field=='numeric_origins':bad['summary'][field]['source_reported']-=1
+            elif field=='units':bad['summary'][field]['件']-=1
+            else:bad['summary'][field]-=1
+            candidate.write_bytes(builder.encode(bad));result=subprocess.run(cmd+['--candidate-facts',str(candidate)],capture_output=True,text=True)
+            assert result.returncode!=0 and expected in result.stderr and hashes(root)==before,(field,result.stderr)
         for case in ['missing_aggregation_role','year_above_schema_maximum']:
             bad=json.loads(json.dumps(facts))
             if case=='missing_aggregation_role':

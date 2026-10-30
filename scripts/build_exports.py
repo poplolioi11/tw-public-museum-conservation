@@ -163,6 +163,9 @@ def validate(facts,inventory,version):
     assert len(baseline_ids)==71 and {k[0]for k in keys}==baseline_ids
     assert all({y for ident,y in keys if ident==i}==set(range(2020,2026))for i in baseline_ids)
     s=facts['summary'];assert s['total_fact_rows']==len(obs)
+    assert s['numeric_origins']==dict(Counter(r['numeric_origin']for r in obs)),'summary_numeric_origins_stale'
+    assert s['units']==dict(Counter(r['unit_as_reported']if r['unit_as_reported']is not None else'未明列'for r in obs)),'summary_unit_rows_stale'
+    assert s['numeric_support_source_file_versions']==len({r['source_id']for r in obs}),'summary_fact_source_versions_stale'
     assert s['organizations_with_facts']==len({r['organization_name']for r in obs})
     assert s['verified_original_source_files']==len(sources)
     assert s['verified_original_pdf_files']==sum(r['original_file_type']=='PDF'for r in sources)
@@ -210,9 +213,13 @@ def generate(facts,inventory,version,root=ROOT):
     output.update(enriched['outputs'])
     output['schema/vocabulary.json']=encode(vocabulary())
     source_map={s['source_id']:s for s in facts['sources']}
+    completed_map={r['observation_id']:r for r in enriched['tables']['completion_reviews']}
     for r in facts['observations']:
         ident=r['observation_id'];assert re.fullmatch('[A-Za-z0-9_-]+',ident)
-        output[f'catalog/records/{ident}.json']=encode({'dataset_version':version,'record':r,'source':source_map[r['source_id']],'versioned_record_url':f'https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v{version}/catalog/records/{ident}.json'})
+        entry={'dataset_version':version,'record':r,'source':source_map[r['source_id']],'versioned_record_url':f'https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v{version}/catalog/records/{ident}.json'}
+        if ident in completed_map:
+            entry['completion_review_reference']={'review_id':completed_map[ident]['review_id'],'observation_id':ident,'versioned_reviews_url':f'https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v{version}/data/completion_reviews.json','original_completion_category_retained':True}
+        output[f'catalog/records/{ident}.json']=encode(entry)
     catalog=['# 館所索引',f'\n版本：{version}。可先看[資料樣貌](SAMPLE.md)，再依館所查找各筆原詞、原數字與官方來源。\n',
       '每筆數值均附核讀來源。下列「補充正文查核」另計年度來源查找紀錄；0則表示未另建這類紀錄，不表示數值未核來源。列數也不是文物件數或修復合計。\n']
     review_labels={'numeric_observations_verified':'已核原報數值','body_read_no_eligible_quantity_located':'指定正文未定位合格數量',

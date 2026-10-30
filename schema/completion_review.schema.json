@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "aggregation_allowed": {
+      "const": false
+    },
+    "assessment": {
+      "enum": [
+        "explicit_item_completion_supported",
+        "parent_context_supported",
+        "completion_not_explicit_in_read_scope",
+        "completion_scope_ambiguous",
+        "source_unavailable_for_this_review"
+      ]
+    },
+    "completion_phrase_raw": {
+      "type": "string"
+    },
+    "completion_phrase_scope": {
+      "enum": [
+        "item_statement",
+        "parent_statement",
+        "annual_overview",
+        "not_found",
+        "unresolved"
+      ]
+    },
+    "completion_transferred_between_scopes": {
+      "const": false
+    },
+    "evidence_basis": {
+      "enum": [
+        "new_selected_original_page_reading",
+        "source_unavailable_this_review"
+      ]
+    },
+    "human_second_review_claimed": {
+      "const": false
+    },
+    "image_viewed_pdf_pages_1_based": {
+      "items": {
+        "minimum": 1,
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "interpretation_note": {
+      "type": "string"
+    },
+    "observation_id": {
+      "type": "string"
+    },
+    "original_completion_category": {
+      "type": "string"
+    },
+    "original_completion_status": {
+      "type": "string"
+    },
+    "original_file_sha256": {
+      "type": "string"
+    },
+    "original_observation_mutated": {
+      "const": false
+    },
+    "pdf_pages_1_based": {
+      "items": {
+        "minimum": 1,
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "printed_page": {
+      "type": "string"
+    },
+    "remaining_uncertainty": {
+      "type": "string"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "review_scope": {
+      "type": "string"
+    },
+    "reviewed_at": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "text_read_pdf_pages_1_based": {
+      "items": {
+        "minimum": 1,
+        "type": "integer"
+      },
+      "type": "array"
+    },
+    "unique_object_inference_allowed": {
+      "const": false
+    }
+  },
+  "required": [
+    "review_id",
+    "observation_id",
+    "source_id",
+    "original_file_sha256",
+    "original_completion_status",
+    "original_completion_category",
+    "completion_phrase_raw",
+    "printed_page",
+    "review_scope",
+    "interpretation_note",
+    "remaining_uncertainty",
+    "reviewed_at",
+    "assessment",
+    "completion_phrase_scope",
+    "pdf_pages_1_based",
+    "text_read_pdf_pages_1_based",
+    "image_viewed_pdf_pages_1_based",
+    "evidence_basis",
+    "original_observation_mutated",
+    "completion_transferred_between_scopes",
+    "unique_object_inference_allowed",
+    "aggregation_allowed",
+    "human_second_review_claimed"
+  ],
+  "title": "Bounded completion-language assessment; original completion category retained",
+  "type": "object"
+}

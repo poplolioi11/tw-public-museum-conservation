@@ -1,40 +1,55 @@
 # 臺灣公立館保存修護公開資料索引
 
-版本v0.15.0；資料截至2026-10-30。307列含304筆原報觀測、1筆程式推算與2筆脈絡，不是修護物件合計或全國完整統計。
+版本v0.16.0；資料截至2026-10-30。307列含304筆原報觀測、1筆程式推算與2筆脈絡，不是修護物件合計或全國完整統計。發行附件與網站部署各依版本與實際讀回確認。
 
 - [互動網站與資料入口](https://poplolioi11.github.io/tw-public-museum-conservation/)
-- [本階段的分類、詞表與覆蓋率](https://poplolioi11.github.io/tw-public-museum-conservation/enrichment.html)
+- [有界資料、關係與完成語表](https://poplolioi11.github.io/tw-public-museum-conservation/enrichment.html)
 - [網站資料manifest](https://poplolioi11.github.io/tw-public-museum-conservation/manifest.json)
 - [完整公開事實JSON](data/facts.json)
-- [逐筆JSONL](data/observations.jsonl)
+- [觀測JSONL](data/observations.jsonl)
 - [來源定位與版次SHA](data/sources.jsonl)
 - [查核含歷史](data/body_reviews.jsonl)
 - [目前查核識別](metadata/read_coverage.json)
+- [關係投影JSON](data/relation_projection.json)
+- [關係投影JSONL](data/relation_projection.jsonl)
+- [關係投影CSV](data/relation_projection.csv)
+- [原關係欄位與分類規則](metadata/relation_projection_rules.json)
+- [關係投影結構](schema/relation_projection.schema.json)
+- [關係解讀說明](docs/RELATIONS.md)
+- [完成語覆核JSON](data/completion_reviews.json)
+- [完成語覆核JSONL](data/completion_reviews.jsonl)
+- [完成語覆核CSV](data/completion_reviews.csv)
+- [完成語覆核規則](metadata/completion_review_rules.json)
+- [完成語覆核結構](schema/completion_review.schema.json)
+- [SQLite完整資料](data/museum-conservation.sqlite)
 - [缺量內容與證據註記JSONL](data/absence_annotations.jsonl)
 - [搜尋別名JSONL](data/normalized_observations.jsonl)
-- [三種集合、分組與狀態JSON](metadata/coverage.json)
+- [集合與年份子集的狀態JSON](metadata/coverage.json)
 - [逐格CSV](data/coverage_cells.csv)
 - [分組CSV](data/coverage_groups.csv)
 - [原分組證據與不確定性](metadata/organization_dimensions.json)
 - [缺量註記說明](docs/ABSENCE.md)
 - [覆蓋率分母說明](docs/COVERAGE.md)
-- [作業分類對照](docs/METRIC_CLASS_MAP.md)
+- [作業對照](docs/METRIC_CLASS_MAP.md)
 - [完成詞對照](docs/COMPLETION_STATUS_MAP.md)
-- [單位詞對照](docs/UNIT_MAP.md)
-- [本版既有館所來源補查](docs/EXISTING_FOLLOWUP.md)
-- [歷史30格索引回掛](docs/INDEX_BACKFILL30.md)
+- [單位對照](docs/UNIT_MAP.md)
+- [前版既有館所追補](docs/EXISTING_FOLLOWUP.md)
 - [研究筆記草稿](docs/RESEARCH_NOTE_DRAFT.md)
 - [館所索引](catalog/README.md)
 - [欄位字典](docs/DATA_DICTIONARY.md)
 - [公開範圍與權利](docs/PUBLICATION.md)
 - [AI使用與核對層級](AI_USAGE.md)
 
-330個來源版次；606則查核含歷史，目前480則對應469組候選識別×目標年。同格多則全部保留，目前紀錄依明確extends_review_id葉節點選取，不選較好狀態或最新日期。本版8格索引只回掛17筆既有原報觀測；5缺年首查採8筆新原報列，11則指定子段補讀另延伸，不回填舊版閱讀聲稱。
+330個來源版次；608則查核含歷史，目前482則對應471個館年格。原307列紀錄、330來源、606查核前綴及86關係保留。本版只補高美館2015、2016兩個歷史索引，連6筆已公開原報觀測，這部分未新讀原件或新增數值。
 
-275則N葉節點對應269個含N格，包含268個僅N格及1個與其他來源有數值並存的混合格。274則說明足以支持內容／原因標籤，1則資訊不足；引用的是目前公開查核說明，不冒充官方原件逐字引文；本版11則新補讀日期與範圍另存。多選標籤不能相加為館年數，也不推機構未做或未公開。
+全期間已查核471格與原索引全聯集543格；2020–2025已查核子集469格、同期間聯集541格及原71組織×六年基線426格保持。兩個歷史格另列，五個集合／年份子集重疊，不可相加。72格無館年查核索引，不等於原輪次未定位來源；不作全國公開率或作業量趨勢。
 
-覆蓋率分開歷史索引426格、本版已有有界查核469格及聯集541格。聯集72格本版無館年查核索引；無查核不同於原輪次未定位來源。工作批次是流程而非官方館類，權管及島群依原中繼資料且保留unknown。這些是有界格狀態比例，不是全國公開率、年度修護趨勢或績效排名。
+86則關係與證據註記逐列對應38種原名稱、15類與4種註記層級。原relationship_verified為true3、false30、未列53，全部是整理者既有註記，不是本輪新核官方關係。未列為null、false不等於已證明無關係，缺少not_additive也不授予加總。原角色與字典保留，續頁定位不推物件包含。
 
-原詞、量詞、完成詞、對象與期段逐筆保留；搜尋別名另存sidecar，不能換算、配分、加總或提升可比資格。91種metric_class既有分類不是館方原詞；館方原詞在metric_as_reported。25個unit_as_reported相異值包含null及未明列文字，不稱25種量詞。
+14筆完成語覆核使用9份既存PDF的10個指定原頁，全部assessment=parent_context_supported，原completion_from_context及原完成詞保持；不能轉成分項明載完成、14件新完成物件、全案或全年度完成總量。固定紀錄的completion_review_reference連向覆核表，附原完成語、適用父句範圍、來源SHA、頁序與剩餘不確定；覆核表不自動取代原分類。文字字層與圖頁分列，掃描頁依實看原圖，不冒稱全冊核讀。
 
-PDF文字頁與原圖頁分列，HTML用原段定位；跨年不拆年，未知不填零。原71組織索引、另14組織候選及13場域候選不合稱全國法定館數，原名冊PDF仍未重核。官方原件、整頁文字與圖片不重發布；MIT不改變第三方權利，不稱人類二校、專家或館方認證。
+275則目前N葉節點對應269個含N格（268僅N、1混合）；274則說明支持、1則資訊不足。引文為整理者公開查核說明，不冒充官方原文；多選標籤不能相加為館年、機構或物件數，不推未做或未公開原因。
+
+原詞、原量詞、完成詞、對象與期間逐筆保留，搜尋別名不換算、不配分、不提升可比或加總資格。91個metric_class是歷史分類值，館方原詞在metric_as_reported；25個單位欄相異值包含null及未明列，不能稱25種量詞。原報數字、推算與脈絡分開，跨年只存一次，未知不補零。
+
+原名錄仍保留索引轉錄層級；工作批次不是官方館類，權管與島群保留unknown。私人補充紀錄、官方原件全文、整頁文字或圖片不重發布。MIT不改變第三方權利，不宣稱人類二校、專家或館方認證，不投稿、取DOI或寄信。

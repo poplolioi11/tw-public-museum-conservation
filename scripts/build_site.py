@@ -14,10 +14,10 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VIEWER_VERSION = '1.1.0'
+VIEWER_VERSION = '1.2.0'
 REPOSITORY = 'https://github.com/poplolioi11/tw-public-museum-conservation'
 ENRICHMENT_DOWNLOADS = {
-    'coverage': ('metadata/coverage.json', '查核格狀態與三種集合 JSON'),
+    'coverage': ('metadata/coverage.json', '查核格狀態與年份子集 JSON'),
     'absence_annotations': ('data/absence_annotations.json', '缺量註記與引文 JSON'),
     'absence_annotations_jsonl': ('data/absence_annotations.jsonl', '缺量註記 JSONL'),
     'absence_annotations_csv': ('data/absence_annotations.csv', '缺量註記 CSV'),
@@ -31,10 +31,20 @@ ENRICHMENT_DOWNLOADS = {
     'absence_vocabulary': ('metadata/absence_vocabulary.json', '缺量內容與原因詞表 JSON'),
     'normalization_rules': ('metadata/normalization_rules.json', '搜尋別名規則與覆核清冊 JSON'),
     'enrichment_build': ('metadata/enrichment_build.json', '有界整理來源與圖表版本清單 JSON'),
+    'relation_projection': ('data/relation_projection.json', '關係與證據註記附表 JSON'),
+    'relation_projection_jsonl': ('data/relation_projection.jsonl', '關係與證據註記 JSONL'),
+    'relation_projection_csv': ('data/relation_projection.csv', '關係與證據註記 CSV'),
+    'relation_projection_rules': ('metadata/relation_projection_rules.json', '關係附表對照與原值清冊 JSON'),
+    'relation_projection_build': ('metadata/relation_projection_build.json', '關係附表版本與限制 JSON'),
+    'completion_reviews': ('data/completion_reviews.json', '指定完成語覆核 JSON'),
+    'completion_reviews_jsonl': ('data/completion_reviews.jsonl', '指定完成語覆核 JSONL'),
+    'completion_reviews_csv': ('data/completion_reviews.csv', '指定完成語覆核 CSV'),
+    'completion_review_rules': ('metadata/completion_review_rules.json', '完成語覆核範圍與清冊 JSON'),
+    'completion_review_build': ('metadata/completion_review_build.json', '完成語覆核版本與限制 JSON'),
 }
 FIGURES = {
-    'coverage-states.svg': ('三種集合的查核格狀態',
-        '下方狀態表列出相同數據；三個集合互有重疊，不能相加。'),
+    'coverage-states.svg': ('集合與年份子集的查核格狀態',
+        '下方狀態表列出相同數據；全集包含子集，各欄不能相加。'),
     'coverage-facets.svg': ('分組與年度的有界查核格',
         '工作流程、權管文字、行政區島群與年度的分組分母及狀態見分組 CSV；各年納入集合可能不同，不能解讀為修護量或機構行為趨勢。'),
     'absence-tags.svg': ('既有缺量查核說明的內容標籤',
@@ -91,6 +101,10 @@ def enrichment_page(inputs, facts, version, outputs):
     annotations = json.loads(inputs['data/absence_annotations.json'])
     vocabulary = json.loads(inputs['metadata/absence_vocabulary.json'])
     normalized = [json.loads(line) for line in inputs['data/normalized_observations.jsonl'].splitlines()]
+    relations = json.loads(inputs['data/relation_projection.json'])
+    completed = json.loads(inputs['data/completion_reviews.json'])
+    relation_rules = json.loads(inputs['metadata/relation_projection_rules.json'])
+    completion_rules = json.loads(inputs['metadata/completion_review_rules.json'])
     if coverage['dataset_version'] != version or coverage['as_of'] != facts['as_of']:
         raise ValueError('Coverage and canonical facts versions differ; rebuild exports first')
     if annotations != [json.loads(line) for line in inputs['data/absence_annotations.jsonl'].splitlines()]:
@@ -105,8 +119,9 @@ def enrichment_page(inputs, facts, version, outputs):
         raise ValueError('Normalized sidecar must link each existing observation once')
     populations = coverage['populations']
     if {p['population_id'] for p in populations} != {
-            'baseline_inventory_71x6', 'reviewed_cohort', 'baseline_review_union'} or len(populations) != 3:
-        raise ValueError('Expected three explicitly defined review-cell populations')
+            'baseline_inventory_71x6', 'reviewed_cohort', 'baseline_review_union',
+            'reviewed_2020_2025_cohort', 'reviewed_outside_2020_2025_cohort'} or len(populations) != 5:
+        raise ValueError('Expected explicit review-cell populations and year subsets')
     labels = coverage['state_labels']
     if set(labels) != set(STATE_EXPLANATIONS):
         raise ValueError('Coverage state vocabulary changed; review page explanations first')
@@ -149,7 +164,7 @@ def enrichment_page(inputs, facts, version, outputs):
         outputs[path] = body
         figures[name] = {'url': path, 'download_url': './' + path, 'label': label,
                          'source_path': source_path, 'sha256': sha(body), 'bytes': len(body)}
-    population_table = '<div class="table-wrap"><table class="summary-table"><caption>每欄使用自己的館年格分母；三欄不能相加</caption><thead><tr><th scope="col">目前來源狀態</th>'
+    population_table = '<div class="table-wrap"><table class="summary-table"><caption>每欄使用自己的館年格分母；全集與子集已重疊，各欄不能相加</caption><thead><tr><th scope="col">目前來源狀態</th>'
     population_table += ''.join('<th scope="col">' + escape(p['definition']) + '<br>' +
         str(p['denominator_cells']) + '格</th>' for p in populations)
     population_table += '</tr></thead><tbody>'
@@ -170,6 +185,22 @@ def enrichment_page(inputs, facts, version, outputs):
     tags += ''.join('<tr><th scope="row">' + escape(label) + '</th><td>' + str(tagcounts[key]) + '</td></tr>'
                     for key, label in vocabulary['content_tag_labels'].items())
     tags += '</tbody></table></div>'
+    relation_counts = Counter(r['category'] for r in relations)
+    relation_table = '<div class="table-wrap"><table class="summary-table"><caption>既有關係與證據註記列數，不是物件量</caption><thead><tr><th scope="col">註記類型</th><th scope="col">列數</th></tr></thead><tbody>'
+    relation_table += ''.join('<tr><th scope="row">'+escape(label)+'</th><td>'+str(relation_counts[key])+'</td></tr>' for key,label in relation_rules['category_labels'].items())
+    relation_table += '</tbody></table></div>'
+    original_by_id = {o['observation_id']:o for o in facts['observations']}
+    source_by_id = {s['source_id']:s for s in facts['sources']}
+    if len(relations) != len(facts['relations']) or [r['original_relation'] for r in relations] != facts['relations']:
+        raise ValueError('Relation projection must preserve all original notes')
+    if len(completed) != len({r['observation_id'] for r in completed}) or {r['observation_id'] for r in completed} != {o['observation_id'] for o in facts['observations'] if o['completion_category']=='completion_from_context'}:
+        raise ValueError('Completion review must link every selected original record once')
+    completion_table = '<div class="table-wrap"><table class="summary-table"><caption>指定完成語原頁覆核；原分類保留，不是完成物件總數</caption><thead><tr><th scope="col">館所／年與紀錄</th><th scope="col">本輪判讀</th><th scope="col">必要完成短語與適用界線</th><th scope="col">官方原件頁段</th></tr></thead><tbody>'
+    for review in completed:
+        o=original_by_id[review['observation_id']];s=source_by_id[review['source_id']]
+        url=(s['official_file_url'] or s['official_landing_url'])+'#page='+str(o['pdf_page_1_based'])
+        completion_table += '<tr id="completion-'+escape(o['observation_id'],quote=True)+'"><th scope="row"><a href="./index.html?record='+escape(o['observation_id'],quote=True)+'">'+escape(o['organization_name']+'／'+str(o['data_year'])+'｜'+o['metric_as_reported'])+'</a></th><td>'+escape(completion_rules['assessment_labels'][review['assessment']])+'</td><td>'+escape('「'+review['completion_phrase_raw']+'」；'+review['interpretation_note']+' '+review['remaining_uncertainty'])+'</td><td><a href="'+escape(url,quote=True)+'">PDF'+','.join(map(str,review['pdf_pages_1_based']))+'／印'+escape(review['printed_page'])+'</a></td></tr>'
+    completion_table += '</tbody></table></div>'
     download_links = '<ul>' + ''.join('<li><a href="./' + escape(d['url'], quote=True) + '">' +
         escape(d['label']) + '</a> <span class="download-size">（' + str(d['bytes']) + ' bytes）</span></li>'
         for d in downloads.values()) + '</ul>'
@@ -177,6 +208,8 @@ def enrichment_page(inputs, facts, version, outputs):
         '__POPULATION_TABLE__': population_table, '__POPULATION_NOTES__': population_notes,
         '__STATE_GUIDE__': guide, '__ANNOTATION_SUMMARY__': escape(annotation_summary),
         '__CONTENT_TAG_TABLE__': tags, '__NORMALIZED_COUNT__': str(len(normalized)),
+        '__RELATION_TABLE__': relation_table, '__RELATION_COUNT__': str(len(relations)),
+        '__COMPLETION_TABLE__': completion_table, '__COMPLETION_COUNT__': str(len(completed)),
         '__DOWNLOAD_LINKS__': download_links}
     template = inputs['site-src/enrichment.html'].decode()
     for marker, replacement in replacements.items():
@@ -235,7 +268,7 @@ def expected(root, inputs):
 - [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
 - [本版完整公開事實]({entries['data']['url']})：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙]({entries['vocabulary']['url']})：分類標籤及使用限制。
-- [有界資料整理](enrichment.html)：三種館年格集合、缺量註記、搜尋別名、文字表格與圖表。
+- [有界資料整理](enrichment.html)：館年格全集與年份子集、缺量註記、關係及完成語覆核、文字表格與圖表。
 - 逐筆紀錄：records/{{observation_id}}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本]({REPOSITORY})。
 
@@ -250,7 +283,7 @@ HTML 來源以 source_locator 定位，PDF 頁碼為 null；PDF 來源以 pdf_pa
 
 manifest.json 的 enrichment.downloads 與 enrichment.figures 提供每個端點的 url、SHA-256、bytes 及來源路徑。
 缺量註記只引用既有公開查核說明，不是機構未公開原因、新原件核讀或官方逐字引文。資訊不足保持資訊不足。
-coverage 的觀察單位是 organization_id×target_data_year；三個 population 互有重疊，不相加、不稱全國公開率。
+coverage 的觀察單位是 organization_id×target_data_year；population 全集與年份子集互有重疊，不相加、不稱全國公開率。
 not_assessed、source_not_located、body_pending、no_quantity_scope_only 與 mixed_current_states 分別保留。
 normalization 僅為既有觀測的搜尋別名；不帶 quantity、不換算件數、不使混合作業或跨館量值可相加。
 ''' + '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for d in enrichment['downloads'].values()) + '\n' +

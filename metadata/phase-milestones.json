@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-30",
   "data_schema_version": "4.0",
-  "dataset_version": "0.15.0",
+  "dataset_version": "0.16.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -314,6 +314,28 @@
       "scope": "既有8格索引回補、5缺年有界首查與11則指定子段註記補讀",
       "source_review_records": 606,
       "unique_source_year_cells": 469
+    },
+    {
+      "baseline_review_union_2020_2025": 541,
+      "completed_in_release": "v0.16.0",
+      "completion_assessment_counts": {
+        "parent_context_supported": 14
+      },
+      "completion_assessment_records": 14,
+      "current_review_records": 482,
+      "deployment_verification_basis": "整階段驗收後一次發行，附件與同提交CI/實站/私人Drive另實際讀回；本metadata不是部署回執。",
+      "historical_reviewed_cells_outside_2020_2025": 2,
+      "linked_existing_historical_observations": 6,
+      "national_or_all_years_complete": false,
+      "new_observation_records": 0,
+      "new_source_review_records": 2,
+      "new_source_versions": 0,
+      "original_307_observations_330_sources_606_reviews_86_relations_preserved": true,
+      "relation_projection_records": 86,
+      "reviewed_cells_2020_2025": 469,
+      "scope": "高美館2歷史格索引、86關係附表及14筆完成語原頁覆核",
+      "source_review_records": 608,
+      "unique_source_year_cells": 471
     }
   ],
   "ongoing_gaps": "原36格適用正文待核與48格未定位來源，本輪無確認適用的新觸發證據，不重抓同一失敗端點；新高史博2020格未定位適用館級來源另記。72個聯集格無查核索引，不等於未做或未公開；不開新館批次。"

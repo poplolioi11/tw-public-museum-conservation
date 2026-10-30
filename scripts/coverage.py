@@ -25,6 +25,8 @@ POPULATIONS = {
     'baseline_inventory_71x6': '原71組織×2020–2025歷史索引格',
     'reviewed_cohort': '本版已有有界查核的館所候選×目標年',
     'baseline_review_union': '原歷史索引與本版有界查核的聯集',
+    'reviewed_2020_2025_cohort': '已查核集合中目標年為2020–2025的子集',
+    'reviewed_outside_2020_2025_cohort': '已查核集合中目標年不在2020–2025的歷史子集',
 }
 
 
@@ -70,6 +72,8 @@ def generate(facts, inventory, dimensions):
             pp.append('baseline_inventory_71x6')
         if rr:
             pp.append('reviewed_cohort')
+            pp.append('reviewed_2020_2025_cohort' if 2020 <= year <= 2025
+                      else 'reviewed_outside_2020_2025_cohort')
         lookup = baseline.get((oid, year))
         rows.append({
             'coverage_cell_id': f'{oid}::{year}', 'organization_id': oid,
@@ -131,7 +135,7 @@ def generate(facts, inventory, dimensions):
     assert all(sum(s['state_counts'].values()) == s['denominator_cells'] for s in summaries + grouped)
     assert sum(len(r['review_ids']) for r in rows) == len(current)
     return {
-        'schema_version': '1.0', 'dataset_version': facts['dataset_version'], 'as_of': facts['as_of'],
+        'schema_version': '1.1', 'dataset_version': facts['dataset_version'], 'as_of': facts['as_of'],
         'observation_unit': 'organization_id_target_year_cell',
         'state_selection_rule': 'all current source-review states; mixed states kept; no highest-state replacement',
         'not_a_national_estimate': True,
@@ -139,9 +143,17 @@ def generate(facts, inventory, dimensions):
         'working_category_is_not_official_museum_type': True,
         'geography_is_recorded_roster_or_authority_area_not_all_branch_or_object_location': True,
         'state_labels': STATES, 'populations': summaries, 'cells': rows, 'groups': grouped,
+        'period_2020_2025': {
+            'target_year_min': 2020, 'target_year_max': 2025,
+            'reviewed_cells': sum('reviewed_2020_2025_cohort' in r['populations'] for r in rows),
+            'baseline_review_union_cells': sum(2020 <= r['target_data_year'] <= 2025 for r in rows),
+            'outside_period_reviewed_cells': sum('reviewed_outside_2020_2025_cohort' in r['populations'] for r in rows),
+            'counts_are_review_cells_not_objects': True,
+        },
         'limits': [
             '格的狀態只描述既有有界查核，不是全年作業、機構未做或未公開的判定。',
             '原426格歷史索引與已核集合分開；無查核不等於本輪未定位來源。',
+            '全部已查核集合另分2020–2025與期間外歷史子集；子集已包含於全集，不能再相加。歷史索引補登不增加2020–2025格數。',
             '同館年不同來源的狀態全部保留；有數值與指定段無量可以同時成立。',
             '工作批次是整理流程，多批次以完整成員集合分組，不冒充館類或重複加進多組。',
             '權管及島群依原中繼資料，原PDF未核層級保留；跨場址或資料不足保持unknown。',

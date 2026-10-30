@@ -39,6 +39,8 @@ POPULATION_LABELS = {
     "baseline_inventory_71x6": "原 71 組織 × 六年歷史索引格",
     "reviewed_cohort": "本版已有有界查核的館年格",
     "baseline_review_union": "歷史索引與本版查核的聯集",
+    "reviewed_2020_2025_cohort": "已查核的 2020–2025 子集",
+    "reviewed_outside_2020_2025_cohort": "已查核的期間外歷史子集",
 }
 
 
@@ -186,9 +188,9 @@ def _header(fig, title, subtitle):
 
 def _coverage_states(coverage):
     import matplotlib.pyplot as plt
-    fig, ax = plt.subplots(figsize=(14, 5.9))
-    fig.subplots_adjust(left=.335, right=.965, top=.62, bottom=.24)
-    _header(fig, "三種有界集合的查核格狀態", "觀察單位：候選識別 × 目標年格；每列以自身 n 為 100%。")
+    fig, ax = plt.subplots(figsize=(14, 7.5))
+    fig.subplots_adjust(left=.335, right=.965, top=.65, bottom=.23)
+    _header(fig, "有界集合與年份子集的查核格狀態", "觀察單位：候選識別 × 目標年格；每列以自身 n 為 100%，全集與子集不可相加。")
     _legend(fig, .82)
     groups = coverage["populations"]
     _stacked(ax, groups, [POPULATION_LABELS[g["population_id"]] for g in groups], threshold=8)

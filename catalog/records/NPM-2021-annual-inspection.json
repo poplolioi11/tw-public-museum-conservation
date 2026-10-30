@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.15.0",
+  "dataset_version": "0.16.0",
   "record": {
     "action_categories": [
       "inspection_registration"
@@ -70,5 +70,5 @@
     "title": "故宮110年度年報",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.15.0/catalog/records/NPM-2021-annual-inspection.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/NPM-2021-annual-inspection.json"
 }

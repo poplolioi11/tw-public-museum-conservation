@@ -2,7 +2,7 @@
 
 本表由 `scripts/normalization.py` 的 `build_outputs(facts, rules)` 產生。規則版 `1.0`；既有分類規則版 `1.2`。
 
-已審核 `data/facts.json` 版本 `0.15.0`，觀測清冊 307 筆；輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。
+已審核 `data/facts.json` 版本 `0.16.0`，觀測清冊 307 筆；輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。
 
 僅供搜尋與發現；未新增觀測、改寫原始欄位、拆配數量、換算或授予加總資格。各列依 `observation_id` 連回 `data/facts.json` 的原證據與來源定位。
 
@@ -12,18 +12,18 @@
 
 | 既有作業標籤 | action_class_v2 |
 |---|---|
-| `restoration_as_reported` | `reported_restoration` |
-| `maintenance` | `preventive_maintenance` |
 | `arrangement` | `arrangement_inventory` |
-| `inspection_registration` | `inspection_examination` |
-| `scientific_examination` | `inspection_examination` |
-| `digitization` | `digitization` |
-| `digital_restoration` | `digital_restoration` |
 | `cleaning` | `cleaning` |
-| `stabilization` | `stabilization` |
-| `mounting` | `mounting` |
+| `digital_restoration` | `digital_restoration` |
+| `digitization` | `digitization` |
+| `inspection_registration` | `inspection_examination` |
+| `maintenance` | `preventive_maintenance` |
 | `mixed_workflow` | `mixed_workflow` |
+| `mounting` | `mounting` |
 | `needs_review` | `needs_review` |
+| `restoration_as_reported` | `reported_restoration` |
+| `scientific_examination` | `inspection_examination` |
+| `stabilization` | `stabilization` |
 
 `needs_review` 留作詞彙，但本批候選若出現此值即拒絕。`initial_preparation` 僅列為 `proposed_unused`，指派觀測為 0；保存盒製作不判為文物初製。
 

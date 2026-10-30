@@ -21702,9 +21702,113 @@
       ],
       "target_data_year": 2025,
       "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "本格在v0.15.0已有原報觀測、尚無館年來源查核索引，現補齊關聯。只納原報觀測，不把程式推算掛成原報；原詞、數字、單位、期段、完成及對象範圍保持。未新增數值、重讀原件或推全年完成總量，不分配或相加可能重疊分項。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KMFA-2015-register-01"
+      ],
+      "official_entry_url": "https://www.kmfa.gov.tw/FileDownload/Journals/20170913182030457670956.pdf",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "index-backfill-BASE-058-2015-v016",
+      "review_scope": "2015年既有已核原報觀測的歷史館年索引補錄；與2020–2025分析期間分開，只回掛指定分項與定位，不代表全館全年所有來源或本輪新讀報告。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        77
+      ],
+      "source_ids": [
+        "src-cbc631aca1cc8b5b"
+      ],
+      "source_locators": [
+        {
+          "locator": "KMFA-2015-register-01：PDF77；印52；historical_register_listed_object_or_group",
+          "review_scope": "回掛既有原報觀測定位；不新增核讀層級、全年涵蓋或完成判定。",
+          "source_id": "src-cbc631aca1cc8b5b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            77
+          ],
+          "review_scope": "僅回掛v0.15.0既有已核原報觀測的PDF定位；本輪未重新讀原件或看圖。",
+          "source_id": "src-cbc631aca1cc8b5b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "linked_previously_verified_observations_no_new_original_read"
+        }
+      ],
+      "target_data_year": 2015,
+      "verified_at": "2026-10-30"
+    },
+    {
+      "interpretation_note": "本格在v0.15.0已有原報觀測、尚無館年來源查核索引，現補齊關聯。只納原報觀測，不把程式推算掛成原報；原詞、數字、單位、期段、完成及對象範圍保持。未新增數值、重讀原件或推全年完成總量，不分配或相加可能重疊分項。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [
+        "KMFA-2016-register-02",
+        "KMFA-2016-register-03",
+        "KMFA-2016-register-04",
+        "KMFA-2016-register-05",
+        "KMFA-2016-register-06"
+      ],
+      "official_entry_url": "https://www.kmfa.gov.tw/FileDownload/Journals/20170913182030457670956.pdf",
+      "organization_id": "BASE-058",
+      "organization_name": "高雄市立美術館",
+      "review_id": "index-backfill-BASE-058-2016-v016",
+      "review_scope": "2016年既有已核原報觀測的歷史館年索引補錄；與2020–2025分析期間分開，只回掛指定分項與定位，不代表全館全年所有來源或本輪新讀報告。",
+      "review_status": "numeric_observations_verified",
+      "reviewed_pdf_pages_1_based": [
+        77
+      ],
+      "source_ids": [
+        "src-cbc631aca1cc8b5b"
+      ],
+      "source_locators": [
+        {
+          "locator": "KMFA-2016-register-02：PDF77；印52；historical_register_listed_object_or_group",
+          "review_scope": "回掛既有原報觀測定位；不新增核讀層級、全年涵蓋或完成判定。",
+          "source_id": "src-cbc631aca1cc8b5b"
+        },
+        {
+          "locator": "KMFA-2016-register-03：PDF77；印52；historical_register_listed_object_or_group",
+          "review_scope": "回掛既有原報觀測定位；不新增核讀層級、全年涵蓋或完成判定。",
+          "source_id": "src-cbc631aca1cc8b5b"
+        },
+        {
+          "locator": "KMFA-2016-register-04：PDF77；印52；historical_register_listed_object_or_group",
+          "review_scope": "回掛既有原報觀測定位；不新增核讀層級、全年涵蓋或完成判定。",
+          "source_id": "src-cbc631aca1cc8b5b"
+        },
+        {
+          "locator": "KMFA-2016-register-05：PDF77；印52；historical_register_listed_object_or_group",
+          "review_scope": "回掛既有原報觀測定位；不新增核讀層級、全年涵蓋或完成判定。",
+          "source_id": "src-cbc631aca1cc8b5b"
+        },
+        {
+          "locator": "KMFA-2016-register-06：PDF77；印52；historical_register_listed_object_or_group",
+          "review_scope": "回掛既有原報觀測定位；不新增核讀層級、全年涵蓋或完成判定。",
+          "source_id": "src-cbc631aca1cc8b5b"
+        }
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            77
+          ],
+          "review_scope": "僅回掛v0.15.0既有已核原報觀測的PDF定位；本輪未重新讀原件或看圖。",
+          "source_id": "src-cbc631aca1cc8b5b",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "linked_previously_verified_observations_no_new_original_read"
+        }
+      ],
+      "target_data_year": 2016,
+      "verified_at": "2026-10-30"
     }
   ],
-  "dataset_version": "0.15.0",
+  "dataset_version": "0.16.0",
   "observations": [
     {
       "action_categories": [
@@ -39784,29 +39888,29 @@
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 606,
-    "body_review_source_file_versions": 323,
-    "body_review_target_year_cells": 469,
+    "body_review_records": 608,
+    "body_review_source_file_versions": 324,
+    "body_review_target_year_cells": 471,
     "context_component_records": 2,
     "derived_summary_records": 1,
     "multi_year_records_not_allocated_to_years": 5,
     "national_repaired_object_total": null,
     "numeric_origins": {
       "controller_derived": 1,
-      "source_reported": 298
+      "source_reported": 306
     },
-    "numeric_support_source_file_versions": 94,
+    "numeric_support_source_file_versions": 96,
     "observation_records": 304,
     "organizations_with_facts": 26,
     "organizations_with_facts_or_new_body_reviews": 80,
     "roster_lookup_grid_cells_reference_not_fact_rows": 426,
     "total_fact_rows": 307,
     "units": {
-      "件": 211,
+      "件": 213,
       "件作品": 3,
       "件數": 6,
       "作品": 1,
-      "冊": 1,
+      "冊": 2,
       "卷": 1,
       "幅": 1,
       "座": 1,
@@ -39814,19 +39918,19 @@
       "批次": 3,
       "未明列": 2,
       "未明列（原表僅標「數量」）": 1,
-      "案": 6,
+      "案": 8,
       "條": 2,
       "次": 7,
       "片": 4,
       "筆": 17,
       "組、件": 2,
-      "組件": 8,
+      "組件": 9,
       "組（件）": 2,
       "艘": 1,
       "號": 12,
       "袋": 3,
       "部": 1,
-      "項": 2
+      "項": 4
     },
     "verified_original_html_files": 36,
     "verified_original_pdf_files": 294,

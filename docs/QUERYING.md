@@ -1,55 +1,63 @@
 # 查找與引用
 
-先從[館所索引](../catalog/README.md)選館，再看資料年／跨年期間、原報作業、單位、完成狀態與對象範圍。每筆可回到固定JSON及官方來源。[互動查詢入口](https://poplolioi11.github.io/tw-public-museum-conservation/)的版本由資料manifest辨識，部署與發行結果以公開網址讀回紀錄核對。
+先從[館所索引](../catalog/README.md)選館，再看資料年／跨年期間、原報作業、單位、完成語及對象範圍。[互動網站](https://poplolioi11.github.io/tw-public-museum-conservation/)依manifest辨識版本；發行與部署各由實際讀回確認。
 
-## 網頁、CSV與固定JSON
+## 網頁、CSV與固定紀錄
 
-本版網站提供館所、年度、作業、單位、完成狀態等篩選。CSV匯出包含當下篩選條件的全部結果，不限畫面分頁；[完整CSV](../data/observations.csv)則提供整版資料。匯出列數與搜尋結果數都是紀錄數，不是唯一藏品數或修復完成合計。
+網站依館所、年度、作業、單位及完成狀態篩選。篩選CSV涵蓋條件下的全部結果，不限畫面分頁；[完整觀測CSV](../data/observations.csv)提供整版紀錄。列數不是唯一藏品數或完成合計。
 
-每列保留固定JSON入口。網站使用`records/{observation_id}.json`；儲存庫中的[固定紀錄目錄](../catalog/README.md)保留`catalog/records/{observation_id}.json`。不可變版本引用可使用：
+每筆有`records/{observation_id}.json`網站入口，儲存庫固定版可使用：
 
-`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.15.0/catalog/records/{observation_id}.json`
+`https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/{observation_id}.json`
 
-main可查目前版，固定tag供重現；引用時核對發行版本與檔案雜湊。網站[資料manifest](../site/manifest.json)指向帶SHA檔名的完整資料／詞表JSON與固定入口範本。[官方來源清單](../data/sources.csv)另列原件網址、類型與SHA；投影JSON雜湊不能冒充原件雜湊。
+main供目前版查找，固定tag供引用與重現；核對實際版本、檔案雜湊及官方來源。[資料manifest](../site/manifest.json)指向完整資料及下載，[來源清單](../data/sources.csv)提供原件網址、類型、bytes與SHA；資料投影SHA不能代替原件SHA。
 
-## 機讀入口與CSV來源欄位
+## 先讀原口徑
 
-網站根目錄的[llms.txt](https://poplolioi11.github.io/tw-public-museum-conservation/llms.txt)是給AI與程式的文字導航，指出版本、manifest、固定JSON、官方來源定位及不相加等使用限制。實際數字仍以事實主檔與逐筆官方證據為準，不以導航摘要取代原件。
-
-篩選CSV保留觀測欄位，並帶有五個來源欄位：`official_file_url`、`official_landing_url`、`original_file_type`、`original_file_sha256`、`original_file_bytes`。HTML的`source_locator`另保留在觀測欄，PDF頁碼留null；原件bytes與SHA不冒充公開投影bytes或SHA。
-
-## 三個查詢欄位
-
-| 欄位 | 用途與界線 |
+|欄位|用途與界線|
 |---|---|
-| action_categories | 原報提及的修護、維護、整飭、檢視、數位等複選標籤；不把數量拆配到各類 |
-| completion_category | 分開明載完成、父項／段落脈絡、截止時點、年度執行、進行中及未明載；原completion_status另保留 |
-| subject_scope_category | 原報本館、託管、館外受託或混合待核；不是法律權屬調查 |
+|action_categories|作業複選標籤；不把數量拆配到各類|
+|completion_category|分開明載完成、父項／段落脈絡、截止時點、年度執行及未明載；原completion_status另保留|
+|subject_scope_category|原報本館、託管、館外受託或混合待核；不作法律權屬推定|
 
-值與中文標籤見[詞表](../schema/vocabulary.json)。分類規則1.2由本機程式產生，保留舊版標籤含義；不得只改一張匯出表而讓各格式分歧。
+[詞表](../schema/vocabulary.json)與[完成用語說明](COMPLETION_STATUS_MAP.md)可查分類界線。「完整修護」是作業詞，不自動代表已完成。quantity_raw、原單位、原範圍及官方定位應一起引用；近似量、雙單位的精確數值仍可為null。
 
-## 年度、來源與缺值
+單年看data_year，跨年看reporting_period_raw，不每年複製同一量。PDF看頁序／印頁，HTML用source_locator，頁碼為null；同年不同來源都保留，不選一筆蓋過其他證據。未知或未定位不補零。
 
-- 單年看data_year；跨年為null，須看reporting_period_raw與明示起訖年，不能每年複製同一量。
-- 「兩」保留quantity_raw，由本機程式精確轉2；原單位「幅」不改件。近300、300餘與雙單位合列的quantity_numeric仍為null。
-- PDF看頁序及印刷頁；HTML兩種頁碼為null，以觀測的source_locator及查核的source_locators回到明確年度段落。
-- body_reviews記來源查核。未定位合格量不是零；extends_review_id表示補充範圍，不抹去原查核的有限結論。
-- 原報合計、子項、不同作業或可能重疊批次不能一起相加。例如[臺史博2020完整修護分項](../catalog/records/NMTH-2020-full-treatment.json)與[年度合計](../catalog/records/NMTH-2020-conservation-reported-total.json)不相加；「完整修護」也不自動代表明載完成。
+## 關係與證據附表
 
-## 使用界線
+[關係JSON](../data/relation_projection.json)／[JSONL](../data/relation_projection.jsonl)／[CSV](../data/relation_projection.csv)逐列連回原86則relations，保留原字典、角色參照、原位置及SHA。38種原名稱歸為15類、4種註記層級，只協助查找，不是新核官方關係。
 
-v0.15.0共有307列，其中304原報觀測、1推算、2脈絡；不是全國修復物件總量。保留observation_id、資料年或期間、quantity_raw、原單位、原詞及官方來源定位再引用。網站不提供跨館總量或責任績效排行。
+先分辨這列是總分項提醒、作業重述、平行量詞、重疊未核，或只是來源續頁／構成脈絡。原relationship_verified的true、false或未列各照錄；未列為null，false不是已證明沒有關係。即使原未列not_additive_together，也不能據此相加。詳見[RELATIONS](RELATIONS.md)與[規則](../metadata/relation_projection_rules.json)。
 
-## v0.15.0的補充查找表
+## 14筆完成語覆核
 
-[缺量註記](../data/absence_annotations.jsonl)以review_id連回275則目前指定段無量查核；標籤與引文是目前公開查核說明的分類（本版11則新增指定子段補讀延伸），不代替官方原件。1則資訊不足保留，不推未公開原因。275則、269個含N格與268個僅N格的粒度不同。
+有覆核的固定紀錄提供`completion_review_reference`，可連至[完成語JSON](../data/completion_reviews.json)／[JSONL](../data/completion_reviews.jsonl)／[CSV](../data/completion_reviews.csv)。以observation_id找對應列，依序讀原完成詞、completion_phrase_raw、completion_phrase_scope、review_scope、原件SHA／頁碼及remaining_uncertainty。
 
-[搜尋別名](../data/normalized_observations.jsonl)以observation_id連回原列；不帶數量、不改完成狀態或可比資格。[作業對照表](METRIC_CLASS_MAP.md)、[完成詞表](COMPLETION_STATUS_MAP.md)及[單位表](UNIT_MAP.md)說明映射與null的保留方式。
+本版14筆皆為`parent_context_supported`：指定父項或段落可支持原有完成脈絡，仍保留`completion_from_context`，沒有改成分項明載完成。這些是既有紀錄的證據附表，不是14件新增完成物件；不要將父句完成語轉移到其他對象、作業或全部年度量。
 
-[覆蓋率JSON](../metadata/coverage.json)提供原歷史索引、本版有界查核及聯集三個集合；[逐格表](../data/coverage_cells.csv)保留所有目前來源狀態，[分組表](../data/coverage_groups.csv)附各自分母。先選population_id，再選分組維度；同一格會出現在不同集合及不同切面，不可把整張分組表加成一個總數。工作批次不是官方館類，unknown保持獨立分母。這些表只計查核格，不能據以加總修護量。
+覆核使用9份既存PDF、10個指定原頁；文字可讀頁與實看圖頁分列，掃描頁依原圖判讀。不是全頁所有欄位或全冊核讀。欄位與判讀界線見[覆核規則](../metadata/completion_review_rules.json)及[結構](../schema/completion_review.schema.json)。
 
-SQLite的四個同名補充表保存row_number與完整record_json；複選標籤以JSON陣列保留。網站[有界資料整理頁](https://poplolioi11.github.io/tw-public-museum-conservation/enrichment.html)提供相同公開資料、圖與文字表格，manifest列各端點SHA及bytes。
+## 館年分母與其他附表
 
-[JSON](../data/facts.json)、[JSONL](../data/observations.jsonl)、[CSV](../data/observations.csv)、[SQLite](../data/museum-conservation.sqlite)及網站由同一公開主檔產生。先看[資料樣貌](../catalog/SAMPLE.md)可比較不同計量方式；例子不構成可相加數列。
+[覆蓋率JSON](../metadata/coverage.json)含五個集合／年份子集。先選population_id再選分組，不能把不同集合或切面的列數相加。
 
-SQLite下載檔以發行manifest核SHA；跨SQLite版本重建則核schema、全表rows與完整性。兩者是不同檢查，邏輯等價不代表原檔SHA相同。
+|集合／子集|館年格數|
+|---|---:|
+|原71組織×2020–2025歷史索引|426|
+|全部年份已有查核|471|
+|原索引與全部查核的聯集|543|
+|已查核中的2020–2025子集|469|
+|已查核中的期間外歷史子集|2|
+
+高美館2015、2016兩格只補回6筆既有觀測的索引；與2020–2025分母分開。同期間聯集仍為541格。這些是有重疊的索引集合，不是全國母體，也不代表館方新增公布或保存活動增加。工作批次不是官方館類，權管與島群保留不明。
+
+[缺量註記](../data/absence_annotations.jsonl)連回275則目前指定段無量查核，其中274支持、1不足；269個含N格與268個僅N格是不同粒度，標籤不推機構未公開原因。[搜尋別名](../data/normalized_observations.jsonl)連回307筆原列，不改完成詞、量詞或可比資格。
+
+[逐格表](../data/coverage_cells.csv)保留目前全部來源狀態，[分組表](../data/coverage_groups.csv)附各自分母。SQLite另存relation_projection、completion_reviews及原有附表，保留完整record_json；JSON陣列不拆成可相加計量。網站[有界資料頁](https://poplolioi11.github.io/tw-public-museum-conservation/enrichment.html)提供關係分類與完成語表的查讀入口，實際內容以部署版本及讀回結果為準。
+
+## 引用與使用界線
+
+v0.16.0仍為307列：304原報觀測、1推算、2脈絡。保留原詞、原量詞、期間、對象、完成語與官方定位，不做跨館總量或排名。根目錄[llms.txt](../llms.txt)只是AI導航，不能代替事實主檔或原始證據。
+
+下載SQLite以發行manifest核SHA；跨runtime重建以相同schema、全表rows與完整性核對，邏輯相同不代表原檔SHA相同。官方原件、完整頁圖及私人補充不重發布，詳見[公開範圍](PUBLICATION.md)。

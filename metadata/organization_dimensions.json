@@ -42,7 +42,7 @@
       "bytes": 12890,
       "input_filename": "metadata/phase-milestones.json",
       "reference_scope": "unchanged historical workflow scopes; not the new stage status or a national museum classification",
-      "sha256": "7e5eda578deb5e8adee536f01f74f1d69630b9aeae14a01fe47abc317a26688e"
+      "sha256": "6f5a593b83cf01961ff6fabc2ba792fdde49ff107fd364a23efd13c8fa1289e2"
     }
   ],
   "input_manifest_completeness": "all existing evidence filenames included; historical workflow scope text remains the v0.13 basis, while manifest hashes the current retained file bytes",

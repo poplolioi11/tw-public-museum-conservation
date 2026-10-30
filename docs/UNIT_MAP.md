@@ -2,7 +2,7 @@
 
 本表由 `scripts/normalization.py` 的 `build_outputs(facts, rules)` 產生。規則版 `1.0`；既有分類規則版 `1.2`。
 
-已審核 `data/facts.json` 版本 `0.15.0`，觀測清冊 307 筆；輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。
+已審核 `data/facts.json` 版本 `0.16.0`，觀測清冊 307 筆；輸入版本與逐列觀測 SHA-256 摘要見 `metadata/normalization_rules.json`。
 
 僅供搜尋與發現；未新增觀測、改寫原始欄位、拆配數量、換算或授予加總資格。各列依 `observation_id` 連回 `data/facts.json` 的原證據與來源定位。
 

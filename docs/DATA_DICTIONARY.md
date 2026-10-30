@@ -129,3 +129,11 @@ metric_label是經來源核對的解讀與搜尋標籤，列表、詳情及篩�
 缺量輸入依[註記schema](../schema/absence_annotation.schema.json)驗證；搜尋輸出依[附表schema](../schema/normalization_record.schema.json)驗證。[規則清冊](../metadata/normalization_rules.json)、[內容詞表](../metadata/absence_vocabulary.json)與[建置清單](../metadata/enrichment_build.json)記版本、輸入SHA、圖表來源及輸出範圍。JSONL、CSV與SQLite同名表由單一建置程序生成；CSV的陣列／物件仍為JSON字串，空欄代表null，不自動補零。
 
 核心建置與CI僅用Python標準函式庫。三張SVG由`scripts/plot_coverage.py`與可選`requirements-figures.txt`重繪；可指定CJK字體及候選facts，先重繪再建置匯出及網站。圖中的0只計格或註記，不是0件修護量。字體不同可能改變SVG bytes；已發布圖仍以manifest記錄的SHA為準。
+
+## 關係與完成語補充表（v0.16.0）
+
+`relation_projection`以原relations順序、原字典SHA及角色參照逐則連回，保留原type／relation_type、原relation_id與所有原註記。category及projection_kind只是查找分類；原relationship_verified未列則為null，false不代表已證明沒有關係。每列均不授予加總、量詞換算或獨特物件推定資格。[欄位與對照](RELATIONS.md)。
+
+`completion_reviews`連回14筆原先completion_from_context的observation_id，另列本輪assessment、必要完成短語、適用範圍、來源SHA、實際文字層／原圖頁與日期。原completion_status及completion_category保持；覆核父句或概述不自動變成逐件完成。掃描頁可只列image_viewed頁，不能因此猜有文字層或未讀。固定逐筆JSON的completion_review_reference連至同版附表；不是新增數值觀測。[覆核索引](COMPLETION_REVIEW.md)。
+
+`coverage`1.1另列2020–2025與期間外歷史子集，全集已包含子集不能再相加；period_2020_2025保留指定期間的已查核與聯集格數。summary.numeric_origins按全部紀錄的numeric_origin計數，包含2筆脈絡，與observation_records不同。summary.units按列計數，null使用「未明列」作摘要顯示，原欄與清冊的null不改；numeric_support_source_file_versions表示支持既有公開紀錄的來源版次，與所有查核／排除來源總版次不同。

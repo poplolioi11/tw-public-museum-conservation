@@ -1,0 +1,38 @@
+{
+  "category_counts": {
+    "cross_period_overlap_or_stage": 6,
+    "different_official_source_scope": 21,
+    "inspection_and_forms_not_object_mapping": 1,
+    "label_correspondence_not_established": 1,
+    "metric_or_subject_scope_difference": 6,
+    "mixed_actions_not_disaggregated": 1,
+    "overlap_not_established": 19,
+    "parallel_reported_units": 13,
+    "progress_and_completion": 1,
+    "reported_total_components": 11,
+    "same_source_restatement": 2,
+    "single_multi_year_record": 1,
+    "source_evidence_continuation": 1,
+    "source_subject_context": 1,
+    "subject_split_without_ownership_inference": 1
+  },
+  "dataset_version": "0.16.0",
+  "input_sha256": {
+    "metadata/relation_projection_rules.json": "32c842c70fa468cfddde9d6463c402f1e4d8f8dd2fd936eef6c265bf8a20e2db",
+    "schema/relation_projection.schema.json": "8ad97cddc1f544bf4600495ee94e8ac200e30d2b641111c1174aefadd30842cb",
+    "scripts/relation_projection.py": "f35b5d3ae214ea9057b1e42a1a455ed7cb85211d1b16a8812c2e72935c6d8b3f"
+  },
+  "new_official_relation_verification_performed": false,
+  "new_original_read_claimed": false,
+  "original_relations_mutated": false,
+  "original_verification_state_counts": {
+    "asserted_false_in_original": 30,
+    "asserted_true_in_original": 3,
+    "not_stated_in_original": 53
+  },
+  "quantities_summed_or_converted": false,
+  "records": 86,
+  "relation_projection_rule_version": "1.0",
+  "schema_version": "1.0",
+  "source_relations_sha256": "63bab252fa350f1bbdc59cebd966e09238badc34759589f7d18290e8ebe67023"
+}

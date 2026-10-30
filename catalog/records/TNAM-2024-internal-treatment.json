@@ -1,5 +1,11 @@
 {
-  "dataset_version": "0.15.0",
+  "completion_review_reference": {
+    "observation_id": "TNAM-2024-internal-treatment",
+    "original_completion_category_retained": true,
+    "review_id": "completion-v016-TNAM-2024-internal-treatment",
+    "versioned_reviews_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/data/completion_reviews.json"
+  },
+  "dataset_version": "0.16.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -49,5 +55,5 @@
     "title": "2024臺南市美術館年報（中文版）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.15.0/catalog/records/TNAM-2024-internal-treatment.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.16.0/catalog/records/TNAM-2024-internal-treatment.json"
 }

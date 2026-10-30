@@ -22,7 +22,11 @@ def check(root=ROOT):
     reviewed = {(r['organization_id'], r['target_data_year']) for r in leaves}
     baseline = {(r['source_inventory_id'], r['target_data_year']) for r in inventory['source_inventory_records']}
     sets = {'baseline_inventory_71x6': baseline, 'reviewed_cohort': reviewed,
-            'baseline_review_union': baseline | reviewed}
+            'baseline_review_union': baseline | reviewed,
+            'reviewed_2020_2025_cohort': {k for k in reviewed if 2020 <= k[1] <= 2025},
+            'reviewed_outside_2020_2025_cohort': {k for k in reviewed if not 2020 <= k[1] <= 2025}}
+    assert sets['reviewed_2020_2025_cohort'].isdisjoint(sets['reviewed_outside_2020_2025_cohort'])
+    assert sets['reviewed_2020_2025_cohort'] | sets['reviewed_outside_2020_2025_cohort'] == reviewed
     assert len(cov['cells']) == len(baseline | reviewed)
     for population in cov['populations']:
         name = population['population_id']
@@ -47,7 +51,9 @@ def check(root=ROOT):
     assert {'numeric_observations_verified', 'body_read_no_eligible_quantity_located'} <= set(mixed['review_statuses'])
     # Every quantity-free export retains full JSON; the SQLite view is equivalent.
     tables = {'absence_annotations': result['annotations'], 'normalized_observations': result['normalized'],
-              'coverage_cells': cov['cells'], 'coverage_groups': cov['groups']}
+              'coverage_cells': cov['cells'], 'coverage_groups': cov['groups'],
+              'relation_projection': result['relation_projection']['rows'],
+              'completion_reviews': result['completion_reviews']['rows']}
     with sqlite3.connect(root / 'data/museum-conservation.sqlite') as con:
         for name, rows in tables.items():
             assert rows == [json.loads(x) for x in (root / f'data/{name}.jsonl').read_text().splitlines()]
@@ -76,6 +82,9 @@ def check(root=ROOT):
             ('metadata/organization_dimensions.json', lambda x: x['organizations'][0].update(admin_group='guessed')),
             ('metadata/organization_dimensions.json', lambda x: x['organizations'][0]['admin_group_assessment']['evidence'][0].update(literal_short_value='臺北市')),
             ('metadata/organization_dimensions.json', lambda x: x['input_manifest'].pop()),
+            ('metadata/relation_projection_rules.json', lambda x: x['type_rules'][0].update(category='unreviewed_guess')),
+            ('data/completion_reviews.json', lambda x: x[0].update(assessment='explicit_item_completion_supported')),
+            ('data/completion_reviews.json', lambda x: x[0].update(source_id='unknown-original')),
         ]
         for name, mutate in cases:
             path = sandbox / name

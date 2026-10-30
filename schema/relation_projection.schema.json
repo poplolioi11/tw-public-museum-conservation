@@ -1,0 +1,304 @@
+{
+  "$id": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/main/schema/relation_projection.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "逐列原字典與角色參照的無數量衍生附表；未列核實旗標保留null，不授予新關係認證或加總資格。",
+  "properties": {
+    "aggregation_allowed": {
+      "const": false
+    },
+    "category": {
+      "enum": [
+        "reported_total_components",
+        "progress_and_completion",
+        "source_evidence_continuation",
+        "parallel_reported_units",
+        "overlap_not_established",
+        "label_correspondence_not_established",
+        "cross_period_overlap_or_stage",
+        "metric_or_subject_scope_difference",
+        "mixed_actions_not_disaggregated",
+        "source_subject_context",
+        "subject_split_without_ownership_inference",
+        "same_source_restatement",
+        "different_official_source_scope",
+        "inspection_and_forms_not_object_mapping",
+        "single_multi_year_record"
+      ]
+    },
+    "explicit_source_id_original": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "new_official_relation_verification_performed": {
+      "const": false
+    },
+    "not_additive_together_original": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "observation_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "original_relation": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_child_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "children": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "completed_record": {
+          "type": "string"
+        },
+        "completion_subset": {
+          "type": "string"
+        },
+        "data_year": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "data_years": {
+          "items": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "existing_release_observation_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "from_observation_id": {
+          "type": "string"
+        },
+        "independent_object_subset_verified": {
+          "type": "boolean"
+        },
+        "interpretation_note": {
+          "type": "string"
+        },
+        "larger_scope": {
+          "type": "string"
+        },
+        "not_additive_together": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        },
+        "observation_id": {
+          "type": "string"
+        },
+        "observation_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "parent": {
+          "type": "string"
+        },
+        "parent_observation_id": {
+          "type": "string"
+        },
+        "pdf_page": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "pdf_pages_1_based": {
+          "items": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "printed_page": {
+          "type": "string"
+        },
+        "relation_id": {
+          "type": "string"
+        },
+        "relation_type": {
+          "type": "string"
+        },
+        "relationship_evidence": {
+          "type": "string"
+        },
+        "relationship_verified": {
+          "type": "boolean"
+        },
+        "reporting_period_raw": {
+          "type": "string"
+        },
+        "source_components_in_parent": {
+          "type": "boolean"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "to_existing_observation_id": {
+          "type": "string"
+        },
+        "treatment_record": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "unit_warning": {
+          "type": "string"
+        },
+        "warning": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "projection_id": {
+      "type": "string"
+    },
+    "projection_kind": {
+      "enum": [
+        "observation_relation_or_scope_warning",
+        "source_evidence_note",
+        "source_context_note",
+        "metric_scope_note"
+      ]
+    },
+    "reference_roles": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "cardinality": {
+            "enum": [
+              "single",
+              "multiple"
+            ]
+          },
+          "observation_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "role": {
+            "enum": [
+              "parent",
+              "parent_observation_id",
+              "observation_id",
+              "from_observation_id",
+              "to_existing_observation_id",
+              "larger_scope",
+              "completion_subset",
+              "treatment_record",
+              "completed_record",
+              "children",
+              "candidate_child_ids",
+              "observation_ids",
+              "existing_release_observation_ids"
+            ]
+          }
+        },
+        "required": [
+          "role",
+          "cardinality",
+          "observation_ids"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "relation_id_original": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relation_projection_rule_version": {
+      "const": "1.0"
+    },
+    "relation_type_field_original": {
+      "enum": [
+        "type",
+        "relation_type"
+      ]
+    },
+    "relation_type_original": {
+      "type": "string"
+    },
+    "relationship_verification_state": {
+      "enum": [
+        "asserted_true_in_original",
+        "asserted_false_in_original",
+        "not_stated_in_original"
+      ]
+    },
+    "relationship_verified_original": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "source_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "source_relation_ordinal_1_based": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "source_relation_sha256": {
+      "type": "string"
+    },
+    "unique_object_inference_allowed": {
+      "const": false
+    },
+    "unit_conversion_allowed": {
+      "const": false
+    }
+  },
+  "required": [
+    "projection_id",
+    "source_relation_ordinal_1_based",
+    "source_relation_sha256",
+    "relation_id_original",
+    "relation_type_field_original",
+    "relation_type_original",
+    "category",
+    "projection_kind",
+    "reference_roles",
+    "observation_ids",
+    "source_ids",
+    "explicit_source_id_original",
+    "relationship_verified_original",
+    "relationship_verification_state",
+    "not_additive_together_original",
+    "original_relation",
+    "aggregation_allowed",
+    "unit_conversion_allowed",
+    "unique_object_inference_allowed",
+    "new_official_relation_verification_performed",
+    "relation_projection_rule_version"
+  ],
+  "title": "Conservative projection of one original public relation or evidence note",
+  "type": "object"
+}

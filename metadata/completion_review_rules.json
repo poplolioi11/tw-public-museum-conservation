@@ -1,0 +1,38 @@
+{
+  "assessment_labels": {
+    "completion_not_explicit_in_read_scope": "所讀範圍未定位明確完成語",
+    "completion_scope_ambiguous": "完成語適用範圍仍不明",
+    "explicit_item_completion_supported": "指定分項有直接完成語",
+    "parent_context_supported": "父句或總述的完成脈絡可支持",
+    "source_unavailable_for_this_review": "本輪原件未能核讀"
+  },
+  "input_manifest": {
+    "facts_source": "data/facts.json#observations",
+    "observations_sha256": "07e245d2e7aa14e056f93d481508121e4ac1eff58af9fad2d6b4d948eb9ec962",
+    "reviewed_observation_ids": [
+      "nmp-2024-bone-antler-arrangement",
+      "nmp-2024-pottery-restoration",
+      "NMTL-2024-family-calligraphy",
+      "NMTL-2025-reported-summary-total",
+      "sshm-2023-fumigation-reported",
+      "sshm-2024-collection-fumigation",
+      "sshm-2024-loan-fumigation",
+      "sshm-2025-collection-fumigation",
+      "sshm-2025-loan-fumigation",
+      "tfam-2020-oil_project_phase2",
+      "TNAM-2024-external-service",
+      "TNAM-2024-internal-treatment",
+      "yilan-2023-compound-maintenance26",
+      "yilan-2023-stability-maintenance133"
+    ],
+    "reviews_sha256": "75dc4fc967369eb184b8122ec5b1269a225d9004a235d78d69d601f7492c45f8",
+    "reviews_source": "data/completion_reviews.json"
+  },
+  "limits": [
+    "原分類與觀測保留，本輪完成語判讀另表，不自動升格或計完成物件量。",
+    "只限指定業務子段、父句及列邊界；未定位完成語不等於未完成。",
+    "文字層與實看原圖分列；掃描頁可僅以原圖核讀，不冒稱取得文字層。",
+    "不推處理物件去重、法律權屬、跨年獨立或跨館可比。"
+  ],
+  "rule_version": "1.0"
+}

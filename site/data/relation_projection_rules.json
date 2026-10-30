@@ -1,0 +1,234 @@
+{
+  "category_labels": {
+    "cross_period_overlap_or_stage": "跨期階段或可能重疊不拆配",
+    "different_official_source_scope": "同年不同官方來源並存",
+    "inspection_and_forms_not_object_mapping": "檢視與表單關聯不推物件映射",
+    "label_correspondence_not_established": "不同標籤可能對應而未核實",
+    "metric_or_subject_scope_difference": "不同指標作業或計數對象範圍",
+    "mixed_actions_not_disaggregated": "混合作業不拆配數量",
+    "overlap_not_established": "批次或作業重疊尚未核明",
+    "parallel_reported_units": "原報平行量詞或多層計量",
+    "progress_and_completion": "同段處置與完成範圍",
+    "reported_total_components": "原報總項與分項提醒",
+    "same_source_restatement": "同來源作業重述只留原觀測",
+    "single_multi_year_record": "單一跨期紀錄不重複作年度量",
+    "source_evidence_continuation": "來源證據續頁定位",
+    "source_subject_context": "來源構成僅作脈絡",
+    "subject_split_without_ownership_inference": "對象分列不推方向或所有權"
+  },
+  "input_manifest": {
+    "audit_baseline_dataset_version": "0.15.0",
+    "digest_algorithm": "sha256-canonical-json-utf8-ordered-relations-v1",
+    "relations_sha256": "63bab252fa350f1bbdc59cebd966e09238badc34759589f7d18290e8ebe67023",
+    "reviewed_relation_count": 86,
+    "source": "data/facts.json#relations"
+  },
+  "limits": [
+    "逐列保留原86則關係及證據註記，不合併、不去重。",
+    "原參照角色與原字典保留；觀測識別聯集不是物件集合。",
+    "續頁、來源構成與計量提醒不推物件間包含關係。",
+    "false不是已證明沒有關係，null不是可相加；true不是本版重讀原件認證。",
+    "全部投影固定不授予加總、量詞換算或獨特物件推定資格。",
+    "本附表是公開註記搜尋投影，不是官方原件新核讀。"
+  ],
+  "projection_kind_labels": {
+    "metric_scope_note": "計量或期間適用性註記",
+    "observation_relation_or_scope_warning": "觀測列間的關係或範圍提醒；不是獨特物件對應",
+    "source_context_note": "來源構成脈絡註記",
+    "source_evidence_note": "來源證據定位或重述註記"
+  },
+  "rule_version": "1.0",
+  "type_rules": [
+    {
+      "category": "reported_total_components",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "reported_total_includes"
+    },
+    {
+      "category": "reported_total_components",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "reported_composite_total_includes"
+    },
+    {
+      "category": "reported_total_components",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "reported_total_includes_do_not_add"
+    },
+    {
+      "category": "reported_total_components",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "mixed_total_components_do_not_add"
+    },
+    {
+      "category": "progress_and_completion",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_paragraph_treatment_and_completion_nonadditive"
+    },
+    {
+      "category": "source_evidence_continuation",
+      "projection_kind": "source_evidence_note",
+      "relation_type_original": "evidence_continues_on_next_pdf_page"
+    },
+    {
+      "category": "parallel_reported_units",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_reported_activity_different_units"
+    },
+    {
+      "category": "parallel_reported_units",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_cohort_different_units_not_additive"
+    },
+    {
+      "category": "parallel_reported_units",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_cohort_parallel_units"
+    },
+    {
+      "category": "parallel_reported_units",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "parallel_units_same_batch"
+    },
+    {
+      "category": "parallel_reported_units",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "parallel_reported_units_not_converted"
+    },
+    {
+      "category": "parallel_reported_units",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "parallel_units_scope_not_convertible"
+    },
+    {
+      "category": "overlap_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "different_named_project_overlap_unknown"
+    },
+    {
+      "category": "overlap_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "within_year_overlap_unknown_do_not_sum"
+    },
+    {
+      "category": "overlap_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "possible_overlap_do_not_sum"
+    },
+    {
+      "category": "overlap_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "potential_overlap_not_aggregated"
+    },
+    {
+      "category": "overlap_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "do_not_add_unknown_overlap"
+    },
+    {
+      "category": "overlap_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "different_operations_overlap_unknown"
+    },
+    {
+      "category": "label_correspondence_not_established",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "possible_correspondence_different_labels_pending_verification"
+    },
+    {
+      "category": "cross_period_overlap_or_stage",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "cross_year_project_stage_not_additive"
+    },
+    {
+      "category": "cross_period_overlap_or_stage",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "cross_year_work_on_possibly_same_cohort"
+    },
+    {
+      "category": "cross_period_overlap_or_stage",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "multi_year_report_not_allocated_and_overlap_unknown"
+    },
+    {
+      "category": "cross_period_overlap_or_stage",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "possible_cross_year_project_overlap_not_verified"
+    },
+    {
+      "category": "cross_period_overlap_or_stage",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "different_period_process_overlap_unknown"
+    },
+    {
+      "category": "cross_period_overlap_or_stage",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_project_partial_year_and_multi_year_possible_overlap"
+    },
+    {
+      "category": "metric_or_subject_scope_difference",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "not_same_metric_across_years"
+    },
+    {
+      "category": "metric_or_subject_scope_difference",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "do_not_sum_different_units_or_procedures"
+    },
+    {
+      "category": "metric_or_subject_scope_difference",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "parallel_reported_work_scopes"
+    },
+    {
+      "category": "metric_or_subject_scope_difference",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "different_subject_counts_not_converted"
+    },
+    {
+      "category": "metric_or_subject_scope_difference",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "different_year_object_process_scope_not_automatically_comparable"
+    },
+    {
+      "category": "mixed_actions_not_disaggregated",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "combined_actions_not_disaggregated"
+    },
+    {
+      "category": "source_subject_context",
+      "projection_kind": "source_context_note",
+      "relation_type_original": "source_subject_components_context_only"
+    },
+    {
+      "category": "subject_split_without_ownership_inference",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "subject_scope_split_no_direction_or_ownership_inference"
+    },
+    {
+      "category": "same_source_restatement",
+      "projection_kind": "source_evidence_note",
+      "relation_type_original": "same_operation_restatement_not_added"
+    },
+    {
+      "category": "different_official_source_scope",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "parallel_official_scopes_overlap_unverified"
+    },
+    {
+      "category": "different_official_source_scope",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_year_metric_family_different_official_sources_not_additive"
+    },
+    {
+      "category": "inspection_and_forms_not_object_mapping",
+      "projection_kind": "observation_relation_or_scope_warning",
+      "relation_type_original": "same_report_linked_inspection_and_form_counts_not_additive"
+    },
+    {
+      "category": "single_multi_year_record",
+      "projection_kind": "metric_scope_note",
+      "relation_type_original": "one_multi_year_observation_not_two_annual_quantities"
+    }
+  ],
+  "verification_policy": "Only explicit original relationship_verified and not_additive_together values are copied; absence remains null. Category and original type words never establish a new verified relationship."
+}
