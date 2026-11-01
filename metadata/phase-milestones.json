@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "data_schema_version": "4.0",
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -398,6 +398,21 @@
       "scope": "兩題唯一原表列定位與17則官方候選原件覆核",
       "source_versions_reread": 6,
       "specified_pages_reread": 7
+    },
+    {
+      "completed_in_release": "v0.21.0",
+      "existing_source_pdf_page_counts_completed": 4,
+      "existing_source_versions_reread": 6,
+      "html_versions": 1,
+      "human_readings_completed": 0,
+      "main_coverage_denominators_unchanged": true,
+      "main_observations_unchanged": true,
+      "national_or_all_years_complete": false,
+      "new_numeric_observations": 0,
+      "new_separate_text_records": 8,
+      "pdf_versions": 5,
+      "scope": "既有官方一般保存作業文字獨立附表",
+      "specified_pdf_image_pages": 7
     }
   ],
   "ongoing_gaps": "原缺口與逐格歷史保留；新竹新原件只改善館別與期段辨識，適用保存正文仍待核。桃園2024限定子段N與年報P並存；師大累計、平均、跨年與外館服務不代填年量。只在新附件、清冊、逐年表或原件換版等新線索下重開。"

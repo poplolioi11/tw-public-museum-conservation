@@ -1,14 +1,15 @@
 # 臺灣公立館保存修護公開資料索引
 
-資料版本 0.20.0；資料截點 2026-11-01。這是有限來源子集，不是全國完整修護統計。
+資料版本 0.21.0；資料截點 2026-11-02。這是有限來源子集，不是全國完整修護統計。
 
 - [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
-- [本版完整公開事實](data/677a4068d49203d4932ace84d7bdf4ac5f6135f5ed84b081667d5ef4ae6d1478.json)：observations、sources、relations、body_reviews 與範圍摘要。
+- [本版完整公開事實](data/2f0ac7d93c3206f433547b711ade83c037134e22eaac25427ae9a81b5bf49316.json)：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙](data/38a6e7769ad84614fb08bd27c7dafb7b29ee05759acf3e6bdda6f7a87d31275d.json)：分類標籤及使用限制。
 - [有界資料整理](enrichment.html)：館年格全集與年份子集、缺量註記、關係及完成語覆核、文字表格與圖表。
 - [公立非年度量脈絡](context.html)：計畫、累計、平均與跨年專案，並非年度已施作量，不納入公立數值觀測。
 - [私立美術館試辦](private-art.html)：獨立資料層，保留原值、原單位、完成狀態與範圍，不混入公立觀測或分母。
 - [官方環境作業附表](preservation.html)：原數字、複合單位及期間證據另列；不進修護主表或公立分母，不作年度趨勢。
+- [一般保存作業文字](preservation-texts.html)：官方環控、系統支援、作業角色與流程；不填人數或待修量，不進主表與公立分母。
 - 逐筆紀錄：records/{observation_id}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation)。
 
@@ -55,6 +56,10 @@ manifest.json 的 public_context 與 private_art 各列 available、page、data 
 - [集合與年份子集的查核格狀態](figures/coverage-states.svg)
 - [分組與年度的有界查核格](figures/coverage-facets.svg)
 - [既有缺量查核說明的內容標籤](figures/absence-tags.svg)
+- [一般作業文字 JSON](data/preservation_texts.json)
+- [一般作業文字 CSV](data/preservation_texts.csv)
+- [一般作業文字 JSONL](data/preservation_texts.jsonl)
+- [文字附表來源與範圍 JSON](data/preservation_texts_build.json)
 - [環境作業原口徑 JSON](data/preservation_statistics.json)
 - [環境作業原口徑 CSV](data/preservation_statistics.csv)
 - [環境作業原口徑 JSONL](data/preservation_statistics.jsonl)

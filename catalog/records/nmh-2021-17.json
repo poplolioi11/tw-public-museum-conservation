@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -40,6 +40,7 @@
     "official_file_url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202207/c9840cc6-2c1a-4584-91b6-eeafd06d7be6.pdf",
     "official_landing_url": "https://www.nmh.gov.tw/News_Publish_Content.aspx?n=7047&s=176677",
     "original_file_bytes": 12901912,
+    "original_file_pdf_pages": 111,
     "original_file_sha256": "47ce226d3e69a052e87ad6ad551ea79b7961de2ee2b6918a81550ce84bc6e3d8",
     "original_file_type": "PDF",
     "redistributed_original": false,
@@ -49,5 +50,5 @@
     "title": "國立歷史博物館2021年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.20.0/catalog/records/nmh-2021-17.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.21.0/catalog/records/nmh-2021-17.json"
 }

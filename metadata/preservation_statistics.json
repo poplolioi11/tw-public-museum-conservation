@@ -1,11 +1,11 @@
 {
   "cross_museum_comparable": false,
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "default_aggregation_allowed": false,
   "denominator_role": "separate_supplement_excluded_from_main_observations_and_coverage",
   "input_bytes": 16427,
   "input_file": "data/preservation_statistics.json",
-  "input_sha256": "5a49f19acd221b6f41528839c5199d79b71c4c2b533de29723e24d11f7136920",
+  "input_sha256": "1a72bd1af2f4c98a68bbd83e45d5f08cbff1d997a4adc18b44774f928bde70dc",
   "period_kind_counts": {
     "report_year_context": 1,
     "report_year_table": 11,

@@ -1973,7 +1973,7 @@
   ],
   "review_gate": "任何未知原值、清冊歸屬改變、分類漂移或 needs_review 候選皆拒絕，不自動歸類。",
   "reviewed_input_manifest": {
-    "dataset_version": "0.20.0",
+    "dataset_version": "0.21.0",
     "observations_sha256": "6e294327a6a949deca09ecbb19d96a00fb7e9654203eae1631f4d62e45560bc2",
     "reviewed_observation_count": 311,
     "source": "data/facts.json"

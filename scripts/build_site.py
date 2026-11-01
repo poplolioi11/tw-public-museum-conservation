@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VIEWER_VERSION = '1.3.0'
+VIEWER_VERSION = '1.4.0'
 REPOSITORY = 'https://github.com/poplolioi11/tw-public-museum-conservation'
 ENRICHMENT_DOWNLOADS = {
     'coverage': ('metadata/coverage.json', '查核格狀態與年份子集 JSON'),
@@ -43,6 +43,12 @@ ENRICHMENT_DOWNLOADS = {
     'completion_review_build': ('metadata/completion_review_build.json', '完成語覆核版本與限制 JSON'),
 }
 OPTIONAL_DOWNLOADS = {
+    'preservation_texts': {
+        'json': ('data/preservation_texts.json', '一般作業文字 JSON'),
+        'csv': ('data/preservation_texts.csv', '一般作業文字 CSV'),
+        'jsonl': ('data/preservation_texts.jsonl', '一般作業文字 JSONL'),
+        'build': ('metadata/preservation_texts_build.json', '文字附表來源與範圍 JSON'),
+    },
     'preservation_statistics': {
         'json': ('data/preservation_statistics.json', '環境作業原口徑 JSON'),
         'csv': ('data/preservation_statistics.csv', '環境作業原口徑 CSV'),
@@ -107,7 +113,7 @@ def relation_ids(relation):
 def input_snapshot(root):
     names = ['VERSION', 'data/facts.json', 'schema/vocabulary.json', 'scripts/build_site.py']
     names += ['site-src/' + name for name in ('index.html', 'enrichment.html', 'context.html',
-                                             'private-art.html', 'preservation.html', 'app.css', 'app.js')]
+                                             'private-art.html', 'preservation.html', 'preservation-texts.html', 'app.css', 'app.js')]
     names += [path for path, _ in ENRICHMENT_DOWNLOADS.values()]
     names += ['metadata/inventory.json', 'schema/absence_annotation.schema.json',
               'schema/normalization_record.schema.json']
@@ -187,6 +193,32 @@ def supplemental_pages(inputs, facts, vocabulary, version, outputs):
             'data': downloads.get('json'), 'downloads': downloads,
             'included_in_public_numeric_observations': False,
             'included_in_public_coverage_denominators': False}
+
+    text_path = OPTIONAL_DOWNLOADS['preservation_texts']['json'][0]
+    if text_path in inputs:
+        text_records = json.loads(inputs[text_path])['records']
+        text_rows = []
+        for row in text_records:
+            if row['measure_status'] != 'text_only' or row['numeric_quantity_eligible'] is not False or row['annual_quantity_eligible'] is not False or row['default_aggregation_allowed'] is not False:
+                raise ValueError('General text layer cannot become numeric or annual quantity')
+            source = sources[row['source_id']]
+            if source['official_file_url'].startswith('https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/'):
+                source_reference = ('<a href="'+escape(source['official_file_url'],quote=True)+'">官方年報入口</a>'
+                    '<p>'+escape('下載原PDF後看第'+str(row['pdf_page_1_based'])+'頁／印'+str(row['printed_page']))+'</p>'
+                    '<span class="supplement-source-id mono">'+escape(row['source_id'])+'</span>')
+            else:
+                source_reference = source_link(source,row)
+            text_rows.append('<tr id="'+escape(row['text_id'],quote=True)+'"><th scope="row">'+
+                escape(row['organization_name'])+'<p>'+escape(row['source_subject_label'])+'</p></th><td>'+
+                escape(row['statement'])+'</td><td>'+escape('報告年：'+str(row['report_year']) if row['report_year'] is not None else '非年報來源；不填報告年')+
+                '<p>'+escape(row['period_as_reported'])+'</p></td><td>'+escape(row['scope_note'])+'</td><td>'+
+                source_reference+'<p>'+escape(row['source_locator'])+'</p></td></tr>')
+        content = ('<div class="table-wrap" tabindex="0" role="region" aria-label="一般作業文字表，可橫向捲動">'
+            '<table><caption>'+str(len(text_rows))+'則官方一般作業文字；列數不是人數、物件數或作業量</caption>'
+            '<thead><tr><th scope="col">查找館所與原文對象</th><th scope="col">一般作業說明</th>'
+            '<th scope="col">報告年與期間限制</th><th scope="col">範圍界線</th><th scope="col">官方來源定位</th></tr></thead>'
+            '<tbody>'+''.join(text_rows)+'</tbody></table></div>')
+        render('preservation_texts','preservation-texts.html',content,True,len(text_rows))
 
     statistics_path = OPTIONAL_DOWNLOADS['preservation_statistics']['json'][0]
     if statistics_path in inputs:
@@ -448,6 +480,7 @@ def expected(root, inputs):
 - [公立非年度量脈絡](context.html)：計畫、累計、平均與跨年專案，並非年度已施作量，不納入公立數值觀測。
 - [私立美術館試辦](private-art.html)：獨立資料層，保留原值、原單位、完成狀態與範圍，不混入公立觀測或分母。
 - [官方環境作業附表](preservation.html)：原數字、複合單位及期間證據另列；不進修護主表或公立分母，不作年度趨勢。
+- [一般保存作業文字](preservation-texts.html)：官方環控、系統支援、作業角色與流程；不填人數或待修量，不進主表與公立分母。
 - 逐筆紀錄：records/{{observation_id}}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本]({REPOSITORY})。
 
@@ -476,7 +509,7 @@ manifest.json 的 public_context 與 private_art 各列 available、page、data 
                 'enrichment': enrichment,
                 **supplements,
                 'readback_contract': {
-                    'optional_module_keys': ['public_context', 'private_art', 'preservation_statistics'],
+                    'optional_module_keys': ['public_context', 'private_art', 'preservation_statistics', 'preservation_texts'],
                     'verify_page_and_each_download': True,
                     'compare_sha256_and_bytes': True,
                     'public_private_denominators_separate': True,

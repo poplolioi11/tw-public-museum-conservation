@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "body_reviews": [
     {
       "interpretation_note": "本輪未定位2020原年度報；後年回述不替代原報，未定位不表示未公開或數量為零。",
@@ -23036,7 +23036,7 @@
       "verified_at": "2026-11-01"
     }
   ],
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "observations": [
     {
       "action_categories": [
@@ -36362,6 +36362,7 @@
       "official_file_url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202207/c9840cc6-2c1a-4584-91b6-eeafd06d7be6.pdf",
       "official_landing_url": "https://www.nmh.gov.tw/News_Publish_Content.aspx?n=7047&s=176677",
       "original_file_bytes": 12901912,
+      "original_file_pdf_pages": 111,
       "original_file_sha256": "47ce226d3e69a052e87ad6ad551ea79b7961de2ee2b6918a81550ce84bc6e3d8",
       "original_file_type": "PDF",
       "redistributed_original": false,
@@ -36442,6 +36443,7 @@
       "official_file_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1893.htm",
       "official_landing_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/22_1893.htm",
       "original_file_bytes": 9002784,
+      "original_file_pdf_pages": 61,
       "original_file_sha256": "5f332232138a067772081bbccbe92cb7055c8d6ad2d5e807dd6032b59fa8d1bc",
       "original_file_type": "PDF",
       "redistributed_original": false,
@@ -37354,6 +37356,7 @@
       "official_file_url": "https://www.tnam.museum/filesys/files/ch/about_us/freedomofinfo/70/%E5%8D%97%E7%BE%8E%E5%B9%B4%E5%A0%B12021-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
       "official_landing_url": "https://www.tnam.museum/about_us/freedomofinfo/hits/103",
       "original_file_bytes": 5701341,
+      "original_file_pdf_pages": 62,
       "original_file_sha256": "e00d65a471b8e3a542318d69a9b01a0627ee35fff754cf20c6472fe06112f8ae",
       "original_file_type": "PDF",
       "redistributed_original": false,
@@ -37546,6 +37549,7 @@
       "official_file_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1899.htm",
       "official_landing_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/22_1899.htm",
       "original_file_bytes": 7288785,
+      "original_file_pdf_pages": 59,
       "original_file_sha256": "feec77cbcb4d419712e7f98ebc455bf63b6d659021d0882a2d185181ac7ac16b",
       "original_file_type": "PDF",
       "redistributed_original": false,

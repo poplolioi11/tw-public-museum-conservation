@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -40,6 +40,7 @@
     "official_file_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1899.htm",
     "official_landing_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/22_1899.htm",
     "original_file_bytes": 7288785,
+    "original_file_pdf_pages": 59,
     "original_file_sha256": "feec77cbcb4d419712e7f98ebc455bf63b6d659021d0882a2d185181ac7ac16b",
     "original_file_type": "PDF",
     "redistributed_original": false,
@@ -49,5 +50,5 @@
     "title": "新北市立鶯歌陶瓷博物館110年報",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.20.0/catalog/records/yingge-2021-reported-annual-repair.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.21.0/catalog/records/yingge-2021-reported-annual-repair.json"
 }

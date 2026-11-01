@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "baseline_inventory_original_pdf_reverified": false,
   "cells": [
     {
@@ -18630,7 +18630,7 @@
       "working_category_membership_set": "BATCH5"
     }
   ],
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "geography_is_recorded_roster_or_authority_area_not_all_branch_or_object_location": true,
   "groups": [
     {

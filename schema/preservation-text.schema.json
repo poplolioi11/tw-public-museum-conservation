@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Minimal paraphrased official facts; no source quotation, quantity or annual completion inference. Personal, finance and security-detail exclusions require manual source review as well as this structural check.",
+  "properties": {
+    "dataset_version": {
+      "type": "string"
+    },
+    "records": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "annual_quantity_eligible": {
+            "const": false
+          },
+          "cross_museum_comparable": {
+            "const": false
+          },
+          "default_aggregation_allowed": {
+            "const": false
+          },
+          "measure_status": {
+            "const": "text_only"
+          },
+          "numeric_quantity_eligible": {
+            "const": false
+          },
+          "organization_id": {
+            "type": "string"
+          },
+          "organization_name": {
+            "type": "string"
+          },
+          "pdf_page_1_based": {
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "period_as_reported": {
+            "maxLength": 180,
+            "type": "string"
+          },
+          "period_basis": {
+            "enum": [
+              "explicit_year",
+              "report_context",
+              "project_period",
+              "undated"
+            ]
+          },
+          "printed_page": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "report_year": {
+            "maximum": 2100,
+            "minimum": 1900,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "scope_note": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "source_locator": {
+            "type": "string"
+          },
+          "source_subject_label": {
+            "maxLength": 180,
+            "type": "string"
+          },
+          "statement": {
+            "maxLength": 180,
+            "minLength": 1,
+            "type": "string"
+          },
+          "text_category": {
+            "enum": [
+              "environment_maintenance",
+              "condition_review",
+              "work_mode",
+              "conservation_procedure"
+            ]
+          },
+          "text_id": {
+            "maxLength": 96,
+            "minLength": 3,
+            "type": "string"
+          }
+        },
+        "required": [
+          "text_id",
+          "organization_id",
+          "organization_name",
+          "source_id",
+          "source_subject_label",
+          "report_year",
+          "period_as_reported",
+          "period_basis",
+          "text_category",
+          "statement",
+          "source_locator",
+          "pdf_page_1_based",
+          "printed_page",
+          "scope_note",
+          "measure_status",
+          "numeric_quantity_eligible",
+          "annual_quantity_eligible",
+          "default_aggregation_allowed",
+          "cross_museum_comparable"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "scope_note": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "scope_note",
+    "records"
+  ],
+  "title": "Separate official general preservation-work texts",
+  "type": "object"
+}

@@ -127,6 +127,97 @@ def check_preservation_statistics(root,facts):
             'source_metadata_typed_equal':True,'excluded_from_main_observations_and_sqlite':True,
             'source_original_semantics_revalidated':False}
 
+def check_preservation_texts(root,facts):
+    """Restore general-text CSV/JSONL cells and keep their scope labels intact."""
+    path=root/'data/preservation_texts.json'
+    if not path.exists():return {'status':'not_enabled_no_input'}
+    data=builder.read(path);sources={r['source_id']:r for r in facts['sources']}
+    expected=[dict(row,source_title=sources[row['source_id']]['title'],
+                   official_file_url=sources[row['source_id']]['official_file_url'],
+                   original_file_sha256=sources[row['source_id']]['original_file_sha256'])
+              for row in data['records']]
+    name='preservation_texts'
+    jsonrows=[json.loads(line)for line in(root/f'data/{name}.jsonl').read_text().splitlines()if line.strip()]
+    assert_typed_equal(jsonrows,expected,name+'/jsonl')
+    with(root/f'data/{name}.csv').open(encoding='utf-8-sig',newline='')as stream:
+        reader=csv.DictReader(stream);csvrows=list(reader);fields=reader.fieldnames or []
+    # The schema defines stable columns even when a later version has no texts.
+    schema=builder.read(root/'schema/preservation-text.schema.json')
+    wanted=sorted(set(schema['properties']['records']['items']['properties'])|
+                  {'source_title','official_file_url','original_file_sha256'})
+    assert fields==wanted,(name,'csv_columns')
+    assert len(csvrows)==len(expected),(name,'csv_row_count')
+    for index,(raw,row)in enumerate(zip(csvrows,expected)):
+        assert set(raw)==set(wanted),(name,index,'csv_fields')
+        decoded={}
+        for key in wanted:
+            value=row[key];cell=raw[key]
+            assert str(builder.flat(value))==cell,(name,index,key,'csv_cell')
+            if value is None:
+                assert cell=='';decoded[key]=None
+            elif isinstance(value,str):decoded[key]=cell
+            else:decoded[key]=json.loads(cell)
+        assert_typed_equal(decoded,row,name+'/csv/'+str(index))
+    metadata=builder.read(root/'metadata/preservation_texts_build.json')
+    assert metadata['dataset_version']==facts['dataset_version']==data['dataset_version']
+    assert metadata['record_count']==len(expected)
+    used={r['source_id']for r in expected}
+    assert metadata['source_version_count']==len(used)
+    assert metadata['input_sha256']==hashlib.sha256(path.read_bytes()).hexdigest()
+    assert metadata['input_bytes']==len(path.read_bytes())
+    assert metadata['denominator_role']=='separate_texts_excluded_from_main_observations_and_coverage'
+    assert metadata['measure_status']=='text_only'
+    for key in ['numeric_quantity_eligible','annual_quantity_eligible',
+                'default_aggregation_allowed','cross_museum_comparable']:
+        assert metadata[key]is False and all(r[key]is False for r in expected)
+    assert all(r['measure_status']=='text_only'for r in expected)
+    assert metadata['category_counts']=={
+        category:sum(r['text_category']==category for r in expected)
+        for category in sorted({r['text_category']for r in expected})}
+    assert metadata['period_basis_counts']=={
+        basis:sum(r['period_basis']==basis for r in expected)
+        for basis in sorted({r['period_basis']for r in expected})}
+    wanted_sources=[{
+        'source_id':identity,'source_title':sources[identity]['title'],
+        'official_file_url':sources[identity]['official_file_url'],
+        'original_file_sha256':sources[identity]['original_file_sha256'],
+        'original_file_type':sources[identity]['original_file_type'],
+        'original_file_bytes':sources[identity]['original_file_bytes'],
+        'original_file_pdf_pages':sources[identity].get('original_file_pdf_pages'),
+    }for identity in sorted(used)]
+    assert_typed_equal(metadata['sources'],wanted_sources,name+'/metadata/sources')
+    assert not {r['text_id']for r in expected}&{
+        r['observation_id']for r in facts['observations']},(name,'main_observation_identity_collision')
+    with sqlite3.connect((root/'data/museum-conservation.sqlite').resolve().as_uri()+'?mode=ro',uri=True)as con:
+        assert con.execute('SELECT count(*) FROM observations').fetchone()[0]==len(facts['observations'])
+        assert not con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name=?",(name,)).fetchall()
+    return {'rows':len(expected),'csv_jsonl_typed_equal':True,
+            'source_metadata_typed_equal':True,'source_subject_and_period_labels_preserved':True,
+            'main_observation_rows':len(facts['observations']),
+            'excluded_from_main_observations_and_sqlite':True,
+            'source_original_semantics_revalidated':False}
+
+def check_text_export_isolation(root,facts,inventory,version):
+    """In the temporary clone, removing texts must change no shared output."""
+    path=root/'data/preservation_texts.json'
+    if not path.exists():return {'status':'not_enabled_no_input'}
+    original=path.read_bytes();facts_before=builder.encode(facts)
+    with_text=builder.generate(facts,inventory,version,root)
+    try:
+        path.unlink()
+        without_text=builder.generate(facts,inventory,version,root)
+    finally:path.write_bytes(original)
+    assert builder.encode(facts)==facts_before,'text_export_mutated_main_facts'
+    assert set(without_text)<=set(with_text),'text_export_removed_shared_output'
+    for name,body in without_text.items():
+        assert with_text[name]==body,('text_changed_main_or_coverage_export',name)
+    additions=set(with_text)-set(without_text)
+    assert additions=={'data/preservation_texts.json','data/preservation_texts.csv',
+                       'data/preservation_texts.jsonl','metadata/preservation_texts_build.json'},additions
+    return {'status':'pass','main_observation_rows':len(facts['observations']),
+            'shared_exports_unchanged_without_text_input':len(without_text),
+            'main_quantities_and_coverage_excluded_by_export_ablation':True}
+
 def check_optional_art_layers(root,facts,inventory,version):
     """Enable only layers whose actual input exists; never fabricate absent data."""
     root=Path(root).resolve();result={'source_original_semantics_revalidated':False}
@@ -161,6 +252,7 @@ def check_optional_art_layers(root,facts,inventory,version):
         result['private_art']=private
     else:result['private_art']={'status':'not_enabled_no_input'}
     result['preservation_statistics']=check_preservation_statistics(root,facts)
+    result['preservation_texts']=check_preservation_texts(root,facts)
     return result
 
 def invalid_auxiliary_preserves_exports(root,relative,cases):
@@ -233,6 +325,51 @@ def check_optional_art_failure_protection(root):
         result['preservation_statistics']=invalid_auxiliary_preserves_exports(
             root,'data/preservation_statistics.json',cases)
     else:result['preservation_statistics']={'status':'not_enabled_no_records'}
+    path=root/'data/preservation_texts.json'
+    if path.exists()and builder.read(path)['records']:
+        data=builder.read(path);sources={s['source_id']:s for s in builder.read(root/'data/facts.json')['sources']}
+        def text_private_field(data):data['records'][0]['private_ledger_key']='PRIV-selfcheck-only'
+        def text_subject_missing(data):del data['records'][0]['source_subject_label']
+        def text_period_missing(data):data['records'][0]['period_as_reported']=''
+        def text_numeric_statement(data):data['records'][0]['statement']='修護人員共三位。'
+        def text_financial_statement(data):data['records'][0]['statement']='保存維護預算總額。'
+        def text_source(data):data['records'][0]['source_id']='src-selfcheck-missing-source'
+        def text_numeric_eligible(data):data['records'][0]['numeric_quantity_eligible']=True
+        def text_annual_eligible(data):data['records'][0]['annual_quantity_eligible']=True
+        def text_aggregate_eligible(data):data['records'][0]['default_aggregation_allowed']=True
+        def text_comparable(data):data['records'][0]['cross_museum_comparable']=True
+        cases=[
+            ('text_extra_private_field',text_private_field,'extra field'),
+            ('text_source_subject_required',text_subject_missing,'required field missing'),
+            ('text_period_label_required',text_period_missing,'blank string'),
+            ('text_statement_cannot_introduce_quantity',text_numeric_statement,'must not introduce a quantity'),
+            ('text_statement_cannot_publish_finance',text_financial_statement,'financial, vendor, or procurement statement'),
+            ('text_source_closure',text_source,'unknown source ID'),
+            ('text_cannot_be_numeric_quantity',text_numeric_eligible,'wrong constant'),
+            ('text_cannot_be_annual_quantity',text_annual_eligible,'wrong constant'),
+            ('text_cannot_grant_aggregation',text_aggregate_eligible,'wrong constant'),
+            ('text_cannot_grant_comparability',text_comparable,'wrong constant'),
+        ]
+        if any(r['period_basis']in {'report_context','undated'}for r in data['records']):
+            def text_context_loses_unknown(data):
+                row=next(r for r in data['records']if r['period_basis']in {'report_context','undated'})
+                row['period_as_reported']='全年已完成'
+            cases.append(('text_context_preserves_unknown_period',text_context_loses_unknown,
+                          'context or undated period must preserve uncertainty'))
+        if any(sources[r['source_id']]['original_file_type']=='HTML'for r in data['records']):
+            def text_html_page(data):
+                row=next(r for r in data['records']if sources[r['source_id']]['original_file_type']=='HTML')
+                row['pdf_page_1_based']=1
+            cases.append(('text_html_has_no_borrowed_pdf_page',text_html_page,
+                          'HTML must not acquire PDF or printed pages'))
+        if any(sources[r['source_id']]['original_file_type']=='PDF'for r in data['records']):
+            def text_pdf_page(data):
+                row=next(r for r in data['records']if sources[r['source_id']]['original_file_type']=='PDF')
+                row['pdf_page_1_based']=sources[row['source_id']]['original_file_pdf_pages']+1
+            cases.append(('text_pdf_page_within_verified_source',text_pdf_page,
+                          'PDF page outside verified source bounds'))
+        result['preservation_texts']=invalid_auxiliary_preserves_exports(root,'data/preservation_texts.json',cases)
+    else:result['preservation_texts']={'status':'not_enabled_no_records'}
     return result
 
 def main():
@@ -329,6 +466,8 @@ def main():
         before=hashes(root)
         same=subprocess.run(cmd,capture_output=True,text=True);assert same.returncode==0,same.stderr
         assert json.loads(same.stdout)['status']=='unchanged';assert hashes(root)==before
+        text_export_isolation=check_text_export_isolation(root,facts,inventory,version)
+        assert hashes(root)==before
         optional_art_failures=check_optional_art_failure_protection(root)
         assert hashes(root)==before
         # Wrong number: reject before replacing any release data.
@@ -400,5 +539,5 @@ def main():
         assert result.returncode!=0 and hashes(root)==broken
     import check_enrichment
     enriched=check_enrichment.check(ROOT)
-    print(json.dumps({'status':'pass','checks':checks,'enrichment':enriched,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True,'optional_art_layers':optional_art,'optional_art_input_failure_protection':optional_art_failures},ensure_ascii=False))
+    print(json.dumps({'status':'pass','checks':checks,'enrichment':enriched,'csv_jsonl_sqlite_equal':True,'sqlite_portable_content_and_exact_artifact_checks':True,'html_locator_contract':True,'body_review_nested_schema_and_page_scope':True,'invalid_candidate_preserves_previous':True,'changed_source_requires_review':True,'unchanged_writes_zero_files':True,'check_detects_export_corruption_without_writing':True,'optional_art_layers':optional_art,'optional_art_input_failure_protection':optional_art_failures,'text_export_isolation':text_export_isolation},ensure_ascii=False))
 if __name__=='__main__':main()

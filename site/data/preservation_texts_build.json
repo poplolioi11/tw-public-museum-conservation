@@ -1,0 +1,87 @@
+{
+  "annual_quantity_eligible": false,
+  "category_counts": {
+    "condition_review": 1,
+    "conservation_procedure": 1,
+    "environment_maintenance": 2,
+    "work_mode": 4
+  },
+  "cross_museum_comparable": false,
+  "dataset_version": "0.21.0",
+  "default_aggregation_allowed": false,
+  "denominator_role": "separate_texts_excluded_from_main_observations_and_coverage",
+  "input_bytes": 9740,
+  "input_file": "data/preservation_texts.json",
+  "input_sha256": "50d653f29f47cb297a6538be6a2d09517ea31b62c99d6e0f7b7b680319307038",
+  "measure_status": "text_only",
+  "numeric_quantity_eligible": false,
+  "period_basis_counts": {
+    "explicit_year": 2,
+    "project_period": 1,
+    "report_context": 3,
+    "undated": 2
+  },
+  "record_count": 8,
+  "schema_version": "1.0",
+  "scope_note": "既有館所官方來源的一般作業文字附表。只記來源明示的作業、角色或程序及期間限制，不含人數、待修量、年度處理量或完成率；完全排除於主觀測與公立覆蓋率分母。",
+  "source_version_count": 6,
+  "sources": [
+    {
+      "official_file_url": "https://www.lib.ntu.edu.tw/Publication/pdf/AR_2025.pdf",
+      "original_file_bytes": 52460952,
+      "original_file_pdf_pages": 82,
+      "original_file_sha256": "2c0a9cac198a149f35f909321d6db3f83a043d3b3d1fa4946a60dac8efa4deef",
+      "original_file_type": "PDF",
+      "source_id": "src-2c0a9cac198a149f",
+      "source_title": "國立臺灣大學圖書館2025年報"
+    },
+    {
+      "official_file_url": "https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202207/c9840cc6-2c1a-4584-91b6-eeafd06d7be6.pdf",
+      "original_file_bytes": 12901912,
+      "original_file_pdf_pages": 111,
+      "original_file_sha256": "47ce226d3e69a052e87ad6ad551ea79b7961de2ee2b6918a81550ce84bc6e3d8",
+      "original_file_type": "PDF",
+      "source_id": "src-47ce226d3e69a052",
+      "source_title": "國立歷史博物館2021年報"
+    },
+    {
+      "official_file_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1893.htm",
+      "original_file_bytes": 9002784,
+      "original_file_pdf_pages": 61,
+      "original_file_sha256": "5f332232138a067772081bbccbe92cb7055c8d6ad2d5e807dd6032b59fa8d1bc",
+      "original_file_type": "PDF",
+      "source_id": "src-5f332232138a0677",
+      "source_title": "新北市立鶯歌陶瓷博物館109年報"
+    },
+    {
+      "official_file_url": "https://www.ntpc.gov.tw/ch/home.jsp?dataserno=f9f2e1d7c52511e37e6bde75abee7f32&id=e8ca970cde5c00e1",
+      "original_file_bytes": 124138,
+      "original_file_pdf_pages": null,
+      "original_file_sha256": "6e84074e9887bfa06a4547e4a2a74cf088e20318487ddfdc2f50d4866cbf843b",
+      "original_file_type": "HTML",
+      "source_id": "src-6e84074e9887bfa0",
+      "source_title": "老文物獲新生命 烏來泰博館館藏文物修復過程大公開"
+    },
+    {
+      "official_file_url": "https://www.tnam.museum/filesys/files/ch/about_us/freedomofinfo/70/%E5%8D%97%E7%BE%8E%E5%B9%B4%E5%A0%B12021-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "original_file_bytes": 5701341,
+      "original_file_pdf_pages": 62,
+      "original_file_sha256": "e00d65a471b8e3a542318d69a9b01a0627ee35fff754cf20c6472fe06112f8ae",
+      "original_file_type": "PDF",
+      "source_id": "src-e00d65a471b8e3a5",
+      "source_title": "2021臺南市美術館年報（中文版）"
+    },
+    {
+      "official_file_url": "https://digital.ceramics.ntpc.gov.tw/zh-tw/eLibrary/D14_4_1899.htm",
+      "original_file_bytes": 7288785,
+      "original_file_pdf_pages": 59,
+      "original_file_sha256": "feec77cbcb4d419712e7f98ebc455bf63b6d659021d0882a2d185181ac7ac16b",
+      "original_file_type": "PDF",
+      "source_id": "src-feec77cbcb4d4197",
+      "source_title": "新北市立鶯歌陶瓷博物館110年報"
+    }
+  ],
+  "validation_limits": [
+    "Structural and obvious-pattern checks do not replace source review, privacy review, or faithful-paraphrase assessment."
+  ]
+}

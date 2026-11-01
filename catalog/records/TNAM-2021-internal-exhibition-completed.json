@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.20.0",
+  "dataset_version": "0.21.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -40,6 +40,7 @@
     "official_file_url": "https://www.tnam.museum/filesys/files/ch/about_us/freedomofinfo/70/%E5%8D%97%E7%BE%8E%E5%B9%B4%E5%A0%B12021-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
     "official_landing_url": "https://www.tnam.museum/about_us/freedomofinfo/hits/103",
     "original_file_bytes": 5701341,
+    "original_file_pdf_pages": 62,
     "original_file_sha256": "e00d65a471b8e3a542318d69a9b01a0627ee35fff754cf20c6472fe06112f8ae",
     "original_file_type": "PDF",
     "redistributed_original": false,
@@ -49,5 +50,5 @@
     "title": "2021臺南市美術館年報（中文版）",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.20.0/catalog/records/TNAM-2021-internal-exhibition-completed.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.21.0/catalog/records/TNAM-2021-internal-exhibition-completed.json"
 }
