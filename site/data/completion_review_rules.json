@@ -8,7 +8,7 @@
   },
   "input_manifest": {
     "facts_source": "data/facts.json#observations",
-    "observations_sha256": "0e67151ea01e7fe66e5929fa012ba94dff240a51f149b6978a78e5f4cabb3d62",
+    "observations_sha256": "6e294327a6a949deca09ecbb19d96a00fb7e9654203eae1631f4d62e45560bc2",
     "reviewed_observation_ids": [
       "nmp-2024-bone-antler-arrangement",
       "nmp-2024-pottery-restoration",

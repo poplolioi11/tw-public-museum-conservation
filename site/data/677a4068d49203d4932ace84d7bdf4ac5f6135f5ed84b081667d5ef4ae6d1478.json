@@ -23036,7 +23036,7 @@
       "verified_at": "2026-11-01"
     }
   ],
-  "dataset_version": "0.19.0",
+  "dataset_version": "0.20.0",
   "observations": [
     {
       "action_categories": [
@@ -30739,6 +30739,7 @@
       "quantity_raw": "1",
       "record_kind": "observation",
       "source_id": "src-cbc631aca1cc8b5b",
+      "source_locator": "PDF第77頁／印刷第52頁，典藏品修護紀錄表（1998–2016），2016年度區塊，總號3001列，件數欄。",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
       "subject_scope_category": "mixed_or_not_confirmed",
@@ -30811,6 +30812,7 @@
       "quantity_raw": "1",
       "record_kind": "observation",
       "source_id": "src-cbc631aca1cc8b5b",
+      "source_locator": "PDF第77頁／印刷第52頁，典藏品修護紀錄表（1998–2016），2016年度區塊，總號895列，件數欄。",
       "source_scope": "historical_register_listed_object_or_group",
       "subject_scope": "逐件權屬未另核",
       "subject_scope_category": "mixed_or_not_confirmed",

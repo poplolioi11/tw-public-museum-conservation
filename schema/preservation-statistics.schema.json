@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Source-reported operation counts; never main repair observations or coverage denominators. Composite units and unknown time boundaries are preserved.",
+  "properties": {
+    "dataset_version": {
+      "type": "string"
+    },
+    "records": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "cross_museum_comparable": {
+            "const": false
+          },
+          "default_aggregation_allowed": {
+            "const": false
+          },
+          "metric_as_reported": {
+            "type": "string"
+          },
+          "organization_id": {
+            "type": "string"
+          },
+          "organization_name": {
+            "type": "string"
+          },
+          "pdf_page_1_based": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "period_end": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "period_evidence": {
+            "type": "string"
+          },
+          "period_kind": {
+            "enum": [
+              "report_year_table",
+              "report_year_context",
+              "up_to_end_start_unspecified",
+              "after_installation_end_unspecified"
+            ]
+          },
+          "period_start": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "period_year": {
+            "maximum": 9999,
+            "minimum": 1000,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "printed_page": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "quantity_numeric": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "quantity_raw": {
+            "type": "string"
+          },
+          "report_year": {
+            "maximum": 9999,
+            "minimum": 1000,
+            "type": "integer"
+          },
+          "scope_note": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "source_locator": {
+            "type": "string"
+          },
+          "statistics_id": {
+            "type": "string"
+          },
+          "unique_object_count_verified": {
+            "const": false
+          },
+          "unit_as_reported": {
+            "type": "string"
+          },
+          "year_on_year_ready": {
+            "const": false
+          }
+        },
+        "required": [
+          "statistics_id",
+          "organization_id",
+          "organization_name",
+          "report_year",
+          "period_year",
+          "period_kind",
+          "period_start",
+          "period_end",
+          "metric_as_reported",
+          "quantity_raw",
+          "quantity_numeric",
+          "unit_as_reported",
+          "source_id",
+          "pdf_page_1_based",
+          "printed_page",
+          "source_locator",
+          "period_evidence",
+          "scope_note",
+          "default_aggregation_allowed",
+          "cross_museum_comparable",
+          "year_on_year_ready",
+          "unique_object_count_verified"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "scope_note": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "scope_note",
+    "records"
+  ],
+  "title": "Separate official environmental-operation statistics supplement",
+  "type": "object"
+}

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.19.0",
+  "dataset_version": "0.20.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -27,6 +27,7 @@
     "quantity_raw": "1",
     "record_kind": "observation",
     "source_id": "src-cbc631aca1cc8b5b",
+    "source_locator": "PDF第77頁／印刷第52頁，典藏品修護紀錄表（1998–2016），2016年度區塊，總號3001列，件數欄。",
     "source_scope": "historical_register_listed_object_or_group",
     "subject_scope": "逐件權屬未另核",
     "subject_scope_category": "mixed_or_not_confirmed",
@@ -49,5 +50,5 @@
     "title": "高雄市立美術館2016年度全記錄，典藏品修護紀錄表(1998–2016)",
     "verified_at": "2026-10-26"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.19.0/catalog/records/KMFA-2016-register-03.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.20.0/catalog/records/KMFA-2016-register-03.json"
 }

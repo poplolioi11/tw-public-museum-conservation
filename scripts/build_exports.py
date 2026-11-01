@@ -218,6 +218,10 @@ def generate(facts,inventory,version,root=ROOT):
         tables['expanded_public_organizations']=inventory.get('expanded_public_organization_candidates',[])
     output={'data/facts.json':encode(facts),'metadata/inventory.json':encode(inventory)}
     output.update(enriched['outputs'])
+    if (root/'data/preservation_statistics.json').exists():
+        from preservation_statistics import build as build_preservation_statistics
+        output.update(build_preservation_statistics(root,facts))
+        output['data/preservation_statistics.json']=(root/'data/preservation_statistics.json').read_bytes()
     if (root/'data/private_art_pilot.json').exists():
         from private_art_pilot import generate as generate_private_art
         private=generate_private_art(root,version)

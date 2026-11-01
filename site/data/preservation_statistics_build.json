@@ -1,0 +1,79 @@
+{
+  "cross_museum_comparable": false,
+  "dataset_version": "0.20.0",
+  "default_aggregation_allowed": false,
+  "denominator_role": "separate_supplement_excluded_from_main_observations_and_coverage",
+  "input_bytes": 16427,
+  "input_file": "data/preservation_statistics.json",
+  "input_sha256": "5a49f19acd221b6f41528839c5199d79b71c4c2b533de29723e24d11f7136920",
+  "period_kind_counts": {
+    "report_year_context": 1,
+    "report_year_table": 11,
+    "up_to_end_start_unspecified": 2
+  },
+  "record_count": 14,
+  "schema_version": "1.0",
+  "scope_note": "國立故宮博物院既存官方報告的環境作業原口徑附表。與主觀測及公立涵蓋率完全分開；複合單位不拆分、不換算、不相加、不作跨年趨勢或績效推論。",
+  "source_version_count": 6,
+  "sources": [
+    {
+      "official_file_url": "https://www.npm.gov.tw/NewFileAtt.ashx?lang=1&id=10054624",
+      "original_file_bytes": 15765950,
+      "original_file_pdf_pages": 71,
+      "original_file_sha256": "094a7b40a1ea10c71963bcb93022f6d26eac8ac6560f1b20c5b02a1c9e8975a6",
+      "source_id": "src-094a7b40a1ea10c7",
+      "source_title": "故宮110年度年報"
+    },
+    {
+      "official_file_url": "https://www.npm.gov.tw/NewFileAtt.ashx?lang=1&id=10056492",
+      "original_file_bytes": 14404582,
+      "original_file_pdf_pages": 214,
+      "original_file_sha256": "33903b787d65df5933473a045594af96ee92f0a15e3290a063fb4a558bac4d98",
+      "source_id": "src-33903b787d65df59",
+      "source_title": "故宮112年度年報"
+    },
+    {
+      "official_file_url": "https://www.npm.gov.tw/NewFileAtt.ashx?lang=1&id=10055548",
+      "original_file_bytes": 10379128,
+      "original_file_pdf_pages": 166,
+      "original_file_sha256": "776383b41caa2e3fc05d0301bad21287e09b2fc78787a3934aa20f90b431a87c",
+      "source_id": "src-776383b41caa2e3f",
+      "source_title": "故宮111年度年報"
+    },
+    {
+      "official_file_url": "https://www.npm.gov.tw/NewFileAtt.ashx?lang=1&id=10059091",
+      "original_file_bytes": 8485914,
+      "original_file_pdf_pages": 291,
+      "original_file_sha256": "838fcb8db76c3527f8b2eb0500bc0c3245c014cc4cd5d1461f32f0bb1a6b5283",
+      "source_id": "src-838fcb8db76c3527",
+      "source_title": "國立故宮博物院114年度單位決算"
+    },
+    {
+      "official_file_url": "https://www.npm.gov.tw/NewFileAtt.ashx?lang=1&id=10058806",
+      "original_file_bytes": 8647259,
+      "original_file_pdf_pages": 194,
+      "original_file_sha256": "cf91020a2de76a3fd44bbb755901d51d2b55edd7375aed3a5984d842af2f3686",
+      "source_id": "src-cf91020a2de76a3f",
+      "source_title": "故宮113年度年報"
+    },
+    {
+      "official_file_url": "https://www.npm.gov.tw/NewFileAtt.ashx?lang=1&id=10023582",
+      "original_file_bytes": 10366229,
+      "original_file_pdf_pages": 105,
+      "original_file_sha256": "f658917294560f6113d2244b92ce0ddf8118ed1ada3cb3196991e5e1e5d148b7",
+      "source_id": "src-f658917294560f61",
+      "source_title": "故宮109年度年報"
+    }
+  ],
+  "unique_object_count_verified": false,
+  "units_as_reported": [
+    "件次",
+    "室 / 展次",
+    "室 / 展次 / 量測點",
+    "室 / 櫃次",
+    "櫃 / 箱次",
+    "櫃次 / 箱次",
+    "櫃次/箱次"
+  ],
+  "year_on_year_ready": false
+}

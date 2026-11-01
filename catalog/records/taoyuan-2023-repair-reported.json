@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.19.0",
+  "dataset_version": "0.20.0",
   "record": {
     "action_categories": [
       "restoration_as_reported"
@@ -57,5 +57,5 @@
     "title": "桃園市政府文化局113年第3屆第3次定期會工作報告（含112年8月至113年初館務段落）",
     "verified_at": "2026-10-28"
   },
-  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.19.0/catalog/records/taoyuan-2023-repair-reported.json"
+  "versioned_record_url": "https://raw.githubusercontent.com/poplolioi11/tw-public-museum-conservation/v0.20.0/catalog/records/taoyuan-2023-repair-reported.json"
 }

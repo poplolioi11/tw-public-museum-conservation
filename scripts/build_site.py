@@ -43,6 +43,12 @@ ENRICHMENT_DOWNLOADS = {
     'completion_review_build': ('metadata/completion_review_build.json', '完成語覆核版本與限制 JSON'),
 }
 OPTIONAL_DOWNLOADS = {
+    'preservation_statistics': {
+        'json': ('data/preservation_statistics.json', '環境作業原口徑 JSON'),
+        'csv': ('data/preservation_statistics.csv', '環境作業原口徑 CSV'),
+        'jsonl': ('data/preservation_statistics.jsonl', '環境作業原口徑 JSONL'),
+        'build': ('metadata/preservation_statistics.json', '環境作業範圍與來源清單 JSON'),
+    },
     'public_context': {
         'json': ('data/public_context_notes.json', '公立非年度量脈絡 JSON'),
         'jsonl': ('data/public_context_notes.jsonl', '公立非年度量脈絡 JSONL'),
@@ -60,6 +66,7 @@ OPTIONAL_DOWNLOADS = {
         'build': ('metadata/private_art_pilot_build.json', '私立館試辦範圍與輸出清單 JSON'),
     },
 }
+DOWNLOAD_BASENAMES = {'metadata/preservation_statistics.json': 'preservation_statistics_build.json'}
 FIGURES = {
     'coverage-states.svg': ('集合與年份子集的查核格狀態',
         '下方狀態表列出相同數據；全集包含子集，各欄不能相加。'),
@@ -100,7 +107,7 @@ def relation_ids(relation):
 def input_snapshot(root):
     names = ['VERSION', 'data/facts.json', 'schema/vocabulary.json', 'scripts/build_site.py']
     names += ['site-src/' + name for name in ('index.html', 'enrichment.html', 'context.html',
-                                             'private-art.html', 'app.css', 'app.js')]
+                                             'private-art.html', 'preservation.html', 'app.css', 'app.js')]
     names += [path for path, _ in ENRICHMENT_DOWNLOADS.values()]
     names += ['metadata/inventory.json', 'schema/absence_annotation.schema.json',
               'schema/normalization_record.schema.json']
@@ -112,7 +119,7 @@ def input_snapshot(root):
 
 def safe_old_path(name):
     fixed = {'data/' + Path(path).name for path, _ in ENRICHMENT_DOWNLOADS.values()}
-    fixed |= {'data/' + Path(path).name for group in OPTIONAL_DOWNLOADS.values()
+    fixed |= {'data/' + DOWNLOAD_BASENAMES.get(path, Path(path).name) for group in OPTIONAL_DOWNLOADS.values()
               for path, _ in group.values()}
     fixed |= {'figures/' + name for name in FIGURES}
     return name in fixed or bool(re.fullmatch(r'data/[a-f0-9]{64}\.json|records/[A-Za-z0-9._-]+\.json', name))
@@ -153,7 +160,9 @@ def supplemental_pages(inputs, facts, vocabulary, version, outputs):
             if path not in inputs:
                 continue
             body = inputs[path]
-            dest = 'data/' + Path(path).name
+            dest = 'data/' + DOWNLOAD_BASENAMES.get(path, Path(path).name)
+            if dest in outputs and outputs[dest] != body:
+                raise ValueError('Supplement download path collision: ' + dest)
             outputs[dest] = body
             downloads[name] = {'url': dest, 'download_url': './' + dest, 'label': label,
                                'source_path': path, 'sha256': sha(body), 'bytes': len(body)}
@@ -178,6 +187,28 @@ def supplemental_pages(inputs, facts, vocabulary, version, outputs):
             'data': downloads.get('json'), 'downloads': downloads,
             'included_in_public_numeric_observations': False,
             'included_in_public_coverage_denominators': False}
+
+    statistics_path = OPTIONAL_DOWNLOADS['preservation_statistics']['json'][0]
+    if statistics_path in inputs:
+        statistics = json.loads(inputs[statistics_path])['records']
+        labels = {'report_year_table': '原表年度', 'report_year_context': '只有年報脈絡；觀測年未明',
+                  'up_to_end_start_unspecified': '只有截止時點；起點未明',
+                  'after_installation_end_unspecified': '建置後；起訖未明'}
+        rows = []
+        for row in statistics:
+            if row['default_aggregation_allowed'] is not False or row['source_id'] not in sources:
+                raise ValueError('Invalid separate environmental statistics scope')
+            rows.append('<tr id="'+escape(row['statistics_id'],quote=True)+'"><th scope="row">'+
+                escape(str(row['report_year'])+'｜'+row['metric_as_reported'])+'</th><td>'+escape(
+                row['quantity_raw']+' '+row['unit_as_reported'])+'</td><td>'+escape(labels[row['period_kind']]+
+                '；'+row['period_evidence'])+'</td><td>'+escape(row['scope_note'])+'</td><td>'+
+                source_link(sources[row['source_id']],row)+'<p>'+escape(row['source_locator'])+'</p></td></tr>')
+        content = ('<div class="table-wrap" tabindex="0" role="region" aria-label="環境作業原口徑表，可橫向捲動">'
+            '<table><caption>國立故宮博物院｜'+str(len(rows))+'則；報告年不一律等於觀測年，列數不是作業總量</caption>'
+            '<thead><tr><th scope="col">報告年與原作業</th><th scope="col">原數字與單位</th>'
+            '<th scope="col">期間證據</th><th scope="col">限制</th><th scope="col">官方原頁與列欄</th></tr></thead>'
+            '<tbody>'+''.join(rows)+'</tbody></table></div>')
+        render('preservation_statistics','preservation.html',content,True,len(rows))
 
     context_path = OPTIONAL_DOWNLOADS['public_context']['json'][0]
     if context_path in inputs:
@@ -416,6 +447,7 @@ def expected(root, inputs):
 - [有界資料整理](enrichment.html)：館年格全集與年份子集、缺量註記、關係及完成語覆核、文字表格與圖表。
 - [公立非年度量脈絡](context.html)：計畫、累計、平均與跨年專案，並非年度已施作量，不納入公立數值觀測。
 - [私立美術館試辦](private-art.html)：獨立資料層，保留原值、原單位、完成狀態與範圍，不混入公立觀測或分母。
+- [官方環境作業附表](preservation.html)：原數字、複合單位及期間證據另列；不進修護主表或公立分母，不作年度趨勢。
 - 逐筆紀錄：records/{{observation_id}}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本]({REPOSITORY})。
 
@@ -444,7 +476,7 @@ manifest.json 的 public_context 與 private_art 各列 available、page、data 
                 'enrichment': enrichment,
                 **supplements,
                 'readback_contract': {
-                    'optional_module_keys': ['public_context', 'private_art'],
+                    'optional_module_keys': ['public_context', 'private_art', 'preservation_statistics'],
                     'verify_page_and_each_download': True,
                     'compare_sha256_and_bytes': True,
                     'public_private_denominators_separate': True,
@@ -453,6 +485,18 @@ manifest.json 的 public_context 與 private_art 各列 available、page、data 
                 'inputs_sha256': {name: sha(body) for name, body in inputs.items()},
                 'scope_note': '有限來源目錄；紀錄筆數不是物件總數，未作年度或館際加總。',
                 'generated_files': sorted(outputs)}
+    def verify_endpoint_claims(value):
+        if isinstance(value, dict):
+            if {'url', 'sha256', 'bytes'} <= value.keys():
+                body = outputs.get(value['url'])
+                if body is None or sha(body) != value['sha256'] or len(body) != value['bytes']:
+                    raise ValueError('Manifest endpoint bytes differ: ' + str(value['url']))
+            for item in value.values():
+                verify_endpoint_claims(item)
+        elif isinstance(value, list):
+            for item in value:
+                verify_endpoint_claims(item)
+    verify_endpoint_claims(manifest)
     outputs['manifest.json'] = stable(manifest)
     return outputs
 

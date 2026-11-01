@@ -63,6 +63,70 @@ def typed_table_roundtrip(root,name,expected,container_rows=None):
     return {'rows':len(expected),'csv_jsonl_sqlite_typed_equal':True,
             'original_container_restored':container_rows is not None}
 
+def check_preservation_statistics(root,facts):
+    """Restore every supplement CSV/JSONL cell without adding a SQLite table."""
+    path=root/'data/preservation_statistics.json'
+    if not path.exists():return {'status':'not_enabled_no_input'}
+    data=builder.read(path);sources={row['source_id']:row for row in facts['sources']}
+    expected=[]
+    for row in data['records']:
+        source=sources[row['source_id']]
+        expected.append(dict(row,source_title=source['title'],
+                             official_file_url=source['official_file_url'],
+                             original_file_sha256=source['original_file_sha256']))
+    name='preservation_statistics'
+    jsonrows=[json.loads(line)for line in(root/f'data/{name}.jsonl').read_text().splitlines()if line.strip()]
+    assert_typed_equal(jsonrows,expected,name+'/jsonl')
+    with(root/f'data/{name}.csv').open(encoding='utf-8-sig',newline='')as stream:
+        reader=csv.DictReader(stream);csvrows=list(reader);fields=reader.fieldnames or []
+    wanted=builder.columns(expected)
+    assert fields==wanted,(name,'csv_columns')
+    assert len(csvrows)==len(expected),(name,'csv_row_count')
+    for index,(raw,row)in enumerate(zip(csvrows,expected)):
+        assert set(raw)==set(wanted),(name,index,'csv_fields')
+        decoded={}
+        for key in wanted:
+            value=row[key];cell=raw[key]
+            assert str(builder.flat(value))==cell,(name,index,key,'csv_cell')
+            if value is None:
+                assert cell=='';decoded[key]=None
+            elif isinstance(value,str):decoded[key]=cell
+            else:decoded[key]=json.loads(cell)
+        assert_typed_equal(decoded,row,name+'/csv/'+str(index))
+    metadata=builder.read(root/'metadata/preservation_statistics.json')
+    assert metadata['dataset_version']==facts['dataset_version']==data['dataset_version']
+    assert metadata['record_count']==len(expected)
+    used={row['source_id']for row in expected}
+    assert metadata['source_version_count']==len(used)
+    assert metadata['input_sha256']==hashlib.sha256(path.read_bytes()).hexdigest()
+    assert metadata['input_bytes']==len(path.read_bytes())
+    assert metadata['denominator_role']=='separate_supplement_excluded_from_main_observations_and_coverage'
+    assert metadata['units_as_reported']==sorted({row['unit_as_reported']for row in expected})
+    assert metadata['period_kind_counts']=={
+        kind:sum(row['period_kind']==kind for row in expected)
+        for kind in sorted({row['period_kind']for row in expected})}
+    wanted_sources=[{
+        'source_id':identity,'source_title':sources[identity]['title'],
+        'official_file_url':sources[identity]['official_file_url'],
+        'original_file_sha256':sources[identity]['original_file_sha256'],
+        'original_file_bytes':sources[identity]['original_file_bytes'],
+        'original_file_pdf_pages':sources[identity]['original_file_pdf_pages'],
+    }for identity in sorted(used)]
+    assert_typed_equal(metadata['sources'],wanted_sources,name+'/metadata/sources')
+    for key in ['default_aggregation_allowed','cross_museum_comparable',
+                'year_on_year_ready','unique_object_count_verified']:
+        assert metadata[key]is False
+        assert all(row[key]is False for row in expected)
+    assert not {row['statistics_id']for row in expected}&{
+        row['observation_id']for row in facts['observations']},(name,'main_observation_identity_collision')
+    database=(root/'data/museum-conservation.sqlite').resolve()
+    with sqlite3.connect(database.as_uri()+'?mode=ro',uri=True)as con:
+        assert con.execute('SELECT count(*) FROM observations').fetchone()[0]==len(facts['observations'])
+        assert not con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name=?",(name,)).fetchall()
+    return {'rows':len(expected),'csv_jsonl_typed_equal':True,
+            'source_metadata_typed_equal':True,'excluded_from_main_observations_and_sqlite':True,
+            'source_original_semantics_revalidated':False}
+
 def check_optional_art_layers(root,facts,inventory,version):
     """Enable only layers whose actual input exists; never fabricate absent data."""
     root=Path(root).resolve();result={'source_original_semantics_revalidated':False}
@@ -96,6 +160,7 @@ def check_optional_art_layers(root,facts,inventory,version):
             private[name]=typed_table_roundtrip(root,name,generated['tables'][name],originals)
         result['private_art']=private
     else:result['private_art']={'status':'not_enabled_no_input'}
+    result['preservation_statistics']=check_preservation_statistics(root,facts)
     return result
 
 def invalid_auxiliary_preserves_exports(root,relative,cases):
@@ -139,6 +204,35 @@ def check_optional_art_failure_protection(root):
             ('private_observation_cannot_use_public_organization',public_owner,'organization_outside_private_container'),
             ('private_source_id_sha_closure',bad_source_hash,'source_id_sha_mismatch')])
     else:result['private_art']={'status':'not_enabled_no_observations'}
+    path=root/'data/preservation_statistics.json'
+    if path.exists()and builder.read(path)['records']:
+        def supplementary_private_field(data):data['records'][0]['private_ledger_id']='PRIV-selfcheck-only'
+        def supplementary_quantity(data):data['records'][0]['quantity_numeric']+=1
+        def supplementary_source(data):data['records'][0]['source_id']='src-selfcheck-missing-source'
+        def supplementary_finance(data):data['records'][0]['metric_as_reported']='保存維護預算總額'
+        def supplementary_private_path(data):data['records'][0]['scope_note']='file:///synthetic/private-input.json'
+        cases=[
+            ('supplement_extra_private_field',supplementary_private_field,'extra field'),
+            ('supplement_quantity_raw_numeric_mismatch',supplementary_quantity,'quantity raw/numeric mismatch'),
+            ('supplement_source_closure',supplementary_source,'unknown source ID'),
+            ('supplement_cannot_publish_financial_metric',supplementary_finance,'financial or procurement metric'),
+            ('supplement_cannot_publish_private_path',supplementary_private_path,'private path, identifier, or credential pattern'),
+        ]
+        if any(row['period_kind']=='up_to_end_start_unspecified'for row in builder.read(path)['records']):
+            def supplementary_unknown_start_annual(data):
+                row=next(row for row in data['records']if row['period_kind']=='up_to_end_start_unspecified')
+                row['period_year']=row['report_year']
+            cases.append(('supplement_unknown_start_cannot_be_annual',supplementary_unknown_start_annual,
+                          'unknown-start period must not become annual'))
+        if any(row['period_kind']=='report_year_context'for row in builder.read(path)['records']):
+            def supplementary_context_annual(data):
+                row=next(row for row in data['records']if row['period_kind']=='report_year_context')
+                row['period_year']=row['report_year']
+            cases.append(('supplement_report_context_cannot_be_annual',supplementary_context_annual,
+                          'report context must not infer observation dates'))
+        result['preservation_statistics']=invalid_auxiliary_preserves_exports(
+            root,'data/preservation_statistics.json',cases)
+    else:result['preservation_statistics']={'status':'not_enabled_no_records'}
     return result
 
 def main():

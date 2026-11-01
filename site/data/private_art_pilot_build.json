@@ -1,9 +1,9 @@
 {
   "automatic_numeric_aggregation_allowed": false,
   "body_review_records": 6,
-  "container_sha256": "6265d252ab29010badc4b8fc8184b9daaa164e1a1b8ddfcc74a080e2128aa70b",
+  "container_sha256": "ba28f99a04efdc0a7d39f20b2bcaa282267b2c6268139939f7e692547e2c0030",
   "dataset_scope": "private_art_museum_pilot",
-  "dataset_version": "0.19.0",
+  "dataset_version": "0.20.0",
   "institution_records": 1,
   "limits": [
     "私立館公開來源試作，不是使用者私人台帳；不讀取私人收藏、財務、人員或廠商資料。",

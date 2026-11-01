@@ -2,13 +2,14 @@
 
 將官方年報、年度成果與業務報告中的保存修護資料整理成可回查索引，保留原數字、作業詞、單位、期間、完成用語、來源版本與定位。私立館的公開來源試辦另列。
 
-**v0.19.0｜2026-11-01**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)各依實際版本與讀回結果引用。
+**v0.20.0｜2026-11-01**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)各依實際版本與讀回結果引用。
 
 ## 從這裡開始
 
 - **依館所找數字：** [館所索引](catalog/README.md)、[互動查詢](https://poplolioi11.github.io/tw-public-museum-conservation/)及[資料樣貌](catalog/SAMPLE.md)。
 - **回查一筆：** 依[觀測JSONL](data/observations.jsonl)的observation_id查原值，再以source_id連[來源表](data/sources.csv)與官方原頁。見[查找與引用](docs/QUERYING.md)。
 - **累計、計畫與跨年另看：** [公立脈絡頁](https://poplolioi11.github.io/tw-public-museum-conservation/context.html)／[6則JSON](data/public_context_notes.json)，不代填單年已施作量。
+- **環境作業另看：** [官方環境作業附表](docs/PRESERVATION_STATISTICS.md)／[網站](https://poplolioi11.github.io/tw-public-museum-conservation/preservation.html)／[14則CSV](data/preservation_statistics.csv)。與修護主表及公立分母分開。
 - **私立館另列：** [私立試辦頁](https://poplolioi11.github.io/tw-public-museum-conservation/private-art.html)／[獨立JSON](data/private_art_pilot.json)／[CSV](data/private_art_observations.csv)。這是館方公開來源，不是使用者私人紀錄；不混入公立分母。
 - **判讀界線：** [關係附表](docs/RELATIONS.md)、[完成語覆核](docs/COMPLETION_REVIEW.md)、[缺量註記](docs/ABSENCE.md)、[覆蓋率分母](docs/COVERAGE.md)及[SQLite](data/museum-conservation.sqlite)。
 - **研究與品質核讀：** [分階段比例](docs/STAGE_RATES_V018.md)、[研究筆記](docs/RESEARCH_NOTE_DRAFT.md)、[人工核讀方法](docs/MANUAL_READING.md)及[官方統計公開範圍](docs/OFFICIAL_STATISTICS_SCOPE.md)。實際核讀材料與比對鍵分開私存，未完成人工核讀。
@@ -25,9 +26,9 @@
 |原關係／原完成語覆核|86／14|原字典與判讀保持，沒有重做全批原件|
 |私立試辦|1館、4列、6則查核|6個來源版本；完全另列|
 
-本版完成研究方法與人工核讀準備階段，沒有新增數值、來源或查核。311列原紀錄逐欄保持；6則公立脈絡、86則關係、14筆完成語覆核及私立試辦內容保持。研究筆記按固定v0.18.0的五個工作集合分開報比例，不把整體104／487格或BATCH2–6的25／378格推成全國公開率。前版來源續補詳見[SOURCE_FOLLOWUP_V018](docs/SOURCE_FOLLOWUP_V018.md)。
+本版補足高美館2筆歷史紀錄的唯一原表列鍵，僅新增定位欄；原311列數值、量詞、期間與完成語保持。另覆核6份既存官方PDF的7個指定頁面、17則候選：14則環境作業原口徑事實另列附表，2則暫緩、1則關聯既有紀錄而不新增。附表不進主表或覆蓋率分母，不代表修復件數、品質或達標率。
 
-博物館從308筆原報觀測固定抽50筆，圖書館沿用v0.9.1既有120筆，更新遮蔽數值的核讀材料。博物館有2題缺唯一原表列鍵，保留定位缺口不換題；其餘亦未全部重做原圖核讀。兩專案人工完成均為0，沒有一致率、錯誤率或人工雙校結果。官方統計只公開納排準則，經費、私人補錄量值與逐筆審查表不進本版。
+博物館固定50題的新版遮蔽核讀材料已補兩題定位，樣本與資料基線仍固定v0.18.0，不換題、不改比較鍵。圖書館沿用原120題；兩專案人類完成均為0，沒有一致率、錯誤率或人工雙校結果。研究筆記的工作集合比例固定採v0.18.0，不作全國估計。經費、私人紀錄、逐筆審查表及核讀比較鍵不公開。詳見[本輪附表與限制](docs/PRESERVATION_STATISTICS.md)。
 
 v0.18.0為桃園2024新增113年9月工作報告「典藏品年度修復計畫」的限定N，只表示該子段未明載適用完成數量或年月。作品名稱不自行計數，紀錄片發表日不當修復完成日。2024年報附件網址另已定位，原件及適用正文仍待取得，獨立P持續保留。
 
@@ -43,7 +44,7 @@ v0.18.0為桃園2024新增113年9月工作報告「典藏品年度修復計畫�
 
 91個metric_class為歷史分類值；34個完成詞保留原義；25個單位欄相異值含null及「未明列」，不能稱25種量詞。[作業](docs/METRIC_CLASS_MAP.md)、[完成詞](docs/COMPLETION_STATUS_MAP.md)及[單位](docs/UNIT_MAP.md)別名只供搜尋，不換算、不拆年、不授予加總資格。未知不補零，分項、借展、跨年及可能重疊批次沒有證據便不相加。
 
-引用請保留固定v0.19.0、公開投影SHA、逐筆官方來源及頁碼／段落；分階段比例快照另固定引用v0.18.0。原件SHA、匯出manifest與網站manifest各自核對。[AI_USAGE](AI_USAGE.md)說明實際AI與本機Python範圍；不稱人類二校、館方或專家認證。研究筆記維持repo草稿，未投稿、取DOI或寄送。
+引用請保留固定v0.20.0、公開投影SHA、逐筆官方來源及頁碼／段落；分階段比例快照另固定引用v0.18.0。原件SHA、匯出manifest與網站manifest各自核對。[AI_USAGE](AI_USAGE.md)說明實際AI與本機Python範圍；不稱人類二校、館方或專家認證。研究筆記維持repo草稿，未投稿、取DOI或寄送。
 
 公開只含必要事實與定位；PDF、完整HTML、整頁圖文及私人補充紀錄不重發布。原創程式與文件採MIT，第三方權利依來源。見[公開範圍](docs/PUBLICATION.md)、[授權](LICENSE.md)、[版本紀錄](CHANGELOG.md)及[更新計畫](docs/UPDATE_PLAN.md)。
 

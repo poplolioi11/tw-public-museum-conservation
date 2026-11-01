@@ -1,7 +1,8 @@
 # 臺灣公立館保存修護公開資料索引
 
-v0.17.0｜2026-10-30。公立311列含308原報觀測、1推算、2既有脈絡；不是修護物件合計。原307列、330來源、608查核、86關係保留，新增4列、15來源及18查核。
+v0.20.0｜2026-11-01。主表311列（308原報、1推算、2脈絡）保留；2列只補唯一原表定位。14則官方環境作業另表，不進主表或公立分母。
 
+- [環境作業獨立附表](https://poplolioi11.github.io/tw-public-museum-conservation/preservation.html)／[JSON](data/preservation_statistics.json)／[CSV](data/preservation_statistics.csv)／[JSONL](data/preservation_statistics.jsonl)／[方法與限制](docs/PRESERVATION_STATISTICS.md)
 - [查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)
 - [公立脈絡](https://poplolioi11.github.io/tw-public-museum-conservation/context.html)：計畫、平均、累計及跨年不作單年已施作量。
 - [私立試辦](https://poplolioi11.github.io/tw-public-museum-conservation/private-art.html)：獨立層，4列、6查核、6來源，不進公立分母。
@@ -16,6 +17,6 @@ v0.17.0｜2026-10-30。公立311列含308原報觀測、1推算、2既有脈絡�
 - [本階段來源範圍](docs/EXPANSION_V017.md)／[私立說明](docs/PRIVATE_ART_PILOT.md)／[欄位字典](docs/DATA_DICTIONARY.md)／[查詢引用](docs/QUERYING.md)
 - [館所索引](catalog/README.md)／[研究草稿](docs/RESEARCH_NOTE_DRAFT.md)／[AI範圍](AI_USAGE.md)／[公開與權利](docs/PUBLICATION.md)
 
-目前500則公立葉節點對應489格；原基線426格保持，全聯集555格。2020–2025子集487格、同期間聯集553格，期間外2格另列。五集合重疊不能相加，私立不在公立集合。N註記282則／276格，只指指定已讀段未定位適用量，不表示零、未做或未公開。桃園2024適用正文仍待核；師大累計／跨年不轉逐年美術館量。
+目前501則公立葉節點對應489格；原基線426格保持，全聯集555格。2020–2025子集487格、同期間聯集553格，期間外2格另列。五集合重疊不能相加，私立不在公立集合。N註記283則／277格，只指指定已讀段未定位適用量，不表示零、未做或未公開。桃園2024適用正文仍待核；師大累計／跨年不轉逐年美術館量。
 
-原詞、量詞、完成狀態、對象及期間保持，不排名、不跨館加總、不跨量詞換算、未知不補零。86原關係與14筆原完成語覆核不因新館所自動升格。原件全文、整頁圖文及使用者私人紀錄不發布。資料、附件、網站與兩新增頁分別核版本及SHA；AI與程式一致不是人類二校、館方或專家認證。
+原詞、量詞、完成狀態、對象及期間保持，不排名、不跨館加總、不跨量詞換算、未知不補零。86原關係與14筆原完成語覆核不因新館所自動升格。原件全文、整頁圖文及使用者私人紀錄不發布。資料、附件、網站與各獨立頁分別核版本及SHA；AI與程式一致不是人類二校、館方或專家認證。

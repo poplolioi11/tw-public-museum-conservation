@@ -4,39 +4,39 @@
     "supported_by_review_note": 282
   },
   "annotation_records": 283,
-  "canonical_facts_sha256": "dd4e08b8928af83072aa666bb696e02e051198b6356ca97e01514443aab035ff",
+  "canonical_facts_sha256": "677a4068d49203d4932ace84d7bdf4ac5f6135f5ed84b081667d5ef4ae6d1478",
   "completion_assessment_counts": {
     "parent_context_supported": 14
   },
   "completion_assessment_records": 14,
   "coverage_current_review_records": 501,
   "coverage_reviewed_cells": 489,
-  "dataset_version": "0.19.0",
+  "dataset_version": "0.20.0",
   "figure_artifacts": {
     "absence-tags.svg": {
       "bytes": 341426,
       "path": "docs/figures/absence-tags.svg",
-      "sha256": "30c9dde9a04278088c689a64f94783233abfbbd779739e5eec128a9c57ddd6ba"
+      "sha256": "835eae2629388d6da287ec358d694159b67c9ed58e99ddcb1de0affb904c276b"
     },
     "coverage-facets.svg": {
       "bytes": 614229,
       "path": "docs/figures/coverage-facets.svg",
-      "sha256": "8d8c80d0cce6b531020b278c8015ae86d2a572a8716b19aae2f8274c62c53809"
+      "sha256": "0a949628a857fa656a34f3ce1e2b34dc965a3095eaad6d5d1cb3756c312b2ebe"
     },
     "coverage-states.svg": {
       "bytes": 495720,
       "path": "docs/figures/coverage-states.svg",
-      "sha256": "c395085eec0784c6ebc3e877da9ead149f1b7bfffa69f98d623c1a31ec6b105c"
+      "sha256": "3dec7f3b0b0f20c1a679c046abd219266a46a0bea34dafc62ea7034fc32e8e5d"
     }
   },
-  "figure_source_sha256": "1f63cf2905ed5f3c1ebf87263b830c7a244f901b6bd115b361a74f7952fb02d1",
+  "figure_source_sha256": "55d9e2164990514b488dccc906071fc35ac22b96cd874528d3f1f0287d4fdbbc",
   "input_sha256": {
     "data/absence_annotations.json": "c5f7d3d36b42762008d41a0a5776da612808cb8fa1e2bc1a3d41f7e321914ef5",
     "data/completion_reviews.json": "a0c2ad94861fd33d357ba2819a06798b1cb98c0ab6666d13fd58f7e397e2cde6",
     "metadata/absence_vocabulary.json": "7ef6380b0cc7a59ed38957bf52b5de80c2770eb514174258b2662e88467c9997",
-    "metadata/completion_review_rules.json": "65561a8da9a14463b2e80480264401df242da7d0766d9de7541424c6e0fd2b19",
-    "metadata/normalization_rules.json": "bf88c52bf09ddc6cc4c0b9845559286bc35a9821b9c714bb02605876554e8b3d",
-    "metadata/organization_dimensions.json": "22672878bd188784dddbf51dd7b3dae0f2444045c9d13b2fe645c30a82f81665",
+    "metadata/completion_review_rules.json": "b7f61e3081db62130a22d0cf611c4444d2fa7f8370670ff3e083b65dfe6c1f30",
+    "metadata/normalization_rules.json": "8e367faf01f07250ec8b09a680c58b324234db742f5cc23be1424acf2424a1c7",
+    "metadata/organization_dimensions.json": "0ae130806e5021636f03bf051b05a5bc677ee6ed405f75eb3e9c3ef8a2fbce14",
     "metadata/relation_projection_rules.json": "32c842c70fa468cfddde9d6463c402f1e4d8f8dd2fd936eef6c265bf8a20e2db",
     "schema/absence_annotation.schema.json": "21c9b862df9ce8e0aa7b8e0e23c3f9a93aa91531f0fd6b258b0f0b20cc731d1c",
     "schema/completion_review.schema.json": "e657c989c5864679e10f18b9557310d45ea105c6672c1d10149004b0c91168b5",
