@@ -1,42 +1,42 @@
 {
   "annotation_classification_status_counts": {
     "insufficient_detail": 1,
-    "supported_by_review_note": 281
+    "supported_by_review_note": 282
   },
-  "annotation_records": 282,
-  "canonical_facts_sha256": "bc888e70167e2fc82f99ce7172c6a538f4ca0bd40a889c591f13c5d35acf50a7",
+  "annotation_records": 283,
+  "canonical_facts_sha256": "7cb25ceebf5f9c6e87a71da4dd1176c58f798666f2c5d9c983654ad33c24e28d",
   "completion_assessment_counts": {
     "parent_context_supported": 14
   },
   "completion_assessment_records": 14,
-  "coverage_current_review_records": 500,
+  "coverage_current_review_records": 501,
   "coverage_reviewed_cells": 489,
-  "dataset_version": "0.17.0",
+  "dataset_version": "0.18.0",
   "figure_artifacts": {
     "absence-tags.svg": {
-      "bytes": 341424,
+      "bytes": 341426,
       "path": "docs/figures/absence-tags.svg",
-      "sha256": "ba720e9ec9403052ee51d08cc6be90eca8d813eca17cca15069c4318f3ac164f"
+      "sha256": "68fd1f66bf1d1dfea3114ca58007c63e83aa39f8fa0150c4472abf7a81404a97"
     },
     "coverage-facets.svg": {
-      "bytes": 613427,
+      "bytes": 614229,
       "path": "docs/figures/coverage-facets.svg",
-      "sha256": "e973c1f5236d7b867e34116c46f0563384278cb9c9c031f333306a48257c6cbf"
+      "sha256": "acec4f9192711afc891d5128d40bf42adf555d8c0c46a12c88e09ad6c2c272be"
     },
     "coverage-states.svg": {
       "bytes": 495720,
       "path": "docs/figures/coverage-states.svg",
-      "sha256": "bb8f2774fc2a537d7ad6c87772660cb33d16030d465c80c1ac1851cc72ddbb17"
+      "sha256": "9629c3c1f3c3bf0ac61ff4ba7d5b6a1f1c75c9777f559eb7009bf54397c440f7"
     }
   },
-  "figure_source_sha256": "17421aa3f3790a9707bf8c539259f13acd3c14276a525a680e68ed5753c896c1",
+  "figure_source_sha256": "a54752b5004ef1aa4ad873ca4b87a9fd3c0c9a7966f0b744cb60e061265ea0d9",
   "input_sha256": {
-    "data/absence_annotations.json": "0e259c8ac7a660e2279ea602bf097ce72793ba4a2ae8cc9948c11d7a04057e27",
+    "data/absence_annotations.json": "c5f7d3d36b42762008d41a0a5776da612808cb8fa1e2bc1a3d41f7e321914ef5",
     "data/completion_reviews.json": "a0c2ad94861fd33d357ba2819a06798b1cb98c0ab6666d13fd58f7e397e2cde6",
     "metadata/absence_vocabulary.json": "7ef6380b0cc7a59ed38957bf52b5de80c2770eb514174258b2662e88467c9997",
     "metadata/completion_review_rules.json": "65561a8da9a14463b2e80480264401df242da7d0766d9de7541424c6e0fd2b19",
-    "metadata/normalization_rules.json": "ab266d63fb776044ed74678f8c73a6d78198754396158530f278fac8948f0c52",
-    "metadata/organization_dimensions.json": "6d182ad67de732b5c3d327f8a65a6a822a5bb6b4cf7e0d244487ed3af4749b54",
+    "metadata/normalization_rules.json": "14fc86735801fa35d9cb38ce33bdb3b450c9938dfd895bcdf343b4059334bf5a",
+    "metadata/organization_dimensions.json": "408c78fecb5cc7cedf8b1d69d1468c7c60e0103712e408709e1f2e95a0dabe24",
     "metadata/relation_projection_rules.json": "32c842c70fa468cfddde9d6463c402f1e4d8f8dd2fd936eef6c265bf8a20e2db",
     "schema/absence_annotation.schema.json": "21c9b862df9ce8e0aa7b8e0e23c3f9a93aa91531f0fd6b258b0f0b20cc731d1c",
     "schema/completion_review.schema.json": "e657c989c5864679e10f18b9557310d45ea105c6672c1d10149004b0c91168b5",

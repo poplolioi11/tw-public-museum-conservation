@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-01",
   "baseline_inventory_original_pdf_reverified": false,
   "cells": [
     {
@@ -10982,7 +10982,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-043-2020-v1"
+        "followup-v018-hsinchu-BASE-043-2020"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -11147,7 +11147,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-043-2025-v1"
+        "followup-v018-hsinchu-BASE-043-2025"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -11180,7 +11180,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-044-2020-v1"
+        "followup-v018-hsinchu-BASE-044-2020"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -11345,7 +11345,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-044-2025-v1"
+        "followup-v018-hsinchu-BASE-044-2025"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -11543,7 +11543,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-045-2025-v1"
+        "followup-v018-hsinchu-BASE-045-2025"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -11576,7 +11576,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-046-2020-v1"
+        "followup-v018-hsinchu-BASE-046-2020"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -11741,7 +11741,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-BASE-046-2025-v1"
+        "followup-v018-hsinchu-BASE-046-2025"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -17220,7 +17220,7 @@
       "baseline_lookup_record_id": null,
       "complete_annual_operations_verified": false,
       "coverage_cell_id": "SUP-002::2024",
-      "coverage_state": "body_pending",
+      "coverage_state": "mixed_current_states",
       "dimension_evidence_organization_id": "SUP-002",
       "island_group": "main_island",
       "linked_observation_ids": [],
@@ -17235,9 +17235,11 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "review-SUP-002-2024-v017"
+        "followup-v018-taoyuan-2024-annual-attachment-pending",
+        "review-SUP-002-2024-v018-report-session4-limited"
       ],
       "review_statuses": [
+        "body_read_no_eligible_quantity_located",
         "source_found_body_not_reviewed"
       ],
       "single_year_fact_ids": [],
@@ -17463,7 +17465,7 @@
         "reviewed_cohort"
       ],
       "review_ids": [
-        "body40-local-ereader-SUP-004-2025-v1"
+        "followup-v018-hsinchu-SUP-004-2025"
       ],
       "review_statuses": [
         "source_found_body_not_reviewed"
@@ -18628,7 +18630,7 @@
       "working_category_membership_set": "BATCH5"
     }
   ],
-  "dataset_version": "0.17.0",
+  "dataset_version": "0.18.0",
   "geography_is_recorded_roster_or_authority_area_not_all_branch_or_object_location": true,
   "groups": [
     {
@@ -22362,8 +22364,8 @@
       "population_id": "reviewed_cohort",
       "state_counts": {
         "annual_not_separable": 3,
-        "body_pending": 5,
-        "mixed_current_states": 0,
+        "body_pending": 4,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 50,
         "not_assessed": 0,
         "numeric_only": 17,
@@ -22372,8 +22374,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.703704,
-        "body_pending": 6.17284,
-        "mixed_current_states": 0.0,
+        "body_pending": 4.938272,
+        "mixed_current_states": 1.234568,
         "no_quantity_scope_only": 61.728395,
         "not_assessed": 0.0,
         "numeric_only": 20.987654,
@@ -22602,8 +22604,8 @@
       "population_id": "reviewed_cohort",
       "state_counts": {
         "annual_not_separable": 0,
-        "body_pending": 1,
-        "mixed_current_states": 0,
+        "body_pending": 0,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 22,
         "not_assessed": 0,
         "numeric_only": 75,
@@ -22612,8 +22614,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
-        "body_pending": 1.010101,
-        "mixed_current_states": 0.0,
+        "body_pending": 0.0,
+        "mixed_current_states": 1.010101,
         "no_quantity_scope_only": 22.222222,
         "not_assessed": 0.0,
         "numeric_only": 75.757576,
@@ -22692,8 +22694,8 @@
       "population_id": "reviewed_cohort",
       "state_counts": {
         "annual_not_separable": 11,
-        "body_pending": 29,
-        "mixed_current_states": 0,
+        "body_pending": 28,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 183,
         "not_assessed": 0,
         "numeric_only": 48,
@@ -22702,8 +22704,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.492063,
-        "body_pending": 9.206349,
-        "mixed_current_states": 0.0,
+        "body_pending": 8.888889,
+        "mixed_current_states": 0.31746,
         "no_quantity_scope_only": 58.095238,
         "not_assessed": 0.0,
         "numeric_only": 15.238095,
@@ -22752,8 +22754,8 @@
       "population_id": "reviewed_cohort",
       "state_counts": {
         "annual_not_separable": 15,
-        "body_pending": 26,
-        "mixed_current_states": 0,
+        "body_pending": 25,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 218,
         "not_assessed": 0,
         "numeric_only": 93,
@@ -22762,8 +22764,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.759398,
-        "body_pending": 6.516291,
-        "mixed_current_states": 0.0,
+        "body_pending": 6.265664,
+        "mixed_current_states": 0.250627,
         "no_quantity_scope_only": 54.636591,
         "not_assessed": 0.0,
         "numeric_only": 23.308271,
@@ -25287,8 +25289,8 @@
       "population_id": "reviewed_cohort",
       "state_counts": {
         "annual_not_separable": 0,
-        "body_pending": 1,
-        "mixed_current_states": 0,
+        "body_pending": 0,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 2,
         "not_assessed": 0,
         "numeric_only": 6,
@@ -25297,8 +25299,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
-        "body_pending": 11.111111,
-        "mixed_current_states": 0.0,
+        "body_pending": 0.0,
+        "mixed_current_states": 11.111111,
         "no_quantity_scope_only": 22.222222,
         "not_assessed": 0.0,
         "numeric_only": 66.666667,
@@ -26454,8 +26456,8 @@
       "population_id": "baseline_review_union",
       "state_counts": {
         "annual_not_separable": 3,
-        "body_pending": 5,
-        "mixed_current_states": 0,
+        "body_pending": 4,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 50,
         "not_assessed": 11,
         "numeric_only": 17,
@@ -26464,8 +26466,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.26087,
-        "body_pending": 5.434783,
-        "mixed_current_states": 0.0,
+        "body_pending": 4.347826,
+        "mixed_current_states": 1.086957,
         "no_quantity_scope_only": 54.347826,
         "not_assessed": 11.956522,
         "numeric_only": 18.478261,
@@ -26694,8 +26696,8 @@
       "population_id": "baseline_review_union",
       "state_counts": {
         "annual_not_separable": 0,
-        "body_pending": 1,
-        "mixed_current_states": 0,
+        "body_pending": 0,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 22,
         "not_assessed": 66,
         "numeric_only": 75,
@@ -26704,8 +26706,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
-        "body_pending": 0.606061,
-        "mixed_current_states": 0.0,
+        "body_pending": 0.0,
+        "mixed_current_states": 0.606061,
         "no_quantity_scope_only": 13.333333,
         "not_assessed": 40.0,
         "numeric_only": 45.454545,
@@ -26784,8 +26786,8 @@
       "population_id": "baseline_review_union",
       "state_counts": {
         "annual_not_separable": 11,
-        "body_pending": 29,
-        "mixed_current_states": 0,
+        "body_pending": 28,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 183,
         "not_assessed": 30,
         "numeric_only": 48,
@@ -26794,8 +26796,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.188406,
-        "body_pending": 8.405797,
-        "mixed_current_states": 0.0,
+        "body_pending": 8.115942,
+        "mixed_current_states": 0.289855,
         "no_quantity_scope_only": 53.043478,
         "not_assessed": 8.695652,
         "numeric_only": 13.913043,
@@ -26844,8 +26846,8 @@
       "population_id": "baseline_review_union",
       "state_counts": {
         "annual_not_separable": 15,
-        "body_pending": 26,
-        "mixed_current_states": 0,
+        "body_pending": 25,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 218,
         "not_assessed": 60,
         "numeric_only": 93,
@@ -26854,8 +26856,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.267974,
-        "body_pending": 5.664488,
-        "mixed_current_states": 0.0,
+        "body_pending": 5.446623,
+        "mixed_current_states": 0.217865,
         "no_quantity_scope_only": 47.494553,
         "not_assessed": 13.071895,
         "numeric_only": 20.261438,
@@ -29379,8 +29381,8 @@
       "population_id": "baseline_review_union",
       "state_counts": {
         "annual_not_separable": 0,
-        "body_pending": 1,
-        "mixed_current_states": 0,
+        "body_pending": 0,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 2,
         "not_assessed": 5,
         "numeric_only": 6,
@@ -29389,8 +29391,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
-        "body_pending": 7.142857,
-        "mixed_current_states": 0.0,
+        "body_pending": 0.0,
+        "mixed_current_states": 7.142857,
         "no_quantity_scope_only": 14.285714,
         "not_assessed": 35.714286,
         "numeric_only": 42.857143,
@@ -30486,8 +30488,8 @@
       "population_id": "reviewed_2020_2025_cohort",
       "state_counts": {
         "annual_not_separable": 3,
-        "body_pending": 5,
-        "mixed_current_states": 0,
+        "body_pending": 4,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 50,
         "not_assessed": 0,
         "numeric_only": 17,
@@ -30496,8 +30498,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.703704,
-        "body_pending": 6.17284,
-        "mixed_current_states": 0.0,
+        "body_pending": 4.938272,
+        "mixed_current_states": 1.234568,
         "no_quantity_scope_only": 61.728395,
         "not_assessed": 0.0,
         "numeric_only": 20.987654,
@@ -30726,8 +30728,8 @@
       "population_id": "reviewed_2020_2025_cohort",
       "state_counts": {
         "annual_not_separable": 0,
-        "body_pending": 1,
-        "mixed_current_states": 0,
+        "body_pending": 0,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 22,
         "not_assessed": 0,
         "numeric_only": 73,
@@ -30736,8 +30738,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
-        "body_pending": 1.030928,
-        "mixed_current_states": 0.0,
+        "body_pending": 0.0,
+        "mixed_current_states": 1.030928,
         "no_quantity_scope_only": 22.680412,
         "not_assessed": 0.0,
         "numeric_only": 75.257732,
@@ -30816,8 +30818,8 @@
       "population_id": "reviewed_2020_2025_cohort",
       "state_counts": {
         "annual_not_separable": 11,
-        "body_pending": 29,
-        "mixed_current_states": 0,
+        "body_pending": 28,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 183,
         "not_assessed": 0,
         "numeric_only": 46,
@@ -30826,8 +30828,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.514377,
-        "body_pending": 9.265176,
-        "mixed_current_states": 0.0,
+        "body_pending": 8.945687,
+        "mixed_current_states": 0.319489,
         "no_quantity_scope_only": 58.466454,
         "not_assessed": 0.0,
         "numeric_only": 14.696486,
@@ -30876,8 +30878,8 @@
       "population_id": "reviewed_2020_2025_cohort",
       "state_counts": {
         "annual_not_separable": 15,
-        "body_pending": 26,
-        "mixed_current_states": 0,
+        "body_pending": 25,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 218,
         "not_assessed": 0,
         "numeric_only": 91,
@@ -30886,8 +30888,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.778338,
-        "body_pending": 6.549118,
-        "mixed_current_states": 0.0,
+        "body_pending": 6.297229,
+        "mixed_current_states": 0.251889,
         "no_quantity_scope_only": 54.911839,
         "not_assessed": 0.0,
         "numeric_only": 22.921914,
@@ -33345,8 +33347,8 @@
       "population_id": "reviewed_2020_2025_cohort",
       "state_counts": {
         "annual_not_separable": 0,
-        "body_pending": 1,
-        "mixed_current_states": 0,
+        "body_pending": 0,
+        "mixed_current_states": 1,
         "no_quantity_scope_only": 2,
         "not_assessed": 0,
         "numeric_only": 6,
@@ -33355,8 +33357,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 0.0,
-        "body_pending": 11.111111,
-        "mixed_current_states": 0.0,
+        "body_pending": 0.0,
+        "mixed_current_states": 11.111111,
         "no_quantity_scope_only": 22.222222,
         "not_assessed": 0.0,
         "numeric_only": 66.666667,
@@ -34589,15 +34591,15 @@
     },
     {
       "cells_with_any_verified_observation_review": 106,
-      "current_review_records": 500,
+      "current_review_records": 501,
       "definition": "本版已有有界查核的館所候選×目標年",
       "denominator_cells": 489,
       "not_a_national_rate": true,
       "population_id": "reviewed_cohort",
       "state_counts": {
         "annual_not_separable": 20,
-        "body_pending": 37,
-        "mixed_current_states": 1,
+        "body_pending": 36,
+        "mixed_current_states": 2,
         "no_quantity_scope_only": 275,
         "not_assessed": 0,
         "numeric_only": 105,
@@ -34606,8 +34608,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 4.08998,
-        "body_pending": 7.566462,
-        "mixed_current_states": 0.204499,
+        "body_pending": 7.361963,
+        "mixed_current_states": 0.408998,
         "no_quantity_scope_only": 56.237219,
         "not_assessed": 0.0,
         "numeric_only": 21.472393,
@@ -34617,15 +34619,15 @@
     },
     {
       "cells_with_any_verified_observation_review": 106,
-      "current_review_records": 500,
+      "current_review_records": 501,
       "definition": "原歷史索引與本版有界查核的聯集",
       "denominator_cells": 555,
       "not_a_national_rate": true,
       "population_id": "baseline_review_union",
       "state_counts": {
         "annual_not_separable": 20,
-        "body_pending": 37,
-        "mixed_current_states": 1,
+        "body_pending": 36,
+        "mixed_current_states": 2,
         "no_quantity_scope_only": 275,
         "not_assessed": 66,
         "numeric_only": 105,
@@ -34634,8 +34636,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 3.603604,
-        "body_pending": 6.666667,
-        "mixed_current_states": 0.18018,
+        "body_pending": 6.486486,
+        "mixed_current_states": 0.36036,
         "no_quantity_scope_only": 49.54955,
         "not_assessed": 11.891892,
         "numeric_only": 18.918919,
@@ -34645,15 +34647,15 @@
     },
     {
       "cells_with_any_verified_observation_review": 104,
-      "current_review_records": 498,
+      "current_review_records": 499,
       "definition": "已查核集合中目標年為2020–2025的子集",
       "denominator_cells": 487,
       "not_a_national_rate": true,
       "population_id": "reviewed_2020_2025_cohort",
       "state_counts": {
         "annual_not_separable": 20,
-        "body_pending": 37,
-        "mixed_current_states": 1,
+        "body_pending": 36,
+        "mixed_current_states": 2,
         "no_quantity_scope_only": 275,
         "not_assessed": 0,
         "numeric_only": 103,
@@ -34662,8 +34664,8 @@
       },
       "state_percentages": {
         "annual_not_separable": 4.106776,
-        "body_pending": 7.597536,
-        "mixed_current_states": 0.205339,
+        "body_pending": 7.392197,
+        "mixed_current_states": 0.410678,
         "no_quantity_scope_only": 56.468172,
         "not_assessed": 0.0,
         "numeric_only": 21.149897,

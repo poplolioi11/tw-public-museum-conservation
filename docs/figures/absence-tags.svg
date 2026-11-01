@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="972pt" height="590.4pt" viewBox="0 0 972 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
-<!-- enrichment-source-sha256: 17421aa3f3790a9707bf8c539259f13acd3c14276a525a680e68ed5753c896c1 -->
+<!-- enrichment-source-sha256: a54752b5004ef1aa4ad873ca4b87a9fd3c0c9a7966f0b744cb60e061265ea0d9 -->
 
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -10160,8 +10160,8 @@ z
    </g>
    <g id="patch_11">
     <path d="M 301.32 385.610984
-L 436.82339 385.610984
-L 436.82339 404.408043
+L 439.706441 385.610984
+L 439.706441 404.408043
 L 301.32 404.408043
 z
 " clip-path="url(#p2f72cc77ef)" style="fill: #4e7d82; stroke: #26343c; stroke-width: 0.5; stroke-linejoin: miter"/>
@@ -10386,10 +10386,10 @@ z
     </g>
    </g>
    <g id="text_30">
-    <!-- 47 -->
-    <g style="fill: #26343c" transform="translate(446.164475 398.733185) scale(0.11 -0.11)">
+    <!-- 48 -->
+    <g style="fill: #26343c" transform="translate(449.047525 398.733185) scale(0.11 -0.11)">
      <use xlink:href="#STHeitiTC-Medium-34"/>
-     <use xlink:href="#STHeitiTC-Medium-37" transform="translate(55.399994 0)"/>
+     <use xlink:href="#STHeitiTC-Medium-38" transform="translate(55.399994 0)"/>
     </g>
    </g>
    <g id="text_31">
@@ -11637,7 +11637,7 @@ z
    </g>
   </g>
   <g id="text_34">
-   <!-- n=282 則目前 N 查核註記；標籤可複選，依詞表原順序呈現，沒有排名。 -->
+   <!-- n=283 則目前 N 查核註記；標籤可複選，依詞表原順序呈現，沒有排名。 -->
    <g style="fill: #26343c" transform="translate(38.88 65.053) scale(0.11 -0.11)">
     <defs>
      <path id="STHeitiTC-Medium-6e" d="M 3501 384
@@ -13592,7 +13592,7 @@ z
     <use xlink:href="#STHeitiTC-Medium-3d" transform="translate(60.999985 0)"/>
     <use xlink:href="#STHeitiTC-Medium-32" transform="translate(121.599976 0)"/>
     <use xlink:href="#STHeitiTC-Medium-38" transform="translate(176.999969 0)"/>
-    <use xlink:href="#STHeitiTC-Medium-32" transform="translate(232.399963 0)"/>
+    <use xlink:href="#STHeitiTC-Medium-33" transform="translate(232.399963 0)"/>
     <use xlink:href="#STHeitiTC-Medium-20" transform="translate(287.799957 0)"/>
     <use xlink:href="#STHeitiTC-Medium-5247" transform="translate(312.799942 0)"/>
     <use xlink:href="#STHeitiTC-Medium-76ee" transform="translate(412.799927 0)"/>
@@ -13628,7 +13628,7 @@ z
    </g>
   </g>
   <g id="text_35">
-   <!-- 既有說明文字支持：281 則；資訊不足：1 則。資訊不足者不強派內容標籤。 -->
+   <!-- 既有說明文字支持：282 則；資訊不足：1 則。資訊不足者不強派內容標籤。 -->
    <g style="fill: #26343c" transform="translate(38.88 513.648) scale(0.105 -0.105)">
     <defs>
      <path id="STHeitiTC-Medium-6587" d="M 2061 3699
@@ -14551,7 +14551,7 @@ z
     <use xlink:href="#STHeitiTC-Medium-ff1a" transform="translate(799.999878 0)"/>
     <use xlink:href="#STHeitiTC-Medium-32" transform="translate(899.999863 0)"/>
     <use xlink:href="#STHeitiTC-Medium-38" transform="translate(955.399857 0)"/>
-    <use xlink:href="#STHeitiTC-Medium-31" transform="translate(1010.79985 0)"/>
+    <use xlink:href="#STHeitiTC-Medium-32" transform="translate(1010.79985 0)"/>
     <use xlink:href="#STHeitiTC-Medium-20" transform="translate(1066.199844 0)"/>
     <use xlink:href="#STHeitiTC-Medium-5247" transform="translate(1091.199829 0)"/>
     <use xlink:href="#STHeitiTC-Medium-ff1b" transform="translate(1191.199814 0)"/>

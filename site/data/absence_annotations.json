@@ -10322,5 +10322,36 @@
       "src-dca5264d95feab4a"
     ],
     "target_data_year": 2022
+  },
+  {
+    "absence_reason": [
+      "preservation_mentioned_no_eligible_quantity"
+    ],
+    "annotation_note": "僅據公開核讀說明分類指定修復子段；非機構未公開原因，不推全年作業或零。",
+    "classification_status": "supported_by_review_note",
+    "content_tags": [
+      "preservation_narrative"
+    ],
+    "criteria_version": "absence-reason-1.0",
+    "evidence": [
+      {
+        "absence_reason": [
+          "preservation_mentioned_no_eligible_quantity"
+        ],
+        "content_tags": [
+          "preservation_narrative"
+        ],
+        "field": "interpretation_note",
+        "quote": "指定子段述定期檢視典藏品、修復紀錄片與113年7月14日發表會，未明載修復完成數量或完成年月。"
+      }
+    ],
+    "evidence_basis": "existing_public_review_note",
+    "not_institutional_nonpublication": true,
+    "organization_id": "SUP-002",
+    "review_id": "review-SUP-002-2024-v018-report-session4-limited",
+    "source_ids": [
+      "src-17bb0d08d3de94fe"
+    ],
+    "target_data_year": 2024
   }
 ]

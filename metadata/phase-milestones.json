@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-01",
   "data_schema_version": "4.0",
-  "dataset_version": "0.17.0",
+  "dataset_version": "0.18.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -350,7 +350,21 @@
       "public_context_note_records": 6,
       "scope": "桃園與黃金指定正文、師大公立大學館脈絡及朱銘私立獨立試辦",
       "taoyuan_2024_body_pending": true
+    },
+    {
+      "completed_in_release": "v0.18.0",
+      "deployment_verification_basis": "整階段驗收後一次發行；附件、同提交CI、實站與私人保存各自讀回，本metadata不是部署回執。",
+      "hsinchu_extended_pending_reviews": 8,
+      "national_or_all_years_complete": false,
+      "new_public_observation_records": 0,
+      "new_public_review_records": 10,
+      "new_public_source_versions": 6,
+      "original_311_observations_345_sources_626_reviews_86_relations_preserved": true,
+      "original_71x6_baseline_retained": true,
+      "private_art_separate_from_public_denominators": true,
+      "scope": "既有新竹五館新原件索引與桃園2024指定修復子段及年報附件定位",
+      "taoyuan_2024_limited_N_and_annual_P_separate": true
     }
   ],
-  "ongoing_gaps": "原36格適用正文待核及48格未定位來源保留，無新觸發不重抓；另有高史博2020與桃園2024正文待核等後續子集狀態，依逐格表解讀。新增公立大學候選與私立試辦分列，不以累計、計畫或跨年數代填年度完成量。"
+  "ongoing_gaps": "原缺口與逐格歷史保留；新竹新原件只改善館別與期段辨識，適用保存正文仍待核。桃園2024限定子段N與年報P並存；師大累計、平均、跨年與外館服務不代填年量。只在新附件、清冊、逐年表或原件換版等新線索下重開。"
 }

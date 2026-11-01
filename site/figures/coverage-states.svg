@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="540pt" viewBox="0 0 1008 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
-<!-- enrichment-source-sha256: 17421aa3f3790a9707bf8c539259f13acd3c14276a525a680e68ed5753c896c1 -->
+<!-- enrichment-source-sha256: a54752b5004ef1aa4ad873ca4b87a9fd3c0c9a7966f0b744cb60e061265ea0d9 -->
 
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -4484,25 +4484,25 @@ z
    </g>
    <g id="patch_14">
     <path d="M 831.167117 244.588235
-L 832.465767 244.588235
-L 832.465767 271.270588
+L 833.764417 244.588235
+L 833.764417 271.270588
 L 831.167117 271.270588
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#h66cdf26e1f); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
    <g id="patch_15">
-    <path d="M 832.465767 244.588235
-L 896.099632 244.588235
-L 896.099632 271.270588
-L 832.465767 271.270588
+    <path d="M 833.764417 244.588235
+L 897.398282 244.588235
+L 897.398282 271.270588
+L 833.764417 271.270588
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#hf4a39da5da); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
    <g id="patch_16">
-    <path d="M 896.099632 244.588235
+    <path d="M 897.398282 244.588235
 L 944.149693 244.588235
 L 944.149693 271.270588
-L 896.099632 271.270588
+L 897.398282 271.270588
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#h25c91e649f); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
@@ -4540,25 +4540,25 @@ z
    </g>
    <g id="patch_21">
     <path d="M 772.482162 289.058824
-L 773.626378 289.058824
-L 773.626378 315.741176
+L 774.770595 289.058824
+L 774.770595 315.741176
 L 772.482162 315.741176
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#h66cdf26e1f); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
    <g id="patch_22">
-    <path d="M 773.626378 289.058824
-L 829.692973 289.058824
-L 829.692973 315.741176
-L 773.626378 315.741176
+    <path d="M 774.770595 289.058824
+L 830.837189 289.058824
+L 830.837189 315.741176
+L 774.770595 315.741176
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#hf4a39da5da); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
    <g id="patch_23">
-    <path d="M 829.692973 289.058824
+    <path d="M 830.837189 289.058824
 L 872.028973 289.058824
 L 872.028973 315.741176
-L 829.692973 315.741176
+L 830.837189 315.741176
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#h25c91e649f); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
@@ -4604,25 +4604,25 @@ z
    </g>
    <g id="patch_29">
     <path d="M 830.585791 333.529412
-L 831.889774 333.529412
-L 831.889774 360.211765
+L 833.193758 333.529412
+L 833.193758 360.211765
 L 830.585791 360.211765
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#h66cdf26e1f); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
    <g id="patch_30">
-    <path d="M 831.889774 333.529412
-L 895.784969 333.529412
-L 895.784969 360.211765
-L 831.889774 360.211765
+    <path d="M 833.193758 333.529412
+L 897.088953 333.529412
+L 897.088953 360.211765
+L 833.193758 360.211765
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#hf4a39da5da); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
    <g id="patch_31">
-    <path d="M 895.784969 333.529412
+    <path d="M 897.088953 333.529412
 L 944.032361 333.529412
 L 944.032361 360.211765
-L 895.784969 360.211765
+L 897.088953 360.211765
 z
 " clip-path="url(#p2e343d9767)" style="fill: url(#h25c91e649f); stroke: #26343c; stroke-width: 0.45; stroke-linejoin: miter"/>
    </g>
@@ -4752,15 +4752,15 @@ z
    </g>
    <g id="text_17">
     <g id="patch_36">
-     <path d="M 850.72516 263.073513
-L 877.840238 263.073513
-L 877.840238 252.78531
-L 850.72516 252.78531
+     <path d="M 852.023811 263.073513
+L 879.138889 263.073513
+L 879.138889 252.78531
+L 852.023811 252.78531
 z
 " style="fill: #cda065"/>
     </g>
     <!-- 10.0% -->
-    <g style="fill: #26343c" transform="translate(851.39016 261.14531) scale(0.095 -0.095)">
+    <g style="fill: #26343c" transform="translate(852.688811 261.14531) scale(0.095 -0.095)">
      <use xlink:href="#STHeitiTC-Medium-31"/>
      <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
      <use xlink:href="#STHeitiTC-Medium-2e" transform="translate(110.799988 0)"/>
@@ -4790,15 +4790,15 @@ z
    </g>
    <g id="text_20">
     <g id="patch_37">
-     <path d="M 790.733933 307.544102
-L 812.585418 307.544102
-L 812.585418 297.255898
-L 790.733933 297.255898
+     <path d="M 791.87815 307.544102
+L 813.729634 307.544102
+L 813.729634 297.255898
+L 791.87815 297.255898
 z
 " style="fill: #cda065"/>
     </g>
     <!-- 8.8% -->
-    <g style="fill: #26343c" transform="translate(791.398933 305.615898) scale(0.095 -0.095)">
+    <g style="fill: #26343c" transform="translate(792.54315 305.615898) scale(0.095 -0.095)">
      <use xlink:href="#STHeitiTC-Medium-38"/>
      <use xlink:href="#STHeitiTC-Medium-2e" transform="translate(55.399994 0)"/>
      <use xlink:href="#STHeitiTC-Medium-38" transform="translate(83.099991 0)"/>
@@ -4845,15 +4845,15 @@ z
    </g>
    <g id="text_24">
     <g id="patch_39">
-     <path d="M 850.279833 352.01469
-L 877.394911 352.01469
-L 877.394911 341.726487
-L 850.279833 341.726487
+     <path d="M 851.583816 352.01469
+L 878.698894 352.01469
+L 878.698894 341.726487
+L 851.583816 341.726487
 z
 " style="fill: #cda065"/>
     </g>
     <!-- 10.1% -->
-    <g style="fill: #26343c" transform="translate(850.944833 350.086487) scale(0.095 -0.095)">
+    <g style="fill: #26343c" transform="translate(852.248816 350.086487) scale(0.095 -0.095)">
      <use xlink:href="#STHeitiTC-Medium-31"/>
      <use xlink:href="#STHeitiTC-Medium-30" transform="translate(55.399994 0)"/>
      <use xlink:href="#STHeitiTC-Medium-2e" transform="translate(110.799988 0)"/>

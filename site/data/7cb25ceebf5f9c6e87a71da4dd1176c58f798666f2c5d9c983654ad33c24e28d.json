@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-01",
   "body_reviews": [
     {
       "interpretation_note": "本輪未定位2020原年度報；後年回述不替代原報，未定位不表示未公開或數量為零。",
@@ -22604,9 +22604,439 @@
       "source_page_reviews": [],
       "target_data_year": 2025,
       "verified_at": "2026-10-30"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-043-2020-v1",
+      "interpretation_note": "新取得2020年第4次施政報告，指定影像博物館段為空間運用與展示規劃，未新增可歸館的動產保存修護正文，維持待核。僅限明列來源與段落；未定位不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-043",
+      "organization_name": "新竹市影像博物館",
+      "review_id": "followup-v018-hsinchu-BASE-043-2020",
+      "review_scope": "2020年新市長施政報告及官方市議會附件線索的館別／文種有界辨識；不把展覽或原件取得視為適用館級保存正文已讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        14
+      ],
+      "source_ids": [
+        "src-e7f654c7368ef5ec"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            14
+          ],
+          "review_scope": "PDF14（印12）影像博物館用途段的館別與文種辨識；為空間運用及展示規劃，非動產保存修護正文。",
+          "source_id": "src-e7f654c7368ef5ec",
+          "text_read_pdf_pages_1_based": [
+            14
+          ],
+          "verification_status": "new_original_named_museum_use_paragraph_text_read_not_conservation_body"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-043-2025-v1",
+      "interpretation_note": "新取得114年度完整決算；指定博物管理列四館合列，具名描述為活動與參觀服務，不能拆為館級動產保存修護量。原件取得及營運列已讀不等於本館適用保存正文已讀，仍待核。 僅限明列來源與段落；未定位不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-043",
+      "organization_name": "新竹市影像博物館",
+      "review_id": "followup-v018-hsinchu-BASE-043-2025",
+      "review_scope": "114年度單位決算PDF12、15指定館別成果與營運列之有界補核；未確立可獨立歸館的動產保存正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        12,
+        15
+      ],
+      "source_ids": [
+        "src-0aa3ee7a9d26122b"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "review_scope": "PDF12（印9）重要施政成果第16–20項與PDF15（印12）博物管理列；館群合列及活動描述不能作館級動產保存處理量。",
+          "source_id": "src-0aa3ee7a9d26122b",
+          "text_read_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "verification_status": "new_original_named_group_and_activity_rows_text_and_image_read_not_museum_conservation_body"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-044-2020-v1",
+      "interpretation_note": "兩份2020年定期會報告的指定眷村館段為特展與跨2019–2020館群文化活動，未確立可歸館的動產保存修護正文，維持待核。僅限明列來源與段落；不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-044",
+      "organization_name": "新竹市眷村博物館",
+      "review_id": "followup-v018-hsinchu-BASE-044-2020",
+      "review_scope": "2020年新市長施政報告及官方市議會附件線索的館別／文種有界辨識；不把展覽或原件取得視為適用館級保存正文已讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        31,
+        50,
+        51
+      ],
+      "source_ids": [
+        "src-e7f654c7368ef5ec",
+        "src-b6a1c4e0510daad9"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            31
+          ],
+          "pdf_pages_1_based": [
+            31
+          ],
+          "review_scope": "PDF31（印29）眷村文化首段的109年6月6日至9月27日特展範圍；僅核展覽文種，後接其他場域不分配本館。",
+          "source_id": "src-e7f654c7368ef5ec",
+          "text_read_pdf_pages_1_based": [
+            31
+          ],
+          "verification_status": "new_original_named_museum_activity_paragraph_text_and_image_read_not_conservation_body"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            50,
+            51
+          ],
+          "review_scope": "PDF50–51（印47–48）只核眷村文化段的館別及108–109跨年活動界線，非保存修護量。",
+          "source_id": "src-b6a1c4e0510daad9",
+          "text_read_pdf_pages_1_based": [
+            50,
+            51
+          ],
+          "verification_status": "new_original_cross_period_group_activity_text_read_not_conservation_body"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-044-2025-v1",
+      "interpretation_note": "新取得114年度完整決算；指定博物管理列四館合列，具名描述為活動與參觀服務，不能拆為館級動產保存修護量。原件取得及營運列已讀不等於本館適用保存正文已讀，仍待核。 僅限明列來源與段落；未定位不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-044",
+      "organization_name": "新竹市眷村博物館",
+      "review_id": "followup-v018-hsinchu-BASE-044-2025",
+      "review_scope": "新取得114年度完整決算後的指定館別成果列及新市長施政報告具名段之有界補核；不是全文逐頁或全年所有來源。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        7,
+        12,
+        15,
+        129,
+        130
+      ],
+      "source_ids": [
+        "src-0aa3ee7a9d26122b",
+        "src-085a49b9e58ff136"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "review_scope": "PDF12（印9）重要施政成果第16–20項與PDF15（印12）博物管理列；館群合列及活動描述不能作館級動產保存處理量。",
+          "source_id": "src-0aa3ee7a9d26122b",
+          "text_read_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "verification_status": "new_original_named_group_and_activity_rows_text_and_image_read_not_museum_conservation_body"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [
+            7,
+            129,
+            130
+          ],
+          "pdf_pages_1_based": [
+            7,
+            129,
+            130
+          ],
+          "review_scope": "PDF7（印3）確認113年10月1日至114年4月20日期段；PDF129–130（印125–126）眷村博物館段為展示空間及再開館安排，非動產藏品處理量。",
+          "source_id": "src-085a49b9e58ff136",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "new_original_cross_period_named_section_image_read_not_2025_movable_collection_quantity"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-046-2020-v1",
+      "interpretation_note": "2020年第3次施政報告的指定館名段為跨2019–2020館群文化活動，未確立本館2020動產保存修護正文，維持待核。僅限明列來源與段落；不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-046",
+      "organization_name": "新竹市黑蝙蝠中隊文物陳列館",
+      "review_id": "followup-v018-hsinchu-BASE-046-2020",
+      "review_scope": "2020年新市長施政報告及官方市議會附件線索的館別／文種有界辨識；不把展覽或原件取得視為適用館級保存正文已讀。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        50,
+        51
+      ],
+      "source_ids": [
+        "src-b6a1c4e0510daad9"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [],
+          "pdf_pages_1_based": [
+            50,
+            51
+          ],
+          "review_scope": "PDF50–51（印47–48）眷村文化段只核黑蝙蝠館名及108–109跨年館群文化活動界線，非保存修護正文。",
+          "source_id": "src-b6a1c4e0510daad9",
+          "text_read_pdf_pages_1_based": [
+            50,
+            51
+          ],
+          "verification_status": "new_original_cross_period_group_activity_text_read_not_conservation_body"
+        }
+      ],
+      "target_data_year": 2020,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-046-2025-v1",
+      "interpretation_note": "新取得114年度完整決算；指定博物管理列四館合列，具名描述為活動與參觀服務，不能拆為館級動產保存修護量。原件取得及營運列已讀不等於本館適用保存正文已讀，仍待核。 僅限明列來源與段落；未定位不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-046",
+      "organization_name": "新竹市黑蝙蝠中隊文物陳列館",
+      "review_id": "followup-v018-hsinchu-BASE-046-2025",
+      "review_scope": "新取得114年度完整決算後的指定館別成果列及新市長施政報告具名段之有界補核；不是全文逐頁或全年所有來源。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        7,
+        12,
+        15,
+        130,
+        131
+      ],
+      "source_ids": [
+        "src-0aa3ee7a9d26122b",
+        "src-085a49b9e58ff136"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "review_scope": "PDF12（印9）重要施政成果第16–20項與PDF15（印12）博物管理列；館群合列及活動描述不能作館級動產保存處理量。",
+          "source_id": "src-0aa3ee7a9d26122b",
+          "text_read_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "verification_status": "new_original_named_group_and_activity_rows_text_and_image_read_not_museum_conservation_body"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [
+            7,
+            130,
+            131
+          ],
+          "pdf_pages_1_based": [
+            7,
+            130,
+            131
+          ],
+          "review_scope": "PDF7（印3）確認跨2024–2025期段；PDF130–131（印126–127）黑蝙蝠館段為典藏／展示空間內容，明列完成日期屬2024，不能當2025動產處理量。",
+          "source_id": "src-085a49b9e58ff136",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "new_original_cross_period_named_section_image_read_not_target_2025_movable_collection_quantity"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-BASE-045-2025-v1",
+      "interpretation_note": "新取得114年度完整決算；指定博物管理列四館合列，具名描述為活動與參觀服務，不能拆為館級動產保存修護量。原件取得及營運列已讀不等於本館適用保存正文已讀，仍待核。 僅限明列來源與段落；未定位不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "BASE-045",
+      "organization_name": "新竹市玻璃工藝博物館",
+      "review_id": "followup-v018-hsinchu-BASE-045-2025",
+      "review_scope": "114年度單位決算PDF12、15指定館別成果與營運列之有界補核；未確立可獨立歸館的動產保存正文。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        12,
+        15
+      ],
+      "source_ids": [
+        "src-0aa3ee7a9d26122b"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "review_scope": "PDF12（印9）重要施政成果第16–20項與PDF15（印12）博物管理列；館群合列及活動描述不能作館級動產保存處理量。",
+          "source_id": "src-0aa3ee7a9d26122b",
+          "text_read_pdf_pages_1_based": [
+            12,
+            15
+          ],
+          "verification_status": "new_original_named_group_and_activity_rows_text_and_image_read_not_museum_conservation_body"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "extends_review_id": "body40-local-ereader-SUP-004-2025-v1",
+      "interpretation_note": "新取得114年度完整決算及2025下半年施政報告，指定列仍以展覽、教育推廣與文化局典藏室合列為主；典藏室內容未能獨立歸屬本館。新原件取得及館名命中不視為館級動產保存正文齊備，仍待適用正文。 僅限明列來源與段落；未定位不代表全年未辦理、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "organization_id": "SUP-004",
+      "organization_name": "新竹市美術館",
+      "review_id": "followup-v018-hsinchu-SUP-004-2025",
+      "review_scope": "新取得114年度完整決算後的指定館別成果列及新市長施政報告具名段之有界補核；不是全文逐頁或全年所有來源。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [
+        11,
+        13,
+        122
+      ],
+      "source_ids": [
+        "src-0aa3ee7a9d26122b",
+        "src-c7c84e69fe18a869"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            11,
+            13
+          ],
+          "pdf_pages_1_based": [
+            11,
+            13
+          ],
+          "review_scope": "PDF11（印8）重要施政成果第3項館別展覽列及PDF13（印10）視覺藝術列；典藏維護與文化局典藏室及其他藝術空間合列，無法獨立歸屬本館。",
+          "source_id": "src-0aa3ee7a9d26122b",
+          "text_read_pdf_pages_1_based": [
+            11,
+            13
+          ],
+          "verification_status": "new_original_target_rows_text_and_image_read_shared_parent_collection_not_museum_quantity"
+        },
+        {
+          "image_viewed_pdf_pages_1_based": [
+            122
+          ],
+          "pdf_pages_1_based": [
+            122
+          ],
+          "review_scope": "PDF122（印118）第3節市役所／新竹市美術館的館別及動產範圍辨識；為建物、展覽與教育推廣內容，非動產藏品處理量。",
+          "source_id": "src-c7c84e69fe18a869",
+          "text_read_pdf_pages_1_based": [],
+          "verification_status": "new_original_named_museum_section_image_read_not_movable_collection_conservation_quantity"
+        }
+      ],
+      "target_data_year": 2025,
+      "verified_at": "2026-11-01T08:06:36.453754+00:00"
+    },
+    {
+      "interpretation_note": "指定子段述定期檢視典藏品、修復紀錄片與113年7月14日發表會，未明載修復完成數量或完成年月。未從作品名稱補件數，也不把紀錄片發表日當修復完成日。2024年報正文另保留待核；本N只限新讀子段，不推全館全年未做、未公開或零修護。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://ws.tycg.gov.tw/Download.ashx?n=77yI5paH5YyW5bGA77yJ56ysM%2BWxhuesrDTmrKHlrprmnJ%2FmnIPlt6XkvZzloLHlkYoucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzc5MjEvMTM1MTg0NS85NTdlZTdiZS04MTJmLTQ1N2UtOTNiNi0yMWZlYjQ0NDZmMTEucGRm",
+      "organization_id": "SUP-002",
+      "organization_name": "桃園市立美術館",
+      "review_id": "review-SUP-002-2024-v018-report-session4-limited",
+      "review_scope": "本輪新增113年9月文化局工作報告之館別修復計畫子段；限定該子段的無適用明載量核讀，不代表全年完整成果或2024年報已讀。",
+      "review_status": "body_read_no_eligible_quantity_located",
+      "reviewed_pdf_pages_1_based": [
+        57
+      ],
+      "source_ids": [
+        "src-17bb0d08d3de94fe"
+      ],
+      "source_page_reviews": [
+        {
+          "image_viewed_pdf_pages_1_based": [
+            57
+          ],
+          "pdf_pages_1_based": [
+            57
+          ],
+          "review_scope": "113年9月工作報告PDF57（印56）「（三）研究典藏／2.典藏品年度修復計畫」完整指定子段。",
+          "source_id": "src-17bb0d08d3de94fe",
+          "text_read_pdf_pages_1_based": [
+            57
+          ],
+          "verification_status": "bounded_museum_preservation_body_text_read_and_page_image_viewed"
+        }
+      ],
+      "target_data_year": 2024,
+      "verified_at": "2026-11-01T08:03:00.210617+00:00"
+    },
+    {
+      "extends_review_id": "review-SUP-002-2024-v017",
+      "interpretation_note": "附件網址已定位，不由網址建立虛構原件SHA、頁數或已讀狀態；新讀113年9月工作報告的限定N是另一來源，不能替代此年報待核。未知不補零，不推未做或未公開。",
+      "missing_quantity_is_zero": false,
+      "observation_ids": [],
+      "official_entry_url": "https://tmofa.tycg.gov.tw/images/upload/publication/80_69dc8f6698d49.pdf",
+      "organization_id": "SUP-002",
+      "organization_name": "桃園市立美術館",
+      "review_id": "followup-v018-taoyuan-2024-annual-attachment-pending",
+      "review_scope": "2024年報中文版附件網址由官方出版入口的公開存檔核得；原件及適用正文仍未取得。",
+      "review_status": "source_found_body_not_reviewed",
+      "reviewed_pdf_pages_1_based": [],
+      "source_ids": [],
+      "source_page_reviews": [],
+      "target_data_year": 2024,
+      "verified_at": "2026-11-01"
     }
   ],
-  "dataset_version": "0.17.0",
+  "dataset_version": "0.18.0",
   "observations": [
     {
       "action_categories": [
@@ -41034,12 +41464,117 @@
       "source_use": "bounded_context_or_body_review",
       "title": "國立臺灣師範大學美術館：沿革",
       "verified_at": "2026-10-30"
+    },
+    {
+      "data_year": 2025,
+      "official_file_url": "https://culture.hccg.gov.tw/uploaddowndoc?file=infopublic%2F202604161521060.pdf&filedisplay=114%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97%E5%85%A8%28%E5%90%AB%E5%B0%81%E9%9D%A2%29.pdf&flag=doc",
+      "official_landing_url": "https://culture.hccg.gov.tw/uploaddowndoc?file=infopublic%2F202604161521060.pdf&filedisplay=114%E5%B9%B4%E5%BA%A6%E6%B1%BA%E7%AE%97%E5%85%A8%28%E5%90%AB%E5%B0%81%E9%9D%A2%29.pdf&flag=doc",
+      "original_file_bytes": 5319655,
+      "original_file_pdf_pages": 177,
+      "original_file_sha256": "0aa3ee7a9d26122b9458e31feb81996cc7cf03e2fd27e34e769df23253e99e83",
+      "original_file_type": "PDF",
+      "publication_year": null,
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-0aa3ee7a9d26122b",
+      "source_period_note": "2025年度；僅讀重要施政成果及工作計畫實施情形的指定館別列。",
+      "source_use": "body_review_only",
+      "title": "新竹市文化局114年度單位決算",
+      "verified_at": "2026-11-01"
+    },
+    {
+      "alternate_official_file_urls": [
+        "https://www.hsinchu-cc.gov.tw/upload/44/2025062310522893403第11屆第5次定期會市長施政報告_compressed.pdf"
+      ],
+      "data_year": null,
+      "official_file_url": "https://dep-administration.hccg.gov.tw/uploaddowndoc?file=Mayorgovernance%2F202505261110570.pdf&filedisplay=%E7%AC%AC11%E5%B1%86%E7%AC%AC5%E6%AC%A1%E5%AE%9A%E6%9C%9F%E6%9C%83%E5%B8%82%E9%95%B7%E6%96%BD%E6%94%BF%E5%A0%B1%E5%91%8A_compressed.pdf&flag=doc",
+      "official_landing_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "original_file_bytes": 78266181,
+      "original_file_pdf_pages": 134,
+      "original_file_sha256": "085a49b9e58ff136cae04fc9cf2e7970535d02099656787f03520703d725d3de",
+      "original_file_type": "PDF",
+      "publication_year": 2025,
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-085a49b9e58ff136",
+      "source_period_note": "原件前言明列113年10月1日至114年4月20日；非2025全年。",
+      "source_use": "body_review_only",
+      "title": "新竹市議會第11屆第5次定期會市長施政報告",
+      "verified_at": "2026-11-01"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://www.hsinchu-cc.gov.tw/upload/44/2025120411024164653第11屆第6次定期會-市長書面施政報告.pdf",
+      "official_landing_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "original_file_bytes": 84284447,
+      "original_file_pdf_pages": 126,
+      "original_file_sha256": "c7c84e69fe18a8693117499128ded3b6a596cca8d8068d1b7ef5c8a958706fbc",
+      "original_file_type": "PDF",
+      "publication_year": 2025,
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-c7c84e69fe18a869",
+      "source_period_note": "原件封面日期114年10月31日；階段性報告，不假設為2025全年。",
+      "source_use": "body_review_only",
+      "title": "新竹市議會第11屆第6次定期會市長施政報告",
+      "verified_at": "2026-11-01"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://dep-administration.hccg.gov.tw/uploaddowndoc?file=Mayorgovernance%2F202010301313150.pdf&filedisplay=%E7%AC%AC10%E5%B1%86%E7%AC%AC4%E6%AC%A1%E5%AE%9A%E6%9C%9F%E6%9C%83%E5%B8%82%E9%95%B7%E6%96%BD%E6%94%BF%E5%A0%B1%E5%91%8A.pdf&flag=doc",
+      "official_landing_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "original_file_bytes": 788555,
+      "original_file_pdf_pages": 49,
+      "original_file_sha256": "e7f654c7368ef5ec07c3e1e5a1c929ba78ea880a2a0f435b9fb9199144ee96fe",
+      "original_file_type": "PDF",
+      "publication_year": 2020,
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-e7f654c7368ef5ec",
+      "source_period_note": "2020年定期會報告；已核眷村文化段為109年6月6日至9月27日特展，不當全年保存量。",
+      "source_use": "body_review_only",
+      "title": "新竹市議會第10屆第4次定期會市長施政報告",
+      "verified_at": "2026-11-01"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://dep-administration.hccg.gov.tw/uploaddowndoc?file=Mayorgovernance%2F202005281720490.pdf&filedisplay=10-3%E6%96%BD%E6%94%BF%E5%A0%B1%E5%91%8A-%E5%AE%8C%E7%A8%BF%E4%B8%8A%E5%82%B3.pdf&flag=doc",
+      "official_landing_url": "https://www.hsinchu-cc.gov.tw/tc/report.aspx?mid=44",
+      "original_file_bytes": 788793,
+      "original_file_pdf_pages": 63,
+      "original_file_sha256": "b6a1c4e0510daad962f42ae58ebbb53916416c2f6cd54a06bbcb456401795aad",
+      "original_file_type": "PDF",
+      "publication_year": 2020,
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-b6a1c4e0510daad9",
+      "source_period_note": "2020年定期會報告；已核眷村文化段包含108年11月至109年5月的跨年活動，不當2020全年。",
+      "source_use": "body_review_only",
+      "title": "新竹市議會第10屆第3次定期會市長施政報告",
+      "verified_at": "2026-11-01"
+    },
+    {
+      "data_year": null,
+      "official_file_url": "https://ws.tycg.gov.tw/Download.ashx?n=77yI5paH5YyW5bGA77yJ56ysM%2BWxhuesrDTmrKHlrprmnJ%2FmnIPlt6XkvZzloLHlkYoucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzc5MjEvMTM1MTg0NS85NTdlZTdiZS04MTJmLTQ1N2UtOTNiNi0yMWZlYjQ0NDZmMTEucGRm",
+      "official_landing_url": "https://www.tycg.gov.tw/News.aspx?n=95&sms=7921",
+      "original_file_bytes": 793446,
+      "original_file_pdf_pages": 66,
+      "original_file_sha256": "17bb0d08d3de94fe49563b684f97f69d8b5555062876f123a8223137fa45abb2",
+      "original_file_type": "PDF",
+      "publication_year": 2024,
+      "redistributed_original": false,
+      "rights_basis": "selected_factual_statistics_only_original_publication_not_relicensed",
+      "source_id": "src-17bb0d08d3de94fe",
+      "source_period_note": "113年9月階段報告，僅核指定修復計畫子段，不當2024全年修復成果。",
+      "source_use": "bounded_body_review_only",
+      "title": "桃園市政府文化局工作報告：桃園市議會第3屆第4次定期會",
+      "verified_at": "2026-11-01T08:03:00.210617+00:00"
     }
   ],
   "summary": {
     "all_figures_are_distinct_restored_objects": false,
     "baseline_organizations_reference": 71,
-    "body_review_records": 626,
+    "body_review_records": 636,
     "body_review_source_file_versions": 324,
     "body_review_target_year_cells": 489,
     "context_component_records": 2,
@@ -41084,8 +41619,8 @@
       "項": 4
     },
     "verified_original_html_files": 40,
-    "verified_original_pdf_files": 305,
-    "verified_original_source_files": 345,
+    "verified_original_pdf_files": 311,
+    "verified_original_source_files": 351,
     "years": [
       2015,
       2016,
