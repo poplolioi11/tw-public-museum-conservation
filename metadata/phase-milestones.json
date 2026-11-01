@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-01",
   "data_schema_version": "4.0",
-  "dataset_version": "0.18.0",
+  "dataset_version": "0.19.0",
   "milestones": [
     {
       "completed_in_release": "v0.1.0",
@@ -364,6 +364,25 @@
       "private_art_separate_from_public_denominators": true,
       "scope": "既有新竹五館新原件索引與桃園2024指定修復子段及年報附件定位",
       "taoyuan_2024_limited_N_and_annual_P_separate": true
+    },
+    {
+      "cells_with_any_verified_numeric": 104,
+      "completed_in_release": "v0.19.0",
+      "deployment_verification_basis": "整階段驗收後統一發布；實際附件、同提交CI、網站與私人保存各自讀回，此處不是部署回執。",
+      "financial_statistics_published": false,
+      "human_readings_completed": 0,
+      "library_retained_frozen_sample_records": 120,
+      "museum_known_unresolved_unique_row_locators": 2,
+      "museum_sample_records": 50,
+      "museum_sampling_frame_source_reported_records": 308,
+      "national_or_all_years_complete": false,
+      "new_public_observation_records": 0,
+      "new_public_review_records": 0,
+      "new_public_source_versions": 0,
+      "private_reader_and_controller_materials_published": false,
+      "reviewed_2020_2025_cells": 487,
+      "scope": "固定工作集合分階段比例、雙專案遮蔽數值核讀準備及官方統計納排範圍",
+      "stage_rate_snapshot_version": "v0.18.0"
     }
   ],
   "ongoing_gaps": "原缺口與逐格歷史保留；新竹新原件只改善館別與期段辨識，適用保存正文仍待核。桃園2024限定子段N與年報P並存；師大累計、平均、跨年與外館服務不代填年量。只在新附件、清冊、逐年表或原件換版等新線索下重開。"

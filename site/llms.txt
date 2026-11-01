@@ -1,9 +1,9 @@
 # 臺灣公立館保存修護公開資料索引
 
-資料版本 0.18.0；資料截點 2026-11-01。這是有限來源子集，不是全國完整修護統計。
+資料版本 0.19.0；資料截點 2026-11-01。這是有限來源子集，不是全國完整修護統計。
 
 - [資料清單](manifest.json)：完整 JSON 的相對路徑、SHA-256、bytes、版本及逐筆入口。
-- [本版完整公開事實](data/7cb25ceebf5f9c6e87a71da4dd1176c58f798666f2c5d9c983654ad33c24e28d.json)：observations、sources、relations、body_reviews 與範圍摘要。
+- [本版完整公開事實](data/dd4e08b8928af83072aa666bb696e02e051198b6356ca97e01514443aab035ff.json)：observations、sources、relations、body_reviews 與範圍摘要。
 - [分類詞彙](data/38a6e7769ad84614fb08bd27c7dafb7b29ee05759acf3e6bdda6f7a87d31275d.json)：分類標籤及使用限制。
 - [有界資料整理](enrichment.html)：館年格全集與年份子集、缺量註記、關係及完成語覆核、文字表格與圖表。
 - [公立非年度量脈絡](context.html)：計畫、累計、平均與跨年專案，並非年度已施作量，不納入公立數值觀測。

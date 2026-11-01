@@ -18630,7 +18630,7 @@
       "working_category_membership_set": "BATCH5"
     }
   ],
-  "dataset_version": "0.18.0",
+  "dataset_version": "0.19.0",
   "geography_is_recorded_roster_or_authority_area_not_all_branch_or_object_location": true,
   "groups": [
     {
