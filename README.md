@@ -1,5 +1,11 @@
 # 臺灣公立館保存修護公開資料索引（持續整理）
 
+## 摘要 / Abstract
+
+本索引將臺灣公立館官方年報、年度成果與業務報告中的保存修護紀錄整理為可回查資料，逐筆保留原值、作業詞、單位、期間、完成用語、來源版本與頁段定位。公開v0.21.0含311列公立紀錄（308列原報觀測、1列推算、2列脈絡）及351個來源版本，另列14則環境作業統計、8則一般保存作業文字與私立館公開來源試辦，提供JSON、CSV、JSONL、SQLite、文件及查詢網站。來源與原件核對不等於人工雙校，人工完成核讀仍為0；有界、非機率的來源集合及分階段比例不能推成全國總量、公開率或館所績效，異質單位、跨年、脈絡與缺量亦不得無據相加或補零。
+
+This index structures preservation and conservation records from official annual reports, activity summaries and administrative reports of Taiwanese public museums and related collections. Each record retains original values, activity terms, units, periods, completion wording, source versions and page/section locations. Public v0.21.0 contains 311 public-sector records (308 reported observations, one derived value and two contextual records) and 351 source versions, with 14 environmental-operation statistics, eight general-preservation texts and a private-museum public-source pilot kept separately. JSON, CSV, JSONL, SQLite, documentation and a query website support source tracing. Source checks do not constitute human double review; completed human reading remains zero. The bounded, non-probability source set and stage proportions do not support national totals, disclosure rates or institutional performance estimates. Heterogeneous units, cross-year/contextual records and missing quantities cannot be summed or filled with zero without evidence.
+
 將官方年報、年度成果與業務報告中的保存修護資料整理成可回查索引，保留原數字、作業詞、單位、期間、完成用語、來源版本與定位。私立館的公開來源試辦另列。
 
 **v0.21.0｜2026-11-02**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)各依實際版本與讀回結果引用。
