@@ -1,0 +1,31 @@
+{
+  "dataset_version": "0.22.0",
+  "institutions": [
+    {
+      "identity_locator": "PDF5／印刷4：由美術系負責管理營運的一級單位「東海大學藝術中心」",
+      "identity_source_id": "src-f8c3cba6e966ec74",
+      "identity_source_url": "https://fineart.thu.edu.tw/upload/files/113%E5%B9%B4%E5%BA%A6%E5%A0%B1%E5%91%8A1150226%28%E4%B8%8A%E5%82%B3%E7%89%88%290511%282%29.pdf",
+      "official_url": "https://fineart.thu.edu.tw/web/artcenter/",
+      "organization_id": "WU-THU-ARTCENTER",
+      "organization_name": "東海大學藝術中心",
+      "scope_note": "校方正式名稱為藝術中心；未證明美術館候選名稱為正式別名或另一單位，不列已確認美術館。"
+    }
+  ],
+  "layer": "art_center_scope_candidates",
+  "public_baseline_eligible": false,
+  "records": [],
+  "schema_version": "1.0",
+  "scope_note": "分層補充的來源事實；不進既有公立主觀測或凍結覆蓋率。未知不補零，異質作業不可相加。",
+  "sources": [
+    {
+      "bytes": 7725903,
+      "format": "PDF",
+      "pdf_pages": 69,
+      "sha256": "f8c3cba6e966ec74d51e9b4e06d49b33f571cd8b97b7396d898b590577d5c6d7",
+      "source_id": "src-f8c3cba6e966ec74",
+      "title": "東海大學美術學系113學年度報告書",
+      "url": "https://fineart.thu.edu.tw/upload/files/113%E5%B9%B4%E5%BA%A6%E5%A0%B1%E5%91%8A1150226%28%E4%B8%8A%E5%82%B3%E7%89%88%290511%282%29.pdf",
+      "verification_level": "original_bytes_verified"
+    }
+  ]
+}

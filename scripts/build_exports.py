@@ -218,6 +218,9 @@ def generate(facts,inventory,version,root=ROOT):
         tables['expanded_public_organizations']=inventory.get('expanded_public_organization_candidates',[])
     output={'data/facts.json':encode(facts),'metadata/inventory.json':encode(inventory)}
     output.update(enriched['outputs'])
+    if (root/'data/conservation_supplement/public_followup.json').exists():
+        from conservation_supplement import build as build_conservation_supplement
+        output.update(build_conservation_supplement(root,facts))
     if (root/'data/preservation_texts.json').exists():
         from preservation_texts import build as build_preservation_texts
         output.update(build_preservation_texts(root,facts))

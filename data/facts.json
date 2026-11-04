@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-05",
   "body_reviews": [
     {
       "interpretation_note": "本輪未定位2020原年度報；後年回述不替代原報，未定位不表示未公開或數量為零。",
@@ -23036,7 +23036,7 @@
       "verified_at": "2026-11-01"
     }
   ],
-  "dataset_version": "0.21.0",
+  "dataset_version": "0.22.0",
   "observations": [
     {
       "action_categories": [

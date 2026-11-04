@@ -1,0 +1,63 @@
+{
+  "dataset_version": "0.22.0",
+  "default_aggregation_allowed": false,
+  "frozen_coverage_denominators_unchanged": true,
+  "human_verified": false,
+  "layers": {
+    "art_center_scope_candidates": {
+      "input_file": "data/conservation_supplement/art_center_scope_candidates.json",
+      "input_sha256": "f8c4dfd9d011090326d3df8bd2de613f76bb701992888e11416715a3fa459eb3",
+      "institution_count": 1,
+      "quantity_record_count": 0,
+      "record_count": 0,
+      "source_versions": 1,
+      "text_record_count": 0,
+      "unknown_activity_year_count": 0
+    },
+    "private_artist_museums": {
+      "input_file": "data/conservation_supplement/private_artist_museums.json",
+      "input_sha256": "871124c23c86eee97b9fd7d110096c4f9e0edae4f27b442203007d03dac49f47",
+      "institution_count": 5,
+      "quantity_record_count": 1,
+      "record_count": 5,
+      "source_versions": 8,
+      "text_record_count": 4,
+      "unknown_activity_year_count": 1
+    },
+    "private_university_museums": {
+      "input_file": "data/conservation_supplement/private_university_museums.json",
+      "input_sha256": "0cd38b0094c1cc02144f4e81486de0b03250a68ea62bdf59060e3ad223cc9767",
+      "institution_count": 3,
+      "quantity_record_count": 15,
+      "record_count": 21,
+      "source_versions": 17,
+      "text_record_count": 6,
+      "unknown_activity_year_count": 12
+    },
+    "private_university_other_museums": {
+      "input_file": "data/conservation_supplement/private_university_other_museums.json",
+      "input_sha256": "075edbeefb1d37035651d9520934583a44fee21c2443470f9170051d35a19e5c",
+      "institution_count": 1,
+      "quantity_record_count": 0,
+      "record_count": 0,
+      "source_versions": 1,
+      "text_record_count": 0,
+      "unknown_activity_year_count": 0
+    },
+    "public_followup": {
+      "input_file": "data/conservation_supplement/public_followup.json",
+      "input_sha256": "8632fd38f68266f7ccc920f3220256bdf2e7fa6835bd0be81e23c0c17451efa9",
+      "institution_count": 3,
+      "quantity_record_count": 5,
+      "record_count": 7,
+      "source_versions": 9,
+      "text_record_count": 2,
+      "unknown_activity_year_count": 1
+    }
+  },
+  "main_observation_count_unchanged": true,
+  "public_baseline_eligible": false,
+  "schema_version": "1.0",
+  "scope_note": "分層補充紀錄；報告年不代替作業年，列數不是年度全量或全國統計。",
+  "validation_limits": "結構與明顯模式檢查不代替原件、語義、隱私或人工核讀。"
+}

@@ -7,12 +7,12 @@
     "work_mode": 4
   },
   "cross_museum_comparable": false,
-  "dataset_version": "0.21.0",
+  "dataset_version": "0.22.0",
   "default_aggregation_allowed": false,
   "denominator_role": "separate_texts_excluded_from_main_observations_and_coverage",
   "input_bytes": 9740,
   "input_file": "data/preservation_texts.json",
-  "input_sha256": "50d653f29f47cb297a6538be6a2d09517ea31b62c99d6e0f7b7b680319307038",
+  "input_sha256": "e5baa1ddc0068890d10fa0b369ec609c0796f3ed9c7139283a680b19f4c16f15",
   "measure_status": "text_only",
   "numeric_quantity_eligible": false,
   "period_basis_counts": {

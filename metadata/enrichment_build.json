@@ -4,39 +4,39 @@
     "supported_by_review_note": 282
   },
   "annotation_records": 283,
-  "canonical_facts_sha256": "2f0ac7d93c3206f433547b711ade83c037134e22eaac25427ae9a81b5bf49316",
+  "canonical_facts_sha256": "e6c3078e44217039eff075b5a1c9c7765ba36b2b4f0a28584408b1aafecd577c",
   "completion_assessment_counts": {
     "parent_context_supported": 14
   },
   "completion_assessment_records": 14,
   "coverage_current_review_records": 501,
   "coverage_reviewed_cells": 489,
-  "dataset_version": "0.21.0",
+  "dataset_version": "0.22.0",
   "figure_artifacts": {
     "absence-tags.svg": {
       "bytes": 341426,
       "path": "docs/figures/absence-tags.svg",
-      "sha256": "0a413dd3d69dfc9889cbf8600a016adcbe961eb57aa7079d576116a65723a5f6"
+      "sha256": "47622b40cd1162ddf68413aeaac262526f6c5ec24ab18a4fd46e81684139c832"
     },
     "coverage-facets.svg": {
       "bytes": 614229,
       "path": "docs/figures/coverage-facets.svg",
-      "sha256": "76ed9b73afd7e06c4e448367ba8b4caaf6d9f6a27761ffb8adf936cb66ccfd5f"
+      "sha256": "c958d842efa022aba54539e898e2291bf6004b6796e47618f5cb0a30eae8b637"
     },
     "coverage-states.svg": {
       "bytes": 495720,
       "path": "docs/figures/coverage-states.svg",
-      "sha256": "435734d4f4320fd79d57c721fee7bab0b2c6194fa80a2d4fc9410abbcd86c5e5"
+      "sha256": "cc092e573aa47df911e24929e6f28ea87b485b17362e535825b92b6209b8cfb2"
     }
   },
-  "figure_source_sha256": "189d43bedef734a91d7a659e26541cc7d70a85f2ebd4068186a09487acccc529",
+  "figure_source_sha256": "854ddd88ecd39c1bdfd042a54f12fef24d4ca199e6a5852bdb90901d80d1b54d",
   "input_sha256": {
     "data/absence_annotations.json": "c5f7d3d36b42762008d41a0a5776da612808cb8fa1e2bc1a3d41f7e321914ef5",
     "data/completion_reviews.json": "a0c2ad94861fd33d357ba2819a06798b1cb98c0ab6666d13fd58f7e397e2cde6",
     "metadata/absence_vocabulary.json": "7ef6380b0cc7a59ed38957bf52b5de80c2770eb514174258b2662e88467c9997",
     "metadata/completion_review_rules.json": "b7f61e3081db62130a22d0cf611c4444d2fa7f8370670ff3e083b65dfe6c1f30",
-    "metadata/normalization_rules.json": "7d664c65980c82248c00873ba5cbe0f9aa30705ad4a05832dde224ede21eae70",
-    "metadata/organization_dimensions.json": "98739b47a66143c2b1e6e7ee137dfa81d8a770cf42e35304c4f50e20b65b8fd0",
+    "metadata/normalization_rules.json": "f3c07ef288d04f3e5ce86c7cdf84b9c6d7377657d3d4253ba04548db175769e0",
+    "metadata/organization_dimensions.json": "a52645dff25ee7a17b80bc5ff07ee12f37949d3c589d0a2853e3be7920b6746e",
     "metadata/relation_projection_rules.json": "32c842c70fa468cfddde9d6463c402f1e4d8f8dd2fd936eef6c265bf8a20e2db",
     "schema/absence_annotation.schema.json": "21c9b862df9ce8e0aa7b8e0e23c3f9a93aa91531f0fd6b258b0f0b20cc731d1c",
     "schema/completion_review.schema.json": "e657c989c5864679e10f18b9557310d45ea105c6672c1d10149004b0c91168b5",

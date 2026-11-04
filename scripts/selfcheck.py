@@ -63,6 +63,29 @@ def typed_table_roundtrip(root,name,expected,container_rows=None):
     return {'rows':len(expected),'csv_jsonl_sqlite_typed_equal':True,
             'original_container_restored':container_rows is not None}
 
+def check_conservation_supplement(root,facts):
+    import conservation_supplement as supplement
+    first=root/supplement.DIRECTORY/(supplement.LAYERS[0]+'.json')
+    if not first.exists():return {'status':'not_enabled_no_input'}
+    layers=supplement.validate(root,facts['dataset_version'])
+    fields=sorted(builder.read(root/supplement.SCHEMA)['properties']['records']['items']['properties'])
+    results={}
+    for layer,data in layers.items():
+        prefix=root/supplement.DIRECTORY/layer
+        jsonrows=[json.loads(line)for line in prefix.with_suffix('.jsonl').read_text().splitlines()if line.strip()]
+        assert_typed_equal(jsonrows,data['records'],layer+'/jsonl')
+        with prefix.with_suffix('.csv').open(encoding='utf-8-sig',newline='')as stream:
+            reader=csv.DictReader(stream);rows=list(reader);assert reader.fieldnames==fields
+        assert len(rows)==len(data['records'])
+        for index,(actual,expected)in enumerate(zip(rows,data['records'])):
+            restored={}
+            for field,value in expected.items():
+                cell=actual[field];assert cell==str(builder.flat(value)),(layer,index,field)
+                restored[field]=None if value is None else cell if isinstance(value,str)else json.loads(cell)
+            assert_typed_equal(restored,expected,layer+'/csv/'+str(index))
+        results[layer]={'records':len(rows),'typed_csv_jsonl_equal':True,'empty_csv_keeps_full_header':True}
+    return results
+
 def check_preservation_statistics(root,facts):
     """Restore every supplement CSV/JSONL cell without adding a SQLite table."""
     path=root/'data/preservation_statistics.json'
@@ -253,6 +276,7 @@ def check_optional_art_layers(root,facts,inventory,version):
     else:result['private_art']={'status':'not_enabled_no_input'}
     result['preservation_statistics']=check_preservation_statistics(root,facts)
     result['preservation_texts']=check_preservation_texts(root,facts)
+    result['conservation_supplement']=check_conservation_supplement(root,facts)
     return result
 
 def invalid_auxiliary_preserves_exports(root,relative,cases):
@@ -370,6 +394,28 @@ def check_optional_art_failure_protection(root):
                           'PDF page outside verified source bounds'))
         result['preservation_texts']=invalid_auxiliary_preserves_exports(root,'data/preservation_texts.json',cases)
     else:result['preservation_texts']={'status':'not_enabled_no_records'}
+    relative='data/conservation_supplement/private_university_museums.json'
+    if(root/relative).exists():
+        def supplement_private(data):data['records'][0]['private_notes']='synthetic'
+        def supplement_finance(data):data['records'][0]['interpretation_note']='NT$ 7,000'
+        def supplement_security(data):data['records'][0]['period_basis']='synthetic 門禁位置'
+        def supplement_invented_year(data):
+            row=next(r for r in data['records']if r['data_year']is None)
+            row['data_year']=2025;row['period_kind']='undated'
+        def supplement_wrong_date_year(data):
+            row=data['records'][0];row['data_year']=2025;row['period_kind']='dated_event'
+            row['period_start']='2024-03-01';row['period_end']='2024-03-01'
+        def supplement_dual_mismatch(data):
+            row=next(r for r in data['records']if r['dual_unit_quantities'])
+            row['dual_unit_quantities'][1].update(quantity_raw='999',quantity_numeric=999)
+        cases=[('supplement_private_field',supplement_private,'extra field'),
+            ('supplement_finance_in_note',supplement_finance,'prohibited financial amount'),
+            ('supplement_security_in_period',supplement_security,'prohibited security detail'),
+            ('supplement_report_year_is_not_activity_year',supplement_invented_year,'cannot acquire an activity year'),
+            ('supplement_date_year_mismatch',supplement_wrong_date_year,'activity year differs'),
+            ('supplement_dual_raw_mismatch',supplement_dual_mismatch,'compound components differ')]
+        result['conservation_supplement']=invalid_auxiliary_preserves_exports(root,relative,cases)
+    else:result['conservation_supplement']={'status':'not_enabled_no_input'}
     return result
 
 def main():

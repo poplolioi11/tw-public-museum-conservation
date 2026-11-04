@@ -1,0 +1,31 @@
+{
+  "dataset_version": "0.22.0",
+  "institutions": [
+    {
+      "identity_locator": "館舍介紹／淡江大學海事博物館／分類：私立博物館",
+      "identity_source_id": "src-ca7a60eb2b5f61ce",
+      "identity_source_url": "https://www.museum.ntpc.gov.tw/xmdoc/cont?sid=0G297831650404214651&xsmsid=0G275735901206394658",
+      "official_url": "https://www.finearts.tku.edu.tw/Front/Museum/Museum002/Museum00201/Page.aspx?id=KH31XJjji5k%3D",
+      "organization_id": "WU-TKU-MARITIME",
+      "organization_name": "淡江大學海事博物館",
+      "scope_note": "與美術館層分開；模型存量及歷史船舶資訊不當修護量。"
+    }
+  ],
+  "layer": "private_university_other_museums",
+  "public_baseline_eligible": false,
+  "records": [],
+  "schema_version": "1.0",
+  "scope_note": "分層補充的來源事實；不進既有公立主觀測或凍結覆蓋率。未知不補零，異質作業不可相加。",
+  "sources": [
+    {
+      "bytes": 34914,
+      "format": "HTML",
+      "pdf_pages": null,
+      "sha256": "ca7a60eb2b5f61cec310706b2141f039522bc8cb4726b688f7406326b76d04ff",
+      "source_id": "src-ca7a60eb2b5f61ce",
+      "title": "新北市政府館舍介紹：淡江大學海事博物館",
+      "url": "https://www.museum.ntpc.gov.tw/xmdoc/cont?sid=0G297831650404214651&xsmsid=0G275735901206394658",
+      "verification_level": "original_bytes_verified"
+    }
+  ]
+}

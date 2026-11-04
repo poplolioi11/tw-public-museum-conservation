@@ -1,0 +1,567 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Public reviewed facts only; original files, private reasoning and source paths are excluded. The build enforces a documented bounded subset plus semantic assertions.",
+  "properties": {
+    "dataset_version": {
+      "maxLength": 40,
+      "type": "string"
+    },
+    "institutions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "identity_locator": {
+            "maxLength": 800,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "identity_source_id": {
+            "maxLength": 96,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "identity_source_url": {
+            "maxLength": 4000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "official_url": {
+            "maxLength": 4000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "organization_id": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "organization_name": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "scope_note": {
+            "maxLength": 800,
+            "type": "string"
+          }
+        },
+        "required": [
+          "organization_id",
+          "organization_name",
+          "official_url",
+          "scope_note",
+          "identity_source_id",
+          "identity_source_url",
+          "identity_locator"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "layer": {
+      "enum": [
+        "public_followup",
+        "private_artist_museums",
+        "private_university_museums",
+        "private_university_other_museums",
+        "art_center_scope_candidates"
+      ],
+      "type": "string"
+    },
+    "public_baseline_eligible": {
+      "const": false,
+      "type": "boolean"
+    },
+    "records": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "action_class_normalized": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "annual_year_quantity_eligible": {
+            "const": false,
+            "type": "boolean"
+          },
+          "as_of_date": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "as_of_date_basis": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "associated_institution": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "collection_owner_as_reported": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "commissioning_organization": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "completion_status": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cross_museum_comparable": {
+            "const": false,
+            "type": "boolean"
+          },
+          "data_year": {
+            "maximum": 2100,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "default_aggregation_allowed": {
+            "const": false,
+            "type": "boolean"
+          },
+          "dual_unit_quantities": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "quantity_numeric": {
+                  "maximum": 1000000000000,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "quantity_raw": {
+                  "maxLength": 80,
+                  "type": "string"
+                },
+                "unit_as_reported": {
+                  "maxLength": 80,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "quantity_raw",
+                "quantity_numeric",
+                "unit_as_reported"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "executing_organization": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "human_verified": {
+            "const": false,
+            "type": "boolean"
+          },
+          "interpretation_note": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "metric_as_reported": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "metric_label": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "narrative_context_year": {
+            "maximum": 2100,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "organization_id": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "organization_name": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "ownership_note": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pdf_page_1_based": {
+            "maximum": 100000,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "period_basis": {
+            "maxLength": 1000,
+            "type": "string"
+          },
+          "period_end": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "period_evidence": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "basis": {
+                  "maxLength": 800,
+                  "type": "string"
+                },
+                "pdf_page_1_based": {
+                  "maximum": 100000,
+                  "minimum": 0,
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "printed_page": {
+                  "maxLength": 80,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source_id": {
+                  "maxLength": 96,
+                  "type": "string"
+                },
+                "source_locator": {
+                  "maxLength": 400,
+                  "type": "string"
+                },
+                "source_url": {
+                  "maxLength": 4000,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_id",
+                "source_url",
+                "pdf_page_1_based",
+                "printed_page",
+                "source_locator",
+                "basis"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "period_kind": {
+            "maxLength": 96,
+            "type": "string"
+          },
+          "period_label": {
+            "maxLength": 800,
+            "type": "string"
+          },
+          "period_start": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "printed_page": {
+            "maxLength": 80,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publication_date": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publication_year": {
+            "maximum": 2100,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "quantity_numeric": {
+            "maximum": 1000000000000,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "quantity_raw": {
+            "maxLength": 120,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "record_id": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "record_kind": {
+            "enum": [
+              "quantity_record",
+              "text_record"
+            ],
+            "type": "string"
+          },
+          "record_scope": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "report_context_year": {
+            "maximum": 2100,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "report_date": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reporting_period_raw": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_id": {
+            "maxLength": 96,
+            "type": "string"
+          },
+          "source_locator": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_url": {
+            "maxLength": 4000,
+            "type": "string"
+          },
+          "subject_scope": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text_summary": {
+            "maxLength": 1000,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_as_reported": {
+            "maxLength": 80,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "metric_as_reported",
+          "report_date",
+          "reporting_period_raw",
+          "completion_status",
+          "subject_scope",
+          "record_scope",
+          "text_summary",
+          "interpretation_note",
+          "publication_date",
+          "source_locator",
+          "period_start",
+          "period_end",
+          "as_of_date",
+          "as_of_date_basis",
+          "commissioning_organization",
+          "executing_organization",
+          "associated_institution",
+          "collection_owner_as_reported",
+          "ownership_note",
+          "record_id",
+          "organization_id",
+          "organization_name",
+          "metric_label",
+          "action_class_normalized",
+          "record_kind",
+          "quantity_raw",
+          "quantity_numeric",
+          "dual_unit_quantities",
+          "unit_as_reported",
+          "data_year",
+          "report_context_year",
+          "publication_year",
+          "narrative_context_year",
+          "source_id",
+          "source_url",
+          "pdf_page_1_based",
+          "printed_page",
+          "period_kind",
+          "period_label",
+          "period_basis",
+          "period_evidence",
+          "default_aggregation_allowed",
+          "cross_museum_comparable",
+          "annual_year_quantity_eligible",
+          "human_verified"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0",
+      "type": "string"
+    },
+    "scope_note": {
+      "maxLength": 800,
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bytes": {
+            "maximum": 10000000000,
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "format": {
+            "enum": [
+              "PDF",
+              "HTML"
+            ],
+            "type": "string"
+          },
+          "pdf_pages": {
+            "maximum": 100000,
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "sha256": {
+            "maxLength": 64,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_id": {
+            "maxLength": 96,
+            "type": "string"
+          },
+          "title": {
+            "maxLength": 400,
+            "type": "string"
+          },
+          "url": {
+            "maxLength": 4000,
+            "type": "string"
+          },
+          "verification_level": {
+            "enum": [
+              "original_bytes_verified",
+              "official_web_body_only"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_id",
+          "title",
+          "url",
+          "format",
+          "sha256",
+          "bytes",
+          "pdf_pages",
+          "verification_level"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "layer",
+    "public_baseline_eligible",
+    "scope_note",
+    "institutions",
+    "sources",
+    "records"
+  ],
+  "title": "Separated museum conservation supplement",
+  "type": "object"
+}

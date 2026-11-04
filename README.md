@@ -2,16 +2,17 @@
 
 ## 摘要 / Abstract
 
-本索引將臺灣公立館官方年報、年度成果與業務報告中的保存修護紀錄整理為可回查資料，逐筆保留原值、作業詞、單位、期間、完成用語、來源版本與頁段定位。公開v0.21.0含311列公立紀錄（308列原報觀測、1列推算、2列脈絡）及351個來源版本，另列14則環境作業統計、8則一般保存作業文字與私立館公開來源試辦，提供JSON、CSV、JSONL、SQLite、文件及查詢網站。來源與原件核對不等於人工雙校，人工完成核讀仍為0；有界、非機率的來源集合及分階段比例不能推成全國總量、公開率或館所績效，異質單位、跨年、脈絡與缺量亦不得無據相加或補零。
+本索引將臺灣公立館官方年報、年度成果與業務報告中的保存修護紀錄整理為可回查資料，逐筆保留原值、作業詞、單位、期間、完成用語、來源版本與頁段定位。公開v0.22.0含311列公立紀錄（308列原報觀測、1列推算、2列脈絡）及351個來源版本，另列14則環境作業統計、8則一般保存作業文字與私立館公開來源試辦，提供JSON、CSV、JSONL、SQLite、文件及查詢網站。v0.22.0另加公私立分層補充33則（21帶量值、12文字），其中14則量值作業年未知。來源與原件核對不等於人工雙校，人工完成核讀仍為0；有界、非機率的來源集合及分階段比例不能推成全國總量、公開率或館所績效，異質單位、跨年、脈絡與缺量亦不得無據相加或補零。
 
-This index structures preservation and conservation records from official annual reports, activity summaries and administrative reports of Taiwanese public museums and related collections. Each record retains original values, activity terms, units, periods, completion wording, source versions and page/section locations. Public v0.21.0 contains 311 public-sector records (308 reported observations, one derived value and two contextual records) and 351 source versions, with 14 environmental-operation statistics, eight general-preservation texts and a private-museum public-source pilot kept separately. JSON, CSV, JSONL, SQLite, documentation and a query website support source tracing. Source checks do not constitute human double review; completed human reading remains zero. The bounded, non-probability source set and stage proportions do not support national totals, disclosure rates or institutional performance estimates. Heterogeneous units, cross-year/contextual records and missing quantities cannot be summed or filled with zero without evidence.
+This index structures preservation and conservation records from official annual reports, activity summaries and administrative reports of Taiwanese public museums and related collections. Each record retains original values, activity terms, units, periods, completion wording, source versions and page/section locations. Public v0.22.0 contains 311 public-sector records (308 reported observations, one derived value and two contextual records) and 351 source versions, with 14 environmental-operation statistics, eight general-preservation texts and a private-museum public-source pilot kept separately. JSON, CSV, JSONL, SQLite, documentation and a query website support source tracing. v0.22.0 also adds 33 separately stored supplemental records (21 quantitative and 12 textual); activity years remain unknown for 14 quantitative records. Source checks do not constitute human double review; completed human reading remains zero. The bounded, non-probability source set and stage proportions do not support national totals, disclosure rates or institutional performance estimates. Heterogeneous units, cross-year/contextual records and missing quantities cannot be summed or filled with zero without evidence.
 
 將官方年報、年度成果與業務報告中的保存修護資料整理成可回查索引，保留原數字、作業詞、單位、期間、完成用語、來源版本與定位。私立館的公開來源試辦另列。
 
-**v0.21.0｜2026-11-02**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)各依實際版本與讀回結果引用。
+**v0.22.0｜2026-11-05**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)各依實際版本與讀回結果引用。
 
 ## 從這裡開始
 
+- **本版分層增補：** [範圍與期間](docs/CONSERVATION_SUPPLEMENT.md)／[公立補查](https://poplolioi11.github.io/tw-public-museum-conservation/supplement-public.html)／[私立館補充](https://poplolioi11.github.io/tw-public-museum-conservation/supplement-private.html)／[名稱候選](https://poplolioi11.github.io/tw-public-museum-conservation/supplement-scope.html)。各層分檔，不進原公立分母。
 - **依館所找數字：** [館所索引](catalog/README.md)、[互動查詢](https://poplolioi11.github.io/tw-public-museum-conservation/)及[資料樣貌](catalog/SAMPLE.md)。
 - **回查一筆：** 依[觀測JSONL](data/observations.jsonl)的observation_id查原值，再以source_id連[來源表](data/sources.csv)與官方原頁。見[查找與引用](docs/QUERYING.md)。
 - **累計、計畫與跨年另看：** [公立脈絡頁](https://poplolioi11.github.io/tw-public-museum-conservation/context.html)／[6則JSON](data/public_context_notes.json)，不代填單年已施作量。
@@ -19,7 +20,7 @@ This index structures preservation and conservation records from official annual
 - **環境作業另看：** [官方環境作業附表](docs/PRESERVATION_STATISTICS.md)／[網站](https://poplolioi11.github.io/tw-public-museum-conservation/preservation.html)／[14則CSV](data/preservation_statistics.csv)。與修護主表及公立分母分開。
 - **私立館另列：** [私立試辦頁](https://poplolioi11.github.io/tw-public-museum-conservation/private-art.html)／[獨立JSON](data/private_art_pilot.json)／[CSV](data/private_art_observations.csv)。這是館方公開來源，不是使用者私人紀錄；不混入公立分母。
 - **判讀界線：** [關係附表](docs/RELATIONS.md)、[完成語覆核](docs/COMPLETION_REVIEW.md)、[缺量註記](docs/ABSENCE.md)、[覆蓋率分母](docs/COVERAGE.md)及[SQLite](data/museum-conservation.sqlite)。
-- **研究與品質核讀：** [分階段比例](docs/STAGE_RATES_V018.md)、[研究筆記](docs/RESEARCH_NOTE_DRAFT.md)、[人工核讀方法](docs/MANUAL_READING.md)及[官方統計公開範圍](docs/OFFICIAL_STATISTICS_SCOPE.md)。實際核讀材料與比對鍵分開私存，未完成人工核讀。
+- **研究與品質核讀：** [研究筆記](docs/RESEARCH_NOTE_DRAFT.md)說明v0.22.0資料範圍；[分階段比例](docs/STAGE_RATES_V018.md)固定採v0.18.0快照。另見[人工核讀方法](docs/MANUAL_READING.md)及[官方統計公開範圍](docs/OFFICIAL_STATISTICS_SCOPE.md)。實際核讀材料與比對鍵分開私存，博物館人工完成0／50、圖書館0／120。
 
 ## 本版整理範圍
 
@@ -37,7 +38,7 @@ This index structures preservation and conservation records from official annual
 
 校史館章段只連既有臺大博物館群查找索引，不擴為全館群；史博的應用系統建置不當實體檢視完成量，修復師及委外方式不推人數，跨年規畫不當完成日，保存程序不當待修存量。經費、個人／廠商、詳細庫位與安全配置、私人台帳及核讀控制鍵不公開。
 
-博物館固定50題的定位準備第二版及圖書館原120題材料保持，人工完成仍為0。研究筆記的工作集合比例固定採v0.18.0，不作全國估計；本版沒有改抽樣、研究比例或新增館所。
+博物館固定50題的定位準備第二版已補足已知兩題缺口；題目、順序與v0.18.0母體保持，人工完成仍為0／50。圖書館沿用原120題材料，人工完成0／120。定位準備不等於人工核讀。研究筆記的工作集合比例固定採v0.18.0，不作全國估計；本版未改抽樣及研究比例；補充館所與紀錄另見分層附表，不進原公立集合。
 
 v0.18.0為桃園2024新增113年9月工作報告「典藏品年度修復計畫」的限定N，只表示該子段未明載適用完成數量或年月。作品名稱不自行計數，紀錄片發表日不當修復完成日。2024年報附件網址另已定位，原件及適用正文仍待取得，獨立P持續保留。
 

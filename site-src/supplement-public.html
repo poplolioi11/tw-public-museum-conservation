@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="dataset-version" content="__DATASET_VERSION__">
+  <meta name="description" content="既有公立館保存作業的獨立補查附表，分開保留作業年、報告時間、原數量與來源，不併入原公立統計分母。">
+  <title>公立館補查附表｜保存修護資料</title>
+  <link rel="stylesheet" href="./app.css">
+  <script defer src="./supplement.js"></script>
+</head>
+<body>
+<a class="skip" href="#supplement-records">跳到補查紀錄</a>
+<header class="masthead">
+  <div class="edition"><span>公立館・有界補查</span><span>v__DATASET_VERSION__・__AS_OF__</span></div>
+  <div class="title-line"><div><p class="eyebrow">獨立補充附表</p><h1>公立館補查附表</h1><p class="subtitle">逐筆讀作業、期間與官方來源，保留無法確定的年度。</p></div></div>
+  <p class="scope-note">本頁不併入原公立觀測與凍結覆蓋率分母。檢視、清點、送裱、修復及混合作業各依原口徑；報告時間不直接當作作業年，同一年也不保證全年完整。各列不相加，不作排名。</p>
+  <nav aria-label="頁面導覽"><a href="./index.html">公立原報查詢</a><a href="./supplement-private.html">私立館補充</a><a href="./supplement-scope.html">名稱與範圍候選</a><a href="#supplement-records">補查紀錄</a><a href="#downloads">資料下載</a></nav>
+</header>
+<main class="supplement supplement-browser">
+  <section id="supplement-records" aria-labelledby="supplement-title"><h2 id="supplement-title">館所與限定作業紀錄</h2><p class="table-note">先確認作業年與報告時間，再看原量詞及對象；手機可在表格內橫向捲動。</p>__MODULE_CONTENT__</section>
+  <section id="downloads" aria-labelledby="downloads-title"><h2 id="downloads-title">公立補查資料下載</h2><p>JSON保留本層館所、來源與事實，CSV／JSONL提供逐筆紀錄；每個端點的SHA-256與大小見<a href="./manifest.json">網站資料清單</a>。原件連回來源，本站不重製完整文件或圖頁。AI輔助查核不等於人工二校。</p>__DOWNLOAD_LINKS__</section>
+</main>
+<footer><p>曲宸宇／Chu, Chen-Yu・公開資料整理</p><p>不同來源與期間不可直接加總，未知不補零。</p></footer>
+</body>
+</html>

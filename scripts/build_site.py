@@ -12,9 +12,10 @@ from html import escape
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-VIEWER_VERSION = '1.4.0'
+VIEWER_VERSION = '1.5.0'
 REPOSITORY = 'https://github.com/poplolioi11/tw-public-museum-conservation'
 ENRICHMENT_DOWNLOADS = {
     'coverage': ('metadata/coverage.json', '查核格狀態與年份子集 JSON'),
@@ -72,6 +73,26 @@ OPTIONAL_DOWNLOADS = {
         'build': ('metadata/private_art_pilot_build.json', '私立館試辦範圍與輸出清單 JSON'),
     },
 }
+CONSERVATION_LAYERS = {
+    'public_followup': '既有公立館補查',
+    'private_artist_museums': '私立藝術家／基金會館',
+    'private_university_museums': '私立大學館／典藏中心',
+    'private_university_other_museums': '私立大學其他博物館',
+    'art_center_scope_candidates': '名稱與範圍候選',
+}
+CONSERVATION_PAGES = {
+    'conservation_public': ('supplement-public.html', ('public_followup',)),
+    'conservation_private': ('supplement-private.html', (
+        'private_artist_museums', 'private_university_museums', 'private_university_other_museums')),
+    'conservation_scope': ('supplement-scope.html', ('art_center_scope_candidates',)),
+}
+for module_key, (_, layer_keys) in CONSERVATION_PAGES.items():
+    OPTIONAL_DOWNLOADS[module_key] = {
+        layer + '_' + ext: ('data/conservation_supplement/' + layer + '.' + ext,
+                            CONSERVATION_LAYERS[layer] + ' ' + ext.upper())
+        for layer in layer_keys for ext in ('json', 'csv', 'jsonl')}
+    OPTIONAL_DOWNLOADS[module_key]['build'] = (
+        'metadata/conservation_supplement_build.json', '補充附表版本、範圍與輸出清單 JSON')
 DOWNLOAD_BASENAMES = {'metadata/preservation_statistics.json': 'preservation_statistics_build.json'}
 FIGURES = {
     'coverage-states.svg': ('集合與年份子集的查核格狀態',
@@ -113,7 +134,9 @@ def relation_ids(relation):
 def input_snapshot(root):
     names = ['VERSION', 'data/facts.json', 'schema/vocabulary.json', 'scripts/build_site.py']
     names += ['site-src/' + name for name in ('index.html', 'enrichment.html', 'context.html',
-                                             'private-art.html', 'preservation.html', 'preservation-texts.html', 'app.css', 'app.js')]
+                                             'private-art.html', 'preservation.html', 'preservation-texts.html',
+                                             'supplement-public.html', 'supplement-private.html',
+                                             'supplement-scope.html', 'supplement.js', 'app.css', 'app.js')]
     names += [path for path, _ in ENRICHMENT_DOWNLOADS.values()]
     names += ['metadata/inventory.json', 'schema/absence_annotation.schema.json',
               'schema/normalization_record.schema.json']
@@ -302,6 +325,222 @@ def supplemental_pages(inputs, facts, vocabulary, version, outputs):
     return entries
 
 
+def conservation_supplement_pages(inputs, facts, version, outputs):
+    """Render source-linked facts by separate layer; never merge into main observations."""
+    paths = {key: 'data/conservation_supplement/' + key + '.json'
+             for key in CONSERVATION_LAYERS}
+    present = {key for key, path in paths.items() if path in inputs}
+    if present and present != set(paths):
+        raise ValueError('Incomplete conservation supplement layers; retain every separate container')
+    data = {}
+    for key in present:
+        layer = json.loads(inputs[paths[key]])
+        if (layer.get('schema_version') != '1.0' or layer.get('dataset_version') != version or
+                layer.get('layer') != key or layer.get('public_baseline_eligible') is not False):
+            raise ValueError('Conservation supplement version or scope differs: ' + key)
+        for field in ('institutions', 'sources', 'records'):
+            if not isinstance(layer.get(field), list):
+                raise ValueError('Conservation supplement list missing: ' + key + '/' + field)
+        data[key] = layer
+
+    def text(value, fallback='未明列'):
+        return escape(fallback if value is None or value == '' else str(value))
+
+    def public_url(value):
+        if not isinstance(value, str):
+            raise ValueError('Conservation supplement requires a public source URL')
+        parsed = urlsplit(value)
+        if parsed.scheme not in ('https', 'http') or not parsed.hostname or parsed.username or parsed.password:
+            raise ValueError('Unsafe conservation supplement URL')
+        return value
+
+    def source_reference(source, row):
+        url = public_url(row.get('source_url') or source.get('url'))
+        page = row.get('pdf_page_1_based')
+        if page is not None:
+            if type(page) is not int or page < 1:
+                raise ValueError('Invalid conservation supplement PDF page')
+            url = url.split('#', 1)[0] + '#page=' + str(page)
+            locator = 'PDF ' + str(page) + '／印 ' + str(row.get('printed_page') or '未列')
+        else:
+            locator = row.get('source_locator') or '官方正文'
+        return ('<a href="' + escape(url, quote=True) + '">' + text(source.get('title'), '官方來源') +
+                '</a><p>' + text(locator) + '</p><span class="supplement-source-id mono">' +
+                text(row['source_id']) + '</span>')
+
+    def record_html(row, key, sources):
+        ident = row.get('record_id')
+        if not isinstance(ident, str) or not re.fullmatch(r'[A-Za-z0-9._-]+', ident):
+            raise ValueError('Unsafe conservation supplement record ID')
+        if row.get('default_aggregation_allowed') is not False or row.get('human_verified') is not False:
+            raise ValueError('Conservation supplement aggregation or human-review claim differs')
+        kind = row.get('record_kind')
+        if kind not in ('quantity_record', 'text_record') or row.get('source_id') not in sources:
+            raise ValueError('Conservation supplement kind or source reference differs: ' + ident)
+        year = row.get('data_year')
+        if year is not None and (type(year) is not int or not 1800 <= year <= 2200):
+            raise ValueError('Invalid conservation supplement activity year')
+        period = '<p><strong>作業年：' + text(year, '未知／未分配') + '</strong></p>'
+        period += '<p>' + text(row.get('period_label') or row.get('reporting_period_raw'), '作業起訖未明列') + '</p>'
+        if row.get('period_start') or row.get('period_end'):
+            period += '<p>作業區間：' + text(row.get('period_start'), '起點未知') + ' 至 ' + text(row.get('period_end'), '終點未知') + '</p>'
+        if row.get('as_of_date'):
+            period += '<p>時間界線：' + text(row['as_of_date']) + '</p><p class="period-label">日期依據：' + text(row.get('as_of_date_basis'), '來源快照或截止日，依期間說明判讀') + '</p>'
+        if row.get('report_date'):
+            period += '<p>報告日期：' + text(row['report_date']) + '</p>'
+        elif row.get('report_context_year') is not None:
+            period += '<p>報告脈絡年：' + text(row['report_context_year']) + '</p>'
+        if row.get('publication_date') or row.get('publication_year') is not None:
+            period += '<p>發布時間：' + text(row.get('publication_date') or row.get('publication_year')) + '</p>'
+        activity = '<strong>' + text(row.get('metric_label')) + '</strong>'
+        if kind == 'quantity_record':
+            raw = str(row.get('quantity_raw') or '')
+            unit = str(row.get('unit_as_reported') or '')
+            parts = re.findall(r'[\u4e00-\u9fff]+', unit)
+            unit_text = '' if parts and all(part in raw for part in parts) else text(unit, '量詞未明列')
+            activity += '<p class="quantity">' + text(row.get('quantity_raw'), '原數字未明列') + '<span class="quantity-unit">' + unit_text + '</span></p>'
+        else:
+            activity += '<p><span class="badge">文字紀錄</span></p><p>' + text(row.get('text_summary')) + '</p>'
+        activity += '<p class="period-label">原完成語：' + text(row.get('completion_status')) + '</p>'
+        notes = '<p>' + text(row.get('subject_scope'), '對象範圍依來源段落') + '</p><p>' + text(row.get('interpretation_note'), '依來源範圍閱讀，不作加總。') + '</p>'
+        details = []
+        for label, field in (('期間依據', 'period_basis'), ('原報期間', 'reporting_period_raw'),
+                             ('委託單位', 'commissioning_organization'), ('執行單位', 'executing_organization'),
+                             ('關聯館所', 'associated_institution')):
+            if row.get(field):
+                details.append('<dt>' + label + '</dt><dd>' + text(row[field]) + '</dd>')
+        if details:
+            notes += '<details class="supplement-record-details"><summary>期間依據與角色</summary><dl>' + ''.join(details) + '</dl></details>'
+        evidence = row.get('period_evidence') or []
+        if not isinstance(evidence, list):
+            raise ValueError('Conservation supplement period evidence must be a list')
+        if evidence:
+            references = []
+            for item in evidence:
+                if item.get('source_id') not in sources:
+                    raise ValueError('Unresolved conservation supplement period source')
+                references.append('<li>' + source_reference(sources[item['source_id']], item) +
+                                  '<p>' + text(item.get('basis'), '只作期間旁證，不取代原量值來源。') + '</p></li>')
+            notes += '<details class="supplement-period-evidence"><summary>期間旁證與原頁</summary><ul>' + ''.join(references) + '</ul></details>'
+        return ('<tr id="' + escape(ident, quote=True) + '" data-supplement-record data-layer="' + key +
+                '" data-organization="' + escape(row['organization_id'], quote=True) + '" data-kind="' + kind +
+                '" data-year="' + (str(year) if year is not None else 'unknown') + '"><th scope="row">' +
+                text(row['organization_name']) + '<span class="supplement-source-id mono">' + text(ident) +
+                '</span></th><td>' + activity + '</td><td>' + period + '</td><td>' + notes + '</td><td>' +
+                source_reference(sources[row['source_id']], row) + '</td></tr>')
+
+    entries = {}
+    for module_key, (filename, layer_keys) in CONSERVATION_PAGES.items():
+        downloads = {}
+        if present:
+            for key, (path, label) in OPTIONAL_DOWNLOADS[module_key].items():
+                if path not in inputs:
+                    continue
+                body = inputs[path]
+                dest = 'data/' + Path(path).name
+                if dest in outputs and outputs[dest] != body:
+                    raise ValueError('Conservation supplement download path collision: ' + dest)
+                outputs[dest] = body
+                downloads[key] = dict(url=dest, download_url='./' + dest, label=label,
+                                      source_path=path, sha256=sha(body), bytes=len(body))
+        layers = {}
+        sections = []
+        institutions = {}
+        years = set()
+        ids = set()
+        total = 0
+        for key in layer_keys:
+            layer = data.get(key)
+            if layer is None:
+                continue
+            sources = {s['source_id']: s for s in layer['sources']}
+            if len(sources) != len(layer['sources']):
+                raise ValueError('Duplicate conservation supplement source')
+            layer_orgs = {o['organization_id']: o for o in layer['institutions']}
+            if len(layer_orgs) != len(layer['institutions']):
+                raise ValueError('Duplicate conservation supplement institution')
+            institutions.update(layer_orgs)
+            rows = []
+            for row in layer['records']:
+                if row.get('organization_id') not in layer_orgs or row.get('record_id') in ids:
+                    raise ValueError('Unresolved or duplicate conservation supplement record')
+                ids.add(row['record_id'])
+                years.add(str(row['data_year']) if row.get('data_year') is not None else 'unknown')
+                rows.append(record_html(row, key, sources))
+            total += len(rows)
+            cards = []
+            for org in layer['institutions']:
+                name = text(org['organization_name'])
+                if org.get('official_url'):
+                    name = '<a href="' + escape(public_url(org['official_url']), quote=True) + '">' + name + '</a>'
+                identity = ''
+                if org.get('identity_source_url'):
+                    identity = '<p><a href="' + escape(public_url(org['identity_source_url']), quote=True) + '">身分來源</a>'
+                    if org.get('identity_locator'):
+                        identity += '：' + text(org['identity_locator'])
+                    identity += '</p>'
+                    if org.get('identity_source_id'):
+                        identity += '<span class="supplement-source-id mono">' + text(org['identity_source_id']) + '</span>'
+                cards.append('<li data-supplement-institution data-layer="' + key + '" data-organization="' +
+                    escape(org['organization_id'], quote=True) + '"><strong>' + name + '</strong><p>' +
+                    text(org.get('scope_note'), '本版僅列已核對的有限來源；未列量值不表示零。') + '</p>' + identity + '</li>')
+            section = ('<section class="supplement-layer" data-supplement-layer="' + key + '"><h3>' +
+                CONSERVATION_LAYERS[key] + '</h3><p>' + str(len(rows)) +
+                '則本層紀錄；列數不是物件量或年度總量。館所清單保留沒有採入量值的單位。</p>' +
+                '<ul class="supplement-institutions">' + ''.join(cards) + '</ul>')
+            if rows:
+                section += ('<div class="table-wrap" tabindex="0" role="region" aria-label="' + CONSERVATION_LAYERS[key] +
+                    '紀錄表，可橫向捲動"><table class="supplement-table conservation-records"><caption>' +
+                    CONSERVATION_LAYERS[key] + '：原量詞、期間與來源；不相加，不與公立主表合併</caption>' +
+                    '<thead><tr><th scope="col">館所與紀錄</th><th scope="col">作業與原報數量／文字</th>' +
+                    '<th scope="col">作業年與報告時間</th><th scope="col">範圍與解讀界線</th>' +
+                    '<th scope="col">官方來源定位</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>')
+            else:
+                section += '<p class="notice">本層尚無採入的量值或文字紀錄；館所身分與來源缺口另列，不表示零修護。</p>'
+            sections.append(section + '</section>')
+            layers[key] = dict(label=CONSERVATION_LAYERS[key], institution_count=len(layer['institutions']),
+                               record_count=len(rows), data=downloads.get(key + '_json'),
+                               downloads={k: v for k, v in downloads.items() if k.startswith(key + '_')},
+                               included_in_public_coverage_denominators=False)
+        controls = ('<form id="supplement-filter-form" class="supplement-controls" role="search" aria-label="補充紀錄篩選">'
+            '<div class="filter-grid"><div><label for="supplement-search">館名、作業或來源文字</label>'
+            '<input id="supplement-search" type="search" placeholder="例如：點檢、送裱、華岡" autocomplete="off"></div>'
+            '<div><label for="supplement-layer">資料分層</label><select id="supplement-layer"><option value="">本頁全部分層</option>' +
+            ''.join('<option value="' + key + '">' + CONSERVATION_LAYERS[key] + '</option>' for key in layer_keys if key in data) +
+            '</select></div><div><label for="supplement-organization">館所</label><select id="supplement-organization">'
+            '<option value="">本頁全部館所</option>' + ''.join('<option value="' + escape(ident, quote=True) + '">' +
+            text(org['organization_name']) + '</option>' for ident, org in institutions.items()) +
+            '</select></div><div><label for="supplement-kind">紀錄類型</label><select id="supplement-kind">'
+            '<option value="">量值與文字</option><option value="quantity_record">帶量值紀錄</option>'
+            '<option value="text_record">文字紀錄</option></select></div><div><label for="supplement-year">作業年</label>'
+            '<select id="supplement-year"><option value="">全部作業年</option>' +
+            ''.join('<option value="' + year + '">' + ('未知／未分配' if year == 'unknown' else year) + '</option>'
+                    for year in sorted(years, key=lambda y: (y == 'unknown', y))) +
+            '</select><span class="hint">依作業年篩選，報告年不代填。</span></div></div>'
+            '<div class="form-actions"><button type="reset" class="secondary">清除篩選</button></div></form>'
+            '<p id="supplement-result-count" role="status" aria-live="polite">本頁' + str(total) +
+            '則紀錄；數量不可直接加總。</p><p id="supplement-empty" class="notice" hidden>目前條件沒有相應紀錄；不代表零修護或沒有公開資料。</p>'
+            '<noscript><p class="notice">未啟用JavaScript，以下仍完整列出本頁來源事實與館所；可用瀏覽器尋找文字。</p></noscript>')
+        content = controls + ''.join(sections) if present else '<p class="notice">此版本尚未納入分層補充資料；不是零修護。</p>'
+        links = '<ul>' + ''.join('<li><a href="./' + escape(d['url'], quote=True) + '">' +
+            escape(d['label']) + '</a> <span class="download-size">（' + str(d['bytes']) + ' bytes）</span></li>'
+            for d in downloads.values()) + '</ul>' if downloads else '<p>此版本沒有本層下載檔案。</p>'
+        template = inputs['site-src/' + filename].decode()
+        for marker, value in {'__DATASET_VERSION__': escape(version), '__AS_OF__': escape(facts['as_of']),
+                              '__MODULE_CONTENT__': content, '__DOWNLOAD_LINKS__': links}.items():
+            if marker not in template:
+                raise ValueError('Conservation supplement template marker missing: ' + marker)
+            template = template.replace(marker, value)
+        if re.search(r'__[A-Z_]+__', template):
+            raise ValueError('Unresolved conservation supplement HTML marker')
+        outputs[filename] = template.encode()
+        entries[module_key] = dict(available=bool(present), record_count=total if present else None,
+            page=dict(url=filename, sha256=sha(outputs[filename]), bytes=len(outputs[filename])),
+            layers=layers, downloads=downloads, included_in_public_numeric_observations=False,
+            included_in_public_coverage_denominators=False)
+    return entries
+
+
 def enrichment_page(inputs, facts, version, outputs):
     """Publish exact sidecars and render counts of review cells, never quantities."""
     coverage = json.loads(inputs['metadata/coverage.json'])
@@ -462,11 +701,12 @@ def expected(root, inputs):
         outputs['records/' + record_id + '.json'] = stable({'dataset_version': version, 'observation': row, 'source': source_map[row['source_id']], 'relations': related})
     enrichment = enrichment_page(inputs, facts, version, outputs)
     supplements = supplemental_pages(inputs, facts, vocabulary, version, outputs)
+    supplements.update(conservation_supplement_pages(inputs, facts, version, outputs))
     template = inputs['site-src/index.html'].decode()
     if '__DATASET_VERSION__' not in template:
         raise ValueError('HTML dataset-version marker missing')
     outputs['index.html'] = template.replace('__DATASET_VERSION__', version).encode()
-    for name in ('app.css', 'app.js'):
+    for name in ('app.css', 'app.js', 'supplement.js'):
         outputs[name] = inputs['site-src/' + name]
     outputs['.nojekyll'] = b''
     outputs['llms.txt'] = (f'''# 臺灣公立館保存修護公開資料索引
@@ -481,6 +721,9 @@ def expected(root, inputs):
 - [私立美術館試辦](private-art.html)：獨立資料層，保留原值、原單位、完成狀態與範圍，不混入公立觀測或分母。
 - [官方環境作業附表](preservation.html)：原數字、複合單位及期間證據另列；不進修護主表或公立分母，不作年度趨勢。
 - [一般保存作業文字](preservation-texts.html)：官方環控、系統支援、作業角色與流程；不填人數或待修量，不進主表與公立分母。
+- [公立館補查附表](supplement-public.html)：既有館所的限定作業記載，保留作業年、報告時間與累計界線，不進原公立分母。
+- [私立館分層補充](supplement-private.html)：藝術家／基金會館、私立大學館及其他館分檔，原朱銘試辦仍另列。
+- [名稱與範圍候選](supplement-scope.html)：機構名稱或採用範圍待釐清的獨立索引，不計入美術館數。
 - 逐筆紀錄：records/{{observation_id}}.json，含 observation、source、relations。
 - [GitHub 說明與固定發行版本]({REPOSITORY})。
 
@@ -500,6 +743,7 @@ not_assessed、source_not_located、body_pending、no_quantity_scope_only 與 mi
 normalization 僅為既有觀測的搜尋別名；不帶 quantity、不換算件數、不使混合作業或跨館量值可相加。
 manifest.json 的 public_context 與 private_art 各列 available、page、data 及 downloads；未納入的舊版本以 available=false 表示，不能解讀為零修護。
 新增層的下載入口保留輸入原始bytes；每個已採端點都有SHA-256與bytes。站點讀回須逐一核對這兩層的頁面與downloads，不能只核公立facts。
+conservation_public、conservation_private、conservation_scope各有獨立page、layers與downloads；layers以分層ID連結JSON、CSV、JSONL，不把私立補充併進公立facts或coverage。HTML直接列出必要事實及來源，JavaScript只篩選已列文字。data_year未知不由report_date、report_context_year或publication_year代填；period_label、period_start、period_end及as_of_date各按來源證據保留，不保證全年完整。
 ''' + '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for d in enrichment['downloads'].values()) + '\n' +
         '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for d in enrichment['figures'].values()) + '\n' +
         '\n'.join('- [' + d['label'] + '](' + d['url'] + ')' for module in supplements.values()
@@ -509,7 +753,8 @@ manifest.json 的 public_context 與 private_art 各列 available、page、data 
                 'enrichment': enrichment,
                 **supplements,
                 'readback_contract': {
-                    'optional_module_keys': ['public_context', 'private_art', 'preservation_statistics', 'preservation_texts'],
+                    'optional_module_keys': ['public_context', 'private_art', 'preservation_statistics', 'preservation_texts',
+                                             'conservation_public', 'conservation_private', 'conservation_scope'],
                     'verify_page_and_each_download': True,
                     'compare_sha256_and_bytes': True,
                     'public_private_denominators_separate': True,
