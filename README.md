@@ -8,7 +8,7 @@ This index structures preservation and conservation records from official annual
 
 將官方年報、年度成果與業務報告中的保存修護資料整理成可回查索引，保留原數字、作業詞、單位、期間、完成用語、來源版本與定位。私立館的公開來源試辦另列。
 
-**v0.22.0｜2026-11-05**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases)各依實際版本與讀回結果引用。
+**v0.22.0｜2026-11-05**。[查詢網站](https://poplolioi11.github.io/tw-public-museum-conservation/)與[固定v0.22.0發行版本](https://github.com/poplolioi11/tw-public-museum-conservation/releases/tag/v0.22.0)各依實際版本與讀回結果引用。
 
 ## 從這裡開始
 
@@ -54,7 +54,7 @@ v0.18.0為桃園2024新增113年9月工作報告「典藏品年度修復計畫�
 
 91個metric_class為歷史分類值；34個完成詞保留原義；25個單位欄相異值含null及「未明列」，不能稱25種量詞。[作業](docs/METRIC_CLASS_MAP.md)、[完成詞](docs/COMPLETION_STATUS_MAP.md)及[單位](docs/UNIT_MAP.md)別名只供搜尋，不換算、不拆年、不授予加總資格。未知不補零，分項、借展、跨年及可能重疊批次沒有證據便不相加。
 
-引用請保留固定v0.21.0、公開投影SHA、逐筆官方來源及頁碼／段落；分階段比例快照另固定引用v0.18.0。原件SHA、匯出manifest與網站manifest各自核對。[AI_USAGE](AI_USAGE.md)說明實際AI與本機Python範圍；不稱人類二校、館方或專家認證。研究筆記維持repo草稿，未投稿、取DOI或寄送。
+引用本版請使用[固定v0.22.0](https://github.com/poplolioi11/tw-public-museum-conservation/releases/tag/v0.22.0)及[版本DOI：10.5281/zenodo.23982836](https://doi.org/10.5281/zenodo.23982836)，並保留公開投影SHA、逐筆官方來源及頁碼／段落；[概念DOI：10.5281/zenodo.23982835](https://doi.org/10.5281/zenodo.23982835)識別跨版本作品，重現本版仍引用版本DOI。分階段比例快照另固定引用v0.18.0。原件SHA、匯出manifest與網站manifest各自核對。[AI_USAGE](AI_USAGE.md)說明實際AI與本機Python範圍；不稱人類二校、館方或專家認證。研究筆記維持repo草稿，未投稿、未經正式同儕審查或寄送；資料集DOI不表示期刊發表。
 
 公開只含必要事實與定位；PDF、完整HTML、整頁圖文及私人補充紀錄不重發布。原創程式與文件採MIT，第三方權利依來源。見[公開範圍](docs/PUBLICATION.md)、[授權](LICENSE.md)、[版本紀錄](CHANGELOG.md)及[更新計畫](docs/UPDATE_PLAN.md)。
 

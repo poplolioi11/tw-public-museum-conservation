@@ -5,6 +5,8 @@ message: "請同時保留逐筆官方來源、資料年或跨年期間、單位�
 version: 0.22.0
 date-released: 2026-11-05
 url: "https://github.com/poplolioi11/tw-public-museum-conservation"
+doi: "10.5281/zenodo.23982836"
+repository-artifact: "https://github.com/poplolioi11/tw-public-museum-conservation/releases/tag/v0.22.0"
 authors:
   - family-names: Chu
     given-names: Chen-Yu
